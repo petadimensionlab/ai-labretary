@@ -1,8 +1,3 @@
-5b8b604833a6e798b8bc1aff765497dbeb1a7297dd85f0a3c9354f7bc940410a  experiments/EXP-20261007-003/plan.md
+bb7434b6e849241f1629bcc8b73df9b7869e90d9868410e16fcd41be0c11852a  experiments/EXP-20261007-003/plan.md
 551a8f97cbde5ac098be30d49577ca29a7a7a16ebff79a37d58517a8c8540cfb  experiments/EXP-20261007-003/config.yaml
 87551e4aaffc4971b8ae3d040a88ff6079e82f872ff2a78fe87f25f01d2382b6  experiments/EXP-20261007-003/analysis/evaluate_013.py
-
-# 2026-10-11（実行後）§5.5 の U-R5 の記述の明確化。結果を見た後の編集であり、判定の内容は変えない。
-# 上の 3 行は実行前に固定した値のまま残す。plan.md だけが変わり、config.yaml と evaluate_013.py は変わっていない。
-dd6f7b9d059b327084d9a7782df596cadb0832b6d1ab5b65b5bd45885c454dd6  experiments/EXP-20261007-003/plan.md
-4fb2862867e35cbc4675d22a949ad640e62a1f087e30af92c2341b6a4d07b3eb  experiments/EXP-20261007-003/plan.md   # 上と同じ編集を §8 の B-5 にも反映した後の値（最終）

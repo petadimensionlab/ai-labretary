@@ -18,9 +18,10 @@ outputs/audio/
 experiments/**/logs/*.log
 
 # 実験の中間生成物（work/ など。元データから再生成可能）
-experiments/**/work/
+experiments/**/work/**
 experiments/**/inflated/
 **/*.dataset/
+!experiments/**/work/SHA256SUMS-preregistered.txt
 
 # 引継ぎ一式の展開物（zip 自体は残す。中身は再生成可能なコピー）
 outputs/handover-*/*/
