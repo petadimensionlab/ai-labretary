@@ -1,0 +1,31 @@
+== kidney_fib (count=399)
+  42388892 | 2026 Jul | Curr Dev Nutr | Potential Anticancer Effects of Limonene Associated with Reactive Oxygen Species Generation, Apoptosis Induction, and NF-κB Modulation in Papillary Renal Cell Carcinoma: 
+  42154641 | 2026 Jun 1 | Am J Physiol Renal Physiol | Arteriovenous fistula creation results in cardiac dysfunction and remodeling in a uremic pig model.
+  42013965 | 2026 Aug 1 | Toxicon | BmooMPα-I ameliorates aortic fibrosis and hypertrophy in 2K1C hypertensive rats by reducing matrix metalloproteinase-2 activity.
+  41898171 | 2026 Feb 26 | Biomedicines | Morphometry and Immunoexpression of Metalloproteinase 2 and Its Inhibitor in the Fibrotic and Non-Fibrotic Grafted Kidney-Digital Analysis.
+  41887221 | 2026 Apr 21 | Cell Rep Med | CAR-M2 immunotherapy resolves renal fibrosis via revascularization and apoptosis of profibrotic Cxcr2(+) endothelial cells.
+  41659822 | 2026 Mar | Kidney Med | Glomerular Transcriptome Analysis Reveals Endothelial Disturbances in Patients With Idiopathic Nephrotic Syndrome.
+  41478668 | 2025 Dec | J Pharmacol Exp Ther | Kidney-specific delivery of a matrix metalloproteinase-2 inhibitory peptide fused to elastin-like polypeptide reduces proteinuria and renal fibrosis in a model of salt-se
+  41477970 | 2026 Feb | J Autoimmun | Daratumumab monotherapy reverses the immune and pro-fibrotic profiles in refractory lupus nephritis patients: a pilot case study.
+  41353804 | 2026 Jan 1 | Ecotoxicol Environ Saf | Interaction between plasma matrix metalloproteinases and arsenic, cadmium, lead, and selenium on chronic kidney disease.
+  41349316 | 2026 Jan 1 | Ecotoxicol Environ Saf | Multimodal mechanisms of di (2-ethylhexyl) phthalate-induced cardiovascular-kidney-metabolic syndrome: Integrating epidemiology, network toxicology and experimental valid
+== senescence (count=848)
+  42835131 | 2026 | Front Aging Neurosci | Associations between cerebrospinal fluid biomarkers related to endothelial dysfunction and Alzheimer's disease.
+  42830164 | 2026 Oct 4 | Cell Signal | Histone lactylation-upregulated CEBPB transcriptionally activates CXCL12 and p21 to modulate vascular smooth muscle cell senescence and macrophage polarization.
+  42798633 | 2026 | Front Aging | Explanatory limitations of CSF, plasma, and MRI biomarkers for inflammation and blood-brain barrier disruption in dementia.
+  42797014 | 2026 Sep 16 | Nutrients | CHL Attenuates MIA-Induced Osteoarthritis by Regulating Inflammatory, Catabolic, and Anabolic Pathways Associated with Cartilage and Subchondral Bone Degeneration.
+  42783720 | 2026 Sep 17 | J Funct Biomater | Concentration-Dependent Rheological Properties of Atelocollagen Are Associated with Fibroblast Mechanotransduction and Collagen Remodeling in Aged Skin.
+  42767098 | 2026 Nov | Transl Oncol | GMPS drives pancreatic cancer progression via suppressing DNA damage, STING activation and cellular senescence.
+  42737802 | 2026 Sep 4 | Int J Mol Sci | Pulsed Electromagnetic Field Exposure Attenuates Ultraviolet B-Induced Dermal Collagen Loss in Association with A2A Adenosine Receptor Signaling.
+  42651756 | 2026 Jul 25 | Curr Issues Mol Biol | Mangiferin Protects Human Dermal Fibroblasts Against UVB-Induced Photoaging by Regulating RAGE/NF-κB/p38 MAPK Signaling, Cellular Senescence, and ECM Homeostasis.
+  42635554 | 2026 Sep 1 | Rheumatology (Oxford) | Single-cell profiling reveals senescent bone marrow mesenchymal stem cell subpopulations driving pathological ossification in ankylosing spondylitis.
+  42625231 | 2026 Aug 20 | Parasit Vectors | Endothelial proteomic response to Dirofilaria repens somatic antigens and the Dr20/22 protein reveals parasite-driven modulation of angiogenesis.
+== tls_lymphoid (count=8)
+  42742855 | 2026 Sep 15 | Mol Cell Biochem | Cancer-associated fibroblasts drive immune resistance in MSS colorectal cancer via the FAIM2-CES1-ER stress pathway.
+  40818460 | 2025 Sep 16 | Cell Rep Med | Enhanced formation of tertiary lymphoid structures shapes the anti-tumor microenvironment in hepatocellular carcinoma after FOLFOX-HAIC therapy.
+  34617043 | 2020 | JVS Vasc Sci | Adventitial matrix metalloproteinase production and distribution of immunoglobulin G4-related abdominal aortic aneurysms.
+  31543394 | 2019 Sep | Presse Med | [Physiopathology of giant cell arteritis: From inflammation to vascular remodeling].
+  29518260 | 2018 Apr | Ann Neurol | Inflammatory intrathecal profiles and cortical damage in multiple sclerosis.
+  28730224 | 2017 | Rom J Morphol Embryol | Histopathological and immunohistochemical profile in primary Sjögren's syndrome.
+  28222766 | 2017 Feb 21 | J Neuroinflammation | Increased cortical lesion load and intrathecal inflammation is associated with oligoclonal bands in multiple sclerosis patients: a combined CSF and MRI study.
+  16260653 | 2005 Nov | FASEB J | Dual function of focal adhesion kinase in regulating integrin-induced MMP-2 and MMP-9 release by human T lymphoid cells.

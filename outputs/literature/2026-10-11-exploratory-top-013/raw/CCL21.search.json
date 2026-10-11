@@ -1,0 +1,376 @@
+{
+ "kidney_fib": {
+  "count": "13",
+  "records": [
+   {
+    "pmid": "39234304",
+    "date": "2024",
+    "journal": "Front Physiol",
+    "title": "Lithium-induced apoptotic cell death is not accompanied by a noticeable inflammatory response in the kidney.",
+    "authors": [
+     "Baranovskaya I",
+     "Volk K",
+     "Alexander S"
+    ],
+    "doi": "10.3389/fphys.2024.1399396"
+   },
+   {
+    "pmid": "39058890",
+    "date": "2024 Jul 26",
+    "journal": "Medicine (Baltimore)",
+    "title": "Bioinformatics analysis reveals CCR7 as a potential biomarker for predicting CKD progression.",
+    "authors": [
+     "Lai J",
+     "Shan H",
+     "Cui S"
+    ],
+    "doi": "10.1097/MD.0000000000033705"
+   },
+   {
+    "pmid": "37446007",
+    "date": "2023 Jun 29",
+    "journal": "Int J Mol Sci",
+    "title": "A2BAR Antagonism Decreases the Glomerular Expression and Secretion of Chemoattractants for Monocytes and the Pro-Fibrotic M2 Macrophages Polarization during Diabetic Nephropathy.",
+    "authors": [
+     "Torres-Arévalo Á",
+     "Nahuelpán Y",
+     "Muñoz K"
+    ],
+    "doi": "10.3390/ijms241310829"
+   },
+   {
+    "pmid": "35691500",
+    "date": "2022 Aug",
+    "journal": "J Control Release",
+    "title": "CCL21 and beta-cell antigen releasing hydrogels as tolerance-inducing therapy in Type I diabetes.",
+    "authors": [
+     "Zisi Tegou F",
+     "Velluto D",
+     "Stock AA"
+    ],
+    "doi": "10.1016/j.jconrel.2022.06.008"
+   },
+   {
+    "pmid": "34956231",
+    "date": "2021",
+    "journal": "Front Immunol",
+    "title": "Lymphatic Reconstruction in Kidney Allograft Aggravates Chronic Rejection by Promoting Alloantigen Presentation.",
+    "authors": [
+     "Lin J",
+     "Chen Y",
+     "Zhu H"
+    ],
+    "doi": "10.3389/fimmu.2021.796260"
+   },
+   {
+    "pmid": "33391465",
+    "date": "2021",
+    "journal": "Theranostics",
+    "title": "Tertiary lymphoid organs are associated with the progression of kidney damage and regulated by interleukin-17A.",
+    "authors": [
+     "Luo R",
+     "Cheng Y",
+     "Chang D"
+    ],
+    "doi": "10.7150/thno.48624"
+   },
+   {
+    "pmid": "32589444",
+    "date": "2020 Aug 1",
+    "journal": "Am J Physiol Heart Circ Physiol",
+    "title": "Pressure overload generates a cardiac-specific profile of inflammatory mediators.",
+    "authors": [
+     "O'Brien M",
+     "Baicu CF",
+     "Van Laer AO"
+    ],
+    "doi": "10.1152/ajpheart.00274.2020"
+   },
+   {
+    "pmid": "31249871",
+    "date": "2019 Jun",
+    "journal": "Sci Adv",
+    "title": "Lymphangiogenesis in kidney and lymph node mediates renal inflammation and fibrosis.",
+    "authors": [
+     "Pei G",
+     "Yao Y",
+     "Yang Q"
+    ],
+    "doi": "10.1126/sciadv.aaw5075"
+   },
+   {
+    "pmid": "24599047",
+    "date": "2014",
+    "journal": "PLoS One",
+    "title": "TWEAK promotes peritoneal inflammation.",
+    "authors": [
+     "Sanz AB",
+     "Aroeira LS",
+     "Bellon T"
+    ],
+    "doi": "10.1371/journal.pone.0090399"
+   },
+   {
+    "pmid": "23498789",
+    "date": "2013 Mar",
+    "journal": "Transplant Proc",
+    "title": "Distribution and expression of fibroblast-specific protein chemokine CCL21 and chemokine receptor CCR7 in renal allografts.",
+    "authors": [
+     "Zhou HL",
+     "Wang YT",
+     "Gao T"
+    ],
+    "doi": "10.1016/j.transproceed.2012.10.042"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "39",
+  "records": [
+   {
+    "pmid": "42620206",
+    "date": "2026 Aug 9",
+    "journal": "bioRxiv",
+    "title": "Lymphatic CD49a is a driver of meningeal immune aging and cognitive decline.",
+    "authors": [
+     "Frederick NM",
+     "Tinkey R",
+     "Tavares GA"
+    ],
+    "doi": "10.64898/2026.08.04.742777"
+   },
+   {
+    "pmid": "41946393",
+    "date": "2026 Apr 5",
+    "journal": "J Adv Res",
+    "title": "From repair to disease: lymphatic contributions to regeneration, cancer and ageing.",
+    "authors": [
+     "Zhang Y",
+     "Tian Q",
+     "Yang Y"
+    ],
+    "doi": "10.1016/j.jare.2026.04.005"
+   },
+   {
+    "pmid": "41630303",
+    "date": "2026 Jan 30",
+    "journal": "Medicine (Baltimore)",
+    "title": "Identification of potential drug targets for Alzheimer's disease from genetic insights: A Mendelian randomization study.",
+    "authors": [
+     "Zhao YH",
+     "Ning JH",
+     "Zhang X"
+    ],
+    "doi": "10.1097/MD.0000000000045715"
+   },
+   {
+    "pmid": "41074767",
+    "date": "2026 Feb 18",
+    "journal": "Biol Reprod",
+    "title": "Anti-Müllerian hormone induces a reversible quiescence-associated secretory phenotype in preantral follicles†.",
+    "authors": [
+     "Meinsohn MC",
+     "Cleverdon J",
+     "Mermin-Bunnell AM"
+    ],
+    "doi": "10.1093/biolre/ioaf230"
+   },
+   {
+    "pmid": "40709392",
+    "date": "2025 Sep 1",
+    "journal": "Korean J Physiol Pharmacol",
+    "title": "Age-related changes in diurnal expression of inflammatory mediators in the brain and peripheral blood of male and female mice.",
+    "authors": [
+     "Lee EM",
+     "Kim HJ",
+     "Park Y"
+    ],
+    "doi": "10.4196/kjpp.24.372"
+   },
+   {
+    "pmid": "40500987",
+    "date": "2025 Jun",
+    "journal": "Cell Biochem Funct",
+    "title": "Increased Fascin1 and Pak1 Expressions Enhance Age-Associated B-Cell Actin Cytoskeleton Remodeling and Motility.",
+    "authors": [
+     "Fujiwara M",
+     "Kondo R",
+     "Sugiyama Y"
+    ],
+    "doi": "10.1002/cbf.70090"
+   },
+   {
+    "pmid": "39847262",
+    "date": "2025 Jun",
+    "journal": "Geroscience",
+    "title": "Painful diabetic neuropathy is associated with accelerated epigenetic aging.",
+    "authors": [
+     "Kwiatkowska KM",
+     "Garagnani P",
+     "Bonafé M"
+    ],
+    "doi": "10.1007/s11357-025-01516-w"
+   },
+   {
+    "pmid": "39773566",
+    "date": "2025 Jan 7",
+    "journal": "J Immunother Cancer",
+    "title": "Chemotherapy-induced cellular senescence promotes stemness of aggressive B-cell non-Hodgkin's lymphoma via CCR7/ARHGAP18/IKBα signaling activation.",
+    "authors": [
+     "Wang J",
+     "Tao Q",
+     "Huang K"
+    ],
+    "doi": "10.1136/jitc-2024-009356"
+   },
+   {
+    "pmid": "39586378",
+    "date": "2025 Jan",
+    "journal": "Neurochem Int",
+    "title": "Accelerated senescence exacerbates α-synucleinopathy in senescence-accelerated prone 8 mice via persistent neuroinflammation.",
+    "authors": [
+     "Sakiyama H",
+     "Baba K",
+     "Kimura Y"
+    ],
+    "doi": "10.1016/j.neuint.2024.105906"
+   },
+   {
+    "pmid": "39321290",
+    "date": "2024 Sep 27",
+    "journal": "Sci Adv",
+    "title": "Skewed epithelial cell differentiation and premature aging of the thymus in the absence of vitamin D signaling.",
+    "authors": [
+     "Artusa P",
+     "Nguyen Yamamoto L",
+     "Barbier C"
+    ],
+    "doi": "10.1126/sciadv.adm9582"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "114",
+  "records": [
+   {
+    "pmid": "42749753",
+    "date": "2026 Sep 16",
+    "journal": "Nat Rev Immunol",
+    "title": "Immunogenic cell death and tertiary lymphoid structures: bridging tumour cell death and immune organization.",
+    "authors": [
+     "Hanc R",
+     "Demuynck R",
+     "Krysko DV"
+    ],
+    "doi": "10.1038/s41577-026-01356-5"
+   },
+   {
+    "pmid": "42566543",
+    "date": "2026 Aug 7",
+    "journal": "Sci Adv",
+    "title": "Formation of tertiary lymphoid structures drives Parkin antitumor immunity.",
+    "authors": [
+     "Perego M",
+     "Kossenkov AV",
+     "Ghosh JC"
+    ],
+    "doi": "10.1126/sciadv.aef3194"
+   },
+   {
+    "pmid": "42358824",
+    "date": "2026",
+    "journal": "Oncol Res",
+    "title": "Germinal Center-Like Tertiary Lymphoid Structures Mark Immune Responsiveness and Enable Checkpoint Immunotherapy in Bladder Cancer.",
+    "authors": [
+     "Yin Z",
+     "Zhen X",
+     "Li H"
+    ],
+    "doi": "10.32604/or.2026.077808"
+   },
+   {
+    "pmid": "42227655",
+    "date": "2026 Jun 15",
+    "journal": "FASEB J",
+    "title": "TNFSF15 Promotes Vascular Normalization and Tertiary Lymphoid Structure Formation in Experimental Ovarian Cancer.",
+    "authors": [
+     "Wang JY",
+     "Wang YY",
+     "Zhang LS"
+    ],
+    "doi": "10.1096/fj.202600170R"
+   },
+   {
+    "pmid": "42204605",
+    "date": "2026 May 27",
+    "journal": "Biomark Res",
+    "title": "The formation and function of tertiary lymphoid structures.",
+    "authors": [
+     "Zhang C",
+     "Lv P",
+     "Hou Y"
+    ],
+    "doi": "10.1186/s40364-026-00939-7"
+   },
+   {
+    "pmid": "41843154",
+    "date": "2026 Mar 17",
+    "journal": "Cancer Immunol Immunother",
+    "title": "Association of CCL21(+) CAFs with B-cell recruitment and TLS maturation in penile squamous cell carcinoma.",
+    "authors": [
+     "Li X",
+     "Chen D",
+     "Guo Y"
+    ],
+    "doi": "10.1007/s00262-026-04348-5"
+   },
+   {
+    "pmid": "41183186",
+    "date": "2025 Nov 11",
+    "journal": "Proc Natl Acad Sci U S A",
+    "title": "Chemokine/cytokine-releasing biomaterials induce in situ tertiary lymphoid-like structures and enhance antitumor immunity.",
+    "authors": [
+     "Falahat R",
+     "Mulé JJ"
+    ],
+    "doi": "10.1073/pnas.2409560122"
+   },
+   {
+    "pmid": "40721500",
+    "date": "2025 Oct",
+    "journal": "Genes Immun",
+    "title": "Impact of tertiary lymphoid structure scores and their stage of maturation on prognosis of colorectal cancer patients.",
+    "authors": [
+     "Shen S",
+     "Sun R",
+     "Wang T"
+    ],
+    "doi": "10.1038/s41435-025-00346-2"
+   },
+   {
+    "pmid": "40718780",
+    "date": "2025",
+    "journal": "PeerJ",
+    "title": "Tertiary lymphoid structures-driven immune infiltration patterns and their association with survival in neuroblastoma.",
+    "authors": [
+     "Liu X",
+     "Deng J",
+     "Yu B"
+    ],
+    "doi": "10.7717/peerj.19767"
+   },
+   {
+    "pmid": "40685403",
+    "date": "2025 Jul 21",
+    "journal": "Signal Transduct Target Ther",
+    "title": "Differential expression pattern of CC chemokine receptor 7 guides precision treatment of hepatocellular carcinoma.",
+    "authors": [
+     "Qin J",
+     "Gong Q",
+     "Zhou C"
+    ],
+    "doi": "10.1038/s41392-025-02308-6"
+   }
+  ]
+ }
+}

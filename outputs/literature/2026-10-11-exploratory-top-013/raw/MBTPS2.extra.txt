@@ -1,0 +1,9 @@
+== MBTPS2 / mbtps2_fib (count=14)
+  42844627 | 2026 Oct 7 | Pediatr Dermatol | From Collodion Membrane to Alopecia: An Insight Into IFAP/BRESHECK Syndrome.
+  37944648 | 2024 Feb 5 | Gene | Characterization and expression analysis of seven lipid metabolism-related genes in yellow catfish Pelteobagrus fulvidraco fed high fat and bile acid diet.
+  37691108 | 2023 Sep 10 | Cell Biosci | The SIRT7-mediated deacetylation of CHD1L amplifies HIF-2α-dependent signal that drives renal cell carcinoma progression and sunitinib resistance.
+  35221597 | 2022 Feb | Ann Dermatol | A Novel Mutation in the MBTPS2 Gene Resulting in Ichthyosis Follicularis, Atrichia, and Photophobia Syndrome.
+  34655156 | 2022 Feb | Am J Med Genet A | A novel MBTPS2 variant associated with BRESHECK syndrome impairs sterol-regulated transcription and the endoplasmic reticulum stress response.
+  32920226 | 2020 Oct | Redox Biol | Vitamin E treatment in NAFLD patients demonstrates that oxidative stress drives steatosis through upregulation of de-novo lipogenesis.
+  32255378 | 2022 Aug | Arch Physiol Biochem | MBTPS2 exacerbates albuminuria in streptozotocin-induced type I diabetic nephropathy by promoting endoplasmic reticulum stress-mediated renal damage.
+  28807045 | 2017 Aug 14 | Trials | A randomized, multi-center, prospective study comparing best medical treatment versus best medical treatment plus renal artery stenting in patients with hemodynamically r

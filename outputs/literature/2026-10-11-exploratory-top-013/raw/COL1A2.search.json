@@ -1,0 +1,269 @@
+{
+ "kidney_fib": {
+  "count": "51",
+  "records": [
+   {
+    "pmid": "42831298",
+    "date": "2026 Oct 2",
+    "journal": "Clin Sci (Lond)",
+    "title": "Ten-eleven translocation 3 activates the TGF-like ligand Scube3 to promote renal fibrosis: mechanism and translational potential.",
+    "authors": [
+     "Luo Y",
+     "Kang A",
+     "Zhang G"
+    ],
+    "doi": "10.1042/CS20260881"
+   },
+   {
+    "pmid": "42827115",
+    "date": "2026 Oct 2",
+    "journal": "Hypertens Res",
+    "title": "Integrated morphological and transcriptomic analysis of bone disorders in aldosterone-salt hypertension.",
+    "authors": [
+     "Kawagoe M",
+     "Hirohama D",
+     "Ueno M"
+    ],
+    "doi": "10.1038/s41440-026-02832-0"
+   },
+   {
+    "pmid": "42780336",
+    "date": "2026",
+    "journal": "Front Pharmacol",
+    "title": "Baicalein attenuates extracellular matrix remodeling via FN1 in diabetic kidney disease: a multi-omics, machine-learning and mesangial-cell rescue study.",
+    "authors": [
+     "Li Y",
+     "Tian Y",
+     "Wu Z"
+    ],
+    "doi": "10.3389/fphar.2026.1852694"
+   },
+   {
+    "pmid": "42575200",
+    "date": "2026 Aug 10",
+    "journal": "J Adv Res",
+    "title": "Genetic and pharmaceutical targeting of Suv39h1 ameliorates renal fibrosis by unlocking CXCL10 transcription.",
+    "authors": [
+     "Wu X",
+     "Luo Y",
+     "Wu C"
+    ],
+    "doi": "10.1016/j.jare.2026.08.032"
+   },
+   {
+    "pmid": "42176637",
+    "date": "2026 Jul 1",
+    "journal": "Ecotoxicol Environ Saf",
+    "title": "Long-term arsenic exposure causes epithelial-mesenchymal transition and kidney fibrosis accompanied by renal lipid metabolic disorders.",
+    "authors": [
+     "He YZ",
+     "Liu ZB",
+     "Wen L"
+    ],
+    "doi": "10.1016/j.ecoenv.2026.120285"
+   },
+   {
+    "pmid": "41944350",
+    "date": "2026",
+    "journal": "J Diabetes Res",
+    "title": "Screening Autophagy-Related DKD Biomarkers Based on Bulk RNA and Single-Cell Analysis and Uncovering Their Regulatory Mechanisms in DKD Renal Fibrosis.",
+    "authors": [
+     "Wang Q",
+     "Li X",
+     "Ye W"
+    ],
+    "doi": "10.1155/jdr/3768039"
+   },
+   {
+    "pmid": "41830491",
+    "date": "2026 Apr 1",
+    "journal": "Am J Physiol Renal Physiol",
+    "title": "Fibroblast histone deacetylase-1 promotes kidney interstitial fibrosis following ischemia-reperfusion injury.",
+    "authors": [
+     "Nguyen H",
+     "Mendoza LD",
+     "Oliver AS"
+    ],
+    "doi": "10.1152/ajprenal.00458.2025"
+   },
+   {
+    "pmid": "41615541",
+    "date": "2026 Jan 30",
+    "journal": "Fish Physiol Biochem",
+    "title": "Dietary lecithin attenuates adverse effects of high fat diet on antioxidant activity, inflammation and fibrotic damage in the kidney of blunt snout bream (Megalobrama amblycephala).",
+    "authors": [
+     "Li P",
+     "Wang B",
+     "Zheng H"
+    ],
+    "doi": "10.1007/s10695-026-01646-8"
+   },
+   {
+    "pmid": "41272289",
+    "date": "2025 Nov 21",
+    "journal": "Sci Rep",
+    "title": "Reduced collagen degradation in pelvic urine precedes kidney fibrosis induced by unilateral ureteral obstruction.",
+    "authors": [
+     "Frattini T",
+     "Breuil B",
+     "Buléon M"
+    ],
+    "doi": "10.1038/s41598-025-29217-6"
+   },
+   {
+    "pmid": "40808990",
+    "date": "2025 Sep",
+    "journal": "JBMR Plus",
+    "title": "Moderately severe osteogenesis imperfecta-like osteochondrodysplasia associated with heterozygous variants in both COL1A2 and TRPV4.",
+    "authors": [
+     "Evans EF",
+     "Chung WY",
+     "Barnes AM"
+    ],
+    "doi": "10.1093/jbmrpl/ziaf111"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "116",
+  "records": [
+   {
+    "pmid": "42738529",
+    "date": "2026 Sep 2",
+    "journal": "Animals (Basel)",
+    "title": "Effects of Aging on Muscle Development Based on Transcriptome Sequencing in Dahen Broilers.",
+    "authors": [
+     "Wang JX",
+     "Qiu MH",
+     "Zhang ZR"
+    ],
+    "doi": "10.3390/ani16172743"
+   },
+   {
+    "pmid": "42716412",
+    "date": "2026 Sep 9",
+    "journal": "Acta Biomater",
+    "title": "Type I collagen homotrimer alters tail tendon material properties.",
+    "authors": [
+     "Johnson EJ",
+     "Dhowre HS",
+     "Lee KJ"
+    ],
+    "doi": "10.1016/j.actbio.2026.09.015"
+   },
+   {
+    "pmid": "42647181",
+    "date": "2026 Aug 26",
+    "journal": "Cartilage",
+    "title": "Single-Cell Transcriptomic Profiling Reveals Superficial Zone Chondrocytes as a Catabolic and Senescent Focus in Osteoarthritis Cartilage.",
+    "authors": [
+     "Kim Y",
+     "Jung G",
+     "Han S"
+    ],
+    "doi": "10.1177/19476035261481078"
+   },
+   {
+    "pmid": "42576237",
+    "date": "2026 Aug",
+    "journal": "Alcohol Clin Exp Res (Hoboken)",
+    "title": "Aging Exacerbates Binge Ethanol-Mediated Bone Toxicity in Mice.",
+    "authors": [
+     "Pedersen KB",
+     "Bordelon M",
+     "Baker E"
+    ],
+    "doi": "10.1111/acer.70384"
+   },
+   {
+    "pmid": "41967578",
+    "date": "2026",
+    "journal": "Cell Mol Gastroenterol Hepatol",
+    "title": "Mesothelin/Mucin 16 Signaling in Activated Portal Fibroblasts Drives the Development of Cholestatic Fibrosis and Hepatocellular Carcinoma in Aged Female Multidrug Resistance Protein 2 Knockout Mice.",
+    "authors": [
+     "Sakane S",
+     "Nishio T",
+     "Fuji H"
+    ],
+    "doi": "10.1016/j.jcmgh.2026.101785"
+   },
+   {
+    "pmid": "41937492",
+    "date": "2026 Apr",
+    "journal": "J Cell Mol Med",
+    "title": "OMICS Profiling Identifies Signatures of Senescence in Osteogenesis Imperfecta Osteoblasts Counteracted by 4-PBA.",
+    "authors": [
+     "Besio R",
+     "Maffioli E",
+     "Palladino E"
+    ],
+    "doi": "10.1111/jcmm.71120"
+   },
+   {
+    "pmid": "41904426",
+    "date": "2026 Mar 28",
+    "journal": "BMC Biotechnol",
+    "title": "Comparative analysis of horsetail and lavender-derived nanovesicles in wound healing and antioxidant defense.",
+    "authors": [
+     "Aşık S",
+     "Okay A",
+     "Karaca B"
+    ],
+    "doi": "10.1186/s12896-026-01146-w"
+   },
+   {
+    "pmid": "41869872",
+    "date": "2026 Mar",
+    "journal": "Animal Model Exp Med",
+    "title": "Gorab deficiency in skin dermis accelerates aging and is associated with dysregulation of RCHY1-mediated P53 ubiquitination.",
+    "authors": [
+     "Li Y",
+     "Liang W",
+     "Xu Y"
+    ],
+    "doi": "10.1002/ame2.70165"
+   },
+   {
+    "pmid": "41756952",
+    "date": "2026 Feb 16",
+    "journal": "bioRxiv",
+    "title": "Age-related Delays in Osteochondral Remodeling of Fracture Healing Illustrated by Mass Spectrometry Imaging.",
+    "authors": [
+     "Schurman CA",
+     "Chandler W",
+     "Hu D"
+    ],
+    "doi": "10.64898/2026.02.13.705828"
+   },
+   {
+    "pmid": "41705475",
+    "date": "2026 Jun 1",
+    "journal": "J Biochem",
+    "title": "Characterization of p16-positive stromal cells in age-related cardiac disorders.",
+    "authors": [
+     "Morimura T",
+     "Wang TW",
+     "Kawakami S"
+    ],
+    "doi": "10.1093/jb/mvag013"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "38841477",
+    "date": "2024 Jun 15",
+    "journal": "Heliyon",
+    "title": "Establishment of homotrimer collagen type I signature and its association with clinical manifestation and tertiary lymphoid structures formation in liver cancer.",
+    "authors": [
+     "Shen XT",
+     "Chen ZC",
+     "Wang XY"
+    ],
+    "doi": "10.1016/j.heliyon.2024.e31320"
+   }
+  ]
+ }
+}

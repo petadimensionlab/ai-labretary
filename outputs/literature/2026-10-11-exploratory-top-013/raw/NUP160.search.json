@@ -1,0 +1,52 @@
+{
+ "kidney_fib": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "34533106",
+    "date": "2021 Dec",
+    "journal": "Bioengineered",
+    "title": "Nucleoporin 160 (NUP160) inhibition alleviates diabetic nephropathy by activating autophagy.",
+    "authors": [
+     "Xie J",
+     "Yuan Y",
+     "Yao G"
+    ],
+    "doi": "10.1080/21655979.2021.1968777"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "2",
+  "records": [
+   {
+    "pmid": "41394771",
+    "date": "2025",
+    "journal": "Hum Mutat",
+    "title": "Identification of Aging-Related Hub Genes (ATP11B, RBBP7, DOCK10, and NUP160) as Potential Biomarkers and Therapeutic Targets in Sepsis.",
+    "authors": [
+     "Sun X",
+     "Geng S",
+     "Wang Z"
+    ],
+    "doi": "10.1155/humu/9789556"
+   },
+   {
+    "pmid": "30179222",
+    "date": "2018 Oct 1",
+    "journal": "J Clin Invest",
+    "title": "Mutations in multiple components of the nuclear pore complex cause nephrotic syndrome.",
+    "authors": [
+     "Braun DA",
+     "Lovric S",
+     "Schapiro D"
+    ],
+    "doi": "10.1172/JCI98688"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

@@ -1,0 +1,9 @@
+FT train/eval donors: 21
+start donors: 29
+overlap start∩FT: []
+           count   sum
+TLS_group             
+high          14  7533
+mid           15  7098
+goal centroid donors in FT: []
+TLS-high cells identical to EXP-001: True 7533

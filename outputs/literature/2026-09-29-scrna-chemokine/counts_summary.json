@@ -1,0 +1,250 @@
+{
+ "A1": {
+  "key": "A1",
+  "file": "A1_KPMP_v1.5_snRNA_Lake2023",
+  "cell_type_column": "subclass.l2",
+  "fibroblast_labels": [
+   "FIB",
+   "M-FIB",
+   "aFIB",
+   "dFIB",
+   "dM-FIB"
+  ],
+  "myofibroblast_labels": [
+   "MYOF"
+  ],
+  "n_cells": 304989,
+  "suspension_type": {
+   "nucleus": "304989"
+  },
+  "n_donors_total": 80,
+  "n_B": 982,
+  "n_plasma": 1145,
+  "B_plasma_frac": 0.00697,
+  "n_fibroblast": 19049,
+  "n_myofibroblast": 2651,
+  "has_raw": true,
+  "genes_missing_in_var": [],
+  "gene_ensembl": {
+   "CXCL13": "ENSG00000156234",
+   "CCL19": "ENSG00000172724",
+   "CCL21": "ENSG00000137077",
+   "CXCL8": "ENSG00000169429",
+   "IL6": "ENSG00000136244",
+   "LTB": "ENSG00000227507",
+   "LTBR": "ENSG00000111321",
+   "RELB": "ENSG00000104856",
+   "NFKB2": "ENSG00000077150",
+   "TNFSF14": "ENSG00000125735",
+   "CCL2": "ENSG00000108691",
+   "CXCL12": "ENSG00000107562",
+   "IL1B": "ENSG00000125538"
+  },
+  "counts_integer_like": true,
+  "fib_median_ngenes": 1591.0,
+  "fib_median_counts": 2546.0,
+  "n_donors_with_fibroblast": 79
+ },
+ "A2": {
+  "key": "A2",
+  "file": "A2_KPMP_v1.5_scRNA_Lake2023",
+  "cell_type_column": "author_cell_type",
+  "fibroblast_labels": [
+   "FIB",
+   "aFIB",
+   "dFIB"
+  ],
+  "myofibroblast_labels": [
+   "MyoF"
+  ],
+  "n_cells": 225177,
+  "suspension_type": {
+   "cell": "225177"
+  },
+  "n_donors_total": 77,
+  "n_B": 3261,
+  "n_plasma": 1051,
+  "B_plasma_frac": 0.01915,
+  "n_fibroblast": 1431,
+  "n_myofibroblast": 352,
+  "has_raw": true,
+  "genes_missing_in_var": [],
+  "gene_ensembl": {
+   "CXCL13": "ENSG00000156234",
+   "CCL19": "ENSG00000172724",
+   "CCL21": "ENSG00000137077",
+   "CXCL8": "ENSG00000169429",
+   "IL6": "ENSG00000136244",
+   "LTB": "ENSG00000227507",
+   "LTBR": "ENSG00000111321",
+   "RELB": "ENSG00000104856",
+   "NFKB2": "ENSG00000077150",
+   "TNFSF14": "ENSG00000125735",
+   "CCL2": "ENSG00000108691",
+   "CXCL12": "ENSG00000107562",
+   "IL1B": "ENSG00000125538"
+  },
+  "counts_integer_like": true,
+  "fib_median_ngenes": 2568.0,
+  "fib_median_counts": 8877.0,
+  "n_donors_with_fibroblast": 58
+ },
+ "A3": {
+  "key": "A3",
+  "file": "A3_RCC_LiR2022",
+  "cell_type_column": "annotation",
+  "fibroblast_labels": [
+   "CYGB+ Fibro",
+   "CNN1+ Fibro",
+   "Stress Fibro",
+   "MHC-II Fibro",
+   "MMP Fibro",
+   "NFKBIZ+ Fibro",
+   "SMC-like Fibro",
+   "Collagen Fibro",
+   "CDH19+ Fibro"
+  ],
+  "myofibroblast_labels": [],
+  "n_cells": 270855,
+  "suspension_type": {
+   "cell": "270855"
+  },
+  "n_donors_total": 12,
+  "n_B": 7841,
+  "n_plasma": 1254,
+  "B_plasma_frac": 0.03358,
+  "n_fibroblast": 3582,
+  "n_myofibroblast": 0,
+  "has_raw": true,
+  "genes_missing_in_var": [],
+  "gene_ensembl": {
+   "CXCL13": "ENSG00000156234",
+   "CCL19": "ENSG00000172724",
+   "CCL21": "ENSG00000137077",
+   "CXCL8": "ENSG00000169429",
+   "IL6": "ENSG00000136244",
+   "LTB": "ENSG00000227507",
+   "LTBR": "ENSG00000111321",
+   "RELB": "ENSG00000104856",
+   "NFKB2": "ENSG00000077150",
+   "TNFSF14": "ENSG00000125735",
+   "CCL2": "ENSG00000108691",
+   "CXCL12": "ENSG00000107562",
+   "IL1B": "ENSG00000125538"
+  },
+  "counts_integer_like": true,
+  "fib_median_ngenes": 1920.0,
+  "fib_median_counts": 5013.0,
+  "n_donors_with_fibroblast": 12
+ },
+ "A4": {
+  "key": "A4",
+  "file": "A4_ccRCC_Krishna2021",
+  "cell_type_column": "author_cluster_name",
+  "fibroblast_labels": [
+   "CD45- Myofibroblast"
+  ],
+  "myofibroblast_labels": [],
+  "n_cells": 167283,
+  "suspension_type": {
+   "cell": "167283"
+  },
+  "n_donors_total": 6,
+  "n_B": 2722,
+  "n_plasma": 0,
+  "B_plasma_frac": 0.01627,
+  "n_fibroblast": 3076,
+  "n_myofibroblast": 0,
+  "has_raw": true,
+  "genes_missing_in_var": [],
+  "gene_ensembl": {
+   "CXCL13": "ENSG00000156234",
+   "CCL19": "ENSG00000172724",
+   "CCL21": "ENSG00000137077",
+   "CXCL8": "ENSG00000169429",
+   "IL6": "ENSG00000136244",
+   "LTB": "ENSG00000227507",
+   "LTBR": "ENSG00000111321",
+   "RELB": "ENSG00000104856",
+   "NFKB2": "ENSG00000077150",
+   "TNFSF14": "ENSG00000125735",
+   "CCL2": "ENSG00000108691",
+   "CXCL12": "ENSG00000107562",
+   "IL1B": "ENSG00000125538"
+  },
+  "counts_integer_like": true,
+  "fib_median_ngenes": 1566.0,
+  "fib_median_counts": 3240.5,
+  "n_donors_with_fibroblast": 6
+ },
+ "A5a": {
+  "key": "A5a",
+  "file": "A5a_ccRCC_Zhang2021",
+  "cell_type_column": "author_cell_type",
+  "fibroblast_labels": [],
+  "myofibroblast_labels": [],
+  "n_cells": 20509,
+  "suspension_type": {
+   "cell": "20509"
+  },
+  "n_donors_total": 7,
+  "n_B": 69,
+  "n_plasma": 116,
+  "B_plasma_frac": 0.00902,
+  "n_fibroblast": 0,
+  "n_myofibroblast": 0,
+  "has_raw": true,
+  "genes_missing_in_var": [],
+  "gene_ensembl": {
+   "CXCL13": "ENSG00000156234",
+   "CCL19": "ENSG00000172724",
+   "CCL21": "ENSG00000137077",
+   "CXCL8": "ENSG00000169429",
+   "IL6": "ENSG00000136244",
+   "LTB": "ENSG00000227507",
+   "LTBR": "ENSG00000111321",
+   "RELB": "ENSG00000104856",
+   "NFKB2": "ENSG00000077150",
+   "TNFSF14": "ENSG00000125735",
+   "CCL2": "ENSG00000108691",
+   "CXCL12": "ENSG00000107562",
+   "IL1B": "ENSG00000125538"
+  },
+  "note": "線維芽細胞ラベルが存在しない"
+ },
+ "A5b": {
+  "key": "A5b",
+  "file": "A5b_normal_Zhang2021",
+  "cell_type_column": "author_cell_type",
+  "fibroblast_labels": [],
+  "myofibroblast_labels": [],
+  "n_cells": 6044,
+  "suspension_type": {
+   "cell": "6044"
+  },
+  "n_donors_total": 5,
+  "n_B": 34,
+  "n_plasma": 0,
+  "B_plasma_frac": 0.00563,
+  "n_fibroblast": 0,
+  "n_myofibroblast": 0,
+  "has_raw": true,
+  "genes_missing_in_var": [],
+  "gene_ensembl": {
+   "CXCL13": "ENSG00000156234",
+   "CCL19": "ENSG00000172724",
+   "CCL21": "ENSG00000137077",
+   "CXCL8": "ENSG00000169429",
+   "IL6": "ENSG00000136244",
+   "LTB": "ENSG00000227507",
+   "LTBR": "ENSG00000111321",
+   "RELB": "ENSG00000104856",
+   "NFKB2": "ENSG00000077150",
+   "TNFSF14": "ENSG00000125735",
+   "CCL2": "ENSG00000108691",
+   "CXCL12": "ENSG00000107562",
+   "IL1B": "ENSG00000125538"
+  },
+  "note": "線維芽細胞ラベルが存在しない"
+ }
+}

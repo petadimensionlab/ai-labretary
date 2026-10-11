@@ -1,0 +1,52 @@
+# EXP-00000000-000-demo — すべてのパラメータをここに書く
+experiment_id: EXP-00000000-000-demo
+hypothesis_id: HYP-YYYYMMDD-NN
+
+model:
+  version: V2                       # V1 | V2  （辞書と揃える）
+  directory: models/Geneformer/Geneformer-V2-316M   # 事前学習 or FT 済みモデル（辞書は gc104M = Genecorpus-104M 用で V2 共通）
+  type: Pretrained                  # Pretrained | CellClassifier | GeneClassifier
+  num_classes: 0                    # CellClassifier の場合はクラス数
+  emb_layer: -1
+
+data:
+  input_h5ad: data/raw/example.h5ad # 元データ（読み取り専用）
+  tokenized_dataset: experiments/EXP-00000000-000-demo/work/tokenized.dataset
+  cell_type_col: cell_type
+  state_key: disease                # 状態ラベルの列
+  custom_attr_name_dict: {cell_type: cell_type, disease: disease, donor_id: donor_id}
+  filter_data: {cell_type: [Cardiomyocyte]}
+  max_ncells: 2000
+
+states:
+  start_state: dcm
+  goal_state: nf
+  alt_states: [hcm]
+
+perturbation:
+  perturb_type: delete              # delete | overexpress | inhibit | activate
+  perturb_rank_shift: null          # inhibit/activate のとき使用
+  genes_to_perturb: all             # all もしくは Ensembl ID のリスト
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls                     # V2 は cls / cls_and_gene 必須（先頭が <cls>）。V1 は cell
+  forward_batch_size: 100
+  nproc: 8
+
+controls:
+  positive: [ENSG00000120937, ENSG00000175206, ENSG00000106631]   # 例: NPPB, NPPA, MYL7（要文献確認）                      # Ensembl ID（既知ドライバー）
+  negative_random_n: 50             # 発現量マッチしたランダム遺伝子数
+  negative_fixed: []                # ハウスキーピング遺伝子など
+
+stats:
+  mode: goal_state_shift            # goal_state_shift | vs_null | mixture_model | aggregate_data
+  fdr_threshold: 0.05
+
+robustness:
+  seeds: [0, 1, 2]
+  subsample_frac: 0.8
+  emb_layers: [-1]                  # 感度分析するなら [-1, 0]
+
+compute:
+  device: cuda
+  gpu_hours_estimate: null

@@ -1,0 +1,85 @@
+# EXP-20260926-002 phase 0 — ベクトル取り出し（対照のみ, seed 0, EXP-20260926-001 run 1 tls_high と同じ細胞）
+# G2 未満（25 遺伝子 × 100 細胞 × 1 seed, bf16 実測 0.62 s → 約 26 min + 重心 5 min）
+experiment_id: EXP-20260926-002
+hypothesis_id: HYP-20260926-01      # proposed（G1 未承認）。方法検証の phase 0 のみ
+
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260926-002/work/input.h5ad          # → EXP-001 の input.h5ad（symlink, 読み取りのみ）
+  tokenized_dataset: experiments/EXP-20260926-002/work/tokenized.dataset   # EXP-001 の tokenized の複製（sha256 一致）
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict: {isp_state: isp_state, donor_id: donor_id, TLS_group: TLS_group,
+                          author_cell_type: author_cell_type, disease: disease}
+  filter_data: null
+  max_ncells: null
+
+states:                             # EXP-001 run 1（tls_high）と同じ
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states: [aPT_CKD_TLSlow]
+
+cell_selection:                     # EXP-001 と同じ → 同じ seed で同じ細胞が選ばれる（cell_uid で確認）
+  max_cells_per_gene: 100
+  max_cells_per_donor: 15
+  min_cells_per_gene: 30
+  donor_key: donor_id
+
+state_embs:
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  controls_only: true               # 盲検: 主要対象（TP53/CDKN1A/LTBR）と参照（SPP1/LCN2）は回さない
+  genes_to_perturb: []
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+
+controls:
+  positive:
+    - ENSG00000162692               # VCAM1
+    - ENSG00000113249               # HAVCR1
+  negative_random_n: 20
+  negative_sampler:                 # EXP-001 run 1 seed 0 の null 20 遺伝子（results/tls_high/run-0-L-1/negatives.json）
+    method: explicit
+    genes: [ENSG00000231887, ENSG00000135457, ENSG00000149541, ENSG00000071082, ENSG00000120253,
+            ENSG00000149428, ENSG00000147383, ENSG00000146463, ENSG00000240972, ENSG00000269313,
+            ENSG00000120896, ENSG00000146063, ENSG00000138759, ENSG00000172757, ENSG00000114316,
+            ENSG00000148688, ENSG00000101052, ENSG00000128595, ENSG00000108953, ENSG00000196588]
+  negative_fixed:
+    - ENSG00000075624               # ACTB
+    - ENSG00000111640               # GAPDH
+    - ENSG00000196262               # PPIA
+  fixed_role: housekeeping
+
+capture:
+  embeddings: true                  # 元/摂動後の CLS 埋め込み（fp32）を保存
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+robustness:
+  seeds: [0]                        # phase 0 は 1 seed（EXP-001 seed 0 と対応）
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results-phase0
+
+compute:
+  device: mps
+  dtype: bf16                       # PI 標準。forward bf16、コサイン・ベクトル演算は fp32
+  cache_model: true
+  sec_per_cell_gene: 0.6161

@@ -1,0 +1,279 @@
+{
+  "seed": 0,
+  "n_cells_total": 2311,
+  "n_by_state": {
+    "FIB_neg_TLSlow": 800,
+    "FIB_neg_TLShigh": 800,
+    "FIB_org": 711
+  },
+  "median_length_by_state": {
+    "FIB_neg_TLShigh": 1313.0,
+    "FIB_neg_TLSlow": 1810.0,
+    "FIB_org": 1846.0
+  },
+  "primary": {
+    "auc_mean": 0.7207,
+    "auc_sd": 0.0598,
+    "fold_aucs": [
+      0.7276,
+      0.779,
+      0.7778,
+      0.6675,
+      0.6516
+    ],
+    "n_folds_used": 5,
+    "n_cells": 1242,
+    "n_pos": 621,
+    "n_donors": 64,
+    "pooled_auc": 0.7278,
+    "ci95": [
+      0.67,
+      0.7822
+    ],
+    "n_boot_used": 2000,
+    "depth_only_auc": 0.5748,
+    "depth_only_folds": [
+      0.7068,
+      0.5635,
+      0.5141,
+      0.5498,
+      0.5398
+    ],
+    "median_length": {
+      "FIB_neg_TLShigh": 1532.0,
+      "FIB_org": 1683.0
+    },
+    "label": "goal_vs_start_depth_matched",
+    "permutation": {
+      "p": 0.005,
+      "n_perm_used": 200,
+      "null_mean": 0.5744,
+      "null_p95": 0.6117
+    }
+  },
+  "reference": {
+    "goal_vs_start_unmatched": {
+      "auc_mean": 0.7567,
+      "auc_sd": 0.0503,
+      "fold_aucs": [
+        0.804,
+        0.7158,
+        0.7701,
+        0.6927,
+        0.8008
+      ],
+      "n_folds_used": 5,
+      "n_cells": 1511,
+      "n_pos": 711,
+      "n_donors": 66,
+      "pooled_auc": 0.7588,
+      "ci95": [
+        0.7032,
+        0.8074
+      ],
+      "n_boot_used": 2000,
+      "depth_only_auc": 0.6582,
+      "depth_only_folds": [
+        0.7663,
+        0.6385,
+        0.6103,
+        0.6013,
+        0.6745
+      ],
+      "median_length": {
+        "FIB_neg_TLShigh": 1313.0,
+        "FIB_org": 1846.0
+      },
+      "label": "goal_vs_start_unmatched"
+    },
+    "start_vs_alt_depth_matched": {
+      "auc_mean": 0.8546,
+      "auc_sd": 0.0951,
+      "fold_aucs": [
+        0.7294,
+        0.7955,
+        0.8606,
+        0.9202,
+        0.9673
+      ],
+      "n_folds_used": 5,
+      "n_cells": 1254,
+      "n_pos": 627,
+      "n_donors": 47,
+      "pooled_auc": 0.8255,
+      "ci95": [
+        0.7383,
+        0.9073
+      ],
+      "n_boot_used": 2000,
+      "depth_only_auc": 0.6343,
+      "depth_only_folds": [
+        0.4129,
+        0.5237,
+        0.9145,
+        0.7396,
+        0.5806
+      ],
+      "median_length": {
+        "FIB_neg_TLSlow": 1438.0,
+        "FIB_neg_TLShigh": 1525.0
+      },
+      "label": "start_vs_alt_depth_matched"
+    }
+  },
+  "positive_control": {
+    "label": "FIB_vs_M-FIB",
+    "min_auc": 0.9,
+    "auc_mean": 0.9833,
+    "auc_sd": 0.0114,
+    "fold_aucs": [
+      0.9781,
+      0.9802,
+      0.9946,
+      0.9951,
+      0.9685
+    ],
+    "n_folds_used": 5,
+    "n_cells": 1641,
+    "n_pos": 596,
+    "n_donors": 72
+  },
+  "sensitivity": {
+    "cortex_only": {
+      "auc_mean": 0.6896,
+      "auc_sd": 0.037,
+      "fold_aucs": [
+        0.7318,
+        0.7034,
+        0.6514,
+        0.7114,
+        0.6498
+      ],
+      "n_folds_used": 5,
+      "n_cells": 986,
+      "n_pos": 493,
+      "n_donors": 44,
+      "pooled_auc": 0.6956,
+      "ci95": [
+        0.6353,
+        0.7582
+      ],
+      "n_boot_used": 2000,
+      "depth_only_auc": 0.5457,
+      "depth_only_folds": [
+        0.4883,
+        0.4902,
+        0.6669,
+        0.5321,
+        0.5509
+      ],
+      "median_length": {
+        "FIB_neg_TLShigh": 1491.0,
+        "FIB_org": 1606.0
+      },
+      "label": "cortex_only"
+    },
+    "disease_matched": {
+      "auc_mean": 0.696,
+      "auc_sd": 0.0475,
+      "fold_aucs": [
+        0.7397,
+        0.6711,
+        0.6791,
+        0.7508,
+        0.6394
+      ],
+      "n_folds_used": 5,
+      "n_cells": 1008,
+      "n_pos": 504,
+      "n_donors": 46,
+      "pooled_auc": 0.6882,
+      "ci95": [
+        0.642,
+        0.727
+      ],
+      "n_boot_used": 2000,
+      "depth_only_auc": 0.4406,
+      "depth_only_folds": [
+        0.4072,
+        0.4572,
+        0.4749,
+        0.4876,
+        0.3763
+      ],
+      "median_length": {
+        "FIB_neg_TLShigh": 1733.5,
+        "FIB_org": 1734.5
+      },
+      "label": "disease_matched"
+    },
+    "subclass_fib_only": {
+      "auc_mean": 0.6694,
+      "auc_sd": 0.094,
+      "fold_aucs": [
+        0.6526,
+        0.6209,
+        0.6884,
+        0.8176,
+        0.5676
+      ],
+      "n_folds_used": 5,
+      "n_cells": 654,
+      "n_pos": 327,
+      "n_donors": 53,
+      "pooled_auc": 0.6747,
+      "ci95": [
+        0.5974,
+        0.7386
+      ],
+      "n_boot_used": 2000,
+      "depth_only_auc": 0.5114,
+      "depth_only_folds": [
+        0.5565,
+        0.3692,
+        0.5962,
+        0.5181,
+        0.5171
+      ],
+      "median_length": {
+        "FIB_neg_TLShigh": 1320.0,
+        "FIB_org": 1414.0
+      },
+      "label": "subclass_fib_only"
+    },
+    "within_start_donors": {
+      "auc_mean": 0.7551,
+      "auc_sd": 0.0378,
+      "fold_aucs": [
+        0.7486,
+        0.756,
+        0.6981,
+        0.8017,
+        0.7712
+      ],
+      "n_folds_used": 5,
+      "n_cells": 728,
+      "n_pos": 364,
+      "n_donors": 21,
+      "pooled_auc": 0.7632,
+      "ci95": [
+        0.7204,
+        0.8026
+      ],
+      "n_boot_used": 2000,
+      "depth_only_auc": 0.484,
+      "depth_only_folds": [
+        0.4596,
+        0.5409,
+        0.4669,
+        0.4538,
+        0.4988
+      ],
+      "median_length": {
+        "FIB_neg_TLShigh": 1678.0,
+        "FIB_org": 1690.5
+      },
+      "label": "within_start_donors"
+    }
+  }
+}

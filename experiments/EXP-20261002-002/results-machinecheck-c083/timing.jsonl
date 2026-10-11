@@ -1,0 +1,13 @@
+{"seed": 81, "step": "state_embs", "seconds": 95.77}
+{"seed": 81, "gene": "ENSG00000149792", "role": "target", "n_cells": 200, "isp_seconds": 32.41, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000104412", "role": "target", "n_cells": 200, "isp_seconds": 23.38, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000104325", "role": "target", "n_cells": 200, "isp_seconds": 23.72, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000148730", "role": "target", "n_cells": 200, "isp_seconds": 31.42, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000182117", "role": "target", "n_cells": 200, "isp_seconds": 21.53, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000205045", "role": "target", "n_cells": 200, "isp_seconds": 21.1, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000071909", "role": "target", "n_cells": 200, "isp_seconds": 19.82, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000075292", "role": "target", "n_cells": 200, "isp_seconds": 20.33, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000148835", "role": "target", "n_cells": 200, "isp_seconds": 23.54, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000037749", "role": "target", "n_cells": 200, "isp_seconds": 24.23, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000112584", "role": "target", "n_cells": 200, "isp_seconds": 30.55, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000176261", "role": "target", "n_cells": 200, "isp_seconds": 21.79, "model_load_seconds": 0}

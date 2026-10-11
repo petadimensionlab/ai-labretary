@@ -1,0 +1,122 @@
+{
+ "n_test_cells": 2082,
+ "n_test_donors": 23,
+ "n_per_state": {
+  "aPT_CKD_TLShigh": 1271,
+  "PT_healthy": 811
+ },
+ "timing_s": {
+  "ft_test_s": 414.4,
+  "baseline_emb_s": 915.3
+ },
+ "ft": {
+  "auroc": 0.9999990298618232,
+  "macro_f1": 0.9979819656352592,
+  "accuracy": 0.9980787704130644,
+  "log_loss": 0.014929649420082569,
+  "worst_donor_accuracy": 0.99,
+  "worst_donor": "31-10035",
+  "per_donor_accuracy": {
+   "164-6": 1.0,
+   "27-10071": 1.0,
+   "28-12263": 1.0,
+   "28-12518": 0.8571,
+   "29-10012": 1.0,
+   "29-10280": 1.0,
+   "29-10398": 1.0,
+   "29-10400": 1.0,
+   "29-10404": 1.0,
+   "29-10410": 1.0,
+   "31-10001": 1.0,
+   "31-10035": 0.99,
+   "31-10040": 0.99,
+   "31-10042": 1.0,
+   "31-10078": 0.99,
+   "PRE027": 1.0,
+   "PRE038": 1.0,
+   "PRE98sc": 1.0,
+   "Sample1153-EO1": 1.0,
+   "Sample1153-EO2": 1.0,
+   "Sample1153-EO3": 1.0,
+   "Sample1162-EO1": 1.0,
+   "Sample1162-EO2": 1.0
+  },
+  "within_class_spearman_p_vs_length": [
+   0.09691818321125278,
+   0.4246499652553442
+  ],
+  "auroc_ci95_donor_bootstrap": [
+   0.9999939168000997,
+   1.0
+  ]
+ },
+ "baseline": {
+  "auroc": 0.9999573139202216,
+  "macro_f1": 0.9929522840518709,
+  "accuracy": 0.9932756964457252,
+  "log_loss": 0.021297729276570154,
+  "worst_donor_accuracy": 0.96875,
+  "worst_donor": "31-10001",
+  "per_donor_accuracy": {
+   "164-6": 1.0,
+   "27-10071": 0.99,
+   "28-12263": 1.0,
+   "28-12518": 1.0,
+   "29-10012": 1.0,
+   "29-10280": 1.0,
+   "29-10398": 0.99,
+   "29-10400": 0.99,
+   "29-10404": 0.99,
+   "29-10410": 1.0,
+   "31-10001": 0.9688,
+   "31-10035": 0.98,
+   "31-10040": 0.97,
+   "31-10042": 1.0,
+   "31-10078": 0.97,
+   "PRE027": 1.0,
+   "PRE038": 1.0,
+   "PRE98sc": 1.0,
+   "Sample1153-EO1": 1.0,
+   "Sample1153-EO2": 1.0,
+   "Sample1153-EO3": 1.0,
+   "Sample1162-EO1": 1.0,
+   "Sample1162-EO2": 1.0
+  },
+  "within_class_spearman_p_vs_length": [
+   -0.1488178022070045,
+   -0.2140265748244055
+  ],
+  "auroc_ci95_donor_bootstrap": [
+   0.9998578664621206,
+   1.0
+  ]
+ },
+ "diff_auroc_ci95_donor_bootstrap": [
+  0.0,
+  0.00014208884622058656
+ ],
+ "gate": {
+  "checks": {
+   "auroc_ft_ge_baseline": {
+    "ft": 0.9999990298618232,
+    "baseline": 0.9999573139202216,
+    "margin": 0.01,
+    "pass": true
+   },
+   "macro_f1_ft_ge_baseline": {
+    "ft": 0.9979819656352592,
+    "baseline": 0.9929522840518709,
+    "margin": 0.01,
+    "pass": true
+   },
+   "worst_donor_accuracy": {
+    "ft": 0.99,
+    "min": 0.8,
+    "pass": true
+   }
+  },
+  "go": true,
+  "rule": "AUROC と macro-F1 がともにベースライン以上（ベースライン ≥ ceiling の指標は ceiling_margin の非劣性）かつ held-out donor（≥ min_donor_cells 細胞）の最小正解率 ≥ min_worst_donor_accuracy"
+ },
+ "smoke": false
+}

@@ -1,0 +1,72 @@
+{
+  "n_cells": {
+    "aPT_CKD_TLShigh": 500,
+    "PT_healthy": 500,
+    "aPT_CKD_TLSlow": 405
+  },
+  "n_donors": {
+    "PT_healthy": 22,
+    "aPT_CKD_TLShigh": 14,
+    "aPT_CKD_TLSlow": 8
+  },
+  "embedding_seconds": 276.4,
+  "folds": 5,
+  "comparisons": {
+    "aPT_CKD_TLShigh_vs_PT_healthy": {
+      "threshold": 0.8,
+      "group_by_donor": {
+        "auc_mean": 1.0,
+        "auc_sd": 0.0,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "stratified": {
+        "auc_mean": 1.0,
+        "auc_sd": 0.0001,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.9998,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pass": true
+    },
+    "aPT_CKD_TLShigh_vs_aPT_CKD_TLSlow": {
+      "threshold": 0.6,
+      "group_by_donor": {
+        "auc_mean": 0.627,
+        "auc_sd": 0.2062,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.3442,
+          0.8291,
+          0.826,
+          0.604,
+          0.5316
+        ]
+      },
+      "stratified": {
+        "auc_mean": 0.8989,
+        "auc_sd": 0.0253,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.8965,
+          0.9201,
+          0.8569,
+          0.9048,
+          0.9162
+        ]
+      },
+      "pass": true
+    }
+  }
+}

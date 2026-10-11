@@ -1,0 +1,23 @@
+{
+  "requested": "cuda",
+  "resolved": "cuda",
+  "override_env": "cuda",
+  "host": "spark-c083",
+  "available": [
+    "cuda",
+    "cpu"
+  ],
+  "dtype": "float32",
+  "numerics": {
+    "torch": "2.13.0+cu130",
+    "transformers": "4.46.3",
+    "attn_implementation": [
+      "sdpa"
+    ],
+    "cuda_matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "cuda_device": "NVIDIA GB10",
+    "cuda_version": "13.0"
+  }
+}

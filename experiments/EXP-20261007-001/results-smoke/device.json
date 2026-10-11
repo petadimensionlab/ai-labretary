@@ -1,0 +1,21 @@
+{
+  "requested": "mps",
+  "resolved": "mps",
+  "override_env": null,
+  "host": "PetadimensionlabMacMiniM4Pro-3.local",
+  "available": [
+    "mps",
+    "cpu"
+  ],
+  "dtype": "float32",
+  "numerics": {
+    "torch": "2.14.0",
+    "transformers": "4.46.3",
+    "attn_implementation": [
+      "sdpa"
+    ],
+    "cuda_matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false,
+    "float32_matmul_precision": "highest"
+  }
+}

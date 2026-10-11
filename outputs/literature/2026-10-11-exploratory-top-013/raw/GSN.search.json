@@ -1,0 +1,145 @@
+{
+ "kidney_fib": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "40375605",
+    "date": "2025 Dec",
+    "journal": "Cell Prolif",
+    "title": "Deciphering the Immunomodulatory Function of GSN (+) Inflammatory Cancer-Associated Fibroblasts in Renal Cell Carcinoma Immunotherapy: Insights From Pan-Cancer Single-Cell Landscape and Spatial Transcriptomics Analysis.",
+    "authors": [
+     "Li S",
+     "Zhou X",
+     "Feng H"
+    ],
+    "doi": "10.1111/cpr.70062"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "23",
+  "records": [
+   {
+    "pmid": "42459655",
+    "date": "2026",
+    "journal": "Front Immunol",
+    "title": "Single-cell atlas of photoaged skin reveals JAK-STAT blockade as a strategy to reverse dermal remodeling.",
+    "authors": [
+     "Zhang M",
+     "Liu Y",
+     "Yang C"
+    ],
+    "doi": "10.3389/fimmu.2026.1748123"
+   },
+   {
+    "pmid": "40475329",
+    "date": "2025 Jun",
+    "journal": "Receptors (Basel)",
+    "title": "Gelsolin Facilitates Estrogen Receptor Beta Nuclear Translocation and Transcriptional Repression of Genes Associated with Alzheimer Disease.",
+    "authors": [
+     "Yildiz Y",
+     "Fan AHS",
+     "Hartoun AA"
+    ],
+    "doi": "10.3390/receptors4020010"
+   },
+   {
+    "pmid": "37821884",
+    "date": "2023 Oct 11",
+    "journal": "BMC Res Notes",
+    "title": "Decoding the transcriptomic expression and genomic methylation patterns in the tendon proper and its peritenon region in the aging horse.",
+    "authors": [
+     "Pechanec MY",
+     "Mienaltowski MJ"
+    ],
+    "doi": "10.1186/s13104-023-06562-1"
+   },
+   {
+    "pmid": "36650038",
+    "date": "2023 Jun",
+    "journal": "J Neurol Neurosurg Psychiatry",
+    "title": "GSN gene frameshift mutations in Alzheimer's disease.",
+    "authors": [
+     "Jiang Y",
+     "Wan M",
+     "Xiao X"
+    ],
+    "doi": "10.1136/jnnp-2022-330465"
+   },
+   {
+    "pmid": "35802752",
+    "date": "2022 Jul 8",
+    "journal": "Aging (Albany NY)",
+    "title": "Integrated proteomics and metabolomics analysis reveals hubs protein and network alterations in myasthenia gravis.",
+    "authors": [
+     "Tong T",
+     "Zhang J",
+     "Jia L"
+    ],
+    "doi": "10.18632/aging.204156"
+   },
+   {
+    "pmid": "35683981",
+    "date": "2022 May 24",
+    "journal": "Nutrients",
+    "title": "Long-Term High-Fat High-Fructose Diet Induces Type 2 Diabetes in Rats through Oxidative Stress.",
+    "authors": [
+     "Zhao Y",
+     "Wang QY",
+     "Zeng LT"
+    ],
+    "doi": "10.3390/nu14112181"
+   },
+   {
+    "pmid": "35464721",
+    "date": "2022",
+    "journal": "Front Bioeng Biotechnol",
+    "title": "Preparation and Evaluation of Liposomes and Niosomes Containing Total Ginsenosides for Anti-Photoaging Therapy.",
+    "authors": [
+     "Jin Y",
+     "Liu D",
+     "Lu Z"
+    ],
+    "doi": "10.3389/fbioe.2022.874827"
+   },
+   {
+    "pmid": "34551193",
+    "date": "2021 Dec",
+    "journal": "CNS Neurosci Ther",
+    "title": "The role of vascular dementia associated genes in patients with Alzheimer's disease: A large case-control study in the Chinese population.",
+    "authors": [
+     "Xiao X",
+     "Guo L",
+     "Liao X"
+    ],
+    "doi": "10.1111/cns.13730"
+   },
+   {
+    "pmid": "34528241",
+    "date": "2021 Dec",
+    "journal": "Am J Phys Anthropol",
+    "title": "A geometric morphometric assessment of shape variation in adult pelvic morphology.",
+    "authors": [
+     "Cox SL"
+    ],
+    "doi": "10.1002/ajpa.24399"
+   },
+   {
+    "pmid": "33875290",
+    "date": "2021 Aug",
+    "journal": "Neurobiol Aging",
+    "title": "Shared and oppositely regulated transcriptomic signatures in Huntington's disease and brain ischemia confirm known and unveil novel potential neuroprotective genes.",
+    "authors": [
+     "Yildirim F",
+     "Foddis M",
+     "Blumenau S"
+    ],
+    "doi": "10.1016/j.neurobiolaging.2021.03.001"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

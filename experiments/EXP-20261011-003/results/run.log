@@ -1,0 +1,4 @@
+[22:17:23] 開始。出力先 experiments/EXP-20261011-003/results
+[22:17:23] plan.md sha256 b0c4364b66854b12… / config.yaml sha256 f82f7369e4524db8… / このスクリプト sha256 a824a85e0032faac…
+[22:18:13] A-1 盲検の混入（出力・ログ・一覧）: 0 件、pass=True
+[22:18:13] 完了（50.7 秒）。出力 experiments/EXP-20261011-003/results/criteria_a6.json

@@ -1,0 +1,56 @@
+{
+ "run-3-L-1": {
+  "null_drift_norm_mean": 0.006772594211861615,
+  "null_disp_norm_mean": 0.025663051449017368,
+  "frac_disp_along_global_drift_mean": NaN,
+  "cos_drift_vs_u": 0.3171423112276513,
+  "cos_drift_vs_minus_mean_orig": 0.03530856288060678,
+  "cos_drift_vs_goal": 0.4004944735295307,
+  "cos_drift_vs_start": -0.05134385106467644,
+  "mean_shift_goal_null": 0.0027123865533086643,
+  "radial_part_of_shift_goal_null": -1.0204293965297331e-05,
+  "null_disp_top_pc_var_frac": [
+   0.114,
+   0.067,
+   0.05,
+   0.036,
+   0.028
+  ]
+ },
+ "run-4-L-1": {
+  "null_drift_norm_mean": 0.007159662784718649,
+  "null_disp_norm_mean": 0.024534555148661145,
+  "frac_disp_along_global_drift_mean": 0.11516245441700347,
+  "cos_drift_vs_u": 0.2871831144802773,
+  "cos_drift_vs_minus_mean_orig": 0.011560697793545141,
+  "cos_drift_vs_goal": 0.38339249228087435,
+  "cos_drift_vs_start": -0.026808289680640363,
+  "mean_shift_goal_null": 0.0027449609589239084,
+  "radial_part_of_shift_goal_null": -1.0551789745618281e-05,
+  "null_disp_top_pc_var_frac": [
+   0.134,
+   0.062,
+   0.042,
+   0.037,
+   0.02
+  ]
+ },
+ "run-5-L-1": {
+  "null_drift_norm_mean": 0.00708706023232645,
+  "null_disp_norm_mean": 0.02441876422076986,
+  "frac_disp_along_global_drift_mean": 0.11293074049267506,
+  "cos_drift_vs_u": 0.28625575832911915,
+  "cos_drift_vs_minus_mean_orig": 0.012402207135033552,
+  "cos_drift_vs_goal": 0.3835977543541067,
+  "cos_drift_vs_start": -0.025090022653808698,
+  "mean_shift_goal_null": 0.0027185803900927202,
+  "radial_part_of_shift_goal_null": -7.568825516355039e-06,
+  "null_disp_top_pc_var_frac": [
+   0.133,
+   0.061,
+   0.044,
+   0.035,
+   0.02
+  ]
+ }
+}

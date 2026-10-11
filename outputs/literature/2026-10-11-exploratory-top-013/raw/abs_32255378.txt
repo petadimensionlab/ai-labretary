@@ -1,0 +1,6 @@
+PMID: 32255378
+JOURNAL: Archives of physiology and biochemistry
+YEAR: 2022
+DOI: 10.1080/13813455.2020.1749084
+TITLE: MBTPS2 exacerbates albuminuria in streptozotocin-induced type I diabetic nephropathy by promoting endoplasmic reticulum stress-mediated renal damage.
+ABSTRACT: The membrane-bound transcription factor protease site 2 (MBTPS2) is an intramembranous metalloprotease involved in the regulation of ER stress response, however, whether it is associated with DN is unknown. We report that MBTPS2 expression is upregulated in the renal cortex of diabetic mice induced by streptozotocin (STZ), a murine model of insulinopenic type 1 DN. Functionally, in vivo, MBTPS2 overexpression exacerbates and its knockdown attenuates albuminuria, which indicate a detrimental role of MBTPS2 played in albuminuria development in DN mice. We further show that MBTPS2 promotes ER stress and renal damage in DN mice, and that reducing ER stress via a chemical chaperone 4-phenylbutyric acid (4-PBA) markedly rescues MBTPS2-exacerbated renal damage and albuminuria severity. Collectively, our study associates the function of MBTPS2 in DN albuminuria with ER stress regulation, thus underscoring the notorious role of maladaptive ER response in influencing DN albuminuria.

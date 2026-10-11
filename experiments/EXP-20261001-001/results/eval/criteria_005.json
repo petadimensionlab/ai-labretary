@@ -1,0 +1,1478 @@
+{
+ "mode": "final",
+ "seeds": [
+  81,
+  82,
+  83
+ ],
+ "n_genes": 717,
+ "zero_movement": {
+  "n_cells_before": 429042,
+  "n_zero_movement": 195,
+  "frac_zero_movement": 0.000455,
+  "genes_with_zero": [
+   "ENSG00000049323",
+   "ENSG00000049540",
+   "ENSG00000053108",
+   "ENSG00000074803",
+   "ENSG00000090339",
+   "ENSG00000092098",
+   "ENSG00000106366",
+   "ENSG00000110237",
+   "ENSG00000115461",
+   "ENSG00000116711",
+   "ENSG00000131115",
+   "ENSG00000136848",
+   "ENSG00000137073",
+   "ENSG00000137077",
+   "ENSG00000137809",
+   "ENSG00000138079",
+   "ENSG00000139946",
+   "ENSG00000144642",
+   "ENSG00000144810",
+   "ENSG00000145431"
+  ],
+  "n_cells_after": 428847
+ },
+ "metric_version": {
+  "primary_form": "projection_on_start_to_goal_direction_over_movement",
+  "confound_variables": [
+   "lp",
+   "ll"
+  ],
+  "uniform_component_states": [
+   "dFIB",
+   "dMFIB"
+  ],
+  "drop_zero_movement": true
+ },
+ "n_nulls": {
+  "A_300": 300,
+  "B_500": 500
+ },
+ "primary_set": "INT",
+ "primary_null_version": "B_500",
+ "primary_positive_control": "positive_control71",
+ "primary_neutral_set": "neutral_adopted",
+ "missing_q_by_seed": {
+  "81": 3,
+  "82": 3,
+  "83": 3
+ },
+ "M1_calibration": {
+  "81": {
+   "n_valid": 498,
+   "frac_hi": 0.10040160642570281,
+   "frac_lo": 0.09839357429718876
+  },
+  "82": {
+   "n_valid": 498,
+   "frac_hi": 0.10040160642570281,
+   "frac_lo": 0.10040160642570281
+  },
+  "83": {
+   "n_valid": 498,
+   "frac_hi": 0.0963855421686747,
+   "frac_lo": 0.10240963855421686
+  }
+ },
+ "M1_pass": true,
+ "M2_confounding": {
+  "81": {
+   "lp": -0.04659666638666554,
+   "ll": -0.12793749259597356,
+   "relpos": 0.01549014196056784
+  },
+  "82": {
+   "lp": -0.0644202974116258,
+   "ll": -0.10381970812895612,
+   "relpos": -0.014079320317281267
+  },
+  "83": {
+   "lp": -0.06545196252039155,
+   "ll": -0.24954814402992412,
+   "relpos": 0.01998391993567974
+  }
+ },
+ "M2_pass": true,
+ "M3_adopted": {
+  "ACTB": [
+   0.8541114058355438,
+   0.8590078328981723,
+   0.8605263157894737
+  ],
+  "CERS4": [
+   0.8531645569620253,
+   0.825,
+   0.8411910669975186
+  ],
+  "ANAPC16": [
+   0.6125290023201856,
+   0.6581395348837209,
+   0.43301435406698563
+  ],
+  "EEF1D": [
+   0.16195372750642673,
+   0.2741514360313316,
+   0.01808785529715762
+  ]
+ },
+ "M3_descriptive": {
+  "恒常発現 3（判定に使わない）": {
+   "ACTB": [
+    0.8541114058355438,
+    0.8590078328981723,
+    0.8605263157894737
+   ],
+   "GAPDH": [
+    0.8031088082901554,
+    0.7851458885941645,
+    0.8092783505154639
+   ],
+   "B2M": [
+    0.005277044854881266,
+    0.005405405405405406,
+    0.002702702702702703
+   ]
+  },
+  "中立対照パネル 7（判定に使わない）": {
+   "CERS4": [
+    0.8531645569620253,
+    0.825,
+    0.8411910669975186
+   ],
+   "TATDN1": [
+    0.16258351893095768,
+    0.25165562913907286,
+    0.09425287356321839
+   ],
+   "IFT25": [
+    0.11135371179039301,
+    0.05555555555555555,
+    0.02197802197802198
+   ],
+   "VAPA": [
+    0.44675925925925924,
+    0.28117359413202936,
+    0.4566744730679157
+   ],
+   "PHPT1": [
+    0.28978622327790976,
+    0.43529411764705883,
+    0.1522248243559719
+   ],
+   "ANAPC16": [
+    0.6125290023201856,
+    0.6581395348837209,
+    0.43301435406698563
+   ],
+   "EEF1D": [
+    0.16195372750642673,
+    0.2741514360313316,
+    0.01808785529715762
+   ]
+  }
+ },
+ "M3_n_in_range": 4,
+ "M3_pass": true,
+ "M4_rho": {
+  "81": {
+   "uniform": 0.02878869115476462,
+   "（記述）前回の一様成分": 0.3412581330325321
+  },
+  "82": {
+   "uniform": 0.02276677906711627,
+   "（記述）前回の一様成分": 0.31784891939567755
+  },
+  "83": {
+   "uniform": -0.002110280441121764,
+   "（記述）前回の一様成分": 0.29386763947055783
+  }
+ },
+ "M4_pass": true,
+ "M5_residual_vs_movement": {
+  "81": -0.1012693650774603,
+  "82": -0.15194681578726313,
+  "83": -0.10927752511010043
+ },
+ "M5_pass": false,
+ "metric_pass": false,
+ "P4_positive_control": {
+  "label": "positive_control71",
+  "axis": "goal",
+  "null_version": "B_500",
+  "k": 71,
+  "abs_min": 0.53,
+  "set_mean_z": [
+   0.976,
+   1.057,
+   1.029
+  ],
+  "null_threshold_replace": [
+   0.293,
+   0.294,
+   0.294
+  ],
+  "null_percentile_replace": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "pass_replace": true,
+  "null_threshold_no_replace": [
+   0.266,
+   0.267,
+   0.267
+  ],
+  "null_percentile_no_replace": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "pass_no_replace": true,
+  "pass": true,
+  "all_seeds_positive": true
+ },
+ "P4_pass": true,
+ "P4_sensitivity": {
+  "positive_control65": {
+   "label": "positive_control65",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 65,
+   "abs_min": 0.56,
+   "set_mean_z": [
+    1.009,
+    1.088,
+    1.071
+   ],
+   "null_threshold_replace": [
+    0.309,
+    0.308,
+    0.311
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.283,
+    0.283,
+    0.285
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control39": {
+   "label": "positive_control39",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 39,
+   "abs_min": 0.72,
+   "set_mean_z": [
+    1.492,
+    1.538,
+    1.533
+   ],
+   "null_threshold_replace": [
+    0.405,
+    0.406,
+    0.408
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.384,
+    0.387,
+    0.386
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control70": {
+   "label": "positive_control70",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 70,
+   "abs_min": 0.54,
+   "set_mean_z": [
+    0.984,
+    1.06,
+    1.033
+   ],
+   "null_threshold_replace": [
+    0.295,
+    0.295,
+    0.297
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.271,
+    0.271,
+    0.27
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control38": {
+   "label": "positive_control38",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 38,
+   "abs_min": 0.73,
+   "set_mean_z": [
+    1.52,
+    1.556,
+    1.553
+   ],
+   "null_threshold_replace": [
+    0.411,
+    0.412,
+    0.413
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.391,
+    0.392,
+    0.394
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control35": {
+   "label": "positive_control35",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 35,
+   "abs_min": 0.76,
+   "set_mean_z": [
+    1.574,
+    1.59,
+    1.611
+   ],
+   "null_threshold_replace": [
+    0.426,
+    0.43,
+    0.43
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.412,
+    0.413,
+    0.413
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  }
+ },
+ "P5_neutral": {
+  "neutral_adopted": {
+   "set_mean_z": [
+    0.293,
+    0.326,
+    0.006
+   ],
+   "null_percentile": [
+    0.7584,
+    0.7805,
+    0.5404
+   ],
+   "n_seeds_in_range": 3,
+   "判定に使うか": true
+  },
+  "neutral_adopted_cv055": {
+   "set_mean_z": [
+    -0.179,
+    -0.204,
+    -0.374
+   ],
+   "null_percentile": [
+    0.3421,
+    0.3152,
+    0.1636
+   ],
+   "n_seeds_in_range": 3,
+   "判定に使うか": false
+  },
+  "housekeeping": {
+   "set_mean_z": [
+    -0.076,
+    -0.12,
+    -0.062
+   ],
+   "null_percentile": [
+    0.4791,
+    0.4405,
+    0.4885
+   ],
+   "n_seeds_in_range": 3,
+   "判定に使うか": false
+  },
+  "negctrl_panel": {
+   "set_mean_z": [
+    -0.365,
+    -0.33,
+    -0.682
+   ],
+   "null_percentile": [
+    0.1528,
+    0.1792,
+    0.0207
+   ],
+   "n_seeds_in_range": 2,
+   "判定に使うか": false
+  }
+ },
+ "P5_pass": true,
+ "set_tests": {
+  "positive_control71": {
+   "label": "positive_control71",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 71,
+   "abs_min": 0.53,
+   "set_mean_z": [
+    0.976,
+    1.057,
+    1.029
+   ],
+   "null_threshold_replace": [
+    0.293,
+    0.294,
+    0.294
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.266,
+    0.267,
+    0.267
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control65": {
+   "label": "positive_control65",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 65,
+   "abs_min": 0.56,
+   "set_mean_z": [
+    1.009,
+    1.088,
+    1.071
+   ],
+   "null_threshold_replace": [
+    0.309,
+    0.308,
+    0.311
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.283,
+    0.283,
+    0.285
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control39": {
+   "label": "positive_control39",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 39,
+   "abs_min": 0.72,
+   "set_mean_z": [
+    1.492,
+    1.538,
+    1.533
+   ],
+   "null_threshold_replace": [
+    0.405,
+    0.406,
+    0.408
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.384,
+    0.387,
+    0.386
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control70": {
+   "label": "positive_control70",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 70,
+   "abs_min": 0.54,
+   "set_mean_z": [
+    0.984,
+    1.06,
+    1.033
+   ],
+   "null_threshold_replace": [
+    0.295,
+    0.295,
+    0.297
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.271,
+    0.271,
+    0.27
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control38": {
+   "label": "positive_control38",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 38,
+   "abs_min": 0.73,
+   "set_mean_z": [
+    1.52,
+    1.556,
+    1.553
+   ],
+   "null_threshold_replace": [
+    0.411,
+    0.412,
+    0.413
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.391,
+    0.392,
+    0.394
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "positive_control35": {
+   "label": "positive_control35",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 35,
+   "abs_min": 0.76,
+   "set_mean_z": [
+    1.574,
+    1.59,
+    1.611
+   ],
+   "null_threshold_replace": [
+    0.426,
+    0.43,
+    0.43
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.412,
+    0.413,
+    0.413
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true,
+   "all_seeds_positive": true
+  },
+  "neutral_adopted": {
+   "label": "neutral_adopted",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 4,
+   "abs_min": -1000000000.0,
+   "set_mean_z": [
+    0.293,
+    0.326,
+    0.006
+   ],
+   "null_threshold_replace": [
+    1.556,
+    1.599,
+    1.604
+   ],
+   "null_percentile_replace": [
+    0.75843,
+    0.78046,
+    0.54041
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.536,
+    1.574,
+    1.593
+   ],
+   "null_percentile_no_replace": [
+    0.75958,
+    0.7832,
+    0.5435
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  },
+  "neutral_adopted_cv055": {
+   "label": "neutral_adopted_cv055",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 6,
+   "abs_min": -1000000000.0,
+   "set_mean_z": [
+    -0.179,
+    -0.204,
+    -0.374
+   ],
+   "null_threshold_replace": [
+    1.208,
+    1.221,
+    1.231
+   ],
+   "null_percentile_replace": [
+    0.34206,
+    0.31516,
+    0.16359
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.193,
+    1.212,
+    1.229
+   ],
+   "null_percentile_no_replace": [
+    0.34191,
+    0.31478,
+    0.1641
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": false
+  },
+  "housekeeping": {
+   "label": "housekeeping",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 3,
+   "abs_min": -1000000000.0,
+   "set_mean_z": [
+    -0.076,
+    -0.12,
+    -0.062
+   ],
+   "null_threshold_replace": [
+    1.785,
+    1.882,
+    1.869
+   ],
+   "null_percentile_replace": [
+    0.47907,
+    0.44054,
+    0.48848
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.744,
+    1.855,
+    1.837
+   ],
+   "null_percentile_no_replace": [
+    0.48337,
+    0.44422,
+    0.49191
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": false
+  },
+  "negctrl_panel": {
+   "label": "negctrl_panel",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 7,
+   "abs_min": -1000000000.0,
+   "set_mean_z": [
+    -0.365,
+    -0.33,
+    -0.682
+   ],
+   "null_threshold_replace": [
+    1.088,
+    1.098,
+    1.109
+   ],
+   "null_percentile_replace": [
+    0.15284,
+    0.17917,
+    0.02072
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.091,
+    1.102,
+    1.116
+   ],
+   "null_percentile_no_replace": [
+    0.15257,
+    0.17832,
+    0.02055
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": false
+  },
+  "INT": {
+   "label": "INT",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 119,
+   "abs_min": 0.41,
+   "set_mean_z": [
+    0.208,
+    0.098,
+    0.142
+   ],
+   "null_threshold_replace": [
+    0.225,
+    0.225,
+    0.226
+   ],
+   "null_percentile_replace": [
+    0.98502,
+    0.8575,
+    0.93484
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.19,
+    0.19,
+    0.19
+   ],
+   "null_percentile_no_replace": [
+    0.99471,
+    0.88801,
+    0.95983
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  },
+  "INT_S1": {
+   "label": "INT_S1",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 61,
+   "abs_min": 0.58,
+   "set_mean_z": [
+    0.017,
+    -0.106,
+    -0.143
+   ],
+   "null_threshold_replace": [
+    0.318,
+    0.318,
+    0.319
+   ],
+   "null_percentile_replace": [
+    0.56663,
+    0.20675,
+    0.12881
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.293,
+    0.294,
+    0.294
+   ],
+   "null_percentile_no_replace": [
+    0.56739,
+    0.18959,
+    0.11161
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": false
+  },
+  "INT_S2": {
+   "label": "INT_S2",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 13,
+   "abs_min": 1.25,
+   "set_mean_z": [
+    0.436,
+    0.277,
+    0.482
+   ],
+   "null_threshold_replace": [
+    0.754,
+    0.759,
+    0.767
+   ],
+   "null_percentile_replace": [
+    0.93514,
+    0.85193,
+    0.94909
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.746,
+    0.749,
+    0.757
+   ],
+   "null_percentile_no_replace": [
+    0.93737,
+    0.85135,
+    0.95112
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  },
+  "INT_S3": {
+   "label": "INT_S3",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 45,
+   "abs_min": 0.67,
+   "set_mean_z": [
+    0.401,
+    0.322,
+    0.43
+   ],
+   "null_threshold_replace": [
+    0.376,
+    0.375,
+    0.376
+   ],
+   "null_percentile_replace": [
+    0.99304,
+    0.9787,
+    0.99543
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.352,
+    0.354,
+    0.356
+   ],
+   "null_percentile_no_replace": [
+    0.99572,
+    0.98375,
+    0.99723
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  },
+  "INT_pathway_specific": {
+   "label": "INT_pathway_specific",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 114,
+   "abs_min": 0.42,
+   "set_mean_z": [
+    0.242,
+    0.122,
+    0.16
+   ],
+   "null_threshold_replace": [
+    0.229,
+    0.23,
+    0.231
+   ],
+   "null_percentile_replace": [
+    0.99294,
+    0.90192,
+    0.95122
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.197,
+    0.197,
+    0.197
+   ],
+   "null_percentile_no_replace": [
+    0.99797,
+    0.9288,
+    0.97096
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  },
+  "INT_plus_T1T2": {
+   "label": "INT_plus_T1T2",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 135,
+   "abs_min": 0.39,
+   "set_mean_z": [
+    0.297,
+    0.189,
+    0.232
+   ],
+   "null_threshold_replace": [
+    0.209,
+    0.21,
+    0.209
+   ],
+   "null_percentile_replace": [
+    0.99938,
+    0.98271,
+    0.99462
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.175,
+    0.174,
+    0.175
+   ],
+   "null_percentile_no_replace": [
+    0.99997,
+    0.99433,
+    0.99911
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  },
+  "T1": {
+   "label": "T1",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 11,
+   "abs_min": 1.36,
+   "set_mean_z": [
+    1.382,
+    1.331,
+    1.297
+   ],
+   "null_threshold_replace": [
+    0.833,
+    0.837,
+    0.847
+   ],
+   "null_percentile_replace": [
+    0.99965,
+    0.99953,
+    0.99936
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.822,
+    0.829,
+    0.836
+   ],
+   "null_percentile_no_replace": [
+    0.99979,
+    0.99964,
+    0.99948
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  },
+  "T2": {
+   "label": "T2",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 7,
+   "abs_min": 1.7,
+   "set_mean_z": [
+    0.249,
+    0.042,
+    0.207
+   ],
+   "null_threshold_replace": [
+    1.088,
+    1.098,
+    1.109
+   ],
+   "null_percentile_replace": [
+    0.77382,
+    0.58022,
+    0.74257
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.091,
+    1.102,
+    1.116
+   ],
+   "null_percentile_no_replace": [
+    0.77597,
+    0.58036,
+    0.7448
+   ],
+   "pass_no_replace": false,
+   "pass": false,
+   "all_seeds_positive": true
+  }
+ },
+ "P1_primary": {
+  "label": "INT",
+  "axis": "goal",
+  "null_version": "B_500",
+  "k": 119,
+  "abs_min": 0.41,
+  "set_mean_z": [
+   0.208,
+   0.098,
+   0.142
+  ],
+  "null_threshold_replace": [
+   0.225,
+   0.225,
+   0.226
+  ],
+  "null_percentile_replace": [
+   0.98502,
+   0.8575,
+   0.93484
+  ],
+  "pass_replace": false,
+  "null_threshold_no_replace": [
+   0.19,
+   0.19,
+   0.19
+  ],
+  "null_percentile_no_replace": [
+   0.99471,
+   0.88801,
+   0.95983
+  ],
+  "pass_no_replace": false,
+  "pass": false,
+  "all_seeds_positive": true
+ },
+ "P1_pass": false,
+ "R3_direction_reversed": false,
+ "chance_pass_rate": {
+  "INT": {
+   "n_draw": 200000,
+   "rate": 1e-05,
+   "threshold": [
+    0.225,
+    0.225,
+    0.226
+   ]
+  },
+  "positive_control71": {
+   "n_draw": 200000,
+   "rate": 3e-05,
+   "threshold": [
+    0.293,
+    0.294,
+    0.294
+   ]
+  }
+ },
+ "chance_rate_ok": true,
+ "P_sham_sets": {
+  "N": 200,
+  "p_単一の偶然合格率（対照で実測）": 1e-05,
+  "期待合格数": 0.002,
+  "k_実際の合格数": 0,
+  "片側 p 値": 1.0,
+  "pass": true,
+  "注": "「N 組すべて不合格」は条件にしない。問題のない設計でも落ちるため（plan.md §6.3）",
+  "較正": {
+   "偽セットの平均": [
+    -0.0123,
+    -0.0215,
+    -0.0148
+   ],
+   "無作為セットの平均": [
+    0.0002,
+    0.0002,
+    0.0003
+   ],
+   "散らばりの比": [
+    0.697,
+    0.666,
+    0.69
+   ],
+   "中心のずれが許容内": true,
+   "散らばりが許容内": false
+  }
+ },
+ "sensitivity": {
+  "INT_S1": {
+   "pass": false,
+   "k": 61,
+   "set_mean_z": [
+    0.017,
+    -0.106,
+    -0.143
+   ],
+   "検出下限": 0.852,
+   "検出力が足りない": false
+  },
+  "INT_S2": {
+   "pass": false,
+   "k": 13,
+   "set_mean_z": [
+    0.436,
+    0.277,
+    0.482
+   ],
+   "検出下限": 1.843,
+   "検出力が足りない": true
+  },
+  "INT_S3": {
+   "pass": false,
+   "k": 45,
+   "set_mean_z": [
+    0.401,
+    0.322,
+    0.43
+   ],
+   "検出下限": 0.99,
+   "検出力が足りない": false
+  },
+  "INT_pathway_specific": {
+   "pass": false,
+   "k": 114,
+   "set_mean_z": [
+    0.242,
+    0.122,
+    0.16
+   ],
+   "検出下限": 0.617,
+   "検出力が足りない": false
+  },
+  "INT_plus_T1T2": {
+   "pass": false,
+   "k": 135,
+   "set_mean_z": [
+    0.297,
+    0.189,
+    0.232
+   ],
+   "検出下限": 0.574,
+   "検出力が足りない": false
+  },
+  "positive_control65": {
+   "pass": true,
+   "k": 65,
+   "set_mean_z": [
+    1.009,
+    1.088,
+    1.071
+   ],
+   "検出下限": 0.822,
+   "検出力が足りない": false
+  },
+  "INT（対照 A_300）": {
+   "pass": false
+  },
+  "positive_control71（対照 A_300）": {
+   "pass": true
+  },
+  "中立対照（H-3 を 0.55 にした版）": {
+   "set_mean_z": [
+    -0.179,
+    -0.204,
+    -0.374
+   ],
+   "null_percentile": [
+    0.3421,
+    0.3152,
+    0.1636
+   ],
+   "n_seeds_in_range": 3,
+   "判定に使うか": false
+  }
+ },
+ "underpowered_note": "感度 (b)（INT_S2、転写標的 13 個）は検出下限 1.84 で検出力が足りない。**不合格を「効果がない」の根拠に使わない**（plan.md §9）。",
+ "descriptive": {
+  "前回の主指標（寄りの差。**判定に使わない**）": {
+   "INT": [
+    0.212,
+    0.103,
+    0.146
+   ],
+   "positive_control71": [
+    1.008,
+    1.086,
+    1.056
+   ]
+  },
+  "退化した 2 状態の軸での寄り（**判定に使わない**。深さがそろっていない）": {
+   "desc_dFIB": [
+    0.088,
+    0.105,
+    0.071
+   ],
+   "desc_dMFIB": [
+    -0.174,
+    -0.121,
+    -0.147
+   ]
+  },
+  "移動量 ld を入れた版（版の比較。**判定に使わない**）": {
+   "INT": [
+    0.241,
+    0.123,
+    0.169
+   ],
+   "positive_control71": [
+    1.03,
+    1.102,
+    1.073
+   ],
+   "housekeeping": [
+    -0.605,
+    -0.639,
+    -0.541
+   ]
+  },
+  "落選した中立対照の単一遺伝子の順位（**記述のみ**）": {
+   "GAPDH": [
+    0.8031088082901554,
+    0.7851458885941645,
+    0.8092783505154639
+   ],
+   "B2M": [
+    0.005277044854881266,
+    0.005405405405405406,
+    0.002702702702702703
+   ],
+   "TATDN1": [
+    0.16258351893095768,
+    0.25165562913907286,
+    0.09425287356321839
+   ],
+   "IFT25": [
+    0.11135371179039301,
+    0.05555555555555555,
+    0.02197802197802198
+   ],
+   "VAPA": [
+    0.44675925925925924,
+    0.28117359413202936,
+    0.4566744730679157
+   ],
+   "PHPT1": [
+    0.28978622327790976,
+    0.43529411764705883,
+    0.1522248243559719
+   ]
+  },
+  "単一遺伝子で 3 seed すべて 2.5 標準偏差以上": {
+   "INT": [
+    "ITGA7"
+   ],
+   "INT_S1": [],
+   "INT_S2": [
+    "ITGA7"
+   ],
+   "INT_S3": [],
+   "INT_pathway_specific": [
+    "ITGA7"
+   ],
+   "INT_plus_T1T2": [
+    "CCL21",
+    "CXCL13",
+    "ITGA7",
+    "MADCAM1"
+   ],
+   "positive_control71": [
+    "ABI3BP",
+    "COL1A1",
+    "COL6A1",
+    "DPYSL3",
+    "ELN",
+    "GSN",
+    "NOX4",
+    "PDZRN4",
+    "SULF1"
+   ],
+   "positive_control65": [
+    "ABI3BP",
+    "COL1A1",
+    "COL6A1",
+    "DPYSL3",
+    "ELN",
+    "GSN",
+    "NOX4",
+    "PDZRN4",
+    "SULF1"
+   ],
+   "positive_control39": [
+    "ABI3BP",
+    "COL1A1",
+    "DPYSL3",
+    "ELN",
+    "GSN",
+    "NOX4",
+    "PDZRN4",
+    "SULF1"
+   ],
+   "positive_control70": [
+    "ABI3BP",
+    "COL1A1",
+    "COL6A1",
+    "DPYSL3",
+    "ELN",
+    "GSN",
+    "NOX4",
+    "PDZRN4",
+    "SULF1"
+   ],
+   "positive_control38": [
+    "ABI3BP",
+    "COL1A1",
+    "DPYSL3",
+    "ELN",
+    "GSN",
+    "NOX4",
+    "PDZRN4",
+    "SULF1"
+   ],
+   "positive_control35": [
+    "ABI3BP",
+    "COL1A1",
+    "DPYSL3",
+    "ELN",
+    "GSN",
+    "NOX4",
+    "PDZRN4",
+    "SULF1"
+   ],
+   "neutral_adopted": [],
+   "neutral_adopted_cv055": [],
+   "housekeeping": [],
+   "negctrl_panel": [],
+   "T1": [
+    "CCL21",
+    "CXCL13",
+    "MADCAM1"
+   ],
+   "T2": []
+  },
+  "発現の偏り（bias_goal）と z の順位相関（介入セット）": {
+   "81": 0.18311010144334375,
+   "82": 0.2137685094518065,
+   "83": 0.17466390588050126
+  }
+ },
+ "conclusion_proposal": "判定不能（指標の健全性が不合格）",
+ "note": "判定の確定は PI（関門 G3）。本スクリプトは事前登録の規則を当てはめて提案するだけ。**この実験で答えられるのは「線維芽細胞が活性化した間質の状態へ動くか」であって、「三次リンパ組織が作られるか」ではない**（HYP-20261001-01 §0）。陽性対照 71 個は健全性チェックであって、仮説を支持する証拠ではない。検定の単位はセットであり、個々の遺伝子が効くことは示さない。盲検中の TP53・SPP1・LCN2 は摂動も解析もしていない。in silico の結果であり、実験的に確認された生物学的事実ではない。"
+}

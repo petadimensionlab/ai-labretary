@@ -1,0 +1,240 @@
+# EXP-20260927-001 — 過剰発現型の摂動で「移動距離（元の位置）」をそろえた null 比較（事前登録, plan.md §6）
+# EXP-20260926-005 run O と同じモデル・状態・細胞選抜規則・固定遺伝子（陽性 6 / 方向対照 2 / 恒常発現 3 / 中立パネル 7）。
+# 違うのは (1) seed（11/12/13, 過去の実験の 0〜5 と重ならない）、(2) null 遺伝子プール 54（固定 18 遺伝子それぞれに発現頻度・元の位置・
+# 入力の長さをそろえた 3 遺伝子, work/null_pool.json）、(3) 発現をそろえた比較遺伝子群 30（陽性 6 × 5, work/comparators.csv）、
+# (4) 1 遺伝子あたり 100 細胞、(5) 主検定（analysis.primary_test）。遺伝子の選定は ISP の結果を使わない（analysis/select_genes.py）。
+experiment_id: EXP-20260927-001
+hypothesis_id: HYP-20260927-01      # 方法仮説（proposed, G1 は PI）
+
+model:
+  version: V2
+  directory: experiments/EXP-20260926-003/models/ft-main/final   # 追加学習済み 2 クラス分類器（読み取りのみ, EXP-005 と同一）
+  type: CellClassifier
+  num_classes: 2                    # 0 = aPT_CKD, 1 = PT_healthy
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260927-001/work/input.h5ad        # → EXP-001 の input.h5ad（symlink, 読み取りのみ）
+  tokenized_dataset: experiments/EXP-20260927-001/work/tokenized.dataset  # データ部分の APFS clone（cp -c）。sha256 ba3a14c0…（EXP-001/003/005 と一致, work/SHA256SUMS-preregistered.txt）
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict: {isp_state: isp_state, donor_id: donor_id, TLS_group: TLS_group,
+                          author_cell_type: author_cell_type, disease: disease}
+  filter_data: null
+  max_ncells: null
+
+states:                             # EXP-005 と同一
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states: [aPT_CKD_TLSlow]
+
+cell_selection:
+  max_cells_per_gene: 100           # EXP-005 は 200。null プールを 60 遺伝子に広げるため半分にする（plan.md §8）
+  max_cells_per_donor: 12           # 200/25 と同じ比率（≈ 1/8）。14 donor × 12 = 168 ≥ 100
+  min_cells_per_gene: 80
+  donor_key: donor_id
+
+state_embs:                         # goal 重心は追加学習に使っていない健常 9 donor（EXP-005 と同一）
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+  include_donors:
+    PT_healthy: [PRE038, 164-6, PRE027, Sample1162-EO1, Sample1162-EO2, PRE98sc, Sample1153-EO1, Sample1153-EO2, Sample1153-EO3]
+
+perturbation:
+  perturb_type: overexpress
+  perturb_rank_shift: null
+  controls_only: true               # 盲検: TP53/CDKN1A/LTBR/SPP1/LCN2 は回さない
+  genes_to_perturb: []
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls                     # V2 は cls 必須（guardrails）
+  forward_batch_size: 8
+  nproc: 1                          # guardrails: MPS/CUDA 使用後の datasets fork を避ける（run_isp.py が None に変換）
+
+controls:
+  positive:                         # EXP-005 run O から継承（過剰発現が健常方向を予測, PMID は HYP-20260926-04）
+    - ENSG00000101076               # HNF4A
+    - ENSG00000109819               # PPARGC1A
+    - ENSG00000186951               # PPARA
+    - ENSG00000173153               # ESRRA
+    - ENSG00000110090               # CPT1A
+    - ENSG00000116044               # NFE2L2
+  negative_random_n: 0
+  negative_sampler:
+    method: explicit                # null プールは固定リスト（全 seed 共通, work/null_pool.json と同一）
+    genes:                          # 54 遺伝子 = 固定 18 遺伝子 × 3（発現頻度・元の位置・入力の長さでそろえる, analysis/select_genes.py）
+      - ENSG00000135127   # BICDL1（HNF4A にマッチ）
+      - ENSG00000166747   # AP1G1（HNF4A にマッチ）
+      - ENSG00000196235   # SUPT5H（HNF4A にマッチ）
+      - ENSG00000162923   # WDR26（PPARGC1A にマッチ）
+      - ENSG00000015676   # NUDCD3（PPARGC1A にマッチ）
+      - ENSG00000055070   # SZRD1（PPARGC1A にマッチ）
+      - ENSG00000005700   # IBTK（PPARA にマッチ）
+      - ENSG00000133606   # MKRN1（PPARA にマッチ）
+      - ENSG00000169057   # MECP2（PPARA にマッチ）
+      - ENSG00000198816   # ZNF358（ESRRA にマッチ）
+      - ENSG00000130821   # SLC6A8（ESRRA にマッチ）
+      - ENSG00000117308   # GALE（ESRRA にマッチ）
+      - ENSG00000150764   # DIXDC1（CPT1A にマッチ）
+      - ENSG00000134852   # CLOCK（CPT1A にマッチ）
+      - ENSG00000168393   # DTYMK（CPT1A にマッチ）
+      - ENSG00000117614   # SYF2（NFE2L2 にマッチ）
+      - ENSG00000104763   # ASAH1（NFE2L2 にマッチ）
+      - ENSG00000183172   # SMDT1（NFE2L2 にマッチ）
+      - ENSG00000108518   # PFN1（ACTB にマッチ）
+      - ENSG00000150991   # UBC（ACTB にマッチ）
+      - ENSG00000145741   # BTF3（ACTB にマッチ）
+      - ENSG00000204628   # RACK1（GAPDH にマッチ）
+      - ENSG00000196531   # NACA（GAPDH にマッチ）
+      - ENSG00000149806   # FAU（GAPDH にマッチ）
+      - ENSG00000140264   # SERF2（PPIA にマッチ）
+      - ENSG00000140319   # SRP14（PPIA にマッチ）
+      - ENSG00000107223   # EDF1（PPIA にマッチ）
+      - ENSG00000179526   # SHARPIN（CERS4 にマッチ）
+      - ENSG00000136143   # SUCLA2（CERS4 にマッチ）
+      - ENSG00000141580   # WDR45B（CERS4 にマッチ）
+      - ENSG00000119650   # IFT43（TATDN1 にマッチ）
+      - ENSG00000256053   # COA8（TATDN1 にマッチ）
+      - ENSG00000241370   # RPP21（TATDN1 にマッチ）
+      - ENSG00000110801   # PSMD9（IFT25 にマッチ）
+      - ENSG00000114209   # PDCD10（IFT25 にマッチ）
+      - ENSG00000160209   # PDXK（IFT25 にマッチ）
+      - ENSG00000254999   # BRK1（VAPA にマッチ）
+      - ENSG00000105669   # COPE（VAPA にマッチ）
+      - ENSG00000102144   # PGK1（VAPA にマッチ）
+      - ENSG00000125971   # DYNLRB1（PHPT1 にマッチ）
+      - ENSG00000172270   # BSG（PHPT1 にマッチ）
+      - ENSG00000002933   # TMEM176A（PHPT1 にマッチ）
+      - ENSG00000164096   # C4orf3（ANAPC16 にマッチ）
+      - ENSG00000105404   # RABAC1（ANAPC16 にマッチ）
+      - ENSG00000140612   # SEC11A（ANAPC16 にマッチ）
+      - ENSG00000196683   # TOMM7（EEF1D にマッチ）
+      - ENSG00000099622   # CIRBP（EEF1D にマッチ）
+      - ENSG00000221983   # UBA52（EEF1D にマッチ）
+      - ENSG00000240583   # AQP1（VCAM1 にマッチ）
+      - ENSG00000173436   # MICOS10（VCAM1 にマッチ）
+      - ENSG00000219200   # RNASEK（VCAM1 にマッチ）
+      - ENSG00000176058   # TPRN（HAVCR1 にマッチ）
+      - ENSG00000167733   # HSD11B1L（HAVCR1 にマッチ）
+      - ENSG00000107185   # RGP1（HAVCR1 にマッチ）
+  negative_fixed:
+    - ENSG00000075624               # ACTB
+    - ENSG00000111640               # GAPDH
+    - ENSG00000196262               # PPIA
+  fixed_role: housekeeping
+  extra_fixed:
+    - role: negctrl_panel           # EXP-003/005 と同一の中立対照パネル
+      genes:
+        - ENSG00000090661   # CERS4
+        - ENSG00000147687   # TATDN1
+        - ENSG00000081870   # IFT25
+        - ENSG00000101558   # VAPA
+        - ENSG00000054148   # PHPT1
+        - ENSG00000166295   # ANAPC16
+        - ENSG00000104529   # EEF1D
+    - role: comparator              # 発現をそろえた比較遺伝子群（陽性対照 1 つにつき 5, 発現差・頻度・相対順位・元の位置でそろえた非駆動因子, work/comparators.csv）
+      genes:
+        - ENSG00000145626   # UGT3A1（HNF4A の比較, d=0.54）
+        - ENSG00000103260   # METRN（HNF4A の比較, d=0.61）
+        - ENSG00000277972   # CISD3（HNF4A の比較, d=0.65）
+        - ENSG00000089006   # SNX5（HNF4A の比較, d=0.68）
+        - ENSG00000178105   # DDX10（HNF4A の比較, d=0.72）
+        - ENSG00000023516   # AKAP11（PPARGC1A の比較, d=0.11）
+        - ENSG00000172466   # ZNF24（PPARGC1A の比較, d=0.23）
+        - ENSG00000242247   # ARFGAP3（PPARGC1A の比較, d=0.25）
+        - ENSG00000078399   # HOXA9（PPARGC1A の比較, d=0.26）
+        - ENSG00000164897   # TMUB1（PPARGC1A の比較, d=0.27）
+        - ENSG00000004478   # FKBP4（PPARA の比較, d=0.17）
+        - ENSG00000113318   # MSH3（PPARA の比較, d=0.40）
+        - ENSG00000179889   # PDXDC1（PPARA の比較, d=0.44）
+        - ENSG00000129968   # ABHD17A（PPARA の比較, d=0.50）
+        - ENSG00000149823   # VPS51（PPARA の比較, d=0.56）
+        - ENSG00000130517   # PGPEP1（ESRRA の比較, d=0.36）
+        - ENSG00000181192   # DHTKD1（ESRRA の比較, d=0.45）
+        - ENSG00000144827   # ABHD10（ESRRA の比較, d=0.46）
+        - ENSG00000006757   # PNPLA4（ESRRA の比較, d=0.48）
+        - ENSG00000099864   # PALM（ESRRA の比較, d=0.57）
+        - ENSG00000154447   # SH3RF1（CPT1A の比較, d=0.23）
+        - ENSG00000172086   # KRCC1（CPT1A の比較, d=0.25）
+        - ENSG00000170791   # CHCHD7（CPT1A の比較, d=0.28）
+        - ENSG00000119953   # SMNDC1（CPT1A の比較, d=0.29）
+        - ENSG00000120705   # ETF1（CPT1A の比較, d=0.31）
+        - ENSG00000075142   # SRI（NFE2L2 の比較, d=0.20）
+        - ENSG00000122359   # ANXA11（NFE2L2 の比較, d=0.28）
+        - ENSG00000118482   # PHF3（NFE2L2 の比較, d=0.36）
+        - ENSG00000112739   # PRP4K（NFE2L2 の比較, d=0.36）
+        - ENSG00000183291   # SELENOF（NFE2L2 の比較, d=0.45）
+    - role: reverse_direction       # 方向対照（障害マーカーの過剰発現は健常方向へ動かないはず, 参考）
+      genes:
+        - ENSG00000162692   # VCAM1
+        - ENSG00000113249   # HAVCR1
+
+capture:
+  embeddings: true
+  classifier_logits: false          # ΔP は飽和＋bf16 量子化で情報量ほぼゼロ（guardrails, EXP-005 §5）→ 取らない
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+analysis:                           # plan.md §6 の事前登録（結果を見る前に確定）。判定は主検定のみで行う
+  base_metric: m_raw                # 細胞ごとの補正前の目標状態への接近度 shift_goal（run_isp.py の cells.csv）
+  pos_definition: index_in_input_ids   # 摂動遺伝子の input_ids 内の位置（先頭 <cls> を含む番号）= 過剰発現で最上位へ動かす距離
+  primary_test: pos_matched_permutation   # 移動距離をそろえた並べ替え検定（plan.md §6.1）
+  pos_matched_permutation:          # 遺伝子ラベルの並べ替え。偏り補正 → 移動距離・長さの分布が重なる null 遺伝子の中での順位
+    bias_model: quadratic_lp_ll     # f = null 細胞（対象遺伝子を除く同じ seed）で y ~ 1 + lp + ll + lp² + ll² + lp·ll（lp = log2(1+pos), ll = log2 len）
+    distance: max_abs_log2          # d(i,j) = max(|lp_i − lp_j|, |ll_i − ll_j|)
+    tolerance_log2: 0.5             # 対象の細胞 i に d ≤ 0.5 の細胞を持つかで「重なり」を判定
+    min_cover_frac: 0.8             # 対象の細胞の 80% 以上が重なる null 遺伝子だけを並べ替えの相手にする
+    min_eligible_null_genes: 20     # 相手が 20 未満の対象遺伝子×seed は「判定不能（NaN）」。C3 では範囲外と数える
+    statistic: D_raw                # 遺伝子平均 mean_i [y_i − f(lp_i, ll_i)]。q = 相手のうち D_raw が小さい割合
+  cell_residual:                    # 提供者単位の副指標・半分割再現性で使う細胞ごとの補正値
+    match_k: 50                     # r_i = y_i − （null 細胞のうち d が最も近い 50 個の y の平均）。対象が null 自身ならその遺伝子を除く
+  secondary_test: within_bin_percentile   # 区間内パーセンタイル検定（副, 判定に使わない）
+  within_bin_percentile:
+    length_bins: 5                  # null 細胞の長さ 5 分位
+    pos_bins: 10                    # 各長さ区間の中で null 細胞の log2(1+pos) 10 分位 → 50 区間
+  criteria:
+    q_hi: 0.90                      # 分位 ≥ 0.90 を「上位 10%」
+    min_seeds: 2                    # 3 seed 中 2 以上
+    C1_min_genes: 2                 # 判定基準 陽性対照の分離: 6 中 2 以上（遺伝子ごとの条件は C1 ∧ C2 ∧ C9）
+    C2_min_wins: 7                  # 恒常発現遺伝子との差: 補正後の差 D が HK を 9 組（3 HK × 3 seed）中 7 以上で上回る
+    C9_min_beaten: 4                # 比較遺伝子群との差: 同じ seed で D が自分の比較遺伝子 5 つのうち 4 以上を上回る
+    C9_min_seeds: 2                 #   … を 3 seed 中 2 以上
+    C3_range: [0.10, 0.90]          # 恒常発現遺伝子の中立性: 3 遺伝子とも 3 seed 中 2 以上で範囲内（NaN は範囲外と数える）
+    C3_panel_min_genes: 5           # 中立対照パネルの中立性: 7 中 5 以上が 3 seed 中 2 以上で範囲内
+    C8a_tail_frac_max: 0.20         # 較正: null 遺伝子自身を対象にしたとき（自分を除いたプール）分位 ≥ 0.90 の割合と < 0.10 の割合がともに ≤ 0.20（3 seed 合算, 期待 0.10）
+    C8b_abs_rho_max: 0.25           # 交絡の除去: null 遺伝子の D と遺伝子ごとの log2(1+pos) 中央値・相対位置中央値の |Spearman ρ| ≤ 0.25
+    C8b_min_seeds: 2                #   … を 3 seed 中 2 以上（pos・相対位置の両方）
+    C6_marker_pct_max: 0.80         # 参考（示唆のみ）: 合格遺伝子に ddet_pct ≤ 0.80 のものがある（EXP-005 work/gene_annotation.json の値）
+    C7_reverse_max: 0.50            # 参考: 方向対照（VCAM1・HAVCR1）の分位 ≤ 0.50 が 3 seed 中 2 以上
+  donor_level:                      # 副指標（判定規則は変えない。plan.md §6.5）
+    min_cells_per_donor: 3          # 細胞 3 未満の提供者はその遺伝子×seed で除く
+    sign_consistency: true          # 提供者ごとの r の平均（3 seed 平均）> 0 の提供者の割合。null 遺伝子の同じ割合の分布での分位
+    wilcoxon_one_sided: true        # 提供者を単位とした符号順位検定（片側, 参考）
+    mixed_model: true               # r ~ 1 + (1 | 提供者) + seed 固定効果（遺伝子ごと, statsmodels MixedLM, REML）。切片・提供者分散・級内相関
+    lodo: true                      # 提供者を 1 人ずつ除いて主検定をやり直し、遺伝子ごとの合否が変わる提供者の数（C1 合格遺伝子のみ）
+  split_half:                       # 固定した 102 遺伝子（と固定 18 遺伝子の部分集合）で、提供者 14 人を 7/7 に分ける
+    n_splits: 20
+    rng_seed: 0
+    genes: all_102_fixed            # 陽性 6・方向対照 2・HK 3・パネル 7・比較 30・null 54（ISP の前に固定）
+    report: [spearman_mean, spearman_range, spearman_brown, n_genes, n_donors_per_half, n_splits]
+    reference_min: 0.7              # 参考ライン（判定に使わない）
+  continuity_a2: true               # 参考: EXP-005 と同じ a2（長さ補正した接近度）と null 分位も出す（判定に使わない）
+
+robustness:
+  seeds: [11, 12, 13]               # 過去の実験（0〜5）と重ならない新しい seed
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results
+
+compute:
+  device: mps                       # 実行はリモート計算機 2 号（spark-c083）。isp_remote.sh が cuda で上書き（device.json に記録）
+  dtype: bf16                       # PI 標準。forward bf16 / コサインは fp32（apply_dtype）
+  cache_model: true
+  sec_per_cell_gene: 0.125          # GB10 実測（EXP-005 run O: 22,800 cell×gene を 0.84 h, 1 遺伝子 200 細胞あたり約 25 s）
+  sec_fixed_per_gene_run: 3.18      # EXP-005 の遺伝子×seed ごと時間の回帰: 3.18 s + 4.49 s / 10 万トークン（n=112, r=0.53）
+  sec_per_1e5_tokens: 4.49
+  gpu_hours_estimate: 1.4           # ISP 1.19 h（306 遺伝子×seed, 7.41e7 トークン）+ 重心・起動・転送 ≈ 0.2 h（plan.md §8）

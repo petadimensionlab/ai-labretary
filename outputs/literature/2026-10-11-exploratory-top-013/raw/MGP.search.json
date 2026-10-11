@@ -1,0 +1,255 @@
+{
+ "kidney_fib": {
+  "count": "28",
+  "records": [
+   {
+    "pmid": "42786596",
+    "date": "2026 Oct 6",
+    "journal": "J Am Heart Assoc",
+    "title": "Regulators of Mineralization and Long-Term Progression of Aortic Valve and Mitral Annular Calcification: MESA.",
+    "authors": [
+     "Bortnick AE",
+     "Naveed M",
+     "Fu X"
+    ],
+    "doi": "10.1161/JAHA.125.042370"
+   },
+   {
+    "pmid": "42557519",
+    "date": "2026 Aug 6",
+    "journal": "Mol Biomed",
+    "title": "Matrix Gla Protein is a novel regulator of TGFβ-dependent fibroblast activation and kidney fibrosis.",
+    "authors": [
+     "Barrera-Chimal J",
+     "López-Ramírez J",
+     "Henley N"
+    ],
+    "doi": "10.1186/s43556-026-00518-0"
+   },
+   {
+    "pmid": "42460475",
+    "date": "2026 Sep",
+    "journal": "Arterioscler Thromb Vasc Biol",
+    "title": "Tuning BMP-Regulated Cell Differentiation in the Aortic Media by Mutating Matrix Gla Protein.",
+    "authors": [
+     "Cai X",
+     "Gunasinghe KKJ",
+     "Qi L"
+    ],
+    "doi": "10.1161/ATVBAHA.126.324621"
+   },
+   {
+    "pmid": "41478348",
+    "date": "2026 Mar",
+    "journal": "Am J Pathol",
+    "title": "Matrix Gla Protein Expression in Pericytes and Myofibroblasts Contributes to Renal Fibrosis.",
+    "authors": [
+     "Bak K",
+     "Kim H",
+     "Garland JS"
+    ],
+    "doi": "10.1016/j.ajpath.2025.12.003"
+   },
+   {
+    "pmid": "41470171",
+    "date": "2025 Dec 5",
+    "journal": "Medicina (Kaunas)",
+    "title": "Vascular Calcification in Chronic Kidney Disease and Hemodialysis: Pathophysiological Mechanisms and Emerging Biomarkers.",
+    "authors": [
+     "Palamar M",
+     "Grosu Radulescu ID",
+     "Tanasescu MD"
+    ],
+    "doi": "10.3390/medicina61122169"
+   },
+   {
+    "pmid": "39461577",
+    "date": "2024 Dec",
+    "journal": "J Struct Biol",
+    "title": "An inducible model for medial calcification based on matrix Gla protein deficiency.",
+    "authors": [
+     "Bak K",
+     "Parashar A",
+     "Allgayer R"
+    ],
+    "doi": "10.1016/j.jsb.2024.108144"
+   },
+   {
+    "pmid": "39086959",
+    "date": "2022",
+    "journal": "Front Mol Med",
+    "title": "The vascular protective effect of matrix Gla protein during kidney injury.",
+    "authors": [
+     "Kida Y",
+     "Yamaguchi I"
+    ],
+    "doi": "10.3389/fmmed.2022.970744"
+   },
+   {
+    "pmid": "35769144",
+    "date": "2022 Dec",
+    "journal": "Bone Rep",
+    "title": "Serum biomarkers for arterial calcification in humans: A systematic review.",
+    "authors": [
+     "Golüke NMS",
+     "Schoffelmeer MA",
+     "De Jonghe A"
+    ],
+    "doi": "10.1016/j.bonr.2022.101599"
+   },
+   {
+    "pmid": "35509185",
+    "date": "2022 Dec",
+    "journal": "Ren Fail",
+    "title": "Ubiquitin-specific protease 47 is associated with vascular calcification in chronic kidney disease by regulating osteogenic transdifferentiation of vascular smooth muscle cells.",
+    "authors": [
+     "Xiao Q",
+     "Tang Y",
+     "Xia J"
+    ],
+    "doi": "10.1080/0886022X.2022.2072337"
+   },
+   {
+    "pmid": "35159124",
+    "date": "2022 Jan 18",
+    "journal": "Cells",
+    "title": "Expression of Fibrosis-Related Genes in Liver and Kidney Fibrosis in Comparison to Inflammatory Bowel Diseases.",
+    "authors": [
+     "Jerala M",
+     "Hauptman N",
+     "Kojc N"
+    ],
+    "doi": "10.3390/cells11030314"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "80",
+  "records": [
+   {
+    "pmid": "42786596",
+    "date": "2026 Oct 6",
+    "journal": "J Am Heart Assoc",
+    "title": "Regulators of Mineralization and Long-Term Progression of Aortic Valve and Mitral Annular Calcification: MESA.",
+    "authors": [
+     "Bortnick AE",
+     "Naveed M",
+     "Fu X"
+    ],
+    "doi": "10.1161/JAHA.125.042370"
+   },
+   {
+    "pmid": "42654291",
+    "date": "2026 Aug 19",
+    "journal": "Nutrients",
+    "title": "Beyond Bone Health: Exploring the \"Heart-Brain-Bone\" Axis Modulated by Lipid-Soluble Nutrients (Omega-3, Vitamin D3, and Vitamin K2).",
+    "authors": [
+     "Fang SC",
+     "Huang MK",
+     "Shen HE"
+    ],
+    "doi": "10.3390/nu18162711"
+   },
+   {
+    "pmid": "41226556",
+    "date": "2025 Oct 29",
+    "journal": "Int J Mol Sci",
+    "title": "Hormonal and Sex-Specific Regulation of Key Players in Fibro-Calcific Aortic Valve Disease.",
+    "authors": [
+     "Neussl K",
+     "Werner S",
+     "Thiele H"
+    ],
+    "doi": "10.3390/ijms262110517"
+   },
+   {
+    "pmid": "41071635",
+    "date": "2025 Nov 6",
+    "journal": "J Gerontol A Biol Sci Med Sci",
+    "title": "Multi-omics Mendelian randomization and single-cell analysis identify novel therapeutic targets for osteosarcopenia.",
+    "authors": [
+     "Yang J",
+     "Gong M",
+     "Zhou Y"
+    ],
+    "doi": "10.1093/gerona/glaf228"
+   },
+   {
+    "pmid": "40423739",
+    "date": "2025 Aug",
+    "journal": "Stem Cell Rev Rep",
+    "title": "Transcriptome Profiling of Trabecular Meshwork Progenitor Cells.",
+    "authors": [
+     "Fan X",
+     "Kennedy S",
+     "Bilir EK"
+    ],
+    "doi": "10.1007/s12015-025-10900-0"
+   },
+   {
+    "pmid": "40343466",
+    "date": "2025 Sep 1",
+    "journal": "QJM",
+    "title": "Identification of novel biomarkers and drug targets for frailty-related skeletal muscle aging: a multi-omics study.",
+    "authors": [
+     "Wang Q",
+     "Zhao X",
+     "Wang W"
+    ],
+    "doi": "10.1093/qjmed/hcaf108"
+   },
+   {
+    "pmid": "39968786",
+    "date": "2025 Mar 4",
+    "journal": "J Am Heart Assoc",
+    "title": "Inactive Matrix Gla Protein and Cardiovascular Outcomes: The Multi-Ethnic Study of Atherosclerosis.",
+    "authors": [
+     "Berlot AA",
+     "Fu X",
+     "Shea MK"
+    ],
+    "doi": "10.1161/JAHA.124.036459"
+   },
+   {
+    "pmid": "39937999",
+    "date": "2025 Mar 11",
+    "journal": "Neurology",
+    "title": "Association of Social Determinants of Health With Genetic Test Request and Completion Rates in Children With Neurologic Disorders.",
+    "authors": [
+     "Cole JJ",
+     "Williams JP",
+     "Sellitto AD"
+    ],
+    "doi": "10.1212/WNL.0000000000210275"
+   },
+   {
+    "pmid": "39604863",
+    "date": "2024 Nov 27",
+    "journal": "BMC Nephrol",
+    "title": "PIVKA-II but not dp-ucMGP is associated with aortic calcification in chronic kidney disease.",
+    "authors": [
+     "Nyvad J",
+     "Christensen KL",
+     "Andersen G"
+    ],
+    "doi": "10.1186/s12882-024-03876-5"
+   },
+   {
+    "pmid": "39536932",
+    "date": "2025 Jan 1",
+    "journal": "Exp Cell Res",
+    "title": "Matrix Gla protein suppresses osteoblast senescence and promotes osteogenic differentiation by the PI3K-AKT signaling pathway.",
+    "authors": [
+     "Zhang M",
+     "Liu S",
+     "Chen Y"
+    ],
+    "doi": "10.1016/j.yexcr.2024.114329"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

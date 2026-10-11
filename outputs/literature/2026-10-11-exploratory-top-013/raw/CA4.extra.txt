@@ -1,0 +1,9 @@
+== CA4 / ca4_renal (count=177)
+  42486554 | 2026 | Enzymes | Carbonic anhydrases IV and XV.
+  42220779 | 2026 Apr | Cureus | Clinical Outcomes and Therapeutic Response in Adult TFE3-Related Renal Cell Carcinoma: A Case Series From a Tertiary Cancer Center in Southern India.
+  42167717 | 2026 Aug | Fr J Urol | Achieving no evidence of disease in metastatic renal cell carcinoma: Consolidative nephrectomy vs ablative therapy.
+  41117106 | 2025 Nov 5 | J Mater Chem B | Scalable synthesis of asymmetric hemodialysis membranes to enhance performance and biocompatibility in flat sheet and hollow fiber configurations.
+  40811810 | 2025 Sep 1 | Am J Physiol Cell Physiol | Rhbg interaction with CA-IV and its effects on NH(3)/NH(4)(+) and CO(2) transport.
+  40434420 | 2025 Nov | Naunyn Schmiedebergs Arch Pharmacol | Investigation of the mechanism of Dan Zhi Qing'e Formula for treating menopausal hot flashes using UHPLC-Q-TOF MS and network pharmacology.
+  40339614 | 2025 Jul | Fitoterapia | Hydroalcoholic extract from Syagrus cocoides Martius almonds (ariri coconut) induces diuretic effects in rodents.
+  39733639 | 2025 Jan 27 | Int Immunopharmacol | Unveiling the substantial role of rutin in the management of drug-induced nephropathy using network pharmacology and molecular docking.

@@ -1,0 +1,297 @@
+{
+  "experiment_id": "EXP-20261007-002",
+  "hypothesis_id": "HYP-20261007-02",
+  "stage": 1,
+  "smoke": true,
+  "generated_at": "2026-10-11T02:21:05.084014+09:00",
+  "duration_seconds": 0.7,
+  "note": "plan.md §4 の判定規則をそのまま適用した値。支持／否定／判定不能の確定は PI（ゲート G3）。【試し実行。この値は判定ではない】",
+  "hashes": {
+    "plan.md": "914bb39ce4ee38d61a036cd5f351753a59101b22663dce5a84e40e1e6e28cd97",
+    "config.yaml": "8305859da4445d7deb92d2477533b37d83fb6f3ed336ceca9c2f01cee2fbb1f6",
+    "script": "e4d7bd77b924681116faffd94c43d2054612f2e83b860b7b3d4a7216d1a8f109"
+  },
+  "gene_list": {
+    "n": 122,
+    "source": "outputs/literature/2026-10-11-senescence-and-degenerated-lists/senmayo_125.csv",
+    "excluded_not_in_A2_count": 2,
+    "excluded_blind_count": 1,
+    "n_in_A1_var": null
+  },
+  "blocked_genes": {
+    "count": 5,
+    "names_omitted": true,
+    "note": "盲検中のため名前を値とともに出力に書かない（plan §3.5・§7 A-1）"
+  },
+  "circularity": {
+    "note": "結果を見る前に遺伝子記号の一致だけで数えた（発現値・得点は扱わない。plan §5.4）",
+    "senmayo_122": 122,
+    "candidate_8": 8,
+    "positive_control_all": 882,
+    "positive_control_A2": 858,
+    "blocked": 5,
+    "senmayo_122_vs_candidate": 0,
+    "senmayo_122_vs_positive_control_A2": 9,
+    "candidate_vs_positive_control_A2": 1,
+    "blocked_vs_senmayo_122": 0,
+    "blocked_vs_positive_control_A2": 1
+  },
+  "A2": {
+    "tag": "A2",
+    "cells": {
+      "interval": [
+        1000,
+        2000
+      ],
+      "reference_cells": 20,
+      "degenerate_cells": 20,
+      "reference_donors": 2,
+      "degenerate_donors": 1,
+      "expected_reference": 81,
+      "expected_degenerate": 93,
+      "matches_expected": false,
+      "all_reference_cells": 252,
+      "all_degenerate_cells": 903,
+      "limited_for_smoke": true
+    },
+    "a3": {
+      "counts_integer_like": true,
+      "median_rowsum_over_nCount": 0.9990850869167429,
+      "n_checked": 1155
+    },
+    "a4": {
+      "senmayo_122": 122,
+      "usable_in_var_and_dict": 122,
+      "n_missing_in_var": 0,
+      "duplicate_feature_names_in_var": 5
+    },
+    "standardization": {
+      "method": "reference_only_within_interval",
+      "m": 0.16229508196721315,
+      "sd": 0.05920304105974927,
+      "n_reference": 20
+    },
+    "S1": {
+      "d_matched": 0.7124789559181813,
+      "p_welch_one_sided": 0.015245231060566522,
+      "mean_reference": 0.16229508196721315,
+      "mean_degenerate": 0.2,
+      "sd_reference": 0.05920304105974927,
+      "sd_degenerate": 0.04578439358612768,
+      "p_student_one_sided": 0.015054614121206119,
+      "p_mannwhitney_one_sided": 0.0038030814045053444,
+      "direction": "degenerate_higher",
+      "pass_effect_and_p": true
+    },
+    "S2": {
+      "run": true,
+      "n_sets": 200,
+      "pool_size": 10666,
+      "percentile_99": 1.340455592824843,
+      "senmayo_d": 0.7124789559181813,
+      "pass": false,
+      "empirical_one_sided_p": 0.48756218905472637,
+      "random_d_mean": 0.7208716462618271,
+      "random_d_sd": 0.23623029332971177,
+      "random_d_min": 0.13184842571260802,
+      "random_d_max": 1.3904435743076127,
+      "info": {
+        "boundaries": [
+          0.0,
+          0.0,
+          0.0,
+          0.025,
+          0.025,
+          0.05,
+          0.11499999999999985,
+          0.2,
+          0.34500000000000025,
+          0.5950000000000003,
+          1.0
+        ],
+        "senmayo_stratum_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 35,
+          "4": 0,
+          "5": 17,
+          "6": 21,
+          "7": 11,
+          "8": 13,
+          "9": 12,
+          "10": 13
+        },
+        "pool_stratum_counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2991,
+          "6": 3867,
+          "7": 1531,
+          "8": 1276,
+          "9": 653,
+          "10": 348
+        },
+        "pool_outside_strata": 0,
+        "shortage_records": [
+          {
+            "deficit_stratum": 3,
+            "donor_stratum": 5,
+            "moved": 35
+          }
+        ],
+        "n_sets": 200,
+        "random_key": 20261012,
+        "note": "各層のプールは遺伝子記号の辞書順に並べ、層の番号の昇順に random.Random(key).sample を呼ぶ（再現のため）"
+      }
+    },
+    "S3": {
+      "d_matched": 0.7124789559181813,
+      "d_unmatched": 2.110482852532098,
+      "ratio": 0.3375904973894335,
+      "all_reference_cells": 252,
+      "all_degenerate_cells": 903,
+      "threshold_ratio": 0.3333333333
+    },
+    "T6_too_few_cells": true,
+    "LODO": {
+      "unit": "donor",
+      "scope": "interval_reference_and_degenerate",
+      "changes_decision": false,
+      "donors": [
+        {
+          "donor": "163-2",
+          "n_reference": 7,
+          "n_degenerate": 0,
+          "d": null,
+          "p": null,
+          "note": "2 未満の群があり計算しない"
+        },
+        {
+          "donor": "163-5",
+          "n_reference": 13,
+          "n_degenerate": 20,
+          "d": 0.27270972149570333,
+          "p": 0.23827404829367882
+        }
+      ],
+      "d_min": 0.27270972149570333,
+      "d_median": 0.27270972149570333,
+      "d_max": 0.27270972149570333,
+      "n_pass_effect_and_p": 0,
+      "n_reversed": 0
+    },
+    "descriptive": {
+      "score_distribution": {
+        "reference": {
+          "n": 20,
+          "mean": 0.16229508196721315,
+          "median": 0.14754098360655737,
+          "sd_unbiased": 0.05920304105974927,
+          "min": 0.08196721311475409,
+          "max": 0.3360655737704918,
+          "frac_at_0": 0.0,
+          "frac_at_1": 0.0
+        },
+        "degenerate": {
+          "n": 20,
+          "mean": 0.2,
+          "median": 0.19262295081967212,
+          "sd_unbiased": 0.04578439358612768,
+          "min": 0.10655737704918032,
+          "max": 0.2786885245901639,
+          "frac_at_0": 0.0,
+          "frac_at_1": 0.0
+        }
+      },
+      "nFeature_RNA": {
+        "reference": {
+          "n": 20,
+          "mean": 1335.85,
+          "median": 1274.5,
+          "sd_unbiased": 279.4489455301178,
+          "min": 1008.0,
+          "max": 1988.0,
+          "frac_at_0": 0.0,
+          "frac_at_1": 0.0
+        },
+        "degenerate": {
+          "n": 20,
+          "mean": 1597.55,
+          "median": 1656.0,
+          "sd_unbiased": 287.67369581377767,
+          "min": 1011.0,
+          "max": 1982.0,
+          "frac_at_0": 0.0,
+          "frac_at_1": 0.0
+        },
+        "degenerate_over_reference_median_ratio": 1.29933307179286
+      },
+      "donor_cell_counts": {
+        "degenerate": {
+          "163-2": 20
+        },
+        "reference": {
+          "163-2": 13,
+          "163-5": 7
+        }
+      }
+    },
+    "sensitivity_interval": {
+      "A2_800_2500": {
+        "interval": [
+          800,
+          2500
+        ],
+        "reference_cells": 141,
+        "degenerate_cells": 183,
+        "d": 1.3411798937816488,
+        "p_welch_one_sided": 4.398864544662558e-28,
+        "note": "記述のみ。判定には使わない（plan §6.2）"
+      }
+    },
+    "scores_finite": true
+  },
+  "S4_A1": null,
+  "A1_secondary_raw": null,
+  "T_conditions": {
+    "T5_indicator_not_viable": false,
+    "T6_too_few_cells": true,
+    "T2_direction_reversed": false,
+    "T1_effect_below_0.5": false,
+    "T3_not_specific": true,
+    "T4_depth_explains": false
+  },
+  "decision_proposal": {
+    "evaluation_order": [
+      "T5",
+      "T6",
+      "T2",
+      "T1",
+      "T3",
+      "T4"
+    ],
+    "first_triggered": "T-6",
+    "S1_pass": true,
+    "S2_pass": false,
+    "S3_not_T4": true,
+    "all_of_S1_S2_S3_pass": false,
+    "confirmed_by": "PI（ゲート G3）"
+  },
+  "A_checks": {
+    "A-2_state_labels": "合格（指定した参照・比較対象のラベルがデータに実在）",
+    "A-3_counts_integer_like": true,
+    "A-4_genes": {
+      "senmayo_122": 122,
+      "usable_in_var_and_dict": 122,
+      "n_missing_in_var": 0,
+      "duplicate_feature_names_in_var": 5
+    },
+    "A-5_scores_finite": true,
+    "A-6_outputs_written": true,
+    "A-1_blocked_symbol_occurrences": 0,
+    "A-1_pass": true,
+    "A-7_duration_seconds": 0.7
+  }
+}

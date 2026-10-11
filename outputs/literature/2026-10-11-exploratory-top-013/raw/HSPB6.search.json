@@ -1,0 +1,111 @@
+{
+ "kidney_fib": {
+  "count": "0",
+  "records": []
+ },
+ "senescence": {
+  "count": "8",
+  "records": [
+   {
+    "pmid": "42010371",
+    "date": "2026 May",
+    "journal": "J Alzheimers Dis",
+    "title": "Psychometric criteria for superior cognitive performance in very old adults.",
+    "authors": [
+     "Malek-Ahmadi M",
+     "Perez SE",
+     "He B"
+    ],
+    "doi": "10.1177/13872877261435166"
+   },
+   {
+    "pmid": "39895864",
+    "date": "2025 Jan",
+    "journal": "J Orthop Translat",
+    "title": "Unveiling MiR-3085-3p as a modulator of cartilage degeneration in facet joint osteoarthritis: A novel therapeutic target.",
+    "authors": [
+     "Lai ZM",
+     "Li CL",
+     "Zhang JX"
+    ],
+    "doi": "10.1016/j.jot.2024.11.007"
+   },
+   {
+    "pmid": "39280615",
+    "date": "2024 Sep 20",
+    "journal": "iScience",
+    "title": "HSPB6: A lipid-dependent molecular chaperone inhibits α-synuclein aggregation.",
+    "authors": [
+     "Secco V",
+     "Tiago T",
+     "Staats R"
+    ],
+    "doi": "10.1016/j.isci.2024.110657"
+   },
+   {
+    "pmid": "32946285",
+    "date": "2020 Nov 1",
+    "journal": "Am J Physiol Heart Circ Physiol",
+    "title": "Tissue-specific small heat shock protein 20 activation is not associated with traditional autophagy markers in Ossabaw swine with cardiometabolic heart failure.",
+    "authors": [
+     "Silva KAS",
+     "Leary EV",
+     "Olver TD"
+    ],
+    "doi": "10.1152/ajpheart.00580.2020"
+   },
+   {
+    "pmid": "30837897",
+    "date": "2019",
+    "journal": "Front Physiol",
+    "title": "Lifelong Football Training: Effects on Autophagy and Healthy Longevity Promotion.",
+    "authors": [
+     "Mancini A",
+     "Vitucci D",
+     "Randers MB"
+    ],
+    "doi": "10.3389/fphys.2019.00132"
+   },
+   {
+    "pmid": "29289712",
+    "date": "2018 Apr",
+    "journal": "Meat Sci",
+    "title": "Proteome changes of beef in Nellore cattle with different genotypes for tenderness.",
+    "authors": [
+     "Rosa AF",
+     "Moncau CT",
+     "Poleti MD"
+    ],
+    "doi": "10.1016/j.meatsci.2017.12.006"
+   },
+   {
+    "pmid": "25956426",
+    "date": "2015 Jul 1",
+    "journal": "J Proteomics",
+    "title": "Apoptosis in muscle-to-meat aging process: The omic witness.",
+    "authors": [
+     "Longo V",
+     "Lana A",
+     "Bottero MT"
+    ],
+    "doi": "10.1016/j.jprot.2015.04.023"
+   },
+   {
+    "pmid": "14629120",
+    "date": "2003 Oct",
+    "journal": "Eur J Cell Biol",
+    "title": "Expression of small heat shock proteins HspB2, HspB8, Hsp20 and cvHsp in different tissues of the perinatal developing pig.",
+    "authors": [
+     "Verschuure P",
+     "Tatard C",
+     "Boelens WC"
+    ],
+    "doi": "10.1078/0171-9335-00337"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "kidney_fib": {
+  "count": "7",
+  "records": [
+   {
+    "pmid": "37933012",
+    "date": "2023 Nov 3",
+    "journal": "Medicine (Baltimore)",
+    "title": "Exploration of the shared genetic biomarkers in Alzheimer's disease and chronic kidney disease using integrated bioinformatics analysis.",
+    "authors": [
+     "Li J",
+     "Li Y",
+     "Niu J"
+    ],
+    "doi": "10.1097/MD.0000000000035555"
+   },
+   {
+    "pmid": "35922702",
+    "date": "2022 Nov",
+    "journal": "Int Urol Nephrol",
+    "title": "Verapamil inhibited the development of ureteral stricture by blocking CaMK II-mediated STAT3 and Smad3/JunD pathways.",
+    "authors": [
+     "Qing Z",
+     "Yuan W",
+     "Wang J"
+    ],
+    "doi": "10.1007/s11255-022-03284-4"
+   },
+   {
+    "pmid": "34512545",
+    "date": "2021",
+    "journal": "Front Endocrinol (Lausanne)",
+    "title": "Sp1-Induced lncRNA Rmrp Promotes Mesangial Cell Proliferation and Fibrosis in Diabetic Nephropathy by Modulating the miR-1a-3p/JunD Pathway.",
+    "authors": [
+     "Yang H",
+     "Wang J",
+     "Zhang Z"
+    ],
+    "doi": "10.3389/fendo.2021.690784"
+   },
+   {
+    "pmid": "25366137",
+    "date": "2014 Dec",
+    "journal": "Circ Cardiovasc Genet",
+    "title": "Hypertensive renal injury is associated with gene variation affecting immune signaling.",
+    "authors": [
+     "Braun MC",
+     "Herring SM",
+     "Gokul N"
+    ],
+    "doi": "10.1161/CIRCGENETICS.114.000533"
+   },
+   {
+    "pmid": "12975469",
+    "date": "2003 Sep",
+    "journal": "J Clin Invest",
+    "title": "JunD protects against chronic kidney disease by regulating paracrine mitogens.",
+    "authors": [
+     "Pillebout E",
+     "Weitzman JB",
+     "Burtin M"
+    ],
+    "doi": "10.1172/JCI17647"
+   },
+   {
+    "pmid": "12960363",
+    "date": "2003 Sep 16",
+    "journal": "Proc Natl Acad Sci U S A",
+    "title": "Transcription factor JunD, deprived of menin, switches from growth suppressor to growth promoter.",
+    "authors": [
+     "Agarwal SK",
+     "Novotny EA",
+     "Crabtree JS"
+    ],
+    "doi": "10.1073/pnas.1834524100"
+   },
+   {
+    "pmid": "12787392",
+    "date": "2003 Jul",
+    "journal": "Kidney Int",
+    "title": "Altered expression of immune modulator and structural genes in neonatal unilateral ureteral obstruction.",
+    "authors": [
+     "Silverstein DM",
+     "Travis BR",
+     "Thornhill BA"
+    ],
+    "doi": "10.1046/j.1523-1755.2003.00067.x"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "52",
+  "records": [
+   {
+    "pmid": "42698801",
+    "date": "2026",
+    "journal": "Juntendo Med J",
+    "title": "Novel Four-gene Panel for Detecting Senescence-associated Cell States in Skeletal Muscle Tissue.",
+    "authors": [
+     "Kunitomi T",
+     "Yamashita Y",
+     "Arikawa-Hirasawa E"
+    ],
+    "doi": ""
+   },
+   {
+    "pmid": "41740874",
+    "date": "2026 Jul",
+    "journal": "Brain Behav Immun",
+    "title": "Integrated bulk and single-cell RNA sequencing reveals peripheral immune dysregulation in adolescent major depressive disorder.",
+    "authors": [
+     "Liu X",
+     "Huang F",
+     "He Y"
+    ],
+    "doi": "10.1016/j.bbi.2026.106512"
+   },
+   {
+    "pmid": "41542537",
+    "date": "2026 Jan 6",
+    "journal": "bioRxiv",
+    "title": "Intermittent AP-1 activation in muscles contributes to exercise-induced health benefits.",
+    "authors": [
+     "Choubey A",
+     "Kumar S U",
+     "Yang T"
+    ],
+    "doi": "10.64898/2026.01.05.696542"
+   },
+   {
+    "pmid": "41511606",
+    "date": "2026 Mar",
+    "journal": "Appl Biochem Biotechnol",
+    "title": "TEAD4 and RXRA Regulate the Function of Nucleus Pulposus Cells in Intervertebral Disc Degeneration Via the TNF-α/NF-κB Pathway: An Integrated Analysis of Single-Cell RNA-Seq, Bulk RNA-Seq, and In Vitro Validation.",
+    "authors": [
+     "Yang L",
+     "Liu H",
+     "Pu J"
+    ],
+    "doi": "10.1007/s12010-025-05534-4"
+   },
+   {
+    "pmid": "41402305",
+    "date": "2025 Dec 16",
+    "journal": "Nat Commun",
+    "title": "METTL3 safeguards cell identity and epigenome of human trophoblast stem cells.",
+    "authors": [
+     "Fu H",
+     "Chen C",
+     "Huang Y"
+    ],
+    "doi": "10.1038/s41467-025-67484-z"
+   },
+   {
+    "pmid": "41284112",
+    "date": "2025 Nov 24",
+    "journal": "Biogerontology",
+    "title": "Integrated single-cell multi-omics profiling reveals a senescence-associated hematopoietic landscape and regulatory network in aging bone marrow.",
+    "authors": [
+     "Zhang G",
+     "Lin W",
+     "Guo L"
+    ],
+    "doi": "10.1007/s10522-025-10352-6"
+   },
+   {
+    "pmid": "40679987",
+    "date": "2025",
+    "journal": "PLoS One",
+    "title": "Transcranial photobiomodulation therapy with 808 nm light changes expression of genes and proteins associated with neuroprotection, neuroinflammation, oxidative stress, and Alzheimer's disease: Whole RNA sequencing of mouse cortex and hippocampus.",
+    "authors": [
+     "Li B",
+     "Golovynska I",
+     "Stepanov YV"
+    ],
+    "doi": "10.1371/journal.pone.0326881"
+   },
+   {
+    "pmid": "40255470",
+    "date": "2025",
+    "journal": "Drug Des Devel Ther",
+    "title": "Oleanolic Acid@SPIONs Alleviates Lipid-Oxidative Stress Injury of Zebrafish Blood Vessels via Regulating the Expression of JNK and MAPK Signaling Pathways in Vascular Endothelial Cells.",
+    "authors": [
+     "Gao H",
+     "Liu T",
+     "Liu J"
+    ],
+    "doi": "10.2147/DDDT.S512752"
+   },
+   {
+    "pmid": "39890789",
+    "date": "2025 Jan 31",
+    "journal": "Nat Commun",
+    "title": "Cellular senescence-associated gene IFI16 promotes HMOX1-dependent evasion of ferroptosis and radioresistance in glioblastoma.",
+    "authors": [
+     "Zhou Y",
+     "Zeng L",
+     "Cai L"
+    ],
+    "doi": "10.1038/s41467-025-56456-y"
+   },
+   {
+    "pmid": "38324177",
+    "date": "2024 Jul",
+    "journal": "J Bone Miner Metab",
+    "title": "Bone-fat linkage via interleukin-11 in response to mechanical loading.",
+    "authors": [
+     "Hiasa M",
+     "Endo I",
+     "Matsumoto T"
+    ],
+    "doi": "10.1007/s00774-023-01493-0"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "40093186",
+    "date": "2025 Sep 8",
+    "journal": "bioRxiv",
+    "title": "Distinct small molecule inhibitors of Kras specifically prime CTLA4 blockade therapy to transcriptionally reprogram Tregs and overcome resistance to suppress pancreas cancer.",
+    "authors": [
+     "Mahadevan KK",
+     "Maldonado AS",
+     "Li B"
+    ],
+    "doi": "10.1101/2025.02.28.640711"
+   }
+  ]
+ }
+}

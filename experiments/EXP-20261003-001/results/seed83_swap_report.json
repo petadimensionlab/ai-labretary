@@ -1,0 +1,72 @@
+{
+ "決定": "Labretary 2026-10-03、案 A（事前登録を 1 文字も変えない）",
+ "差し替えるもの": "results/run-83-L-1",
+ "新しい出どころ": "spark-c083（既存の EXP-20261001-001 seed83 と同じ機体）",
+ "退避先": "results-seed83-cf5b/（**消さない**）",
+ "回し直していないもの": [
+  "run-81-L-1（spark-cf5b）",
+  "run-82-L-1（spark-cf5b）"
+ ],
+ "1. 新しい seed 83 の中身": {
+  "遺伝子数": 6,
+  "顔ぶれが対象 6 個と一致": true,
+  "埋め込みの欠け": 0,
+  "盲検の混入": [],
+  "重心ファイル": true
+ },
+ "2. 状態の重心（EXP-20261001-001 との最大の絶対差）": {
+  "新しい seed 83（spark-c083）": {
+   "FIB_MFIB": 0.0,
+   "aStr": 0.0,
+   "dFIB": 0.0,
+   "dMFIB": 0.0
+  },
+  "最大": 0.0,
+  "最初の seed 83（spark-cf5b。参考）": {
+   "FIB_MFIB": 0.0,
+   "aStr": 0.0,
+   "dFIB": 0.0,
+   "dMFIB": 0.0009765625
+  },
+  "pass": true
+ },
+ "3. 退避": {
+  "から": "results/run-83-L-1",
+  "へ": "results-seed83-cf5b/run-83-L-1",
+  "注": "最初に spark-cf5b で回した seed 83。**消していない**"
+ },
+ "4. 置き換え": {
+  "遺伝子数": 6
+ },
+ "5. 表の作り直し": {
+  "cells.csv の行数": {
+   "前": 3600,
+   "後": 3600
+  },
+  "seed 83 の行数": 1200,
+  "seed・遺伝子ごとの細胞数": {
+   "run-81-L-1/ACTA2": 200,
+   "run-81-L-1/PDGFRB": 200,
+   "run-81-L-1/CNN1": 200,
+   "run-81-L-1/POSTN": 200,
+   "run-81-L-1/MYH11": 200,
+   "run-81-L-1/TAGLN": 200,
+   "run-82-L-1/ACTA2": 200,
+   "run-82-L-1/PDGFRB": 200,
+   "run-82-L-1/CNN1": 200,
+   "run-82-L-1/POSTN": 200,
+   "run-82-L-1/MYH11": 200,
+   "run-82-L-1/TAGLN": 200,
+   "run-83-L-1/ACTA2": 200,
+   "run-83-L-1/PDGFRB": 200,
+   "run-83-L-1/CNN1": 200,
+   "run-83-L-1/POSTN": 200,
+   "run-83-L-1/MYH11": 200,
+   "run-83-L-1/TAGLN": 200
+  },
+  "summary.csv の行数": 18,
+  "盲検の混入": [],
+  "cells.csv の sha256": "f6392c28eb71546b822897aa2757ea9e031c3301ceaeea914ffb76f7deda7329",
+  "summary.csv の sha256": "2597673985524d2b3161b0872c8b8fdc4fa3c45328cca07a932df2ceda8bdd3f"
+ }
+}

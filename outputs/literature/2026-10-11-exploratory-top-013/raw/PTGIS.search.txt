@@ -1,0 +1,14 @@
+== kidney_fib (count=3)
+  40779327 | 2025 Oct 1 | Kidney360 | Renal Single-Nuclear Transcriptomics Identifies Novel Therapeutic Targets in a Preclinical Model of CKD.
+  38062563 | 2024 Feb 1 | J Am Soc Nephrol | Prostacyclin Mitigates Renal Fibrosis by Activating Fibroblast Prostaglandin I 2 Receptor.
+  34722263 | 2021 | Front Oncol | Single-Cell RNA Sequencing in Multiple Pathologic Types of Renal Cell Carcinoma Revealed Novel Potential Tumor-Specific Markers.
+== senescence (count=8)
+  40881588 | 2025 | Front Cardiovasc Med | Single-cell transcriptomic analysis of the human vascular atlas provides new insights into vasorelaxation redundancy and heterogeneity.
+  39420421 | 2024 Dec | Obesity (Silver Spring) | Sustained caloric restriction potentiates insulin action by activating prostacyclin synthase.
+  37796199 | 2023 Oct 4 | Aging (Albany NY) | Analysis and experimental validation of fatty acid metabolism-related genes prostacyclin synthase (PTGIS) in endometrial cancer.
+  36339397 | 2022 | Front Endocrinol (Lausanne) | Identification and analysis of novel endometriosis biomarkers via integrative bioinformatics.
+  34007408 | 2021 | Oxid Med Cell Longev | Human Tissue Kallikrein 1 Is Downregulated in Elderly Human Prostates and Possesses Potential In Vitro Antioxidative and Antifibrotic Effects in Rodent Prostates.
+  33773368 | 2021 Jun | Neurobiol Aging | Altered sphingolipid function in Alzheimer's disease; a gene regulatory network approach.
+  32463792 | 2020 May 28 | Aging (Albany NY) | Prognostic value of prostaglandin I2 synthase and its correlation with tumor-infiltrating immune cells in lung cancer, ovarian cancer, and gastric cancer.
+  28103290 | 2017 | PLoS One | Involvement of DDAH/ADMA/NOS/cGMP and COX-2/PTGIS/cAMP Pathways in Human Tissue Kallikrein 1 Protecting Erectile Function in Aged Rats.
+== tls_lymphoid (count=0)

@@ -1,0 +1,40 @@
+{
+ "kidney_fib": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "36440259",
+    "date": "2023 Jan",
+    "journal": "JHEP Rep",
+    "title": "Histological and serological features of acute liver injury after SARS-CoV-2 vaccination.",
+    "authors": [
+     "Codoni G",
+     "Kirchner T",
+     "Engel B"
+    ],
+    "doi": "10.1016/j.jhepr.2022.100605"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "19556305",
+    "date": "2009 Aug",
+    "journal": "Int Immunol",
+    "title": "Nucleotide-hydrolyzing antibodies from the sera of autoimmune-prone MRL-lpr/lpr mice.",
+    "authors": [
+     "Andryushkova AA",
+     "Kuznetsova IA",
+     "Orlovskaya IA"
+    ],
+    "doi": "10.1093/intimm/dxp060"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

@@ -1,0 +1,6 @@
+== kidney_fib (count=1)
+  34533106 | 2021 Dec | Bioengineered | Nucleoporin 160 (NUP160) inhibition alleviates diabetic nephropathy by activating autophagy.
+== senescence (count=2)
+  41394771 | 2025 | Hum Mutat | Identification of Aging-Related Hub Genes (ATP11B, RBBP7, DOCK10, and NUP160) as Potential Biomarkers and Therapeutic Targets in Sepsis.
+  30179222 | 2018 Oct 1 | J Clin Invest | Mutations in multiple components of the nuclear pore complex cause nephrotic syndrome.
+== tls_lymphoid (count=0)

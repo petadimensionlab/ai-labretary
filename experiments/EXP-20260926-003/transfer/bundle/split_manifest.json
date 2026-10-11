@@ -1,0 +1,226 @@
+{
+ "experiment_id": "EXP-20260926-003",
+ "created": "2026-09-26T15:49:00+0900",
+ "config_sha256": "944460846b60dce83aab3e757d4abbe7ce586a3baecef470b004d1aabb0edb57",
+ "source_tokenized": "experiments/EXP-20260926-003/work/tokenized.dataset",
+ "source_tokenized_data_sha256": "ba3a14c06d57d8e6344d79329b6be9f2dad722e1e6290c675e0cc3545d312070",
+ "classes": {
+  "0": "aPT_CKD",
+  "1": "PT_healthy"
+ },
+ "label_map": {
+  "aPT_CKD_TLSlow": "aPT_CKD",
+  "aPT_CKD_TLShigh": "aPT_CKD",
+  "PT_healthy": "PT_healthy"
+ },
+ "splits": {
+  "train": {
+   "n_cells": 3136,
+   "n_donors": 14,
+   "per_class": {
+    "aPT_CKD": 1565,
+    "PT_healthy": 1571
+   },
+   "per_state": {
+    "aPT_CKD_TLSlow": 1565,
+    "PT_healthy": 1571
+   },
+   "length_mean": 1395.1,
+   "length_median": 1131.5,
+   "tokens_total": 4374888,
+   "per_donor": {
+    "164-3": {
+     "state": "PT_healthy",
+     "n_cells": 250,
+     "n_available": 274,
+     "median_length": 1063.0
+    },
+    "165-9": {
+     "state": "PT_healthy",
+     "n_cells": 250,
+     "n_available": 392,
+     "median_length": 834.0
+    },
+    "164-10": {
+     "state": "PT_healthy",
+     "n_cells": 250,
+     "n_available": 802,
+     "median_length": 959.0
+    },
+    "28-10051": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 15,
+     "n_available": 15,
+     "median_length": 2017.0
+    },
+    "29-10010": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 459,
+     "n_available": 459,
+     "median_length": 2195.0
+    },
+    "28-11515": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 61,
+     "n_available": 61,
+     "median_length": 2293.0
+    },
+    "31-10000": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 500,
+     "n_available": 2606,
+     "median_length": 722.0
+    },
+    "31-10013": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 500,
+     "n_available": 605,
+     "median_length": 1466.0
+    },
+    "29-10406": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 30,
+     "n_available": 30,
+     "median_length": 2243.5
+    },
+    "PRE018-1": {
+     "state": "PT_healthy",
+     "n_cells": 146,
+     "n_available": 146,
+     "median_length": 1112.5
+    },
+    "PRE062-1": {
+     "state": "PT_healthy",
+     "n_cells": 39,
+     "n_available": 39,
+     "median_length": 834.0
+    },
+    "Sample1157-EO1": {
+     "state": "PT_healthy",
+     "n_cells": 202,
+     "n_available": 202,
+     "median_length": 1137.0
+    },
+    "Sample1157-EO2": {
+     "state": "PT_healthy",
+     "n_cells": 250,
+     "n_available": 333,
+     "median_length": 916.5
+    },
+    "Sample1157-EO3": {
+     "state": "PT_healthy",
+     "n_cells": 184,
+     "n_available": 184,
+     "median_length": 1042.5
+    }
+   }
+  },
+  "eval": {
+   "n_cells": 374,
+   "n_donors": 7,
+   "per_class": {
+    "aPT_CKD": 120,
+    "PT_healthy": 254
+   },
+   "per_state": {
+    "aPT_CKD_TLSlow": 120,
+    "PT_healthy": 254
+   },
+   "length_mean": 1300.1,
+   "length_median": 1088.0,
+   "tokens_total": 486255,
+   "per_donor": {
+    "27-10053": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 60,
+     "n_available": 120,
+     "median_length": 2123.0
+    },
+    "29-10386": {
+     "state": "aPT_CKD_TLSlow",
+     "n_cells": 60,
+     "n_available": 106,
+     "median_length": 1369.0
+    },
+    "PRE019": {
+     "state": "PT_healthy",
+     "n_cells": 60,
+     "n_available": 432,
+     "median_length": 926.5
+    },
+    "PRE055-1": {
+     "state": "PT_healthy",
+     "n_cells": 60,
+     "n_available": 63,
+     "median_length": 1046.0
+    },
+    "Sample1158-EO1": {
+     "state": "PT_healthy",
+     "n_cells": 14,
+     "n_available": 14,
+     "median_length": 762.0
+    },
+    "Sample1158-EO2": {
+     "state": "PT_healthy",
+     "n_cells": 60,
+     "n_available": 84,
+     "median_length": 808.0
+    },
+    "Sample1158-EO3": {
+     "state": "PT_healthy",
+     "n_cells": 60,
+     "n_available": 78,
+     "median_length": 800.5
+    }
+   }
+  }
+ },
+ "donors": {
+  "train": {
+   "aPT_CKD_TLSlow": [
+    "31-10000",
+    "31-10013",
+    "29-10010",
+    "28-11515",
+    "29-10406",
+    "28-10051"
+   ],
+   "PT_healthy": [
+    "164-10",
+    "165-9",
+    "164-3",
+    "Sample1157-EO1",
+    "Sample1157-EO2",
+    "Sample1157-EO3",
+    "PRE018-1",
+    "PRE062-1"
+   ]
+  },
+  "eval": {
+   "aPT_CKD_TLSlow": [
+    "27-10053",
+    "29-10386"
+   ],
+   "PT_healthy": [
+    "PRE019",
+    "PRE055-1",
+    "Sample1158-EO1",
+    "Sample1158-EO2",
+    "Sample1158-EO3"
+   ]
+  }
+ },
+ "heldout": {
+  "n_donors_excluded": 23,
+  "n_cells_excluded_after_cap": 2082,
+  "note": "held-out（test）donor の ID と細胞はローカル専用（bundle には含めない）"
+ },
+ "token_dictionary": {
+  "file": "token_dictionary_gc104M.pkl",
+  "sha256": "67c445f4385127adfc48dcc072320cd65d6822829bf27dd38070e6e787bc597f"
+ },
+ "base_model": {
+  "name": "Geneformer-V2-316M",
+  "model_safetensors_sha256": "965ceccea81953d362081ef3843560a0e4fef88d396c28017881f1e94b1246f3"
+ }
+}

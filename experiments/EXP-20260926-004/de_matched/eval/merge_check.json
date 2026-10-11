@@ -1,0 +1,99 @@
+{
+ "genes": {
+  "VCAM1@run-3-L-1": {
+   "n": [
+    200,
+    200
+   ],
+   "same_cells": true,
+   "max_abs_diff_shift_goal": 0.0,
+   "max_abs_diff_shift_start": 0.0,
+   "max_abs_diff_dP": 0.0,
+   "within_tol": true
+  },
+  "GAPDH@run-3-L-1": {
+   "n": [
+    200,
+    200
+   ],
+   "same_cells": true,
+   "max_abs_diff_shift_goal": 0.0,
+   "max_abs_diff_shift_start": 0.0,
+   "max_abs_diff_dP": 0.0,
+   "within_tol": true
+  },
+  "VCAM1@run-4-L-1": {
+   "n": [
+    200,
+    200
+   ],
+   "same_cells": true,
+   "max_abs_diff_shift_goal": 0.0,
+   "max_abs_diff_shift_start": 0.0,
+   "max_abs_diff_dP": 0.0,
+   "within_tol": true
+  },
+  "GAPDH@run-4-L-1": {
+   "n": [
+    200,
+    200
+   ],
+   "same_cells": true,
+   "max_abs_diff_shift_goal": 0.0,
+   "max_abs_diff_shift_start": 0.0,
+   "max_abs_diff_dP": 0.0,
+   "within_tol": true
+  },
+  "VCAM1@run-5-L-1": {
+   "n": [
+    200,
+    200
+   ],
+   "same_cells": true,
+   "max_abs_diff_shift_goal": 0.0,
+   "max_abs_diff_shift_start": 0.0,
+   "max_abs_diff_dP": 0.0,
+   "within_tol": true
+  },
+  "GAPDH@run-5-L-1": {
+   "n": [
+    200,
+    200
+   ],
+   "same_cells": true,
+   "max_abs_diff_shift_goal": 0.0,
+   "max_abs_diff_shift_start": 0.0,
+   "max_abs_diff_dP": 0.0,
+   "within_tol": true
+  },
+  "ENSG00000112297@run-3-L-1": {
+   "n": [
+    200,
+    200
+   ],
+   "same_cells": true,
+   "max_abs_diff_shift_goal": 0.0,
+   "max_abs_diff_shift_start": 0.0,
+   "max_abs_diff_dP": 0.0,
+   "within_tol": true
+  }
+ },
+ "centroids": {
+  "run-3-L-1": {
+   "aPT_CKD_TLShigh": 0.0,
+   "PT_healthy": 0.0,
+   "aPT_CKD_TLSlow": 0.0
+  },
+  "run-4-L-1": {
+   "aPT_CKD_TLShigh": 0.0,
+   "PT_healthy": 0.0,
+   "aPT_CKD_TLSlow": 0.0
+  },
+  "run-5-L-1": {
+   "aPT_CKD_TLShigh": 0.0,
+   "PT_healthy": 0.0,
+   "aPT_CKD_TLSlow": 0.0
+  }
+ },
+ "merge_ok": true
+}

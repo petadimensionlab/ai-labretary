@@ -1,0 +1,511 @@
+[
+ {
+  "metric": "m_a2",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 2,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 0,
+   "NFE2L2": 3
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.883,
+   "PPARGC1A": 0.083,
+   "PPARA": 0.917,
+   "ESRRA": 0.1,
+   "CPT1A": 0.75,
+   "NFE2L2": 0.917
+  },
+  "C1p_pass_genes": [
+   "HNF4A",
+   "PPARA",
+   "NFE2L2"
+  ],
+  "C1p": true,
+  "C2p_wins_of_9": {
+   "HNF4A": 6,
+   "PPARA": 7,
+   "NFE2L2": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.55,
+   "GAPDH": 0.95,
+   "PPIA": 0.083
+  },
+  "C3": false,
+  "C3_panel_n_ok": "6/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.05,
+   "HAVCR1": 0.067
+  },
+  "null_frac_negative": 0.53
+ },
+ {
+  "metric": "m_raw",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 3,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 0,
+   "NFE2L2": 3
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.917,
+   "PPARGC1A": 0.083,
+   "PPARA": 0.917,
+   "ESRRA": 0.1,
+   "CPT1A": 0.767,
+   "NFE2L2": 0.933
+  },
+  "C1p_pass_genes": [
+   "HNF4A",
+   "PPARA",
+   "NFE2L2"
+  ],
+  "C1p": true,
+  "C2p_wins_of_9": {
+   "HNF4A": 6,
+   "PPARA": 6,
+   "NFE2L2": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.7,
+   "GAPDH": 0.95,
+   "PPIA": 0.1
+  },
+  "C3": false,
+  "C3_panel_n_ok": "6/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.05,
+   "HAVCR1": 0.067
+  },
+  "null_frac_negative": 0.02
+ },
+ {
+  "metric": "m_d",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 1,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 2,
+   "NFE2L2": 3
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.867,
+   "PPARGC1A": 0.1,
+   "PPARA": 0.933,
+   "ESRRA": 0.117,
+   "CPT1A": 0.833,
+   "NFE2L2": 0.917
+  },
+  "C1p_pass_genes": [
+   "PPARA",
+   "CPT1A",
+   "NFE2L2"
+  ],
+  "C1p": true,
+  "C2p_wins_of_9": {
+   "PPARA": 8,
+   "CPT1A": 5,
+   "NFE2L2": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.667,
+   "GAPDH": 0.95,
+   "PPIA": 0.1
+  },
+  "C3": false,
+  "C3_panel_n_ok": "6/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA",
+   "CPT1A"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.05,
+   "HAVCR1": 0.1
+  },
+  "null_frac_negative": 0.03
+ },
+ {
+  "metric": "m_d2",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 1,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 1,
+   "NFE2L2": 2
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.833,
+   "PPARGC1A": 0.117,
+   "PPARA": 0.917,
+   "ESRRA": 0.117,
+   "CPT1A": 0.8,
+   "NFE2L2": 0.9
+  },
+  "C1p_pass_genes": [
+   "PPARA",
+   "NFE2L2"
+  ],
+  "C1p": true,
+  "C2p_wins_of_9": {
+   "PPARA": 8,
+   "NFE2L2": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.517,
+   "GAPDH": 0.95,
+   "PPIA": 0.083
+  },
+  "C3": false,
+  "C3_panel_n_ok": "6/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.05,
+   "HAVCR1": 0.1
+  },
+  "null_frac_negative": 0.53
+ },
+ {
+  "metric": "m_c",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 2,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 1,
+   "NFE2L2": 3
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.867,
+   "PPARGC1A": 0.083,
+   "PPARA": 0.9,
+   "ESRRA": 0.1,
+   "CPT1A": 0.783,
+   "NFE2L2": 0.917
+  },
+  "C1p_pass_genes": [
+   "HNF4A",
+   "PPARA",
+   "NFE2L2"
+  ],
+  "C1p": true,
+  "C2p_wins_of_9": {
+   "HNF4A": 7,
+   "PPARA": 7,
+   "NFE2L2": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 1,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.55,
+   "GAPDH": 0.933,
+   "PPIA": 0.083
+  },
+  "C3": false,
+  "C3_panel_n_ok": "6/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.05,
+   "HAVCR1": 0.067
+  },
+  "null_frac_negative": 0.53
+ },
+ {
+  "metric": "V2",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 1,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 1,
+   "NFE2L2": 2
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.833,
+   "PPARGC1A": 0.133,
+   "PPARA": 0.917,
+   "ESRRA": 0.117,
+   "CPT1A": 0.8,
+   "NFE2L2": 0.9
+  },
+  "C1p_pass_genes": [
+   "PPARA",
+   "NFE2L2"
+  ],
+  "C1p": true,
+  "C2p_wins_of_9": {
+   "PPARA": 8,
+   "NFE2L2": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.667,
+   "GAPDH": 0.95,
+   "PPIA": 0.1
+  },
+  "C3": false,
+  "C3_panel_n_ok": "6/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.067,
+   "HAVCR1": 0.117
+  },
+  "null_frac_negative": 0.53
+ },
+ {
+  "metric": "V2L",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 1,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 1,
+   "NFE2L2": 2
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.833,
+   "PPARGC1A": 0.117,
+   "PPARA": 0.917,
+   "ESRRA": 0.117,
+   "CPT1A": 0.8,
+   "NFE2L2": 0.9
+  },
+  "C1p_pass_genes": [
+   "PPARA",
+   "NFE2L2"
+  ],
+  "C1p": true,
+  "C2p_wins_of_9": {
+   "PPARA": 8,
+   "NFE2L2": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.517,
+   "GAPDH": 0.95,
+   "PPIA": 0.083
+  },
+  "C3": false,
+  "C3_panel_n_ok": "6/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.05,
+   "HAVCR1": 0.1
+  },
+  "null_frac_negative": 0.53
+ },
+ {
+  "metric": "dP_a2",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 0,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 0,
+   "NFE2L2": 0
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.233,
+   "PPARGC1A": 0.617,
+   "PPARA": 0.733,
+   "ESRRA": 0.733,
+   "CPT1A": 0.667,
+   "NFE2L2": 0.783
+  },
+  "C1p_pass_genes": [
+   "PPARA"
+  ],
+  "C1p": false,
+  "C2p_wins_of_9": {
+   "PPARA": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 2,
+   "PPIA": 3
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.55,
+   "GAPDH": 0.65,
+   "PPIA": 0.467
+  },
+  "C3": true,
+  "C3_panel_n_ok": "7/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 2,
+   "HAVCR1": 1
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.5,
+   "HAVCR1": 0.617
+  },
+  "null_frac_negative": 0.5
+ },
+ {
+  "metric": "dP_raw",
+  "n_seeds": 3,
+  "pos_seeds_ge_q90": {
+   "HNF4A": 0,
+   "PPARGC1A": 0,
+   "PPARA": 2,
+   "ESRRA": 0,
+   "CPT1A": 0,
+   "NFE2L2": 0
+  },
+  "pos_pct_mean": {
+   "HNF4A": 0.233,
+   "PPARGC1A": 0.667,
+   "PPARA": 0.667,
+   "ESRRA": 0.733,
+   "CPT1A": 0.6,
+   "NFE2L2": 0.817
+  },
+  "C1p_pass_genes": [
+   "PPARA"
+  ],
+  "C1p": false,
+  "C2p_wins_of_9": {
+   "PPARA": 6
+  },
+  "C2p": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 2,
+   "PPIA": 3
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.533,
+   "GAPDH": 0.8,
+   "PPIA": 0.517
+  },
+  "C3": true,
+  "C3_panel_n_ok": "7/7",
+  "C3_panel": true,
+  "C6_nonmarker_pass": [
+   "PPARA"
+  ],
+  "C6": true,
+  "C7_seeds_low": {
+   "VCAM1": 1,
+   "HAVCR1": 2
+  },
+  "extra_pct_mean": {
+   "VCAM1": 0.683,
+   "HAVCR1": 0.417
+  },
+  "null_frac_negative": 0.35
+ }
+]

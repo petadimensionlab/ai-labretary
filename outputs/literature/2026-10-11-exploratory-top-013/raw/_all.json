@@ -1,0 +1,3565 @@
+{
+ "CA12": {
+  "kidney_fib": {
+   "count": "2",
+   "records": [
+    {
+     "pmid": "37266145",
+     "date": "2023",
+     "journal": "Front Pharmacol",
+     "title": "Therapeutic mechanism of baicalein in peritoneal dialysis-associated peritoneal fibrosis based on network pharmacology and experimental validation.",
+     "authors": [
+      "Lu X",
+      "Wu K",
+      "Jiang S"
+     ],
+     "doi": "10.3389/fphar.2023.1153503"
+    },
+    {
+     "pmid": "26911677",
+     "date": "2016 May 15",
+     "journal": "Hum Mol Genet",
+     "title": "Loss of carbonic anhydrase XII function in individuals with elevated sweat chloride concentration and pulmonary airway disease.",
+     "authors": [
+      "Lee M",
+      "Vecchio-Pagán B",
+      "Sharma N"
+     ],
+     "doi": "10.1093/hmg/ddw065"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "33",
+   "records": [
+    {
+     "pmid": "41696860",
+     "date": "2026 Mar",
+     "journal": "Hippocampus",
+     "title": "Cardiovascular Risk Indices Differentially Linked to Hippocampal Subfield Volumes: A Comparison Between Younger and Older Adults.",
+     "authors": [
+      "Homayouni R",
+      "Saifullah S",
+      "Sutton BP"
+     ],
+     "doi": "10.1002/hipo.70082"
+    },
+    {
+     "pmid": "40952471",
+     "date": "2025 Sep 15",
+     "journal": "Acta Neuropathol",
+     "title": "Differences and overlaps in TDP-43 pathology of 'pure' LATE-NC compared to LATE-NC coexisting with Alzheimer's disease.",
+     "authors": [
+      "Tomé SO",
+      "Gawor K",
+      "Ospitalieri S"
+     ],
+     "doi": "10.1007/s00401-025-02929-9"
+    },
+    {
+     "pmid": "40616955",
+     "date": "2025 Oct",
+     "journal": "Neurobiol Aging",
+     "title": "Two-year changes in hippocampal subfield volumes are age-dependent across the lifespan.",
+     "authors": [
+      "Homayouni R",
+      "Saifullah S",
+      "Chargo AN"
+     ],
+     "doi": "10.1016/j.neurobiolaging.2025.06.011"
+    },
+    {
+     "pmid": "38283178",
+     "date": "2024 Mar",
+     "journal": "JOR Spine",
+     "title": "Dynamics of N6-methyladenosine modification during aging and their potential roles in the degeneration of intervertebral disc.",
+     "authors": [
+      "Liu L",
+      "Sun H",
+      "Zhang Y"
+     ],
+     "doi": "10.1002/jsp2.1316"
+    },
+    {
+     "pmid": "35436980",
+     "date": "2022 Apr 18",
+     "journal": "Transl Psychiatry",
+     "title": "Allele-specific analysis reveals exon- and cell-type-specific regulatory effects of Alzheimer's disease-associated genetic variants.",
+     "authors": [
+      "He L",
+      "Loika Y",
+      "Kulminski AM"
+     ],
+     "doi": "10.1038/s41398-022-01913-1"
+    },
+    {
+     "pmid": "29941029",
+     "date": "2018 Jun 26",
+     "journal": "Stem Cell Res Ther",
+     "title": "Co-culturing nucleus pulposus mesenchymal stem cells with notochordal cell-rich nucleus pulposus explants attenuates tumor necrosis factor-α-induced senescence.",
+     "authors": [
+      "Li XC",
+      "Wang MS",
+      "Liu W"
+     ],
+     "doi": "10.1186/s13287-018-0919-9"
+    },
+    {
+     "pmid": "29113959",
+     "date": "2018 Jan",
+     "journal": "Mol Cell Neurosci",
+     "title": "Age-related epigenetic changes in hippocampal subregions of four animal models of Alzheimer's disease.",
+     "authors": [
+      "Lardenoije R",
+      "van den Hove DLA",
+      "Havermans M"
+     ],
+     "doi": "10.1016/j.mcn.2017.11.002"
+    },
+    {
+     "pmid": "29070571",
+     "date": "2018 Feb 1",
+     "journal": "Am J Physiol Renal Physiol",
+     "title": "Lithium induces aerobic glycolysis and glutaminolysis in collecting duct principal cells.",
+     "authors": [
+      "Alsady M",
+      "de Groot T",
+      "Kortenoeven MLA"
+     ],
+     "doi": "10.1152/ajprenal.00297.2017"
+    },
+    {
+     "pmid": "28473691",
+     "date": "2017 May 4",
+     "journal": "Sci Rep",
+     "title": "Notochordal and nucleus pulposus marker expression is maintained by sub-populations of adult human nucleus pulposus cells through aging and degeneration.",
+     "authors": [
+      "Richardson SM",
+      "Ludwinski FE",
+      "Gnanalingham KK"
+     ],
+     "doi": "10.1038/s41598-017-01567-w"
+    },
+    {
+     "pmid": "28342999",
+     "date": "2017 Jun",
+     "journal": "Neuroimage",
+     "title": "Hippocampal CA3-dentate gyrus volume uniquely linked to improvement in associative memory from childhood to adulthood.",
+     "authors": [
+      "Daugherty AM",
+      "Flinn R",
+      "Ofen N"
+     ],
+     "doi": "10.1016/j.neuroimage.2017.03.047"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "PTGIS": {
+  "kidney_fib": {
+   "count": "3",
+   "records": [
+    {
+     "pmid": "40779327",
+     "date": "2025 Oct 1",
+     "journal": "Kidney360",
+     "title": "Renal Single-Nuclear Transcriptomics Identifies Novel Therapeutic Targets in a Preclinical Model of CKD.",
+     "authors": [
+      "Chade AR",
+      "Sivasankaran SK",
+      "Sitz R"
+     ],
+     "doi": "10.34067/KID.0000000945"
+    },
+    {
+     "pmid": "38062563",
+     "date": "2024 Feb 1",
+     "journal": "J Am Soc Nephrol",
+     "title": "Prostacyclin Mitigates Renal Fibrosis by Activating Fibroblast Prostaglandin I 2 Receptor.",
+     "authors": [
+      "Li J",
+      "Guan Y",
+      "Xu Y"
+     ],
+     "doi": "10.1681/ASN.0000000000000286"
+    },
+    {
+     "pmid": "34722263",
+     "date": "2021",
+     "journal": "Front Oncol",
+     "title": "Single-Cell RNA Sequencing in Multiple Pathologic Types of Renal Cell Carcinoma Revealed Novel Potential Tumor-Specific Markers.",
+     "authors": [
+      "Su C",
+      "Lv Y",
+      "Lu W"
+     ],
+     "doi": "10.3389/fonc.2021.719564"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "8",
+   "records": [
+    {
+     "pmid": "40881588",
+     "date": "2025",
+     "journal": "Front Cardiovasc Med",
+     "title": "Single-cell transcriptomic analysis of the human vascular atlas provides new insights into vasorelaxation redundancy and heterogeneity.",
+     "authors": [
+      "Avolio E",
+      "Pearce SF",
+      "Wambeke D"
+     ],
+     "doi": "10.3389/fcvm.2025.1634645"
+    },
+    {
+     "pmid": "39420421",
+     "date": "2024 Dec",
+     "journal": "Obesity (Silver Spring)",
+     "title": "Sustained caloric restriction potentiates insulin action by activating prostacyclin synthase.",
+     "authors": [
+      "Merali C",
+      "Quinn C",
+      "Huffman KM"
+     ],
+     "doi": "10.1002/oby.24150"
+    },
+    {
+     "pmid": "37796199",
+     "date": "2023 Oct 4",
+     "journal": "Aging (Albany NY)",
+     "title": "Analysis and experimental validation of fatty acid metabolism-related genes prostacyclin synthase (PTGIS) in endometrial cancer.",
+     "authors": [
+      "Wang B",
+      "Ge S",
+      "Wang Z"
+     ],
+     "doi": "10.18632/aging.205080"
+    },
+    {
+     "pmid": "36339397",
+     "date": "2022",
+     "journal": "Front Endocrinol (Lausanne)",
+     "title": "Identification and analysis of novel endometriosis biomarkers via integrative bioinformatics.",
+     "authors": [
+      "Bae SJ",
+      "Jo Y",
+      "Cho MK"
+     ],
+     "doi": "10.3389/fendo.2022.942368"
+    },
+    {
+     "pmid": "34007408",
+     "date": "2021",
+     "journal": "Oxid Med Cell Longev",
+     "title": "Human Tissue Kallikrein 1 Is Downregulated in Elderly Human Prostates and Possesses Potential In Vitro Antioxidative and Antifibrotic Effects in Rodent Prostates.",
+     "authors": [
+      "Zhang M",
+      "Luo C",
+      "Lin D"
+     ],
+     "doi": "10.1155/2021/8877540"
+    },
+    {
+     "pmid": "33773368",
+     "date": "2021 Jun",
+     "journal": "Neurobiol Aging",
+     "title": "Altered sphingolipid function in Alzheimer's disease; a gene regulatory network approach.",
+     "authors": [
+      "Giovagnoni C",
+      "Ali M",
+      "Eijssen LMT"
+     ],
+     "doi": "10.1016/j.neurobiolaging.2021.02.001"
+    },
+    {
+     "pmid": "32463792",
+     "date": "2020 May 28",
+     "journal": "Aging (Albany NY)",
+     "title": "Prognostic value of prostaglandin I2 synthase and its correlation with tumor-infiltrating immune cells in lung cancer, ovarian cancer, and gastric cancer.",
+     "authors": [
+      "Dai D",
+      "Chen B",
+      "Feng Y"
+     ],
+     "doi": "10.18632/aging.103235"
+    },
+    {
+     "pmid": "28103290",
+     "date": "2017",
+     "journal": "PLoS One",
+     "title": "Involvement of DDAH/ADMA/NOS/cGMP and COX-2/PTGIS/cAMP Pathways in Human Tissue Kallikrein 1 Protecting Erectile Function in Aged Rats.",
+     "authors": [
+      "Cui K",
+      "Luan Y",
+      "Tang Z"
+     ],
+     "doi": "10.1371/journal.pone.0170427"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "GSN": {
+  "kidney_fib": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "40375605",
+     "date": "2025 Dec",
+     "journal": "Cell Prolif",
+     "title": "Deciphering the Immunomodulatory Function of GSN (+) Inflammatory Cancer-Associated Fibroblasts in Renal Cell Carcinoma Immunotherapy: Insights From Pan-Cancer Single-Cell Landscape and Spatial Transcriptomics Analysis.",
+     "authors": [
+      "Li S",
+      "Zhou X",
+      "Feng H"
+     ],
+     "doi": "10.1111/cpr.70062"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "23",
+   "records": [
+    {
+     "pmid": "42459655",
+     "date": "2026",
+     "journal": "Front Immunol",
+     "title": "Single-cell atlas of photoaged skin reveals JAK-STAT blockade as a strategy to reverse dermal remodeling.",
+     "authors": [
+      "Zhang M",
+      "Liu Y",
+      "Yang C"
+     ],
+     "doi": "10.3389/fimmu.2026.1748123"
+    },
+    {
+     "pmid": "40475329",
+     "date": "2025 Jun",
+     "journal": "Receptors (Basel)",
+     "title": "Gelsolin Facilitates Estrogen Receptor Beta Nuclear Translocation and Transcriptional Repression of Genes Associated with Alzheimer Disease.",
+     "authors": [
+      "Yildiz Y",
+      "Fan AHS",
+      "Hartoun AA"
+     ],
+     "doi": "10.3390/receptors4020010"
+    },
+    {
+     "pmid": "37821884",
+     "date": "2023 Oct 11",
+     "journal": "BMC Res Notes",
+     "title": "Decoding the transcriptomic expression and genomic methylation patterns in the tendon proper and its peritenon region in the aging horse.",
+     "authors": [
+      "Pechanec MY",
+      "Mienaltowski MJ"
+     ],
+     "doi": "10.1186/s13104-023-06562-1"
+    },
+    {
+     "pmid": "36650038",
+     "date": "2023 Jun",
+     "journal": "J Neurol Neurosurg Psychiatry",
+     "title": "GSN gene frameshift mutations in Alzheimer's disease.",
+     "authors": [
+      "Jiang Y",
+      "Wan M",
+      "Xiao X"
+     ],
+     "doi": "10.1136/jnnp-2022-330465"
+    },
+    {
+     "pmid": "35802752",
+     "date": "2022 Jul 8",
+     "journal": "Aging (Albany NY)",
+     "title": "Integrated proteomics and metabolomics analysis reveals hubs protein and network alterations in myasthenia gravis.",
+     "authors": [
+      "Tong T",
+      "Zhang J",
+      "Jia L"
+     ],
+     "doi": "10.18632/aging.204156"
+    },
+    {
+     "pmid": "35683981",
+     "date": "2022 May 24",
+     "journal": "Nutrients",
+     "title": "Long-Term High-Fat High-Fructose Diet Induces Type 2 Diabetes in Rats through Oxidative Stress.",
+     "authors": [
+      "Zhao Y",
+      "Wang QY",
+      "Zeng LT"
+     ],
+     "doi": "10.3390/nu14112181"
+    },
+    {
+     "pmid": "35464721",
+     "date": "2022",
+     "journal": "Front Bioeng Biotechnol",
+     "title": "Preparation and Evaluation of Liposomes and Niosomes Containing Total Ginsenosides for Anti-Photoaging Therapy.",
+     "authors": [
+      "Jin Y",
+      "Liu D",
+      "Lu Z"
+     ],
+     "doi": "10.3389/fbioe.2022.874827"
+    },
+    {
+     "pmid": "34551193",
+     "date": "2021 Dec",
+     "journal": "CNS Neurosci Ther",
+     "title": "The role of vascular dementia associated genes in patients with Alzheimer's disease: A large case-control study in the Chinese population.",
+     "authors": [
+      "Xiao X",
+      "Guo L",
+      "Liao X"
+     ],
+     "doi": "10.1111/cns.13730"
+    },
+    {
+     "pmid": "34528241",
+     "date": "2021 Dec",
+     "journal": "Am J Phys Anthropol",
+     "title": "A geometric morphometric assessment of shape variation in adult pelvic morphology.",
+     "authors": [
+      "Cox SL"
+     ],
+     "doi": "10.1002/ajpa.24399"
+    },
+    {
+     "pmid": "33875290",
+     "date": "2021 Aug",
+     "journal": "Neurobiol Aging",
+     "title": "Shared and oppositely regulated transcriptomic signatures in Huntington's disease and brain ischemia confirm known and unveil novel potential neuroprotective genes.",
+     "authors": [
+      "Yildirim F",
+      "Foddis M",
+      "Blumenau S"
+     ],
+     "doi": "10.1016/j.neurobiolaging.2021.03.001"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "COL6A2": {
+  "kidney_fib": {
+   "count": "2",
+   "records": [
+    {
+     "pmid": "40596367",
+     "date": "2025 Jul 1",
+     "journal": "Sci Rep",
+     "title": "Regulatory T cells and matrix-producing cancer associated fibroblasts contribute on the immune resistance and progression of prognosis related tumor subtypes in ccRCC.",
+     "authors": [
+      "Zhang C",
+      "Song Y",
+      "Cui X"
+     ],
+     "doi": "10.1038/s41598-025-06051-4"
+    },
+    {
+     "pmid": "37704178",
+     "date": "2023 Nov",
+     "journal": "Immunol Lett",
+     "title": "Single-cell communication patterns and their intracellular information flow in synovial fibroblastic osteoarthritis and rheumatoid arthritis.",
+     "authors": [
+      "Wang J",
+      "Liu C",
+      "Wang T"
+     ],
+     "doi": "10.1016/j.imlet.2023.09.005"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "15",
+   "records": [
+    {
+     "pmid": "42329412",
+     "date": "2026 Sep",
+     "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+     "title": "Integrated bioinformatics, single-cell analysis, and experimental validation identify quercetin as a potential therapeutic candidate for intervertebral disc degeneration.",
+     "authors": [
+      "Zhang F",
+      "Yang Y",
+      "Gou X"
+     ],
+     "doi": "10.1007/s00210-026-05619-9"
+    },
+    {
+     "pmid": "41638874",
+     "date": "2026 Feb",
+     "journal": "J Cachexia Sarcopenia Muscle",
+     "title": "Largely Distinct Post-Translational Modifications Differentiate Skeletal Muscle Wasting Caused by Cancer, Dexamethasone and Aging.",
+     "authors": [
+      "Stephan A",
+      "Graca FA",
+      "Poudel S"
+     ],
+     "doi": "10.1002/jcsm.70220"
+    },
+    {
+     "pmid": "41107120",
+     "date": "2025 Dec",
+     "journal": "Ann Rheum Dis",
+     "title": "Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.",
+     "authors": [
+      "Xu H",
+      "Liu Z",
+      "Zhou X"
+     ],
+     "doi": "10.1016/j.ard.2025.09.003"
+    },
+    {
+     "pmid": "40770761",
+     "date": "2025 Aug 6",
+     "journal": "J Transl Med",
+     "title": "COL6A2 in clear cell renal cell carcinoma: a multifaceted driver of tumor progression, immune evasion, and drug sensitivity.",
+     "authors": [
+      "Yang Y",
+      "Fan R",
+      "Zhang B"
+     ],
+     "doi": "10.1186/s12967-025-06793-9"
+    },
+    {
+     "pmid": "38915286",
+     "date": "2024 Sep 1",
+     "journal": "Am J Physiol Lung Cell Mol Physiol",
+     "title": "The lung extracellular matrix protein landscape in severe early-onset and moderate chronic obstructive pulmonary disease.",
+     "authors": [
+      "Joglekar MM",
+      "Bekker NJ",
+      "Koloko Ngassie ML"
+     ],
+     "doi": "10.1152/ajplung.00332.2023"
+    },
+    {
+     "pmid": "38696318",
+     "date": "2024 Apr 29",
+     "journal": "Aging (Albany NY)",
+     "title": "Human umbilical cord mesenchymal stem cells promote steroid-induced osteonecrosis of the femoral head repair by improving microvascular endothelial cell function.",
+     "authors": [
+      "Chen J",
+      "Jin W",
+      "Zhong C"
+     ],
+     "doi": "10.18632/aging.205794"
+    },
+    {
+     "pmid": "38598053",
+     "date": "2024 Apr 10",
+     "journal": "Acta Neuropathol",
+     "title": "Rare genetic variation in fibronectin 1 (FN1) protects against APOEε4 in Alzheimer's disease.",
+     "authors": [
+      "Bhattarai P",
+      "Gunasekaran TI",
+      "Belloy ME"
+     ],
+     "doi": "10.1007/s00401-024-02721-1"
+    },
+    {
+     "pmid": "38260431",
+     "date": "2024 Jan 2",
+     "journal": "bioRxiv",
+     "title": "Rare genetic variation in Fibronectin 1 ( FN1 ) protects against APOEe4 in Alzheimer's disease.",
+     "authors": [
+      "Bhattarai P",
+      "Gunasekaran TI",
+      "Reyes-Dumeyer D"
+     ],
+     "doi": "10.1101/2024.01.02.573895"
+    },
+    {
+     "pmid": "38095646",
+     "date": "2023 Dec 12",
+     "journal": "Aging (Albany NY)",
+     "title": "Transcriptome research of human amniocytes identifies hub genes associated with developmental dysplasia in down syndrome.",
+     "authors": [
+      "Guo Z",
+      "Xiao H",
+      "Yang W"
+     ],
+     "doi": "10.18632/aging.205291"
+    },
+    {
+     "pmid": "38020574",
+     "date": "2023 Nov",
+     "journal": "ERJ Open Res",
+     "title": "A bronchial gene signature specific for severe COPD that is retained in the nose.",
+     "authors": [
+      "van Nijnatten J",
+      "Faiz A",
+      "Timens W"
+     ],
+     "doi": "10.1183/23120541.00354-2023"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "JUND": {
+  "kidney_fib": {
+   "count": "7",
+   "records": [
+    {
+     "pmid": "37933012",
+     "date": "2023 Nov 3",
+     "journal": "Medicine (Baltimore)",
+     "title": "Exploration of the shared genetic biomarkers in Alzheimer's disease and chronic kidney disease using integrated bioinformatics analysis.",
+     "authors": [
+      "Li J",
+      "Li Y",
+      "Niu J"
+     ],
+     "doi": "10.1097/MD.0000000000035555"
+    },
+    {
+     "pmid": "35922702",
+     "date": "2022 Nov",
+     "journal": "Int Urol Nephrol",
+     "title": "Verapamil inhibited the development of ureteral stricture by blocking CaMK II-mediated STAT3 and Smad3/JunD pathways.",
+     "authors": [
+      "Qing Z",
+      "Yuan W",
+      "Wang J"
+     ],
+     "doi": "10.1007/s11255-022-03284-4"
+    },
+    {
+     "pmid": "34512545",
+     "date": "2021",
+     "journal": "Front Endocrinol (Lausanne)",
+     "title": "Sp1-Induced lncRNA Rmrp Promotes Mesangial Cell Proliferation and Fibrosis in Diabetic Nephropathy by Modulating the miR-1a-3p/JunD Pathway.",
+     "authors": [
+      "Yang H",
+      "Wang J",
+      "Zhang Z"
+     ],
+     "doi": "10.3389/fendo.2021.690784"
+    },
+    {
+     "pmid": "25366137",
+     "date": "2014 Dec",
+     "journal": "Circ Cardiovasc Genet",
+     "title": "Hypertensive renal injury is associated with gene variation affecting immune signaling.",
+     "authors": [
+      "Braun MC",
+      "Herring SM",
+      "Gokul N"
+     ],
+     "doi": "10.1161/CIRCGENETICS.114.000533"
+    },
+    {
+     "pmid": "12975469",
+     "date": "2003 Sep",
+     "journal": "J Clin Invest",
+     "title": "JunD protects against chronic kidney disease by regulating paracrine mitogens.",
+     "authors": [
+      "Pillebout E",
+      "Weitzman JB",
+      "Burtin M"
+     ],
+     "doi": "10.1172/JCI17647"
+    },
+    {
+     "pmid": "12960363",
+     "date": "2003 Sep 16",
+     "journal": "Proc Natl Acad Sci U S A",
+     "title": "Transcription factor JunD, deprived of menin, switches from growth suppressor to growth promoter.",
+     "authors": [
+      "Agarwal SK",
+      "Novotny EA",
+      "Crabtree JS"
+     ],
+     "doi": "10.1073/pnas.1834524100"
+    },
+    {
+     "pmid": "12787392",
+     "date": "2003 Jul",
+     "journal": "Kidney Int",
+     "title": "Altered expression of immune modulator and structural genes in neonatal unilateral ureteral obstruction.",
+     "authors": [
+      "Silverstein DM",
+      "Travis BR",
+      "Thornhill BA"
+     ],
+     "doi": "10.1046/j.1523-1755.2003.00067.x"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "52",
+   "records": [
+    {
+     "pmid": "42698801",
+     "date": "2026",
+     "journal": "Juntendo Med J",
+     "title": "Novel Four-gene Panel for Detecting Senescence-associated Cell States in Skeletal Muscle Tissue.",
+     "authors": [
+      "Kunitomi T",
+      "Yamashita Y",
+      "Arikawa-Hirasawa E"
+     ],
+     "doi": ""
+    },
+    {
+     "pmid": "41740874",
+     "date": "2026 Jul",
+     "journal": "Brain Behav Immun",
+     "title": "Integrated bulk and single-cell RNA sequencing reveals peripheral immune dysregulation in adolescent major depressive disorder.",
+     "authors": [
+      "Liu X",
+      "Huang F",
+      "He Y"
+     ],
+     "doi": "10.1016/j.bbi.2026.106512"
+    },
+    {
+     "pmid": "41542537",
+     "date": "2026 Jan 6",
+     "journal": "bioRxiv",
+     "title": "Intermittent AP-1 activation in muscles contributes to exercise-induced health benefits.",
+     "authors": [
+      "Choubey A",
+      "Kumar S U",
+      "Yang T"
+     ],
+     "doi": "10.64898/2026.01.05.696542"
+    },
+    {
+     "pmid": "41511606",
+     "date": "2026 Mar",
+     "journal": "Appl Biochem Biotechnol",
+     "title": "TEAD4 and RXRA Regulate the Function of Nucleus Pulposus Cells in Intervertebral Disc Degeneration Via the TNF-α/NF-κB Pathway: An Integrated Analysis of Single-Cell RNA-Seq, Bulk RNA-Seq, and In Vitro Validation.",
+     "authors": [
+      "Yang L",
+      "Liu H",
+      "Pu J"
+     ],
+     "doi": "10.1007/s12010-025-05534-4"
+    },
+    {
+     "pmid": "41402305",
+     "date": "2025 Dec 16",
+     "journal": "Nat Commun",
+     "title": "METTL3 safeguards cell identity and epigenome of human trophoblast stem cells.",
+     "authors": [
+      "Fu H",
+      "Chen C",
+      "Huang Y"
+     ],
+     "doi": "10.1038/s41467-025-67484-z"
+    },
+    {
+     "pmid": "41284112",
+     "date": "2025 Nov 24",
+     "journal": "Biogerontology",
+     "title": "Integrated single-cell multi-omics profiling reveals a senescence-associated hematopoietic landscape and regulatory network in aging bone marrow.",
+     "authors": [
+      "Zhang G",
+      "Lin W",
+      "Guo L"
+     ],
+     "doi": "10.1007/s10522-025-10352-6"
+    },
+    {
+     "pmid": "40679987",
+     "date": "2025",
+     "journal": "PLoS One",
+     "title": "Transcranial photobiomodulation therapy with 808 nm light changes expression of genes and proteins associated with neuroprotection, neuroinflammation, oxidative stress, and Alzheimer's disease: Whole RNA sequencing of mouse cortex and hippocampus.",
+     "authors": [
+      "Li B",
+      "Golovynska I",
+      "Stepanov YV"
+     ],
+     "doi": "10.1371/journal.pone.0326881"
+    },
+    {
+     "pmid": "40255470",
+     "date": "2025",
+     "journal": "Drug Des Devel Ther",
+     "title": "Oleanolic Acid@SPIONs Alleviates Lipid-Oxidative Stress Injury of Zebrafish Blood Vessels via Regulating the Expression of JNK and MAPK Signaling Pathways in Vascular Endothelial Cells.",
+     "authors": [
+      "Gao H",
+      "Liu T",
+      "Liu J"
+     ],
+     "doi": "10.2147/DDDT.S512752"
+    },
+    {
+     "pmid": "39890789",
+     "date": "2025 Jan 31",
+     "journal": "Nat Commun",
+     "title": "Cellular senescence-associated gene IFI16 promotes HMOX1-dependent evasion of ferroptosis and radioresistance in glioblastoma.",
+     "authors": [
+      "Zhou Y",
+      "Zeng L",
+      "Cai L"
+     ],
+     "doi": "10.1038/s41467-025-56456-y"
+    },
+    {
+     "pmid": "38324177",
+     "date": "2024 Jul",
+     "journal": "J Bone Miner Metab",
+     "title": "Bone-fat linkage via interleukin-11 in response to mechanical loading.",
+     "authors": [
+      "Hiasa M",
+      "Endo I",
+      "Matsumoto T"
+     ],
+     "doi": "10.1007/s00774-023-01493-0"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "40093186",
+     "date": "2025 Sep 8",
+     "journal": "bioRxiv",
+     "title": "Distinct small molecule inhibitors of Kras specifically prime CTLA4 blockade therapy to transcriptionally reprogram Tregs and overcome resistance to suppress pancreas cancer.",
+     "authors": [
+      "Mahadevan KK",
+      "Maldonado AS",
+      "Li B"
+     ],
+     "doi": "10.1101/2025.02.28.640711"
+    }
+   ]
+  }
+ },
+ "CHI3L1": {
+  "kidney_fib": {
+   "count": "9",
+   "records": [
+    {
+     "pmid": "42202512",
+     "date": "2026 Jun 24",
+     "journal": "Placenta",
+     "title": "Molecular spatial profiling of chronic intervillositis of unknown etiology implies aberrant lipid metabolism.",
+     "authors": [
+      "Kailasam S",
+      "Fayek B",
+      "Bedaiwy MA"
+     ],
+     "doi": "10.1016/j.placenta.2026.05.025"
+    },
+    {
+     "pmid": "39796197",
+     "date": "2025 Jan 2",
+     "journal": "Int J Mol Sci",
+     "title": "Physical Exercise: A Promising Treatment Against Organ Fibrosis.",
+     "authors": [
+      "Ma X",
+      "Liu B",
+      "Jiang Z"
+     ],
+     "doi": "10.3390/ijms26010343"
+    },
+    {
+     "pmid": "35300523",
+     "date": "2022 Apr 19",
+     "journal": "Circulation",
+     "title": "Therapeutic Targets for Heart Failure Identified Using Proteomics and Mendelian Randomization.",
+     "authors": [
+      "Henry A",
+      "Gordillo-Marañón M",
+      "Finan C"
+     ],
+     "doi": "10.1161/CIRCULATIONAHA.121.056663"
+    },
+    {
+     "pmid": "33290282",
+     "date": "2021 Feb 1",
+     "journal": "J Clin Invest",
+     "title": "Biomarkers of inflammation and repair in kidney disease progression.",
+     "authors": [
+      "Puthumana J",
+      "Thiessen-Philbrook H",
+      "Xu L"
+     ],
+     "doi": "10.1172/JCI139927"
+    },
+    {
+     "pmid": "32723374",
+     "date": "2020 Jul 28",
+     "journal": "BMC Nephrol",
+     "title": "Mannitol and renal graft injury in patients undergoing deceased donor renal transplantation - a randomized controlled clinical trial.",
+     "authors": [
+      "Reiterer C",
+      "Hu K",
+      "Sljivic S"
+     ],
+     "doi": "10.1186/s12882-020-01961-z"
+    },
+    {
+     "pmid": "32111704",
+     "date": "2020 Mar 6",
+     "journal": "Clin J Am Soc Nephrol",
+     "title": "Urine Markers of Kidney Tubule Cell Injury and Kidney Function Decline in SPRINT Trial Participants with CKD.",
+     "authors": [
+      "Malhotra R",
+      "Katz R",
+      "Jotwani V"
+     ],
+     "doi": "10.2215/CJN.02780319"
+    },
+    {
+     "pmid": "28679671",
+     "date": "2017 Nov",
+     "journal": "J Am Soc Nephrol",
+     "title": "Breast Regression Protein-39/Chitinase 3-Like 1 Promotes Renal Fibrosis after Kidney Injury via Activation of Myofibroblasts.",
+     "authors": [
+      "Montgomery TA",
+      "Xu L",
+      "Mason S"
+     ],
+     "doi": "10.1681/ASN.2017010110"
+    },
+    {
+     "pmid": "27189318",
+     "date": "2016 Aug 8",
+     "journal": "Clin J Am Soc Nephrol",
+     "title": "Association of Urinary Biomarkers of Inflammation, Injury, and Fibrosis with Renal Function Decline: The ACCORD Trial.",
+     "authors": [
+      "Nadkarni GN",
+      "Rao V",
+      "Ismail-Beigi F"
+     ],
+     "doi": "10.2215/CJN.12051115"
+    },
+    {
+     "pmid": "20201406",
+     "date": "2010 Jan-Feb",
+     "journal": "Tsitol Genet",
+     "title": "Chitinase 3-like protein 2 (CHI3L2, YKL-39) activates phosphorylation of extracellular signal-regulated kinases ERK1/ERK2 in human embryonic kidney (HEK293) and human glioblastoma (U87 MG) cells.",
+     "authors": [
+      "Areshkov PA",
+      "Kavsan VM"
+     ],
+     "doi": ""
+    }
+   ]
+  },
+  "senescence": {
+   "count": "55",
+   "records": [
+    {
+     "pmid": "41938515",
+     "date": "2026",
+     "journal": "Int J Med Sci",
+     "title": "Betulin inhibits inflammatory factors synthesis in osteoarthritis synovial fibroblasts by suppressing the PI3K, Akt, and mTOR pathways and activating miR-5006-5p.",
+     "authors": [
+      "Lee KT",
+      "Tsai CH",
+      "Wang YH"
+     ],
+     "doi": "10.7150/ijms.130493"
+    },
+    {
+     "pmid": "41762671",
+     "date": "2026 Oct 5",
+     "journal": "Brain",
+     "title": "Constitutive neuronal expression and disease-associated upregulation of chitinases in amyotrophic lateral sclerosis.",
+     "authors": [
+      "Gaur N",
+      "Angerer C",
+      "Gunes ZI"
+     ],
+     "doi": "10.1093/brain/awag083"
+    },
+    {
+     "pmid": "41756213",
+     "date": "2026",
+     "journal": "Brain Commun",
+     "title": "Increased cerebrospinal fluid YKL-40 concentration in hip fracture patients with delirium.",
+     "authors": [
+      "Berntsen T",
+      "Blennow K",
+      "Zetterberg H"
+     ],
+     "doi": "10.1093/braincomms/fcag005"
+    },
+    {
+     "pmid": "41739819",
+     "date": "2026",
+     "journal": "PLoS One",
+     "title": "Transcriptomic response of skeletal muscle to acute aerobic versus combined exercise in chronic kidney disease.",
+     "authors": [
+      "Baker LA",
+      "Graham-Brown M",
+      "Wilkinson TJ"
+     ],
+     "doi": "10.1371/journal.pone.0324303"
+    },
+    {
+     "pmid": "41583005",
+     "date": "2025",
+     "journal": "Front Aging Neurosci",
+     "title": "The interplay of homeostasis, inflammation, and oxidative stress in neurodegenerative disorders: the role of biological markers, antioxidants, lithium, and TMS - a proposed framework for preventing neurodegenerative disorders through biomarkers and multimodal therapies.",
+     "authors": [
+      "Lado L",
+      "Misir A"
+     ],
+     "doi": "10.3389/fnagi.2025.1607669"
+    },
+    {
+     "pmid": "41425914",
+     "date": "2025",
+     "journal": "Front Aging Neurosci",
+     "title": "Peripheral CHI3L1 expression is associated with APOE ε4 status in early-onset Alzheimer's disease.",
+     "authors": [
+      "Steinmaurer A",
+      "Breit L",
+      "Stögmann E"
+     ],
+     "doi": "10.3389/fnagi.2025.1730319"
+    },
+    {
+     "pmid": "41324815",
+     "date": "2025 Dec 1",
+     "journal": "Mol Neurobiol",
+     "title": "Sex-Specific Molecular Architecture of Microglia-Mediated Neuronal Pruning Across the Human Lifespan.",
+     "authors": [
+      "Sanfilippo C",
+      "Castrogiovanni P",
+      "Imbesi R"
+     ],
+     "doi": "10.1007/s12035-025-05547-4"
+    },
+    {
+     "pmid": "41282856",
+     "date": "2025 Oct 24",
+     "journal": "medRxiv",
+     "title": "Plasma proteomic signatures of preclinical Alzheimer's disease biomarkers and memory in clinically unimpaired older adults.",
+     "authors": [
+      "Trelle AN",
+      "Cody KA",
+      "Nguyen TT"
+     ],
+     "doi": "10.1101/2025.10.22.25338569"
+    },
+    {
+     "pmid": "41107120",
+     "date": "2025 Dec",
+     "journal": "Ann Rheum Dis",
+     "title": "Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.",
+     "authors": [
+      "Xu H",
+      "Liu Z",
+      "Zhou X"
+     ],
+     "doi": "10.1016/j.ard.2025.09.003"
+    },
+    {
+     "pmid": "40842648",
+     "date": "2025",
+     "journal": "Front Aging Neurosci",
+     "title": "Neuroinflammation-mediated YKL-40 correlates with tau pathology and predicts longitudinal cognitive impairment and brain atrophy in Alzheimer's disease, with hypertensive dependency.",
+     "authors": [
+      "Wang YY",
+      "Zhang M",
+      "Chen SJ"
+     ],
+     "doi": "10.3389/fnagi.2025.1630022"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "39397494",
+     "date": "2024 Jan-Dec",
+     "journal": "Gut Microbes",
+     "title": "ChiA: a major player in the virulence of Crohn's disease-associated adherent and invasive Escherichia coli (AIEC).",
+     "authors": [
+      "Fargeas M",
+      "Faure F",
+      "Douadi C"
+     ],
+     "doi": "10.1080/19490976.2024.2412667"
+    }
+   ]
+  }
+ },
+ "CCL21": {
+  "kidney_fib": {
+   "count": "13",
+   "records": [
+    {
+     "pmid": "39234304",
+     "date": "2024",
+     "journal": "Front Physiol",
+     "title": "Lithium-induced apoptotic cell death is not accompanied by a noticeable inflammatory response in the kidney.",
+     "authors": [
+      "Baranovskaya I",
+      "Volk K",
+      "Alexander S"
+     ],
+     "doi": "10.3389/fphys.2024.1399396"
+    },
+    {
+     "pmid": "39058890",
+     "date": "2024 Jul 26",
+     "journal": "Medicine (Baltimore)",
+     "title": "Bioinformatics analysis reveals CCR7 as a potential biomarker for predicting CKD progression.",
+     "authors": [
+      "Lai J",
+      "Shan H",
+      "Cui S"
+     ],
+     "doi": "10.1097/MD.0000000000033705"
+    },
+    {
+     "pmid": "37446007",
+     "date": "2023 Jun 29",
+     "journal": "Int J Mol Sci",
+     "title": "A2BAR Antagonism Decreases the Glomerular Expression and Secretion of Chemoattractants for Monocytes and the Pro-Fibrotic M2 Macrophages Polarization during Diabetic Nephropathy.",
+     "authors": [
+      "Torres-Arévalo Á",
+      "Nahuelpán Y",
+      "Muñoz K"
+     ],
+     "doi": "10.3390/ijms241310829"
+    },
+    {
+     "pmid": "35691500",
+     "date": "2022 Aug",
+     "journal": "J Control Release",
+     "title": "CCL21 and beta-cell antigen releasing hydrogels as tolerance-inducing therapy in Type I diabetes.",
+     "authors": [
+      "Zisi Tegou F",
+      "Velluto D",
+      "Stock AA"
+     ],
+     "doi": "10.1016/j.jconrel.2022.06.008"
+    },
+    {
+     "pmid": "34956231",
+     "date": "2021",
+     "journal": "Front Immunol",
+     "title": "Lymphatic Reconstruction in Kidney Allograft Aggravates Chronic Rejection by Promoting Alloantigen Presentation.",
+     "authors": [
+      "Lin J",
+      "Chen Y",
+      "Zhu H"
+     ],
+     "doi": "10.3389/fimmu.2021.796260"
+    },
+    {
+     "pmid": "33391465",
+     "date": "2021",
+     "journal": "Theranostics",
+     "title": "Tertiary lymphoid organs are associated with the progression of kidney damage and regulated by interleukin-17A.",
+     "authors": [
+      "Luo R",
+      "Cheng Y",
+      "Chang D"
+     ],
+     "doi": "10.7150/thno.48624"
+    },
+    {
+     "pmid": "32589444",
+     "date": "2020 Aug 1",
+     "journal": "Am J Physiol Heart Circ Physiol",
+     "title": "Pressure overload generates a cardiac-specific profile of inflammatory mediators.",
+     "authors": [
+      "O'Brien M",
+      "Baicu CF",
+      "Van Laer AO"
+     ],
+     "doi": "10.1152/ajpheart.00274.2020"
+    },
+    {
+     "pmid": "31249871",
+     "date": "2019 Jun",
+     "journal": "Sci Adv",
+     "title": "Lymphangiogenesis in kidney and lymph node mediates renal inflammation and fibrosis.",
+     "authors": [
+      "Pei G",
+      "Yao Y",
+      "Yang Q"
+     ],
+     "doi": "10.1126/sciadv.aaw5075"
+    },
+    {
+     "pmid": "24599047",
+     "date": "2014",
+     "journal": "PLoS One",
+     "title": "TWEAK promotes peritoneal inflammation.",
+     "authors": [
+      "Sanz AB",
+      "Aroeira LS",
+      "Bellon T"
+     ],
+     "doi": "10.1371/journal.pone.0090399"
+    },
+    {
+     "pmid": "23498789",
+     "date": "2013 Mar",
+     "journal": "Transplant Proc",
+     "title": "Distribution and expression of fibroblast-specific protein chemokine CCL21 and chemokine receptor CCR7 in renal allografts.",
+     "authors": [
+      "Zhou HL",
+      "Wang YT",
+      "Gao T"
+     ],
+     "doi": "10.1016/j.transproceed.2012.10.042"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "39",
+   "records": [
+    {
+     "pmid": "42620206",
+     "date": "2026 Aug 9",
+     "journal": "bioRxiv",
+     "title": "Lymphatic CD49a is a driver of meningeal immune aging and cognitive decline.",
+     "authors": [
+      "Frederick NM",
+      "Tinkey R",
+      "Tavares GA"
+     ],
+     "doi": "10.64898/2026.08.04.742777"
+    },
+    {
+     "pmid": "41946393",
+     "date": "2026 Apr 5",
+     "journal": "J Adv Res",
+     "title": "From repair to disease: lymphatic contributions to regeneration, cancer and ageing.",
+     "authors": [
+      "Zhang Y",
+      "Tian Q",
+      "Yang Y"
+     ],
+     "doi": "10.1016/j.jare.2026.04.005"
+    },
+    {
+     "pmid": "41630303",
+     "date": "2026 Jan 30",
+     "journal": "Medicine (Baltimore)",
+     "title": "Identification of potential drug targets for Alzheimer's disease from genetic insights: A Mendelian randomization study.",
+     "authors": [
+      "Zhao YH",
+      "Ning JH",
+      "Zhang X"
+     ],
+     "doi": "10.1097/MD.0000000000045715"
+    },
+    {
+     "pmid": "41074767",
+     "date": "2026 Feb 18",
+     "journal": "Biol Reprod",
+     "title": "Anti-Müllerian hormone induces a reversible quiescence-associated secretory phenotype in preantral follicles†.",
+     "authors": [
+      "Meinsohn MC",
+      "Cleverdon J",
+      "Mermin-Bunnell AM"
+     ],
+     "doi": "10.1093/biolre/ioaf230"
+    },
+    {
+     "pmid": "40709392",
+     "date": "2025 Sep 1",
+     "journal": "Korean J Physiol Pharmacol",
+     "title": "Age-related changes in diurnal expression of inflammatory mediators in the brain and peripheral blood of male and female mice.",
+     "authors": [
+      "Lee EM",
+      "Kim HJ",
+      "Park Y"
+     ],
+     "doi": "10.4196/kjpp.24.372"
+    },
+    {
+     "pmid": "40500987",
+     "date": "2025 Jun",
+     "journal": "Cell Biochem Funct",
+     "title": "Increased Fascin1 and Pak1 Expressions Enhance Age-Associated B-Cell Actin Cytoskeleton Remodeling and Motility.",
+     "authors": [
+      "Fujiwara M",
+      "Kondo R",
+      "Sugiyama Y"
+     ],
+     "doi": "10.1002/cbf.70090"
+    },
+    {
+     "pmid": "39847262",
+     "date": "2025 Jun",
+     "journal": "Geroscience",
+     "title": "Painful diabetic neuropathy is associated with accelerated epigenetic aging.",
+     "authors": [
+      "Kwiatkowska KM",
+      "Garagnani P",
+      "Bonafé M"
+     ],
+     "doi": "10.1007/s11357-025-01516-w"
+    },
+    {
+     "pmid": "39773566",
+     "date": "2025 Jan 7",
+     "journal": "J Immunother Cancer",
+     "title": "Chemotherapy-induced cellular senescence promotes stemness of aggressive B-cell non-Hodgkin's lymphoma via CCR7/ARHGAP18/IKBα signaling activation.",
+     "authors": [
+      "Wang J",
+      "Tao Q",
+      "Huang K"
+     ],
+     "doi": "10.1136/jitc-2024-009356"
+    },
+    {
+     "pmid": "39586378",
+     "date": "2025 Jan",
+     "journal": "Neurochem Int",
+     "title": "Accelerated senescence exacerbates α-synucleinopathy in senescence-accelerated prone 8 mice via persistent neuroinflammation.",
+     "authors": [
+      "Sakiyama H",
+      "Baba K",
+      "Kimura Y"
+     ],
+     "doi": "10.1016/j.neuint.2024.105906"
+    },
+    {
+     "pmid": "39321290",
+     "date": "2024 Sep 27",
+     "journal": "Sci Adv",
+     "title": "Skewed epithelial cell differentiation and premature aging of the thymus in the absence of vitamin D signaling.",
+     "authors": [
+      "Artusa P",
+      "Nguyen Yamamoto L",
+      "Barbier C"
+     ],
+     "doi": "10.1126/sciadv.adm9582"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "114",
+   "records": [
+    {
+     "pmid": "42749753",
+     "date": "2026 Sep 16",
+     "journal": "Nat Rev Immunol",
+     "title": "Immunogenic cell death and tertiary lymphoid structures: bridging tumour cell death and immune organization.",
+     "authors": [
+      "Hanc R",
+      "Demuynck R",
+      "Krysko DV"
+     ],
+     "doi": "10.1038/s41577-026-01356-5"
+    },
+    {
+     "pmid": "42566543",
+     "date": "2026 Aug 7",
+     "journal": "Sci Adv",
+     "title": "Formation of tertiary lymphoid structures drives Parkin antitumor immunity.",
+     "authors": [
+      "Perego M",
+      "Kossenkov AV",
+      "Ghosh JC"
+     ],
+     "doi": "10.1126/sciadv.aef3194"
+    },
+    {
+     "pmid": "42358824",
+     "date": "2026",
+     "journal": "Oncol Res",
+     "title": "Germinal Center-Like Tertiary Lymphoid Structures Mark Immune Responsiveness and Enable Checkpoint Immunotherapy in Bladder Cancer.",
+     "authors": [
+      "Yin Z",
+      "Zhen X",
+      "Li H"
+     ],
+     "doi": "10.32604/or.2026.077808"
+    },
+    {
+     "pmid": "42227655",
+     "date": "2026 Jun 15",
+     "journal": "FASEB J",
+     "title": "TNFSF15 Promotes Vascular Normalization and Tertiary Lymphoid Structure Formation in Experimental Ovarian Cancer.",
+     "authors": [
+      "Wang JY",
+      "Wang YY",
+      "Zhang LS"
+     ],
+     "doi": "10.1096/fj.202600170R"
+    },
+    {
+     "pmid": "42204605",
+     "date": "2026 May 27",
+     "journal": "Biomark Res",
+     "title": "The formation and function of tertiary lymphoid structures.",
+     "authors": [
+      "Zhang C",
+      "Lv P",
+      "Hou Y"
+     ],
+     "doi": "10.1186/s40364-026-00939-7"
+    },
+    {
+     "pmid": "41843154",
+     "date": "2026 Mar 17",
+     "journal": "Cancer Immunol Immunother",
+     "title": "Association of CCL21(+) CAFs with B-cell recruitment and TLS maturation in penile squamous cell carcinoma.",
+     "authors": [
+      "Li X",
+      "Chen D",
+      "Guo Y"
+     ],
+     "doi": "10.1007/s00262-026-04348-5"
+    },
+    {
+     "pmid": "41183186",
+     "date": "2025 Nov 11",
+     "journal": "Proc Natl Acad Sci U S A",
+     "title": "Chemokine/cytokine-releasing biomaterials induce in situ tertiary lymphoid-like structures and enhance antitumor immunity.",
+     "authors": [
+      "Falahat R",
+      "Mulé JJ"
+     ],
+     "doi": "10.1073/pnas.2409560122"
+    },
+    {
+     "pmid": "40721500",
+     "date": "2025 Oct",
+     "journal": "Genes Immun",
+     "title": "Impact of tertiary lymphoid structure scores and their stage of maturation on prognosis of colorectal cancer patients.",
+     "authors": [
+      "Shen S",
+      "Sun R",
+      "Wang T"
+     ],
+     "doi": "10.1038/s41435-025-00346-2"
+    },
+    {
+     "pmid": "40718780",
+     "date": "2025",
+     "journal": "PeerJ",
+     "title": "Tertiary lymphoid structures-driven immune infiltration patterns and their association with survival in neuroblastoma.",
+     "authors": [
+      "Liu X",
+      "Deng J",
+      "Yu B"
+     ],
+     "doi": "10.7717/peerj.19767"
+    },
+    {
+     "pmid": "40685403",
+     "date": "2025 Jul 21",
+     "journal": "Signal Transduct Target Ther",
+     "title": "Differential expression pattern of CC chemokine receptor 7 guides precision treatment of hepatocellular carcinoma.",
+     "authors": [
+      "Qin J",
+      "Gong Q",
+      "Zhou C"
+     ],
+     "doi": "10.1038/s41392-025-02308-6"
+    }
+   ]
+  }
+ },
+ "MGP": {
+  "kidney_fib": {
+   "count": "28",
+   "records": [
+    {
+     "pmid": "42786596",
+     "date": "2026 Oct 6",
+     "journal": "J Am Heart Assoc",
+     "title": "Regulators of Mineralization and Long-Term Progression of Aortic Valve and Mitral Annular Calcification: MESA.",
+     "authors": [
+      "Bortnick AE",
+      "Naveed M",
+      "Fu X"
+     ],
+     "doi": "10.1161/JAHA.125.042370"
+    },
+    {
+     "pmid": "42557519",
+     "date": "2026 Aug 6",
+     "journal": "Mol Biomed",
+     "title": "Matrix Gla Protein is a novel regulator of TGFβ-dependent fibroblast activation and kidney fibrosis.",
+     "authors": [
+      "Barrera-Chimal J",
+      "López-Ramírez J",
+      "Henley N"
+     ],
+     "doi": "10.1186/s43556-026-00518-0"
+    },
+    {
+     "pmid": "42460475",
+     "date": "2026 Sep",
+     "journal": "Arterioscler Thromb Vasc Biol",
+     "title": "Tuning BMP-Regulated Cell Differentiation in the Aortic Media by Mutating Matrix Gla Protein.",
+     "authors": [
+      "Cai X",
+      "Gunasinghe KKJ",
+      "Qi L"
+     ],
+     "doi": "10.1161/ATVBAHA.126.324621"
+    },
+    {
+     "pmid": "41478348",
+     "date": "2026 Mar",
+     "journal": "Am J Pathol",
+     "title": "Matrix Gla Protein Expression in Pericytes and Myofibroblasts Contributes to Renal Fibrosis.",
+     "authors": [
+      "Bak K",
+      "Kim H",
+      "Garland JS"
+     ],
+     "doi": "10.1016/j.ajpath.2025.12.003"
+    },
+    {
+     "pmid": "41470171",
+     "date": "2025 Dec 5",
+     "journal": "Medicina (Kaunas)",
+     "title": "Vascular Calcification in Chronic Kidney Disease and Hemodialysis: Pathophysiological Mechanisms and Emerging Biomarkers.",
+     "authors": [
+      "Palamar M",
+      "Grosu Radulescu ID",
+      "Tanasescu MD"
+     ],
+     "doi": "10.3390/medicina61122169"
+    },
+    {
+     "pmid": "39461577",
+     "date": "2024 Dec",
+     "journal": "J Struct Biol",
+     "title": "An inducible model for medial calcification based on matrix Gla protein deficiency.",
+     "authors": [
+      "Bak K",
+      "Parashar A",
+      "Allgayer R"
+     ],
+     "doi": "10.1016/j.jsb.2024.108144"
+    },
+    {
+     "pmid": "39086959",
+     "date": "2022",
+     "journal": "Front Mol Med",
+     "title": "The vascular protective effect of matrix Gla protein during kidney injury.",
+     "authors": [
+      "Kida Y",
+      "Yamaguchi I"
+     ],
+     "doi": "10.3389/fmmed.2022.970744"
+    },
+    {
+     "pmid": "35769144",
+     "date": "2022 Dec",
+     "journal": "Bone Rep",
+     "title": "Serum biomarkers for arterial calcification in humans: A systematic review.",
+     "authors": [
+      "Golüke NMS",
+      "Schoffelmeer MA",
+      "De Jonghe A"
+     ],
+     "doi": "10.1016/j.bonr.2022.101599"
+    },
+    {
+     "pmid": "35509185",
+     "date": "2022 Dec",
+     "journal": "Ren Fail",
+     "title": "Ubiquitin-specific protease 47 is associated with vascular calcification in chronic kidney disease by regulating osteogenic transdifferentiation of vascular smooth muscle cells.",
+     "authors": [
+      "Xiao Q",
+      "Tang Y",
+      "Xia J"
+     ],
+     "doi": "10.1080/0886022X.2022.2072337"
+    },
+    {
+     "pmid": "35159124",
+     "date": "2022 Jan 18",
+     "journal": "Cells",
+     "title": "Expression of Fibrosis-Related Genes in Liver and Kidney Fibrosis in Comparison to Inflammatory Bowel Diseases.",
+     "authors": [
+      "Jerala M",
+      "Hauptman N",
+      "Kojc N"
+     ],
+     "doi": "10.3390/cells11030314"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "80",
+   "records": [
+    {
+     "pmid": "42786596",
+     "date": "2026 Oct 6",
+     "journal": "J Am Heart Assoc",
+     "title": "Regulators of Mineralization and Long-Term Progression of Aortic Valve and Mitral Annular Calcification: MESA.",
+     "authors": [
+      "Bortnick AE",
+      "Naveed M",
+      "Fu X"
+     ],
+     "doi": "10.1161/JAHA.125.042370"
+    },
+    {
+     "pmid": "42654291",
+     "date": "2026 Aug 19",
+     "journal": "Nutrients",
+     "title": "Beyond Bone Health: Exploring the \"Heart-Brain-Bone\" Axis Modulated by Lipid-Soluble Nutrients (Omega-3, Vitamin D3, and Vitamin K2).",
+     "authors": [
+      "Fang SC",
+      "Huang MK",
+      "Shen HE"
+     ],
+     "doi": "10.3390/nu18162711"
+    },
+    {
+     "pmid": "41226556",
+     "date": "2025 Oct 29",
+     "journal": "Int J Mol Sci",
+     "title": "Hormonal and Sex-Specific Regulation of Key Players in Fibro-Calcific Aortic Valve Disease.",
+     "authors": [
+      "Neussl K",
+      "Werner S",
+      "Thiele H"
+     ],
+     "doi": "10.3390/ijms262110517"
+    },
+    {
+     "pmid": "41071635",
+     "date": "2025 Nov 6",
+     "journal": "J Gerontol A Biol Sci Med Sci",
+     "title": "Multi-omics Mendelian randomization and single-cell analysis identify novel therapeutic targets for osteosarcopenia.",
+     "authors": [
+      "Yang J",
+      "Gong M",
+      "Zhou Y"
+     ],
+     "doi": "10.1093/gerona/glaf228"
+    },
+    {
+     "pmid": "40423739",
+     "date": "2025 Aug",
+     "journal": "Stem Cell Rev Rep",
+     "title": "Transcriptome Profiling of Trabecular Meshwork Progenitor Cells.",
+     "authors": [
+      "Fan X",
+      "Kennedy S",
+      "Bilir EK"
+     ],
+     "doi": "10.1007/s12015-025-10900-0"
+    },
+    {
+     "pmid": "40343466",
+     "date": "2025 Sep 1",
+     "journal": "QJM",
+     "title": "Identification of novel biomarkers and drug targets for frailty-related skeletal muscle aging: a multi-omics study.",
+     "authors": [
+      "Wang Q",
+      "Zhao X",
+      "Wang W"
+     ],
+     "doi": "10.1093/qjmed/hcaf108"
+    },
+    {
+     "pmid": "39968786",
+     "date": "2025 Mar 4",
+     "journal": "J Am Heart Assoc",
+     "title": "Inactive Matrix Gla Protein and Cardiovascular Outcomes: The Multi-Ethnic Study of Atherosclerosis.",
+     "authors": [
+      "Berlot AA",
+      "Fu X",
+      "Shea MK"
+     ],
+     "doi": "10.1161/JAHA.124.036459"
+    },
+    {
+     "pmid": "39937999",
+     "date": "2025 Mar 11",
+     "journal": "Neurology",
+     "title": "Association of Social Determinants of Health With Genetic Test Request and Completion Rates in Children With Neurologic Disorders.",
+     "authors": [
+      "Cole JJ",
+      "Williams JP",
+      "Sellitto AD"
+     ],
+     "doi": "10.1212/WNL.0000000000210275"
+    },
+    {
+     "pmid": "39604863",
+     "date": "2024 Nov 27",
+     "journal": "BMC Nephrol",
+     "title": "PIVKA-II but not dp-ucMGP is associated with aortic calcification in chronic kidney disease.",
+     "authors": [
+      "Nyvad J",
+      "Christensen KL",
+      "Andersen G"
+     ],
+     "doi": "10.1186/s12882-024-03876-5"
+    },
+    {
+     "pmid": "39536932",
+     "date": "2025 Jan 1",
+     "journal": "Exp Cell Res",
+     "title": "Matrix Gla protein suppresses osteoblast senescence and promotes osteogenic differentiation by the PI3K-AKT signaling pathway.",
+     "authors": [
+      "Zhang M",
+      "Liu S",
+      "Chen Y"
+     ],
+     "doi": "10.1016/j.yexcr.2024.114329"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "CTSH": {
+  "kidney_fib": {
+   "count": "3",
+   "records": [
+    {
+     "pmid": "36465937",
+     "date": "2022",
+     "journal": "Front Med (Lausanne)",
+     "title": "Proteomic analysis of urinary extracellular vesicles of kidney transplant recipients with BKV viruria and viremia: A pilot study.",
+     "authors": [
+      "Bruschi M",
+      "Granata S",
+      "Candiano G"
+     ],
+     "doi": "10.3389/fmed.2022.1028085"
+    },
+    {
+     "pmid": "34716619",
+     "date": "2021 Dec",
+     "journal": "J Clin Lab Anal",
+     "title": "A five-gene methylation signature predicts overall survival of patients with clear cell renal cell carcinoma.",
+     "authors": [
+      "Jing X",
+      "Xu G",
+      "Gong Y"
+     ],
+     "doi": "10.1002/jcla.24031"
+    },
+    {
+     "pmid": "17500053",
+     "date": "2007 Jul 27",
+     "journal": "J Biol Chem",
+     "title": "Cathespin H is an Fgf10 target involved in Bmp4 degradation during lung branching morphogenesis.",
+     "authors": [
+      "Lü J",
+      "Qian J",
+      "Keppler D"
+     ],
+     "doi": "10.1074/jbc.M700063200"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "10",
+   "records": [
+    {
+     "pmid": "42327006",
+     "date": "2026 Dec",
+     "journal": "Regen Ther",
+     "title": "Long-term expandable auricular chondrocytes reveal a conserved nine-gene decline module underlying senescence-independent dedifferentiation.",
+     "authors": [
+      "Alemujiang D",
+      "Tsuji N",
+      "Sakamoto T"
+     ],
+     "doi": "10.1016/j.reth.2026.101146"
+    },
+    {
+     "pmid": "41315858",
+     "date": "2026 Jan",
+     "journal": "Nat Rev Neurol",
+     "title": "Microglial phagocytosis in Alzheimer disease.",
+     "authors": [
+      "Brown GC",
+      "St George-Hyslop P",
+      "Paolicelli RC"
+     ],
+     "doi": "10.1038/s41582-025-01162-y"
+    },
+    {
+     "pmid": "40820167",
+     "date": "2025 Aug 18",
+     "journal": "Sci Rep",
+     "title": "Integration of multi-omics quantitative trait loci evidence reveals novel susceptibility genes for Alzheimer's disease.",
+     "authors": [
+      "Gao J",
+      "Bi X",
+      "Jiang W"
+     ],
+     "doi": "10.1038/s41598-025-12290-2"
+    },
+    {
+     "pmid": "40385406",
+     "date": "2025 May 6",
+     "journal": "medRxiv",
+     "title": "Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain.",
+     "authors": [
+      "Cao X",
+      "Sun H",
+      "Feng R"
+     ],
+     "doi": "10.1101/2025.04.17.25326042"
+    },
+    {
+     "pmid": "39761376",
+     "date": "2025 Apr 1",
+     "journal": "Diabetes",
+     "title": "Integrative Proteogenomic Analyses Provide Novel Interpretations of Type 1 Diabetes Risk Loci Through Circulating Proteins.",
+     "authors": [
+      "Lu T",
+      "Manousaki D",
+      "Sun L"
+     ],
+     "doi": "10.2337/db24-0380"
+    },
+    {
+     "pmid": "38872630",
+     "date": "2024",
+     "journal": "Front Aging Neurosci",
+     "title": "Cathepsin-mediated regulation of alpha-synuclein in Parkinson's disease: a Mendelian randomization study.",
+     "authors": [
+      "Lin L",
+      "Wu Z",
+      "Luo H"
+     ],
+     "doi": "10.3389/fnagi.2024.1394807"
+    },
+    {
+     "pmid": "38527854",
+     "date": "2024 Oct 3",
+     "journal": "Brain",
+     "title": "Connecting dementia risk loci to the CSF proteome identifies pathophysiological leads for dementia.",
+     "authors": [
+      "Reus LM",
+      "Jansen IE",
+      "Tijms BM"
+     ],
+     "doi": "10.1093/brain/awae090"
+    },
+    {
+     "pmid": "34381170",
+     "date": "2021 Oct",
+     "journal": "Mol Psychiatry",
+     "title": "Identification of novel drug targets for Alzheimer's disease by integrating genetics and proteomes from brain and blood.",
+     "authors": [
+      "Ou YN",
+      "Yang YX",
+      "Deng YT"
+     ],
+     "doi": "10.1038/s41380-021-01251-6"
+    },
+    {
+     "pmid": "35349426",
+     "date": "2021 Jan-Feb",
+     "journal": "J Cosmet Sci",
+     "title": "Identifi cation of the Underlying Genetic Factors of Skin Aging in a Korean Population Study.",
+     "authors": [
+      "Oh Kim J",
+      "Park B",
+      "Yoon Choi J"
+     ],
+     "doi": ""
+    },
+    {
+     "pmid": "28157489",
+     "date": "2017 Apr",
+     "journal": "Am J Pathol",
+     "title": "Cathepsin H-Mediated Degradation of HDAC4 for Matrix Metalloproteinase Expression in Hepatic Stellate Cells: Implications of Epigenetic Suppression of Matrix Metalloproteinases in Fibrosis through Stabilization of Class IIa Histone Deacetylases.",
+     "authors": [
+      "Yang Z",
+      "Liu Y",
+      "Qin L"
+     ],
+     "doi": "10.1016/j.ajpath.2016.12.001"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "MMP2": {
+  "kidney_fib": {
+   "count": "399",
+   "records": [
+    {
+     "pmid": "42388892",
+     "date": "2026 Jul",
+     "journal": "Curr Dev Nutr",
+     "title": "Potential Anticancer Effects of Limonene Associated with Reactive Oxygen Species Generation, Apoptosis Induction, and NF-κB Modulation in Papillary Renal Cell Carcinoma: A Preliminary Study.",
+     "authors": [
+      "Ghanbari M",
+      "Deyhimfar R",
+      "Khatami F"
+     ],
+     "doi": "10.1016/j.cdnut.2026.109392"
+    },
+    {
+     "pmid": "42154641",
+     "date": "2026 Jun 1",
+     "journal": "Am J Physiol Renal Physiol",
+     "title": "Arteriovenous fistula creation results in cardiac dysfunction and remodeling in a uremic pig model.",
+     "authors": [
+      "Kane J",
+      "Singh PG",
+      "Kilari S"
+     ],
+     "doi": "10.1152/ajprenal.00227.2025"
+    },
+    {
+     "pmid": "42013965",
+     "date": "2026 Aug 1",
+     "journal": "Toxicon",
+     "title": "BmooMPα-I ameliorates aortic fibrosis and hypertrophy in 2K1C hypertensive rats by reducing matrix metalloproteinase-2 activity.",
+     "authors": [
+      "Dias WF",
+      "Chang Estrada JE",
+      "Silva SCP"
+     ],
+     "doi": "10.1016/j.toxicon.2026.109120"
+    },
+    {
+     "pmid": "41898171",
+     "date": "2026 Feb 26",
+     "journal": "Biomedicines",
+     "title": "Morphometry and Immunoexpression of Metalloproteinase 2 and Its Inhibitor in the Fibrotic and Non-Fibrotic Grafted Kidney-Digital Analysis.",
+     "authors": [
+      "Szypulska-Koziarska D",
+      "Kwiatkowska E",
+      "Opara-Bajerowicz M"
+     ],
+     "doi": "10.3390/biomedicines14030524"
+    },
+    {
+     "pmid": "41887221",
+     "date": "2026 Apr 21",
+     "journal": "Cell Rep Med",
+     "title": "CAR-M2 immunotherapy resolves renal fibrosis via revascularization and apoptosis of profibrotic Cxcr2(+) endothelial cells.",
+     "authors": [
+      "Zhao W",
+      "Zhou X",
+      "Zhao X"
+     ],
+     "doi": "10.1016/j.xcrm.2026.102698"
+    },
+    {
+     "pmid": "41659822",
+     "date": "2026 Mar",
+     "journal": "Kidney Med",
+     "title": "Glomerular Transcriptome Analysis Reveals Endothelial Disturbances in Patients With Idiopathic Nephrotic Syndrome.",
+     "authors": [
+      "Nelson-Taylor SK",
+      "Troost J",
+      "Giannini C"
+     ],
+     "doi": "10.1016/j.xkme.2025.101235"
+    },
+    {
+     "pmid": "41478668",
+     "date": "2025 Dec",
+     "journal": "J Pharmacol Exp Ther",
+     "title": "Kidney-specific delivery of a matrix metalloproteinase-2 inhibitory peptide fused to elastin-like polypeptide reduces proteinuria and renal fibrosis in a model of salt-sensitive hypertension.",
+     "authors": [
+      "Akinleye AA",
+      "Chapman HM",
+      "Roman RJ"
+     ],
+     "doi": "10.1016/j.jpet.2025.103556"
+    },
+    {
+     "pmid": "41477970",
+     "date": "2026 Feb",
+     "journal": "J Autoimmun",
+     "title": "Daratumumab monotherapy reverses the immune and pro-fibrotic profiles in refractory lupus nephritis patients: a pilot case study.",
+     "authors": [
+      "Roccatello D",
+      "Barinotti A",
+      "Radin M"
+     ],
+     "doi": "10.1016/j.jaut.2025.103520"
+    },
+    {
+     "pmid": "41353804",
+     "date": "2026 Jan 1",
+     "journal": "Ecotoxicol Environ Saf",
+     "title": "Interaction between plasma matrix metalloproteinases and arsenic, cadmium, lead, and selenium on chronic kidney disease.",
+     "authors": [
+      "Chen HH",
+      "Wu CY",
+      "Hsu SL"
+     ],
+     "doi": "10.1016/j.ecoenv.2025.119529"
+    },
+    {
+     "pmid": "41349316",
+     "date": "2026 Jan 1",
+     "journal": "Ecotoxicol Environ Saf",
+     "title": "Multimodal mechanisms of di (2-ethylhexyl) phthalate-induced cardiovascular-kidney-metabolic syndrome: Integrating epidemiology, network toxicology and experimental validation.",
+     "authors": [
+      "Wen W",
+      "Liu Z",
+      "Li L"
+     ],
+     "doi": "10.1016/j.ecoenv.2025.119515"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "848",
+   "records": [
+    {
+     "pmid": "42835131",
+     "date": "2026",
+     "journal": "Front Aging Neurosci",
+     "title": "Associations between cerebrospinal fluid biomarkers related to endothelial dysfunction and Alzheimer's disease.",
+     "authors": [
+      "Zhu YK",
+      "Zhu QJ",
+      "Wang LY"
+     ],
+     "doi": "10.3389/fnagi.2026.1744647"
+    },
+    {
+     "pmid": "42830164",
+     "date": "2026 Oct 4",
+     "journal": "Cell Signal",
+     "title": "Histone lactylation-upregulated CEBPB transcriptionally activates CXCL12 and p21 to modulate vascular smooth muscle cell senescence and macrophage polarization.",
+     "authors": [
+      "Han Y",
+      "Wang J",
+      "Li R"
+     ],
+     "doi": "10.1016/j.cellsig.2026.112928"
+    },
+    {
+     "pmid": "42798633",
+     "date": "2026",
+     "journal": "Front Aging",
+     "title": "Explanatory limitations of CSF, plasma, and MRI biomarkers for inflammation and blood-brain barrier disruption in dementia.",
+     "authors": [
+      "Golduzian A",
+      "Erhardt EB",
+      "Caprihan A"
+     ],
+     "doi": "10.3389/fragi.2026.1923046"
+    },
+    {
+     "pmid": "42797014",
+     "date": "2026 Sep 16",
+     "journal": "Nutrients",
+     "title": "CHL Attenuates MIA-Induced Osteoarthritis by Regulating Inflammatory, Catabolic, and Anabolic Pathways Associated with Cartilage and Subchondral Bone Degeneration.",
+     "authors": [
+      "Sanjay",
+      "Woo MS",
+      "Yoo J"
+     ],
+     "doi": "10.3390/nu18183031"
+    },
+    {
+     "pmid": "42783720",
+     "date": "2026 Sep 17",
+     "journal": "J Funct Biomater",
+     "title": "Concentration-Dependent Rheological Properties of Atelocollagen Are Associated with Fibroblast Mechanotransduction and Collagen Remodeling in Aged Skin.",
+     "authors": [
+      "Oh S",
+      "Cheon GW",
+      "Lee JI"
+     ],
+     "doi": "10.3390/jfb17090474"
+    },
+    {
+     "pmid": "42767098",
+     "date": "2026 Nov",
+     "journal": "Transl Oncol",
+     "title": "GMPS drives pancreatic cancer progression via suppressing DNA damage, STING activation and cellular senescence.",
+     "authors": [
+      "Li Y",
+      "Zhang Z",
+      "Li D"
+     ],
+     "doi": "10.1016/j.tranon.2026.103044"
+    },
+    {
+     "pmid": "42737802",
+     "date": "2026 Sep 4",
+     "journal": "Int J Mol Sci",
+     "title": "Pulsed Electromagnetic Field Exposure Attenuates Ultraviolet B-Induced Dermal Collagen Loss in Association with A2A Adenosine Receptor Signaling.",
+     "authors": [
+      "Byun KA",
+      "Lee JI",
+      "Oh S"
+     ],
+     "doi": "10.3390/ijms27177904"
+    },
+    {
+     "pmid": "42651756",
+     "date": "2026 Jul 25",
+     "journal": "Curr Issues Mol Biol",
+     "title": "Mangiferin Protects Human Dermal Fibroblasts Against UVB-Induced Photoaging by Regulating RAGE/NF-κB/p38 MAPK Signaling, Cellular Senescence, and ECM Homeostasis.",
+     "authors": [
+      "Kurt-Celep İ"
+     ],
+     "doi": "10.3390/cimb48080757"
+    },
+    {
+     "pmid": "42635554",
+     "date": "2026 Sep 1",
+     "journal": "Rheumatology (Oxford)",
+     "title": "Single-cell profiling reveals senescent bone marrow mesenchymal stem cell subpopulations driving pathological ossification in ankylosing spondylitis.",
+     "authors": [
+      "Luo X",
+      "Li J",
+      "Qi J"
+     ],
+     "doi": "10.1093/rheumatology/keag429"
+    },
+    {
+     "pmid": "42625231",
+     "date": "2026 Aug 20",
+     "journal": "Parasit Vectors",
+     "title": "Endothelial proteomic response to Dirofilaria repens somatic antigens and the Dr20/22 protein reveals parasite-driven modulation of angiogenesis.",
+     "authors": [
+      "Collado-Cuadrado M",
+      "Montero-Calle A",
+      "Vázquez-Ávila S"
+     ],
+     "doi": "10.1186/s13071-026-07314-3"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "8",
+   "records": [
+    {
+     "pmid": "42742855",
+     "date": "2026 Sep 15",
+     "journal": "Mol Cell Biochem",
+     "title": "Cancer-associated fibroblasts drive immune resistance in MSS colorectal cancer via the FAIM2-CES1-ER stress pathway.",
+     "authors": [
+      "Tang R",
+      "Wan H",
+      "Zhong M"
+     ],
+     "doi": "10.1007/s11010-026-05705-9"
+    },
+    {
+     "pmid": "40818460",
+     "date": "2025 Sep 16",
+     "journal": "Cell Rep Med",
+     "title": "Enhanced formation of tertiary lymphoid structures shapes the anti-tumor microenvironment in hepatocellular carcinoma after FOLFOX-HAIC therapy.",
+     "authors": [
+      "Xing R",
+      "Mei J",
+      "Zuo Z"
+     ],
+     "doi": "10.1016/j.xcrm.2025.102298"
+    },
+    {
+     "pmid": "34617043",
+     "date": "2020",
+     "journal": "JVS Vasc Sci",
+     "title": "Adventitial matrix metalloproteinase production and distribution of immunoglobulin G4-related abdominal aortic aneurysms.",
+     "authors": [
+      "Kasashima S",
+      "Kawashima A",
+      "Kasashima F"
+     ],
+     "doi": "10.1016/j.jvssci.2020.06.001"
+    },
+    {
+     "pmid": "31543394",
+     "date": "2019 Sep",
+     "journal": "Presse Med",
+     "title": "[Physiopathology of giant cell arteritis: From inflammation to vascular remodeling].",
+     "authors": [
+      "Régent A",
+      "Ly KH",
+      "Mouthon L"
+     ],
+     "doi": "10.1016/j.lpm.2019.07.031"
+    },
+    {
+     "pmid": "29518260",
+     "date": "2018 Apr",
+     "journal": "Ann Neurol",
+     "title": "Inflammatory intrathecal profiles and cortical damage in multiple sclerosis.",
+     "authors": [
+      "Magliozzi R",
+      "Howell OW",
+      "Nicholas R"
+     ],
+     "doi": "10.1002/ana.25197"
+    },
+    {
+     "pmid": "28730224",
+     "date": "2017",
+     "journal": "Rom J Morphol Embryol",
+     "title": "Histopathological and immunohistochemical profile in primary Sjögren's syndrome.",
+     "authors": [
+      "Dinescu ŞC",
+      "ForŢofoiu MC",
+      "Bumbea AM"
+     ],
+     "doi": ""
+    },
+    {
+     "pmid": "28222766",
+     "date": "2017 Feb 21",
+     "journal": "J Neuroinflammation",
+     "title": "Increased cortical lesion load and intrathecal inflammation is associated with oligoclonal bands in multiple sclerosis patients: a combined CSF and MRI study.",
+     "authors": [
+      "Farina G",
+      "Magliozzi R",
+      "Pitteri M"
+     ],
+     "doi": "10.1186/s12974-017-0812-y"
+    },
+    {
+     "pmid": "16260653",
+     "date": "2005 Nov",
+     "journal": "FASEB J",
+     "title": "Dual function of focal adhesion kinase in regulating integrin-induced MMP-2 and MMP-9 release by human T lymphoid cells.",
+     "authors": [
+      "Segarra M",
+      "Vilardell C",
+      "Matsumoto K"
+     ],
+     "doi": "10.1096/fj.04-3574fje"
+    }
+   ]
+  }
+ },
+ "COL6A1": {
+  "kidney_fib": {
+   "count": "4",
+   "records": [
+    {
+     "pmid": "37704178",
+     "date": "2023 Nov",
+     "journal": "Immunol Lett",
+     "title": "Single-cell communication patterns and their intracellular information flow in synovial fibroblastic osteoarthritis and rheumatoid arthritis.",
+     "authors": [
+      "Wang J",
+      "Liu C",
+      "Wang T"
+     ],
+     "doi": "10.1016/j.imlet.2023.09.005"
+    },
+    {
+     "pmid": "36082436",
+     "date": "2022 Dec",
+     "journal": "Int J Rheum Dis",
+     "title": "Jian Pi Shen Shi formula alleviates hyperuricemia and related renal fibrosis in uricase-deficient rats via suppression of the collagen-binding pathway.",
+     "authors": [
+      "Yin N",
+      "Li X",
+      "Liu W"
+     ],
+     "doi": "10.1111/1756-185X.14434"
+    },
+    {
+     "pmid": "34775048",
+     "date": "2022 Apr",
+     "journal": "Spine J",
+     "title": "Myofibroblasts are increased in the dorsal layer of the hypertrophic ligamentum flavum in lumbar spinal canal stenosis.",
+     "authors": [
+      "Hayashi F",
+      "Morimoto M",
+      "Higashino K"
+     ],
+     "doi": "10.1016/j.spinee.2021.11.003"
+    },
+    {
+     "pmid": "33946738",
+     "date": "2021 Apr 29",
+     "journal": "Cells",
+     "title": "Hepatic Wnt1 Inducible Signaling Pathway Protein 1 (WISP-1/CCN4) Associates with Markers of Liver Fibrosis in Severe Obesity.",
+     "authors": [
+      "Pivovarova-Ramich O",
+      "Loske J",
+      "Hornemann S"
+     ],
+     "doi": "10.3390/cells10051048"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "29",
+   "records": [
+    {
+     "pmid": "42331135",
+     "date": "2026 Oct",
+     "journal": "Osteoarthritis Cartilage",
+     "title": "Mapping articular cartilage maturation across postnatal development by proteomics.",
+     "authors": [
+      "Giuffredi G",
+      "Gisbert M",
+      "Filas KV"
+     ],
+     "doi": "10.1016/j.joca.2026.06.006"
+    },
+    {
+     "pmid": "40317420",
+     "date": "2025 Sep",
+     "journal": "J Muscle Res Cell Motil",
+     "title": "RNA-seq and ChIP-seq unveils thyroid hormone receptor α deficiency affects skeletal muscle myoblast proliferation and differentiation via Col6a1 during aging.",
+     "authors": [
+      "Shi R",
+      "Chen G",
+      "Zhang Y"
+     ],
+     "doi": "10.1007/s10974-025-09694-y"
+    },
+    {
+     "pmid": "39969586",
+     "date": "2025 Feb 19",
+     "journal": "Cell Mol Life Sci",
+     "title": "circ0066187 promotes pulmonary fibrogenesis through targeting STAT3-mediated metabolism signal pathway.",
+     "authors": [
+      "Liu B",
+      "Liu W",
+      "Li H"
+     ],
+     "doi": "10.1007/s00018-025-05613-z"
+    },
+    {
+     "pmid": "39024749",
+     "date": "2024 Sep 30",
+     "journal": "Int Immunopharmacol",
+     "title": "Anti-photoaging effect and the mechanism of Coreopsis tinctoria okanin against UVB-induced skin damage in mice.",
+     "authors": [
+      "Sun S",
+      "Li M",
+      "Wang M"
+     ],
+     "doi": "10.1016/j.intimp.2024.112657"
+    },
+    {
+     "pmid": "38915286",
+     "date": "2024 Sep 1",
+     "journal": "Am J Physiol Lung Cell Mol Physiol",
+     "title": "The lung extracellular matrix protein landscape in severe early-onset and moderate chronic obstructive pulmonary disease.",
+     "authors": [
+      "Joglekar MM",
+      "Bekker NJ",
+      "Koloko Ngassie ML"
+     ],
+     "doi": "10.1152/ajplung.00332.2023"
+    },
+    {
+     "pmid": "38424324",
+     "date": "2024 Apr",
+     "journal": "Nat Neurosci",
+     "title": "PolyGR and polyPR knock-in mice reveal a conserved neuroprotective extracellular matrix signature in C9orf72 ALS/FTD neurons.",
+     "authors": [
+      "Milioto C",
+      "Carcolé M",
+      "Giblin A"
+     ],
+     "doi": "10.1038/s41593-024-01589-4"
+    },
+    {
+     "pmid": "38095646",
+     "date": "2023 Dec 12",
+     "journal": "Aging (Albany NY)",
+     "title": "Transcriptome research of human amniocytes identifies hub genes associated with developmental dysplasia in down syndrome.",
+     "authors": [
+      "Guo Z",
+      "Xiao H",
+      "Yang W"
+     ],
+     "doi": "10.18632/aging.205291"
+    },
+    {
+     "pmid": "37039368",
+     "date": "2023 Jun 1",
+     "journal": "Am J Physiol Lung Cell Mol Physiol",
+     "title": "Age-associated differences in the human lung extracellular matrix.",
+     "authors": [
+      "Koloko Ngassie ML",
+      "De Vries M",
+      "Borghuis T"
+     ],
+     "doi": "10.1152/ajplung.00334.2022"
+    },
+    {
+     "pmid": "36552714",
+     "date": "2022 Dec 7",
+     "journal": "Cells",
+     "title": "Apple Derived Exosomes Improve Collagen Type I Production and Decrease MMPs during Aging of the Skin through Downregulation of the NF-κB Pathway as Mode of Action.",
+     "authors": [
+      "Trentini M",
+      "Zanolla I",
+      "Zanotti F"
+     ],
+     "doi": "10.3390/cells11243950"
+    },
+    {
+     "pmid": "36291072",
+     "date": "2022 Oct 12",
+     "journal": "Cells",
+     "title": "Characterization of a Stemness-Optimized Purification Method for Human Dental-Pulp Stem Cells: An Approach to Standardization.",
+     "authors": [
+      "Dieterle MP",
+      "Gross T",
+      "Steinberg T"
+     ],
+     "doi": "10.3390/cells11203204"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "28882590",
+     "date": "2017 Nov 4",
+     "journal": "Biochem Biophys Res Commun",
+     "title": "Targeted deletion of RANKL in M cell inducer cells by the Col6a1-Cre driver.",
+     "authors": [
+      "Nagashima K",
+      "Sawa S",
+      "Nitta T"
+     ],
+     "doi": "10.1016/j.bbrc.2017.09.004"
+    }
+   ]
+  }
+ },
+ "COL1A2": {
+  "kidney_fib": {
+   "count": "51",
+   "records": [
+    {
+     "pmid": "42831298",
+     "date": "2026 Oct 2",
+     "journal": "Clin Sci (Lond)",
+     "title": "Ten-eleven translocation 3 activates the TGF-like ligand Scube3 to promote renal fibrosis: mechanism and translational potential.",
+     "authors": [
+      "Luo Y",
+      "Kang A",
+      "Zhang G"
+     ],
+     "doi": "10.1042/CS20260881"
+    },
+    {
+     "pmid": "42827115",
+     "date": "2026 Oct 2",
+     "journal": "Hypertens Res",
+     "title": "Integrated morphological and transcriptomic analysis of bone disorders in aldosterone-salt hypertension.",
+     "authors": [
+      "Kawagoe M",
+      "Hirohama D",
+      "Ueno M"
+     ],
+     "doi": "10.1038/s41440-026-02832-0"
+    },
+    {
+     "pmid": "42780336",
+     "date": "2026",
+     "journal": "Front Pharmacol",
+     "title": "Baicalein attenuates extracellular matrix remodeling via FN1 in diabetic kidney disease: a multi-omics, machine-learning and mesangial-cell rescue study.",
+     "authors": [
+      "Li Y",
+      "Tian Y",
+      "Wu Z"
+     ],
+     "doi": "10.3389/fphar.2026.1852694"
+    },
+    {
+     "pmid": "42575200",
+     "date": "2026 Aug 10",
+     "journal": "J Adv Res",
+     "title": "Genetic and pharmaceutical targeting of Suv39h1 ameliorates renal fibrosis by unlocking CXCL10 transcription.",
+     "authors": [
+      "Wu X",
+      "Luo Y",
+      "Wu C"
+     ],
+     "doi": "10.1016/j.jare.2026.08.032"
+    },
+    {
+     "pmid": "42176637",
+     "date": "2026 Jul 1",
+     "journal": "Ecotoxicol Environ Saf",
+     "title": "Long-term arsenic exposure causes epithelial-mesenchymal transition and kidney fibrosis accompanied by renal lipid metabolic disorders.",
+     "authors": [
+      "He YZ",
+      "Liu ZB",
+      "Wen L"
+     ],
+     "doi": "10.1016/j.ecoenv.2026.120285"
+    },
+    {
+     "pmid": "41944350",
+     "date": "2026",
+     "journal": "J Diabetes Res",
+     "title": "Screening Autophagy-Related DKD Biomarkers Based on Bulk RNA and Single-Cell Analysis and Uncovering Their Regulatory Mechanisms in DKD Renal Fibrosis.",
+     "authors": [
+      "Wang Q",
+      "Li X",
+      "Ye W"
+     ],
+     "doi": "10.1155/jdr/3768039"
+    },
+    {
+     "pmid": "41830491",
+     "date": "2026 Apr 1",
+     "journal": "Am J Physiol Renal Physiol",
+     "title": "Fibroblast histone deacetylase-1 promotes kidney interstitial fibrosis following ischemia-reperfusion injury.",
+     "authors": [
+      "Nguyen H",
+      "Mendoza LD",
+      "Oliver AS"
+     ],
+     "doi": "10.1152/ajprenal.00458.2025"
+    },
+    {
+     "pmid": "41615541",
+     "date": "2026 Jan 30",
+     "journal": "Fish Physiol Biochem",
+     "title": "Dietary lecithin attenuates adverse effects of high fat diet on antioxidant activity, inflammation and fibrotic damage in the kidney of blunt snout bream (Megalobrama amblycephala).",
+     "authors": [
+      "Li P",
+      "Wang B",
+      "Zheng H"
+     ],
+     "doi": "10.1007/s10695-026-01646-8"
+    },
+    {
+     "pmid": "41272289",
+     "date": "2025 Nov 21",
+     "journal": "Sci Rep",
+     "title": "Reduced collagen degradation in pelvic urine precedes kidney fibrosis induced by unilateral ureteral obstruction.",
+     "authors": [
+      "Frattini T",
+      "Breuil B",
+      "Buléon M"
+     ],
+     "doi": "10.1038/s41598-025-29217-6"
+    },
+    {
+     "pmid": "40808990",
+     "date": "2025 Sep",
+     "journal": "JBMR Plus",
+     "title": "Moderately severe osteogenesis imperfecta-like osteochondrodysplasia associated with heterozygous variants in both COL1A2 and TRPV4.",
+     "authors": [
+      "Evans EF",
+      "Chung WY",
+      "Barnes AM"
+     ],
+     "doi": "10.1093/jbmrpl/ziaf111"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "116",
+   "records": [
+    {
+     "pmid": "42738529",
+     "date": "2026 Sep 2",
+     "journal": "Animals (Basel)",
+     "title": "Effects of Aging on Muscle Development Based on Transcriptome Sequencing in Dahen Broilers.",
+     "authors": [
+      "Wang JX",
+      "Qiu MH",
+      "Zhang ZR"
+     ],
+     "doi": "10.3390/ani16172743"
+    },
+    {
+     "pmid": "42716412",
+     "date": "2026 Sep 9",
+     "journal": "Acta Biomater",
+     "title": "Type I collagen homotrimer alters tail tendon material properties.",
+     "authors": [
+      "Johnson EJ",
+      "Dhowre HS",
+      "Lee KJ"
+     ],
+     "doi": "10.1016/j.actbio.2026.09.015"
+    },
+    {
+     "pmid": "42647181",
+     "date": "2026 Aug 26",
+     "journal": "Cartilage",
+     "title": "Single-Cell Transcriptomic Profiling Reveals Superficial Zone Chondrocytes as a Catabolic and Senescent Focus in Osteoarthritis Cartilage.",
+     "authors": [
+      "Kim Y",
+      "Jung G",
+      "Han S"
+     ],
+     "doi": "10.1177/19476035261481078"
+    },
+    {
+     "pmid": "42576237",
+     "date": "2026 Aug",
+     "journal": "Alcohol Clin Exp Res (Hoboken)",
+     "title": "Aging Exacerbates Binge Ethanol-Mediated Bone Toxicity in Mice.",
+     "authors": [
+      "Pedersen KB",
+      "Bordelon M",
+      "Baker E"
+     ],
+     "doi": "10.1111/acer.70384"
+    },
+    {
+     "pmid": "41967578",
+     "date": "2026",
+     "journal": "Cell Mol Gastroenterol Hepatol",
+     "title": "Mesothelin/Mucin 16 Signaling in Activated Portal Fibroblasts Drives the Development of Cholestatic Fibrosis and Hepatocellular Carcinoma in Aged Female Multidrug Resistance Protein 2 Knockout Mice.",
+     "authors": [
+      "Sakane S",
+      "Nishio T",
+      "Fuji H"
+     ],
+     "doi": "10.1016/j.jcmgh.2026.101785"
+    },
+    {
+     "pmid": "41937492",
+     "date": "2026 Apr",
+     "journal": "J Cell Mol Med",
+     "title": "OMICS Profiling Identifies Signatures of Senescence in Osteogenesis Imperfecta Osteoblasts Counteracted by 4-PBA.",
+     "authors": [
+      "Besio R",
+      "Maffioli E",
+      "Palladino E"
+     ],
+     "doi": "10.1111/jcmm.71120"
+    },
+    {
+     "pmid": "41904426",
+     "date": "2026 Mar 28",
+     "journal": "BMC Biotechnol",
+     "title": "Comparative analysis of horsetail and lavender-derived nanovesicles in wound healing and antioxidant defense.",
+     "authors": [
+      "Aşık S",
+      "Okay A",
+      "Karaca B"
+     ],
+     "doi": "10.1186/s12896-026-01146-w"
+    },
+    {
+     "pmid": "41869872",
+     "date": "2026 Mar",
+     "journal": "Animal Model Exp Med",
+     "title": "Gorab deficiency in skin dermis accelerates aging and is associated with dysregulation of RCHY1-mediated P53 ubiquitination.",
+     "authors": [
+      "Li Y",
+      "Liang W",
+      "Xu Y"
+     ],
+     "doi": "10.1002/ame2.70165"
+    },
+    {
+     "pmid": "41756952",
+     "date": "2026 Feb 16",
+     "journal": "bioRxiv",
+     "title": "Age-related Delays in Osteochondral Remodeling of Fracture Healing Illustrated by Mass Spectrometry Imaging.",
+     "authors": [
+      "Schurman CA",
+      "Chandler W",
+      "Hu D"
+     ],
+     "doi": "10.64898/2026.02.13.705828"
+    },
+    {
+     "pmid": "41705475",
+     "date": "2026 Jun 1",
+     "journal": "J Biochem",
+     "title": "Characterization of p16-positive stromal cells in age-related cardiac disorders.",
+     "authors": [
+      "Morimura T",
+      "Wang TW",
+      "Kawakami S"
+     ],
+     "doi": "10.1093/jb/mvag013"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "38841477",
+     "date": "2024 Jun 15",
+     "journal": "Heliyon",
+     "title": "Establishment of homotrimer collagen type I signature and its association with clinical manifestation and tertiary lymphoid structures formation in liver cancer.",
+     "authors": [
+      "Shen XT",
+      "Chen ZC",
+      "Wang XY"
+     ],
+     "doi": "10.1016/j.heliyon.2024.e31320"
+    }
+   ]
+  }
+ },
+ "PDZRN4": {
+  "kidney_fib": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "24612955",
+     "date": "2014 May",
+     "journal": "Anim Reprod Sci",
+     "title": "Genome-wide association study for poor sperm motility in Holstein-Friesian bulls.",
+     "authors": [
+      "Hering DM",
+      "Olenski K",
+      "Kaminski S"
+     ],
+     "doi": "10.1016/j.anireprosci.2014.01.012"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "0",
+   "records": []
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "ELN": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "85",
+   "records": [
+    {
+     "pmid": "42795268",
+     "date": "2026 Aug 25",
+     "journal": "Life (Basel)",
+     "title": "Differential Modulation of Extracellular Matrix- and Longevity-Related Gene Expression by Calcium Hydroxylapatite Formulations.",
+     "authors": [
+      "Haddad A",
+      "Issa MCA",
+      "Tonon L"
+     ],
+     "doi": "10.3390/life16091400"
+    },
+    {
+     "pmid": "42653901",
+     "date": "2026 Aug 13",
+     "journal": "Molecules",
+     "title": "Silk Fibroin Peptides Promote Extracellular Matrix Homeostasis in Photoaging via Modulation of the ITGB1/FAK-TGF-β/Smad Signaling Axis.",
+     "authors": [
+      "He S",
+      "Yan Y",
+      "Xiong F"
+     ],
+     "doi": "10.3390/molecules31162820"
+    },
+    {
+     "pmid": "42247333",
+     "date": "2026 Jun 2",
+     "journal": "J Wound Care",
+     "title": "Comparative effects of hyaluronic acid-amino acid and polynucleotide mixtures on extracellular matrix gene expression in human dermal fibroblasts.",
+     "authors": [
+      "Canciani L",
+      "Nisoli E"
+     ],
+     "doi": "10.12968/jowc.2026.0176"
+    },
+    {
+     "pmid": "42120407",
+     "date": "2026 May 12",
+     "journal": "NPJ Parkinsons Dis",
+     "title": "Preformed fibrils of α-synuclein rapidly activate LRRK2 on early endosomes, driving Rab5 phosphorylation and disrupting endolysosomal and synaptic function.",
+     "authors": [
+      "Zuo X",
+      "Chen Z",
+      "Chen XQ"
+     ],
+     "doi": "10.1038/s41531-026-01382-z"
+    },
+    {
+     "pmid": "42067346",
+     "date": "2026 Jul 1",
+     "journal": "Carbohydr Polym",
+     "title": "Enhanced biodistribution and efficacy of nicomenthyl encapsulated in emulsions stabilized by methacrylated hyaluronic acid for the prevention and treatment of skin photoaging.",
+     "authors": [
+      "Zamora P",
+      "Moncada Á",
+      "Loinaz I"
+     ],
+     "doi": "10.1016/j.carbpol.2026.125311"
+    },
+    {
+     "pmid": "41881670",
+     "date": "2026 Apr",
+     "journal": "J Cosmet Dermatol",
+     "title": "BIO3 Protocol: Clinical and In Vitro Evidence of Triple Biostimulation With CaHA and P (LA/CL) Threads.",
+     "authors": [
+      "Tonon L",
+      "Alves MO",
+      "Viana R"
+     ],
+     "doi": "10.1111/jocd.70803"
+    },
+    {
+     "pmid": "41735646",
+     "date": "2026 Mar",
+     "journal": "Nat Aging",
+     "title": "Identification of distinct and shared biomarker panels in different manifestations of cerebral small-vessel disease through proteomic profiling.",
+     "authors": [
+      "Hristovska I",
+      "Pichet Binette A",
+      "Kumar A"
+     ],
+     "doi": "10.1038/s43587-026-01081-7"
+    },
+    {
+     "pmid": "41669823",
+     "date": "2026 Feb",
+     "journal": "J Cosmet Dermatol",
+     "title": "Calcium Hydroxyapatite and Polymicronutrient Solution on Hand Rejuvenation: A Split-Hand, Randomized, Double-Blind Clinical and In Vitro Study.",
+     "authors": [
+      "Faria GEL",
+      "Hasmann C",
+      "Viana RMM"
+     ],
+     "doi": "10.1111/jocd.70716"
+    },
+    {
+     "pmid": "41596652",
+     "date": "2026 Jan 20",
+     "journal": "Int J Mol Sci",
+     "title": "Anti-Photoaging Effect of Soluble Microneedles Loaded with Hydroxytyrosol.",
+     "authors": [
+      "Wang J",
+      "Zhu G",
+      "Han M"
+     ],
+     "doi": "10.3390/ijms27021005"
+    },
+    {
+     "pmid": "41516097",
+     "date": "2025 Dec 24",
+     "journal": "Int J Mol Sci",
+     "title": "Anti-Aging Efficacy of Low-Molecular-Weight Polydeoxyribonucleotide Derived from Paeonia lactiflora.",
+     "authors": [
+      "Bak SU",
+      "Jung MS",
+      "Kim DJ"
+     ],
+     "doi": "10.3390/ijms27010220"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "2",
+   "records": [
+    {
+     "pmid": "29167448",
+     "date": "2017 Nov 22",
+     "journal": "Sci Rep",
+     "title": "Systematic Screening of Chemokines to Identify Candidates to Model and Create Ectopic Lymph Node Structures for Cancer Immunotherapy.",
+     "authors": [
+      "Yagawa Y",
+      "Robertson-Tessi M",
+      "Zhou SL"
+     ],
+     "doi": "10.1038/s41598-017-15924-2"
+    },
+    {
+     "pmid": "26156866",
+     "date": "2015 Jul 9",
+     "journal": "Arthritis Res Ther",
+     "title": "Ectopic lymphoid neogenesis is strongly associated with activation of the IL-23 pathway in rheumatoid synovitis.",
+     "authors": [
+      "Cañete JD",
+      "Celis R",
+      "Yeremenko N"
+     ],
+     "doi": "10.1186/s13075-015-0688-0"
+    }
+   ]
+  }
+ },
+ "HSPB6": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "8",
+   "records": [
+    {
+     "pmid": "42010371",
+     "date": "2026 May",
+     "journal": "J Alzheimers Dis",
+     "title": "Psychometric criteria for superior cognitive performance in very old adults.",
+     "authors": [
+      "Malek-Ahmadi M",
+      "Perez SE",
+      "He B"
+     ],
+     "doi": "10.1177/13872877261435166"
+    },
+    {
+     "pmid": "39895864",
+     "date": "2025 Jan",
+     "journal": "J Orthop Translat",
+     "title": "Unveiling MiR-3085-3p as a modulator of cartilage degeneration in facet joint osteoarthritis: A novel therapeutic target.",
+     "authors": [
+      "Lai ZM",
+      "Li CL",
+      "Zhang JX"
+     ],
+     "doi": "10.1016/j.jot.2024.11.007"
+    },
+    {
+     "pmid": "39280615",
+     "date": "2024 Sep 20",
+     "journal": "iScience",
+     "title": "HSPB6: A lipid-dependent molecular chaperone inhibits α-synuclein aggregation.",
+     "authors": [
+      "Secco V",
+      "Tiago T",
+      "Staats R"
+     ],
+     "doi": "10.1016/j.isci.2024.110657"
+    },
+    {
+     "pmid": "32946285",
+     "date": "2020 Nov 1",
+     "journal": "Am J Physiol Heart Circ Physiol",
+     "title": "Tissue-specific small heat shock protein 20 activation is not associated with traditional autophagy markers in Ossabaw swine with cardiometabolic heart failure.",
+     "authors": [
+      "Silva KAS",
+      "Leary EV",
+      "Olver TD"
+     ],
+     "doi": "10.1152/ajpheart.00580.2020"
+    },
+    {
+     "pmid": "30837897",
+     "date": "2019",
+     "journal": "Front Physiol",
+     "title": "Lifelong Football Training: Effects on Autophagy and Healthy Longevity Promotion.",
+     "authors": [
+      "Mancini A",
+      "Vitucci D",
+      "Randers MB"
+     ],
+     "doi": "10.3389/fphys.2019.00132"
+    },
+    {
+     "pmid": "29289712",
+     "date": "2018 Apr",
+     "journal": "Meat Sci",
+     "title": "Proteome changes of beef in Nellore cattle with different genotypes for tenderness.",
+     "authors": [
+      "Rosa AF",
+      "Moncau CT",
+      "Poleti MD"
+     ],
+     "doi": "10.1016/j.meatsci.2017.12.006"
+    },
+    {
+     "pmid": "25956426",
+     "date": "2015 Jul 1",
+     "journal": "J Proteomics",
+     "title": "Apoptosis in muscle-to-meat aging process: The omic witness.",
+     "authors": [
+      "Longo V",
+      "Lana A",
+      "Bottero MT"
+     ],
+     "doi": "10.1016/j.jprot.2015.04.023"
+    },
+    {
+     "pmid": "14629120",
+     "date": "2003 Oct",
+     "journal": "Eur J Cell Biol",
+     "title": "Expression of small heat shock proteins HspB2, HspB8, Hsp20 and cvHsp in different tissues of the perinatal developing pig.",
+     "authors": [
+      "Verschuure P",
+      "Tatard C",
+      "Boelens WC"
+     ],
+     "doi": "10.1078/0171-9335-00337"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "ZNF384": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "2",
+   "records": [
+    {
+     "pmid": "41816936",
+     "date": "2026 Mar 31",
+     "journal": "FASEB J",
+     "title": "ZNF384-Driven Fibulin-1 Exacerbates Vascular Stiffness via TGF-β/Smad3-Mediated Senescence and Fibrosis.",
+     "authors": [
+      "Yan D",
+      "Ji T",
+      "Liang X"
+     ],
+     "doi": "10.1096/fj.202501262RR"
+    },
+    {
+     "pmid": "41477821",
+     "date": "2026 Jan 2",
+     "journal": "Sci Adv",
+     "title": "Multidimensional mapping of stimulation-responsive regulatory elements and candidate causal variants in T cell activation.",
+     "authors": [
+      "Wang Z",
+      "Dong W",
+      "Feng X"
+     ],
+     "doi": "10.1126/sciadv.ady2539"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "PIGG": {
+  "kidney_fib": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "36440259",
+     "date": "2023 Jan",
+     "journal": "JHEP Rep",
+     "title": "Histological and serological features of acute liver injury after SARS-CoV-2 vaccination.",
+     "authors": [
+      "Codoni G",
+      "Kirchner T",
+      "Engel B"
+     ],
+     "doi": "10.1016/j.jhepr.2022.100605"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "19556305",
+     "date": "2009 Aug",
+     "journal": "Int Immunol",
+     "title": "Nucleotide-hydrolyzing antibodies from the sera of autoimmune-prone MRL-lpr/lpr mice.",
+     "authors": [
+      "Andryushkova AA",
+      "Kuznetsova IA",
+      "Orlovskaya IA"
+     ],
+     "doi": "10.1093/intimm/dxp060"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "TEFM": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "2",
+   "records": [
+    {
+     "pmid": "39922921",
+     "date": "2025 Feb 8",
+     "journal": "Commun Biol",
+     "title": "TEFM facilitates transition from RNA synthesis to DNA synthesis at H-strand replication origin of mtDNA.",
+     "authors": [
+      "Matsuda S",
+      "Nakayama M",
+      "Do Y"
+     ],
+     "doi": "10.1038/s42003-025-07645-4"
+    },
+    {
+     "pmid": "31036713",
+     "date": "2019 Jun",
+     "journal": "EMBO Rep",
+     "title": "TEFM regulates both transcription elongation and RNA processing in mitochondria.",
+     "authors": [
+      "Jiang S",
+      "Koolmeister C",
+      "Misic J"
+     ],
+     "doi": "10.15252/embr.201948101"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "ZNF737": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "0",
+   "records": []
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "NUP160": {
+  "kidney_fib": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "34533106",
+     "date": "2021 Dec",
+     "journal": "Bioengineered",
+     "title": "Nucleoporin 160 (NUP160) inhibition alleviates diabetic nephropathy by activating autophagy.",
+     "authors": [
+      "Xie J",
+      "Yuan Y",
+      "Yao G"
+     ],
+     "doi": "10.1080/21655979.2021.1968777"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "2",
+   "records": [
+    {
+     "pmid": "41394771",
+     "date": "2025",
+     "journal": "Hum Mutat",
+     "title": "Identification of Aging-Related Hub Genes (ATP11B, RBBP7, DOCK10, and NUP160) as Potential Biomarkers and Therapeutic Targets in Sepsis.",
+     "authors": [
+      "Sun X",
+      "Geng S",
+      "Wang Z"
+     ],
+     "doi": "10.1155/humu/9789556"
+    },
+    {
+     "pmid": "30179222",
+     "date": "2018 Oct 1",
+     "journal": "J Clin Invest",
+     "title": "Mutations in multiple components of the nuclear pore complex cause nephrotic syndrome.",
+     "authors": [
+      "Braun DA",
+      "Lovric S",
+      "Schapiro D"
+     ],
+     "doi": "10.1172/JCI98688"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "RBBP4": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "16",
+   "records": [
+    {
+     "pmid": "41851819",
+     "date": "2026 Mar 18",
+     "journal": "Clin Epigenetics",
+     "title": "Association of accelerated biological aging with obstructive sleep apnea symptoms and identification of a candidate biomarker gene signature.",
+     "authors": [
+      "Wang Y",
+      "Wang Y",
+      "Zhang Q"
+     ],
+     "doi": "10.1186/s13148-026-02108-x"
+    },
+    {
+     "pmid": "41462332",
+     "date": "2025 Dec 29",
+     "journal": "Stem Cell Res Ther",
+     "title": "Enhancing cardiomyocyte reprogramming efficiency by targeting cellular senescence is mediated via Rb1 gene.",
+     "authors": [
+      "Fang J",
+      "Yang Q",
+      "Maas RGC"
+     ],
+     "doi": "10.1186/s13287-025-04776-7"
+    },
+    {
+     "pmid": "37504562",
+     "date": "2023 Jul 18",
+     "journal": "J Cardiovasc Dev Dis",
+     "title": "H3K36 Di-Methylation Marks, Mediated by Ash1 in Complex with Caf1-55 and MRG15, Are Required during Drosophila Heart Development.",
+     "authors": [
+      "Zhu JY",
+      "Liu C",
+      "Huang X"
+     ],
+     "doi": "10.3390/jcdd10070307"
+    },
+    {
+     "pmid": "34728711",
+     "date": "2021 Nov 2",
+     "journal": "Sci Rep",
+     "title": "Simultaneous expression of MMB-FOXM1 complex components enables efficient bypass of senescence.",
+     "authors": [
+      "Kumari R",
+      "Hummerich H",
+      "Shen X"
+     ],
+     "doi": "10.1038/s41598-021-01012-z"
+    },
+    {
+     "pmid": "31896310",
+     "date": "2020 Apr",
+     "journal": "Toxicol Pathol",
+     "title": "Loss of Immunohistochemical Reactivity in Association With Handling-Induced Dark Neurons in Mouse Brains.",
+     "authors": [
+      "Soontornniyomkij V",
+      "Chang RC",
+      "Soontornniyomkij B"
+     ],
+     "doi": "10.1177/0192623319896263"
+    },
+    {
+     "pmid": "31397537",
+     "date": "2019 Dec",
+     "journal": "Aging Cell",
+     "title": "The conserved histone chaperone LIN-53 is required for normal lifespan and maintenance of muscle integrity in Caenorhabditis elegans.",
+     "authors": [
+      "Müthel S",
+      "Uyar B",
+      "He M"
+     ],
+     "doi": "10.1111/acel.13012"
+    },
+    {
+     "pmid": "31365869",
+     "date": "2019 Jul 30",
+     "journal": "Cell Rep",
+     "title": "A Key Role for the Ubiquitin Ligase UBR4 in Myofiber Hypertrophy in Drosophila and Mice.",
+     "authors": [
+      "Hunt LC",
+      "Stover J",
+      "Haugen B"
+     ],
+     "doi": "10.1016/j.celrep.2019.06.094"
+    },
+    {
+     "pmid": "30809532",
+     "date": "2019",
+     "journal": "Biomed Res Int",
+     "title": "Bioinformatics Analysis Reveals the Altered Gene Expression of Patients with Postmenopausal Osteoporosis Using Liuweidihuang Pills Treatment.",
+     "authors": [
+      "Gong R",
+      "Ren S",
+      "Chen M"
+     ],
+     "doi": "10.1155/2019/1907906"
+    },
+    {
+     "pmid": "30355501",
+     "date": "2018 Oct 23",
+     "journal": "Cell Rep",
+     "title": "RbAp48 Protein Is a Critical Component of GPR158/OCN Signaling and Ameliorates Age-Related Memory Loss.",
+     "authors": [
+      "Kosmidis S",
+      "Polyzos A",
+      "Harvey L"
+     ],
+     "doi": "10.1016/j.celrep.2018.09.077"
+    },
+    {
+     "pmid": "28860177",
+     "date": "2018 Jan 1",
+     "journal": "J Appl Physiol (1985)",
+     "title": "Effect of zileuton on osteoporotic bone and its healing, expression of bone, and brain genes in rats.",
+     "authors": [
+      "Saul D",
+      "Ninkovic M",
+      "Komrakova M"
+     ],
+     "doi": "10.1152/japplphysiol.01126.2016"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "MBTPS2": {
+  "kidney_fib": {
+   "count": "1",
+   "records": [
+    {
+     "pmid": "34655156",
+     "date": "2022 Feb",
+     "journal": "Am J Med Genet A",
+     "title": "A novel MBTPS2 variant associated with BRESHECK syndrome impairs sterol-regulated transcription and the endoplasmic reticulum stress response.",
+     "authors": [
+      "Strong A",
+      "March ME",
+      "Cardinale CJ"
+     ],
+     "doi": "10.1002/ajmg.a.62537"
+    }
+   ]
+  },
+  "senescence": {
+   "count": "0",
+   "records": []
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "CA4": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "158",
+   "records": [
+    {
+     "pmid": "42737681",
+     "date": "2026 Aug 31",
+     "journal": "Int J Mol Sci",
+     "title": "HIF-2α Depletion and HIF-1α Overexpression in Vulnerable Brain Regions Distinguish Alzheimer's Disease with Cerebral Amyloid Angiopathy.",
+     "authors": [
+      "Sukhorukov VS",
+      "Baranich TI",
+      "Velts OV"
+     ],
+     "doi": "10.3390/ijms27177784"
+    },
+    {
+     "pmid": "42315716",
+     "date": "2026 Jun 18",
+     "journal": "Geroscience",
+     "title": "High-resolution MRI evidence for age- and sex-related changes in hippocampal subfield volume during healthy aging.",
+     "authors": [
+      "Hall MC",
+      "Picci G",
+      "Rempe MP"
+     ],
+     "doi": "10.1007/s11357-026-02371-z"
+    },
+    {
+     "pmid": "42167633",
+     "date": "2026 Sep 15",
+     "journal": "Brain Res",
+     "title": "Hippocampal subfield volumes and associated cognitive decline with ageing.",
+     "authors": [
+      "Singh AD",
+      "Kumar M",
+      "Bhargavi P"
+     ],
+     "doi": "10.1016/j.brainres.2026.150391"
+    },
+    {
+     "pmid": "42119945",
+     "date": "2026 May 12",
+     "journal": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+     "title": "Hippocampal Total, Subregion, and Subfield Volume Alterations in Late-Life Depression.",
+     "authors": [
+      "Renfro B",
+      "Szymkowicz SM",
+      "Xu K"
+     ],
+     "doi": "10.1016/j.bpsc.2026.04.015"
+    },
+    {
+     "pmid": "42033046",
+     "date": "2026 May",
+     "journal": "Aging Cell",
+     "title": "The Myokine Irisin Represents an Indirect Pathway Linking Exercise to Hippocampal Subfields Relevant to Alzheimer's Disease and Neurogenesis.",
+     "authors": [
+      "Pace T",
+      "Levenstein JM",
+      "Quigley BL"
+     ],
+     "doi": "10.1111/acel.70497"
+    },
+    {
+     "pmid": "41603971",
+     "date": "2026 Jan 28",
+     "journal": "Brain Struct Funct",
+     "title": "Age-related volumetric differences of hippocampal subfields in the developing brain: a retrospective MRI study.",
+     "authors": [
+      "Işıklar S",
+      "Sağlam D"
+     ],
+     "doi": "10.1007/s00429-026-03074-z"
+    },
+    {
+     "pmid": "41465466",
+     "date": "2025 Dec 14",
+     "journal": "Int J Mol Sci",
+     "title": "Limited Microvascular Remodelling Occurs in the Aged Human Hippocampus in Obstructive Sleep Apnoea.",
+     "authors": [
+      "Xu C",
+      "Owen JE",
+      "Gislason T"
+     ],
+     "doi": "10.3390/ijms262412040"
+    },
+    {
+     "pmid": "41403093",
+     "date": "2026 Apr",
+     "journal": "J Magn Reson Imaging",
+     "title": "Hippocampal Subfield Integrity and Age-Driven Neural Correlates of Appetite Loss in Amyotrophic Lateral Sclerosis.",
+     "authors": [
+      "Ghaderi S",
+      "Mohammadi S",
+      "Kalra S"
+     ],
+     "doi": "10.1002/jmri.70206"
+    },
+    {
+     "pmid": "41284116",
+     "date": "2025 Nov 24",
+     "journal": "Discov Oncol",
+     "title": "A Mendelian randomization-based risk model using aging-related genes for prognosis in lung adenocarcinoma.",
+     "authors": [
+      "Feng S",
+      "Liu X",
+      "Yang H"
+     ],
+     "doi": "10.1007/s12672-025-04101-x"
+    },
+    {
+     "pmid": "41275694",
+     "date": "2026 Feb",
+     "journal": "Brain Cogn",
+     "title": "Age-related spatial discrimination: Investigating hippocampal structural foundations.",
+     "authors": [
+      "Wu J",
+      "Zhang JX",
+      "Li HJ"
+     ],
+     "doi": "10.1016/j.bandc.2025.106380"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "FLVCR1": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "3",
+   "records": [
+    {
+     "pmid": "39237990",
+     "date": "2024 Sep 6",
+     "journal": "J Nanobiotechnology",
+     "title": "Apoptotic metabolites ameliorate bone aging phenotypes via TCOF1/FLVCR1-mediated mitochondrial homeostasis.",
+     "authors": [
+      "Qu Y",
+      "Meng B",
+      "Cai S"
+     ],
+     "doi": "10.1186/s12951-024-02820-x"
+    },
+    {
+     "pmid": "38513237",
+     "date": "2024 Jun 13",
+     "journal": "Blood",
+     "title": "Genetic regulation of carnitine metabolism controls lipid damage repair and aging RBC hemolysis in vivo and in vitro.",
+     "authors": [
+      "Nemkov T",
+      "Key A",
+      "Stephenson D"
+     ],
+     "doi": "10.1182/blood.2024023983"
+    },
+    {
+     "pmid": "37118062",
+     "date": "2022 May",
+     "journal": "Nat Aging",
+     "title": "Metagenomic and metabolomic remodeling in nonagenarians and centenarians and its association with genetic and socioeconomic factors.",
+     "authors": [
+      "Xu Q",
+      "Wu C",
+      "Zhu Q"
+     ],
+     "doi": "10.1038/s43587-022-00193-0"
+    }
+   ]
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ },
+ "TMEM185A": {
+  "kidney_fib": {
+   "count": "0",
+   "records": []
+  },
+  "senescence": {
+   "count": "0",
+   "records": []
+  },
+  "tls_lymphoid": {
+   "count": "0",
+   "records": []
+  }
+ }
+}

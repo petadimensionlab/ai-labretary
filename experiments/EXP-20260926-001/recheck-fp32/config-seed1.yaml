@@ -1,0 +1,168 @@
+# EXP-20260926-001 fp32 再計算（plan §10-1, G2 承認済みの事前登録手順）— seed 1
+# ../config.yaml から自動派生。変更点: compute.dtype fp32, 遺伝子を run 1 (tls_high) の境界遺伝子（null 分位 0.90–0.99）に限定,
+# robustness.seeds を 1 seed に, ランダム null / HK は再計算しない（比較は bf16 の null に対して行う）, 出力先 results-recheck-fp32。
+# 細胞抽出（seed-gene の rng）と重心用細胞（seed）は本番と同一で、work/ のキャッシュを再利用する。
+experiment_id: EXP-20260926-001
+hypothesis_id: HYP-20260925-01
+prepare:
+  sources:
+  - path: data/raw/kidney_tls/A2_KPMP_v1.5_scRNA_Lake2023.h5ad
+  obs_keep:
+  - author_cell_type
+  - cell_type
+  - disease
+  - donor_id
+  - eGFR
+  - Age_binned
+  filter:
+    author_cell_type:
+    - aPT
+    - PT-S1/S2
+    - PT-S3
+    disease:
+    - chronic kidney disease
+    - normal
+  donor_maps:
+  - path: outputs/literature/2026-09-25-tls-feasibility/donor_A2.csv
+    key: donor_id
+    csv_key: sample
+    column: TLS_group
+    as: TLS_group
+  state_key: isp_state
+  state_rules:
+  - label: aPT_CKD_TLShigh
+    where:
+      author_cell_type:
+      - aPT
+      disease:
+      - chronic kidney disease
+      TLS_group:
+      - high
+  - label: aPT_CKD_TLSlow
+    where:
+      author_cell_type:
+      - aPT
+      disease:
+      - chronic kidney disease
+      TLS_group:
+      - low
+  - label: PT_healthy
+    where:
+      author_cell_type:
+      - PT-S1/S2
+      - PT-S3
+      disease:
+      - normal
+  drop_unlabeled: true
+  max_cells_per_donor: null
+  max_cells_per_state: null
+  donor_key: donor_id
+  seed: 0
+  output: experiments/EXP-20260926-001/work/input.h5ad
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+data:
+  input_h5ad: experiments/EXP-20260926-001/work/input.h5ad
+  tokenized_dataset: experiments/EXP-20260926-001/work/tokenized.dataset
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict:
+    isp_state: isp_state
+    donor_id: donor_id
+    TLS_group: TLS_group
+    author_cell_type: author_cell_type
+    disease: disease
+  filter_data: null
+  max_ncells: null
+states:
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states:
+  - aPT_CKD_TLSlow
+runs:
+  tls_high:
+    states:
+      start_state: aPT_CKD_TLShigh
+      alt_states:
+      - aPT_CKD_TLSlow
+  tls_low:
+    states:
+      start_state: aPT_CKD_TLSlow
+      alt_states:
+      - aPT_CKD_TLShigh
+cell_selection:
+  max_cells_per_gene: 100
+  max_cells_per_donor: 15
+  min_cells_per_gene: 30
+  donor_key: donor_id
+state_embs:
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+precheck:
+  seed: 0
+  folds: 5
+  C: 1.0
+  emb_layer: -1
+  min_auc_goal: 0.8
+  min_auc_alt: 0.6
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  genes_to_perturb:
+  - ENSG00000118785
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+controls:
+  positive:
+  - ENSG00000162692
+  negative_random_n: 0
+  negative_sampler:
+    method: freq_matched
+    min_cells: 300
+    match_to: targets
+    ratio_tolerance: 1.5
+    seed_offset: 0
+  negative_fixed: []
+  fixed_role: housekeeping
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+analysis:
+  null_role: negative
+  primary_targets:
+  - ENSG00000141510
+  - ENSG00000124762
+  - ENSG00000111321
+  null_quantile_primary: 0.95
+  fdr_family: targets
+  min_seeds_passing: 2
+  positive_null_quantile: 0.9
+  falsify_null_quantile: 0.8
+  ratio_threshold: 1.2
+  bootstrap_n: 2000
+  bootstrap_seed: 0
+  fdr_p: norm
+  metrics:
+  - shift_goal
+  - shift_goal_minus_start
+robustness:
+  seeds:
+  - 1
+  subsample_frac: 1.0
+  emb_layers:
+  - -1
+output:
+  results_dir: results-recheck-fp32
+  experiment_dir: experiments/EXP-20260926-001
+compute:
+  device: mps
+  dtype: fp32
+  cache_model: true
+  sec_per_cell_gene: 0.8219

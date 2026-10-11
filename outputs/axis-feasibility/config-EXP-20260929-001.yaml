@@ -1,0 +1,80 @@
+axis_feasibility:
+  experiment_id: EXP-20260929-001
+  expression:
+    h5ad: experiments/EXP-20260929-001/work/input.h5ad
+    gene_name_col: gene_name
+    state_col: fib_org_state
+  states:
+    start:
+      labels:
+      - FIB_orgLow
+    goal:
+      labels:
+      - FIB_orgHigh
+    reference:
+      labels:
+      - MYOF_fib
+  population:
+  - start
+  - goal
+  markers:
+    goal_defining: &id001
+    - PDPN
+    - NGFR
+    - ICAM1
+    - VCAM1
+    - TNFSF13B
+    - MADCAM1
+    - ENPP2
+    goal_positive_control: *id001
+    reference_positive_control:
+    - MYH11
+    - KCNMA1
+    - FAP
+    - ADGRL3
+    - EDIL3
+    - PTPRE
+    - NIBAN1
+    - LTBP2
+    - TTLL7
+    - AKAP6
+    - DPYSL3
+    - MAP2
+    - THBS2
+    - RGS7BP
+    - NTM
+    - INHBA
+    - ATP8B1
+    - ATP10A
+    - PDLIM7
+    - ARHGAP28
+    - TRMT9B
+    - FMNL3
+    - SORT1
+    - SAMD3
+    contrast_set:
+    - COL1A1
+    - COL1A2
+    - COL3A1
+    - COL5A1
+    - COL6A3
+    - FBN1
+    - SPARC
+  centroids:
+    mode: precomputed
+    seeds:
+    - 61
+    - 62
+    - 63
+    files:
+    - experiments/EXP-20260929-001/results/run-{seed}-L-1/state_emb_vectors.npz
+    - experiments/EXP-20260929-001/work/extra_centroids-seed{seed}.npz
+    names:
+      start: FIB_orgLow
+      goal: FIB_orgHigh
+      reference: MYOF_fib
+      others:
+      - FIB_ecmHigh
+  perturbation:
+    min_cells_per_gene: 120
+  output: outputs/axis-feasibility/EXP-20260929-001.json

@@ -1,0 +1,8 @@
+{
+  "requested": "mps",
+  "resolved": "mps",
+  "available": [
+    "mps",
+    "cpu"
+  ]
+}

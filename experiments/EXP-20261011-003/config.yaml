@@ -1,0 +1,268 @@
+# EXP-20261011-003 — A6（尿管閉塞腎, Reck ら 2025）の埋め込みのみの実験。
+# 全パラメータはここに書く。plan.md §4 の判定規則と一致させる（評価コードが照合する）。
+# **摂動・過剰発現はしない。** 埋め込みを 1 回取り、状態の分離・2 本の軸のなす角・
+# 候補と陽性対照の位置（向き）を独立データで実測する。
+experiment_id: EXP-20261011-003
+hypothesis_id: HYP-20261011-01   # 方法の仮説。G3=判定不能(2026-10-11)。本実験は PI 決定 2026-10-11 の A6 確認
+kind: embedding_only
+
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: data/raw/kidney_tls/A6_UUO_Reck2025.h5ad   # 読み取り専用
+  tokenized_dataset: experiments/EXP-20261011-003/work/tokenized.dataset
+  state_key: celltype_l2
+  cell_type_col: celltype_l2
+  custom_attr_name_dict:
+    celltype_l2: celltype_l2
+    celltype_l1: celltype_l1
+    disease: disease
+    donor_id: donor_id
+    n_umi: n_umi
+    n_genes: n_genes
+    assay: assay
+  filter_data: null
+  max_ncells: null
+
+# 2 系統（PI 決定 2026-10-11 の (a) をそのまま）
+systems:
+  interstitial:                      # 間質系（活性化した間質の軸 = u_ada 相当）
+    start: {labels: [Fibroblast]}
+    goal: {labels: [Myofibroblast]}
+    positive_control_set: activation_71
+  tubular:                           # 管状系（退化・老化の軸 = u_deg 相当）
+    start: {labels: [PT S1, PT S2, PT S3]}
+    goal: {labels: [PT Injured, PT Inflammatory]}
+    positive_control_set: positive_tubular_a6   # A6 用に組み直した固定リスト（PI 回答 2026-10-11, §5.1）。
+                                                # Lake30（positive_degenerate）は管状系では検出が弱く使わない
+
+# 遺伝子集合（すべて結果を見る前に固定。Ensembl は EXP-20261011-002/results/gene_rank_015.csv の
+# gene/symbol を使って 2026-10-11 に抜き出した）
+gene_sets:
+  candidates:
+    symbols: [MADCAM1, CXCL13, CCL21, CA12, ZFHX3, SLC4A9, GSN, ELN]
+    ensembl:
+      MADCAM1: ENSG00000099866
+      CXCL13: ENSG00000156234
+      CCL21: ENSG00000137077
+      CA12: ENSG00000074410
+      ZFHX3: ENSG00000140836
+      SLC4A9: ENSG00000113073
+      GSN: ENSG00000148180
+      ELN: ENSG00000049540
+    # 「A6 で検出される」の定義（結果を見る前）
+    detection_floor_goal: 0.01       # 目標の状態での検出率 ≥ 1% を「A6 で検出」とする
+    n_expected_detected: 5           # PI 回答 2026-10-11 で確定。実測: GSN 0.181 / ZFHX3 0.162 / CA12 0.017 /
+                                     # CCL21 0.017 / ELN 0.021 の 5 個が床に届く。SLC4A9 0.003（2 核）は届かない
+    # PI 回答 2026-10-11（plan.md §0.3-0.4・§12-1 を解決）
+    adopted_5: [GSN, ZFHX3, CA12, ELN, CCL21]   # A6 で位置を推定する候補（PI の列挙と 1 個ずれ、CCL21 を採用）
+    not_measured: [SLC4A9]           # 検出 2/585 = 0.003。単一遺伝子の位置推定に足りない → 「測定不能」として扱う
+    exploratory_only: [MADCAM1, CXCL13]  # A6 で 0 核。探索のまま併記（位置は推定しない）
+  positive_activation:               # 活性化の陽性対照（Lake ら 2023 補足表 14、保守 71 個版。
+                                     # A1/A2 と同じリスト。A6 との比較のため変えない）
+    symbols: [PDZRN4, ATP2B4, IGFBP5, NOX4, DPYSL3, COL1A1, GSN, LTBP1, ABI3BP, EFNA5,
+              ANKS1B, SULF1, ANK2, AFDN, ZEB1, FN1, THRB, SDC2, ELN, FRY, DOCK5, MACROD2,
+              NHSL2, PRICKLE1, PLCB1, CELF2, JAZF1, ZFPM2, NAV3, MGP, ASPH, CNTN4, COL1A2,
+              HSPG2, RASSF8, PCDH7, PARD3B, FBXL7, DCLK2, MAML3, CDC14B, SLIT2, MPDZ,
+              ATP8B1, MICAL2, MICAL3, SIPA1L1, ESYT2, COL6A2, COL6A1, SLC44A1, COL5A2,
+              ANTXR1, NFIB, NTM, PDGFC, ITGA11, DSTN, MFGE8, PDE5A, COL8A1, FOXP1, ARMC9,
+              GAB1, PAWR, DCLK1, ANKH, SLC20A2, RAD51B, SESTD1, PTPRD]
+    ensembl:
+      PDZRN4: ENSG00000165966
+      ATP2B4: ENSG00000058668
+      IGFBP5: ENSG00000115461
+      NOX4: ENSG00000086991
+      DPYSL3: ENSG00000113657
+      COL1A1: ENSG00000108821
+      GSN: ENSG00000148180
+      LTBP1: ENSG00000049323
+      ABI3BP: ENSG00000154175
+      EFNA5: ENSG00000184349
+      ANKS1B: ENSG00000185046
+      SULF1: ENSG00000137573
+      ANK2: ENSG00000145362
+      AFDN: ENSG00000130396
+      ZEB1: ENSG00000148516
+      FN1: ENSG00000115414
+      THRB: ENSG00000151090
+      SDC2: ENSG00000169439
+      ELN: ENSG00000049540
+      FRY: ENSG00000073910
+      DOCK5: ENSG00000147459
+      MACROD2: ENSG00000172264
+      NHSL2: ENSG00000204131
+      PRICKLE1: ENSG00000139174
+      PLCB1: ENSG00000182621
+      CELF2: ENSG00000048740
+      JAZF1: ENSG00000153814
+      ZFPM2: ENSG00000169946
+      NAV3: ENSG00000067798
+      MGP: ENSG00000111341
+      ASPH: ENSG00000198363
+      CNTN4: ENSG00000144619
+      COL1A2: ENSG00000164692
+      HSPG2: ENSG00000142798
+      RASSF8: ENSG00000123094
+      PCDH7: ENSG00000169851
+      PARD3B: ENSG00000116117
+      FBXL7: ENSG00000183580
+      DCLK2: ENSG00000170390
+      MAML3: ENSG00000196782
+      CDC14B: ENSG00000081377
+      SLIT2: ENSG00000145147
+      MPDZ: ENSG00000107186
+      ATP8B1: ENSG00000081923
+      MICAL2: ENSG00000133816
+      MICAL3: ENSG00000243156
+      SIPA1L1: ENSG00000197555
+      ESYT2: ENSG00000117868
+      COL6A2: ENSG00000142173
+      COL6A1: ENSG00000142156
+      SLC44A1: ENSG00000070214
+      COL5A2: ENSG00000204262
+      ANTXR1: ENSG00000169604
+      NFIB: ENSG00000147862
+      NTM: ENSG00000182667
+      PDGFC: ENSG00000145431
+      ITGA11: ENSG00000137809
+      DSTN: ENSG00000125868
+      MFGE8: ENSG00000140545
+      PDE5A: ENSG00000138735
+      COL8A1: ENSG00000144810
+      FOXP1: ENSG00000114861
+      ARMC9: ENSG00000135931
+      GAB1: ENSG00000109458
+      PAWR: ENSG00000177425
+      DCLK1: ENSG00000133083
+      ANKH: ENSG00000154122
+      SLC20A2: ENSG00000168575
+      RAD51B: ENSG00000182185
+      SESTD1: ENSG00000187231
+      PTPRD: ENSG00000153707
+    source: experiments/EXP-20261007-001/work/genes_011.json（陽性対照71）
+  positive_degenerate:               # 退化の陽性対照（Lake ら 2023 補足表 12 から選んだ 30 個。
+                                     # A1 と同じリスト。**A6 の管状系では検出が弱く（中央値 0.028）使わない**。
+                                     # 記録として残す。管状系には positive_tubular_a6 を使う（§5.1））
+    symbols: [AKR1B1, ARMC9, CHMP2A, CTSH, CYS1, DCXR, DSTN, DYNLRB1, EIF1, EIF4A2, FGL2,
+              HLA-A, HSPB6, HSPG2, IGFBP5, JUND, LMAN2, MFGE8, MGP, MYH11, NDUFC2, NDUFS8,
+              PDE5A, PFDN5, PSME2, RPL18, RPS10, S100A11, SOD3, TNFRSF12A]
+    ensembl:
+      AKR1B1: ENSG00000085662
+      ARMC9: ENSG00000135931
+      CHMP2A: ENSG00000130724
+      CTSH: ENSG00000103811
+      CYS1: ENSG00000205795
+      DCXR: ENSG00000169738
+      DSTN: ENSG00000125868
+      DYNLRB1: ENSG00000125971
+      EIF1: ENSG00000173812
+      EIF4A2: ENSG00000156976
+      FGL2: ENSG00000127951
+      HLA-A: ENSG00000206503
+      HSPB6: ENSG00000004776
+      HSPG2: ENSG00000142798
+      IGFBP5: ENSG00000115461
+      JUND: ENSG00000130522
+      LMAN2: ENSG00000169223
+      MFGE8: ENSG00000140545
+      MGP: ENSG00000111341
+      MYH11: ENSG00000133392
+      NDUFC2: ENSG00000151366
+      NDUFS8: ENSG00000110717
+      PDE5A: ENSG00000138735
+      PFDN5: ENSG00000123349
+      PSME2: ENSG00000100911
+      RPL18: ENSG00000063177
+      RPS10: ENSG00000124614
+      S100A11: ENSG00000163191
+      SOD3: ENSG00000109610
+      TNFRSF12A: ENSG00000006327
+    source: experiments/EXP-20261011-001/config.yaml の perturbation.genes_to_perturb
+  positive_tubular_a6:               # 管状系（退化・老化）の陽性対照。**A6 用に組み直した固定リスト**
+                                     # PI 回答 2026-10-11（plan.md §5.1・§12-3 を解決）。
+                                     # 材料: outputs/literature/2026-10-11-tubular-degenerative-positive-control/candidate_markers.csv
+                                     # 一次出典: Reck ら 2025 補足データ 5 第 I・II 節（PMID 40399382）
+                                     # 採否方針: 群 T1-T4 かつ PT 目標での検出率 ≥ 0.10。T5（高検出・固有性弱）は除外（§5.1）
+    symbols: [HAVCR1, VCAM1, DCDC2, CDH6, ITGB8, ITGB6, ITGB3, PROM1, TPM1, IGFBP7,
+              KLF6, ELF3, SOX4, NFKB1, NFKBIZ, JUN, ANXA2,
+              SOD2, HDAC9, BCL2, HSPB1, HSPA1A, HSPA1B]
+    ensembl:
+      HAVCR1: ENSG00000113249
+      VCAM1: ENSG00000162692
+      DCDC2: ENSG00000146038
+      CDH6: ENSG00000113361
+      ITGB8: ENSG00000105855
+      ITGB6: ENSG00000115221
+      ITGB3: ENSG00000259207
+      PROM1: ENSG00000007062
+      TPM1: ENSG00000140416
+      IGFBP7: ENSG00000163453
+      KLF6: ENSG00000067082
+      ELF3: ENSG00000163435
+      SOX4: ENSG00000124766
+      NFKB1: ENSG00000109320
+      NFKBIZ: ENSG00000144802
+      JUN: ENSG00000177606
+      ANXA2: ENSG00000182718
+      SOD2: ENSG00000291237
+      HDAC9: ENSG00000048052
+      BCL2: ENSG00000171791
+      HSPB1: ENSG00000106211
+      HSPA1A: ENSG00000204389
+      HSPA1B: ENSG00000204388
+    detection_floor_goal: 0.10       # 目標（PT Injured ∪ Inflammatory、n=2,632）での検出率 ≥ 10%
+    group_filter: [T1, T2, T3, T4]   # T5（高検出・状態固有性が弱い）は結果を見る前に除外（§5.1）
+    source: outputs/literature/2026-10-11-tubular-degenerative-positive-control/candidate_markers.csv
+    # 事前登録した感度分析（主判定には使わない）: 上の 23 に T5 群（床 ≥ 0.10 の 7 個）を足した 30 個で
+    # P-4(i) の健全性を再計算する。除外した T5 の 7 個:
+    sensitivity_include_T5: [BICC1, RHEX, GLIS3, UGT2B7, PPFIBP1, FNDC3B, SEMA5A]
+  housekeeping: [ACTB, GAPDH, B2M]
+  neutral: [CERS4, TATDN1, IFT25, VAPA, PHPT1, ANAPC16, EEF1D]
+  blind5:                            # 盲検。触らない・数えない。出力に出たら止める
+    TP53: ENSG00000141510
+    CDKN1A: ENSG00000124762
+    LTBR: ENSG00000111321
+    SPP1: ENSG00000118785
+    LCN2: ENSG00000148346
+  control_pool:                      # 位置（向き）の帰無分布に使う頻度マッチ対照。実行時に選ぶ
+    n: 500
+    source: A6 の var のうち Geneformer 辞書にある遺伝子。候補・陽性対照・恒常発現・中立・盲検を除く
+    match_on: detection_in_goal_state
+    seed: 20261011
+
+embedding:
+  device: cuda                       # GB10/CUDA。既存と同じ機体（fp32 なので機体を選ばない。CLAUDE.md §6.1）
+  dtype: fp32                        # 判定の基準（セントロイド・軸・分離）を作るので fp32。tf32 は閉じる
+  emb_mode: cls
+  emb_label: [row_id]                # EmbExtractor の出力。ID で結合する（ガードレール 2026-09-27）
+  forward_batch_size: 100
+  nproc: 1
+  max_ncells: null                   # 全 46,957 核を 1 回エンコード
+
+decision:
+  偶然の水準: 片側 1% に較正。偽セット（対照プールから復元あり 1,000 組）の合格率を記録（判定に使わない）
+  乱数の鍵:
+    偽セット 1,000 組: 20261112
+    対照プールの頻度マッチ: 20261011
+  主判定 P-1（状態の分離。2 系統）:
+    2 系統すべてで: 提供者単位分割（GroupKFold 5 分割）の AUC 平均 ≥ 0.70、かつ総 UMI 数と検出された遺伝子数の 2 変数だけでの分離 AUC ≤ 0.60
+  主判定 P-2（2 本の軸は異なる向き）:
+    (a) 検出された遺伝子数の分布をそろえたセントロイドから作る u_ada と u_deg のなす角の sin ≥ 0.31（角 ≥ 18 度）を提供者 3 群すべてで
+    (b) u_ada・u_deg のそれぞれと d_depth（検出された遺伝子数の大きい 5 分位と小さい 5 分位のセントロイドを結ぶ向き）の余弦の絶対値 ≤ 0.60
+    (c) 検出された遺伝子数の分布をそろえないセントロイドから作る軸との角度差 ≤ 30 度（そろえても軸が安定）
+  副次 P-3（前回の退化側の不成立が A6 でどう見えるか。記述）:
+    管状系の軸が (i) 分離（P-1 の管状系）と (ii) 異なる向き（P-2）を満たすかどうかを 2 値で報告
+  副次 P-4（候補と陽性対照の位置。**相関・記述**。摂動の確認ではない）:
+    発現と埋め込みの位置の相関（検出された遺伝子数の分布をそろえた後、総 UMI 数と検出された遺伝子数で残差化した後）。詳細は plan.md §4.4
+  反証条件: plan.md §4.5 の表。上から順に当て、最初に当たったものを採用
+
+compute:
+  gpu_hours_estimate: 1.13           # 実測の埋め込みスループット 11.5 細胞/秒（A2 fp32）で 46,957 核
+  needs_G2_approval: false           # 技術判定（run_isp.py の条件には当たらない）
+  needs_G2_approval_conservative: true   # PI 回答 2026-10-11: 総核数 46,957 > 1 万の保守側解釈を採用し G2 対象とする
+  approved_by: "PI 2026-10-11（G2 保守側・埋め込み ≈1.13 h 承認）"

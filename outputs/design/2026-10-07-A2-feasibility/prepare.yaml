@@ -1,0 +1,22 @@
+# A2（単一細胞 RNA-seq）の線維芽細胞系列を着手前チェック用に切り出す。
+# data/raw は読み取りのみ。raw.X（生カウント）を X に置く。
+prepare:
+  sources:
+    - path: data/raw/kidney_tls/A2_KPMP_v1.5_scRNA_Lake2023.h5ad
+  obs_keep: [author_cell_type, donor_id, disease, disease_category, nFeature_RNA, nCount_RNA]
+  filter:
+    author_cell_type: [FIB, aFIB, MyoF, dFIB, "VSMC/P", VSMC, MC]
+  state_key: isp_state
+  state_rules:
+    - {label: FIB,   where: {author_cell_type: [FIB]}}
+    - {label: aStr,  where: {author_cell_type: [aFIB, MyoF]}}
+    - {label: dFIB,  where: {author_cell_type: [dFIB]}}
+    - {label: VSMCP, where: {author_cell_type: ["VSMC/P"]}}
+    - {label: VSMC,  where: {author_cell_type: [VSMC]}}
+    - {label: MC,    where: {author_cell_type: [MC]}}
+  drop_unlabeled: true
+  max_cells_per_state: null
+  max_cells_per_donor: null
+  donor_key: donor_id
+  seed: 81
+  output: outputs/design/2026-10-07-A2-feasibility/work/input.h5ad

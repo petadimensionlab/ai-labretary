@@ -1,0 +1,15 @@
+== kidney_fib (count=2)
+  37266145 | 2023 | Front Pharmacol | Therapeutic mechanism of baicalein in peritoneal dialysis-associated peritoneal fibrosis based on network pharmacology and experimental validation.
+  26911677 | 2016 May 15 | Hum Mol Genet | Loss of carbonic anhydrase XII function in individuals with elevated sweat chloride concentration and pulmonary airway disease.
+== senescence (count=33)
+  41696860 | 2026 Mar | Hippocampus | Cardiovascular Risk Indices Differentially Linked to Hippocampal Subfield Volumes: A Comparison Between Younger and Older Adults.
+  40952471 | 2025 Sep 15 | Acta Neuropathol | Differences and overlaps in TDP-43 pathology of 'pure' LATE-NC compared to LATE-NC coexisting with Alzheimer's disease.
+  40616955 | 2025 Oct | Neurobiol Aging | Two-year changes in hippocampal subfield volumes are age-dependent across the lifespan.
+  38283178 | 2024 Mar | JOR Spine | Dynamics of N6-methyladenosine modification during aging and their potential roles in the degeneration of intervertebral disc.
+  35436980 | 2022 Apr 18 | Transl Psychiatry | Allele-specific analysis reveals exon- and cell-type-specific regulatory effects of Alzheimer's disease-associated genetic variants.
+  29941029 | 2018 Jun 26 | Stem Cell Res Ther | Co-culturing nucleus pulposus mesenchymal stem cells with notochordal cell-rich nucleus pulposus explants attenuates tumor necrosis factor-α-induced senescence.
+  29113959 | 2018 Jan | Mol Cell Neurosci | Age-related epigenetic changes in hippocampal subregions of four animal models of Alzheimer's disease.
+  29070571 | 2018 Feb 1 | Am J Physiol Renal Physiol | Lithium induces aerobic glycolysis and glutaminolysis in collecting duct principal cells.
+  28473691 | 2017 May 4 | Sci Rep | Notochordal and nucleus pulposus marker expression is maintained by sub-populations of adult human nucleus pulposus cells through aging and degeneration.
+  28342999 | 2017 Jun | Neuroimage | Hippocampal CA3-dentate gyrus volume uniquely linked to improvement in associative memory from childhood to adulthood.
+== tls_lymphoid (count=0)

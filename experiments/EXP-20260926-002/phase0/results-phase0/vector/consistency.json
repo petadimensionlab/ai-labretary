@@ -1,0 +1,30 @@
+{
+ "consistency": {
+  "max_abs_diff_goal": 3.0640650120443555e-07,
+  "max_abs_diff_start": 3.307607849387822e-07,
+  "mean_abs_shift_goal": 0.00039114096164700297,
+  "orig_emb_same_cell_max_1mcos": 4.440892098500626e-16,
+  "n_cells_multi_gene": 387,
+  "exp001_matched_rows": "2500/2500",
+  "exp001_pearson_shift_goal": 1.0,
+  "exp001_max_abs_diff_shift_goal": 0.0
+ },
+ "drift": {
+  "null_drift_norm_mean": 0.003968135274305516,
+  "null_disp_norm_mean": 0.014132188777481493,
+  "frac_disp_along_global_drift_mean": 0.08467245874355492,
+  "cos_drift_vs_u": -0.10733579941198867,
+  "cos_drift_vs_minus_mean_orig": 0.04317935903009071,
+  "cos_drift_vs_goal": -0.06742684822479598,
+  "cos_drift_vs_start": -0.054418651607156705,
+  "mean_shift_goal_null": -0.00026755885487605746,
+  "radial_part_of_shift_goal_null": -0.00015104639378289288,
+  "null_disp_top_pc_var_frac": [
+   0.463,
+   0.056,
+   0.048,
+   0.029,
+   0.019
+  ]
+ }
+}

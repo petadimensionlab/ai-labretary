@@ -1,0 +1,27 @@
+# 着手前チェックの重心抽出のみに使う設定。**摂動は行わない**（前向き計算だけ）。
+experiment_id: HYP-20261007-01-precheck-A2
+data:
+  input_h5ad: outputs/design/2026-10-07-A2-feasibility/work/input.h5ad
+  tokenized_dataset: outputs/design/2026-10-07-A2-feasibility/work/tokenized.dataset
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict:
+    isp_state: isp_state
+    donor_id: donor_id
+    author_cell_type: author_cell_type
+    n_counts: n_counts
+  filter_data: null
+  max_ncells: null
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+compute:
+  device: mps
+  dtype: fp32
+perturbation:
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1

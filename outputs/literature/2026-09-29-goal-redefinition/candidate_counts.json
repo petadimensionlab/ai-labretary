@@ -1,0 +1,6884 @@
+{
+ "basis": {
+  "n_fibroblasts": 19049,
+  "n_donors": 79,
+  "cap_per_donor": 20,
+  "min_cells_per_gene": 120,
+  "FIB_org_n_cells": 716,
+  "FIB_org_n_donors": 64
+ },
+ "upper_bound_all_fibroblasts": [
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CXCL13",
+   "n_detected_start": 173,
+   "n_donors": 39,
+   "n_after_cap20": 136,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CCL19",
+   "n_detected_start": 230,
+   "n_donors": 40,
+   "n_after_cap20": 171,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CCL21",
+   "n_detected_start": 384,
+   "n_donors": 50,
+   "n_after_cap20": 307,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "LTB",
+   "n_detected_start": 144,
+   "n_donors": 45,
+   "n_after_cap20": 144,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "TNFSF14",
+   "n_detected_start": 183,
+   "n_donors": 40,
+   "n_after_cap20": 166,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CXCL16",
+   "n_detected_start": 201,
+   "n_donors": 52,
+   "n_after_cap20": 198,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CXCL1",
+   "n_detected_start": 155,
+   "n_donors": 44,
+   "n_after_cap20": 155,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CXCL14",
+   "n_detected_start": 1299,
+   "n_donors": 71,
+   "n_after_cap20": 837,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CCL2",
+   "n_detected_start": 1315,
+   "n_donors": 65,
+   "n_after_cap20": 764,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CCL11",
+   "n_detected_start": 314,
+   "n_donors": 47,
+   "n_after_cap20": 235,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CCL28",
+   "n_detected_start": 855,
+   "n_donors": 65,
+   "n_after_cap20": 586,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CSF1",
+   "n_detected_start": 1986,
+   "n_donors": 73,
+   "n_after_cap20": 964,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "IL7",
+   "n_detected_start": 1645,
+   "n_donors": 63,
+   "n_after_cap20": 701,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "IL15",
+   "n_detected_start": 2218,
+   "n_donors": 69,
+   "n_after_cap20": 870,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "IL33",
+   "n_detected_start": 1080,
+   "n_donors": 63,
+   "n_after_cap20": 666,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "IL34",
+   "n_detected_start": 4085,
+   "n_donors": 74,
+   "n_after_cap20": 1099,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "IL11",
+   "n_detected_start": 263,
+   "n_donors": 39,
+   "n_after_cap20": 208,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "IL18",
+   "n_detected_start": 820,
+   "n_donors": 66,
+   "n_after_cap20": 575,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "IL32",
+   "n_detected_start": 720,
+   "n_donors": 65,
+   "n_after_cap20": 609,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "TNFSF10",
+   "n_detected_start": 1870,
+   "n_donors": 73,
+   "n_after_cap20": 932,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "TNFSF15",
+   "n_detected_start": 1165,
+   "n_donors": 67,
+   "n_after_cap20": 770,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "CXCL12",
+   "n_detected_start": 5084,
+   "n_donors": 74,
+   "n_after_cap20": 1205,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "VEGFA",
+   "n_detected_start": 2134,
+   "n_donors": 75,
+   "n_after_cap20": 944,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "PGF",
+   "n_detected_start": 163,
+   "n_donors": 40,
+   "n_after_cap20": 163,
+   "pass120": true
+  },
+  {
+   "candidate": "上限（全線維芽細胞）",
+   "gene": "ANGPT1",
+   "n_detected_start": 9092,
+   "n_donors": 76,
+   "n_after_cap20": 1255,
+   "pass120": true
+  }
+ ],
+ "candidates": [
+  {
+   "name": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2/CR2/TNFSF13/BST1",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2",
+    "CR2",
+    "TNFSF13",
+    "BST1"
+   ],
+   "n_goal": 5580,
+   "n_goal_donors": 75,
+   "n_start": 13469,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2131.0,
+   "start_median_ngenes": 1423.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.498,
+   "depth_only_auc": 0.6886726361693614,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0571,
+   "frac_goal_that_is_FIB_org": 0.0609,
+   "frac_FIB_org_in_goal": 0.4749,
+   "FIB_org_cells_left_in_start": 376,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 101,
+     "n_donors": 32,
+     "n_after_cap20": 85,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 89,
+     "n_donors": 27,
+     "n_after_cap20": 86,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 211,
+     "n_donors": 45,
+     "n_after_cap20": 206,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "LTB",
+     "n_detected_start": 80,
+     "n_donors": 39,
+     "n_after_cap20": 80,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 65,
+     "n_donors": 28,
+     "n_after_cap20": 65,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 122,
+     "n_donors": 39,
+     "n_after_cap20": 122,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 64,
+     "n_donors": 30,
+     "n_after_cap20": 64,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 797,
+     "n_donors": 67,
+     "n_after_cap20": 639,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 762,
+     "n_donors": 64,
+     "n_after_cap20": 517,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 201,
+     "n_donors": 34,
+     "n_after_cap20": 170,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 510,
+     "n_donors": 60,
+     "n_after_cap20": 406,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1090,
+     "n_donors": 69,
+     "n_after_cap20": 709,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "IL7",
+     "n_detected_start": 956,
+     "n_donors": 57,
+     "n_after_cap20": 496,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "IL15",
+     "n_detected_start": 1397,
+     "n_donors": 66,
+     "n_after_cap20": 699,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "IL33",
+     "n_detected_start": 551,
+     "n_donors": 56,
+     "n_after_cap20": 423,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "IL34",
+     "n_detected_start": 2471,
+     "n_donors": 70,
+     "n_after_cap20": 965,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "IL11",
+     "n_detected_start": 182,
+     "n_donors": 35,
+     "n_after_cap20": 163,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "IL18",
+     "n_detected_start": 457,
+     "n_donors": 61,
+     "n_after_cap20": 355,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "IL32",
+     "n_detected_start": 432,
+     "n_donors": 58,
+     "n_after_cap20": 392,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1133,
+     "n_donors": 69,
+     "n_after_cap20": 739,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 718,
+     "n_donors": 63,
+     "n_after_cap20": 539,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 3156,
+     "n_donors": 71,
+     "n_after_cap20": 1144,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 1300,
+     "n_donors": 72,
+     "n_after_cap20": 786,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "PGF",
+     "n_detected_start": 80,
+     "n_donors": 27,
+     "n_after_cap20": 80,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 1 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 6189,
+     "n_donors": 75,
+     "n_after_cap20": 1171,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 19,
+   "chemo3_pass": [
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2/CR2/TNFSF13/BST1",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2",
+    "CR2",
+    "TNFSF13",
+    "BST1"
+   ],
+   "n_goal": 1234,
+   "n_goal_donors": 66,
+   "n_start": 17815,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2697.0,
+   "start_median_ngenes": 1530.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.763,
+   "depth_only_auc": 0.7911037835890335,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0662,
+   "frac_goal_that_is_FIB_org": 0.0981,
+   "frac_FIB_org_in_goal": 0.169,
+   "FIB_org_cells_left_in_start": 595,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 152,
+     "n_donors": 35,
+     "n_after_cap20": 120,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 170,
+     "n_donors": 35,
+     "n_after_cap20": 133,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 322,
+     "n_donors": 49,
+     "n_after_cap20": 275,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "LTB",
+     "n_detected_start": 124,
+     "n_donors": 44,
+     "n_after_cap20": 124,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 120,
+     "n_donors": 38,
+     "n_after_cap20": 117,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 183,
+     "n_donors": 49,
+     "n_after_cap20": 180,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 124,
+     "n_donors": 39,
+     "n_after_cap20": 124,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1147,
+     "n_donors": 70,
+     "n_after_cap20": 778,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1149,
+     "n_donors": 65,
+     "n_after_cap20": 695,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 282,
+     "n_donors": 46,
+     "n_after_cap20": 216,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 741,
+     "n_donors": 62,
+     "n_after_cap20": 530,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1664,
+     "n_donors": 72,
+     "n_after_cap20": 904,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1416,
+     "n_donors": 61,
+     "n_after_cap20": 634,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "IL15",
+     "n_detected_start": 1997,
+     "n_donors": 69,
+     "n_after_cap20": 822,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "IL33",
+     "n_detected_start": 883,
+     "n_donors": 63,
+     "n_after_cap20": 589,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "IL34",
+     "n_detected_start": 3619,
+     "n_donors": 74,
+     "n_after_cap20": 1064,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "IL11",
+     "n_detected_start": 242,
+     "n_donors": 38,
+     "n_after_cap20": 195,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "IL18",
+     "n_detected_start": 706,
+     "n_donors": 65,
+     "n_after_cap20": 508,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "IL32",
+     "n_detected_start": 630,
+     "n_donors": 65,
+     "n_after_cap20": 551,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1616,
+     "n_donors": 70,
+     "n_after_cap20": 879,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1039,
+     "n_donors": 66,
+     "n_after_cap20": 714,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 4550,
+     "n_donors": 74,
+     "n_after_cap20": 1191,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 1880,
+     "n_donors": 73,
+     "n_after_cap20": 899,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "PGF",
+     "n_detected_start": 133,
+     "n_donors": 35,
+     "n_after_cap20": 133,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 2 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 8411,
+     "n_donors": 76,
+     "n_after_cap20": 1232,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 24,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2/CR2/TNFSF13/BST1",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2",
+    "CR2",
+    "TNFSF13",
+    "BST1"
+   ],
+   "n_goal": 276,
+   "n_goal_donors": 45,
+   "n_start": 18773,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 3302.5,
+   "start_median_ngenes": 1578.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 2.093,
+   "depth_only_auc": 0.8476090732025655,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0333,
+   "frac_goal_that_is_FIB_org": 0.1159,
+   "frac_FIB_org_in_goal": 0.0447,
+   "FIB_org_cells_left_in_start": 684,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 163,
+     "n_donors": 36,
+     "n_after_cap20": 127,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 216,
+     "n_donors": 38,
+     "n_after_cap20": 159,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 368,
+     "n_donors": 50,
+     "n_after_cap20": 299,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "LTB",
+     "n_detected_start": 137,
+     "n_donors": 44,
+     "n_after_cap20": 137,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 158,
+     "n_donors": 39,
+     "n_after_cap20": 147,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 193,
+     "n_donors": 51,
+     "n_after_cap20": 190,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 145,
+     "n_donors": 43,
+     "n_after_cap20": 145,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1245,
+     "n_donors": 70,
+     "n_after_cap20": 814,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1264,
+     "n_donors": 65,
+     "n_after_cap20": 743,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 308,
+     "n_donors": 47,
+     "n_after_cap20": 231,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 821,
+     "n_donors": 64,
+     "n_after_cap20": 571,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1875,
+     "n_donors": 73,
+     "n_after_cap20": 953,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1582,
+     "n_donors": 62,
+     "n_after_cap20": 676,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "IL15",
+     "n_detected_start": 2166,
+     "n_donors": 69,
+     "n_after_cap20": 856,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "IL33",
+     "n_detected_start": 1012,
+     "n_donors": 63,
+     "n_after_cap20": 642,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "IL34",
+     "n_detected_start": 3974,
+     "n_donors": 74,
+     "n_after_cap20": 1092,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "IL11",
+     "n_detected_start": 263,
+     "n_donors": 39,
+     "n_after_cap20": 208,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "IL18",
+     "n_detected_start": 786,
+     "n_donors": 65,
+     "n_after_cap20": 554,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "IL32",
+     "n_detected_start": 692,
+     "n_donors": 65,
+     "n_after_cap20": 589,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1789,
+     "n_donors": 72,
+     "n_after_cap20": 916,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1126,
+     "n_donors": 66,
+     "n_after_cap20": 751,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 4936,
+     "n_donors": 74,
+     "n_after_cap20": 1199,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 2063,
+     "n_donors": 75,
+     "n_after_cap20": 929,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "PGF",
+     "n_detected_start": 152,
+     "n_donors": 38,
+     "n_after_cap20": 152,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 10 個中 3 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 8939,
+     "n_donors": 76,
+     "n_after_cap20": 1250,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": false,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2"
+   ],
+   "n_goal": 4888,
+   "n_goal_donors": 75,
+   "n_start": 14161,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2174.0,
+   "start_median_ngenes": 1437.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.513,
+   "depth_only_auc": 0.6934973914729576,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0606,
+   "frac_goal_that_is_FIB_org": 0.0655,
+   "frac_FIB_org_in_goal": 0.4469,
+   "FIB_org_cells_left_in_start": 396,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 109,
+     "n_donors": 32,
+     "n_after_cap20": 92,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 93,
+     "n_donors": 28,
+     "n_after_cap20": 89,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 220,
+     "n_donors": 45,
+     "n_after_cap20": 212,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "LTB",
+     "n_detected_start": 84,
+     "n_donors": 40,
+     "n_after_cap20": 84,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 72,
+     "n_donors": 28,
+     "n_after_cap20": 72,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 131,
+     "n_donors": 43,
+     "n_after_cap20": 131,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 69,
+     "n_donors": 31,
+     "n_after_cap20": 69,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 858,
+     "n_donors": 69,
+     "n_after_cap20": 670,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 813,
+     "n_donors": 64,
+     "n_after_cap20": 539,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 215,
+     "n_donors": 35,
+     "n_after_cap20": 179,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 549,
+     "n_donors": 61,
+     "n_after_cap20": 425,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1168,
+     "n_donors": 69,
+     "n_after_cap20": 741,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1021,
+     "n_donors": 57,
+     "n_after_cap20": 515,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "IL15",
+     "n_detected_start": 1481,
+     "n_donors": 68,
+     "n_after_cap20": 723,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "IL33",
+     "n_detected_start": 596,
+     "n_donors": 57,
+     "n_after_cap20": 451,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "IL34",
+     "n_detected_start": 2608,
+     "n_donors": 70,
+     "n_after_cap20": 987,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "IL11",
+     "n_detected_start": 189,
+     "n_donors": 36,
+     "n_after_cap20": 168,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "IL18",
+     "n_detected_start": 490,
+     "n_donors": 62,
+     "n_after_cap20": 379,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "IL32",
+     "n_detected_start": 454,
+     "n_donors": 60,
+     "n_after_cap20": 413,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1211,
+     "n_donors": 69,
+     "n_after_cap20": 768,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 781,
+     "n_donors": 63,
+     "n_after_cap20": 574,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 3381,
+     "n_donors": 71,
+     "n_after_cap20": 1154,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 1380,
+     "n_donors": 72,
+     "n_after_cap20": 804,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "PGF",
+     "n_detected_start": 85,
+     "n_donors": 29,
+     "n_after_cap20": 85,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 1 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 6551,
+     "n_donors": 75,
+     "n_after_cap20": 1175,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 19,
+   "chemo3_pass": [
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2"
+   ],
+   "n_goal": 956,
+   "n_goal_donors": 66,
+   "n_start": 18093,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2743.0,
+   "start_median_ngenes": 1544.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.777,
+   "depth_only_auc": 0.7945421296434046,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.065,
+   "frac_goal_that_is_FIB_org": 0.1067,
+   "frac_FIB_org_in_goal": 0.1425,
+   "FIB_org_cells_left_in_start": 614,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 156,
+     "n_donors": 35,
+     "n_after_cap20": 122,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 175,
+     "n_donors": 35,
+     "n_after_cap20": 135,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 333,
+     "n_donors": 50,
+     "n_after_cap20": 281,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "LTB",
+     "n_detected_start": 125,
+     "n_donors": 44,
+     "n_after_cap20": 125,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 124,
+     "n_donors": 38,
+     "n_after_cap20": 120,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 186,
+     "n_donors": 49,
+     "n_after_cap20": 183,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 124,
+     "n_donors": 39,
+     "n_after_cap20": 124,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1171,
+     "n_donors": 70,
+     "n_after_cap20": 785,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1174,
+     "n_donors": 65,
+     "n_after_cap20": 701,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 292,
+     "n_donors": 46,
+     "n_after_cap20": 221,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 767,
+     "n_donors": 62,
+     "n_after_cap20": 543,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1720,
+     "n_donors": 72,
+     "n_after_cap20": 915,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1464,
+     "n_donors": 61,
+     "n_after_cap20": 643,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "IL15",
+     "n_detected_start": 2046,
+     "n_donors": 69,
+     "n_after_cap20": 832,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "IL33",
+     "n_detected_start": 908,
+     "n_donors": 63,
+     "n_after_cap20": 601,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "IL34",
+     "n_detected_start": 3708,
+     "n_donors": 74,
+     "n_after_cap20": 1069,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "IL11",
+     "n_detected_start": 248,
+     "n_donors": 39,
+     "n_after_cap20": 198,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "IL18",
+     "n_detected_start": 728,
+     "n_donors": 65,
+     "n_after_cap20": 517,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "IL32",
+     "n_detected_start": 640,
+     "n_donors": 65,
+     "n_after_cap20": 558,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1669,
+     "n_donors": 70,
+     "n_after_cap20": 892,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1059,
+     "n_donors": 66,
+     "n_after_cap20": 720,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 4653,
+     "n_donors": 74,
+     "n_after_cap20": 1193,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 1929,
+     "n_donors": 73,
+     "n_after_cap20": 904,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "PGF",
+     "n_detected_start": 137,
+     "n_donors": 35,
+     "n_after_cap20": 137,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 2 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 8561,
+     "n_donors": 76,
+     "n_after_cap20": 1238,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2"
+   ],
+   "n_goal": 177,
+   "n_goal_donors": 40,
+   "n_start": 18872,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 3400.0,
+   "start_median_ngenes": 1582.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 2.149,
+   "depth_only_auc": 0.8517496142301031,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0241,
+   "frac_goal_that_is_FIB_org": 0.1186,
+   "frac_FIB_org_in_goal": 0.0293,
+   "FIB_org_cells_left_in_start": 695,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 168,
+     "n_donors": 37,
+     "n_after_cap20": 131,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 221,
+     "n_donors": 38,
+     "n_after_cap20": 163,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 374,
+     "n_donors": 50,
+     "n_after_cap20": 302,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "LTB",
+     "n_detected_start": 138,
+     "n_donors": 44,
+     "n_after_cap20": 138,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 164,
+     "n_donors": 40,
+     "n_after_cap20": 153,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 195,
+     "n_donors": 51,
+     "n_after_cap20": 192,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 146,
+     "n_donors": 43,
+     "n_after_cap20": 146,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1258,
+     "n_donors": 70,
+     "n_after_cap20": 818,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1276,
+     "n_donors": 65,
+     "n_after_cap20": 746,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 311,
+     "n_donors": 47,
+     "n_after_cap20": 233,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 832,
+     "n_donors": 64,
+     "n_after_cap20": 574,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1911,
+     "n_donors": 73,
+     "n_after_cap20": 957,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1603,
+     "n_donors": 62,
+     "n_after_cap20": 685,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "IL15",
+     "n_detected_start": 2183,
+     "n_donors": 69,
+     "n_after_cap20": 860,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "IL33",
+     "n_detected_start": 1029,
+     "n_donors": 63,
+     "n_after_cap20": 648,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "IL34",
+     "n_detected_start": 4008,
+     "n_donors": 74,
+     "n_after_cap20": 1095,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "IL11",
+     "n_detected_start": 263,
+     "n_donors": 39,
+     "n_after_cap20": 208,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "IL18",
+     "n_detected_start": 798,
+     "n_donors": 65,
+     "n_after_cap20": 562,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "IL32",
+     "n_detected_start": 699,
+     "n_donors": 65,
+     "n_after_cap20": 594,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1818,
+     "n_donors": 73,
+     "n_after_cap20": 924,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1141,
+     "n_donors": 66,
+     "n_after_cap20": 758,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 4993,
+     "n_donors": 74,
+     "n_after_cap20": 1202,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 2086,
+     "n_donors": 75,
+     "n_after_cap20": 935,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "PGF",
+     "n_detected_start": 157,
+     "n_donors": 39,
+     "n_after_cap20": 157,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 7 個中 3 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 8991,
+     "n_donors": 76,
+     "n_after_cap20": 1252,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": false,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+   "note": "PDPN/ICAM1/VCAM1/TNFSF13B",
+   "goal_genes": [
+    "PDPN",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B"
+   ],
+   "n_goal": 3870,
+   "n_goal_donors": 75,
+   "n_start": 15179,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2221.0,
+   "start_median_ngenes": 1467.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.514,
+   "depth_only_auc": 0.6947707722293794,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0653,
+   "frac_goal_that_is_FIB_org": 0.0726,
+   "frac_FIB_org_in_goal": 0.3925,
+   "FIB_org_cells_left_in_start": 435,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 123,
+     "n_donors": 32,
+     "n_after_cap20": 101,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 104,
+     "n_donors": 31,
+     "n_after_cap20": 97,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 238,
+     "n_donors": 45,
+     "n_after_cap20": 226,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "LTB",
+     "n_detected_start": 93,
+     "n_donors": 41,
+     "n_after_cap20": 93,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 79,
+     "n_donors": 29,
+     "n_after_cap20": 79,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 145,
+     "n_donors": 43,
+     "n_after_cap20": 145,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 73,
+     "n_donors": 32,
+     "n_after_cap20": 73,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 950,
+     "n_donors": 70,
+     "n_after_cap20": 702,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 878,
+     "n_donors": 64,
+     "n_after_cap20": 567,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 234,
+     "n_donors": 37,
+     "n_after_cap20": 189,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 610,
+     "n_donors": 61,
+     "n_after_cap20": 464,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1282,
+     "n_donors": 70,
+     "n_after_cap20": 782,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1111,
+     "n_donors": 57,
+     "n_after_cap20": 546,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "IL15",
+     "n_detected_start": 1613,
+     "n_donors": 68,
+     "n_after_cap20": 745,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "IL33",
+     "n_detected_start": 669,
+     "n_donors": 60,
+     "n_after_cap20": 494,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "IL34",
+     "n_detected_start": 2871,
+     "n_donors": 71,
+     "n_after_cap20": 1010,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "IL11",
+     "n_detected_start": 203,
+     "n_donors": 36,
+     "n_after_cap20": 178,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "IL18",
+     "n_detected_start": 546,
+     "n_donors": 62,
+     "n_after_cap20": 406,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "IL32",
+     "n_detected_start": 495,
+     "n_donors": 63,
+     "n_after_cap20": 449,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1306,
+     "n_donors": 69,
+     "n_after_cap20": 805,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 848,
+     "n_donors": 64,
+     "n_after_cap20": 610,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 3667,
+     "n_donors": 72,
+     "n_after_cap20": 1165,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 1526,
+     "n_donors": 72,
+     "n_after_cap20": 835,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "PGF",
+     "n_detected_start": 107,
+     "n_donors": 34,
+     "n_after_cap20": 107,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 1 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 7083,
+     "n_donors": 76,
+     "n_after_cap20": 1188,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 19,
+   "chemo3_pass": [
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+   "note": "PDPN/ICAM1/VCAM1/TNFSF13B",
+   "goal_genes": [
+    "PDPN",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B"
+   ],
+   "n_goal": 581,
+   "n_goal_donors": 60,
+   "n_start": 18468,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2757.0,
+   "start_median_ngenes": 1563.5,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.763,
+   "depth_only_auc": 0.7909850367591005,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0605,
+   "frac_goal_that_is_FIB_org": 0.1274,
+   "frac_FIB_org_in_goal": 0.1034,
+   "FIB_org_cells_left_in_start": 642,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 163,
+     "n_donors": 37,
+     "n_after_cap20": 128,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 190,
+     "n_donors": 36,
+     "n_after_cap20": 148,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 348,
+     "n_donors": 50,
+     "n_after_cap20": 290,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "LTB",
+     "n_detected_start": 130,
+     "n_donors": 44,
+     "n_after_cap20": 130,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 145,
+     "n_donors": 40,
+     "n_after_cap20": 139,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 193,
+     "n_donors": 52,
+     "n_after_cap20": 190,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 130,
+     "n_donors": 41,
+     "n_after_cap20": 130,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1218,
+     "n_donors": 70,
+     "n_after_cap20": 804,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1213,
+     "n_donors": 65,
+     "n_after_cap20": 715,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 298,
+     "n_donors": 47,
+     "n_after_cap20": 225,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 794,
+     "n_donors": 62,
+     "n_after_cap20": 557,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1807,
+     "n_donors": 72,
+     "n_after_cap20": 934,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1519,
+     "n_donors": 61,
+     "n_after_cap20": 661,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "IL15",
+     "n_detected_start": 2107,
+     "n_donors": 69,
+     "n_after_cap20": 844,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "IL33",
+     "n_detected_start": 965,
+     "n_donors": 63,
+     "n_after_cap20": 623,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "IL34",
+     "n_detected_start": 3845,
+     "n_donors": 74,
+     "n_after_cap20": 1081,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "IL11",
+     "n_detected_start": 254,
+     "n_donors": 39,
+     "n_after_cap20": 202,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "IL18",
+     "n_detected_start": 760,
+     "n_donors": 66,
+     "n_after_cap20": 539,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "IL32",
+     "n_detected_start": 666,
+     "n_donors": 65,
+     "n_after_cap20": 578,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1751,
+     "n_donors": 71,
+     "n_after_cap20": 912,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1106,
+     "n_donors": 66,
+     "n_after_cap20": 740,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 4804,
+     "n_donors": 74,
+     "n_after_cap20": 1197,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 2017,
+     "n_donors": 74,
+     "n_after_cap20": 920,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "PGF",
+     "n_detected_start": 152,
+     "n_donors": 37,
+     "n_after_cap20": 152,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 2 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 8769,
+     "n_donors": 76,
+     "n_after_cap20": 1247,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+   "note": "PDPN/ICAM1/VCAM1/TNFSF13B",
+   "goal_genes": [
+    "PDPN",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B"
+   ],
+   "n_goal": 59,
+   "n_goal_donors": 25,
+   "n_start": 18990,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 3564.0,
+   "start_median_ngenes": 1589.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 2.243,
+   "depth_only_auc": 0.821646450364071,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0131,
+   "frac_goal_that_is_FIB_org": 0.1695,
+   "frac_FIB_org_in_goal": 0.014,
+   "FIB_org_cells_left_in_start": 706,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 173,
+     "n_donors": 39,
+     "n_after_cap20": 136,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 224,
+     "n_donors": 38,
+     "n_after_cap20": 165,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 378,
+     "n_donors": 50,
+     "n_after_cap20": 303,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "LTB",
+     "n_detected_start": 141,
+     "n_donors": 45,
+     "n_after_cap20": 141,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 175,
+     "n_donors": 40,
+     "n_after_cap20": 162,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 200,
+     "n_donors": 52,
+     "n_after_cap20": 197,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 150,
+     "n_donors": 44,
+     "n_after_cap20": 150,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1287,
+     "n_donors": 70,
+     "n_after_cap20": 829,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1297,
+     "n_donors": 65,
+     "n_after_cap20": 757,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 314,
+     "n_donors": 47,
+     "n_after_cap20": 235,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 849,
+     "n_donors": 65,
+     "n_after_cap20": 582,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1963,
+     "n_donors": 73,
+     "n_after_cap20": 962,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1627,
+     "n_donors": 63,
+     "n_after_cap20": 695,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "IL15",
+     "n_detected_start": 2209,
+     "n_donors": 69,
+     "n_after_cap20": 867,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "IL33",
+     "n_detected_start": 1065,
+     "n_donors": 63,
+     "n_after_cap20": 661,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "IL34",
+     "n_detected_start": 4057,
+     "n_donors": 74,
+     "n_after_cap20": 1097,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "IL11",
+     "n_detected_start": 263,
+     "n_donors": 39,
+     "n_after_cap20": 208,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "IL18",
+     "n_detected_start": 811,
+     "n_donors": 66,
+     "n_after_cap20": 571,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "IL32",
+     "n_detected_start": 715,
+     "n_donors": 65,
+     "n_after_cap20": 604,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1855,
+     "n_donors": 73,
+     "n_after_cap20": 932,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1154,
+     "n_donors": 67,
+     "n_after_cap20": 765,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 5055,
+     "n_donors": 74,
+     "n_after_cap20": 1203,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 2118,
+     "n_donors": 75,
+     "n_after_cap20": 942,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "PGF",
+     "n_detected_start": 159,
+     "n_donors": 39,
+     "n_after_cap20": 159,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 4 個中 3 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 9057,
+     "n_donors": 76,
+     "n_after_cap20": 1254,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": false,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+   "note": "PDPN/NGFR/MADCAM1/ENPP2/CR2/TNFSF13B",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "MADCAM1",
+    "ENPP2",
+    "CR2",
+    "TNFSF13B"
+   ],
+   "n_goal": 3307,
+   "n_goal_donors": 74,
+   "n_start": 15742,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2295.0,
+   "start_median_ngenes": 1474.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.557,
+   "depth_only_auc": 0.7114650833380768,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0531,
+   "frac_goal_that_is_FIB_org": 0.0614,
+   "frac_FIB_org_in_goal": 0.2835,
+   "FIB_org_cells_left_in_start": 513,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 119,
+     "n_donors": 33,
+     "n_after_cap20": 101,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 152,
+     "n_donors": 33,
+     "n_after_cap20": 126,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 286,
+     "n_donors": 50,
+     "n_after_cap20": 252,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "LTB",
+     "n_detected_start": 105,
+     "n_donors": 42,
+     "n_after_cap20": 105,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 90,
+     "n_donors": 35,
+     "n_after_cap20": 90,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 157,
+     "n_donors": 48,
+     "n_after_cap20": 157,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 103,
+     "n_donors": 37,
+     "n_after_cap20": 103,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 985,
+     "n_donors": 69,
+     "n_after_cap20": 724,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1002,
+     "n_donors": 65,
+     "n_after_cap20": 642,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 252,
+     "n_donors": 43,
+     "n_after_cap20": 204,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 633,
+     "n_donors": 62,
+     "n_after_cap20": 479,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1427,
+     "n_donors": 69,
+     "n_after_cap20": 841,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1176,
+     "n_donors": 61,
+     "n_after_cap20": 577,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "IL15",
+     "n_detected_start": 1694,
+     "n_donors": 69,
+     "n_after_cap20": 781,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "IL33",
+     "n_detected_start": 726,
+     "n_donors": 57,
+     "n_after_cap20": 514,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "IL34",
+     "n_detected_start": 3071,
+     "n_donors": 73,
+     "n_after_cap20": 1040,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "IL11",
+     "n_detected_start": 209,
+     "n_donors": 37,
+     "n_after_cap20": 182,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "IL18",
+     "n_detected_start": 572,
+     "n_donors": 63,
+     "n_after_cap20": 438,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "IL32",
+     "n_detected_start": 554,
+     "n_donors": 62,
+     "n_after_cap20": 491,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1413,
+     "n_donors": 69,
+     "n_after_cap20": 832,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 899,
+     "n_donors": 64,
+     "n_after_cap20": 646,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 3975,
+     "n_donors": 72,
+     "n_after_cap20": 1176,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 1559,
+     "n_donors": 73,
+     "n_after_cap20": 855,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "PGF",
+     "n_detected_start": 99,
+     "n_donors": 29,
+     "n_after_cap20": 99,
+     "pass120": false
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 1 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 7324,
+     "n_donors": 76,
+     "n_after_cap20": 1209,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL19",
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 20,
+   "chemo3_pass": [
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+   "note": "PDPN/NGFR/MADCAM1/ENPP2/CR2/TNFSF13B",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "MADCAM1",
+    "ENPP2",
+    "CR2",
+    "TNFSF13B"
+   ],
+   "n_goal": 376,
+   "n_goal_donors": 51,
+   "n_start": 18673,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 3103.5,
+   "start_median_ngenes": 1572.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.974,
+   "depth_only_auc": 0.8396392800320575,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0273,
+   "frac_goal_that_is_FIB_org": 0.0771,
+   "frac_FIB_org_in_goal": 0.0405,
+   "FIB_org_cells_left_in_start": 687,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 162,
+     "n_donors": 36,
+     "n_after_cap20": 127,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 219,
+     "n_donors": 38,
+     "n_after_cap20": 162,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 372,
+     "n_donors": 50,
+     "n_after_cap20": 302,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "LTB",
+     "n_detected_start": 139,
+     "n_donors": 44,
+     "n_after_cap20": 139,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 149,
+     "n_donors": 39,
+     "n_after_cap20": 139,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 195,
+     "n_donors": 50,
+     "n_after_cap20": 192,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 149,
+     "n_donors": 42,
+     "n_after_cap20": 149,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1235,
+     "n_donors": 70,
+     "n_after_cap20": 806,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1276,
+     "n_donors": 65,
+     "n_after_cap20": 752,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 309,
+     "n_donors": 47,
+     "n_after_cap20": 232,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 816,
+     "n_donors": 64,
+     "n_after_cap20": 569,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1864,
+     "n_donors": 73,
+     "n_after_cap20": 943,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1573,
+     "n_donors": 62,
+     "n_after_cap20": 677,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "IL15",
+     "n_detected_start": 2145,
+     "n_donors": 69,
+     "n_after_cap20": 855,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "IL33",
+     "n_detected_start": 1004,
+     "n_donors": 63,
+     "n_after_cap20": 641,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "IL34",
+     "n_detected_start": 3939,
+     "n_donors": 74,
+     "n_after_cap20": 1088,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "IL11",
+     "n_detected_start": 256,
+     "n_donors": 39,
+     "n_after_cap20": 204,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "IL18",
+     "n_detected_start": 779,
+     "n_donors": 65,
+     "n_after_cap20": 551,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "IL32",
+     "n_detected_start": 695,
+     "n_donors": 65,
+     "n_after_cap20": 590,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1785,
+     "n_donors": 72,
+     "n_after_cap20": 915,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1119,
+     "n_donors": 66,
+     "n_after_cap20": 752,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 4910,
+     "n_donors": 74,
+     "n_after_cap20": 1199,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 2025,
+     "n_donors": 74,
+     "n_after_cap20": 923,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "PGF",
+     "n_detected_start": 151,
+     "n_donors": 37,
+     "n_after_cap20": 151,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 2 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 8888,
+     "n_donors": 76,
+     "n_after_cap20": 1247,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+   "note": "PDPN/NGFR/MADCAM1/ENPP2/CR2/TNFSF13B",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "MADCAM1",
+    "ENPP2",
+    "CR2",
+    "TNFSF13B"
+   ],
+   "n_goal": 44,
+   "n_goal_donors": 17,
+   "n_start": 19005,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 4684.0,
+   "start_median_ngenes": 1589.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 2.948,
+   "depth_only_auc": 0.9388607395125188,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.004,
+   "frac_goal_that_is_FIB_org": 0.0682,
+   "frac_FIB_org_in_goal": 0.0042,
+   "FIB_org_cells_left_in_start": 713,
+   "pert_table": [
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CXCL13",
+     "n_detected_start": 170,
+     "n_donors": 37,
+     "n_after_cap20": 133,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CCL19",
+     "n_detected_start": 229,
+     "n_donors": 40,
+     "n_after_cap20": 171,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CCL21",
+     "n_detected_start": 384,
+     "n_donors": 50,
+     "n_after_cap20": 307,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "LTB",
+     "n_detected_start": 144,
+     "n_donors": 45,
+     "n_after_cap20": 144,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "TNFSF14",
+     "n_detected_start": 176,
+     "n_donors": 40,
+     "n_after_cap20": 162,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CXCL16",
+     "n_detected_start": 198,
+     "n_donors": 52,
+     "n_after_cap20": 195,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CXCL1",
+     "n_detected_start": 155,
+     "n_donors": 44,
+     "n_after_cap20": 155,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CXCL14",
+     "n_detected_start": 1287,
+     "n_donors": 71,
+     "n_after_cap20": 832,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CCL2",
+     "n_detected_start": 1309,
+     "n_donors": 65,
+     "n_after_cap20": 762,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CCL11",
+     "n_detected_start": 314,
+     "n_donors": 47,
+     "n_after_cap20": 235,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CCL28",
+     "n_detected_start": 848,
+     "n_donors": 65,
+     "n_after_cap20": 582,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CSF1",
+     "n_detected_start": 1961,
+     "n_donors": 73,
+     "n_after_cap20": 963,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "IL7",
+     "n_detected_start": 1637,
+     "n_donors": 62,
+     "n_after_cap20": 697,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "IL15",
+     "n_detected_start": 2210,
+     "n_donors": 69,
+     "n_after_cap20": 867,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "IL33",
+     "n_detected_start": 1065,
+     "n_donors": 63,
+     "n_after_cap20": 659,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "IL34",
+     "n_detected_start": 4068,
+     "n_donors": 74,
+     "n_after_cap20": 1098,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "IL11",
+     "n_detected_start": 263,
+     "n_donors": 39,
+     "n_after_cap20": 208,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "IL18",
+     "n_detected_start": 812,
+     "n_donors": 66,
+     "n_after_cap20": 571,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "IL32",
+     "n_detected_start": 715,
+     "n_donors": 65,
+     "n_after_cap20": 606,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "TNFSF10",
+     "n_detected_start": 1855,
+     "n_donors": 73,
+     "n_after_cap20": 930,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "TNFSF15",
+     "n_detected_start": 1156,
+     "n_donors": 66,
+     "n_after_cap20": 764,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "CXCL12",
+     "n_detected_start": 5059,
+     "n_donors": 74,
+     "n_after_cap20": 1205,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "VEGFA",
+     "n_detected_start": 2116,
+     "n_donors": 75,
+     "n_after_cap20": 941,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "PGF",
+     "n_detected_start": 163,
+     "n_donors": 40,
+     "n_after_cap20": 163,
+     "pass120": true
+    },
+    {
+     "candidate": "A: オーガナイザー様マーカー 6 個中 3 個以上",
+     "gene": "ANGPT1",
+     "n_detected_start": 9072,
+     "n_donors": 76,
+     "n_after_cap20": 1255,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": false,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+   "note": "スコアは B 細胞・形質細胞の割合のみ（遺伝子を使わない）。出発点は同スコア下位 1/3 の同サブタイプ",
+   "goal_genes": [],
+   "n_goal": 3877,
+   "n_goal_donors": 30,
+   "n_start": 1421,
+   "n_start_donors": 25,
+   "goal_median_ngenes": 1525.0,
+   "start_median_ngenes": 1610.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.947,
+   "depth_only_auc": 0.7685675221830988,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0719,
+   "frac_goal_that_is_FIB_org": 0.0794,
+   "frac_FIB_org_in_goal": 0.4302,
+   "FIB_org_cells_left_in_start": 37,
+   "pert_table": [
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL13",
+     "n_detected_start": 5,
+     "n_donors": 2,
+     "n_after_cap20": 5,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CCL19",
+     "n_detected_start": 7,
+     "n_donors": 7,
+     "n_after_cap20": 7,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CCL21",
+     "n_detected_start": 28,
+     "n_donors": 11,
+     "n_after_cap20": 28,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "LTB",
+     "n_detected_start": 9,
+     "n_donors": 5,
+     "n_after_cap20": 9,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "TNFSF14",
+     "n_detected_start": 1,
+     "n_donors": 1,
+     "n_after_cap20": 1,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL16",
+     "n_detected_start": 6,
+     "n_donors": 5,
+     "n_after_cap20": 6,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL1",
+     "n_detected_start": 11,
+     "n_donors": 4,
+     "n_after_cap20": 11,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL14",
+     "n_detected_start": 115,
+     "n_donors": 15,
+     "n_after_cap20": 82,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CCL2",
+     "n_detected_start": 73,
+     "n_donors": 14,
+     "n_after_cap20": 73,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CCL11",
+     "n_detected_start": 10,
+     "n_donors": 6,
+     "n_after_cap20": 10,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CCL28",
+     "n_detected_start": 54,
+     "n_donors": 12,
+     "n_after_cap20": 54,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CSF1",
+     "n_detected_start": 128,
+     "n_donors": 17,
+     "n_after_cap20": 102,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "IL7",
+     "n_detected_start": 67,
+     "n_donors": 10,
+     "n_after_cap20": 58,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "IL15",
+     "n_detected_start": 111,
+     "n_donors": 14,
+     "n_after_cap20": 87,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "IL33",
+     "n_detected_start": 115,
+     "n_donors": 13,
+     "n_after_cap20": 98,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "IL34",
+     "n_detected_start": 263,
+     "n_donors": 19,
+     "n_after_cap20": 145,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "IL11",
+     "n_detected_start": 3,
+     "n_donors": 3,
+     "n_after_cap20": 3,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "IL18",
+     "n_detected_start": 50,
+     "n_donors": 8,
+     "n_after_cap20": 50,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "IL32",
+     "n_detected_start": 123,
+     "n_donors": 11,
+     "n_after_cap20": 72,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "TNFSF10",
+     "n_detected_start": 161,
+     "n_donors": 16,
+     "n_after_cap20": 92,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "TNFSF15",
+     "n_detected_start": 93,
+     "n_donors": 14,
+     "n_after_cap20": 86,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL12",
+     "n_detected_start": 369,
+     "n_donors": 21,
+     "n_after_cap20": 189,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "VEGFA",
+     "n_detected_start": 106,
+     "n_donors": 17,
+     "n_after_cap20": 92,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "PGF",
+     "n_detected_start": 9,
+     "n_donors": 4,
+     "n_after_cap20": 9,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB",
+     "gene": "ANGPT1",
+     "n_detected_start": 754,
+     "n_donors": 23,
+     "n_after_cap20": 233,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "IL34",
+    "CXCL12",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 3,
+   "chemo3_pass": [],
+   "F1_goal": true,
+   "F2_start": false,
+   "F3_pert": false,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  },
+  {
+   "name": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+   "note": "出発点を目標以外の全線維芽細胞に広げた版",
+   "goal_genes": [],
+   "n_goal": 3877,
+   "n_goal_donors": 30,
+   "n_start": 15172,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 1525.0,
+   "start_median_ngenes": 1615.5,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.944,
+   "depth_only_auc": 0.6491624656708685,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0719,
+   "frac_goal_that_is_FIB_org": 0.0794,
+   "frac_FIB_org_in_goal": 0.4302,
+   "FIB_org_cells_left_in_start": 408,
+   "pert_table": [
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL13",
+     "n_detected_start": 158,
+     "n_donors": 35,
+     "n_after_cap20": 121,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL19",
+     "n_detected_start": 96,
+     "n_donors": 26,
+     "n_after_cap20": 91,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL21",
+     "n_detected_start": 179,
+     "n_donors": 36,
+     "n_after_cap20": 168,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "LTB",
+     "n_detected_start": 94,
+     "n_donors": 37,
+     "n_after_cap20": 94,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "TNFSF14",
+     "n_detected_start": 172,
+     "n_donors": 39,
+     "n_after_cap20": 164,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL16",
+     "n_detected_start": 172,
+     "n_donors": 47,
+     "n_after_cap20": 169,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL1",
+     "n_detected_start": 116,
+     "n_donors": 34,
+     "n_after_cap20": 116,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL14",
+     "n_detected_start": 1036,
+     "n_donors": 65,
+     "n_after_cap20": 706,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL2",
+     "n_detected_start": 1122,
+     "n_donors": 61,
+     "n_after_cap20": 602,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL11",
+     "n_detected_start": 297,
+     "n_donors": 36,
+     "n_after_cap20": 218,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL28",
+     "n_detected_start": 672,
+     "n_donors": 60,
+     "n_after_cap20": 470,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CSF1",
+     "n_detected_start": 1607,
+     "n_donors": 67,
+     "n_after_cap20": 833,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL7",
+     "n_detected_start": 1272,
+     "n_donors": 57,
+     "n_after_cap20": 563,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL15",
+     "n_detected_start": 1792,
+     "n_donors": 59,
+     "n_after_cap20": 695,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL33",
+     "n_detected_start": 641,
+     "n_donors": 56,
+     "n_after_cap20": 522,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL34",
+     "n_detected_start": 2904,
+     "n_donors": 69,
+     "n_after_cap20": 904,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL11",
+     "n_detected_start": 243,
+     "n_donors": 34,
+     "n_after_cap20": 188,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL18",
+     "n_detected_start": 662,
+     "n_donors": 59,
+     "n_after_cap20": 492,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL32",
+     "n_detected_start": 522,
+     "n_donors": 59,
+     "n_after_cap20": 442,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "TNFSF10",
+     "n_detected_start": 1435,
+     "n_donors": 68,
+     "n_after_cap20": 796,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "TNFSF15",
+     "n_detected_start": 996,
+     "n_donors": 62,
+     "n_after_cap20": 626,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL12",
+     "n_detected_start": 3752,
+     "n_donors": 69,
+     "n_after_cap20": 1073,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "VEGFA",
+     "n_detected_start": 1819,
+     "n_donors": 70,
+     "n_after_cap20": 861,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "PGF",
+     "n_detected_start": 134,
+     "n_donors": 34,
+     "n_after_cap20": 134,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "ANGPT1",
+     "n_detected_start": 7365,
+     "n_donors": 68,
+     "n_after_cap20": 1093,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL21",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 22,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+   "note": "スコアは B 細胞・形質細胞の割合のみ（遺伝子を使わない）。出発点は同スコア下位 1/3 の同サブタイプ",
+   "goal_genes": [],
+   "n_goal": 5133,
+   "n_goal_donors": 30,
+   "n_start": 1832,
+   "n_start_donors": 26,
+   "goal_median_ngenes": 1592.0,
+   "start_median_ngenes": 1691.5,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.941,
+   "depth_only_auc": 0.7093383244026107,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0644,
+   "frac_goal_that_is_FIB_org": 0.069,
+   "frac_FIB_org_in_goal": 0.4944,
+   "FIB_org_cells_left_in_start": 44,
+   "pert_table": [
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL13",
+     "n_detected_start": 10,
+     "n_donors": 6,
+     "n_after_cap20": 10,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL19",
+     "n_detected_start": 7,
+     "n_donors": 7,
+     "n_after_cap20": 7,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL21",
+     "n_detected_start": 30,
+     "n_donors": 11,
+     "n_after_cap20": 30,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "LTB",
+     "n_detected_start": 12,
+     "n_donors": 7,
+     "n_after_cap20": 12,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "TNFSF14",
+     "n_detected_start": 15,
+     "n_donors": 7,
+     "n_after_cap20": 15,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL16",
+     "n_detected_start": 12,
+     "n_donors": 5,
+     "n_after_cap20": 12,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL1",
+     "n_detected_start": 14,
+     "n_donors": 5,
+     "n_after_cap20": 14,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL14",
+     "n_detected_start": 201,
+     "n_donors": 17,
+     "n_after_cap20": 106,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL2",
+     "n_detected_start": 85,
+     "n_donors": 16,
+     "n_after_cap20": 85,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL11",
+     "n_detected_start": 10,
+     "n_donors": 6,
+     "n_after_cap20": 10,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL28",
+     "n_detected_start": 71,
+     "n_donors": 12,
+     "n_after_cap20": 71,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CSF1",
+     "n_detected_start": 215,
+     "n_donors": 22,
+     "n_after_cap20": 149,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL7",
+     "n_detected_start": 116,
+     "n_donors": 14,
+     "n_after_cap20": 81,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL15",
+     "n_detected_start": 149,
+     "n_donors": 15,
+     "n_after_cap20": 119,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL33",
+     "n_detected_start": 170,
+     "n_donors": 14,
+     "n_after_cap20": 126,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL34",
+     "n_detected_start": 310,
+     "n_donors": 21,
+     "n_after_cap20": 167,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL11",
+     "n_detected_start": 3,
+     "n_donors": 3,
+     "n_after_cap20": 3,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL18",
+     "n_detected_start": 85,
+     "n_donors": 11,
+     "n_after_cap20": 76,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL32",
+     "n_detected_start": 136,
+     "n_donors": 11,
+     "n_after_cap20": 75,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "TNFSF10",
+     "n_detected_start": 227,
+     "n_donors": 17,
+     "n_after_cap20": 131,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "TNFSF15",
+     "n_detected_start": 102,
+     "n_donors": 17,
+     "n_after_cap20": 94,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL12",
+     "n_detected_start": 513,
+     "n_donors": 23,
+     "n_after_cap20": 225,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "VEGFA",
+     "n_detected_start": 179,
+     "n_donors": 19,
+     "n_after_cap20": 135,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "PGF",
+     "n_detected_start": 24,
+     "n_donors": 6,
+     "n_after_cap20": 24,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "ANGPT1",
+     "n_detected_start": 862,
+     "n_donors": 24,
+     "n_after_cap20": 261,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CSF1",
+    "IL33",
+    "IL34",
+    "TNFSF10",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 7,
+   "chemo3_pass": [],
+   "F1_goal": true,
+   "F2_start": false,
+   "F3_pert": false,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": false
+  },
+  {
+   "name": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+   "note": "出発点を目標以外の全線維芽細胞に広げた版",
+   "goal_genes": [],
+   "n_goal": 5133,
+   "n_goal_donors": 30,
+   "n_start": 13916,
+   "n_start_donors": 77,
+   "goal_median_ngenes": 1592.0,
+   "start_median_ngenes": 1591.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.001,
+   "depth_only_auc": 0.6842849559665845,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0644,
+   "frac_goal_that_is_FIB_org": 0.069,
+   "frac_FIB_org_in_goal": 0.4944,
+   "FIB_org_cells_left_in_start": 362,
+   "pert_table": [
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL13",
+     "n_detected_start": 152,
+     "n_donors": 32,
+     "n_after_cap20": 115,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL19",
+     "n_detected_start": 66,
+     "n_donors": 24,
+     "n_after_cap20": 66,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL21",
+     "n_detected_start": 165,
+     "n_donors": 32,
+     "n_after_cap20": 154,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "LTB",
+     "n_detected_start": 79,
+     "n_donors": 31,
+     "n_after_cap20": 79,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "TNFSF14",
+     "n_detected_start": 82,
+     "n_donors": 25,
+     "n_after_cap20": 82,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL16",
+     "n_detected_start": 154,
+     "n_donors": 38,
+     "n_after_cap20": 151,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL1",
+     "n_detected_start": 111,
+     "n_donors": 31,
+     "n_after_cap20": 111,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL14",
+     "n_detected_start": 930,
+     "n_donors": 58,
+     "n_after_cap20": 611,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL2",
+     "n_detected_start": 1090,
+     "n_donors": 52,
+     "n_after_cap20": 570,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL11",
+     "n_detected_start": 297,
+     "n_donors": 36,
+     "n_after_cap20": 218,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL28",
+     "n_detected_start": 607,
+     "n_donors": 49,
+     "n_after_cap20": 416,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CSF1",
+     "n_detected_start": 1413,
+     "n_donors": 61,
+     "n_after_cap20": 682,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL7",
+     "n_detected_start": 1023,
+     "n_donors": 48,
+     "n_after_cap20": 472,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL15",
+     "n_detected_start": 1718,
+     "n_donors": 53,
+     "n_after_cap20": 632,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL33",
+     "n_detected_start": 495,
+     "n_donors": 46,
+     "n_after_cap20": 392,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL34",
+     "n_detected_start": 2668,
+     "n_donors": 62,
+     "n_after_cap20": 745,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL11",
+     "n_detected_start": 240,
+     "n_donors": 31,
+     "n_after_cap20": 185,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL18",
+     "n_detected_start": 533,
+     "n_donors": 47,
+     "n_after_cap20": 386,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL32",
+     "n_detected_start": 482,
+     "n_donors": 49,
+     "n_after_cap20": 402,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "TNFSF10",
+     "n_detected_start": 1170,
+     "n_donors": 62,
+     "n_after_cap20": 644,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "TNFSF15",
+     "n_detected_start": 967,
+     "n_donors": 53,
+     "n_after_cap20": 598,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL12",
+     "n_detected_start": 3443,
+     "n_donors": 69,
+     "n_after_cap20": 903,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "VEGFA",
+     "n_detected_start": 1591,
+     "n_donors": 62,
+     "n_after_cap20": 694,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "PGF",
+     "n_detected_start": 113,
+     "n_donors": 29,
+     "n_after_cap20": 113,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "ANGPT1",
+     "n_detected_start": 7112,
+     "n_donors": 65,
+     "n_after_cap20": 943,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 19,
+   "chemo3_pass": [
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+   "note": "スコアは B 細胞・形質細胞の割合のみ（遺伝子を使わない）。出発点は同スコア下位 1/3 の同サブタイプ",
+   "goal_genes": [],
+   "n_goal": 6352,
+   "n_goal_donors": 30,
+   "n_start": 7867,
+   "n_start_donors": 26,
+   "goal_median_ngenes": 1546.5,
+   "start_median_ngenes": 1677.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.922,
+   "depth_only_auc": 0.7192379569808461,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0568,
+   "frac_goal_that_is_FIB_org": 0.0598,
+   "frac_FIB_org_in_goal": 0.5307,
+   "FIB_org_cells_left_in_start": 150,
+   "pert_table": [
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL13",
+     "n_detected_start": 106,
+     "n_donors": 15,
+     "n_after_cap20": 69,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL19",
+     "n_detected_start": 9,
+     "n_donors": 9,
+     "n_after_cap20": 9,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL21",
+     "n_detected_start": 38,
+     "n_donors": 12,
+     "n_after_cap20": 38,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "LTB",
+     "n_detected_start": 41,
+     "n_donors": 14,
+     "n_after_cap20": 41,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "TNFSF14",
+     "n_detected_start": 21,
+     "n_donors": 9,
+     "n_after_cap20": 21,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL16",
+     "n_detected_start": 78,
+     "n_donors": 16,
+     "n_after_cap20": 75,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL1",
+     "n_detected_start": 56,
+     "n_donors": 15,
+     "n_after_cap20": 56,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL14",
+     "n_detected_start": 497,
+     "n_donors": 24,
+     "n_after_cap20": 277,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL2",
+     "n_detected_start": 673,
+     "n_donors": 22,
+     "n_after_cap20": 266,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL11",
+     "n_detected_start": 214,
+     "n_donors": 16,
+     "n_after_cap20": 137,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL28",
+     "n_detected_start": 352,
+     "n_donors": 21,
+     "n_after_cap20": 212,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CSF1",
+     "n_detected_start": 758,
+     "n_donors": 24,
+     "n_after_cap20": 291,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL7",
+     "n_detected_start": 572,
+     "n_donors": 19,
+     "n_after_cap20": 190,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL15",
+     "n_detected_start": 1146,
+     "n_donors": 20,
+     "n_after_cap20": 272,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL33",
+     "n_detected_start": 192,
+     "n_donors": 17,
+     "n_after_cap20": 148,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL34",
+     "n_detected_start": 1408,
+     "n_donors": 24,
+     "n_after_cap20": 304,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL11",
+     "n_detected_start": 161,
+     "n_donors": 17,
+     "n_after_cap20": 109,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL18",
+     "n_detected_start": 297,
+     "n_donors": 19,
+     "n_after_cap20": 189,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL32",
+     "n_detected_start": 237,
+     "n_donors": 21,
+     "n_after_cap20": 170,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "TNFSF10",
+     "n_detected_start": 567,
+     "n_donors": 22,
+     "n_after_cap20": 286,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "TNFSF15",
+     "n_detected_start": 551,
+     "n_donors": 22,
+     "n_after_cap20": 296,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL12",
+     "n_detected_start": 1634,
+     "n_donors": 24,
+     "n_after_cap20": 369,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "VEGFA",
+     "n_detected_start": 928,
+     "n_donors": 24,
+     "n_after_cap20": 323,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "PGF",
+     "n_detected_start": 71,
+     "n_donors": 13,
+     "n_after_cap20": 71,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "ANGPT1",
+     "n_detected_start": 4307,
+     "n_donors": 25,
+     "n_after_cap20": 402,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 16,
+   "chemo3_pass": [],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": false,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": false
+  },
+  {
+   "name": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+   "note": "出発点を目標以外の全線維芽細胞に広げた版",
+   "goal_genes": [],
+   "n_goal": 6352,
+   "n_goal_donors": 30,
+   "n_start": 12697,
+   "n_start_donors": 49,
+   "goal_median_ngenes": 1546.5,
+   "start_median_ngenes": 1621.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.954,
+   "depth_only_auc": 0.7112537230478774,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0568,
+   "frac_goal_that_is_FIB_org": 0.0598,
+   "frac_FIB_org_in_goal": 0.5307,
+   "FIB_org_cells_left_in_start": 336,
+   "pert_table": [
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL13",
+     "n_detected_start": 138,
+     "n_donors": 24,
+     "n_after_cap20": 101,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL19",
+     "n_detected_start": 60,
+     "n_donors": 19,
+     "n_after_cap20": 60,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL21",
+     "n_detected_start": 155,
+     "n_donors": 26,
+     "n_after_cap20": 144,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "LTB",
+     "n_detected_start": 72,
+     "n_donors": 26,
+     "n_after_cap20": 72,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "TNFSF14",
+     "n_detected_start": 79,
+     "n_donors": 22,
+     "n_after_cap20": 79,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL16",
+     "n_detected_start": 141,
+     "n_donors": 30,
+     "n_after_cap20": 138,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL1",
+     "n_detected_start": 109,
+     "n_donors": 29,
+     "n_after_cap20": 109,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL14",
+     "n_detected_start": 828,
+     "n_donors": 43,
+     "n_after_cap20": 517,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL2",
+     "n_detected_start": 1002,
+     "n_donors": 42,
+     "n_after_cap20": 495,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL11",
+     "n_detected_start": 281,
+     "n_donors": 31,
+     "n_after_cap20": 202,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL28",
+     "n_detected_start": 569,
+     "n_donors": 40,
+     "n_after_cap20": 378,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CSF1",
+     "n_detected_start": 1318,
+     "n_donors": 46,
+     "n_after_cap20": 592,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL7",
+     "n_detected_start": 955,
+     "n_donors": 38,
+     "n_after_cap20": 407,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL15",
+     "n_detected_start": 1612,
+     "n_donors": 40,
+     "n_after_cap20": 535,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL33",
+     "n_detected_start": 479,
+     "n_donors": 38,
+     "n_after_cap20": 376,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL34",
+     "n_detected_start": 2473,
+     "n_donors": 46,
+     "n_after_cap20": 622,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL11",
+     "n_detected_start": 228,
+     "n_donors": 27,
+     "n_after_cap20": 173,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL18",
+     "n_detected_start": 503,
+     "n_donors": 39,
+     "n_after_cap20": 356,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL32",
+     "n_detected_start": 444,
+     "n_donors": 39,
+     "n_after_cap20": 364,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "TNFSF10",
+     "n_detected_start": 1067,
+     "n_donors": 45,
+     "n_after_cap20": 557,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "TNFSF15",
+     "n_detected_start": 879,
+     "n_donors": 43,
+     "n_after_cap20": 520,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL12",
+     "n_detected_start": 3048,
+     "n_donors": 45,
+     "n_after_cap20": 716,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "VEGFA",
+     "n_detected_start": 1483,
+     "n_donors": 46,
+     "n_after_cap20": 605,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "PGF",
+     "n_detected_start": 109,
+     "n_donors": 26,
+     "n_after_cap20": 109,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "ANGPT1",
+     "n_detected_start": 6496,
+     "n_donors": 47,
+     "n_after_cap20": 768,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 19,
+   "chemo3_pass": [
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+   "note": "スコアは B 細胞・形質細胞の割合のみ（遺伝子を使わない）。出発点は同スコア下位 1/3 の同サブタイプ",
+   "goal_genes": [],
+   "n_goal": 3923,
+   "n_goal_donors": 22,
+   "n_start": 832,
+   "n_start_donors": 29,
+   "goal_median_ngenes": 1457.0,
+   "start_median_ngenes": 1193.5,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.221,
+   "depth_only_auc": 0.679445868836092,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0783,
+   "frac_goal_that_is_FIB_org": 0.0859,
+   "frac_FIB_org_in_goal": 0.4707,
+   "FIB_org_cells_left_in_start": 26,
+   "pert_table": [
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL13",
+     "n_detected_start": 3,
+     "n_donors": 3,
+     "n_after_cap20": 3,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CCL19",
+     "n_detected_start": 5,
+     "n_donors": 5,
+     "n_after_cap20": 5,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CCL21",
+     "n_detected_start": 20,
+     "n_donors": 11,
+     "n_after_cap20": 20,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "LTB",
+     "n_detected_start": 5,
+     "n_donors": 4,
+     "n_after_cap20": 5,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "TNFSF14",
+     "n_detected_start": 1,
+     "n_donors": 1,
+     "n_after_cap20": 1,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL16",
+     "n_detected_start": 2,
+     "n_donors": 2,
+     "n_after_cap20": 2,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL1",
+     "n_detected_start": 1,
+     "n_donors": 1,
+     "n_after_cap20": 1,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL14",
+     "n_detected_start": 37,
+     "n_donors": 15,
+     "n_after_cap20": 37,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CCL2",
+     "n_detected_start": 30,
+     "n_donors": 14,
+     "n_after_cap20": 30,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CCL11",
+     "n_detected_start": 4,
+     "n_donors": 4,
+     "n_after_cap20": 4,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CCL28",
+     "n_detected_start": 23,
+     "n_donors": 11,
+     "n_after_cap20": 23,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CSF1",
+     "n_detected_start": 60,
+     "n_donors": 19,
+     "n_after_cap20": 58,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "IL7",
+     "n_detected_start": 22,
+     "n_donors": 10,
+     "n_after_cap20": 22,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "IL15",
+     "n_detected_start": 43,
+     "n_donors": 14,
+     "n_after_cap20": 43,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "IL33",
+     "n_detected_start": 50,
+     "n_donors": 13,
+     "n_after_cap20": 50,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "IL34",
+     "n_detected_start": 107,
+     "n_donors": 19,
+     "n_after_cap20": 98,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "IL11",
+     "n_detected_start": 1,
+     "n_donors": 1,
+     "n_after_cap20": 1,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "IL18",
+     "n_detected_start": 19,
+     "n_donors": 11,
+     "n_after_cap20": 19,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "IL32",
+     "n_detected_start": 19,
+     "n_donors": 10,
+     "n_after_cap20": 19,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "TNFSF10",
+     "n_detected_start": 42,
+     "n_donors": 18,
+     "n_after_cap20": 42,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "TNFSF15",
+     "n_detected_start": 32,
+     "n_donors": 14,
+     "n_after_cap20": 32,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "CXCL12",
+     "n_detected_start": 195,
+     "n_donors": 22,
+     "n_after_cap20": 155,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "VEGFA",
+     "n_detected_start": 58,
+     "n_donors": 17,
+     "n_after_cap20": 58,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "PGF",
+     "n_detected_start": 2,
+     "n_donors": 1,
+     "n_after_cap20": 2,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB",
+     "gene": "ANGPT1",
+     "n_detected_start": 299,
+     "n_donors": 26,
+     "n_after_cap20": 215,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL12",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 2,
+   "chemo3_pass": [],
+   "F1_goal": true,
+   "F2_start": false,
+   "F3_pert": false,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": false
+  },
+  {
+   "name": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+   "note": "出発点を目標以外の全線維芽細胞に広げた版",
+   "goal_genes": [],
+   "n_goal": 3923,
+   "n_goal_donors": 22,
+   "n_start": 15126,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 1457.0,
+   "start_median_ngenes": 1651.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.882,
+   "depth_only_auc": 0.6183924489838334,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0783,
+   "frac_goal_that_is_FIB_org": 0.0859,
+   "frac_FIB_org_in_goal": 0.4707,
+   "FIB_org_cells_left_in_start": 379,
+   "pert_table": [
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL13",
+     "n_detected_start": 158,
+     "n_donors": 36,
+     "n_after_cap20": 121,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL19",
+     "n_detected_start": 83,
+     "n_donors": 31,
+     "n_after_cap20": 78,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL21",
+     "n_detected_start": 160,
+     "n_donors": 40,
+     "n_after_cap20": 155,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "LTB",
+     "n_detected_start": 101,
+     "n_donors": 40,
+     "n_after_cap20": 101,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "TNFSF14",
+     "n_detected_start": 171,
+     "n_donors": 39,
+     "n_after_cap20": 162,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL16",
+     "n_detected_start": 164,
+     "n_donors": 47,
+     "n_after_cap20": 161,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL1",
+     "n_detected_start": 107,
+     "n_donors": 33,
+     "n_after_cap20": 107,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL14",
+     "n_detected_start": 1071,
+     "n_donors": 68,
+     "n_after_cap20": 733,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL2",
+     "n_detected_start": 1100,
+     "n_donors": 61,
+     "n_after_cap20": 596,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL11",
+     "n_detected_start": 297,
+     "n_donors": 37,
+     "n_after_cap20": 218,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CCL28",
+     "n_detected_start": 677,
+     "n_donors": 60,
+     "n_after_cap20": 491,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CSF1",
+     "n_detected_start": 1605,
+     "n_donors": 69,
+     "n_after_cap20": 847,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL7",
+     "n_detected_start": 1275,
+     "n_donors": 58,
+     "n_after_cap20": 566,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL15",
+     "n_detected_start": 1788,
+     "n_donors": 65,
+     "n_after_cap20": 716,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL33",
+     "n_detected_start": 653,
+     "n_donors": 58,
+     "n_after_cap20": 514,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL34",
+     "n_detected_start": 2930,
+     "n_donors": 72,
+     "n_after_cap20": 939,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL11",
+     "n_detected_start": 244,
+     "n_donors": 34,
+     "n_after_cap20": 189,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL18",
+     "n_detected_start": 670,
+     "n_donors": 62,
+     "n_after_cap20": 509,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "IL32",
+     "n_detected_start": 526,
+     "n_donors": 61,
+     "n_after_cap20": 441,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "TNFSF10",
+     "n_detected_start": 1455,
+     "n_donors": 69,
+     "n_after_cap20": 816,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "TNFSF15",
+     "n_detected_start": 1018,
+     "n_donors": 61,
+     "n_after_cap20": 652,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "CXCL12",
+     "n_detected_start": 3793,
+     "n_donors": 73,
+     "n_after_cap20": 1100,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "VEGFA",
+     "n_detected_start": 1868,
+     "n_donors": 73,
+     "n_after_cap20": 880,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "PGF",
+     "n_detected_start": 135,
+     "n_donors": 35,
+     "n_after_cap20": 135,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）",
+     "gene": "ANGPT1",
+     "n_detected_start": 7395,
+     "n_donors": 72,
+     "n_after_cap20": 1114,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL21",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 22,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+   "note": "スコアは B 細胞・形質細胞の割合のみ（遺伝子を使わない）。出発点は同スコア下位 1/3 の同サブタイプ",
+   "goal_genes": [],
+   "n_goal": 5380,
+   "n_goal_donors": 23,
+   "n_start": 1201,
+   "n_start_donors": 29,
+   "goal_median_ngenes": 1511.5,
+   "start_median_ngenes": 1369.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.104,
+   "depth_only_auc": 0.6101140985206145,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0669,
+   "frac_goal_that_is_FIB_org": 0.071,
+   "frac_FIB_org_in_goal": 0.5335,
+   "FIB_org_cells_left_in_start": 30,
+   "pert_table": [
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL13",
+     "n_detected_start": 6,
+     "n_donors": 6,
+     "n_after_cap20": 6,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL19",
+     "n_detected_start": 5,
+     "n_donors": 5,
+     "n_after_cap20": 5,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL21",
+     "n_detected_start": 21,
+     "n_donors": 11,
+     "n_after_cap20": 21,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "LTB",
+     "n_detected_start": 7,
+     "n_donors": 5,
+     "n_after_cap20": 7,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "TNFSF14",
+     "n_detected_start": 19,
+     "n_donors": 10,
+     "n_after_cap20": 19,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL16",
+     "n_detected_start": 8,
+     "n_donors": 3,
+     "n_after_cap20": 8,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL1",
+     "n_detected_start": 3,
+     "n_donors": 2,
+     "n_after_cap20": 3,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL14",
+     "n_detected_start": 71,
+     "n_donors": 19,
+     "n_after_cap20": 68,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL2",
+     "n_detected_start": 49,
+     "n_donors": 16,
+     "n_after_cap20": 49,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL11",
+     "n_detected_start": 4,
+     "n_donors": 4,
+     "n_after_cap20": 4,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CCL28",
+     "n_detected_start": 42,
+     "n_donors": 12,
+     "n_after_cap20": 42,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CSF1",
+     "n_detected_start": 154,
+     "n_donors": 25,
+     "n_after_cap20": 126,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL7",
+     "n_detected_start": 53,
+     "n_donors": 14,
+     "n_after_cap20": 53,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL15",
+     "n_detected_start": 84,
+     "n_donors": 16,
+     "n_after_cap20": 84,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL33",
+     "n_detected_start": 90,
+     "n_donors": 14,
+     "n_after_cap20": 86,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL34",
+     "n_detected_start": 168,
+     "n_donors": 22,
+     "n_after_cap20": 131,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL11",
+     "n_detected_start": 2,
+     "n_donors": 2,
+     "n_after_cap20": 2,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL18",
+     "n_detected_start": 51,
+     "n_donors": 15,
+     "n_after_cap20": 51,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "IL32",
+     "n_detected_start": 25,
+     "n_donors": 12,
+     "n_after_cap20": 25,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "TNFSF10",
+     "n_detected_start": 95,
+     "n_donors": 20,
+     "n_after_cap20": 95,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "TNFSF15",
+     "n_detected_start": 44,
+     "n_donors": 17,
+     "n_after_cap20": 44,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "CXCL12",
+     "n_detected_start": 321,
+     "n_donors": 24,
+     "n_after_cap20": 210,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "VEGFA",
+     "n_detected_start": 113,
+     "n_donors": 21,
+     "n_after_cap20": 112,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "PGF",
+     "n_detected_start": 8,
+     "n_donors": 4,
+     "n_after_cap20": 8,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB",
+     "gene": "ANGPT1",
+     "n_detected_start": 386,
+     "n_donors": 26,
+     "n_after_cap20": 253,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CSF1",
+    "IL34",
+    "CXCL12",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 4,
+   "chemo3_pass": [],
+   "F1_goal": true,
+   "F2_start": false,
+   "F3_pert": false,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": false
+  },
+  {
+   "name": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+   "note": "出発点を目標以外の全線維芽細胞に広げた版",
+   "goal_genes": [],
+   "n_goal": 5380,
+   "n_goal_donors": 23,
+   "n_start": 13669,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 1511.5,
+   "start_median_ngenes": 1639.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.922,
+   "depth_only_auc": 0.6613220397840889,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0669,
+   "frac_goal_that_is_FIB_org": 0.071,
+   "frac_FIB_org_in_goal": 0.5335,
+   "FIB_org_cells_left_in_start": 334,
+   "pert_table": [
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL13",
+     "n_detected_start": 151,
+     "n_donors": 33,
+     "n_after_cap20": 114,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL19",
+     "n_detected_start": 52,
+     "n_donors": 28,
+     "n_after_cap20": 52,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL21",
+     "n_detected_start": 149,
+     "n_donors": 36,
+     "n_after_cap20": 144,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "LTB",
+     "n_detected_start": 86,
+     "n_donors": 33,
+     "n_after_cap20": 86,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "TNFSF14",
+     "n_detected_start": 81,
+     "n_donors": 25,
+     "n_after_cap20": 77,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL16",
+     "n_detected_start": 145,
+     "n_donors": 39,
+     "n_after_cap20": 142,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL1",
+     "n_detected_start": 100,
+     "n_donors": 30,
+     "n_after_cap20": 100,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL14",
+     "n_detected_start": 968,
+     "n_donors": 61,
+     "n_after_cap20": 637,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL2",
+     "n_detected_start": 1069,
+     "n_donors": 54,
+     "n_after_cap20": 565,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL11",
+     "n_detected_start": 297,
+     "n_donors": 37,
+     "n_after_cap20": 218,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CCL28",
+     "n_detected_start": 617,
+     "n_donors": 52,
+     "n_after_cap20": 445,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CSF1",
+     "n_detected_start": 1416,
+     "n_donors": 66,
+     "n_after_cap20": 719,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL7",
+     "n_detected_start": 1040,
+     "n_donors": 48,
+     "n_after_cap20": 497,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL15",
+     "n_detected_start": 1718,
+     "n_donors": 57,
+     "n_after_cap20": 662,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL33",
+     "n_detected_start": 527,
+     "n_donors": 48,
+     "n_after_cap20": 403,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL34",
+     "n_detected_start": 2671,
+     "n_donors": 66,
+     "n_after_cap20": 791,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL11",
+     "n_detected_start": 243,
+     "n_donors": 33,
+     "n_after_cap20": 188,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL18",
+     "n_detected_start": 539,
+     "n_donors": 52,
+     "n_after_cap20": 407,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "IL32",
+     "n_detected_start": 487,
+     "n_donors": 53,
+     "n_after_cap20": 402,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "TNFSF10",
+     "n_detected_start": 1214,
+     "n_donors": 65,
+     "n_after_cap20": 693,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "TNFSF15",
+     "n_detected_start": 987,
+     "n_donors": 53,
+     "n_after_cap20": 623,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "CXCL12",
+     "n_detected_start": 3477,
+     "n_donors": 73,
+     "n_after_cap20": 940,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "VEGFA",
+     "n_detected_start": 1650,
+     "n_donors": 64,
+     "n_after_cap20": 733,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "PGF",
+     "n_detected_start": 120,
+     "n_donors": 32,
+     "n_after_cap20": 120,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）",
+     "gene": "ANGPT1",
+     "n_detected_start": 7135,
+     "n_donors": 68,
+     "n_after_cap20": 978,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 20,
+   "chemo3_pass": [
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+   "note": "スコアは B 細胞・形質細胞の割合のみ（遺伝子を使わない）。出発点は同スコア下位 1/3 の同サブタイプ",
+   "goal_genes": [],
+   "n_goal": 6374,
+   "n_goal_donors": 23,
+   "n_start": 7228,
+   "n_start_donors": 29,
+   "goal_median_ngenes": 1518.0,
+   "start_median_ngenes": 1632.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.93,
+   "depth_only_auc": 0.6975923429453539,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.062,
+   "frac_goal_that_is_FIB_org": 0.065,
+   "frac_FIB_org_in_goal": 0.5782,
+   "FIB_org_cells_left_in_start": 134,
+   "pert_table": [
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL13",
+     "n_detected_start": 103,
+     "n_donors": 16,
+     "n_after_cap20": 66,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL19",
+     "n_detected_start": 6,
+     "n_donors": 6,
+     "n_after_cap20": 6,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL21",
+     "n_detected_start": 27,
+     "n_donors": 12,
+     "n_after_cap20": 27,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "LTB",
+     "n_detected_start": 35,
+     "n_donors": 12,
+     "n_after_cap20": 35,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "TNFSF14",
+     "n_detected_start": 25,
+     "n_donors": 12,
+     "n_after_cap20": 25,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL16",
+     "n_detected_start": 76,
+     "n_donors": 15,
+     "n_after_cap20": 73,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL1",
+     "n_detected_start": 41,
+     "n_donors": 12,
+     "n_after_cap20": 41,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL14",
+     "n_detected_start": 378,
+     "n_donors": 25,
+     "n_after_cap20": 258,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL2",
+     "n_detected_start": 634,
+     "n_donors": 21,
+     "n_after_cap20": 222,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL11",
+     "n_detected_start": 208,
+     "n_donors": 14,
+     "n_after_cap20": 131,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CCL28",
+     "n_detected_start": 325,
+     "n_donors": 20,
+     "n_after_cap20": 185,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CSF1",
+     "n_detected_start": 709,
+     "n_donors": 26,
+     "n_after_cap20": 268,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL7",
+     "n_detected_start": 510,
+     "n_donors": 18,
+     "n_after_cap20": 164,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL15",
+     "n_detected_start": 1088,
+     "n_donors": 21,
+     "n_after_cap20": 243,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL33",
+     "n_detected_start": 111,
+     "n_donors": 17,
+     "n_after_cap20": 107,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL34",
+     "n_detected_start": 1266,
+     "n_donors": 25,
+     "n_after_cap20": 267,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL11",
+     "n_detected_start": 166,
+     "n_donors": 16,
+     "n_after_cap20": 114,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL18",
+     "n_detected_start": 262,
+     "n_donors": 22,
+     "n_after_cap20": 164,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "IL32",
+     "n_detected_start": 122,
+     "n_donors": 21,
+     "n_after_cap20": 122,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "TNFSF10",
+     "n_detected_start": 431,
+     "n_donors": 25,
+     "n_after_cap20": 261,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "TNFSF15",
+     "n_detected_start": 520,
+     "n_donors": 23,
+     "n_after_cap20": 255,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "CXCL12",
+     "n_detected_start": 1455,
+     "n_donors": 25,
+     "n_after_cap20": 347,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "VEGFA",
+     "n_detected_start": 888,
+     "n_donors": 26,
+     "n_after_cap20": 312,
+     "pass120": true
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "PGF",
+     "n_detected_start": 54,
+     "n_donors": 11,
+     "n_after_cap20": 54,
+     "pass120": false
+    },
+    {
+     "candidate": "C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB",
+     "gene": "ANGPT1",
+     "n_detected_start": 3860,
+     "n_donors": 27,
+     "n_after_cap20": 399,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL34",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 15,
+   "chemo3_pass": [],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": false,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": false
+  },
+  {
+   "name": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+   "note": "出発点を目標以外の全線維芽細胞に広げた版",
+   "goal_genes": [],
+   "n_goal": 6374,
+   "n_goal_donors": 23,
+   "n_start": 12675,
+   "n_start_donors": 56,
+   "goal_median_ngenes": 1518.0,
+   "start_median_ngenes": 1644.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 0.923,
+   "depth_only_auc": 0.656821449209309,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.062,
+   "frac_goal_that_is_FIB_org": 0.065,
+   "frac_FIB_org_in_goal": 0.5782,
+   "FIB_org_cells_left_in_start": 302,
+   "pert_table": [
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL13",
+     "n_detected_start": 134,
+     "n_donors": 28,
+     "n_after_cap20": 97,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL19",
+     "n_detected_start": 44,
+     "n_donors": 21,
+     "n_after_cap20": 44,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL21",
+     "n_detected_start": 138,
+     "n_donors": 28,
+     "n_after_cap20": 133,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "LTB",
+     "n_detected_start": 78,
+     "n_donors": 28,
+     "n_after_cap20": 78,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "TNFSF14",
+     "n_detected_start": 78,
+     "n_donors": 22,
+     "n_after_cap20": 74,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL16",
+     "n_detected_start": 131,
+     "n_donors": 32,
+     "n_after_cap20": 128,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL1",
+     "n_detected_start": 93,
+     "n_donors": 27,
+     "n_after_cap20": 93,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL14",
+     "n_detected_start": 905,
+     "n_donors": 49,
+     "n_after_cap20": 579,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL2",
+     "n_detected_start": 1011,
+     "n_donors": 44,
+     "n_after_cap20": 507,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL11",
+     "n_detected_start": 278,
+     "n_donors": 33,
+     "n_after_cap20": 199,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CCL28",
+     "n_detected_start": 571,
+     "n_donors": 44,
+     "n_after_cap20": 399,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CSF1",
+     "n_detected_start": 1328,
+     "n_donors": 50,
+     "n_after_cap20": 645,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL7",
+     "n_detected_start": 969,
+     "n_donors": 40,
+     "n_after_cap20": 433,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL15",
+     "n_detected_start": 1612,
+     "n_donors": 48,
+     "n_after_cap20": 584,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL33",
+     "n_detected_start": 511,
+     "n_donors": 40,
+     "n_after_cap20": 387,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL34",
+     "n_detected_start": 2515,
+     "n_donors": 51,
+     "n_after_cap20": 690,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL11",
+     "n_detected_start": 232,
+     "n_donors": 30,
+     "n_after_cap20": 177,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL18",
+     "n_detected_start": 490,
+     "n_donors": 46,
+     "n_after_cap20": 365,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "IL32",
+     "n_detected_start": 458,
+     "n_donors": 44,
+     "n_after_cap20": 373,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "TNFSF10",
+     "n_detected_start": 1114,
+     "n_donors": 50,
+     "n_after_cap20": 611,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "TNFSF15",
+     "n_detected_start": 915,
+     "n_donors": 46,
+     "n_after_cap20": 568,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "CXCL12",
+     "n_detected_start": 3193,
+     "n_donors": 51,
+     "n_after_cap20": 798,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "VEGFA",
+     "n_detected_start": 1549,
+     "n_donors": 52,
+     "n_after_cap20": 667,
+     "pass120": true
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "PGF",
+     "n_detected_start": 117,
+     "n_donors": 29,
+     "n_after_cap20": 117,
+     "pass120": false
+    },
+    {
+     "candidate": "C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）",
+     "gene": "ANGPT1",
+     "n_detected_start": 6570,
+     "n_donors": 53,
+     "n_after_cap20": 857,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CCL21",
+    "CXCL16",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 19,
+   "chemo3_pass": [
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2"
+   ],
+   "n_goal": 1792,
+   "n_goal_donors": 29,
+   "n_start": 17257,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 1974.0,
+   "start_median_ngenes": 1552.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.272,
+   "depth_only_auc": 0.7085030879438304,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0727,
+   "frac_goal_that_is_FIB_org": 0.0949,
+   "frac_FIB_org_in_goal": 0.2374,
+   "FIB_org_cells_left_in_start": 546,
+   "pert_table": [
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL13",
+     "n_detected_start": 158,
+     "n_donors": 36,
+     "n_after_cap20": 121,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL19",
+     "n_detected_start": 131,
+     "n_donors": 38,
+     "n_after_cap20": 127,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL21",
+     "n_detected_start": 293,
+     "n_donors": 49,
+     "n_after_cap20": 274,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "LTB",
+     "n_detected_start": 116,
+     "n_donors": 45,
+     "n_after_cap20": 116,
+     "pass120": false
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "TNFSF14",
+     "n_detected_start": 113,
+     "n_donors": 34,
+     "n_after_cap20": 113,
+     "pass120": false
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL16",
+     "n_detected_start": 179,
+     "n_donors": 46,
+     "n_after_cap20": 176,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL1",
+     "n_detected_start": 125,
+     "n_donors": 37,
+     "n_after_cap20": 125,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL14",
+     "n_detected_start": 1130,
+     "n_donors": 71,
+     "n_after_cap20": 770,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL2",
+     "n_detected_start": 1174,
+     "n_donors": 65,
+     "n_after_cap20": 660,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL11",
+     "n_detected_start": 300,
+     "n_donors": 42,
+     "n_after_cap20": 221,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL28",
+     "n_detected_start": 750,
+     "n_donors": 65,
+     "n_after_cap20": 525,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CSF1",
+     "n_detected_start": 1690,
+     "n_donors": 73,
+     "n_after_cap20": 861,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL7",
+     "n_detected_start": 1368,
+     "n_donors": 62,
+     "n_after_cap20": 625,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL15",
+     "n_detected_start": 1985,
+     "n_donors": 69,
+     "n_after_cap20": 806,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL33",
+     "n_detected_start": 827,
+     "n_donors": 63,
+     "n_after_cap20": 595,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL34",
+     "n_detected_start": 3499,
+     "n_donors": 74,
+     "n_after_cap20": 1057,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL11",
+     "n_detected_start": 254,
+     "n_donors": 37,
+     "n_after_cap20": 199,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL18",
+     "n_detected_start": 683,
+     "n_donors": 63,
+     "n_after_cap20": 500,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL32",
+     "n_detected_start": 613,
+     "n_donors": 63,
+     "n_after_cap20": 533,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "TNFSF10",
+     "n_detected_start": 1572,
+     "n_donors": 73,
+     "n_after_cap20": 855,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "TNFSF15",
+     "n_detected_start": 1075,
+     "n_donors": 66,
+     "n_after_cap20": 701,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL12",
+     "n_detected_start": 4418,
+     "n_donors": 74,
+     "n_after_cap20": 1186,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "VEGFA",
+     "n_detected_start": 1880,
+     "n_donors": 75,
+     "n_after_cap20": 881,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "PGF",
+     "n_detected_start": 134,
+     "n_donors": 38,
+     "n_after_cap20": 134,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "ANGPT1",
+     "n_detected_start": 8325,
+     "n_donors": 76,
+     "n_after_cap20": 1219,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 23,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": true,
+   "PASS": true
+  },
+  {
+   "name": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+   "note": "PDPN/NGFR/ICAM1/VCAM1/TNFSF13B/MADCAM1/ENPP2",
+   "goal_genes": [
+    "PDPN",
+    "NGFR",
+    "ICAM1",
+    "VCAM1",
+    "TNFSF13B",
+    "MADCAM1",
+    "ENPP2"
+   ],
+   "n_goal": 350,
+   "n_goal_donors": 26,
+   "n_start": 18699,
+   "n_start_donors": 79,
+   "goal_median_ngenes": 2366.5,
+   "start_median_ngenes": 1578.0,
+   "overlap_with_goal_genes_and_pert": [],
+   "ngenes_ratio": 1.5,
+   "depth_only_auc": 0.7543766929579279,
+   "FIB_org_n": 716,
+   "jaccard_goal_vs_FIB_org": 0.0607,
+   "frac_goal_that_is_FIB_org": 0.1743,
+   "frac_FIB_org_in_goal": 0.0852,
+   "FIB_org_cells_left_in_start": 655,
+   "pert_table": [
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL13",
+     "n_detected_start": 167,
+     "n_donors": 37,
+     "n_after_cap20": 130,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL19",
+     "n_detected_start": 188,
+     "n_donors": 40,
+     "n_after_cap20": 148,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL21",
+     "n_detected_start": 355,
+     "n_donors": 50,
+     "n_after_cap20": 296,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "LTB",
+     "n_detected_start": 135,
+     "n_donors": 45,
+     "n_after_cap20": 135,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "TNFSF14",
+     "n_detected_start": 150,
+     "n_donors": 39,
+     "n_after_cap20": 146,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL16",
+     "n_detected_start": 196,
+     "n_donors": 49,
+     "n_after_cap20": 193,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL1",
+     "n_detected_start": 141,
+     "n_donors": 40,
+     "n_after_cap20": 141,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL14",
+     "n_detected_start": 1252,
+     "n_donors": 71,
+     "n_after_cap20": 818,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL2",
+     "n_detected_start": 1259,
+     "n_donors": 65,
+     "n_after_cap20": 726,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL11",
+     "n_detected_start": 312,
+     "n_donors": 47,
+     "n_after_cap20": 233,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CCL28",
+     "n_detected_start": 831,
+     "n_donors": 65,
+     "n_after_cap20": 574,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CSF1",
+     "n_detected_start": 1896,
+     "n_donors": 73,
+     "n_after_cap20": 942,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL7",
+     "n_detected_start": 1560,
+     "n_donors": 62,
+     "n_after_cap20": 674,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL15",
+     "n_detected_start": 2158,
+     "n_donors": 69,
+     "n_after_cap20": 855,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL33",
+     "n_detected_start": 998,
+     "n_donors": 63,
+     "n_after_cap20": 649,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL34",
+     "n_detected_start": 3947,
+     "n_donors": 74,
+     "n_after_cap20": 1087,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL11",
+     "n_detected_start": 260,
+     "n_donors": 39,
+     "n_after_cap20": 205,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL18",
+     "n_detected_start": 787,
+     "n_donors": 66,
+     "n_after_cap20": 559,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "IL32",
+     "n_detected_start": 688,
+     "n_donors": 65,
+     "n_after_cap20": 592,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "TNFSF10",
+     "n_detected_start": 1787,
+     "n_donors": 73,
+     "n_after_cap20": 916,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "TNFSF15",
+     "n_detected_start": 1141,
+     "n_donors": 67,
+     "n_after_cap20": 752,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "CXCL12",
+     "n_detected_start": 4921,
+     "n_donors": 74,
+     "n_after_cap20": 1201,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "VEGFA",
+     "n_detected_start": 2066,
+     "n_donors": 75,
+     "n_after_cap20": 932,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "PGF",
+     "n_detected_start": 152,
+     "n_donors": 39,
+     "n_after_cap20": 152,
+     "pass120": true
+    },
+    {
+     "candidate": "A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者",
+     "gene": "ANGPT1",
+     "n_detected_start": 8927,
+     "n_donors": 76,
+     "n_after_cap20": 1251,
+     "pass120": true
+    }
+   ],
+   "pert_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21",
+    "LTB",
+    "TNFSF14",
+    "CXCL16",
+    "CXCL1",
+    "CXCL14",
+    "CCL2",
+    "CCL11",
+    "CCL28",
+    "CSF1",
+    "IL7",
+    "IL15",
+    "IL33",
+    "IL34",
+    "IL11",
+    "IL18",
+    "IL32",
+    "TNFSF10",
+    "TNFSF15",
+    "CXCL12",
+    "VEGFA",
+    "PGF",
+    "ANGPT1"
+   ],
+   "n_pert_pass": 25,
+   "chemo3_pass": [
+    "CXCL13",
+    "CCL19",
+    "CCL21"
+   ],
+   "F1_goal": true,
+   "F2_start": true,
+   "F3_pert": true,
+   "F4_circular": true,
+   "F5_depth": false,
+   "PASS": false
+  }
+ ]
+}

@@ -1,0 +1,950 @@
+{
+ "CA12|ca12_fib": {
+  "count": "17",
+  "records": [
+   {
+    "pmid": "42694344",
+    "date": "2026 Sep",
+    "journal": "JOR Spine",
+    "title": "My Love Story With HIFs in the Disc: A Journey to the Humboldt Research Award.",
+    "doi": "10.1002/jsp2.70218"
+   },
+   {
+    "pmid": "42591023",
+    "date": "2026 Aug",
+    "journal": "Pediatr Pulmonol",
+    "title": "Human Nasal and Bronchial Epithelium in Cystic Fibrosis: Differences in Expression of Airway pH Regulatory Proteins.",
+    "doi": "10.1002/ppul.71784"
+   },
+   {
+    "pmid": "41851891",
+    "date": "2026 Mar 18",
+    "journal": "Cell Commun Signal",
+    "title": "Loss of CA12 drive proliferation and fibrosis in type i congenital pulmonary airway malformation via promoting abnormal activation of SHH signaling.",
+    "doi": "10.1186/s12964-026-02794-3"
+   },
+   {
+    "pmid": "41565266",
+    "date": "2026 Oct 8",
+    "journal": "Tohoku J Exp Med",
+    "title": "From Carbonic Anhydrase 12 to TGFβ1/Smad Pathway: A Key Mechanism for Isoorientin in Pulmonary Fibrosis Therapy.",
+    "doi": "10.1620/tjem.2025.J165"
+   },
+   {
+    "pmid": "39706310",
+    "date": "2025 Jan",
+    "journal": "Genomics",
+    "title": "Single-cell RNA sequencing reveals the heterogeneity of myofibroblasts in wound repair.",
+    "doi": "10.1016/j.ygeno.2024.110982"
+   },
+   {
+    "pmid": "39397452",
+    "date": "2024 Oct 18",
+    "journal": "Beijing Da Xue Xue Bao Yi Xue Ban",
+    "title": "[Detection of pathogenic gene mutations in thirteen cases of congenital bilateral absence of vas deferens infertility patients].",
+    "doi": "10.19723/j.issn.1671-167X.2024.05.003"
+   },
+   {
+    "pmid": "37266145",
+    "date": "2023",
+    "journal": "Front Pharmacol",
+    "title": "Therapeutic mechanism of baicalein in peritoneal dialysis-associated peritoneal fibrosis based on network pharmacology and experimental validation.",
+    "doi": "10.3389/fphar.2023.1153503"
+   },
+   {
+    "pmid": "34673937",
+    "date": "2022 Jan 13",
+    "journal": "Biol Reprod",
+    "title": "Genetic mutation analysis of 22 patients with congenital absence of vas deferens: a single-center study†.",
+    "doi": "10.1093/biolre/ioab194"
+   }
+  ]
+ },
+ "CA12|ca12_rcc": {
+  "count": "14",
+  "records": [
+   {
+    "pmid": "41554613",
+    "date": "2026 Feb 12",
+    "journal": "J Med Chem",
+    "title": "Targeting Metabolic and pH Regulatory Pathways in Cancer via Dual Inhibition of Nicotinamide Phosphoribosyltransferase and Carbonic Anhydrases IX and XII.",
+    "doi": "10.1021/acs.jmedchem.5c03157"
+   },
+   {
+    "pmid": "40569831",
+    "date": "2025 Sep",
+    "journal": "Mol Oncol",
+    "title": "Targeting carbonic anhydrase IX/XII prevents the anti-ferroptotic effect of stromal lactic acid in prostate carcinoma.",
+    "doi": "10.1002/1878-0261.70083"
+   },
+   {
+    "pmid": "33321910",
+    "date": "2020 Dec 10",
+    "journal": "Int J Mol Sci",
+    "title": "Inhibitory Monoclonal Antibodies and Their Recombinant Derivatives Targeting Surface-Exposed Carbonic Anhydrase XII on Cancer Cells.",
+    "doi": "10.3390/ijms21249411"
+   },
+   {
+    "pmid": "31003041",
+    "date": "2019 Jun",
+    "journal": "Bioorg Chem",
+    "title": "Synthesis, biological activity and multiscale molecular modeling studies of bis-coumarins as selective carbonic anhydrase IX and XII inhibitors with effective cytotoxicity against hepatocellular carcinoma.",
+    "doi": "10.1016/j.bioorg.2019.03.003"
+   },
+   {
+    "pmid": "24146380",
+    "date": "2014",
+    "journal": "Subcell Biochem",
+    "title": "Carbonic anhydrase expression in kidney and renal cancer: implications for diagnosis and treatment.",
+    "doi": "10.1007/978-94-007-7359-2_10"
+   },
+   {
+    "pmid": "20936840",
+    "date": "2010 Nov 1",
+    "journal": "Anal Chem",
+    "title": "Immunoaffinity enrichment and liquid chromatography-selected reaction monitoring mass spectrometry for quantitation of carbonic anhydrase 12 in cultured renal carcinoma cells.",
+    "doi": "10.1021/ac101981t"
+   },
+   {
+    "pmid": "15821467",
+    "date": "2005 May",
+    "journal": "J Urol",
+    "title": "Using tumor markers to predict the survival of patients with metastatic renal cell carcinoma.",
+    "doi": "10.1097/01.ju.0000154351.37249.f0"
+   },
+   {
+    "pmid": "15711252",
+    "date": "2005 Mar",
+    "journal": "J Urol",
+    "title": "p53 is an independent predictor of tumor recurrence and progression after nephrectomy in patients with localized renal cell carcinoma.",
+    "doi": "10.1097/01.ju.0000152354.08057.2a"
+   }
+  ]
+ },
+ "GSN|gsn_renal": {
+  "count": "48",
+  "records": [
+   {
+    "pmid": "42557181",
+    "date": "2026 Oct",
+    "journal": "Pathology",
+    "title": "Clinicopathological characteristics and prognostic factors in renal amyloidosis: a 10-year Australian tertiary centre experience.",
+    "doi": "10.1016/j.pathol.2026.05.011"
+   },
+   {
+    "pmid": "42247203",
+    "date": "2026 Jun 5",
+    "journal": "Intensive Care Med Exp",
+    "title": "Proteomic signatures of renal recovery from acute kidney injury-a translational study in critically ill postoperative patients.",
+    "doi": "10.1186/s40635-026-00926-0"
+   },
+   {
+    "pmid": "40834982",
+    "date": "2025 Oct 30",
+    "journal": "J Proteomics",
+    "title": "Potential kidney biomarkers in urinary extracellular vesicles from end stage renal disease and post-transplant patients.",
+    "doi": "10.1016/j.jprot.2025.105523"
+   },
+   {
+    "pmid": "40375605",
+    "date": "2025 Dec",
+    "journal": "Cell Prolif",
+    "title": "Deciphering the Immunomodulatory Function of GSN (+) Inflammatory Cancer-Associated Fibroblasts in Renal Cell Carcinoma Immunotherapy: Insights From Pan-Cancer Single-Cell Landscape and Spatial Transcriptomics Analysis.",
+    "doi": "10.1111/cpr.70062"
+   },
+   {
+    "pmid": "39668539",
+    "date": "2024 Jan",
+    "journal": "Ulus Travma Acil Cerrahi Derg",
+    "title": "Is there a renal protective role for gelsolin treatment in crush syndrome? An experimental study.",
+    "doi": "10.14744/tjtes.2024.43316"
+   },
+   {
+    "pmid": "38074971",
+    "date": "2023 Dec",
+    "journal": "Indian J Crit Care Med",
+    "title": "Clinical Profile of Children with Burns in a Tertiary Care Hospital.",
+    "doi": "10.5005/jp-journals-10071-24592"
+   },
+   {
+    "pmid": "37215727",
+    "date": "2023",
+    "journal": "Front Med (Lausanne)",
+    "title": "Presepsin: gelsolin ratio, as a promising marker of sepsis-related organ dysfunction: a prospective observational study.",
+    "doi": "10.3389/fmed.2023.1126982"
+   },
+   {
+    "pmid": "36979422",
+    "date": "2023 Mar 6",
+    "journal": "Biomolecules",
+    "title": "Interleukin-18 and Gelsolin Are Associated with Acute Kidney Disease after Cardiac Catheterization.",
+    "doi": "10.3390/biom13030487"
+   }
+  ]
+ },
+ "COL6A2|col6a2_renal": {
+  "count": "35",
+  "records": [
+   {
+    "pmid": "41683963",
+    "date": "2026 Feb 4",
+    "journal": "Int J Mol Sci",
+    "title": "Uncovering a Glaucoma-Linked Lysophosphatidic Acid-MAPK/AP-1 Fibrosis Axis in Human Trabecular Meshwork Cells and Its Modulation by Diospyros kaki Leaf Extract.",
+    "doi": "10.3390/ijms27031544"
+   },
+   {
+    "pmid": "41519425",
+    "date": "2026 Mar",
+    "journal": "Exp Eye Res",
+    "title": "miR-29b-3p promotes the recovery of alkali-burned cornea by targeting Ddx3x.",
+    "doi": "10.1016/j.exer.2026.110849"
+   },
+   {
+    "pmid": "41323784",
+    "date": "2025",
+    "journal": "J Cancer",
+    "title": "COL6A2 drives clear cell renal cell carcinoma progression via integrin-dependent modulation of Wnt/β-catenin signaling.",
+    "doi": "10.7150/jca.120607"
+   },
+   {
+    "pmid": "41292196",
+    "date": "2025 Nov 30",
+    "journal": "FASEB J",
+    "title": "Unraveling the Role of PTGIR in Atrial Fibrillation: Insights From Single-Cell Sequencing and Mendelian Randomization.",
+    "doi": "10.1096/fj.202501843RR"
+   },
+   {
+    "pmid": "41107120",
+    "date": "2025 Dec",
+    "journal": "Ann Rheum Dis",
+    "title": "Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.",
+    "doi": "10.1016/j.ard.2025.09.003"
+   },
+   {
+    "pmid": "40998421",
+    "date": "2025 Nov",
+    "journal": "J Neuroendocrinol",
+    "title": "Telotristat ethyl affects tumour-fibroblast crosstalk in small intestinal neuroendocrine tumours.",
+    "doi": "10.1111/jne.70094"
+   },
+   {
+    "pmid": "40770761",
+    "date": "2025 Aug 6",
+    "journal": "J Transl Med",
+    "title": "COL6A2 in clear cell renal cell carcinoma: a multifaceted driver of tumor progression, immune evasion, and drug sensitivity.",
+    "doi": "10.1186/s12967-025-06793-9"
+   },
+   {
+    "pmid": "40665122",
+    "date": "2026 Jun",
+    "journal": "Biochem Genet",
+    "title": "Transcriptome Analysis of TGFBI Knockdown vs Normal Corneal Epithelial Cells: Implications for TGFBI Corneal Dystrophy Treatment.",
+    "doi": "10.1007/s10528-025-11191-3"
+   }
+  ]
+ },
+ "COL6A1|col6a1_renal": {
+  "count": "137",
+  "records": [
+   {
+    "pmid": "42841018",
+    "date": "2026",
+    "journal": "Front Mol Biosci",
+    "title": "Integrated microarray-based and single-cell transcriptomic analyses reveal cell adhesion-related fibrotic remodeling signatures in heart failure.",
+    "doi": "10.3389/fmolb.2026.1929610"
+   },
+   {
+    "pmid": "42743047",
+    "date": "2026 Sep 15",
+    "journal": "Am J Physiol Cell Physiol",
+    "title": "Type VI collagen is proportionally lower around airways and blood vessels in idiopathic pulmonary fibrosis.",
+    "doi": "10.1152/ajpcell.00034.2026"
+   },
+   {
+    "pmid": "42651788",
+    "date": "2026 Aug 2",
+    "journal": "Curr Issues Mol Biol",
+    "title": "Matrix Architecture and Integrin Branch Balance Distinguish Immune-Regulatory States in Clear Cell Renal Cell Carcinoma.",
+    "doi": "10.3390/cimb48080789"
+   },
+   {
+    "pmid": "42599924",
+    "date": "2026 Sep",
+    "journal": "Liver Int",
+    "title": "Endotrophin Measured by PRO-C6 as a Prognostic Biomarker for Liver-Related Events in Patients With Advanced Chronic Liver Disease.",
+    "doi": "10.1111/liv.70824"
+   },
+   {
+    "pmid": "42028182",
+    "date": "2026 Apr-Jun",
+    "journal": "Dose Response",
+    "title": "4,8-Dicarboxyl-8,9-Iridoid-1-Glycoside Alleviates Cardiac Dysfunction After Myocardial Ischaemia-Reperfusion Injury by Activating the PI3K/AKT Pathway.",
+    "doi": "10.1177/15593258261444840"
+   },
+   {
+    "pmid": "41912056",
+    "date": "2026 May",
+    "journal": "Matrix Biol",
+    "title": "Lumican-mediated fibroblast differentiation in skin fibrosis.",
+    "doi": "10.1016/j.matbio.2026.03.006"
+   },
+   {
+    "pmid": "41520918",
+    "date": "2026 Apr",
+    "journal": "Mucosal Immunol",
+    "title": "Integrated human and mouse single-cell profiling reveals immune-stromal niche driving silicosis.",
+    "doi": "10.1016/j.mucimm.2026.01.003"
+   },
+   {
+    "pmid": "41342519",
+    "date": "2026 May",
+    "journal": "J Ultrasound Med",
+    "title": "Liver Stiffness Characterization of OGT(LKO) Mouse Model of Progressive Liver Fibrosis.",
+    "doi": "10.1002/jum.70146"
+   }
+  ]
+ },
+ "HSPB6|hspb6_fib": {
+  "count": "753",
+  "records": [
+   {
+    "pmid": "42678724",
+    "date": "2026 Sep 4",
+    "journal": "Free Radic Res",
+    "title": "Heat shock protein 70 protects against peroxynitrite-induced inactivation of the cardiac sarco(endo)plasmic reticulum Ca(2+)-ATPase (SERCA2a).",
+    "doi": "10.1080/10715762.2026.2727872"
+   },
+   {
+    "pmid": "42484598",
+    "date": "2026 Aug 12",
+    "journal": "Clin Sci (Lond)",
+    "title": "O-GlcNAc modification of CaMKII-mediated mitophagic flux regulation via HSPB8 in diabetic cardiomyopathy.",
+    "doi": "10.1042/CS20260408"
+   },
+   {
+    "pmid": "42427322",
+    "date": "2026 Jun",
+    "journal": "Zhonghua Wei Zhong Bing Ji Jiu Yi Xue",
+    "title": "[Effect and regulatory mechanism of nuclear fragility X mental retardation interaction protein 1 on apoptosis of dendritic cells in sepsis].",
+    "doi": "10.3760/cma.j.cn121430-20251022-00521"
+   },
+   {
+    "pmid": "42403335",
+    "date": "2026 Aug",
+    "journal": "Biotech Histochem",
+    "title": "Immunoexpression of HSP27 and HSP70 after hyperthermia in postnatal rat lung and heart.",
+    "doi": "10.1080/10520295.2026.2694030"
+   },
+   {
+    "pmid": "42383453",
+    "date": "2026 Jul 1",
+    "journal": "Histol Histopathol",
+    "title": "Isofraxidin ameliorates CCl(4)-induced liver fibrosis in mice by inhibiting the NF-κB pathway.",
+    "doi": "10.14670/HH-25-117"
+   },
+   {
+    "pmid": "42370198",
+    "date": "2026",
+    "journal": "Theranostics",
+    "title": "Cardiomyocyte-derived USP20 mitigates myocardial ischemia/reperfusion injury through deubiquitinating GRP78.",
+    "doi": "10.7150/thno.132067"
+   },
+   {
+    "pmid": "42128104",
+    "date": "2026 Jun",
+    "journal": "Int J Biol Macromol",
+    "title": "Comprehensive genome-wide identification, molecular characterisation, and expression profiling of HSP gene families in Bufo gargarizans.",
+    "doi": "10.1016/j.ijbiomac.2026.152510"
+   },
+   {
+    "pmid": "42082113",
+    "date": "2026 Jun",
+    "journal": "Biochim Biophys Acta Mol Cell Res",
+    "title": "The dual role of heat shock protein 60 in Cardiac diseases: From mitochondrial chaperone to extracellular immunomodulator - A review and future perspectives.",
+    "doi": "10.1016/j.bbamcr.2026.120154"
+   }
+  ]
+ },
+ "PDZRN4|pdzrn4_any": {
+  "count": "24",
+  "records": [
+   {
+    "pmid": "41463551",
+    "date": "2025 Dec 12",
+    "journal": "Biology (Basel)",
+    "title": "Whole-Genome Resequencing Analysis Reveals the Local Ancestry and Selection of Kongshan Cattle.",
+    "doi": "10.3390/biology14121778"
+   },
+   {
+    "pmid": "41461926",
+    "date": "2026 Feb",
+    "journal": "Oncogene",
+    "title": "PDZRN4 suppresses lung adenocarcinoma progression via inhibiting ubiquitin-mediated HIF-1A degradation.",
+    "doi": "10.1038/s41388-025-03670-z"
+   },
+   {
+    "pmid": "40867662",
+    "date": "2025 Aug 8",
+    "journal": "Animals (Basel)",
+    "title": "Integrating Genomic Selection and Genome-Wide Association Study to Enhance Reproductive Traits in Thai Swamp Buffalo.",
+    "doi": "10.3390/ani15162333"
+   },
+   {
+    "pmid": "40775408",
+    "date": "2025 Aug 7",
+    "journal": "Discov Oncol",
+    "title": "Integrative analysis identifies FBXO5 as a critical mediator of CRPC progression and bone metastatic potential.",
+    "doi": "10.1007/s12672-025-03069-y"
+   },
+   {
+    "pmid": "40643968",
+    "date": "2025 Dec",
+    "journal": "Anim Biotechnol",
+    "title": "Candidate gene search for milk production and composition, milk coagulation properties, and milk protein profile in dairy sheep from a New Zealand flock.",
+    "doi": "10.1080/10495398.2025.2516688"
+   },
+   {
+    "pmid": "40264196",
+    "date": "2025 Apr 22",
+    "journal": "Cancer Cell Int",
+    "title": "Integrating multi-cohort machine learning and clinical sample validation to explore peripheral blood mRNA diagnostic biomarkers for prostate cancer.",
+    "doi": "10.1186/s12935-025-03788-w"
+   },
+   {
+    "pmid": "40044687",
+    "date": "2025 Mar 5",
+    "journal": "Nat Commun",
+    "title": "Single-nuclei sequencing of skeletal muscle reveals subsynaptic-specific transcripts involved in neuromuscular junction maintenance.",
+    "doi": "10.1038/s41467-025-57487-1"
+   },
+   {
+    "pmid": "39615322",
+    "date": "2025 Jan",
+    "journal": "Poult Sci",
+    "title": "Genome-wide analyses of genomic diversity, population structure and selection signatures in Italian turkey populations.",
+    "doi": "10.1016/j.psj.2024.104543"
+   }
+  ]
+ },
+ "ZNF737|znf737_any": {
+  "count": "4",
+  "records": [
+   {
+    "pmid": "41785601",
+    "date": "2026 Apr 15",
+    "journal": "Int Immunopharmacol",
+    "title": "The ZNF737-CXCL10 axis drives immune exclusion and resistance to anti-PD-1 therapy in bladder cancer.",
+    "doi": "10.1016/j.intimp.2026.116443"
+   },
+   {
+    "pmid": "39789109",
+    "date": "2025 Jan 9",
+    "journal": "Sci Rep",
+    "title": "Transcriptome-wide association study identifies genes associated with bladder cancer risk.",
+    "doi": "10.1038/s41598-025-85565-3"
+   },
+   {
+    "pmid": "37478121",
+    "date": "2023 Nov",
+    "journal": "Biotechnol J",
+    "title": "Multiple suppressing small interfering RNA for cancer treatment-Application to triple-negative breast cancer.",
+    "doi": "10.1002/biot.202300060"
+   },
+   {
+    "pmid": "27186239",
+    "date": "2016",
+    "journal": "J Neurodev Disord",
+    "title": "Investigating the effects of copy number variants on reading and language performance.",
+    "doi": "10.1186/s11689-016-9147-8"
+   }
+  ]
+ },
+ "ELN|eln_renal": {
+  "count": "70",
+  "records": [
+   {
+    "pmid": "42693239",
+    "date": "2026 Sep",
+    "journal": "Exp Mol Med",
+    "title": "Pleura organoid transplantation facilitates visceral pleural repair through CD133(+) progenitor cell-mediated regeneration.",
+    "doi": "10.1038/s12276-026-01825-w"
+   },
+   {
+    "pmid": "42460475",
+    "date": "2026 Sep",
+    "journal": "Arterioscler Thromb Vasc Biol",
+    "title": "Tuning BMP-Regulated Cell Differentiation in the Aortic Media by Mutating Matrix Gla Protein.",
+    "doi": "10.1161/ATVBAHA.126.324621"
+   },
+   {
+    "pmid": "42100872",
+    "date": "2026 May 8",
+    "journal": "JCI Insight",
+    "title": "ATP7A-fibulin-4 complex delivers copper in the Golgi to activate LOX in renal fibrosis.",
+    "doi": "10.1172/jci.insight.199028"
+   },
+   {
+    "pmid": "41478668",
+    "date": "2025 Dec",
+    "journal": "J Pharmacol Exp Ther",
+    "title": "Kidney-specific delivery of a matrix metalloproteinase-2 inhibitory peptide fused to elastin-like polypeptide reduces proteinuria and renal fibrosis in a model of salt-sensitive hypertension.",
+    "doi": "10.1016/j.jpet.2025.103556"
+   },
+   {
+    "pmid": "40786111",
+    "date": "2025",
+    "journal": "PeerJ",
+    "title": "Insights into the molecular mechanisms underlying the function of lysyl oxidase like 1 in cancers.",
+    "doi": "10.7717/peerj.19628"
+   },
+   {
+    "pmid": "39155424",
+    "date": "2024 Dec",
+    "journal": "Eur J Clin Invest",
+    "title": "Respiratory dysfunction in old mice could be related to inflammation and lung fibrosis induced by hyperphosphatemia.",
+    "doi": "10.1111/eci.14302"
+   },
+   {
+    "pmid": "37619798",
+    "date": "2023 Oct",
+    "journal": "Vascul Pharmacol",
+    "title": "Empagliflozin decreases ageing-associated arterial stiffening and vascular fibrosis under normoglycemic conditions.",
+    "doi": "10.1016/j.vph.2023.107212"
+   },
+   {
+    "pmid": "37517061",
+    "date": "2023 Oct 24",
+    "journal": "Cardiovasc Res",
+    "title": "Aortic valve calcification is promoted by interleukin-8 and restricted through antagonizing CXC motif chemokine receptor 2.",
+    "doi": "10.1093/cvr/cvad117"
+   }
+  ]
+ },
+ "CA4|ca4_renal": {
+  "count": "177",
+  "records": [
+   {
+    "pmid": "42486554",
+    "date": "2026",
+    "journal": "Enzymes",
+    "title": "Carbonic anhydrases IV and XV.",
+    "doi": "10.1016/bs.enz.2026.05.006"
+   },
+   {
+    "pmid": "42220779",
+    "date": "2026 Apr",
+    "journal": "Cureus",
+    "title": "Clinical Outcomes and Therapeutic Response in Adult TFE3-Related Renal Cell Carcinoma: A Case Series From a Tertiary Cancer Center in Southern India.",
+    "doi": "10.7759/cureus.107915"
+   },
+   {
+    "pmid": "42167717",
+    "date": "2026 Aug",
+    "journal": "Fr J Urol",
+    "title": "Achieving no evidence of disease in metastatic renal cell carcinoma: Consolidative nephrectomy vs ablative therapy.",
+    "doi": "10.1016/j.fjurol.2026.103132"
+   },
+   {
+    "pmid": "41117106",
+    "date": "2025 Nov 5",
+    "journal": "J Mater Chem B",
+    "title": "Scalable synthesis of asymmetric hemodialysis membranes to enhance performance and biocompatibility in flat sheet and hollow fiber configurations.",
+    "doi": "10.1039/d5tb01621e"
+   },
+   {
+    "pmid": "40811810",
+    "date": "2025 Sep 1",
+    "journal": "Am J Physiol Cell Physiol",
+    "title": "Rhbg interaction with CA-IV and its effects on NH(3)/NH(4)(+) and CO(2) transport.",
+    "doi": "10.1152/ajpcell.00099.2025"
+   },
+   {
+    "pmid": "40434420",
+    "date": "2025 Nov",
+    "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+    "title": "Investigation of the mechanism of Dan Zhi Qing'e Formula for treating menopausal hot flashes using UHPLC-Q-TOF MS and network pharmacology.",
+    "doi": "10.1007/s00210-025-04277-7"
+   },
+   {
+    "pmid": "40339614",
+    "date": "2025 Jul",
+    "journal": "Fitoterapia",
+    "title": "Hydroalcoholic extract from Syagrus cocoides Martius almonds (ariri coconut) induces diuretic effects in rodents.",
+    "doi": "10.1016/j.fitote.2025.106589"
+   },
+   {
+    "pmid": "39733639",
+    "date": "2025 Jan 27",
+    "journal": "Int Immunopharmacol",
+    "title": "Unveiling the substantial role of rutin in the management of drug-induced nephropathy using network pharmacology and molecular docking.",
+    "doi": "10.1016/j.intimp.2024.113911"
+   }
+  ]
+ },
+ "TEFM|tefm_any": {
+  "count": "21",
+  "records": [
+   {
+    "pmid": "42606642",
+    "date": "2026 Aug 17",
+    "journal": "Mol Neurobiol",
+    "title": "Distinct Mitochondrial Central Dogma Gene Expression in the Buffalo Brain: A Comparative Transcriptomic Study with Metabolically Active Organs.",
+    "doi": "10.1007/s12035-026-06134-x"
+   },
+   {
+    "pmid": "42576811",
+    "date": "2026 Sep 22",
+    "journal": "Circulation",
+    "title": "ABHD11-Mediated mtDNA Transcription Restored Mitochondrial Function to Attenuate Cardiomyocyte Ferroptosis After Myocardial Infarction.",
+    "doi": "10.1161/CIRCULATIONAHA.125.078593"
+   },
+   {
+    "pmid": "40960283",
+    "date": "2026 Jan",
+    "journal": "Immunology",
+    "title": "Mitochondrial Activity Regulates Human T Helper 17 Differentiation and Function.",
+    "doi": "10.1111/imm.70037"
+   },
+   {
+    "pmid": "40533459",
+    "date": "2025 Jun 18",
+    "journal": "J Hum Genet",
+    "title": "Review of 40 genes causing congenital myasthenic syndromes.",
+    "doi": "10.1038/s10038-025-01355-9"
+   },
+   {
+    "pmid": "40272035",
+    "date": "2025 Sep",
+    "journal": "Am J Med Genet A",
+    "title": "Clinical and Radiological Characterization of TEFM-Associated Neurological Disorder.",
+    "doi": "10.1002/ajmg.a.64101"
+   },
+   {
+    "pmid": "39731053",
+    "date": "2024 Dec 27",
+    "journal": "J Transl Med",
+    "title": "TEFM facilitates uterine corpus endometrial carcinoma progression by activating ROS-NFκB pathway.",
+    "doi": "10.1186/s12967-024-05833-0"
+   },
+   {
+    "pmid": "39719635",
+    "date": "2024 Dec 24",
+    "journal": "Cancer Cell Int",
+    "title": "Mitochondrial transcription elongation factor TEFM promotes malignant progression of gliomas.",
+    "doi": "10.1186/s12935-024-03617-6"
+   },
+   {
+    "pmid": "39075464",
+    "date": "2024 Jul 29",
+    "journal": "J Transl Med",
+    "title": "Identification of TEFM as a potential therapeutic target for LUAD treatment.",
+    "doi": "10.1186/s12967-024-05483-2"
+   }
+  ]
+ },
+ "PIGG|pigg_any": {
+  "count": "13",
+  "records": [
+   {
+    "pmid": "41744056",
+    "date": "2026 Jul",
+    "journal": "Am J Med Genet A",
+    "title": "Expanding the Phenotype of Biallelic PIGG Variants: Motor Neuropathy With Peripheral Nerve Hyperexcitability.",
+    "doi": "10.1002/ajmg.a.70106"
+   },
+   {
+    "pmid": "38976227",
+    "date": "2024 Aug",
+    "journal": "Hepatol Int",
+    "title": "Detection of polyreactive immunoglobulin G facilitates diagnosis in children with autoimmune hepatitis.",
+    "doi": "10.1007/s12072-024-10695-1"
+   },
+   {
+    "pmid": "37340049",
+    "date": "2023 Jun 20",
+    "journal": "Sci Rep",
+    "title": "Evaluation of immunoserological detection of anti-liver kidney microsomal, anti-soluble liver antigen and anti-mitochondrial antibodies.",
+    "doi": "10.1038/s41598-023-37095-z"
+   },
+   {
+    "pmid": "36440259",
+    "date": "2023 Jan",
+    "journal": "JHEP Rep",
+    "title": "Histological and serological features of acute liver injury after SARS-CoV-2 vaccination.",
+    "doi": "10.1016/j.jhepr.2022.100605"
+   },
+   {
+    "pmid": "35603428",
+    "date": "2022 Jul 5",
+    "journal": "EMBO Rep",
+    "title": "Ethanolamine-phosphate on the second mannose is a preferential bridge for some GPI-anchored proteins.",
+    "doi": "10.15252/embr.202154352"
+   },
+   {
+    "pmid": "34535746",
+    "date": "2021 Sep 17",
+    "journal": "Sci Rep",
+    "title": "PIGG defines the Emm blood group system.",
+    "doi": "10.1038/s41598-021-98090-w"
+   },
+   {
+    "pmid": "34473365",
+    "date": "2022 Jan",
+    "journal": "Hepatology",
+    "title": "Quantification of polyreactive immunoglobulin G facilitates the diagnosis of autoimmune hepatitis.",
+    "doi": "10.1002/hep.32134"
+   },
+   {
+    "pmid": "34113002",
+    "date": "2021 Oct",
+    "journal": "Genet Med",
+    "title": "PIGG variant pathogenicity assessment reveals characteristic features within 19 families.",
+    "doi": "10.1038/s41436-021-01215-9"
+   }
+  ]
+ },
+ "MBTPS2|mbtps2_fib": {
+  "count": "14",
+  "records": [
+   {
+    "pmid": "42844627",
+    "date": "2026 Oct 7",
+    "journal": "Pediatr Dermatol",
+    "title": "From Collodion Membrane to Alopecia: An Insight Into IFAP/BRESHECK Syndrome.",
+    "doi": "10.1111/pde.70352"
+   },
+   {
+    "pmid": "37944648",
+    "date": "2024 Feb 5",
+    "journal": "Gene",
+    "title": "Characterization and expression analysis of seven lipid metabolism-related genes in yellow catfish Pelteobagrus fulvidraco fed high fat and bile acid diet.",
+    "doi": "10.1016/j.gene.2023.147972"
+   },
+   {
+    "pmid": "37691108",
+    "date": "2023 Sep 10",
+    "journal": "Cell Biosci",
+    "title": "The SIRT7-mediated deacetylation of CHD1L amplifies HIF-2α-dependent signal that drives renal cell carcinoma progression and sunitinib resistance.",
+    "doi": "10.1186/s13578-023-01113-4"
+   },
+   {
+    "pmid": "35221597",
+    "date": "2022 Feb",
+    "journal": "Ann Dermatol",
+    "title": "A Novel Mutation in the MBTPS2 Gene Resulting in Ichthyosis Follicularis, Atrichia, and Photophobia Syndrome.",
+    "doi": "10.5021/ad.2022.34.1.59"
+   },
+   {
+    "pmid": "34655156",
+    "date": "2022 Feb",
+    "journal": "Am J Med Genet A",
+    "title": "A novel MBTPS2 variant associated with BRESHECK syndrome impairs sterol-regulated transcription and the endoplasmic reticulum stress response.",
+    "doi": "10.1002/ajmg.a.62537"
+   },
+   {
+    "pmid": "32920226",
+    "date": "2020 Oct",
+    "journal": "Redox Biol",
+    "title": "Vitamin E treatment in NAFLD patients demonstrates that oxidative stress drives steatosis through upregulation of de-novo lipogenesis.",
+    "doi": "10.1016/j.redox.2020.101710"
+   },
+   {
+    "pmid": "32255378",
+    "date": "2022 Aug",
+    "journal": "Arch Physiol Biochem",
+    "title": "MBTPS2 exacerbates albuminuria in streptozotocin-induced type I diabetic nephropathy by promoting endoplasmic reticulum stress-mediated renal damage.",
+    "doi": "10.1080/13813455.2020.1749084"
+   },
+   {
+    "pmid": "28807045",
+    "date": "2017 Aug 14",
+    "journal": "Trials",
+    "title": "A randomized, multi-center, prospective study comparing best medical treatment versus best medical treatment plus renal artery stenting in patients with hemodynamically relevant atherosclerotic renal artery stenosis (RADAR) - one-year results of a pre-maturely terminated study.",
+    "doi": "10.1186/s13063-017-2126-x"
+   }
+  ]
+ },
+ "GSN|gsn_fib": {
+  "count": "74",
+  "records": [
+   {
+    "pmid": "42557181",
+    "date": "2026 Oct",
+    "journal": "Pathology",
+    "title": "Clinicopathological characteristics and prognostic factors in renal amyloidosis: a 10-year Australian tertiary centre experience.",
+    "doi": "10.1016/j.pathol.2026.05.011"
+   },
+   {
+    "pmid": "42341429",
+    "date": "2026 Nov",
+    "journal": "Tissue Cell",
+    "title": "Niosomal grape seed extract attenuates cyclophosphamide-induced bladder injury through modulation of oxidative stress and inflammation with Nrf2-related antioxidant responses.",
+    "doi": "10.1016/j.tice.2026.103707"
+   },
+   {
+    "pmid": "41998640",
+    "date": "2026 Apr 17",
+    "journal": "BMC Med",
+    "title": "Integrated serum proteomic and liver genomic analyses identify molecular signatures associated with metabolic dysfunction-associated steatotic liver disease: a multi-cohort study.",
+    "doi": "10.1186/s12916-026-04834-8"
+   },
+   {
+    "pmid": "41929061",
+    "date": "2026 Mar 24",
+    "journal": "bioRxiv",
+    "title": "Endometrial Hyperplasia Risk Is Increased by High-Fat Diet Via Estrogen-Driven Stromal Fibroblast Reprogramming Toward a Pro-Fibrotic State.",
+    "doi": "10.64898/2026.03.20.713224"
+   },
+   {
+    "pmid": "41924874",
+    "date": "2026 Jun",
+    "journal": "Arterioscler Thromb Vasc Biol",
+    "title": "Proteogenomic Analysis of Coronary Artery Calcification in Human Populations.",
+    "doi": "10.1161/ATVBAHA.125.324171"
+   },
+   {
+    "pmid": "41671621",
+    "date": "2026 Apr 1",
+    "journal": "Int Immunopharmacol",
+    "title": "Unraveling the matrix stiffness landscape in idiopathic pulmonary fibrosis: GSN and ARG1 as novel diagnostic biomarkers and potential therapeutic targets.",
+    "doi": "10.1016/j.intimp.2026.116334"
+   },
+   {
+    "pmid": "41368700",
+    "date": "2026 Feb 3",
+    "journal": "Circulation",
+    "title": "S-Nitrosylation of Pyruvate Kinase Isoform 2 Drives Cardiac Fibrosis by Promoting Mitochondrial Fission.",
+    "doi": "10.1161/CIRCULATIONAHA.125.075903"
+   },
+   {
+    "pmid": "40834982",
+    "date": "2025 Oct 30",
+    "journal": "J Proteomics",
+    "title": "Potential kidney biomarkers in urinary extracellular vesicles from end stage renal disease and post-transplant patients.",
+    "doi": "10.1016/j.jprot.2025.105523"
+   }
+  ]
+ },
+ "CA12|ca12_renal": {
+  "count": "38",
+  "records": [
+   {
+    "pmid": "42768898",
+    "date": "2026 Sep",
+    "journal": "Arch Pharm (Weinheim)",
+    "title": "Multitargeted Anticancer Activities: Cathepsin B-Carbonic Anhydrase IX/XII Inhibitors Show Enhanced Cytotoxicity Against Lung Adenocarcinoma Cells.",
+    "doi": "10.1002/ardp.70337"
+   },
+   {
+    "pmid": "41554613",
+    "date": "2026 Feb 12",
+    "journal": "J Med Chem",
+    "title": "Targeting Metabolic and pH Regulatory Pathways in Cancer via Dual Inhibition of Nicotinamide Phosphoribosyltransferase and Carbonic Anhydrases IX and XII.",
+    "doi": "10.1021/acs.jmedchem.5c03157"
+   },
+   {
+    "pmid": "40569831",
+    "date": "2025 Sep",
+    "journal": "Mol Oncol",
+    "title": "Targeting carbonic anhydrase IX/XII prevents the anti-ferroptotic effect of stromal lactic acid in prostate carcinoma.",
+    "doi": "10.1002/1878-0261.70083"
+   },
+   {
+    "pmid": "40492425",
+    "date": "2025 Jun",
+    "journal": "Drug Dev Res",
+    "title": "Oxindole-Coumarin Hybrids With Broad-Spectrum Anticancer Activity: Apoptosis Induction and Selective CA IX/XII Targeting.",
+    "doi": "10.1002/ddr.70116"
+   },
+   {
+    "pmid": "39197616",
+    "date": "2024 Nov",
+    "journal": "Int J Biol Macromol",
+    "title": "Discovery of new sulfonamide-tethered 2-aryl-4-anilinoquinazolines as the first-in-class dual carbonic anhydrase and EGFR inhibitors.",
+    "doi": "10.1016/j.ijbiomac.2024.135010"
+   },
+   {
+    "pmid": "37665396",
+    "date": "2023 Sep 4",
+    "journal": "EJNMMI Res",
+    "title": "First clinical experience with fractionated intracavitary radioimmunotherapy using [(177)Lu]Lu-6A10-Fab fragments in patients with glioblastoma: a pilot study.",
+    "doi": "10.1186/s13550-023-01029-7"
+   },
+   {
+    "pmid": "37266145",
+    "date": "2023",
+    "journal": "Front Pharmacol",
+    "title": "Therapeutic mechanism of baicalein in peritoneal dialysis-associated peritoneal fibrosis based on network pharmacology and experimental validation.",
+    "doi": "10.3389/fphar.2023.1153503"
+   },
+   {
+    "pmid": "36385130",
+    "date": "2022 Nov 16",
+    "journal": "Sci Rep",
+    "title": "Plasma proteomic characterization of the development of acute kidney injury in early sepsis patients.",
+    "doi": "10.1038/s41598-022-22457-w"
+   }
+  ]
+ },
+ "ELN|eln_artery": {
+  "count": "4583",
+  "records": [
+   {
+    "pmid": "42842028",
+    "date": "2026 Oct 7",
+    "journal": "Biomech Model Mechanobiol",
+    "title": "Computational multiscale analysis of growth and remodeling in the ascending aorta of the Marfan mouse.",
+    "doi": "10.1007/s10237-026-02134-x"
+   },
+   {
+    "pmid": "42834071",
+    "date": "2026 Oct 5",
+    "journal": "Hypertens Res",
+    "title": "Novel C-terminal frameshift mutation of ELN causes non-stenotic high-renin hypertension and systemic arterial dysplasia: implications for preventing aortic catastrophes.",
+    "doi": "10.1038/s41440-026-02843-x"
+   },
+   {
+    "pmid": "42829021",
+    "date": "2026 Oct 3",
+    "journal": "Acta Biomater",
+    "title": "Compromised Elastin Network Load Transfer in Aging Human Aorta.",
+    "doi": "10.1016/j.actbio.2026.09.054"
+   },
+   {
+    "pmid": "42826823",
+    "date": "2026 Oct 2",
+    "journal": "Physiol Behav",
+    "title": "Estradiol attenuates cardiac apoptosis and modulates cardiovascular remodeling in ovariectomized female rats with 6-hydroxydopamine-induced parkinsonism.",
+    "doi": "10.1016/j.physbeh.2026.115520"
+   },
+   {
+    "pmid": "42819534",
+    "date": "2026 Jan-Dec",
+    "journal": "J Alzheimers Dis Rep",
+    "title": "The evolutionary origins of dementia.",
+    "doi": "10.1177/25424823261470053"
+   },
+   {
+    "pmid": "42818222",
+    "date": "2026 Sep 25",
+    "journal": "bioRxiv",
+    "title": "Lactate Receptor Activation Alleviates Senescence and Preserves Homeostasis of Aged Arteries.",
+    "doi": "10.64898/2026.09.20.753049"
+   },
+   {
+    "pmid": "42817883",
+    "date": "2026 Oct 1",
+    "journal": "Circ Res",
+    "title": "Acetyltransferase MOF Regulates Macrophage Inflammation in Abdominal Aortic Aneurysms.",
+    "doi": "10.1161/CIRCRESAHA.126.329212"
+   },
+   {
+    "pmid": "42790271",
+    "date": "2026 Sep 25",
+    "journal": "JACC Basic Transl Sci",
+    "title": "Targeting the ERK Signaling Pathway to Halt Adventitia Remodeling of Ascending Thoracic Aortic Aneurysm.",
+    "doi": "10.1016/j.jacbts.2026.101665"
+   }
+  ]
+ }
+}

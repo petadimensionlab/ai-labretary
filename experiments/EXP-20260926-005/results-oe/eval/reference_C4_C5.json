@@ -1,0 +1,28 @@
+{
+ "m_a2": {
+  "C4i_splithalf_rho_mean": 0.871,
+  "C4ii_seed_rho_fixed_genes": 0.907,
+  "n_fixed_genes": 18,
+  "C4ii_pairs": [
+   0.886,
+   0.911,
+   0.924
+  ],
+  "C5_rho_len_gene": -0.081,
+  "C5_rho_ncells_gene": NaN,
+  "C5_rho_len_cell_median": -0.02
+ },
+ "dP_a2": {
+  "C4i_splithalf_rho_mean": 0.279,
+  "C4ii_seed_rho_fixed_genes": 0.055,
+  "n_fixed_genes": 18,
+  "C4ii_pairs": [
+   -0.158,
+   0.3,
+   0.024
+  ],
+  "C5_rho_len_gene": 0.059,
+  "C5_rho_ncells_gene": NaN,
+  "C5_rho_len_cell_median": 0.167
+ }
+}

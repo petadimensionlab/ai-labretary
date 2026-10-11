@@ -1,0 +1,128 @@
+# EXP-20260926-003 phase 4（代替）— Pretrained で held-out goal 重心の対照 ISP を再実行（EXP-002 案 A の埋め込みが使えない場合のみ）（対照のみ, 案 A と同じ細胞・同じ遺伝子・同じ基準）
+# 状態: 計画のみ（G1: HYP-20260926-02 未承認, G2: 未承認）。phase 2 のゲート（results/finetune-eval/gate.json の go=true）が前提
+# すべてのパラメータをここに書く。isp_state・TLS_group は推定ラベル（EXP-20260926-001 plan.md §2）
+# FT の設定は config-finetune.yaml。model.directory は FT 後に models/ft-main/final（SHA256SUMS 照合済み）を指す
+experiment_id: EXP-20260926-003
+hypothesis_id: HYP-20260926-02      # proposed（方法仮説）。PI の G1 採択が前提
+
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260926-003/work/input.h5ad          # → EXP-001 の input.h5ad（symlink, 読み取りのみ）
+  tokenized_dataset: experiments/EXP-20260926-003/work/tokenized.dataset   # EXP-001 の tokenized の複製（sha256 ba3a14c0…）
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict: {isp_state: isp_state, donor_id: donor_id, TLS_group: TLS_group,
+                          author_cell_type: author_cell_type, disease: disease}
+  filter_data: null
+  max_ncells: null
+
+states:                             # EXP-001 run 1（tls_high）と同じ
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states: [aPT_CKD_TLSlow]
+
+cell_selection:
+  max_cells_per_gene: 200           # EXP-001 の 100 → 200（EXP-002 plan §8。案 A と同じ）
+  max_cells_per_donor: 25           # 14 donor × 25 = 350 ≥ 200
+  min_cells_per_gene: 100
+  donor_key: donor_id
+
+state_embs:
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+  include_donors:                   # FT 側（config.yaml）と同じ held-out 健常 donor
+    PT_healthy: [PRE038, 164-6, PRE027, Sample1162-EO1, Sample1162-EO2, PRE98sc, Sample1153-EO1, Sample1153-EO2, Sample1153-EO3]
+
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  controls_only: true               # 盲検: 指標の確定までは主要対象・参照を回さない
+  genes_to_perturb: []
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+
+controls:
+  positive:
+    - ENSG00000162692               # VCAM1
+    - ENSG00000113249               # HAVCR1
+  negative_random_n: 20
+  negative_sampler:
+    method: freq_matched
+    min_cells: 300
+    ratio_tolerance: 1.5
+    seed_offset: 0
+    ref_genes:                      # 頻度の参照のみ（EXP-001 の対象 5 遺伝子。回さない・null から除く）
+      - ENSG00000141510             # TP53
+      - ENSG00000124762             # CDKN1A
+      - ENSG00000111321             # LTBR
+      - ENSG00000118785             # SPP1
+      - ENSG00000148346             # LCN2
+  negative_fixed:
+    - ENSG00000075624               # ACTB
+    - ENSG00000111640               # GAPDH
+    - ENSG00000196262               # PPIA
+  fixed_role: housekeeping
+  extra_fixed:                      # PI 採用（2026-09-26）。選定は発現データのみ（ISP 結果不使用）: outputs/literature/2026-09-26-negative-controls.md の規則 R1–R6
+    - role: negctrl_panel           # 判定用 陰性対照パネル 7 遺伝子（C3-panel）
+      genes:
+        - ENSG00000090661   # CERS4
+        - ENSG00000147687   # TATDN1
+        - ENSG00000081870   # IFT25
+        - ENSG00000101558   # VAPA
+        - ENSG00000054148   # PHPT1
+        - ENSG00000166295   # ANAPC16
+        - ENSG00000104529   # EEF1D
+    - role: explore_rp              # 探索枠（報告のみ・合否判定に使わない）
+      genes:
+        - ENSG00000110700   # RPS13
+        - ENSG00000144713   # RPL32
+
+capture:
+  embeddings: true                  # ベクトル水準の指標（V 系）を同じ run で計算する
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+analysis:                           # plan.md §6 の事前登録（方法検証）
+  primary_metric: a2                # 長さビンごとの null 平均 shift_goal を細胞ごとに引く（§6.4）
+  secondary_metrics: [m_raw, m_d, m_d2, m_c, V2, V2L]
+  length_bins: 5                    # null 細胞の長さ 5 分位
+  criteria:
+    C1_positive_null_quantile: 0.90
+    C1_min_seeds: 2
+    C2_min_wins_frac: 0.833         # 15/18
+    C3_hk_quantile_range: [0.10, 0.90]
+    C3_min_seeds: 2
+    C3_panel_quantile_range: [0.10, 0.90]   # PI 採用（2026-09-26）。HK の C3 は残したまま追加
+    C3_panel_min_seeds: 2           # 3 seed 中 2 以上で範囲内
+    C3_panel_min_genes: 5           # 7 遺伝子中 5 以上
+    C4_splithalf_min: 0.7
+    C4_seed_fixed_min: 0.7
+    C5_gene_abs_rho_max: 0.3
+    C5_cell_abs_rho_max: 0.2
+  split_half_n: 20
+
+robustness:
+  seeds: [3, 4, 5]                  # EXP-001 と phase 0（seed 0–2）で使っていない seed → 独立な確認
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results-pretrained-matched
+
+compute:
+  device: mps
+  dtype: bf16                       # PI 標準。forward bf16、コサイン・ベクトル演算は fp32（保存 fp32, 解析 float64）
+  cache_model: true
+  sec_per_cell_gene: 0.6837         # phase 0 の実測（bf16, MPS, 25 遺伝子 × 100 細胞, capture 込み）
+  gpu_hours_estimate: 4.3           # 34 遺伝子（陽性 2 + HK 3 + パネル 7 + RP 2 + null 20）× 200 細胞 × 3 seed（dry-run 4.30 h）→ **G2 必要**（未承認。通常は不要: plan §4.4 の再計算で代替）

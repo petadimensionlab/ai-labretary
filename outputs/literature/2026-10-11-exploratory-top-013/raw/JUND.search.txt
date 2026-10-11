@@ -1,0 +1,21 @@
+== kidney_fib (count=7)
+  37933012 | 2023 Nov 3 | Medicine (Baltimore) | Exploration of the shared genetic biomarkers in Alzheimer's disease and chronic kidney disease using integrated bioinformatics analysis.
+  35922702 | 2022 Nov | Int Urol Nephrol | Verapamil inhibited the development of ureteral stricture by blocking CaMK II-mediated STAT3 and Smad3/JunD pathways.
+  34512545 | 2021 | Front Endocrinol (Lausanne) | Sp1-Induced lncRNA Rmrp Promotes Mesangial Cell Proliferation and Fibrosis in Diabetic Nephropathy by Modulating the miR-1a-3p/JunD Pathway.
+  25366137 | 2014 Dec | Circ Cardiovasc Genet | Hypertensive renal injury is associated with gene variation affecting immune signaling.
+  12975469 | 2003 Sep | J Clin Invest | JunD protects against chronic kidney disease by regulating paracrine mitogens.
+  12960363 | 2003 Sep 16 | Proc Natl Acad Sci U S A | Transcription factor JunD, deprived of menin, switches from growth suppressor to growth promoter.
+  12787392 | 2003 Jul | Kidney Int | Altered expression of immune modulator and structural genes in neonatal unilateral ureteral obstruction.
+== senescence (count=52)
+  42698801 | 2026 | Juntendo Med J | Novel Four-gene Panel for Detecting Senescence-associated Cell States in Skeletal Muscle Tissue.
+  41740874 | 2026 Jul | Brain Behav Immun | Integrated bulk and single-cell RNA sequencing reveals peripheral immune dysregulation in adolescent major depressive disorder.
+  41542537 | 2026 Jan 6 | bioRxiv | Intermittent AP-1 activation in muscles contributes to exercise-induced health benefits.
+  41511606 | 2026 Mar | Appl Biochem Biotechnol | TEAD4 and RXRA Regulate the Function of Nucleus Pulposus Cells in Intervertebral Disc Degeneration Via the TNF-α/NF-κB Pathway: An Integrated Analysis of Single-Cell RNA-
+  41402305 | 2025 Dec 16 | Nat Commun | METTL3 safeguards cell identity and epigenome of human trophoblast stem cells.
+  41284112 | 2025 Nov 24 | Biogerontology | Integrated single-cell multi-omics profiling reveals a senescence-associated hematopoietic landscape and regulatory network in aging bone marrow.
+  40679987 | 2025 | PLoS One | Transcranial photobiomodulation therapy with 808 nm light changes expression of genes and proteins associated with neuroprotection, neuroinflammation, oxidative stress, a
+  40255470 | 2025 | Drug Des Devel Ther | Oleanolic Acid@SPIONs Alleviates Lipid-Oxidative Stress Injury of Zebrafish Blood Vessels via Regulating the Expression of JNK and MAPK Signaling Pathways in Vascular End
+  39890789 | 2025 Jan 31 | Nat Commun | Cellular senescence-associated gene IFI16 promotes HMOX1-dependent evasion of ferroptosis and radioresistance in glioblastoma.
+  38324177 | 2024 Jul | J Bone Miner Metab | Bone-fat linkage via interleukin-11 in response to mechanical loading.
+== tls_lymphoid (count=1)
+  40093186 | 2025 Sep 8 | bioRxiv | Distinct small molecule inhibitors of Kras specifically prime CTLA4 blockade therapy to transcriptionally reprogram Tregs and overcome resistance to suppress pancreas can

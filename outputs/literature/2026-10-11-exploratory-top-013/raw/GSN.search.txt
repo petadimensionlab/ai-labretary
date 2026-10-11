@@ -1,0 +1,14 @@
+== kidney_fib (count=1)
+  40375605 | 2025 Dec | Cell Prolif | Deciphering the Immunomodulatory Function of GSN (+) Inflammatory Cancer-Associated Fibroblasts in Renal Cell Carcinoma Immunotherapy: Insights From Pan-Cancer Single-Cel
+== senescence (count=23)
+  42459655 | 2026 | Front Immunol | Single-cell atlas of photoaged skin reveals JAK-STAT blockade as a strategy to reverse dermal remodeling.
+  40475329 | 2025 Jun | Receptors (Basel) | Gelsolin Facilitates Estrogen Receptor Beta Nuclear Translocation and Transcriptional Repression of Genes Associated with Alzheimer Disease.
+  37821884 | 2023 Oct 11 | BMC Res Notes | Decoding the transcriptomic expression and genomic methylation patterns in the tendon proper and its peritenon region in the aging horse.
+  36650038 | 2023 Jun | J Neurol Neurosurg Psychiatry | GSN gene frameshift mutations in Alzheimer's disease.
+  35802752 | 2022 Jul 8 | Aging (Albany NY) | Integrated proteomics and metabolomics analysis reveals hubs protein and network alterations in myasthenia gravis.
+  35683981 | 2022 May 24 | Nutrients | Long-Term High-Fat High-Fructose Diet Induces Type 2 Diabetes in Rats through Oxidative Stress.
+  35464721 | 2022 | Front Bioeng Biotechnol | Preparation and Evaluation of Liposomes and Niosomes Containing Total Ginsenosides for Anti-Photoaging Therapy.
+  34551193 | 2021 Dec | CNS Neurosci Ther | The role of vascular dementia associated genes in patients with Alzheimer's disease: A large case-control study in the Chinese population.
+  34528241 | 2021 Dec | Am J Phys Anthropol | A geometric morphometric assessment of shape variation in adult pelvic morphology.
+  33875290 | 2021 Aug | Neurobiol Aging | Shared and oppositely regulated transcriptomic signatures in Huntington's disease and brain ischemia confirm known and unveil novel potential neuroprotective genes.
+== tls_lymphoid (count=0)

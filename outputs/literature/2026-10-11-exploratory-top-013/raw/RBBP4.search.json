@@ -1,0 +1,135 @@
+{
+ "kidney_fib": {
+  "count": "0",
+  "records": []
+ },
+ "senescence": {
+  "count": "16",
+  "records": [
+   {
+    "pmid": "41851819",
+    "date": "2026 Mar 18",
+    "journal": "Clin Epigenetics",
+    "title": "Association of accelerated biological aging with obstructive sleep apnea symptoms and identification of a candidate biomarker gene signature.",
+    "authors": [
+     "Wang Y",
+     "Wang Y",
+     "Zhang Q"
+    ],
+    "doi": "10.1186/s13148-026-02108-x"
+   },
+   {
+    "pmid": "41462332",
+    "date": "2025 Dec 29",
+    "journal": "Stem Cell Res Ther",
+    "title": "Enhancing cardiomyocyte reprogramming efficiency by targeting cellular senescence is mediated via Rb1 gene.",
+    "authors": [
+     "Fang J",
+     "Yang Q",
+     "Maas RGC"
+    ],
+    "doi": "10.1186/s13287-025-04776-7"
+   },
+   {
+    "pmid": "37504562",
+    "date": "2023 Jul 18",
+    "journal": "J Cardiovasc Dev Dis",
+    "title": "H3K36 Di-Methylation Marks, Mediated by Ash1 in Complex with Caf1-55 and MRG15, Are Required during Drosophila Heart Development.",
+    "authors": [
+     "Zhu JY",
+     "Liu C",
+     "Huang X"
+    ],
+    "doi": "10.3390/jcdd10070307"
+   },
+   {
+    "pmid": "34728711",
+    "date": "2021 Nov 2",
+    "journal": "Sci Rep",
+    "title": "Simultaneous expression of MMB-FOXM1 complex components enables efficient bypass of senescence.",
+    "authors": [
+     "Kumari R",
+     "Hummerich H",
+     "Shen X"
+    ],
+    "doi": "10.1038/s41598-021-01012-z"
+   },
+   {
+    "pmid": "31896310",
+    "date": "2020 Apr",
+    "journal": "Toxicol Pathol",
+    "title": "Loss of Immunohistochemical Reactivity in Association With Handling-Induced Dark Neurons in Mouse Brains.",
+    "authors": [
+     "Soontornniyomkij V",
+     "Chang RC",
+     "Soontornniyomkij B"
+    ],
+    "doi": "10.1177/0192623319896263"
+   },
+   {
+    "pmid": "31397537",
+    "date": "2019 Dec",
+    "journal": "Aging Cell",
+    "title": "The conserved histone chaperone LIN-53 is required for normal lifespan and maintenance of muscle integrity in Caenorhabditis elegans.",
+    "authors": [
+     "Müthel S",
+     "Uyar B",
+     "He M"
+    ],
+    "doi": "10.1111/acel.13012"
+   },
+   {
+    "pmid": "31365869",
+    "date": "2019 Jul 30",
+    "journal": "Cell Rep",
+    "title": "A Key Role for the Ubiquitin Ligase UBR4 in Myofiber Hypertrophy in Drosophila and Mice.",
+    "authors": [
+     "Hunt LC",
+     "Stover J",
+     "Haugen B"
+    ],
+    "doi": "10.1016/j.celrep.2019.06.094"
+   },
+   {
+    "pmid": "30809532",
+    "date": "2019",
+    "journal": "Biomed Res Int",
+    "title": "Bioinformatics Analysis Reveals the Altered Gene Expression of Patients with Postmenopausal Osteoporosis Using Liuweidihuang Pills Treatment.",
+    "authors": [
+     "Gong R",
+     "Ren S",
+     "Chen M"
+    ],
+    "doi": "10.1155/2019/1907906"
+   },
+   {
+    "pmid": "30355501",
+    "date": "2018 Oct 23",
+    "journal": "Cell Rep",
+    "title": "RbAp48 Protein Is a Critical Component of GPR158/OCN Signaling and Ameliorates Age-Related Memory Loss.",
+    "authors": [
+     "Kosmidis S",
+     "Polyzos A",
+     "Harvey L"
+    ],
+    "doi": "10.1016/j.celrep.2018.09.077"
+   },
+   {
+    "pmid": "28860177",
+    "date": "2018 Jan 1",
+    "journal": "J Appl Physiol (1985)",
+    "title": "Effect of zileuton on osteoporotic bone and its healing, expression of bone, and brain genes in rats.",
+    "authors": [
+     "Saul D",
+     "Ninkovic M",
+     "Komrakova M"
+    ],
+    "doi": "10.1152/japplphysiol.01126.2016"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

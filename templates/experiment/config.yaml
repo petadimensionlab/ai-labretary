@@ -1,0 +1,115 @@
+# EXP-YYYYMMDD-NNN — すべてのパラメータをここに書く
+experiment_id: EXP-YYYYMMDD-NNN
+hypothesis_id: HYP-YYYYMMDD-NN
+
+model:
+  version: V2                       # V1 | V2  （辞書と揃える）
+  directory: models/Geneformer/Geneformer-V2-316M   # 事前学習 or FT 済みモデル（辞書は gc104M = Genecorpus-104M 用で V2 共通）
+  type: Pretrained                  # Pretrained | CellClassifier | GeneClassifier
+  num_classes: 0                    # CellClassifier の場合はクラス数
+  emb_layer: -1
+
+data:
+  input_h5ad: data/raw/example.h5ad # 元データ（読み取り専用）
+  tokenized_dataset: experiments/EXP-YYYYMMDD-NNN/work/tokenized.dataset
+  cell_type_col: cell_type
+  state_key: disease                # 状態ラベルの列
+  custom_attr_name_dict: {cell_type: cell_type, disease: disease, donor_id: donor_id}
+  filter_data: {cell_type: [Cardiomyocyte]}
+  max_ncells: 2000
+
+states:
+  start_state: dcm
+  goal_state: nf
+  alt_states: [hcm]
+
+perturbation:
+  perturb_type: delete              # delete | overexpress | inhibit | activate
+  perturb_rank_shift: null          # inhibit/activate のとき使用
+  genes_to_perturb: all             # all もしくは Ensembl ID のリスト
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls                     # V2 は cls / cls_and_gene 必須（先頭が <cls>）。V1 は cell
+  forward_batch_size: 100
+  nproc: 8
+
+controls:
+  positive: []                      # Ensembl ID（既知ドライバー）
+  negative_random_n: 50             # 発現量マッチしたランダム遺伝子数
+  negative_fixed: []                # ハウスキーピング遺伝子など
+
+# 着手前チェック（摂動を 1 回も回さずに「目標の軸が測れる設計か」を判定する）。
+# scripts/analysis/axis_feasibility.py が読む。**plan.md §5.5 の事前登録の本体**。
+# 摂動を伴う実験では、本番に着手する前に実行して不合格でないことを確かめる。
+axis_feasibility:
+  experiment_id: EXP-YYYYMMDD-NNN
+  expression:                       # 発現データ（**読み取りのみ**）
+    h5ad: data/raw/example.h5ad
+    gene_name_col: gene_name        # var の遺伝子記号の列（無ければ var の index を使う）
+    state_col: disease              # obs の状態ラベルの列
+  states:                           # 重心と細胞集団の定義
+    start: {labels: [dcm]}
+    goal: {labels: [nf]}
+    reference: {labels: [hcm]}      # **うまく測れている別の状態**（軸の長さの比の分母）
+  population: [start, goal]         # まとまり・検出率を測る細胞集団
+  markers:
+    goal_defining: []               # 目標の状態を定義したマーカー（記録・判定保留の材料）
+    goal_positive_control: []       # **目標の軸の陽性対照**（止める条件はこのセットに当てる）。
+                                    # 書かなければ goal_defining と同じとみなす。
+                                    # 置かないなら [] と明記する（K = 0 で不合格になる）
+    reference_positive_control: []  # 参照の軸の陽性対照（対比のため。判定には使わない）
+    contrast_set: []                # 対比のためのマーカー群（任意。判定には使わない）
+  centroids:
+    mode: precomputed               # precomputed（作成済み .npz を読む）| extract（EmbExtractor で作る）
+    seeds: [0, 1, 2]
+    files:                          # precomputed のとき。{seed} を展開する
+      - experiments/EXP-YYYYMMDD-NNN/results/run-{seed}-L-1/state_emb_vectors.npz
+      - experiments/EXP-YYYYMMDD-NNN/work/extra_centroids-seed{seed}.npz
+    # extract のとき使う（摂動は 1 回も行わない。前向き計算だけ）
+    # run_config: experiments/EXP-YYYYMMDD-NNN/config.yaml
+    # rows_file: experiments/EXP-YYYYMMDD-NNN/work/state_rows-seed{seed}.json
+    # work_dir: experiments/EXP-YYYYMMDD-NNN/work
+    names:                          # .npz の中の重心名
+      start: dcm
+      goal: nf
+      reference: hcm
+      others: []
+  perturbation:
+    min_cells_per_gene: 120         # 摂動できる細胞数の下限（これを割る遺伝子を洗い出す）
+  thresholds: {}                    # 既定値を変えるときだけ書く。**変えた理由を plan.md に必ず残す**
+  output: experiments/EXP-YYYYMMDD-NNN/work/axis_feasibility.json
+
+# 主指標の交絡除去。scripts/analysis/movement_correction.py が実装する。
+# **結果を見る前にここで版を固定する。後から版を選び直してはいけない。**
+metric:
+  confound_correction:
+    # 対照遺伝子で当てる回帰の説明変数。完全二次式（定数・1 次・2 乗・交差項）。
+    #   lp = log2(1 + 摂動した遺伝子の元の順位)
+    #   ll = log2(入力の長さ)
+    #   ld = log2(移動量 ‖Δ‖)   ← **2026-09-30 に追加。過剰発現型では必ず入れる**
+    # ld を入れる根拠: 恒常発現遺伝子（常に働いていて目標へ寄る理由がない遺伝子）が
+    # 4 実験続けて中立にならなかった。原因はこれらの移動量が対照の 97.8〜99.8 パーセンタイルと
+    # 飛び抜けて大きいこと。EXP-20260929-001 の実測で、セット平均 z は 1.071 → 0.335、
+    # 中立の範囲に入る seed 数は 0/3 → 2/3（合格）に戻り、残差と移動量の順位相関は
+    # 0.127〜0.171 → 0.009〜0.049 に下がった。
+    variables: [lp, ll, ld]
+    form: full_quadratic
+    # 摂動前後で埋め込みが 1 ビットも変わらなかった細胞（‖Δ‖ = 0）を外す。
+    # 原因は「元の順位がすでに最上位の遺伝子を過剰発現させても入力が変わらない」こと。
+    # 摂動が起きていないので、指標に 0 として混ぜると効果を 0 のほうへ薄める。
+    # **比べる版すべてで同じ細胞を外す。**
+    drop_zero_movement: true
+
+stats:
+  mode: goal_state_shift            # goal_state_shift | vs_null | mixture_model | aggregate_data
+  fdr_threshold: 0.05
+
+robustness:
+  seeds: [0, 1, 2]
+  subsample_frac: 0.8
+  emb_layers: [-1]                  # 感度分析するなら [-1, 0]
+
+compute:
+  device: cuda                      # cuda | mps | cpu | auto（CUDA > MPS > CPU）。使えないデバイスを指定すると停止
+  dtype: bf16                       # bf16（既定, ../Geneformer の GF_DTYPE と同方式）| fp32
+  gpu_hours_estimate: null

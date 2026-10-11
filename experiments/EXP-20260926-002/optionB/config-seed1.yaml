@@ -1,0 +1,98 @@
+# EXP-20260926-002 案 B（G2 不要）— 対照のみ・100 細胞・seed 1・ベクトル取り出し
+# phase 0（seed 0）の config から seed と null 遺伝子だけを変更。null は EXP-001 run 1 seed 1 の 20 遺伝子（negatives.json）
+# → EXP-001 と同じ細胞・同じ null で、seed 0–2 の 3 seed 分がそろう。PI 指示（2026-09-26「まずは B」）
+experiment_id: EXP-20260926-002
+hypothesis_id: HYP-20260926-01
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+data:
+  input_h5ad: experiments/EXP-20260926-002/work/input.h5ad
+  tokenized_dataset: experiments/EXP-20260926-002/work/tokenized.dataset
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict:
+    isp_state: isp_state
+    donor_id: donor_id
+    TLS_group: TLS_group
+    author_cell_type: author_cell_type
+    disease: disease
+  filter_data: null
+  max_ncells: null
+states:
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states:
+  - aPT_CKD_TLSlow
+cell_selection:
+  max_cells_per_gene: 100
+  max_cells_per_donor: 15
+  min_cells_per_gene: 30
+  donor_key: donor_id
+state_embs:
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  controls_only: true
+  genes_to_perturb: []
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+controls:
+  positive:
+  - ENSG00000162692
+  - ENSG00000113249
+  negative_random_n: 20
+  negative_sampler:
+    method: explicit
+    genes:
+    - ENSG00000100393
+    - ENSG00000160408
+    - ENSG00000072849
+    - ENSG00000124766
+    - ENSG00000100297
+    - ENSG00000147050
+    - ENSG00000182199
+    - ENSG00000158711
+    - ENSG00000161970
+    - ENSG00000173706
+    - ENSG00000132792
+    - ENSG00000185504
+    - ENSG00000114857
+    - ENSG00000101439
+    - ENSG00000155974
+    - ENSG00000032444
+    - ENSG00000262919
+    - ENSG00000143891
+    - ENSG00000152082
+    - ENSG00000168778
+  negative_fixed:
+  - ENSG00000075624
+  - ENSG00000111640
+  - ENSG00000196262
+  fixed_role: housekeeping
+capture:
+  embeddings: true
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+robustness:
+  seeds:
+  - 1
+  subsample_frac: 1.0
+  emb_layers:
+  - -1
+output:
+  results_dir: results-B
+compute:
+  device: mps
+  dtype: bf16
+  cache_model: true
+  sec_per_cell_gene: 0.6161

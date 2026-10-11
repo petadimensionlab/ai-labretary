@@ -1,0 +1,18 @@
+dataset,disease,n_fib,n_donor,CXCL13,CCL19,CCL21,CXCL8,IL6,LTB
+A1,acute kidney injury,3908,16,25,143,200,6,8,51
+A1,chronic kidney disease,7535,38,35,60,120,8,3,65
+A1,normal,7606,25,113,27,64,27,38,28
+A2,acute kidney injury,86,13,0,7,8,0,3,1
+A2,chronic kidney disease,264,33,0,11,30,0,1,22
+A2,normal,1081,12,1,15,21,59,688,16
+A3,Blood,1,1,0,0,0,0,0,0
+A3,Fat,387,4,0,0,0,0,9,5
+A3,Metastasis,24,1,0,0,0,0,0,0
+A3,Normal adrenal,140,3,0,0,1,2,5,3
+A3,Normal kidney,187,6,0,0,4,2,1,0
+A3,Thrombus,203,1,0,0,0,3,7,1
+A3,Tumour,2278,11,0,0,6,19,14,40
+A3,Tumour-normal,362,7,0,0,0,3,2,2
+A4,LymphNode,81,1,0,2,2,0,0,1
+A4,Normal,235,6,1,9,13,4,2,0
+A4,Tumor,2760,6,17,8,24,37,52,42

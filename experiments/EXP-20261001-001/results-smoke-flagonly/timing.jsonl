@@ -1,0 +1,16 @@
+{"seed": 81, "step": "state_embs", "seconds": 474.93}
+{"seed": 81, "gene": "ENSG00000165029", "role": "target", "n_cells": 50, "isp_seconds": 36.63, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000151694", "role": "target", "n_cells": 50, "isp_seconds": 35.6, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000154734", "role": "target", "n_cells": 50, "isp_seconds": 35.3, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000154175", "role": "positive", "n_cells": 50, "isp_seconds": 29.52, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000130396", "role": "positive", "n_cells": 50, "isp_seconds": 32.32, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000145362", "role": "positive", "n_cells": 50, "isp_seconds": 36.86, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000075624", "role": "housekeeping", "n_cells": 50, "isp_seconds": 29.07, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000166710", "role": "housekeeping", "n_cells": 50, "isp_seconds": 32.86, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000111640", "role": "housekeeping", "n_cells": 50, "isp_seconds": 30.49, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000090661", "role": "negctrl_panel", "n_cells": 50, "isp_seconds": 29.22, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000166295", "role": "negctrl_panel", "n_cells": 50, "isp_seconds": 32.08, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000104529", "role": "negctrl_panel", "n_cells": 50, "isp_seconds": 32.45, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000196262", "role": "housekeeping_extra", "n_cells": 50, "isp_seconds": 30.34, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000107331", "role": "negative", "n_cells": 50, "isp_seconds": 32.89, "model_load_seconds": 0}
+{"seed": 81, "gene": "ENSG00000197150", "role": "negative", "n_cells": 50, "isp_seconds": 36.31, "model_load_seconds": 0}

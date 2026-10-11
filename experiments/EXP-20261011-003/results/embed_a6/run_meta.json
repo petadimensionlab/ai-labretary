@@ -1,0 +1,28 @@
+{
+ "experiment_id": "EXP-20261011-003",
+ "mode": "final",
+ "device": "cuda",
+ "dtype": "float32",
+ "config_sha256": "42ed7ae5d8c84c568df3c256534ba77d6ad89b654fa379e5b09c78ed461b7fe8",
+ "seed": null,
+ "note_seed": "摂動なし・単一エンコード。乱数は使わない（Geneformer のダウンサンプルは seed=42 固定）",
+ "n_cells_embedded": 46957,
+ "n_dim": 1152,
+ "max_ncells": null,
+ "embedding_seconds": 3276.7,
+ "tokenize_seconds": 0.0,
+ "total_seconds": 3296.7,
+ "host": "spark-cf5b",
+ "numerics": {
+  "torch": "2.12.0+cu130",
+  "transformers": "4.57.6",
+  "attn_implementation": "sdpa",
+  "cuda_matmul_allow_tf32": false,
+  "cudnn_allow_tf32": false,
+  "float32_matmul_precision": "highest",
+  "cuda_device": "NVIDIA GB10",
+  "cuda_version": "13.0"
+ },
+ "material_sha256": "8d9cca1320a7952f4b2eaff07acc03494e840e46b6b333e1c3efaf395165b29d",
+ "n_donors": 12
+}

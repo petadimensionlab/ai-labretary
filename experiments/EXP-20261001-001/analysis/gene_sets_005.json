@@ -1,0 +1,169 @@
+{
+ "note": "EXP-20261001-001 で使う遺伝子の一覧。**結果を見る前に固定する。** 介入セット 119 個とその入れ子の感度分析は、選定手順 outputs/design/2026-10-01-intervention-gene-set/procedure.md（2026-10-01T19:35 固定）の出力 counts.json から select_genes_005.py が機械的に読み込む（このファイルには写さない）。ここに置くのは介入セット以外の一覧で、すべて EXP-20260930-001 の analysis/gene_sets_004.json と**1 文字も違わない**（select_genes_005.py が照合し、違えば停止する）。**目標・出発点・陽性対照 71 個は変えない**（選定手順 §1）。",
+ "perturb_T1_candidates_16": [
+  "CXCL13",
+  "CCL19",
+  "CCL21",
+  "CXCL12",
+  "LTB",
+  "LTBR",
+  "TNFSF13B",
+  "TNFSF14",
+  "ICAM1",
+  "VCAM1",
+  "IL7",
+  "CXCL9",
+  "CXCL10",
+  "CXCL11",
+  "CCL2",
+  "MADCAM1"
+ ],
+ "perturb_T1_11": [
+  "CXCL13",
+  "CCL19",
+  "CCL21",
+  "CXCL12",
+  "LTBR",
+  "TNFSF13B",
+  "ICAM1",
+  "VCAM1",
+  "IL7",
+  "CCL2",
+  "MADCAM1"
+ ],
+ "perturb_T1_10_no_CXCL12": [
+  "CXCL13",
+  "CCL19",
+  "CCL21",
+  "LTBR",
+  "TNFSF13B",
+  "ICAM1",
+  "VCAM1",
+  "IL7",
+  "CCL2",
+  "MADCAM1"
+ ],
+ "perturb_T2_candidates_12": [
+  "CDKN1A",
+  "CDKN2A",
+  "SERPINE1",
+  "IGFBP3",
+  "IGFBP7",
+  "IL6",
+  "IL1B",
+  "TGFB1",
+  "GDF15",
+  "TIMP1",
+  "MMP3",
+  "CXCL8"
+ ],
+ "perturb_T2_7": [
+  "IGFBP7",
+  "TGFB1",
+  "IGFBP3",
+  "TIMP1",
+  "SERPINE1",
+  "GDF15",
+  "CDKN1A"
+ ],
+ "positive_control_39": [
+  "ABI3BP",
+  "ANTXR1",
+  "COL1A1",
+  "COL1A2",
+  "COL5A2",
+  "COL6A2",
+  "COL8A1",
+  "DCLK1",
+  "DPYSL3",
+  "ELN",
+  "FBXL7",
+  "FN1",
+  "IGFBP5",
+  "ITGA11",
+  "LTBP1",
+  "MFGE8",
+  "MGP",
+  "MICAL2",
+  "NAV3",
+  "NHSL2",
+  "NTM",
+  "PCDH7",
+  "PDE5A",
+  "PDZRN4",
+  "PRICKLE1",
+  "SLIT2",
+  "SULF1",
+  "ZEB1",
+  "ZFPM2",
+  "MPDZ",
+  "GSN",
+  "NOX4",
+  "PTPRD",
+  "PARD3B",
+  "DCLK2",
+  "ATP2B4",
+  "JAZF1",
+  "ANKH",
+  "MACROD2"
+ ],
+ "positive_control_opposite_4": [
+  "IGFBP5",
+  "ITGA11",
+  "LTBP1",
+  "ANKH"
+ ],
+ "housekeeping_3": [
+  "ACTB",
+  "GAPDH",
+  "B2M"
+ ],
+ "housekeeping_extra_descriptive": [
+  "PPIA"
+ ],
+ "negctrl_panel_7": [
+  "CERS4",
+  "TATDN1",
+  "IFT25",
+  "VAPA",
+  "PHPT1",
+  "ANAPC16",
+  "EEF1D"
+ ],
+ "reference_dFIB_markers_6_descriptive": [
+  "MGP",
+  "BGN",
+  "DCN",
+  "COL1A2",
+  "C7",
+  "AEBP1"
+ ],
+ "blinded_5": [
+  "TP53",
+  "CDKN1A",
+  "LTBR",
+  "SPP1",
+  "LCN2"
+ ],
+ "blinded_still_closed_3": [
+  "TP53",
+  "SPP1",
+  "LCN2"
+ ],
+ "blinded_released_2": [
+  "LTBR",
+  "CDKN1A"
+ ],
+ "positive_control_primary": "conservative_71",
+ "positive_control71_opposite_6": [
+  "IGFBP5",
+  "ITGA11",
+  "LTBP1",
+  "ANKH",
+  "PLCB1",
+  "CNTN4"
+ ],
+ "positive_control_low_eligibility": [
+  "LTBP1"
+ ]
+}

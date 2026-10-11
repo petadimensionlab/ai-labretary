@@ -1,0 +1,2131 @@
+{
+ "generated_at": "2026-09-30T14:22:44+09:00",
+ "procedure": "outputs/design/2026-09-30-annotation-goal-state/procedure-v2.md",
+ "procedure_fixed_at": "2026-09-30T14:20:01+09:00",
+ "positive_control_source": "Lake BB et al. 2023 Nature 619:585-594 (PMID 37468583) Supp Table 14",
+ "literature_sets": {
+  "minimal": 42,
+  "conserved": 76,
+  "minimal_is_subset_of_conserved": true,
+  "goal_defining_proxy_conserved_minus_minimal": 34
+ },
+ "candidates": [
+  {
+   "candidate": "A",
+   "goal_labels": [
+    "aFIB",
+    "MYOF"
+   ],
+   "start_labels": [
+    "FIB",
+    "M-FIB"
+   ],
+   "reference_labels": [
+    "dFIB"
+   ],
+   "other_labels": [
+    "dM-FIB"
+   ],
+   "F1": {
+    "n_cells": 5131,
+    "n_donors": 77,
+    "by_disease": {
+     "acute kidney injury": 1834,
+     "chronic kidney disease": 2189,
+     "normal": 1108
+    },
+    "pass": true
+   },
+   "F2": {
+    "n_cells": 15477,
+    "n_donors": 79,
+    "by_disease": {
+     "acute kidney injury": 2793,
+     "chronic kidney disease": 6255,
+     "normal": 6429
+    },
+    "pass": true
+   },
+   "reference": {
+    "n_cells": 534,
+    "n_donors": 60
+   },
+   "other": {
+    "n_cells": 558,
+    "n_donors": 14
+   },
+   "K": {
+    "primary_set": "minimal_42",
+    "K": 39,
+    "pass": true,
+    "minimal": {
+     "set": "陽性対照（最小 42）",
+     "n_requested": 42,
+     "K": 39,
+     "genes_used": [
+      "ABI3BP",
+      "ANTXR1",
+      "COL1A1",
+      "COL1A2",
+      "COL5A2",
+      "COL6A2",
+      "COL8A1",
+      "DCLK1",
+      "DPYSL3",
+      "ELN",
+      "FBXL7",
+      "FN1",
+      "IGFBP5",
+      "ITGA11",
+      "LTBP1",
+      "MFGE8",
+      "MGP",
+      "MICAL2",
+      "NAV3",
+      "NHSL2",
+      "NTM",
+      "PCDH7",
+      "PDE5A",
+      "PDZRN4",
+      "PRICKLE1",
+      "SLIT2",
+      "SULF1",
+      "ZEB1",
+      "ZFPM2",
+      "MPDZ",
+      "GSN",
+      "NOX4",
+      "PTPRD",
+      "PARD3B",
+      "DCLK2",
+      "ATP2B4",
+      "JAZF1",
+      "ANKH",
+      "MACROD2"
+     ],
+     "detection_goal_median": 0.4498148509062561,
+     "detection_goal_min": 0.27226661469499125,
+     "detection_goal_max": 0.8006236601052427,
+     "per_gene": [
+      {
+       "symbol": "ABI3BP",
+       "ensembl": "ENSG00000154175",
+       "detection_goal": 0.42779185343987525,
+       "detection_population": 0.21312111801242237,
+       "n_cells_start": 2197,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 924,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANTXR1",
+       "ensembl": "ENSG00000169604",
+       "detection_goal": 0.5223153381407133,
+       "detection_population": 0.4063955745341615,
+       "n_cells_start": 5695,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1136,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL1A1",
+       "ensembl": "ENSG00000108821",
+       "detection_goal": 0.47281231728707857,
+       "detection_population": 0.36626552795031053,
+       "n_cells_start": 5122,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1081,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL1A2",
+       "ensembl": "ENSG00000164692",
+       "detection_goal": 0.6382771389592672,
+       "detection_population": 0.5432356366459627,
+       "n_cells_start": 7920,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1178,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL5A2",
+       "ensembl": "ENSG00000204262",
+       "detection_goal": 0.4498148509062561,
+       "detection_population": 0.3950892857142857,
+       "n_cells_start": 5834,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1110,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL6A2",
+       "ensembl": "ENSG00000142173",
+       "detection_goal": 0.42837653478854026,
+       "detection_population": 0.3212829968944099,
+       "n_cells_start": 4423,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1112,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL8A1",
+       "ensembl": "ENSG00000144810",
+       "detection_goal": 0.4681348664977587,
+       "detection_population": 0.2518439440993789,
+       "n_cells_start": 2788,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 943,
+       "status": "使える"
+      },
+      {
+       "symbol": "DCLK1",
+       "ensembl": "ENSG00000133083",
+       "detection_goal": 0.40576885597349444,
+       "detection_population": 0.23675271739130435,
+       "n_cells_start": 2797,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1052,
+       "status": "使える"
+      },
+      {
+       "symbol": "DPYSL3",
+       "ensembl": "ENSG00000113657",
+       "detection_goal": 0.2740206587409862,
+       "detection_population": 0.0874902950310559,
+       "n_cells_start": 397,
+       "n_donors_start": 55,
+       "n_cells_after_cap": 309,
+       "status": "使える"
+      },
+      {
+       "symbol": "ELN",
+       "ensembl": "ENSG00000049540",
+       "detection_goal": 0.40888715649970764,
+       "detection_population": 0.25232919254658387,
+       "n_cells_start": 3102,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1086,
+       "status": "使える"
+      },
+      {
+       "symbol": "FBXL7",
+       "ensembl": "ENSG00000183580",
+       "detection_goal": 0.7353342428376535,
+       "detection_population": 0.6949728260869565,
+       "n_cells_start": 10549,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1305,
+       "status": "使える"
+      },
+      {
+       "symbol": "FN1",
+       "ensembl": "ENSG00000115414",
+       "detection_goal": 0.33190411225881894,
+       "detection_population": 0.1763878105590062,
+       "n_cells_start": 1932,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 807,
+       "status": "使える"
+      },
+      {
+       "symbol": "IGFBP5",
+       "ensembl": "ENSG00000115461",
+       "detection_goal": 0.5437536542584291,
+       "detection_population": 0.5189246894409938,
+       "n_cells_start": 7904,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1112,
+       "status": "使える"
+      },
+      {
+       "symbol": "ITGA11",
+       "ensembl": "ENSG00000137809",
+       "detection_goal": 0.3782888325862405,
+       "detection_population": 0.43308423913043476,
+       "n_cells_start": 6984,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1132,
+       "status": "使える"
+      },
+      {
+       "symbol": "LTBP1",
+       "ensembl": "ENSG00000049323",
+       "detection_goal": 0.5349834340284545,
+       "detection_population": 0.601368400621118,
+       "n_cells_start": 9648,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1128,
+       "status": "使える"
+      },
+      {
+       "symbol": "MFGE8",
+       "ensembl": "ENSG00000140545",
+       "detection_goal": 0.32371857337750926,
+       "detection_population": 0.23054153726708074,
+       "n_cells_start": 3090,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1002,
+       "status": "使える"
+      },
+      {
+       "symbol": "MGP",
+       "ensembl": "ENSG00000111341",
+       "detection_goal": 0.5145195868251803,
+       "detection_population": 0.4564246894409938,
+       "n_cells_start": 6766,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1076,
+       "status": "使える"
+      },
+      {
+       "symbol": "MICAL2",
+       "ensembl": "ENSG00000133816",
+       "detection_goal": 0.44513740011693625,
+       "detection_population": 0.25601708074534163,
+       "n_cells_start": 2992,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1046,
+       "status": "使える"
+      },
+      {
+       "symbol": "MIR99AHG",
+       "status": "Geneformer の辞書に無い",
+       "ensembl": "ENSG00000215386"
+      },
+      {
+       "symbol": "NAV3",
+       "ensembl": "ENSG00000067798",
+       "detection_goal": 0.4108360943285909,
+       "detection_population": 0.2246700310559006,
+       "n_cells_start": 2522,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 944,
+       "status": "使える"
+      },
+      {
+       "symbol": "NHSL2",
+       "ensembl": "ENSG00000204131",
+       "detection_goal": 0.3149483531475346,
+       "detection_population": 0.14023680124223603,
+       "n_cells_start": 1274,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 733,
+       "status": "使える"
+      },
+      {
+       "symbol": "NTM",
+       "ensembl": "ENSG00000182667",
+       "detection_goal": 0.27226661469499125,
+       "detection_population": 0.1795419254658385,
+       "n_cells_start": 2303,
+       "n_donors_start": 69,
+       "n_cells_after_cap": 907,
+       "status": "使える"
+      },
+      {
+       "symbol": "PCDH7",
+       "ensembl": "ENSG00000169851",
+       "detection_goal": 0.4194114207756773,
+       "detection_population": 0.2312208850931677,
+       "n_cells_start": 2613,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 996,
+       "status": "使える"
+      },
+      {
+       "symbol": "PDE5A",
+       "ensembl": "ENSG00000138735",
+       "detection_goal": 0.44669655038004286,
+       "detection_population": 0.34884510869565216,
+       "n_cells_start": 4897,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1105,
+       "status": "使える"
+      },
+      {
+       "symbol": "PDZRN4",
+       "ensembl": "ENSG00000165966",
+       "detection_goal": 0.39524459169752485,
+       "detection_population": 0.12058423913043478,
+       "n_cells_start": 457,
+       "n_donors_start": 61,
+       "n_cells_after_cap": 364,
+       "status": "使える"
+      },
+      {
+       "symbol": "PRICKLE1",
+       "ensembl": "ENSG00000139174",
+       "detection_goal": 0.5236795946209316,
+       "detection_population": 0.47122476708074534,
+       "n_cells_start": 7024,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1127,
+       "status": "使える"
+      },
+      {
+       "symbol": "SLIT2",
+       "ensembl": "ENSG00000145147",
+       "detection_goal": 0.5683102709023582,
+       "detection_population": 0.3461277173913043,
+       "n_cells_start": 4217,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1175,
+       "status": "使える"
+      },
+      {
+       "symbol": "SULF1",
+       "ensembl": "ENSG00000137573",
+       "detection_goal": 0.5306957708049114,
+       "detection_population": 0.32142857142857145,
+       "n_cells_start": 3901,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1077,
+       "status": "使える"
+      },
+      {
+       "symbol": "ZEB1",
+       "ensembl": "ENSG00000148516",
+       "detection_goal": 0.6649775872149678,
+       "detection_population": 0.47073951863354035,
+       "n_cells_start": 6289,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1240,
+       "status": "使える"
+      },
+      {
+       "symbol": "ZFPM2",
+       "ensembl": "ENSG00000169946",
+       "detection_goal": 0.7606704346131359,
+       "detection_population": 0.523146350931677,
+       "n_cells_start": 6878,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1309,
+       "status": "使える"
+      },
+      {
+       "symbol": "MPDZ",
+       "ensembl": "ENSG00000107186",
+       "detection_goal": 0.48060806860261157,
+       "detection_population": 0.36966226708074534,
+       "n_cells_start": 5152,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1115,
+       "status": "使える"
+      },
+      {
+       "symbol": "GSN",
+       "ensembl": "ENSG00000148180",
+       "detection_goal": 0.5375170532060027,
+       "detection_population": 0.3999902950310559,
+       "n_cells_start": 5485,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1120,
+       "status": "使える"
+      },
+      {
+       "symbol": "NOX4",
+       "ensembl": "ENSG00000086991",
+       "detection_goal": 0.5114012862989671,
+       "detection_population": 0.2512616459627329,
+       "n_cells_start": 2554,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 928,
+       "status": "使える"
+      },
+      {
+       "symbol": "DIRC3",
+       "status": "Geneformer の辞書に無い",
+       "ensembl": "ENSG00000231672"
+      },
+      {
+       "symbol": "AC098829.1",
+       "status": "var に無い"
+      },
+      {
+       "symbol": "PTPRD",
+       "ensembl": "ENSG00000153707",
+       "detection_goal": 0.5361527967257844,
+       "detection_population": 0.33870341614906835,
+       "n_cells_start": 4229,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1184,
+       "status": "使える"
+      },
+      {
+       "symbol": "PARD3B",
+       "ensembl": "ENSG00000116117",
+       "detection_goal": 0.8006236601052427,
+       "detection_population": 0.6855590062111802,
+       "n_cells_start": 10020,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1353,
+       "status": "使える"
+      },
+      {
+       "symbol": "DCLK2",
+       "ensembl": "ENSG00000170390",
+       "detection_goal": 0.2736308711752095,
+       "detection_population": 0.2095302795031056,
+       "n_cells_start": 2914,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1034,
+       "status": "使える"
+      },
+      {
+       "symbol": "ATP2B4",
+       "ensembl": "ENSG00000058668",
+       "detection_goal": 0.39095692847398167,
+       "detection_population": 0.2111801242236025,
+       "n_cells_start": 2346,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 956,
+       "status": "使える"
+      },
+      {
+       "symbol": "JAZF1",
+       "ensembl": "ENSG00000153814",
+       "detection_goal": 0.38705905281621517,
+       "detection_population": 0.2653823757763975,
+       "n_cells_start": 3483,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1089,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANKH",
+       "ensembl": "ENSG00000154122",
+       "detection_goal": 0.31592282206197625,
+       "detection_population": 0.32113742236024845,
+       "n_cells_start": 4997,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1034,
+       "status": "使える"
+      },
+      {
+       "symbol": "MACROD2",
+       "ensembl": "ENSG00000172264",
+       "detection_goal": 0.5546677061001754,
+       "detection_population": 0.39804930124223603,
+       "n_cells_start": 5357,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1258,
+       "status": "使える"
+      }
+     ]
+    },
+    "conserved": {
+     "set": "陽性対照（保守 76・感度分析）",
+     "n_requested": 76,
+     "K": 71,
+     "genes_used": [
+      "PDZRN4",
+      "ATP2B4",
+      "IGFBP5",
+      "NOX4",
+      "DPYSL3",
+      "COL1A1",
+      "GSN",
+      "LTBP1",
+      "ABI3BP",
+      "EFNA5",
+      "ANKS1B",
+      "SULF1",
+      "ANK2",
+      "AFDN",
+      "ZEB1",
+      "FN1",
+      "THRB",
+      "SDC2",
+      "ELN",
+      "FRY",
+      "DOCK5",
+      "MACROD2",
+      "NHSL2",
+      "PRICKLE1",
+      "PLCB1",
+      "CELF2",
+      "JAZF1",
+      "ZFPM2",
+      "NAV3",
+      "MGP",
+      "ASPH",
+      "CNTN4",
+      "COL1A2",
+      "HSPG2",
+      "RASSF8",
+      "PCDH7",
+      "PARD3B",
+      "FBXL7",
+      "DCLK2",
+      "MAML3",
+      "CDC14B",
+      "SLIT2",
+      "MPDZ",
+      "ATP8B1",
+      "MICAL2",
+      "MICAL3",
+      "SIPA1L1",
+      "ESYT2",
+      "COL6A2",
+      "COL6A1",
+      "SLC44A1",
+      "COL5A2",
+      "ANTXR1",
+      "NFIB",
+      "NTM",
+      "PDGFC",
+      "ITGA11",
+      "DSTN",
+      "MFGE8",
+      "PDE5A",
+      "COL8A1",
+      "FOXP1",
+      "ARMC9",
+      "GAB1",
+      "PAWR",
+      "DCLK1",
+      "ANKH",
+      "SLC20A2",
+      "RAD51B",
+      "SESTD1",
+      "PTPRD"
+     ],
+     "detection_goal_median": 0.43422334827519005,
+     "detection_goal_min": 0.27226661469499125,
+     "detection_goal_max": 0.8006236601052427,
+     "per_gene": [
+      {
+       "symbol": "PDZRN4",
+       "ensembl": "ENSG00000165966",
+       "detection_goal": 0.39524459169752485,
+       "detection_population": 0.12058423913043478,
+       "n_cells_start": 457,
+       "n_donors_start": 61,
+       "n_cells_after_cap": 364,
+       "status": "使える"
+      },
+      {
+       "symbol": "ATP2B4",
+       "ensembl": "ENSG00000058668",
+       "detection_goal": 0.39095692847398167,
+       "detection_population": 0.2111801242236025,
+       "n_cells_start": 2346,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 956,
+       "status": "使える"
+      },
+      {
+       "symbol": "IGFBP5",
+       "ensembl": "ENSG00000115461",
+       "detection_goal": 0.5437536542584291,
+       "detection_population": 0.5189246894409938,
+       "n_cells_start": 7904,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1112,
+       "status": "使える"
+      },
+      {
+       "symbol": "NOX4",
+       "ensembl": "ENSG00000086991",
+       "detection_goal": 0.5114012862989671,
+       "detection_population": 0.2512616459627329,
+       "n_cells_start": 2554,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 928,
+       "status": "使える"
+      },
+      {
+       "symbol": "DPYSL3",
+       "ensembl": "ENSG00000113657",
+       "detection_goal": 0.2740206587409862,
+       "detection_population": 0.0874902950310559,
+       "n_cells_start": 397,
+       "n_donors_start": 55,
+       "n_cells_after_cap": 309,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL1A1",
+       "ensembl": "ENSG00000108821",
+       "detection_goal": 0.47281231728707857,
+       "detection_population": 0.36626552795031053,
+       "n_cells_start": 5122,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1081,
+       "status": "使える"
+      },
+      {
+       "symbol": "GSN",
+       "ensembl": "ENSG00000148180",
+       "detection_goal": 0.5375170532060027,
+       "detection_population": 0.3999902950310559,
+       "n_cells_start": 5485,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1120,
+       "status": "使える"
+      },
+      {
+       "symbol": "LTBP1",
+       "ensembl": "ENSG00000049323",
+       "detection_goal": 0.5349834340284545,
+       "detection_population": 0.601368400621118,
+       "n_cells_start": 9648,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1128,
+       "status": "使える"
+      },
+      {
+       "symbol": "ABI3BP",
+       "ensembl": "ENSG00000154175",
+       "detection_goal": 0.42779185343987525,
+       "detection_population": 0.21312111801242237,
+       "n_cells_start": 2197,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 924,
+       "status": "使える"
+      },
+      {
+       "symbol": "EFNA5",
+       "ensembl": "ENSG00000184349",
+       "detection_goal": 0.42038588969011886,
+       "detection_population": 0.2796972049689441,
+       "n_cells_start": 3607,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1047,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANKS1B",
+       "ensembl": "ENSG00000185046",
+       "detection_goal": 0.3800428766322354,
+       "detection_population": 0.312208850931677,
+       "n_cells_start": 4484,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1084,
+       "status": "使える"
+      },
+      {
+       "symbol": "SULF1",
+       "ensembl": "ENSG00000137573",
+       "detection_goal": 0.5306957708049114,
+       "detection_population": 0.32142857142857145,
+       "n_cells_start": 3901,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1077,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANK2",
+       "ensembl": "ENSG00000145362",
+       "detection_goal": 0.40284544923016957,
+       "detection_population": 0.2521350931677019,
+       "n_cells_start": 3129,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1042,
+       "status": "使える"
+      },
+      {
+       "symbol": "AFDN",
+       "ensembl": "ENSG00000130396",
+       "detection_goal": 0.4123952445916975,
+       "detection_population": 0.3062402950310559,
+       "n_cells_start": 4195,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1052,
+       "status": "使える"
+      },
+      {
+       "symbol": "ZEB1",
+       "ensembl": "ENSG00000148516",
+       "detection_goal": 0.6649775872149678,
+       "detection_population": 0.47073951863354035,
+       "n_cells_start": 6289,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1240,
+       "status": "使える"
+      },
+      {
+       "symbol": "FN1",
+       "ensembl": "ENSG00000115414",
+       "detection_goal": 0.33190411225881894,
+       "detection_population": 0.1763878105590062,
+       "n_cells_start": 1932,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 807,
+       "status": "使える"
+      },
+      {
+       "symbol": "THRB",
+       "ensembl": "ENSG00000151090",
+       "detection_goal": 0.3841356460728903,
+       "detection_population": 0.3796583850931677,
+       "n_cells_start": 5853,
+       "n_donors_start": 70,
+       "n_cells_after_cap": 1092,
+       "status": "使える"
+      },
+      {
+       "symbol": "CASC15",
+       "status": "Geneformer の辞書に無い",
+       "ensembl": "ENSG00000272168"
+      },
+      {
+       "symbol": "SDC2",
+       "ensembl": "ENSG00000169439",
+       "detection_goal": 0.3506139154160982,
+       "detection_population": 0.2854716614906832,
+       "n_cells_start": 4084,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1003,
+       "status": "使える"
+      },
+      {
+       "symbol": "ELN",
+       "ensembl": "ENSG00000049540",
+       "detection_goal": 0.40888715649970764,
+       "detection_population": 0.25232919254658387,
+       "n_cells_start": 3102,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1086,
+       "status": "使える"
+      },
+      {
+       "symbol": "FRY",
+       "ensembl": "ENSG00000073910",
+       "detection_goal": 0.39134671603975835,
+       "detection_population": 0.37679541925465837,
+       "n_cells_start": 5757,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1030,
+       "status": "使える"
+      },
+      {
+       "symbol": "DOCK5",
+       "ensembl": "ENSG00000147459",
+       "detection_goal": 0.3022802572597934,
+       "detection_population": 0.20569681677018634,
+       "n_cells_start": 2688,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 843,
+       "status": "使える"
+      },
+      {
+       "symbol": "MACROD2",
+       "ensembl": "ENSG00000172264",
+       "detection_goal": 0.5546677061001754,
+       "detection_population": 0.39804930124223603,
+       "n_cells_start": 5357,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1258,
+       "status": "使える"
+      },
+      {
+       "symbol": "NHSL2",
+       "ensembl": "ENSG00000204131",
+       "detection_goal": 0.3149483531475346,
+       "detection_population": 0.14023680124223603,
+       "n_cells_start": 1274,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 733,
+       "status": "使える"
+      },
+      {
+       "symbol": "PRICKLE1",
+       "ensembl": "ENSG00000139174",
+       "detection_goal": 0.5236795946209316,
+       "detection_population": 0.47122476708074534,
+       "n_cells_start": 7024,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1127,
+       "status": "使える"
+      },
+      {
+       "symbol": "PLCB1",
+       "ensembl": "ENSG00000182621",
+       "detection_goal": 0.43422334827519005,
+       "detection_population": 0.5218847049689441,
+       "n_cells_start": 8527,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1146,
+       "status": "使える"
+      },
+      {
+       "symbol": "CELF2",
+       "ensembl": "ENSG00000048740",
+       "detection_goal": 0.38023777041512374,
+       "detection_population": 0.17410714285714285,
+       "n_cells_start": 1637,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 865,
+       "status": "使える"
+      },
+      {
+       "symbol": "JAZF1",
+       "ensembl": "ENSG00000153814",
+       "detection_goal": 0.38705905281621517,
+       "detection_population": 0.2653823757763975,
+       "n_cells_start": 3483,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1089,
+       "status": "使える"
+      },
+      {
+       "symbol": "ZFPM2",
+       "ensembl": "ENSG00000169946",
+       "detection_goal": 0.7606704346131359,
+       "detection_population": 0.523146350931677,
+       "n_cells_start": 6878,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1309,
+       "status": "使える"
+      },
+      {
+       "symbol": "NAV3",
+       "ensembl": "ENSG00000067798",
+       "detection_goal": 0.4108360943285909,
+       "detection_population": 0.2246700310559006,
+       "n_cells_start": 2522,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 944,
+       "status": "使える"
+      },
+      {
+       "symbol": "MGP",
+       "ensembl": "ENSG00000111341",
+       "detection_goal": 0.5145195868251803,
+       "detection_population": 0.4564246894409938,
+       "n_cells_start": 6766,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1076,
+       "status": "使える"
+      },
+      {
+       "symbol": "ASPH",
+       "ensembl": "ENSG00000198363",
+       "detection_goal": 0.4661859286688755,
+       "detection_population": 0.34695263975155277,
+       "n_cells_start": 4758,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1090,
+       "status": "使える"
+      },
+      {
+       "symbol": "CNTN4",
+       "ensembl": "ENSG00000144619",
+       "detection_goal": 0.3209900604170727,
+       "detection_population": 0.32429153726708076,
+       "n_cells_start": 5036,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1072,
+       "status": "使える"
+      },
+      {
+       "symbol": "DIRC3",
+       "status": "Geneformer の辞書に無い",
+       "ensembl": "ENSG00000231672"
+      },
+      {
+       "symbol": "COL1A2",
+       "ensembl": "ENSG00000164692",
+       "detection_goal": 0.6382771389592672,
+       "detection_population": 0.5432356366459627,
+       "n_cells_start": 7920,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1178,
+       "status": "使える"
+      },
+      {
+       "symbol": "HSPG2",
+       "ensembl": "ENSG00000142798",
+       "detection_goal": 0.44396803741960633,
+       "detection_population": 0.265819099378882,
+       "n_cells_start": 3200,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1061,
+       "status": "使える"
+      },
+      {
+       "symbol": "MIR99AHG",
+       "status": "Geneformer の辞書に無い",
+       "ensembl": "ENSG00000215386"
+      },
+      {
+       "symbol": "RASSF8",
+       "ensembl": "ENSG00000123094",
+       "detection_goal": 0.3718573377509257,
+       "detection_population": 0.31070458074534163,
+       "n_cells_start": 4495,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1083,
+       "status": "使える"
+      },
+      {
+       "symbol": "PCDH7",
+       "ensembl": "ENSG00000169851",
+       "detection_goal": 0.4194114207756773,
+       "detection_population": 0.2312208850931677,
+       "n_cells_start": 2613,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 996,
+       "status": "使える"
+      },
+      {
+       "symbol": "PARD3B",
+       "ensembl": "ENSG00000116117",
+       "detection_goal": 0.8006236601052427,
+       "detection_population": 0.6855590062111802,
+       "n_cells_start": 10020,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1353,
+       "status": "使える"
+      },
+      {
+       "symbol": "FBXL7",
+       "ensembl": "ENSG00000183580",
+       "detection_goal": 0.7353342428376535,
+       "detection_population": 0.6949728260869565,
+       "n_cells_start": 10549,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1305,
+       "status": "使える"
+      },
+      {
+       "symbol": "DCLK2",
+       "ensembl": "ENSG00000170390",
+       "detection_goal": 0.2736308711752095,
+       "detection_population": 0.2095302795031056,
+       "n_cells_start": 2914,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1034,
+       "status": "使える"
+      },
+      {
+       "symbol": "MAML3",
+       "ensembl": "ENSG00000196782",
+       "detection_goal": 0.5515494055739621,
+       "detection_population": 0.4639945652173913,
+       "n_cells_start": 6732,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1233,
+       "status": "使える"
+      },
+      {
+       "symbol": "C9orf3",
+       "status": "var に無い"
+      },
+      {
+       "symbol": "CDC14B",
+       "ensembl": "ENSG00000081377",
+       "detection_goal": 0.3336581563048139,
+       "detection_population": 0.22200116459627328,
+       "n_cells_start": 2863,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 984,
+       "status": "使える"
+      },
+      {
+       "symbol": "SLIT2",
+       "ensembl": "ENSG00000145147",
+       "detection_goal": 0.5683102709023582,
+       "detection_population": 0.3461277173913043,
+       "n_cells_start": 4217,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1175,
+       "status": "使える"
+      },
+      {
+       "symbol": "MPDZ",
+       "ensembl": "ENSG00000107186",
+       "detection_goal": 0.48060806860261157,
+       "detection_population": 0.36966226708074534,
+       "n_cells_start": 5152,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1115,
+       "status": "使える"
+      },
+      {
+       "symbol": "ATP8B1",
+       "ensembl": "ENSG00000081923",
+       "detection_goal": 0.3015006821282401,
+       "detection_population": 0.21661490683229814,
+       "n_cells_start": 2917,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 965,
+       "status": "使える"
+      },
+      {
+       "symbol": "MICAL2",
+       "ensembl": "ENSG00000133816",
+       "detection_goal": 0.44513740011693625,
+       "detection_population": 0.25601708074534163,
+       "n_cells_start": 2992,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1046,
+       "status": "使える"
+      },
+      {
+       "symbol": "MICAL3",
+       "ensembl": "ENSG00000243156",
+       "detection_goal": 0.4519586825180277,
+       "detection_population": 0.31429541925465837,
+       "n_cells_start": 4158,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1140,
+       "status": "使える"
+      },
+      {
+       "symbol": "SIPA1L1",
+       "ensembl": "ENSG00000197555",
+       "detection_goal": 0.5404404599493277,
+       "detection_population": 0.43361801242236025,
+       "n_cells_start": 6163,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1219,
+       "status": "使える"
+      },
+      {
+       "symbol": "ESYT2",
+       "ensembl": "ENSG00000117868",
+       "detection_goal": 0.4702786981095303,
+       "detection_population": 0.406929347826087,
+       "n_cells_start": 5973,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1169,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL6A2",
+       "ensembl": "ENSG00000142173",
+       "detection_goal": 0.42837653478854026,
+       "detection_population": 0.3212829968944099,
+       "n_cells_start": 4423,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1112,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL6A1",
+       "ensembl": "ENSG00000142156",
+       "detection_goal": 0.3769245761060222,
+       "detection_population": 0.28047360248447206,
+       "n_cells_start": 3846,
+       "n_donors_start": 70,
+       "n_cells_after_cap": 1031,
+       "status": "使える"
+      },
+      {
+       "symbol": "SLC44A1",
+       "ensembl": "ENSG00000070214",
+       "detection_goal": 0.3451568894952251,
+       "detection_population": 0.2878008540372671,
+       "n_cells_start": 4160,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1037,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL5A2",
+       "ensembl": "ENSG00000204262",
+       "detection_goal": 0.4498148509062561,
+       "detection_population": 0.3950892857142857,
+       "n_cells_start": 5834,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1110,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANTXR1",
+       "ensembl": "ENSG00000169604",
+       "detection_goal": 0.5223153381407133,
+       "detection_population": 0.4063955745341615,
+       "n_cells_start": 5695,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1136,
+       "status": "使える"
+      },
+      {
+       "symbol": "NFIB",
+       "ensembl": "ENSG00000147862",
+       "detection_goal": 0.6443188462288053,
+       "detection_population": 0.49801048136645965,
+       "n_cells_start": 6957,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1245,
+       "status": "使える"
+      },
+      {
+       "symbol": "NTM",
+       "ensembl": "ENSG00000182667",
+       "detection_goal": 0.27226661469499125,
+       "detection_population": 0.1795419254658385,
+       "n_cells_start": 2303,
+       "n_donors_start": 69,
+       "n_cells_after_cap": 907,
+       "status": "使える"
+      },
+      {
+       "symbol": "PDGFC",
+       "ensembl": "ENSG00000145431",
+       "detection_goal": 0.3011108945624635,
+       "detection_population": 0.24980590062111802,
+       "n_cells_start": 3603,
+       "n_donors_start": 66,
+       "n_cells_after_cap": 995,
+       "status": "使える"
+      },
+      {
+       "symbol": "ITGA11",
+       "ensembl": "ENSG00000137809",
+       "detection_goal": 0.3782888325862405,
+       "detection_population": 0.43308423913043476,
+       "n_cells_start": 6984,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1132,
+       "status": "使える"
+      },
+      {
+       "symbol": "DSTN",
+       "ensembl": "ENSG00000125868",
+       "detection_goal": 0.44201909959072305,
+       "detection_population": 0.35685170807453415,
+       "n_cells_start": 5086,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1109,
+       "status": "使える"
+      },
+      {
+       "symbol": "MFGE8",
+       "ensembl": "ENSG00000140545",
+       "detection_goal": 0.32371857337750926,
+       "detection_population": 0.23054153726708074,
+       "n_cells_start": 3090,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1002,
+       "status": "使える"
+      },
+      {
+       "symbol": "PDE5A",
+       "ensembl": "ENSG00000138735",
+       "detection_goal": 0.44669655038004286,
+       "detection_population": 0.34884510869565216,
+       "n_cells_start": 4897,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1105,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL8A1",
+       "ensembl": "ENSG00000144810",
+       "detection_goal": 0.4681348664977587,
+       "detection_population": 0.2518439440993789,
+       "n_cells_start": 2788,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 943,
+       "status": "使える"
+      },
+      {
+       "symbol": "AC098829.1",
+       "status": "var に無い"
+      },
+      {
+       "symbol": "FOXP1",
+       "ensembl": "ENSG00000114861",
+       "detection_goal": 0.6901188852075619,
+       "detection_population": 0.569730201863354,
+       "n_cells_start": 8200,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1289,
+       "status": "使える"
+      },
+      {
+       "symbol": "ARMC9",
+       "ensembl": "ENSG00000135931",
+       "detection_goal": 0.3338530500877022,
+       "detection_population": 0.25,
+       "n_cells_start": 3439,
+       "n_donors_start": 69,
+       "n_cells_after_cap": 1023,
+       "status": "使える"
+      },
+      {
+       "symbol": "GAB1",
+       "ensembl": "ENSG00000109458",
+       "detection_goal": 0.4763204053790684,
+       "detection_population": 0.45749223602484473,
+       "n_cells_start": 6984,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1193,
+       "status": "使える"
+      },
+      {
+       "symbol": "PAWR",
+       "ensembl": "ENSG00000177425",
+       "detection_goal": 0.5137400116936269,
+       "detection_population": 0.44113936335403725,
+       "n_cells_start": 6455,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1210,
+       "status": "使える"
+      },
+      {
+       "symbol": "DCLK1",
+       "ensembl": "ENSG00000133083",
+       "detection_goal": 0.40576885597349444,
+       "detection_population": 0.23675271739130435,
+       "n_cells_start": 2797,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1052,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANKH",
+       "ensembl": "ENSG00000154122",
+       "detection_goal": 0.31592282206197625,
+       "detection_population": 0.32113742236024845,
+       "n_cells_start": 4997,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1034,
+       "status": "使える"
+      },
+      {
+       "symbol": "SLC20A2",
+       "ensembl": "ENSG00000168575",
+       "detection_goal": 0.4960046774507893,
+       "detection_population": 0.38742236024844723,
+       "n_cells_start": 5439,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1158,
+       "status": "使える"
+      },
+      {
+       "symbol": "RAD51B",
+       "ensembl": "ENSG00000182185",
+       "detection_goal": 0.502436172286104,
+       "detection_population": 0.48403532608695654,
+       "n_cells_start": 7397,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1234,
+       "status": "使える"
+      },
+      {
+       "symbol": "SESTD1",
+       "ensembl": "ENSG00000187231",
+       "detection_goal": 0.3482751900214383,
+       "detection_population": 0.27309782608695654,
+       "n_cells_start": 3841,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1045,
+       "status": "使える"
+      },
+      {
+       "symbol": "PTPRD",
+       "ensembl": "ENSG00000153707",
+       "detection_goal": 0.5361527967257844,
+       "detection_population": 0.33870341614906835,
+       "n_cells_start": 4229,
+       "n_donors_start": 76,
+       "n_cells_after_cap": 1184,
+       "status": "使える"
+      }
+     ]
+    },
+    "goal_defining_proxy": {
+     "set": "目標の定義の代理（保守 76 − 最小 42）",
+     "n_requested": 34,
+     "K": 32,
+     "genes_used": [
+      "EFNA5",
+      "ANKS1B",
+      "ANK2",
+      "AFDN",
+      "THRB",
+      "SDC2",
+      "FRY",
+      "DOCK5",
+      "PLCB1",
+      "CELF2",
+      "ASPH",
+      "CNTN4",
+      "HSPG2",
+      "RASSF8",
+      "MAML3",
+      "CDC14B",
+      "ATP8B1",
+      "MICAL3",
+      "SIPA1L1",
+      "ESYT2",
+      "COL6A1",
+      "SLC44A1",
+      "NFIB",
+      "PDGFC",
+      "DSTN",
+      "FOXP1",
+      "ARMC9",
+      "GAB1",
+      "PAWR",
+      "SLC20A2",
+      "RAD51B",
+      "SESTD1"
+     ],
+     "detection_goal_median": 0.4076203469109335,
+     "detection_goal_min": 0.3011108945624635,
+     "detection_goal_max": 0.6901188852075619,
+     "per_gene": [
+      {
+       "symbol": "EFNA5",
+       "ensembl": "ENSG00000184349",
+       "detection_goal": 0.42038588969011886,
+       "detection_population": 0.2796972049689441,
+       "n_cells_start": 3607,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1047,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANKS1B",
+       "ensembl": "ENSG00000185046",
+       "detection_goal": 0.3800428766322354,
+       "detection_population": 0.312208850931677,
+       "n_cells_start": 4484,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1084,
+       "status": "使える"
+      },
+      {
+       "symbol": "ANK2",
+       "ensembl": "ENSG00000145362",
+       "detection_goal": 0.40284544923016957,
+       "detection_population": 0.2521350931677019,
+       "n_cells_start": 3129,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1042,
+       "status": "使える"
+      },
+      {
+       "symbol": "AFDN",
+       "ensembl": "ENSG00000130396",
+       "detection_goal": 0.4123952445916975,
+       "detection_population": 0.3062402950310559,
+       "n_cells_start": 4195,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1052,
+       "status": "使える"
+      },
+      {
+       "symbol": "THRB",
+       "ensembl": "ENSG00000151090",
+       "detection_goal": 0.3841356460728903,
+       "detection_population": 0.3796583850931677,
+       "n_cells_start": 5853,
+       "n_donors_start": 70,
+       "n_cells_after_cap": 1092,
+       "status": "使える"
+      },
+      {
+       "symbol": "CASC15",
+       "status": "Geneformer の辞書に無い",
+       "ensembl": "ENSG00000272168"
+      },
+      {
+       "symbol": "SDC2",
+       "ensembl": "ENSG00000169439",
+       "detection_goal": 0.3506139154160982,
+       "detection_population": 0.2854716614906832,
+       "n_cells_start": 4084,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1003,
+       "status": "使える"
+      },
+      {
+       "symbol": "FRY",
+       "ensembl": "ENSG00000073910",
+       "detection_goal": 0.39134671603975835,
+       "detection_population": 0.37679541925465837,
+       "n_cells_start": 5757,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 1030,
+       "status": "使える"
+      },
+      {
+       "symbol": "DOCK5",
+       "ensembl": "ENSG00000147459",
+       "detection_goal": 0.3022802572597934,
+       "detection_population": 0.20569681677018634,
+       "n_cells_start": 2688,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 843,
+       "status": "使える"
+      },
+      {
+       "symbol": "PLCB1",
+       "ensembl": "ENSG00000182621",
+       "detection_goal": 0.43422334827519005,
+       "detection_population": 0.5218847049689441,
+       "n_cells_start": 8527,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1146,
+       "status": "使える"
+      },
+      {
+       "symbol": "CELF2",
+       "ensembl": "ENSG00000048740",
+       "detection_goal": 0.38023777041512374,
+       "detection_population": 0.17410714285714285,
+       "n_cells_start": 1637,
+       "n_donors_start": 73,
+       "n_cells_after_cap": 865,
+       "status": "使える"
+      },
+      {
+       "symbol": "ASPH",
+       "ensembl": "ENSG00000198363",
+       "detection_goal": 0.4661859286688755,
+       "detection_population": 0.34695263975155277,
+       "n_cells_start": 4758,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1090,
+       "status": "使える"
+      },
+      {
+       "symbol": "CNTN4",
+       "ensembl": "ENSG00000144619",
+       "detection_goal": 0.3209900604170727,
+       "detection_population": 0.32429153726708076,
+       "n_cells_start": 5036,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1072,
+       "status": "使える"
+      },
+      {
+       "symbol": "HSPG2",
+       "ensembl": "ENSG00000142798",
+       "detection_goal": 0.44396803741960633,
+       "detection_population": 0.265819099378882,
+       "n_cells_start": 3200,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1061,
+       "status": "使える"
+      },
+      {
+       "symbol": "RASSF8",
+       "ensembl": "ENSG00000123094",
+       "detection_goal": 0.3718573377509257,
+       "detection_population": 0.31070458074534163,
+       "n_cells_start": 4495,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1083,
+       "status": "使える"
+      },
+      {
+       "symbol": "MAML3",
+       "ensembl": "ENSG00000196782",
+       "detection_goal": 0.5515494055739621,
+       "detection_population": 0.4639945652173913,
+       "n_cells_start": 6732,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1233,
+       "status": "使える"
+      },
+      {
+       "symbol": "C9orf3",
+       "status": "var に無い"
+      },
+      {
+       "symbol": "CDC14B",
+       "ensembl": "ENSG00000081377",
+       "detection_goal": 0.3336581563048139,
+       "detection_population": 0.22200116459627328,
+       "n_cells_start": 2863,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 984,
+       "status": "使える"
+      },
+      {
+       "symbol": "ATP8B1",
+       "ensembl": "ENSG00000081923",
+       "detection_goal": 0.3015006821282401,
+       "detection_population": 0.21661490683229814,
+       "n_cells_start": 2917,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 965,
+       "status": "使える"
+      },
+      {
+       "symbol": "MICAL3",
+       "ensembl": "ENSG00000243156",
+       "detection_goal": 0.4519586825180277,
+       "detection_population": 0.31429541925465837,
+       "n_cells_start": 4158,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 1140,
+       "status": "使える"
+      },
+      {
+       "symbol": "SIPA1L1",
+       "ensembl": "ENSG00000197555",
+       "detection_goal": 0.5404404599493277,
+       "detection_population": 0.43361801242236025,
+       "n_cells_start": 6163,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1219,
+       "status": "使える"
+      },
+      {
+       "symbol": "ESYT2",
+       "ensembl": "ENSG00000117868",
+       "detection_goal": 0.4702786981095303,
+       "detection_population": 0.406929347826087,
+       "n_cells_start": 5973,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1169,
+       "status": "使える"
+      },
+      {
+       "symbol": "COL6A1",
+       "ensembl": "ENSG00000142156",
+       "detection_goal": 0.3769245761060222,
+       "detection_population": 0.28047360248447206,
+       "n_cells_start": 3846,
+       "n_donors_start": 70,
+       "n_cells_after_cap": 1031,
+       "status": "使える"
+      },
+      {
+       "symbol": "SLC44A1",
+       "ensembl": "ENSG00000070214",
+       "detection_goal": 0.3451568894952251,
+       "detection_population": 0.2878008540372671,
+       "n_cells_start": 4160,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1037,
+       "status": "使える"
+      },
+      {
+       "symbol": "NFIB",
+       "ensembl": "ENSG00000147862",
+       "detection_goal": 0.6443188462288053,
+       "detection_population": 0.49801048136645965,
+       "n_cells_start": 6957,
+       "n_donors_start": 77,
+       "n_cells_after_cap": 1245,
+       "status": "使える"
+      },
+      {
+       "symbol": "PDGFC",
+       "ensembl": "ENSG00000145431",
+       "detection_goal": 0.3011108945624635,
+       "detection_population": 0.24980590062111802,
+       "n_cells_start": 3603,
+       "n_donors_start": 66,
+       "n_cells_after_cap": 995,
+       "status": "使える"
+      },
+      {
+       "symbol": "DSTN",
+       "ensembl": "ENSG00000125868",
+       "detection_goal": 0.44201909959072305,
+       "detection_population": 0.35685170807453415,
+       "n_cells_start": 5086,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1109,
+       "status": "使える"
+      },
+      {
+       "symbol": "FOXP1",
+       "ensembl": "ENSG00000114861",
+       "detection_goal": 0.6901188852075619,
+       "detection_population": 0.569730201863354,
+       "n_cells_start": 8200,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1289,
+       "status": "使える"
+      },
+      {
+       "symbol": "ARMC9",
+       "ensembl": "ENSG00000135931",
+       "detection_goal": 0.3338530500877022,
+       "detection_population": 0.25,
+       "n_cells_start": 3439,
+       "n_donors_start": 69,
+       "n_cells_after_cap": 1023,
+       "status": "使える"
+      },
+      {
+       "symbol": "GAB1",
+       "ensembl": "ENSG00000109458",
+       "detection_goal": 0.4763204053790684,
+       "detection_population": 0.45749223602484473,
+       "n_cells_start": 6984,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1193,
+       "status": "使える"
+      },
+      {
+       "symbol": "PAWR",
+       "ensembl": "ENSG00000177425",
+       "detection_goal": 0.5137400116936269,
+       "detection_population": 0.44113936335403725,
+       "n_cells_start": 6455,
+       "n_donors_start": 75,
+       "n_cells_after_cap": 1210,
+       "status": "使える"
+      },
+      {
+       "symbol": "SLC20A2",
+       "ensembl": "ENSG00000168575",
+       "detection_goal": 0.4960046774507893,
+       "detection_population": 0.38742236024844723,
+       "n_cells_start": 5439,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1158,
+       "status": "使える"
+      },
+      {
+       "symbol": "RAD51B",
+       "ensembl": "ENSG00000182185",
+       "detection_goal": 0.502436172286104,
+       "detection_population": 0.48403532608695654,
+       "n_cells_start": 7397,
+       "n_donors_start": 74,
+       "n_cells_after_cap": 1234,
+       "status": "使える"
+      },
+      {
+       "symbol": "SESTD1",
+       "ensembl": "ENSG00000187231",
+       "detection_goal": 0.3482751900214383,
+       "detection_population": 0.27309782608695654,
+       "n_cells_start": 3841,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1045,
+       "status": "使える"
+      }
+     ]
+    }
+   },
+   "F3": {
+    "n_genes_perturbable_whole_universe": 13085,
+    "T1": {
+     "set": "T1",
+     "n_requested": 16,
+     "K": 11,
+     "genes_used": [
+      "CXCL13",
+      "CCL19",
+      "CCL21",
+      "CXCL12",
+      "LTBR",
+      "TNFSF13B",
+      "ICAM1",
+      "VCAM1",
+      "IL7",
+      "CCL2",
+      "MADCAM1"
+     ],
+     "detection_goal_median": 0.021438316117715846,
+     "detection_goal_min": 0.0003897875657766517,
+     "detection_goal_max": 0.20366400311830052,
+     "per_gene": [
+      {
+       "symbol": "CXCL13",
+       "ensembl": "ENSG00000156234",
+       "detection_goal": 0.005457025920873124,
+       "detection_population": 0.009025621118012422,
+       "n_cells_start": 158,
+       "n_donors_start": 34,
+       "n_cells_after_cap": 122,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CCL19",
+       "ensembl": "ENSG00000172724",
+       "detection_goal": 0.0113038394075229,
+       "detection_population": 0.011937111801242236,
+       "n_cells_start": 188,
+       "n_donors_start": 39,
+       "n_cells_after_cap": 152,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CCL21",
+       "ensembl": "ENSG00000137077",
+       "detection_goal": 0.008770220229974663,
+       "detection_population": 0.01907026397515528,
+       "n_cells_start": 348,
+       "n_donors_start": 50,
+       "n_cells_after_cap": 278,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CXCL12",
+       "ensembl": "ENSG00000107562",
+       "detection_goal": 0.20366400311830052,
+       "detection_population": 0.2542216614906832,
+       "n_cells_start": 4194,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 1133,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "LTB",
+       "ensembl": "ENSG00000227507",
+       "detection_goal": 0.007405963749756383,
+       "detection_population": 0.007618400621118012,
+       "n_cells_start": 119,
+       "n_donors_start": 38,
+       "n_cells_after_cap": 119,
+       "status": "摂動できない（上限後 119 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "LTBR",
+       "ensembl": "ENSG00000111321",
+       "detection_goal": 0.11011498733190411,
+       "detection_population": 0.09967003105590062,
+       "n_cells_start": 1489,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 800,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "TNFSF13B",
+       "ensembl": "ENSG00000102524",
+       "detection_goal": 0.12999415318651336,
+       "detection_population": 0.09438082298136646,
+       "n_cells_start": 1278,
+       "n_donors_start": 65,
+       "n_cells_after_cap": 718,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "TNFSF14",
+       "ensembl": "ENSG00000125735",
+       "detection_goal": 0.03118300526213214,
+       "detection_population": 0.008977096273291926,
+       "n_cells_start": 25,
+       "n_donors_start": 16,
+       "n_cells_after_cap": 25,
+       "status": "摂動できない（上限後 25 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "ICAM1",
+       "ensembl": "ENSG00000090339",
+       "detection_goal": 0.03956343792633015,
+       "detection_population": 0.04954386645962733,
+       "n_cells_start": 818,
+       "n_donors_start": 67,
+       "n_cells_after_cap": 557,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "VCAM1",
+       "ensembl": "ENSG00000162692",
+       "detection_goal": 0.10153966088481778,
+       "detection_population": 0.07628105590062112,
+       "n_cells_start": 1051,
+       "n_donors_start": 69,
+       "n_cells_after_cap": 684,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "IL7",
+       "ensembl": "ENSG00000104432",
+       "detection_goal": 0.11693626973299552,
+       "detection_population": 0.09098408385093168,
+       "n_cells_start": 1275,
+       "n_donors_start": 59,
+       "n_cells_after_cap": 603,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CXCL9",
+       "ensembl": "ENSG00000138755",
+       "detection_goal": 0.0019489378288832587,
+       "detection_population": 0.0020380434782608695,
+       "n_cells_start": 32,
+       "n_donors_start": 13,
+       "n_cells_after_cap": 32,
+       "status": "摂動できない（上限後 32 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CXCL10",
+       "ensembl": "ENSG00000169245",
+       "detection_goal": 0.001364256480218281,
+       "detection_population": 0.0016498447204968945,
+       "n_cells_start": 27,
+       "n_donors_start": 14,
+       "n_cells_after_cap": 27,
+       "status": "摂動できない（上限後 27 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CXCL11",
+       "ensembl": "ENSG00000169248",
+       "detection_goal": 0.0003897875657766517,
+       "detection_population": 0.00048524844720496894,
+       "n_cells_start": 8,
+       "n_donors_start": 8,
+       "n_cells_after_cap": 8,
+       "status": "摂動できない（上限後 8 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CCL2",
+       "ensembl": "ENSG00000108691",
+       "detection_goal": 0.036055349834340285,
+       "detection_population": 0.06691576086956522,
+       "n_cells_start": 1194,
+       "n_donors_start": 64,
+       "n_cells_after_cap": 707,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "MADCAM1",
+       "ensembl": "ENSG00000099866",
+       "detection_goal": 0.011693626973299552,
+       "detection_population": 0.01140333850931677,
+       "n_cells_start": 175,
+       "n_donors_start": 42,
+       "n_cells_after_cap": 149,
+       "status": "使える",
+       "in_positive_control": false
+      }
+     ]
+    },
+    "T2": {
+     "set": "T2",
+     "n_requested": 12,
+     "K": 7,
+     "genes_used": [
+      "CDKN1A",
+      "SERPINE1",
+      "IGFBP3",
+      "IGFBP7",
+      "TGFB1",
+      "GDF15",
+      "TIMP1"
+     ],
+     "detection_goal_median": 0.025043851101149872,
+     "detection_goal_min": 0.0003897875657766517,
+     "detection_goal_max": 0.7458585071136231,
+     "per_gene": [
+      {
+       "symbol": "CDKN1A",
+       "ensembl": "ENSG00000124762",
+       "detection_goal": 0.028064704735918926,
+       "detection_population": 0.028387034161490684,
+       "n_cells_start": 441,
+       "n_donors_start": 44,
+       "n_cells_after_cap": 227,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CDKN2A",
+       "ensembl": "ENSG00000147889",
+       "detection_goal": 0.0037029818748781913,
+       "detection_population": 0.002329192546583851,
+       "n_cells_start": 29,
+       "n_donors_start": 17,
+       "n_cells_after_cap": 29,
+       "status": "摂動できない（上限後 29 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "SERPINE1",
+       "ensembl": "ENSG00000106366",
+       "detection_goal": 0.09764178522705126,
+       "detection_population": 0.11621700310559006,
+       "n_cells_start": 1894,
+       "n_donors_start": 60,
+       "n_cells_after_cap": 519,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "IGFBP3",
+       "ensembl": "ENSG00000146674",
+       "detection_goal": 0.16526992788930034,
+       "detection_population": 0.11980784161490683,
+       "n_cells_start": 1621,
+       "n_donors_start": 70,
+       "n_cells_after_cap": 843,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "IGFBP7",
+       "ensembl": "ENSG00000163453",
+       "detection_goal": 0.7458585071136231,
+       "detection_population": 0.8392371894409938,
+       "n_cells_start": 13468,
+       "n_donors_start": 79,
+       "n_cells_after_cap": 1410,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "IL6",
+       "ensembl": "ENSG00000136244",
+       "detection_goal": 0.0037029818748781913,
+       "detection_population": 0.002232142857142857,
+       "n_cells_start": 27,
+       "n_donors_start": 12,
+       "n_cells_after_cap": 27,
+       "status": "摂動できない（上限後 27 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "IL1B",
+       "ensembl": "ENSG00000125538",
+       "detection_goal": 0.0003897875657766517,
+       "detection_population": 0.0002911490683229814,
+       "n_cells_start": 4,
+       "n_donors_start": 4,
+       "n_cells_after_cap": 4,
+       "status": "摂動できない（上限後 4 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "TGFB1",
+       "ensembl": "ENSG00000105329",
+       "detection_goal": 0.12843500292340673,
+       "detection_population": 0.14474961180124224,
+       "n_cells_start": 2324,
+       "n_donors_start": 72,
+       "n_cells_after_cap": 947,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "GDF15",
+       "ensembl": "ENSG00000130513",
+       "detection_goal": 0.022022997466380822,
+       "detection_population": 0.04158579192546584,
+       "n_cells_start": 744,
+       "n_donors_start": 46,
+       "n_cells_after_cap": 304,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "TIMP1",
+       "ensembl": "ENSG00000102265",
+       "detection_goal": 0.22783083219645292,
+       "detection_population": 0.15076669254658384,
+       "n_cells_start": 1938,
+       "n_donors_start": 71,
+       "n_cells_after_cap": 792,
+       "status": "使える",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "MMP3",
+       "ensembl": "ENSG00000149968",
+       "detection_goal": 0.0007795751315533034,
+       "detection_population": 0.00033967391304347825,
+       "n_cells_start": 3,
+       "n_donors_start": 3,
+       "n_cells_after_cap": 3,
+       "status": "摂動できない（上限後 3 < 120）",
+       "in_positive_control": false
+      },
+      {
+       "symbol": "CXCL8",
+       "ensembl": "ENSG00000169429",
+       "detection_goal": 0.0019489378288832587,
+       "detection_population": 0.0020865683229813665,
+       "n_cells_start": 33,
+       "n_donors_start": 17,
+       "n_cells_after_cap": 33,
+       "status": "摂動できない（上限後 33 < 120）",
+       "in_positive_control": false
+      }
+     ]
+    },
+    "T1_usable": [
+     "CXCL13",
+     "CCL19",
+     "CCL21",
+     "CXCL12",
+     "LTBR",
+     "TNFSF13B",
+     "ICAM1",
+     "VCAM1",
+     "IL7",
+     "CCL2",
+     "MADCAM1"
+    ],
+    "T2_usable": [
+     "CDKN1A",
+     "SERPINE1",
+     "IGFBP3",
+     "IGFBP7",
+     "TGFB1",
+     "GDF15",
+     "TIMP1"
+    ],
+    "T1_usable_without_CXCL12": [
+     "CXCL13",
+     "CCL19",
+     "CCL21",
+     "LTBR",
+     "TNFSF13B",
+     "ICAM1",
+     "VCAM1",
+     "IL7",
+     "CCL2",
+     "MADCAM1"
+    ],
+    "pass": true
+   },
+   "F4": {
+    "goal_defined_by": "著者注釈 subclass.l2（Lake 2023 補足表 10 の状態の種別）。遺伝子は使っていない",
+    "n_genes_defining_goal": 0,
+    "overlap_defining_x_positive_control": 0,
+    "overlap_defining_x_targets": 0,
+    "overlap_positive_control_x_targets": 0,
+    "overlap_triple": 0,
+    "targets_dropped_because_in_positive_control": [],
+    "goal_defining_proxy_x_positive_control": 0,
+    "CXCL12_in_positive_control": false,
+    "pass": true
+   },
+   "F5": {
+    "median_n_genes_goal": 1782.0,
+    "median_n_genes_start": 1621.0,
+    "ratio": 1.0993214065391734,
+    "ratio_pass": true,
+    "median_n_counts_goal": 2874.0,
+    "median_n_counts_start": 2635.0,
+    "depth_only_auc": {
+     "auc_per_fold": [
+      0.5107548731131848,
+      0.6176570955740239,
+      0.48694422799963577,
+      0.6725057170418439,
+      0.5266565068550131
+     ],
+     "auc_mean": 0.5629036841167403,
+     "auc_pooled_oof": 0.502493134360595
+    },
+    "auc_pass": true,
+    "pass": true
+   },
+   "all_pass": true
+  }
+ ],
+ "adopted": "A"
+}

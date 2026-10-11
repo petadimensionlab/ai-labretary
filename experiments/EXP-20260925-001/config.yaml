@@ -1,0 +1,64 @@
+# EXP-20260925-001 — パイプライン技術検証（MPS smoke）。生物学的結論は出さない
+experiment_id: EXP-20260925-001
+hypothesis_id: null                 # 技術検証のため仮説なし
+
+prepare:                            # scripts/geneformer/prepare_h5ad.py
+  sources:
+    - {path: data/raw/kidney_tls/A5a_ccRCC_Zhang2021.h5ad}
+    - {path: data/raw/kidney_tls/A5b_normal_Zhang2021.h5ad}
+  obs_keep: [cell_type, author_cell_type, disease, donor_id]
+  filter: {cell_type: [macrophage]}
+  state_key: disease
+  max_cells_per_state: 300
+  seed: 0
+  output: experiments/EXP-20260925-001/work/input.h5ad
+
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260925-001/work/input.h5ad
+  tokenized_dataset: experiments/EXP-20260925-001/work/tokenized.dataset
+  cell_type_col: cell_type
+  state_key: disease
+  custom_attr_name_dict: {cell_type: cell_type, disease: disease, donor_id: donor_id}
+  filter_data: null
+  max_ncells: 600
+
+states:
+  start_state: clear cell renal carcinoma
+  goal_state: normal
+  alt_states: []
+
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  genes_to_perturb: [ENSG00000156234, ENSG00000172724, ENSG00000124762]   # CXCL13, CCL19, CDKN1A
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8             # MPS の実測最適値（../Geneformer/input/PD_atlas/RUN_PROVENANCE.md）
+  nproc: 8
+
+controls:
+  positive: [ENSG00000177575]       # CD163（腫瘍関連マクロファージのマーカー。技術検証用の仮置き）
+  negative_random_n: 2
+  negative_fixed: [ENSG00000075624, ENSG00000111640]   # ACTB, GAPDH
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+robustness:
+  seeds: [0, 1, 2]
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+compute:
+  device: mps
+  dtype: bf16                       # bf16（既定, ../Geneformer の GF_DTYPE と同方式）| fp32
+  gpu_hours_estimate: null

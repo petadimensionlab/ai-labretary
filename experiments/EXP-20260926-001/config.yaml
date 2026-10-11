@@ -1,0 +1,136 @@
+# EXP-20260926-001 — HYP-20260925-01: CKD TLS-high 腎の aPT で TP53/CDKN1A/LTBR を delete → PT_healthy へ
+# すべてのパラメータをここに書く。isp_state と TLS_group は「推定ラベル」（plan.md §2）
+experiment_id: EXP-20260926-001
+hypothesis_id: HYP-20260925-01
+
+prepare:                            # scripts/geneformer/prepare_h5ad.py
+  sources:
+    - {path: data/raw/kidney_tls/A2_KPMP_v1.5_scRNA_Lake2023.h5ad}   # 読み取り専用。raw.X（整数カウント）を使う
+  obs_keep: [author_cell_type, cell_type, disease, donor_id, eGFR, Age_binned]
+  filter:
+    author_cell_type: [aPT, PT-S1/S2, PT-S3]
+    disease: [chronic kidney disease, normal]
+  donor_maps:                       # donor → 推定 TLS 群（feasibility の定義をそのまま使う。再定義しない）
+    - {path: outputs/literature/2026-09-25-tls-feasibility/donor_A2.csv, key: donor_id, csv_key: sample,
+       column: TLS_group, as: TLS_group}
+  state_key: isp_state
+  state_rules:                      # 上から順に最初に一致したもの
+    - {label: aPT_CKD_TLShigh, where: {author_cell_type: [aPT], disease: [chronic kidney disease], TLS_group: [high]}}
+    - {label: aPT_CKD_TLSlow,  where: {author_cell_type: [aPT], disease: [chronic kidney disease], TLS_group: [low]}}
+    - {label: PT_healthy,      where: {author_cell_type: [PT-S1/S2, PT-S3], disease: [normal]}}
+  drop_unlabeled: true              # CKD TLS-mid の aPT、CKD の PT-S1/S2・S3 などは除く
+  max_cells_per_donor: null         # 入力は全細胞を残す（donor 上限は遺伝子ごとの抽出・重心の抽出でかける）
+  max_cells_per_state: null
+  donor_key: donor_id
+  seed: 0
+  output: experiments/EXP-20260926-001/work/input.h5ad
+
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260926-001/work/input.h5ad
+  tokenized_dataset: experiments/EXP-20260926-001/work/tokenized.dataset
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict: {isp_state: isp_state, donor_id: donor_id, TLS_group: TLS_group,
+                          author_cell_type: author_cell_type, disease: disease}
+  filter_data: null
+  max_ncells: null                  # cell_selection / state_embs を使うので perturber 側では絞らない
+
+states:                             # run 1（主要）。run 2 は runs.tls_low で start と alt を入れ替える
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states: [aPT_CKD_TLSlow]
+
+runs:
+  tls_high: {states: {start_state: aPT_CKD_TLShigh, alt_states: [aPT_CKD_TLSlow]}}   # 1 回目
+  tls_low:  {states: {start_state: aPT_CKD_TLSlow,  alt_states: [aPT_CKD_TLShigh]}}  # 2 回目（文脈依存性）
+
+cell_selection:                     # 遺伝子ごとに「その遺伝子が入力に含まれる start 細胞」から抽出（run_isp.py select_cells）
+  max_cells_per_gene: 100
+  max_cells_per_donor: 15
+  min_cells_per_gene: 30            # これ未満しか取れない遺伝子は実行せず記録する
+  donor_key: donor_id
+
+state_embs:                         # 状態重心（seed ごとに抽出。precheck も seed 0 の同じ細胞を使う）
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+
+precheck:                           # --precheck（ISP の前に行う。HYP の事前チェック）
+  seed: 0
+  folds: 5
+  C: 1.0
+  emb_layer: -1
+  min_auc_goal: 0.8                 # start vs goal がこれ未満なら ISP は行わない
+  min_auc_alt: 0.6                  # start vs alt がこれ未満なら 2 回目（runs.tls_low）は行わない
+
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  genes_to_perturb:                 # 対象（新規予測 3 + データ駆動の参照 2）
+    - ENSG00000141510               # TP53
+    - ENSG00000124762               # CDKN1A
+    - ENSG00000111321               # LTBR
+    - ENSG00000118785               # SPP1（参照）
+    - ENSG00000148346               # LCN2（参照）
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls                     # V2 必須（guardrails）
+  forward_batch_size: 8             # MPS の実測最適値
+  nproc: 1                         # MPS 使用後の fork で datasets.map の子プロセスが落ちる（phase 0 で確認）
+
+controls:
+  positive:
+    - ENSG00000162692               # VCAM1
+    - ENSG00000113249               # HAVCR1
+  negative_random_n: 20
+  negative_sampler:                 # 発現頻度マッチのランダム遺伝子（seed ごとに抽出）
+    method: freq_matched
+    min_cells: 300                  # start 細胞のうち 300 細胞以上で入力に含まれる遺伝子から
+    match_to: targets               # 対象 5 遺伝子を順に参照し、各 4 遺伝子
+    ratio_tolerance: 1.5            # 発現細胞数の比が 1/1.5〜1.5 倍
+    seed_offset: 0
+  negative_fixed:                   # ハウスキーピング（非特異的シフトの参照。null には入れない）
+    - ENSG00000075624               # ACTB
+    - ENSG00000111640               # GAPDH
+    - ENSG00000196262               # PPIA
+  fixed_role: housekeeping
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+analysis:                           # 事前登録した判定（validate_isp.py --hyp-metrics が読む）
+  null_role: negative               # 経験的 null = 発現頻度マッチのランダム 20 遺伝子
+  primary_targets: [ENSG00000141510, ENSG00000124762, ENSG00000111321]
+  null_quantile_primary: 0.95       # 上位 5%
+  fdr_family: targets               # BH-FDR は対象 5 遺伝子で
+  min_seeds_passing: 2              # 3 seed 中 2 以上
+  positive_null_quantile: 0.90      # 陽性対照・参照が null の上位 10%
+  falsify_null_quantile: 0.80       # 3 seed すべてで 80 パーセンタイル以下なら棄却
+  ratio_threshold: 1.2              # shift(TLS-high) / shift(TLS-low)
+  bootstrap_n: 2000
+  bootstrap_seed: 0
+  # --- G2（2026-09-26, PI 承認）で本番前に確定。本番データを見る前の登録 ---
+  fdr_p: norm                       # FDR には null の正規近似 p（p_norm）を使う。経験的分位（上位 5%）も併記
+  metrics: [shift_goal, shift_goal_minus_start]   # 主要: 両方で判定。後者は削除ドリフト（全重心への一様な負シフト）を差し引く
+
+robustness:
+  seeds: [0, 1, 2]                  # seed ごとに細胞の抽出・ランダム遺伝子・重心の細胞が変わる
+  subsample_frac: 1.0               # cell_selection が seed ごとのサブサンプルを担う
+  emb_layers: [-1]
+
+output:
+  results_dir: results
+
+compute:
+  device: mps
+  dtype: bf16                       # PI 決定（2026-09-26「bf16 を標準に」）。phase 0c: fp32 と Spearman 0.879（../Geneformer 基準 0.98 未達）、上位 5 一致 5/5・符号 10/10
+  cache_model: true                 # 遺伝子ごとのモデル再ロードを省く
+  sec_per_cell_gene: 0.6161         # phase 0c の実測（bf16, MPS, 100 細胞×10 遺伝子。fp32 は 0.8219）
+  gpu_hours_estimate: 3.9           # bf16 実測ベース（run 2 も 100 細胞/遺伝子と仮定した上限。実際は ~3.3 h）→ G2 必須

@@ -1,0 +1,159 @@
+{
+ "kidney_fib": {
+  "count": "0",
+  "records": []
+ },
+ "senescence": {
+  "count": "85",
+  "records": [
+   {
+    "pmid": "42795268",
+    "date": "2026 Aug 25",
+    "journal": "Life (Basel)",
+    "title": "Differential Modulation of Extracellular Matrix- and Longevity-Related Gene Expression by Calcium Hydroxylapatite Formulations.",
+    "authors": [
+     "Haddad A",
+     "Issa MCA",
+     "Tonon L"
+    ],
+    "doi": "10.3390/life16091400"
+   },
+   {
+    "pmid": "42653901",
+    "date": "2026 Aug 13",
+    "journal": "Molecules",
+    "title": "Silk Fibroin Peptides Promote Extracellular Matrix Homeostasis in Photoaging via Modulation of the ITGB1/FAK-TGF-β/Smad Signaling Axis.",
+    "authors": [
+     "He S",
+     "Yan Y",
+     "Xiong F"
+    ],
+    "doi": "10.3390/molecules31162820"
+   },
+   {
+    "pmid": "42247333",
+    "date": "2026 Jun 2",
+    "journal": "J Wound Care",
+    "title": "Comparative effects of hyaluronic acid-amino acid and polynucleotide mixtures on extracellular matrix gene expression in human dermal fibroblasts.",
+    "authors": [
+     "Canciani L",
+     "Nisoli E"
+    ],
+    "doi": "10.12968/jowc.2026.0176"
+   },
+   {
+    "pmid": "42120407",
+    "date": "2026 May 12",
+    "journal": "NPJ Parkinsons Dis",
+    "title": "Preformed fibrils of α-synuclein rapidly activate LRRK2 on early endosomes, driving Rab5 phosphorylation and disrupting endolysosomal and synaptic function.",
+    "authors": [
+     "Zuo X",
+     "Chen Z",
+     "Chen XQ"
+    ],
+    "doi": "10.1038/s41531-026-01382-z"
+   },
+   {
+    "pmid": "42067346",
+    "date": "2026 Jul 1",
+    "journal": "Carbohydr Polym",
+    "title": "Enhanced biodistribution and efficacy of nicomenthyl encapsulated in emulsions stabilized by methacrylated hyaluronic acid for the prevention and treatment of skin photoaging.",
+    "authors": [
+     "Zamora P",
+     "Moncada Á",
+     "Loinaz I"
+    ],
+    "doi": "10.1016/j.carbpol.2026.125311"
+   },
+   {
+    "pmid": "41881670",
+    "date": "2026 Apr",
+    "journal": "J Cosmet Dermatol",
+    "title": "BIO3 Protocol: Clinical and In Vitro Evidence of Triple Biostimulation With CaHA and P (LA/CL) Threads.",
+    "authors": [
+     "Tonon L",
+     "Alves MO",
+     "Viana R"
+    ],
+    "doi": "10.1111/jocd.70803"
+   },
+   {
+    "pmid": "41735646",
+    "date": "2026 Mar",
+    "journal": "Nat Aging",
+    "title": "Identification of distinct and shared biomarker panels in different manifestations of cerebral small-vessel disease through proteomic profiling.",
+    "authors": [
+     "Hristovska I",
+     "Pichet Binette A",
+     "Kumar A"
+    ],
+    "doi": "10.1038/s43587-026-01081-7"
+   },
+   {
+    "pmid": "41669823",
+    "date": "2026 Feb",
+    "journal": "J Cosmet Dermatol",
+    "title": "Calcium Hydroxyapatite and Polymicronutrient Solution on Hand Rejuvenation: A Split-Hand, Randomized, Double-Blind Clinical and In Vitro Study.",
+    "authors": [
+     "Faria GEL",
+     "Hasmann C",
+     "Viana RMM"
+    ],
+    "doi": "10.1111/jocd.70716"
+   },
+   {
+    "pmid": "41596652",
+    "date": "2026 Jan 20",
+    "journal": "Int J Mol Sci",
+    "title": "Anti-Photoaging Effect of Soluble Microneedles Loaded with Hydroxytyrosol.",
+    "authors": [
+     "Wang J",
+     "Zhu G",
+     "Han M"
+    ],
+    "doi": "10.3390/ijms27021005"
+   },
+   {
+    "pmid": "41516097",
+    "date": "2025 Dec 24",
+    "journal": "Int J Mol Sci",
+    "title": "Anti-Aging Efficacy of Low-Molecular-Weight Polydeoxyribonucleotide Derived from Paeonia lactiflora.",
+    "authors": [
+     "Bak SU",
+     "Jung MS",
+     "Kim DJ"
+    ],
+    "doi": "10.3390/ijms27010220"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "2",
+  "records": [
+   {
+    "pmid": "29167448",
+    "date": "2017 Nov 22",
+    "journal": "Sci Rep",
+    "title": "Systematic Screening of Chemokines to Identify Candidates to Model and Create Ectopic Lymph Node Structures for Cancer Immunotherapy.",
+    "authors": [
+     "Yagawa Y",
+     "Robertson-Tessi M",
+     "Zhou SL"
+    ],
+    "doi": "10.1038/s41598-017-15924-2"
+   },
+   {
+    "pmid": "26156866",
+    "date": "2015 Jul 9",
+    "journal": "Arthritis Res Ther",
+    "title": "Ectopic lymphoid neogenesis is strongly associated with activation of the IL-23 pathway in rheumatoid synovitis.",
+    "authors": [
+     "Cañete JD",
+     "Celis R",
+     "Yeremenko N"
+    ],
+    "doi": "10.1186/s13075-015-0688-0"
+   }
+  ]
+ }
+}

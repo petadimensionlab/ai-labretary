@@ -1,0 +1,6 @@
+== kidney_fib (count=0)
+== senescence (count=3)
+  39237990 | 2024 Sep 6 | J Nanobiotechnology | Apoptotic metabolites ameliorate bone aging phenotypes via TCOF1/FLVCR1-mediated mitochondrial homeostasis.
+  38513237 | 2024 Jun 13 | Blood | Genetic regulation of carnitine metabolism controls lipid damage repair and aging RBC hemolysis in vivo and in vitro.
+  37118062 | 2022 May | Nat Aging | Metagenomic and metabolomic remodeling in nonagenarians and centenarians and its association with genetic and socioeconomic factors.
+== tls_lymphoid (count=0)

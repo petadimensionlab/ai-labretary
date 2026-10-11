@@ -1,0 +1,197 @@
+{
+ "kidney_fib": {
+  "count": "4",
+  "records": [
+   {
+    "pmid": "37704178",
+    "date": "2023 Nov",
+    "journal": "Immunol Lett",
+    "title": "Single-cell communication patterns and their intracellular information flow in synovial fibroblastic osteoarthritis and rheumatoid arthritis.",
+    "authors": [
+     "Wang J",
+     "Liu C",
+     "Wang T"
+    ],
+    "doi": "10.1016/j.imlet.2023.09.005"
+   },
+   {
+    "pmid": "36082436",
+    "date": "2022 Dec",
+    "journal": "Int J Rheum Dis",
+    "title": "Jian Pi Shen Shi formula alleviates hyperuricemia and related renal fibrosis in uricase-deficient rats via suppression of the collagen-binding pathway.",
+    "authors": [
+     "Yin N",
+     "Li X",
+     "Liu W"
+    ],
+    "doi": "10.1111/1756-185X.14434"
+   },
+   {
+    "pmid": "34775048",
+    "date": "2022 Apr",
+    "journal": "Spine J",
+    "title": "Myofibroblasts are increased in the dorsal layer of the hypertrophic ligamentum flavum in lumbar spinal canal stenosis.",
+    "authors": [
+     "Hayashi F",
+     "Morimoto M",
+     "Higashino K"
+    ],
+    "doi": "10.1016/j.spinee.2021.11.003"
+   },
+   {
+    "pmid": "33946738",
+    "date": "2021 Apr 29",
+    "journal": "Cells",
+    "title": "Hepatic Wnt1 Inducible Signaling Pathway Protein 1 (WISP-1/CCN4) Associates with Markers of Liver Fibrosis in Severe Obesity.",
+    "authors": [
+     "Pivovarova-Ramich O",
+     "Loske J",
+     "Hornemann S"
+    ],
+    "doi": "10.3390/cells10051048"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "29",
+  "records": [
+   {
+    "pmid": "42331135",
+    "date": "2026 Oct",
+    "journal": "Osteoarthritis Cartilage",
+    "title": "Mapping articular cartilage maturation across postnatal development by proteomics.",
+    "authors": [
+     "Giuffredi G",
+     "Gisbert M",
+     "Filas KV"
+    ],
+    "doi": "10.1016/j.joca.2026.06.006"
+   },
+   {
+    "pmid": "40317420",
+    "date": "2025 Sep",
+    "journal": "J Muscle Res Cell Motil",
+    "title": "RNA-seq and ChIP-seq unveils thyroid hormone receptor α deficiency affects skeletal muscle myoblast proliferation and differentiation via Col6a1 during aging.",
+    "authors": [
+     "Shi R",
+     "Chen G",
+     "Zhang Y"
+    ],
+    "doi": "10.1007/s10974-025-09694-y"
+   },
+   {
+    "pmid": "39969586",
+    "date": "2025 Feb 19",
+    "journal": "Cell Mol Life Sci",
+    "title": "circ0066187 promotes pulmonary fibrogenesis through targeting STAT3-mediated metabolism signal pathway.",
+    "authors": [
+     "Liu B",
+     "Liu W",
+     "Li H"
+    ],
+    "doi": "10.1007/s00018-025-05613-z"
+   },
+   {
+    "pmid": "39024749",
+    "date": "2024 Sep 30",
+    "journal": "Int Immunopharmacol",
+    "title": "Anti-photoaging effect and the mechanism of Coreopsis tinctoria okanin against UVB-induced skin damage in mice.",
+    "authors": [
+     "Sun S",
+     "Li M",
+     "Wang M"
+    ],
+    "doi": "10.1016/j.intimp.2024.112657"
+   },
+   {
+    "pmid": "38915286",
+    "date": "2024 Sep 1",
+    "journal": "Am J Physiol Lung Cell Mol Physiol",
+    "title": "The lung extracellular matrix protein landscape in severe early-onset and moderate chronic obstructive pulmonary disease.",
+    "authors": [
+     "Joglekar MM",
+     "Bekker NJ",
+     "Koloko Ngassie ML"
+    ],
+    "doi": "10.1152/ajplung.00332.2023"
+   },
+   {
+    "pmid": "38424324",
+    "date": "2024 Apr",
+    "journal": "Nat Neurosci",
+    "title": "PolyGR and polyPR knock-in mice reveal a conserved neuroprotective extracellular matrix signature in C9orf72 ALS/FTD neurons.",
+    "authors": [
+     "Milioto C",
+     "Carcolé M",
+     "Giblin A"
+    ],
+    "doi": "10.1038/s41593-024-01589-4"
+   },
+   {
+    "pmid": "38095646",
+    "date": "2023 Dec 12",
+    "journal": "Aging (Albany NY)",
+    "title": "Transcriptome research of human amniocytes identifies hub genes associated with developmental dysplasia in down syndrome.",
+    "authors": [
+     "Guo Z",
+     "Xiao H",
+     "Yang W"
+    ],
+    "doi": "10.18632/aging.205291"
+   },
+   {
+    "pmid": "37039368",
+    "date": "2023 Jun 1",
+    "journal": "Am J Physiol Lung Cell Mol Physiol",
+    "title": "Age-associated differences in the human lung extracellular matrix.",
+    "authors": [
+     "Koloko Ngassie ML",
+     "De Vries M",
+     "Borghuis T"
+    ],
+    "doi": "10.1152/ajplung.00334.2022"
+   },
+   {
+    "pmid": "36552714",
+    "date": "2022 Dec 7",
+    "journal": "Cells",
+    "title": "Apple Derived Exosomes Improve Collagen Type I Production and Decrease MMPs during Aging of the Skin through Downregulation of the NF-κB Pathway as Mode of Action.",
+    "authors": [
+     "Trentini M",
+     "Zanolla I",
+     "Zanotti F"
+    ],
+    "doi": "10.3390/cells11243950"
+   },
+   {
+    "pmid": "36291072",
+    "date": "2022 Oct 12",
+    "journal": "Cells",
+    "title": "Characterization of a Stemness-Optimized Purification Method for Human Dental-Pulp Stem Cells: An Approach to Standardization.",
+    "authors": [
+     "Dieterle MP",
+     "Gross T",
+     "Steinberg T"
+    ],
+    "doi": "10.3390/cells11203204"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "28882590",
+    "date": "2017 Nov 4",
+    "journal": "Biochem Biophys Res Commun",
+    "title": "Targeted deletion of RANKL in M cell inducer cells by the Col6a1-Cre driver.",
+    "authors": [
+     "Nagashima K",
+     "Sawa S",
+     "Nitta T"
+    ],
+    "doi": "10.1016/j.bbrc.2017.09.004"
+   }
+  ]
+ }
+}

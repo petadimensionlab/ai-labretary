@@ -1,0 +1,149 @@
+{
+ "rule": {
+  "R1_min_start_cells_tokenized": 1000,
+  "R1_min_start_donors_ge25": 8,
+  "R2_abs_log2fc_goal_max": 0.25,
+  "R2_abs_log2fc_alt_max": 0.5,
+  "R2_tost_p_max": 0.05,
+  "R3_abs_det_diff_max": 0.05,
+  "R4_abs_relrank_diff_max": 0.03,
+  "R5_donor_cv_max_quantile": 0.75,
+  "R6_exclude_known": true
+ },
+ "eq_margin_log2": 0.25,
+ "cv_thresholds": {
+  "start": 0.3141830414533615,
+  "goal": 0.43059131503105164
+ },
+ "n_start_cells": 7533,
+ "n_donors": {
+  "start": 13,
+  "goal": 21,
+  "alt": 7
+ },
+ "n_genes_vocab_det1pct": 12510,
+ "n_eligible_R1": 4210,
+ "n_pass_all": 71,
+ "n_pass_each": {
+  "R1": 4210,
+  "R2": 79,
+  "R3": 2097,
+  "R4": 2312,
+  "R5": 2588,
+  "R6": 4121
+ },
+ "panel": [
+  {
+   "symbol": "CERS4",
+   "ensembl_id": "ENSG00000090661",
+   "category": "data_driven",
+   "source": "data"
+  },
+  {
+   "symbol": "TATDN1",
+   "ensembl_id": "ENSG00000147687",
+   "category": "data_driven",
+   "source": "data"
+  },
+  {
+   "symbol": "IFT25",
+   "ensembl_id": "ENSG00000081870",
+   "category": "data_driven",
+   "source": "data"
+  },
+  {
+   "symbol": "VAPA",
+   "ensembl_id": "ENSG00000101558",
+   "category": "data_driven",
+   "source": "data"
+  },
+  {
+   "symbol": "PHPT1",
+   "ensembl_id": "ENSG00000054148",
+   "category": "data_driven",
+   "source": "data"
+  },
+  {
+   "symbol": "ANAPC16",
+   "ensembl_id": "ENSG00000166295",
+   "category": "data_driven",
+   "source": "data"
+  },
+  {
+   "symbol": "EEF1D",
+   "ensembl_id": "ENSG00000104529",
+   "category": "data_driven",
+   "source": "data"
+  },
+  {
+   "symbol": "RPS13",
+   "ensembl_id": "ENSG00000110700",
+   "category": "RP_ribosomal",
+   "source": "exploratory_RP"
+  },
+  {
+   "symbol": "RPL32",
+   "ensembl_id": "ENSG00000144713",
+   "category": "RP_ribosomal",
+   "source": "exploratory_RP"
+  }
+ ],
+ "centering_expectation_at_tok_cells_start": {
+  "grid": [
+   300,
+   500,
+   1000,
+   2000,
+   3000,
+   4000,
+   5000,
+   6000,
+   7000
+  ],
+  "log2fc_start_vs_goal": [
+   1.1815,
+   1.031,
+   0.7868,
+   0.57,
+   0.5459,
+   0.2273,
+   0.116,
+   0.3323,
+   0.3587
+  ],
+  "log2fc_start_vs_alt": [
+   0.1341,
+   0.0859,
+   0.0393,
+   0.107,
+   0.142,
+   0.1674,
+   0.1797,
+   0.2186,
+   0.2635
+  ],
+  "det_diff_start_minus_goal": [
+   0.0263,
+   0.0403,
+   0.0721,
+   0.1078,
+   0.1369,
+   0.0652,
+   0.026,
+   -0.0007,
+   -0.0029
+  ],
+  "relrank_diff_start_minus_goal": [
+   0.0392,
+   0.0413,
+   0.024,
+   -0.0312,
+   -0.0871,
+   -0.1023,
+   -0.1143,
+   -0.1301,
+   -0.1349
+  ]
+ },
+ "n_pass_all_raw": 24
+}

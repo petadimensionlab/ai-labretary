@@ -1,0 +1,42 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "primary_auc_per_seed": [
+    0.7207,
+    0.6902,
+    0.7022
+  ],
+  "primary_auc_mean": 0.7044,
+  "ci95_lower_per_seed": [
+    0.67,
+    0.6324,
+    0.6405
+  ],
+  "permutation_p_per_seed": [
+    0.005,
+    0.005,
+    0.005
+  ],
+  "depth_only_auc_per_seed": [
+    0.5748,
+    0.5438,
+    0.5646
+  ],
+  "positive_control_auc_per_seed": [
+    0.9833,
+    0.9892,
+    0.9895
+  ],
+  "criteria": {
+    "C1": true,
+    "C1b": true,
+    "C1c": true,
+    "C2": true,
+    "C3": true
+  },
+  "verdict": "合格（ISP の前提を満たす。G1・G2 の判断は PI）",
+  "note": "仮説の Status は変えない。G1（採択）と G3（結論）の判断は PI。"
+}

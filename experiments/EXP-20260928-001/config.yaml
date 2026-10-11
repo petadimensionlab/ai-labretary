@@ -1,0 +1,347 @@
+# EXP-20260928-001 — 陽性対照の確立をやり直す（事前登録。plan.md を先に読むこと）
+#
+# 設計の要点
+#  - 判定の単位を「1 遺伝子」から「遺伝子セット」に変える（plan.md §5, §6）。
+#    EXP-20260927-004 で分かったこと: 主指標は「遺伝子ごとの平均移動方向と固定軸の内積」でほぼ決まり
+#    （r^2 = 0.81〜0.85）、その方向は seed 間で cos 0.985 とほぼ固定されている。したがって
+#    単一遺伝子の検出下限 2.73 標準偏差は細胞数でも seed 数でも下がらない。
+#    セット平均にすると下限は K=24 で 0.32 標準偏差まで下がる（analysis/power_001.py）。
+#  - 主対象 LTBR / RELB / NFKB2、参考対象 CDKN1A、盲検の TP53 / SPP1 / LCN2、
+#    目標ラベルを定義する CCL19 / CCL21 / CXCL13 は**回さない**。
+#    evaluate_001.py が読み込み直後に除外し、1 行でも残っていれば停止する。
+#  - マーカーセットは EXP-20260927-004 で摂動済みの 106 遺伝子を除いて選んだ（独立性）。
+#  - 出発点・目標・対照の状態から MYOF / cycMYOF を除いた（重心どうしの細胞の重なりを断つ）。
+#  - seed は 41 / 42 / 43（既出の 0〜5, 11〜13, 21〜23, 31〜33 と重ならない）。
+experiment_id: EXP-20260928-001
+hypothesis_id: null                 # 仮説の検定ではない。測り方と陽性対照の確立
+
+model:                              # EXP-20260927-003 / 004 と同一（比較可能性のため変えない）
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260927-002/work/input.h5ad      # 読み取りのみ。data/raw は触らない
+  # EXP-20260927-004 のデータ部分を cp -c で複製し、cache-*.arrow を削除したうえで、
+  # **MYOF / cycMYOF の細胞の状態ラベルを `MYOF_<元の状態>` に付け替えたもの**（plan.md §3）。
+  # 付け替えの理由: run_isp.py の start_matrix() は状態ラベルだけで摂動する細胞を選ぶので、
+  # 付け替えないと出発点 5,748 細胞のうち 1,132（19.7%）が筋線維芽細胞になり、
+  # 重心の側だけ MYOF を除いても、摂動する細胞の側に混ざったままになる。
+  # 行の順序と input_ids は一切変えていない（state_rows の行番号はそのまま有効）。
+  tokenized_dataset: experiments/EXP-20260928-001/work/tokenized.dataset
+  cell_type_col: subclass_l2
+  state_key: fib_tls_state
+  custom_attr_name_dict: {fib_tls_state: fib_tls_state, donor_id: donor_id, subclass_l2: subclass_l2,
+                          disease: disease, region: region, TLS_group: TLS_group,
+                          n_genes: n_genes, n_counts: n_counts}
+  filter_data: null
+  max_ncells: null
+
+states:
+  start_state: FIB_neg_TLShigh
+  goal_state: FIB_org
+  alt_states: [FIB_neg_TLSlow]
+
+state_embs:
+  max_cells_per_state: 800
+  max_cells_per_donor: 60
+  rows_file: experiments/EXP-20260928-001/work/state_rows-seed{seed}.json   # MYOF を除き深さマッチした行番号
+
+cell_selection:
+  donor_key: donor_id
+  max_cells_per_gene: 200
+  max_cells_per_donor: 20
+  min_cells_per_gene: 120
+
+perturbation:
+  perturb_type: overexpress
+  perturb_rank_shift: null
+  controls_only: false
+  # 目標マーカーセット 24（work/genes_001.json の role=marker_goal と同一。plan.md §5.2）
+  # run_isp.py の role は target になる。**本実験の主判定はこのセットの「平均」である**（個々の遺伝子ではない）
+  genes_to_perturb:
+    - ENSG00000119686  # FLVCR2  (top, 偏り 1.324/0.207)
+    - ENSG00000213694  # S1PR3  (top, 偏り 1.185/-0.422)
+    - ENSG00000137491  # SLCO2B1  (top, 偏り 1.172/-0.574)
+    - ENSG00000047457  # CP  (top, 偏り 1.161/-2.057)
+    - ENSG00000004799  # PDK4  (top, 偏り 1.132/-0.175)
+    - ENSG00000183570  # PCBP3  (top, 偏り 1.114/-1.32)
+    - ENSG00000122432  # SPATA1  (top, 偏り 1.087/-0.02)
+    - ENSG00000107438  # PDLIM1  (top, 偏り 1.045/0.405)
+    - ENSG00000153208  # MERTK  (top, 偏り 1.037/0.52)
+    - ENSG00000138764  # CCNG2  (top, 偏り 1.032/-0.232)
+    - ENSG00000143878  # RHOB  (top, 偏り 1.014/0.503)
+    - ENSG00000118985  # ELL2  (top, 偏り 1.005/0.493)
+    - ENSG00000104043  # ATP8B4  (random, 偏り 0.877/-0.169)
+    - ENSG00000105829  # BET1  (random, 偏り 0.861/0.023)
+    - ENSG00000105339  # DENND3  (random, 偏り 0.84/0.153)
+    - ENSG00000042832  # TG  (random, 偏り 0.861/-0.142)
+    - ENSG00000139194  # RBP5  (random, 偏り 0.916/-0.441)
+    - ENSG00000246705  # H2AJ  (random, 偏り 0.986/0.388)
+    - ENSG00000083099  # LYRM2  (random, 偏り 0.855/-0.076)
+    - ENSG00000166501  # PRKCB  (random, 偏り 0.838/-1.149)
+    - ENSG00000139182  # CLSTN3  (random, 偏り 0.844/-0.899)
+    - ENSG00000221869  # CEBPD  (random, 偏り 0.804/-0.203)
+    - ENSG00000105835  # NAMPT  (random, 偏り 0.846/-0.109)
+    - ENSG00000132874  # SLC14A2  (random, 偏り 0.814/-0.526)
+  combos: 0                         # run_isp.py は遺伝子を 1 個ずつ回す。同時摂動は使わない（plan.md §5.1）
+  anchor_gene: null
+  emb_mode: cls                     # V2 は cls 必須（guardrails 2026-09-25）
+  forward_batch_size: 8
+  nproc: 1                          # GPU 使用プロセスでは datasets の fork を避ける（guardrails 2026-09-26）
+
+blocked_genes:                      # 摂動しない。evaluate_001.py が assert する
+  - ENSG00000111321                 # LTBR   主対象
+  - ENSG00000104856                 # RELB   主対象
+  - ENSG00000077150                 # NFKB2  主対象
+  - ENSG00000124762                 # CDKN1A 参考対象・盲検
+  - ENSG00000141510                 # TP53   盲検（未解除）
+  - ENSG00000118785                 # SPP1   盲検（未解除）
+  - ENSG00000148346                 # LCN2   盲検（未解除）
+  - ENSG00000172724                 # CCL19  目標ラベルを定義する遺伝子（循環性）
+  - ENSG00000137077                 # CCL21  同上
+  - ENSG00000156234                 # CXCL13 同上
+
+controls:
+  # 筋線維芽細胞マーカーセット 24（交差の対照 かつ アッセイが働いていることの陽性対照）
+  positive:
+    - ENSG00000133392  # MYH11  (top, 偏り 0.102/2.374)
+    - ENSG00000156113  # KCNMA1  (top, 偏り 0.762/2.159)
+    - ENSG00000078098  # FAP  (top, 偏り 0.53/2.152)
+    - ENSG00000150471  # ADGRL3  (top, 偏り 0.283/1.9)
+    - ENSG00000164176  # EDIL3  (top, 偏り 0.524/1.854)
+    - ENSG00000132334  # PTPRE  (top, 偏り 0.798/1.837)
+    - ENSG00000135842  # NIBAN1  (top, 偏り -0.366/1.799)
+    - ENSG00000119681  # LTBP2  (top, 偏り -0.051/1.731)
+    - ENSG00000137941  # TTLL7  (top, 偏り 0.361/1.693)
+    - ENSG00000151320  # AKAP6  (top, 偏り -0.001/1.649)
+    - ENSG00000113657  # DPYSL3  (top, 偏り 0.552/1.61)
+    - ENSG00000078018  # MAP2  (top, 偏り 0.381/1.591)
+    - ENSG00000186340  # THBS2  (random, 偏り 0.242/1.003)
+    - ENSG00000186479  # RGS7BP  (random, 偏り 0.545/1.398)
+    - ENSG00000182667  # NTM  (random, 偏り -0.44/1.279)
+    - ENSG00000122641  # INHBA  (random, 偏り 0.356/1.576)
+    - ENSG00000081923  # ATP8B1  (random, 偏り 0.149/1.051)
+    - ENSG00000206190  # ATP10A  (random, 偏り 0.641/1.33)
+    - ENSG00000196923  # PDLIM7  (random, 偏り 0.112/1.192)
+    - ENSG00000088756  # ARHGAP28  (random, 偏り 0.431/0.938)
+    - ENSG00000250305  # TRMT9B  (random, 偏り 0.253/0.853)
+    - ENSG00000161791  # FMNL3  (random, 偏り 0.143/0.94)
+    - ENSG00000134243  # SORT1  (random, 偏り 0.46/1.507)
+    - ENSG00000164483  # SAMD3  (random, 偏り -0.024/1.332)
+  # 恒常発現遺伝子（中立性の検査）
+  negative_fixed:
+    - ENSG00000075624  # ACTB
+    - ENSG00000111640  # GAPDH
+    - ENSG00000196262  # PPIA
+  fixed_role: housekeeping
+  extra_fixed:
+    - role: negctrl_panel          # 中立対照パネル 7（EXP-20260926-003/005・EXP-20260927-001/004 と同一）
+      genes:
+        - ENSG00000090661  # CERS4
+        - ENSG00000147687  # TATDN1
+        - ENSG00000081870  # IFT25
+        - ENSG00000101558  # VAPA
+        - ENSG00000054148  # PHPT1
+        - ENSG00000166295  # ANAPC16
+        - ENSG00000104529  # EEF1D
+    - role: reference_myof         # EXP-20260927-004 と比べるための参照（既測定。判定には使わない）
+      genes:
+        - ENSG00000107796  # ACTA2
+        - ENSG00000149591  # TAGLN
+  # 対照遺伝子 96（work/null_pool_001.json と同一。plan.md §5.3）
+  # どちらの状態にも偏らない（|bias| < 0.5）遺伝子から、判定遺伝子に元の位置・入力の長さ・細胞数を
+  # そろえて選び、主検定で使える対照遺伝子が全判定遺伝子で 20 以上になるまで補充した
+  negative_random_n: 96
+  negative_sampler:
+    method: explicit
+    genes:
+    - ENSG00000143156  # NME7
+    - ENSG00000131966  # ACTR10
+    - ENSG00000075568  # TMEM131
+    - ENSG00000086232  # EIF2AK1
+    - ENSG00000160145  # KALRN
+    - ENSG00000269113  # TRABD2B
+    - ENSG00000109390  # NDUFC1
+    - ENSG00000213585  # VDAC1
+    - ENSG00000127540  # UQCR11
+    - ENSG00000151474  # FRMD4A
+    - ENSG00000177879  # AP3S1
+    - ENSG00000046651  # OFD1
+    - ENSG00000137166  # FOXP4
+    - ENSG00000106246  # PTCD1
+    - ENSG00000113140  # SPARC
+    - ENSG00000100219  # XBP1
+    - ENSG00000164050  # PLXNB1
+    - ENSG00000089159  # PXN
+    - ENSG00000198815  # FOXJ3
+    - ENSG00000074416  # MGLL
+    - ENSG00000166598  # HSP90B1
+    - ENSG00000164924  # YWHAZ
+    - ENSG00000114779  # ABHD14B
+    - ENSG00000163162  # RNF149
+    - ENSG00000085719  # CPNE3
+    - ENSG00000154814  # OXNAD1
+    - ENSG00000225190  # PLEKHM1
+    - ENSG00000168872  # DDX19A
+    - ENSG00000198718  # TOGARAM1
+    - ENSG00000198887  # SMC5
+    - ENSG00000089006  # SNX5
+    - ENSG00000130511  # SSBP4
+    - ENSG00000105583  # WDR83OS
+    - ENSG00000099795  # NDUFB7
+    - ENSG00000008952  # SEC62
+    - ENSG00000172354  # GNB2
+    - ENSG00000172348  # RCAN2
+    - ENSG00000112584  # FAM120B
+    - ENSG00000155657  # TTN
+    - ENSG00000150753  # CCT5
+    - ENSG00000091136  # LAMB1
+    - ENSG00000196511  # TPK1
+    - ENSG00000177733  # HNRNPA0
+    - ENSG00000108654  # DDX5
+    - ENSG00000118971  # CCND2
+    - ENSG00000112837  # TBX18
+    - ENSG00000172780  # RAB43
+    - ENSG00000099364  # FBXL19
+    - ENSG00000038382  # TRIO
+    - ENSG00000163219  # ARHGAP25
+    - ENSG00000166589  # CDH16
+    - ENSG00000220205  # VAMP2
+    - ENSG00000140830  # TXNL4B
+    - ENSG00000235194  # PPP1R3E
+    - ENSG00000173915  # ATP5MK
+    - ENSG00000136238  # RAC1
+    - ENSG00000047365  # ARAP2
+    - ENSG00000170540  # ARL6IP1
+    - ENSG00000197324  # LRP10
+    - ENSG00000119048  # UBE2B
+    - ENSG00000160075  # SSU72
+    - ENSG00000135899  # SP110
+    - ENSG00000123143  # PKN1
+    - ENSG00000076555  # ACACB
+    - ENSG00000082153  # BZW1
+    - ENSG00000174886  # NDUFA11
+    - ENSG00000196683  # TOMM7
+    - ENSG00000135404  # CD63
+    - ENSG00000054965  # FAM168A
+    - ENSG00000028116  # VRK2
+    - ENSG00000118680  # MYL12B
+    - ENSG00000096384  # HSP90AB1
+    - ENSG00000165868  # HSPA12A
+    - ENSG00000108055  # SMC3
+    - ENSG00000184743  # ATL3
+    - ENSG00000165714  # BORCS5
+    - ENSG00000163479  # SSR2
+    - ENSG00000143549  # TPM3
+    - ENSG00000166801  # FAM111A
+    - ENSG00000105568  # PPP2R1A
+    - ENSG00000169925  # BRD3
+    - ENSG00000057935  # MTA3
+    - ENSG00000106484  # MEST
+    - ENSG00000172123  # SLFN12
+    - ENSG00000006715  # VPS41
+    - ENSG00000165671  # NSD1
+    - ENSG00000121989  # ACVR2A
+    - ENSG00000108423  # TUBD1
+    - ENSG00000108100  # CCNY
+    - ENSG00000131370  # SH3BP5
+    - ENSG00000124486  # USP9X
+    - ENSG00000166619  # BLCAP
+    - ENSG00000182670  # TTC3
+    - ENSG00000196569  # LAMA2
+    - ENSG00000153187  # HNRNPU
+    - ENSG00000082397  # EPB41L3
+  comparator: null
+
+capture:
+  embeddings: true                  # 元・摂動後の CLS 埋め込みを保存（軸ごとの接近度を後から計算する）
+  classifier_logits: false
+
+extra_centroids:
+  output: experiments/EXP-20260928-001/work/extra_centroids-seed{seed}.npz
+  sets:
+    MYOF_neg:                       # 第 2 の軸: 筋線維芽細胞の重心
+                                    # 状態ラベルを付け替えたので、3 状態との細胞の重なりは定義上 0 になる
+      states: [MYOF_FIB_neg_TLShigh, MYOF_FIB_neg_TLSlow]
+      subclass_l2: [MYOF, cycMYOF]  # 冗長だが二重の安全確認として残す
+      depth_match_to: FIB_neg_TLShigh
+      max_cells: 800
+      max_cells_per_donor: 60
+    FIB_org_unmatched:              # 感度分析: 深さマッチをしない目標重心（判定に使わない）
+      states: [FIB_org]             # 付け替え後の FIB_org は MYOF を含まない
+      depth_match_to: null
+      max_cells: 800
+      max_cells_per_donor: 60
+
+analysis:                           # plan.md §6 の事前登録（結果を見る前に確定）
+  primary_metric: A12               # (軸 − 他の 3 重心の平均) / 移動量。軸を入れ替えて 3 本作る
+  primary_unit: gene_set            # **判定の単位はセット**（EXP-20260927-004 からの最大の変更）
+  pos_definition: index_in_input_ids
+  primary_test: set_mean_vs_random_control_sets
+  pos_matched_permutation:          # 遺伝子ごとの D_raw の作り方（EXP-20260927-003/004 と同じ実装）
+    bias_model: quadratic_lp_ll
+    distance: max_abs_log2
+    tolerance_log2: 0.5
+    min_cover_frac: 0.8
+    min_eligible_null_genes: 20
+    statistic: D_raw
+  criteria:
+    require_all_seeds: true         # 3 seed すべて
+    K_set: 24                       # マーカーセットの大きさ
+    n_permutation: 200000           # 無作為な対照セットの引き直し回数（閾値の決定）
+    set_percentile: 0.99            # セット平均 z が、無作為な対照セットの 99 パーセンタイルを超えること
+    set_abs_min: 0.245              # 併せて満たす絶対値。EXP-20260927-004 の対照 84 個で K=24 のとき
+                                    # 偶然合格率 5% になる値（結果を見る前に別データから固定）
+    n_chance_draw: 200000           # 偶然合格率の実測に使う引き直し回数
+    max_chance_rate: 0.02           # 偶然合格率の実測がこれ以下であること
+    neutral_range: [0.05, 0.95]     # 恒常発現遺伝子・中立対照パネルのセットが入るべき分位
+    neutral_min_seeds: 2
+    n_sham_sets: 3                  # 偽マーカーセット（位置・長さ・細胞数をそろえた対照のセット）
+    null_draw_seed: 20260928
+    # --- 指標の健全性（EXP-20260927-004 と同一の閾値。変えない）
+    M1_tail_frac_max: 0.20
+    M1_min_n: 60
+    M2_abs_rho_max: 0.25
+    M2_min_seeds: 2
+    M3_range: [0.10, 0.90]
+    M3_min_seeds: 2
+    M3_panel_min_genes: 5
+    M4_abs_rho_uniform_max: 0.40
+    M4_abs_rho_placebo_max: 0.50
+  descriptive_only:                 # 記録するが合否には入れない
+    - single_gene_2p5sd             # 単一遺伝子で 2.5 標準偏差を超えるマーカーの数と、対照での偶然合格率
+    - half_split                     # 目標マーカーセットの「上位 12」と「無作為 12」を分けた結果
+    - bias_vs_effect                # 目標への偏りと効果量の順位相関（用量反応の検査）
+    - reference_myof                # ACTA2 / TAGLN（EXP-20260927-004 との比較）
+    - donor_level
+    - goal_unmatched_sensitivity
+
+# run_isp.py が必須とするセクション（validate() と run_stats()）。
+# 本実験の判定は analysis/evaluate_001.py が埋め込みから直接計算するので、ここの出力は判定に使わない。
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+robustness:
+  seeds: [41, 42, 43]
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results
+  experiment_dir: experiments/EXP-20260928-001
+
+compute:
+  device: mps                       # 実行はリモート計算機（GB10）。isp_remote.sh が cuda で上書きする
+  dtype: bf16                       # PI 標準（2026-09-26）。コサインは fp32
+  cache_model: true
+  sec_per_cell_gene: 0.125          # GB10 実測（EXP-20260926-005 run O）
+  sec_fixed_per_gene_run: 3.18      # EXP-20260927-001 の回帰
+  sec_per_1e5_tokens: 4.49
+  n_gene_runs: 468                  # 156 遺伝子 × 3 seed
+  n_cell_gene: 93600
+  n_tokens: 1.84e8
+  gpu_hours_estimate: 6.0           # plan.md §8。上限 24 時間に対し余裕あり → G2 不要

@@ -1,0 +1,42 @@
+dataset,test,n,stat,p
+A1,spearman TLS_score vs frac_BPL_all,75,0.7507900797804832,8.7412978083834e-15
+A1,spearman TLS_score vs age,75,0.3315959530673433,0.003658726797580085
+A1,spearman frac_BPL_all vs age,75,0.24693688261588564,0.03269466862114714
+A1,OLS TLS_score ~ age + disease: age coef (per year),75,0.011719283085508451,0.019315339707103356
+A1,spearman TLS_score vs age (normal only),23,0.6558752091059972,0.0006788892525863173
+A1,"kruskal TLS_score by disease [normal: n=23, median=-0.45; chronic kidney disease: n=36, median=-0.12; acute kidney injury: n=16, median=0.03]",75,15.855771675565705,0.0003605478644032899
+A1,mannwhitney TLS_score chronic kidney disease vs normal,59,625.0,0.0010696432536308875
+A1,mannwhitney TLS_score acute kidney injury vs normal,39,302.0,0.00079404753534807
+A2,spearman TLS_score vs frac_BPL_all,77,0.7980436322917718,3.630293983537683e-18
+A2,spearman TLS_score vs age,77,0.25204428372635035,0.027012492489470713
+A2,spearman frac_BPL_all vs age,77,0.20727615843461014,0.07048364888508192
+A2,OLS TLS_score ~ age + disease: age coef (per year),77,0.007240553058568312,0.22198091523381155
+A2,spearman TLS_score vs age (normal only),26,0.32031596113881067,0.11063810579108342
+A2,"kruskal TLS_score by disease [normal: n=26, median=-0.66; chronic kidney disease: n=37, median=0.18; acute kidney injury: n=14, median=0.45]",77,18.439505252692072,9.90631902249934e-05
+A2,mannwhitney TLS_score chronic kidney disease vs normal,63,740.0,0.00030750993141537557
+A2,mannwhitney TLS_score acute kidney injury vs normal,40,302.0,0.0007025919959061624
+A3,spearman TLS_score vs frac_BPL_all,25,0.5938461538461539,0.0017499536930720182
+A3,spearman TLS_score vs age,25,-0.5825338146707348,0.002246663838113216
+A3,spearman frac_BPL_all vs age,25,-0.6378138028350318,0.0006037147618185539
+A3,"kruskal TLS_score by summaryDescription [Normal kidney: n=6, median=-0.35; Tumour: n=11, median=0.05; Tumour-normal: n=8, median=0.26]",25,3.076083916083917,0.21480127984782757
+A3,mannwhitney TLS_score Tumour vs Normal kidney,17,42.0,0.4043309631544926
+A3,mannwhitney TLS_score Tumour-normal vs Normal kidney,14,37.0,0.1078921078921079
+A3,paired wilcoxon TLS_score Tumour vs Normal kidney (tumour>normal in 8/9),9,2.0,0.01171875
+A4,spearman TLS_score vs frac_BPL_all,24,0.42869565217391303,0.03660002306000617
+A4,spearman TLS_score vs age,24,0.1092606434117874,0.6113010735401851
+A4,spearman frac_BPL_all vs age,24,-0.29606109827710136,0.16011249471580127
+A4,"kruskal TLS_score by author_type [Tumor: n=18, median=-0.16; Normal: n=6, median=0.02]",24,0.11111111111111427,0.7388826803635237
+A4,mannwhitney TLS_score Tumor vs Normal,24,49.0,0.7702606318166959
+A5,spearman TLS_score vs frac_BPL_all,12,0.6935212036549627,0.01237489624179398
+A5,spearman TLS_score vs age,12,0.7337145955561506,0.006604886046426686
+A5,spearman frac_BPL_all vs age,12,0.5477168580878051,0.06526561384995089
+A5,"kruskal TLS_score by disease [clear cell renal carcinoma: n=7, median=-0.18; normal: n=5, median=-0.40]",12,1.4835164835164818,0.2232251453067525
+A5,mannwhitney TLS_score clear cell renal carcinoma vs normal,12,25.0,0.26767676767676774
+A5,paired wilcoxon TLS_score clear cell renal carcinoma vs normal (tumour>normal in 3/4),4,1.0,0.25
+A6,spearman TLS_score vs frac_BPL_all,12,0.8111888111888113,0.0013633152527271926
+A6,spearman TLS_score vs age,12,0.2027972027972028,0.5273023541661079
+A6,spearman frac_BPL_all vs age,12,0.18181818181818185,0.5717012385276553
+A6,OLS TLS_score ~ age + disease: age coef (per year),12,0.002414803358211091,0.8938737815437227
+A6,spearman TLS_score vs age (normal only),7,-0.10714285714285716,0.8191508555699912
+A6,"kruskal TLS_score by disease [normal: n=7, median=-0.43; obstructive nephropathy: n=5, median=0.46]",12,8.07692307692308,0.004483250402085378
+A6,mannwhitney TLS_score obstructive nephropathy vs normal,12,35.0,0.0025252525252525255

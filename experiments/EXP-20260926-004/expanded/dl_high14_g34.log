@@ -1,0 +1,20 @@
+== m_a2
+  cell     C1=False {'VCAM1': [1.0, 1.0, 1.0], 'HAVCR1': [0.85, 0.7, 0.55]} C2=17/18 C3=True {'ACTB': [0.2, 0.7, 0.45], 'GAPDH': [0.3, 1.0, 0.45], 'PPIA': [0.3, 0.7, 0.55]} panel=7/7 nullneg=0.4
+  dl_med   C1=False {'VCAM1': [1.0, 1.0, 1.0], 'HAVCR1': [0.7, 0.3, 0.7]} C2=14/18 C3=True {'ACTB': [0.15, 0.55, 0.65], 'GAPDH': [0.7, 0.95, 0.65], 'PPIA': [0.6, 0.4, 0.65]} panel=7/7 nullneg=0.45
+  dl_mean  C1=False {'VCAM1': [1.0, 1.0, 1.0], 'HAVCR1': [0.85, 0.65, 0.6]} C2=16/18 C3=True {'ACTB': [0.2, 0.7, 0.5], 'GAPDH': [0.5, 1.0, 0.5], 'PPIA': [0.35, 0.65, 0.6]} panel=7/7 nullneg=0.433
+  split-half: {'cell': {'rho': 0.379, 'sd': 0.125, 'spearman_brown': 0.55}, 'dl_med': {'rho': 0.31, 'sd': 0.159, 'spearman_brown': 0.474}, 'dl_mean': {'rho': 0.365, 'sd': 0.134, 'spearman_brown': 0.534}}
+  sign/excess: {'VCAM1': {'frac_donors_pos': 1.0, 'null_pct_of_frac_pos': 1.0, 'n_donors': 14, 'excess_frac_pos': 1.0, 'excess_median': 0.0017400194135567884, 'excess_wilcoxon_p_greater': 6.103515625e-05}, 'HAVCR1': {'frac_donors_pos': 0.615, 'null_pct_of_frac_pos': 0.65, 'n_donors': 13, 'excess_frac_pos': 0.538, 'excess_median': 0.00012427712707386456, 'excess_wilcoxon_p_greater': 0.2486572265625}, 'null_frac_pos_median': 0.538}
+  LODO: {'rho_min': 0.848, 'rho_median': 0.934, 'n_donors': 14, 'n_flip': {'C1': 0, 'C2': 3, 'C3': 1, 'C3_panel': 0}, 'n_flip_VCAM1_C1': 0, 'n_flip_HAVCR1_C1': 0}
+== m_raw
+  cell     C1=False {'VCAM1': [1.0, 1.0, 1.0], 'HAVCR1': [0.9, 0.65, 0.55]} C2=17/18 C3=True {'ACTB': [0.15, 0.55, 0.45], 'GAPDH': [0.3, 0.9, 0.4], 'PPIA': [0.3, 0.5, 0.5]} panel=7/7 nullneg=0.2
+  dl_med   C1=False {'VCAM1': [1.0, 1.0, 1.0], 'HAVCR1': [0.95, 0.4, 0.4]} C2=15/18 C3=True {'ACTB': [0.2, 0.4, 0.35], 'GAPDH': [0.6, 0.85, 0.5], 'PPIA': [0.5, 0.1, 0.5]} panel=7/7 nullneg=0.183
+  dl_mean  C1=False {'VCAM1': [1.0, 1.0, 1.0], 'HAVCR1': [0.9, 0.65, 0.65]} C2=17/18 C3=True {'ACTB': [0.15, 0.6, 0.45], 'GAPDH': [0.35, 0.95, 0.45], 'PPIA': [0.35, 0.55, 0.45]} panel=7/7 nullneg=0.2
+  split-half: {'cell': {'rho': 0.386, 'sd': 0.131, 'spearman_brown': 0.557}, 'dl_med': {'rho': 0.284, 'sd': 0.202, 'spearman_brown': 0.442}, 'dl_mean': {'rho': 0.365, 'sd': 0.137, 'spearman_brown': 0.535}}
+  sign/excess: {'VCAM1': {'frac_donors_pos': 1.0, 'null_pct_of_frac_pos': 1.0, 'n_donors': 14, 'excess_frac_pos': 1.0, 'excess_median': 0.001656842344142932, 'excess_wilcoxon_p_greater': 6.103515625e-05}, 'HAVCR1': {'frac_donors_pos': 0.692, 'null_pct_of_frac_pos': 0.55, 'n_donors': 13, 'excess_frac_pos': 0.538, 'excess_median': 4.931920843486941e-05, 'excess_wilcoxon_p_greater': 0.2486572265625}, 'null_frac_pos_median': 0.643}
+== dP_goal_a2
+  cell     C1=False {'VCAM1': [0.75, 1.0, 0.25], 'HAVCR1': [0.4, 0.25, 0.75]} C2=10/18 C3=True {'ACTB': [0.75, 0.9, 0.75], 'GAPDH': [0.75, 0.85, 0.05], 'PPIA': [0.0, 0.1, 0.1]} panel=7/7 nullneg=0.55
+  dl_med   C1=False {'VCAM1': [0.75, 0.9, 0.1], 'HAVCR1': [0.4, 0.25, 0.85]} C2=8/18 C3=True {'ACTB': [0.55, 0.9, 0.1], 'GAPDH': [0.65, 0.9, 0.05], 'PPIA': [0.45, 0.9, 0.45]} panel=7/7 nullneg=0.683
+  dl_mean  C1=False {'VCAM1': [0.7, 1.0, 0.35], 'HAVCR1': [0.35, 0.25, 0.75]} C2=10/18 C3=False {'ACTB': [0.75, 0.9, 0.75], 'GAPDH': [0.75, 0.95, 0.1], 'PPIA': [0.0, 0.1, 0.05]} panel=6/7 nullneg=0.55
+  split-half: {'cell': {'rho': 0.321, 'sd': 0.102, 'spearman_brown': 0.486}, 'dl_med': {'rho': 0.435, 'sd': 0.169, 'spearman_brown': 0.606}, 'dl_mean': {'rho': 0.312, 'sd': 0.099, 'spearman_brown': 0.476}}
+  sign/excess: {'VCAM1': {'frac_donors_pos': 0.071, 'null_pct_of_frac_pos': 0.333, 'n_donors': 14, 'excess_frac_pos': 0.429, 'excess_median': -1.3406918504150578e-05, 'excess_wilcoxon_p_greater': 0.70849609375}, 'HAVCR1': {'frac_donors_pos': 0.0, 'null_pct_of_frac_pos': 0.0, 'n_donors': 13, 'excess_frac_pos': 0.385, 'excess_median': -1.029629723558078e-05, 'excess_wilcoxon_p_greater': 0.9364013671875}, 'null_frac_pos_median': 0.143}
+{'n_cells_rows': 15993, 'n_donors': 14, 'n_donors_per_gene_seed': {'min': 9, 'median': 14.0, 'max': 14}}

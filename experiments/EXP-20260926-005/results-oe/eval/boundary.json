@@ -1,0 +1,47 @@
+[
+ {
+  "seed": "run-3-L-1",
+  "gene": "HNF4A",
+  "m_a2_pct": 0.95
+ },
+ {
+  "seed": "run-3-L-1",
+  "gene": "NFE2L2",
+  "m_a2_pct": 0.9
+ },
+ {
+  "seed": "run-3-L-1",
+  "gene": "PPARA",
+  "m_a2_pct": 0.95
+ },
+ {
+  "seed": "run-4-L-1",
+  "gene": "HNF4A",
+  "m_a2_pct": 0.9
+ },
+ {
+  "seed": "run-4-L-1",
+  "gene": "CPT1A",
+  "m_a2_pct": 0.85
+ },
+ {
+  "seed": "run-4-L-1",
+  "gene": "NFE2L2",
+  "m_a2_pct": 0.9
+ },
+ {
+  "seed": "run-4-L-1",
+  "gene": "PPARA",
+  "m_a2_pct": 0.85
+ },
+ {
+  "seed": "run-5-L-1",
+  "gene": "NFE2L2",
+  "m_a2_pct": 0.95
+ },
+ {
+  "seed": "run-5-L-1",
+  "gene": "PPARA",
+  "m_a2_pct": 0.95
+ }
+]

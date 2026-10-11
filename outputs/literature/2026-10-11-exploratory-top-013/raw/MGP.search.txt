@@ -1,0 +1,23 @@
+== kidney_fib (count=28)
+  42786596 | 2026 Oct 6 | J Am Heart Assoc | Regulators of Mineralization and Long-Term Progression of Aortic Valve and Mitral Annular Calcification: MESA.
+  42557519 | 2026 Aug 6 | Mol Biomed | Matrix Gla Protein is a novel regulator of TGFβ-dependent fibroblast activation and kidney fibrosis.
+  42460475 | 2026 Sep | Arterioscler Thromb Vasc Biol | Tuning BMP-Regulated Cell Differentiation in the Aortic Media by Mutating Matrix Gla Protein.
+  41478348 | 2026 Mar | Am J Pathol | Matrix Gla Protein Expression in Pericytes and Myofibroblasts Contributes to Renal Fibrosis.
+  41470171 | 2025 Dec 5 | Medicina (Kaunas) | Vascular Calcification in Chronic Kidney Disease and Hemodialysis: Pathophysiological Mechanisms and Emerging Biomarkers.
+  39461577 | 2024 Dec | J Struct Biol | An inducible model for medial calcification based on matrix Gla protein deficiency.
+  39086959 | 2022 | Front Mol Med | The vascular protective effect of matrix Gla protein during kidney injury.
+  35769144 | 2022 Dec | Bone Rep | Serum biomarkers for arterial calcification in humans: A systematic review.
+  35509185 | 2022 Dec | Ren Fail | Ubiquitin-specific protease 47 is associated with vascular calcification in chronic kidney disease by regulating osteogenic transdifferentiation of vascular smooth muscle
+  35159124 | 2022 Jan 18 | Cells | Expression of Fibrosis-Related Genes in Liver and Kidney Fibrosis in Comparison to Inflammatory Bowel Diseases.
+== senescence (count=80)
+  42786596 | 2026 Oct 6 | J Am Heart Assoc | Regulators of Mineralization and Long-Term Progression of Aortic Valve and Mitral Annular Calcification: MESA.
+  42654291 | 2026 Aug 19 | Nutrients | Beyond Bone Health: Exploring the "Heart-Brain-Bone" Axis Modulated by Lipid-Soluble Nutrients (Omega-3, Vitamin D3, and Vitamin K2).
+  41226556 | 2025 Oct 29 | Int J Mol Sci | Hormonal and Sex-Specific Regulation of Key Players in Fibro-Calcific Aortic Valve Disease.
+  41071635 | 2025 Nov 6 | J Gerontol A Biol Sci Med Sci | Multi-omics Mendelian randomization and single-cell analysis identify novel therapeutic targets for osteosarcopenia.
+  40423739 | 2025 Aug | Stem Cell Rev Rep | Transcriptome Profiling of Trabecular Meshwork Progenitor Cells.
+  40343466 | 2025 Sep 1 | QJM | Identification of novel biomarkers and drug targets for frailty-related skeletal muscle aging: a multi-omics study.
+  39968786 | 2025 Mar 4 | J Am Heart Assoc | Inactive Matrix Gla Protein and Cardiovascular Outcomes: The Multi-Ethnic Study of Atherosclerosis.
+  39937999 | 2025 Mar 11 | Neurology | Association of Social Determinants of Health With Genetic Test Request and Completion Rates in Children With Neurologic Disorders.
+  39604863 | 2024 Nov 27 | BMC Nephrol | PIVKA-II but not dp-ucMGP is associated with aortic calcification in chronic kidney disease.
+  39536932 | 2025 Jan 1 | Exp Cell Res | Matrix Gla protein suppresses osteoblast senescence and promotes osteogenic differentiation by the PI3K-AKT signaling pathway.
+== tls_lymphoid (count=0)

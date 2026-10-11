@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-09-26T19:47:43.018923+09:00",
+  "host": "spark-cf5b",
+  "platform": "Linux-6.17.0-1018-nvidia-aarch64-with-glibc2.39",
+  "python": "3.12.3",
+  "git_commit": "",
+  "git_dirty": false,
+  "packages": {
+    "geneformer": null,
+    "torch": "2.12.0+cu130",
+    "transformers": "4.57.6",
+    "datasets": "4.8.5",
+    "anndata": "0.12.14",
+    "scanpy": "1.12.1",
+    "numpy": "2.4.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1"
+  },
+  "gpu": "NVIDIA GB10, [N/A], 595.58.03",
+  "accelerators": {
+    "cuda": true,
+    "mps": false
+  },
+  "cpu_model": "",
+  "config_device": null,
+  "config_dtype": "fp32",
+  "geneformer_device_env": null,
+  "run_device": null,
+  "config_sha256": null
+}

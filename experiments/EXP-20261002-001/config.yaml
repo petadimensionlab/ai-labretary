@@ -1,0 +1,62 @@
+# EXP-20261002-001 — すべてのパラメータをここに書く
+# **これは再評価であり、新しい摂動ではない。** 摂動は 1 回も回さない。
+# モデル・データ・摂動の設定は EXP-20261001-001/config.yaml のものをそのまま引き継ぐ
+# （この実験では読むだけで、再実行しない）。
+experiment_id: EXP-20261002-001
+hypothesis_id: HYP-20261001-01          # Status は変えない（関門は PI が判断する）
+kind: reevaluation_no_perturbation
+
+source:
+  experiment: EXP-20261001-001
+  # 入力はこの 1 ファイルだけ。摂動も埋め込みの読み直しも行わない。
+  gene_table: experiments/EXP-20261001-001/results/eval/gene_seed_005.csv
+  reference_criteria: experiments/EXP-20261001-001/results/eval/criteria_005.json
+  config: experiments/EXP-20261001-001/config.yaml
+  # 下の定義は EXP-20261001-001 の事前登録済みファイルから読む（**書き換えない**）
+  genes: experiments/EXP-20261001-001/work/genes_005.json
+  subsets: experiments/EXP-20261001-001/work/subsets_005.json
+  null_pool: experiments/EXP-20261001-001/work/null_pool_005.json
+  power: experiments/EXP-20261001-001/work/power_005.json
+
+reevaluation:
+  seeds: [81, 82, 83]
+  # 前回の値を再現できなければ **止める**（セット平均 z の差の絶対値の上限）
+  reproduction_tolerance: 0.002
+  # **この再評価で主判定の値は変わらない。** 参照値（plan.md §2）
+  known_primary_set_mean_z: [0.208, 0.098, 0.142]
+  known_set_abs_min: 0.41
+  known_detection_floor: 0.604
+
+# ---------------------------------------------------------------- 新しい健全性の検査
+bias_budget:
+  # 交絡の候補（遺伝子ごとの表の列名）。移動量・元の順位・入力の長さ・相対位置・一様成分
+  covariates: [dnorm_med, lp_med, ll_med, relpos_med, uniform]
+  # 守りたい判断（セットの絶対値条件）と、そこから決めた予算
+  decision_line: 0.41
+  budget: 0.10                 # = 判断の線の 24.4%。導出は plan.md §6.2
+  ci_z: 1.959964               # 片側 95%
+  estimator: joint             # 5 つを同時に入れた回帰の偏回帰係数を使う（plan.md §6.3）
+  min_seeds: 3                 # 3 seed とも合格を要求する
+  sham_pvalue_min: 0.05        # 偽のセットの二項検定（片側 p 値の下限）
+
+# ---------------------------------------------------------------- 落とす検査（記述のみにする）
+dropped_checks:
+  - {name: "M2（元の位置・入力の長さ）", reason: "原理的に検出不能（補正の回帰が厳密に吸収する）"}
+  - {name: "M1 較正", reason: "対照 500 個では鳴らない（きれいな指標 60/60 合格）"}
+  - {name: "M3 個々の遺伝子の中立性", reason: "4 遺伝子では雑音に埋もれる。セット単位に一本化"}
+  - {name: "M2（相対位置）・M4・M5 の個別の順位相関", reason: "歪みの直接見積もりに統合"}
+
+output:
+  results_dir: results
+  criteria: results/criteria_006.json
+
+provenance:
+  tool: scripts/analysis/bias_budget.py
+  self_test: experiments/EXP-20261002-001/work/selftest_bias_budget_006.json
+  validation: experiments/EXP-20261002-001/work/bias_budget_validation_006.json
+  audit: experiments/EXP-20261001-001/posthoc-m5/audit_part1-4.json
+
+guards:
+  blinded_genes: [ENSG00000141510, ENSG00000118785, ENSG00000148346]   # TP53 / SPP1 / LCN2
+  read_only: [data/raw, models, experiments/EXP-20261001-001]
+  perturbation_runs: 0

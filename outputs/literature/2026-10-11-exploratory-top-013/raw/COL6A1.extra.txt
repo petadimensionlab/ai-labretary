@@ -1,0 +1,9 @@
+== COL6A1 / col6a1_renal (count=137)
+  42841018 | 2026 | Front Mol Biosci | Integrated microarray-based and single-cell transcriptomic analyses reveal cell adhesion-related fibrotic remodeling signatures in heart failure.
+  42743047 | 2026 Sep 15 | Am J Physiol Cell Physiol | Type VI collagen is proportionally lower around airways and blood vessels in idiopathic pulmonary fibrosis.
+  42651788 | 2026 Aug 2 | Curr Issues Mol Biol | Matrix Architecture and Integrin Branch Balance Distinguish Immune-Regulatory States in Clear Cell Renal Cell Carcinoma.
+  42599924 | 2026 Sep | Liver Int | Endotrophin Measured by PRO-C6 as a Prognostic Biomarker for Liver-Related Events in Patients With Advanced Chronic Liver Disease.
+  42028182 | 2026 Apr-Jun | Dose Response | 4,8-Dicarboxyl-8,9-Iridoid-1-Glycoside Alleviates Cardiac Dysfunction After Myocardial Ischaemia-Reperfusion Injury by Activating the PI3K/AKT Pathway.
+  41912056 | 2026 May | Matrix Biol | Lumican-mediated fibroblast differentiation in skin fibrosis.
+  41520918 | 2026 Apr | Mucosal Immunol | Integrated human and mouse single-cell profiling reveals immune-stromal niche driving silicosis.
+  41342519 | 2026 May | J Ultrasound Med | Liver Stiffness Characterization of OGT(LKO) Mouse Model of Progressive Liver Fibrosis.

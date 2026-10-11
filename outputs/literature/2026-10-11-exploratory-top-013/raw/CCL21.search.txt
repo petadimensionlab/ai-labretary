@@ -1,0 +1,33 @@
+== kidney_fib (count=13)
+  39234304 | 2024 | Front Physiol | Lithium-induced apoptotic cell death is not accompanied by a noticeable inflammatory response in the kidney.
+  39058890 | 2024 Jul 26 | Medicine (Baltimore) | Bioinformatics analysis reveals CCR7 as a potential biomarker for predicting CKD progression.
+  37446007 | 2023 Jun 29 | Int J Mol Sci | A2BAR Antagonism Decreases the Glomerular Expression and Secretion of Chemoattractants for Monocytes and the Pro-Fibrotic M2 Macrophages Polarization during Diabetic Neph
+  35691500 | 2022 Aug | J Control Release | CCL21 and beta-cell antigen releasing hydrogels as tolerance-inducing therapy in Type I diabetes.
+  34956231 | 2021 | Front Immunol | Lymphatic Reconstruction in Kidney Allograft Aggravates Chronic Rejection by Promoting Alloantigen Presentation.
+  33391465 | 2021 | Theranostics | Tertiary lymphoid organs are associated with the progression of kidney damage and regulated by interleukin-17A.
+  32589444 | 2020 Aug 1 | Am J Physiol Heart Circ Physiol | Pressure overload generates a cardiac-specific profile of inflammatory mediators.
+  31249871 | 2019 Jun | Sci Adv | Lymphangiogenesis in kidney and lymph node mediates renal inflammation and fibrosis.
+  24599047 | 2014 | PLoS One | TWEAK promotes peritoneal inflammation.
+  23498789 | 2013 Mar | Transplant Proc | Distribution and expression of fibroblast-specific protein chemokine CCL21 and chemokine receptor CCR7 in renal allografts.
+== senescence (count=39)
+  42620206 | 2026 Aug 9 | bioRxiv | Lymphatic CD49a is a driver of meningeal immune aging and cognitive decline.
+  41946393 | 2026 Apr 5 | J Adv Res | From repair to disease: lymphatic contributions to regeneration, cancer and ageing.
+  41630303 | 2026 Jan 30 | Medicine (Baltimore) | Identification of potential drug targets for Alzheimer's disease from genetic insights: A Mendelian randomization study.
+  41074767 | 2026 Feb 18 | Biol Reprod | Anti-Müllerian hormone induces a reversible quiescence-associated secretory phenotype in preantral follicles†.
+  40709392 | 2025 Sep 1 | Korean J Physiol Pharmacol | Age-related changes in diurnal expression of inflammatory mediators in the brain and peripheral blood of male and female mice.
+  40500987 | 2025 Jun | Cell Biochem Funct | Increased Fascin1 and Pak1 Expressions Enhance Age-Associated B-Cell Actin Cytoskeleton Remodeling and Motility.
+  39847262 | 2025 Jun | Geroscience | Painful diabetic neuropathy is associated with accelerated epigenetic aging.
+  39773566 | 2025 Jan 7 | J Immunother Cancer | Chemotherapy-induced cellular senescence promotes stemness of aggressive B-cell non-Hodgkin's lymphoma via CCR7/ARHGAP18/IKBα signaling activation.
+  39586378 | 2025 Jan | Neurochem Int | Accelerated senescence exacerbates α-synucleinopathy in senescence-accelerated prone 8 mice via persistent neuroinflammation.
+  39321290 | 2024 Sep 27 | Sci Adv | Skewed epithelial cell differentiation and premature aging of the thymus in the absence of vitamin D signaling.
+== tls_lymphoid (count=114)
+  42749753 | 2026 Sep 16 | Nat Rev Immunol | Immunogenic cell death and tertiary lymphoid structures: bridging tumour cell death and immune organization.
+  42566543 | 2026 Aug 7 | Sci Adv | Formation of tertiary lymphoid structures drives Parkin antitumor immunity.
+  42358824 | 2026 | Oncol Res | Germinal Center-Like Tertiary Lymphoid Structures Mark Immune Responsiveness and Enable Checkpoint Immunotherapy in Bladder Cancer.
+  42227655 | 2026 Jun 15 | FASEB J | TNFSF15 Promotes Vascular Normalization and Tertiary Lymphoid Structure Formation in Experimental Ovarian Cancer.
+  42204605 | 2026 May 27 | Biomark Res | The formation and function of tertiary lymphoid structures.
+  41843154 | 2026 Mar 17 | Cancer Immunol Immunother | Association of CCL21(+) CAFs with B-cell recruitment and TLS maturation in penile squamous cell carcinoma.
+  41183186 | 2025 Nov 11 | Proc Natl Acad Sci U S A | Chemokine/cytokine-releasing biomaterials induce in situ tertiary lymphoid-like structures and enhance antitumor immunity.
+  40721500 | 2025 Oct | Genes Immun | Impact of tertiary lymphoid structure scores and their stage of maturation on prognosis of colorectal cancer patients.
+  40718780 | 2025 | PeerJ | Tertiary lymphoid structures-driven immune infiltration patterns and their association with survival in neuroblastoma.
+  40685403 | 2025 Jul 21 | Signal Transduct Target Ther | Differential expression pattern of CC chemokine receptor 7 guides precision treatment of hepatocellular carcinoma.

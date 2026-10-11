@@ -1,0 +1,351 @@
+{
+ "kidney_fib": {
+  "count": "399",
+  "records": [
+   {
+    "pmid": "42388892",
+    "date": "2026 Jul",
+    "journal": "Curr Dev Nutr",
+    "title": "Potential Anticancer Effects of Limonene Associated with Reactive Oxygen Species Generation, Apoptosis Induction, and NF-κB Modulation in Papillary Renal Cell Carcinoma: A Preliminary Study.",
+    "authors": [
+     "Ghanbari M",
+     "Deyhimfar R",
+     "Khatami F"
+    ],
+    "doi": "10.1016/j.cdnut.2026.109392"
+   },
+   {
+    "pmid": "42154641",
+    "date": "2026 Jun 1",
+    "journal": "Am J Physiol Renal Physiol",
+    "title": "Arteriovenous fistula creation results in cardiac dysfunction and remodeling in a uremic pig model.",
+    "authors": [
+     "Kane J",
+     "Singh PG",
+     "Kilari S"
+    ],
+    "doi": "10.1152/ajprenal.00227.2025"
+   },
+   {
+    "pmid": "42013965",
+    "date": "2026 Aug 1",
+    "journal": "Toxicon",
+    "title": "BmooMPα-I ameliorates aortic fibrosis and hypertrophy in 2K1C hypertensive rats by reducing matrix metalloproteinase-2 activity.",
+    "authors": [
+     "Dias WF",
+     "Chang Estrada JE",
+     "Silva SCP"
+    ],
+    "doi": "10.1016/j.toxicon.2026.109120"
+   },
+   {
+    "pmid": "41898171",
+    "date": "2026 Feb 26",
+    "journal": "Biomedicines",
+    "title": "Morphometry and Immunoexpression of Metalloproteinase 2 and Its Inhibitor in the Fibrotic and Non-Fibrotic Grafted Kidney-Digital Analysis.",
+    "authors": [
+     "Szypulska-Koziarska D",
+     "Kwiatkowska E",
+     "Opara-Bajerowicz M"
+    ],
+    "doi": "10.3390/biomedicines14030524"
+   },
+   {
+    "pmid": "41887221",
+    "date": "2026 Apr 21",
+    "journal": "Cell Rep Med",
+    "title": "CAR-M2 immunotherapy resolves renal fibrosis via revascularization and apoptosis of profibrotic Cxcr2(+) endothelial cells.",
+    "authors": [
+     "Zhao W",
+     "Zhou X",
+     "Zhao X"
+    ],
+    "doi": "10.1016/j.xcrm.2026.102698"
+   },
+   {
+    "pmid": "41659822",
+    "date": "2026 Mar",
+    "journal": "Kidney Med",
+    "title": "Glomerular Transcriptome Analysis Reveals Endothelial Disturbances in Patients With Idiopathic Nephrotic Syndrome.",
+    "authors": [
+     "Nelson-Taylor SK",
+     "Troost J",
+     "Giannini C"
+    ],
+    "doi": "10.1016/j.xkme.2025.101235"
+   },
+   {
+    "pmid": "41478668",
+    "date": "2025 Dec",
+    "journal": "J Pharmacol Exp Ther",
+    "title": "Kidney-specific delivery of a matrix metalloproteinase-2 inhibitory peptide fused to elastin-like polypeptide reduces proteinuria and renal fibrosis in a model of salt-sensitive hypertension.",
+    "authors": [
+     "Akinleye AA",
+     "Chapman HM",
+     "Roman RJ"
+    ],
+    "doi": "10.1016/j.jpet.2025.103556"
+   },
+   {
+    "pmid": "41477970",
+    "date": "2026 Feb",
+    "journal": "J Autoimmun",
+    "title": "Daratumumab monotherapy reverses the immune and pro-fibrotic profiles in refractory lupus nephritis patients: a pilot case study.",
+    "authors": [
+     "Roccatello D",
+     "Barinotti A",
+     "Radin M"
+    ],
+    "doi": "10.1016/j.jaut.2025.103520"
+   },
+   {
+    "pmid": "41353804",
+    "date": "2026 Jan 1",
+    "journal": "Ecotoxicol Environ Saf",
+    "title": "Interaction between plasma matrix metalloproteinases and arsenic, cadmium, lead, and selenium on chronic kidney disease.",
+    "authors": [
+     "Chen HH",
+     "Wu CY",
+     "Hsu SL"
+    ],
+    "doi": "10.1016/j.ecoenv.2025.119529"
+   },
+   {
+    "pmid": "41349316",
+    "date": "2026 Jan 1",
+    "journal": "Ecotoxicol Environ Saf",
+    "title": "Multimodal mechanisms of di (2-ethylhexyl) phthalate-induced cardiovascular-kidney-metabolic syndrome: Integrating epidemiology, network toxicology and experimental validation.",
+    "authors": [
+     "Wen W",
+     "Liu Z",
+     "Li L"
+    ],
+    "doi": "10.1016/j.ecoenv.2025.119515"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "848",
+  "records": [
+   {
+    "pmid": "42835131",
+    "date": "2026",
+    "journal": "Front Aging Neurosci",
+    "title": "Associations between cerebrospinal fluid biomarkers related to endothelial dysfunction and Alzheimer's disease.",
+    "authors": [
+     "Zhu YK",
+     "Zhu QJ",
+     "Wang LY"
+    ],
+    "doi": "10.3389/fnagi.2026.1744647"
+   },
+   {
+    "pmid": "42830164",
+    "date": "2026 Oct 4",
+    "journal": "Cell Signal",
+    "title": "Histone lactylation-upregulated CEBPB transcriptionally activates CXCL12 and p21 to modulate vascular smooth muscle cell senescence and macrophage polarization.",
+    "authors": [
+     "Han Y",
+     "Wang J",
+     "Li R"
+    ],
+    "doi": "10.1016/j.cellsig.2026.112928"
+   },
+   {
+    "pmid": "42798633",
+    "date": "2026",
+    "journal": "Front Aging",
+    "title": "Explanatory limitations of CSF, plasma, and MRI biomarkers for inflammation and blood-brain barrier disruption in dementia.",
+    "authors": [
+     "Golduzian A",
+     "Erhardt EB",
+     "Caprihan A"
+    ],
+    "doi": "10.3389/fragi.2026.1923046"
+   },
+   {
+    "pmid": "42797014",
+    "date": "2026 Sep 16",
+    "journal": "Nutrients",
+    "title": "CHL Attenuates MIA-Induced Osteoarthritis by Regulating Inflammatory, Catabolic, and Anabolic Pathways Associated with Cartilage and Subchondral Bone Degeneration.",
+    "authors": [
+     "Sanjay",
+     "Woo MS",
+     "Yoo J"
+    ],
+    "doi": "10.3390/nu18183031"
+   },
+   {
+    "pmid": "42783720",
+    "date": "2026 Sep 17",
+    "journal": "J Funct Biomater",
+    "title": "Concentration-Dependent Rheological Properties of Atelocollagen Are Associated with Fibroblast Mechanotransduction and Collagen Remodeling in Aged Skin.",
+    "authors": [
+     "Oh S",
+     "Cheon GW",
+     "Lee JI"
+    ],
+    "doi": "10.3390/jfb17090474"
+   },
+   {
+    "pmid": "42767098",
+    "date": "2026 Nov",
+    "journal": "Transl Oncol",
+    "title": "GMPS drives pancreatic cancer progression via suppressing DNA damage, STING activation and cellular senescence.",
+    "authors": [
+     "Li Y",
+     "Zhang Z",
+     "Li D"
+    ],
+    "doi": "10.1016/j.tranon.2026.103044"
+   },
+   {
+    "pmid": "42737802",
+    "date": "2026 Sep 4",
+    "journal": "Int J Mol Sci",
+    "title": "Pulsed Electromagnetic Field Exposure Attenuates Ultraviolet B-Induced Dermal Collagen Loss in Association with A2A Adenosine Receptor Signaling.",
+    "authors": [
+     "Byun KA",
+     "Lee JI",
+     "Oh S"
+    ],
+    "doi": "10.3390/ijms27177904"
+   },
+   {
+    "pmid": "42651756",
+    "date": "2026 Jul 25",
+    "journal": "Curr Issues Mol Biol",
+    "title": "Mangiferin Protects Human Dermal Fibroblasts Against UVB-Induced Photoaging by Regulating RAGE/NF-κB/p38 MAPK Signaling, Cellular Senescence, and ECM Homeostasis.",
+    "authors": [
+     "Kurt-Celep İ"
+    ],
+    "doi": "10.3390/cimb48080757"
+   },
+   {
+    "pmid": "42635554",
+    "date": "2026 Sep 1",
+    "journal": "Rheumatology (Oxford)",
+    "title": "Single-cell profiling reveals senescent bone marrow mesenchymal stem cell subpopulations driving pathological ossification in ankylosing spondylitis.",
+    "authors": [
+     "Luo X",
+     "Li J",
+     "Qi J"
+    ],
+    "doi": "10.1093/rheumatology/keag429"
+   },
+   {
+    "pmid": "42625231",
+    "date": "2026 Aug 20",
+    "journal": "Parasit Vectors",
+    "title": "Endothelial proteomic response to Dirofilaria repens somatic antigens and the Dr20/22 protein reveals parasite-driven modulation of angiogenesis.",
+    "authors": [
+     "Collado-Cuadrado M",
+     "Montero-Calle A",
+     "Vázquez-Ávila S"
+    ],
+    "doi": "10.1186/s13071-026-07314-3"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "8",
+  "records": [
+   {
+    "pmid": "42742855",
+    "date": "2026 Sep 15",
+    "journal": "Mol Cell Biochem",
+    "title": "Cancer-associated fibroblasts drive immune resistance in MSS colorectal cancer via the FAIM2-CES1-ER stress pathway.",
+    "authors": [
+     "Tang R",
+     "Wan H",
+     "Zhong M"
+    ],
+    "doi": "10.1007/s11010-026-05705-9"
+   },
+   {
+    "pmid": "40818460",
+    "date": "2025 Sep 16",
+    "journal": "Cell Rep Med",
+    "title": "Enhanced formation of tertiary lymphoid structures shapes the anti-tumor microenvironment in hepatocellular carcinoma after FOLFOX-HAIC therapy.",
+    "authors": [
+     "Xing R",
+     "Mei J",
+     "Zuo Z"
+    ],
+    "doi": "10.1016/j.xcrm.2025.102298"
+   },
+   {
+    "pmid": "34617043",
+    "date": "2020",
+    "journal": "JVS Vasc Sci",
+    "title": "Adventitial matrix metalloproteinase production and distribution of immunoglobulin G4-related abdominal aortic aneurysms.",
+    "authors": [
+     "Kasashima S",
+     "Kawashima A",
+     "Kasashima F"
+    ],
+    "doi": "10.1016/j.jvssci.2020.06.001"
+   },
+   {
+    "pmid": "31543394",
+    "date": "2019 Sep",
+    "journal": "Presse Med",
+    "title": "[Physiopathology of giant cell arteritis: From inflammation to vascular remodeling].",
+    "authors": [
+     "Régent A",
+     "Ly KH",
+     "Mouthon L"
+    ],
+    "doi": "10.1016/j.lpm.2019.07.031"
+   },
+   {
+    "pmid": "29518260",
+    "date": "2018 Apr",
+    "journal": "Ann Neurol",
+    "title": "Inflammatory intrathecal profiles and cortical damage in multiple sclerosis.",
+    "authors": [
+     "Magliozzi R",
+     "Howell OW",
+     "Nicholas R"
+    ],
+    "doi": "10.1002/ana.25197"
+   },
+   {
+    "pmid": "28730224",
+    "date": "2017",
+    "journal": "Rom J Morphol Embryol",
+    "title": "Histopathological and immunohistochemical profile in primary Sjögren's syndrome.",
+    "authors": [
+     "Dinescu ŞC",
+     "ForŢofoiu MC",
+     "Bumbea AM"
+    ],
+    "doi": ""
+   },
+   {
+    "pmid": "28222766",
+    "date": "2017 Feb 21",
+    "journal": "J Neuroinflammation",
+    "title": "Increased cortical lesion load and intrathecal inflammation is associated with oligoclonal bands in multiple sclerosis patients: a combined CSF and MRI study.",
+    "authors": [
+     "Farina G",
+     "Magliozzi R",
+     "Pitteri M"
+    ],
+    "doi": "10.1186/s12974-017-0812-y"
+   },
+   {
+    "pmid": "16260653",
+    "date": "2005 Nov",
+    "journal": "FASEB J",
+    "title": "Dual function of focal adhesion kinase in regulating integrin-induced MMP-2 and MMP-9 release by human T lymphoid cells.",
+    "authors": [
+     "Segarra M",
+     "Vilardell C",
+     "Matsumoto K"
+    ],
+    "doi": "10.1096/fj.04-3574fje"
+   }
+  ]
+ }
+}

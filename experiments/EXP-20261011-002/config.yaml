@@ -1,0 +1,201 @@
+# EXP-20261011-002 — HYP-20261011-01（差の向き。方法の再確認）。
+# EXP-20261011-001 の不成立（R-6 退化側が 1% に届かず・R-12 発現細胞数との交絡）への再設計。
+# PI 指示 2026-10-11「退化側の移動を強く出す設計 → 交絡補正」。
+#
+# 構成:
+#   - 新しい摂動は回さない。A1（EXP-20261004-001 の 626 ＋ EXP-20261011-001 の 30）と
+#     A2（EXP-20261007-001 の 587）の保存済み埋め込みを再射影し、再評価する（GPU 0 時間）
+#   - [1] 退化側: 主の陽性対照 = 退化 23（重なり 7 を除く特異的マーカー。JUND・CTSH は残す）。
+#     感度 = 退化 30・退化 21。測る向きは差の向き u_diff のまま
+#   - [2] 交絡補正: 主 = 発現細胞数・入力の長さ・元の位置をそろえたマッチ偽セット（交絡込みの帰無分布）。
+#     副次 = 残差化（z_diff を log2(n_exp) と log2(ll_med) で seed ごとに回帰）
+#   - 補正の健全性（R-12a マッチングの中心 / R-12b 閾値の安定性 / R-12c 交差検証残差の交絡）を
+#     判定基準に含める（主判定の合否にかかわらず不合格なら判定不能）
+#   - A6 は今回の実行対象にしない（plan.md §5.6。PI 判断項目 (a)(b)(c) は開いたまま）
+#
+# 事前登録: plan.md §4 と同じ値が decision: に書いてあり、evaluate_015.py が照合する。
+# 主判定の値・補正後の値・マッチ偽セットの閾値はまだ 1 つも計算していない。
+experiment_id: EXP-20261011-002
+hypothesis_id: HYP-20261011-01
+kind: difference_direction_corrected_reanalysis
+note: >-
+  保存済み埋め込みの再評価のみ（GPU 0 時間）。主判定 P-1' は A1（確認）で、
+  (i) 活性化 71 が正かつマッチ偽セット 99% 点超 / (ii) 退化 23（特異的マーカー）が負かつ
+  マッチ偽セット 1% 点未満 / (iii) 間隔がマッチした無作為 2 セットの差の 99% 点超。
+  マッチ偽セットは発現細胞数・入力の長さ・元の位置を陽性セットにそろえる（evaluate_005.sham_sets と
+  同じ近傍距離。交絡を帰無分布に織り込む）。副次 = 残差化版（無作為偽セット）。
+  補正の健全性 R-12a/b/c が不合格なら判定不能。A2 は探索（候補 8 のマッチ補正版。記述）。
+
+# ---------------------------------------------------------------- モデル（評価では使わない。記録のみ）
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+# ---------------------------------------------------------------- 入力（どれも読み取りのみ）
+data:
+  a1_results: experiments/EXP-20261004-001/results        # 既存 626
+  a1_new_results: experiments/EXP-20261011-001/results    # 既存 30（前回の新規摂動）
+  a1_tokenized: experiments/EXP-20261011-001/work/tokenized-a1.dataset   # 複製（sha256 照合済み）
+  a2_results: experiments/EXP-20261007-001/results        # 既存 587
+  a2_tokenized: experiments/EXP-20261011-001/work/tokenized-a2.dataset   # 複製（sha256 照合済み）
+  a1_cells_csv: experiments/EXP-20261004-001/results/cells.csv
+  a1_new_cells_csv: experiments/EXP-20261011-001/results/cells.csv
+  a2_cells_csv: experiments/EXP-20261007-001/results/cells.csv
+
+# ---------------------------------------------------------------- 評価（evaluate_015.py）の入力
+evaluation:
+  a1:
+    id: EXP-20261004-001
+    results_dir: experiments/EXP-20261004-001/results
+    new_results_dir: experiments/EXP-20261011-001/results
+    tokenized_dataset: experiments/EXP-20261011-001/work/tokenized-a1.dataset
+    config_sha256: 82894c58cf17da6e5c55e1fa3b038b16d33c22d01350ea72c4eb8978da68dba7   # EXP-20261004-001 config（前回と同じ）
+    states: {start: FIB_MFIB, goal_ada: aStr, goal_deg: dFIB}
+    pool_n: 549
+    existing_n: 626
+    new_n: 30
+    repro_csv: experiments/EXP-20261011-001/results/gene_rank_014.csv   # 再現確認の参照（公開済み）
+    repro_tol: 0.001
+  a2:
+    id: EXP-20261007-001
+    results_dir: experiments/EXP-20261007-001/results
+    tokenized_dataset: experiments/EXP-20261011-001/work/tokenized-a2.dataset
+    states: {start: FIB, goal_ada: aStr, goal_deg: dFIB}
+    pool_n: 510
+    existing_n: 587
+
+gene_sets:
+  candidate_8:                     # 候補 8（A2・A1 共通）
+    - ENSG00000099866   # MADCAM1
+    - ENSG00000156234   # CXCL13
+    - ENSG00000137077   # CCL21
+    - ENSG00000074410   # CA12
+    - ENSG00000140836   # ZFHX3
+    - ENSG00000113073   # SLC4A9
+    - ENSG00000148180   # GSN
+    - ENSG00000049540   # ELN
+  positive_control_adaptive_71: source_genes011   # EXP-20261007-001 work/genes_011.json「陽性対照71」
+  positive_control_degenerate_30: source_perturbation_genes   # 前回の perturbation.genes_to_perturb（30 個）
+  positive_control_degenerate_23: source_degenerate_30_minus_overlap7    # 30 − 重なり 7（主）
+  positive_control_degenerate_21: source_degenerate_23_minus_jund_ctsh   # 23 − {JUND, CTSH}（感度）
+  housekeeping_3: source_genes011
+  neutral_7: source_genes011
+  control_500: source_genes011       # A2 の対照 500
+  a1_pool_549: source_a1_controls    # A1 の標準化プール 549（EXP-20261004-001 config.controls から機械的に再構成）
+  a2_pool_510: source_genes011_pool  # 510
+  blocked_5: [ENSG00000111321, ENSG00000118785, ENSG00000124762, ENSG00000141510, ENSG00000148346]
+
+# 退化の陽性対照 30 個（前回と同じ。主はこのうち重なり 7 を除いた 23 個。plan.md §4）
+degenerate_30:
+  - ENSG00000085662   # AKR1B1
+  - ENSG00000135931   # ARMC9
+  - ENSG00000130724   # CHMP2A
+  - ENSG00000103811   # CTSH
+  - ENSG00000205795   # CYS1
+  - ENSG00000169738   # DCXR
+  - ENSG00000125868   # DSTN
+  - ENSG00000125971   # DYNLRB1
+  - ENSG00000173812   # EIF1
+  - ENSG00000156976   # EIF4A2
+  - ENSG00000127951   # FGL2
+  - ENSG00000206503   # HLA-A
+  - ENSG00000004776   # HSPB6
+  - ENSG00000142798   # HSPG2
+  - ENSG00000115461   # IGFBP5
+  - ENSG00000130522   # JUND
+  - ENSG00000169223   # LMAN2
+  - ENSG00000140545   # MFGE8
+  - ENSG00000111341   # MGP
+  - ENSG00000133392   # MYH11
+  - ENSG00000151366   # NDUFC2
+  - ENSG00000110717   # NDUFS8
+  - ENSG00000138735   # PDE5A
+  - ENSG00000123349   # PFDN5
+  - ENSG00000100911   # PSME2
+  - ENSG00000063177   # RPL18
+  - ENSG00000124614   # RPS10
+  - ENSG00000163191   # S100A11
+  - ENSG00000109610   # SOD3
+  - ENSG00000006327   # TNFRSF12A
+
+# 重なり 7（活性化 71 にも入る）・文献の向きが逆の JUND・CTSH（plan.md §4.1）
+overlap7_symbols: [MGP, IGFBP5, DSTN, ARMC9, PDE5A, MFGE8, HSPG2]
+jund_ctsh_symbols: [JUND, CTSH]
+
+blocked_genes:
+  - ENSG00000111321   # LTBR
+  - ENSG00000118785   # SPP1
+  - ENSG00000124762   # CDKN1A
+  - ENSG00000141510   # TP53
+  - ENSG00000148346   # LCN2
+
+# ---------------------------------------------------------------- 補正と判定（plan.md §4 と同じ）
+decision:
+  単位: 群（提供者で分けた互いに重ならない 3 群。seed 81/82/83 は群の名前）
+  指標の定義:
+    向き 1（活性化した間質）: "u_ada = unit(aStr) − unit(start_state)。正規化して使う"
+    向き 2（退化した状態）: "u_deg = unit(dFIB) − unit(start_state)。正規化して使う"
+    差の向き: "u_diff = (u_ada − u_deg) / ‖u_ada − u_deg‖"
+    共通の向き: "u_common = (u_ada + u_deg) / ‖u_ada + u_deg‖"
+    細胞ごとの値: "m = (d · u) / ‖d‖。d = pert − orig（保存済み埋め込み）。分母は移動量の大きさ"
+    移動量 0 の扱い: "外す前の表で 2 本（u_diff と u_common）とも射影を計算し、外す細胞 ID を後で除く（guardrails 2026-10-11）"
+    層別補正: "evaluate_009.gene_stats_stratified（発現の有無で層別した二次式。lp・ll）。実装を変えない"
+    標準化: "群ごとに、そのデータの対照プール（A2: 510 / A1: 549）の D_raw の平均と標準偏差で標準得点 z にする"
+  退化側の設計（[1]）:
+    測る向きの決定: "主は差の向き u_diff のまま。退化側 = z_diff < 0。u_deg 軸を主にしない（共通成分に支配される。plan.md §4.1）"
+    退化の陽性対照の決定: "主 = 退化 23（30 − 重なり 7）。重なり 7 は両状態のマーカーで分離検定の特異性マーカーとして前もって不適格。感度 = 退化 30・退化 21"
+    JUND・CTSH の扱い: "主の 23 に残す（著者定義の状態マーカー。文献の向きは照合表に記録し報告の限定に使う）。依存は感度 21 で調べる"
+  交絡補正（[2]）:
+    主方式: "マッチした偽セット（evaluate_005.sham_sets と同じ近傍距離で、発現細胞数 n_exp・入力の長さの中央値 ll_med・元の位置の中央値 lp_med を対象セットにそろえる。プールから復元ありで 1,000 組）"
+    マッチ距離: "|Δlp_med|/0.25 + |Δll_med|/0.25 + |log(n_exp の比)|/log(1.5)。近い 5 個から無作為に 1 個"
+    引き出しプール: "各検定の陽性セット自身が標準化プールと重なる遺伝子を除いたプール（例: 退化 23 の偽セットは 549 − {CTSH, PFDN5, CYS1} = 546 から引く）"
+    副次方式: "残差化 z_res = z_diff − (β0 + β1·log2(n_exp) + β2·log2(ll_med))。seed ごとに検定するセットのプール重なりを除いたプールで回帰"
+  主判定 P-1'（A1・確認。3 群すべて）:
+    条件 (i): "活性化 71 のセット平均 z_diff が正 かつ マッチ偽セット 1,000 組（71 個）の 99 パーセンタイル超"
+    条件 (ii): "退化 23 のセット平均 z_diff が負 かつ マッチ偽セット 1,000 組（23 個）の 1 パーセンタイル未満"
+    条件 (iii): "(活性化 71 − 退化 23) の差が、それぞれのプロファイルにマッチさせた無作為 2 セットの差の 99 パーセンタイル超"
+    偶然の水準: "片側 1% に較正した規則。評価時にマッチした無作為ペア 1,000 組で P-1' を通した数を記録（判定に使わない）"
+    最小検出可能効果量: "analysis/power_015.py で規則そのものをシミュレート → work/power_015.json。退化側は K=23 のため前回(≈0.66)からやや悪化見込み"
+  補正の健全性（R-12a〜c。主判定の合否にかかわらず不合格なら判定不能）:
+    R-12a マッチングの中心: "マッチ偽セットのプロファイル中央値と対象セットの差の絶対値 ≤ 許容（log2 n_exp: 0.10 / ll_med: 0.10 / lp_med: 0.25）"
+    R-12b 閾値の安定性: "マッチ偽セットの 1% 点・99% 点のブートストラップ標準誤差（200 回）≤ |閾値|/2（3 群すべて）"
+    R-12c 交差検証残差: "5 分割交差検証の残差と n_exp・ll_med の Spearman の絶対値 ≤ 0.20（3 群すべて。残差化版の健全性）"
+  副次（A2・探索）:
+    候補 8 のマッチ補正版: "候補 8 のセット平均 z_diff が、マッチ偽セット 1,000 組（8 個）の 99 パーセンタイル以内か（前回の読み R-7 が補正後も保たれるかの記述）"
+  反証条件（R-1'〜R-14'。上から順に当て、最初に当たったものを採用する。plan.md §4.5 の表）:
+    R-1': "活性化 71 のセット平均 z_diff が 3 群すべてで負 → 判定不能"
+    R-2': "退化 23 のセット平均 z_diff が 3 群すべてで正 → 判定不能"
+    R-3': "(i) も (ii) も成り立たない → 差の向きは分離しない（支持されない）"
+    R-4': "退化 23 と活性化 71 が同じ向き（3 群平均で両方 > 0、または両方 < 0）→ 支持されない"
+    R-5': "(i)(ii) は成り立つが (iii) が成り立たない → 判定不能"
+    R-6': "(i)(ii) の一方だけが成り立ち、他方は 0 と区別できない → その向きのみ判定不能"
+    R-12': "補正の健全性（R-12a〜c）のどれか → 判定不能（値が交絡と切り分けられない）"
+    R-13': "感度版（退化 30・退化 21・補正なし版）で結論が変わる → 両版を併記し、判定は PI に諮る"
+    R-14': "上のどれにも当たらない → 保留。事実だけを報告し、規則を後から作らない"
+  評価順（固定）:
+    1: "A チェック（config 一致・材料 sha256・遺伝子集合・盲検 0 件・値 にNaN なし・再現確認）→ 不合格なら止める"
+    2: "補正の健全性 R-12a〜c"
+    3: "主判定 P-1'（マッチ偽セット (i)(ii)(iii)）→ R-1'〜R-6'"
+    4: "補正なし（無作為偽セット）版（感度）と残差化版（副次）→ R-13'"
+    5: "A2 の候補 8・マッチ補正版（探索。記述）"
+  乱数の鍵:
+    P-1 活性化のマッチ偽セット: 20261101
+    P-1 退化のマッチ偽セット: 20261102
+    P-1 (iii) のマッチ無作為 2 セット: 20261103
+    補正なし（無作為）の偽セット: 20261104
+    残差化版の偽セット: 20261105
+    A2 候補のマッチ偽セット: 20261106
+    較正（マッチした無作為ペア）: 20261107
+
+compute:
+  device: cpu
+  dtype: fp64          # 評価は保存済み埋め込みの数値計算。CPU/fp64 で再現性を取る
+  gpu_hours_estimate: 0.0
+  needs_G2_approval: false
+
+output:
+  experiment_dir: experiments/EXP-20261011-002
+  results_dir: results

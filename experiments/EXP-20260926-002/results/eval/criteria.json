@@ -1,0 +1,682 @@
+[
+ {
+  "label": "raw shift_goal",
+  "metric": "m_raw",
+  "null_frac_negative": 1.0,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 2,
+   "HAVCR1": 0
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.933,
+   "HAVCR1": 0.783
+  },
+  "C1": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 1,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.783,
+   "GAPDH": 0.917,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "5/18",
+  "C2_margin_nullSD": -0.21,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.474,
+  "C4ii_seed_rho_fixed5": 0.867,
+  "C4": false,
+  "C5_rho_len_gene": -0.669,
+  "C5_rho_det_gene": 0.54,
+  "C5_rho_len_cell_median": -0.236,
+  "C5": "False",
+  "n_pass_C1_C3": 0,
+  "n_pass_all": 0,
+  "C3_panel": true,
+  "C3_panel_n_ok": "6/7"
+ },
+ {
+  "label": "d: goal−start",
+  "metric": "m_d",
+  "null_frac_negative": 0.97,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.95,
+   "HAVCR1": 0.95
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 1,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.917,
+   "GAPDH": 1.0,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -1.18,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.616,
+  "C4ii_seed_rho_fixed5": 0.8,
+  "C4": false,
+  "C5_rho_len_gene": -0.56,
+  "C5_rho_det_gene": 0.486,
+  "C5_rho_len_cell_median": -0.231,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "6/7"
+ },
+ {
+  "label": "a2: −null(長さビン)",
+  "metric": "m_a2",
+  "null_frac_negative": 0.32,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 0,
+   "HAVCR1": 1
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.667,
+   "HAVCR1": 0.783
+  },
+  "C1": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 3,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.217,
+   "GAPDH": 0.8,
+   "PPIA": 0.867
+  },
+  "C3": true,
+  "C2_wins": "10/18",
+  "C2_margin_nullSD": 0.31,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.319,
+  "C4ii_seed_rho_fixed5": 0.4,
+  "C4": false,
+  "C5_rho_len_gene": -0.058,
+  "C5_rho_det_gene": 0.002,
+  "C5_rho_len_cell_median": -0.058,
+  "C5": "True",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 2,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "c: z(長さビン)",
+  "metric": "m_c",
+  "null_frac_negative": 0.27,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 2,
+   "HAVCR1": 2
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.833,
+   "HAVCR1": 0.917
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 0,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.033,
+   "GAPDH": 0.983,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "6/18",
+  "C2_margin_nullSD": 0.47,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.487,
+  "C4ii_seed_rho_fixed5": 0.933,
+  "C4": false,
+  "C5_rho_len_gene": -0.057,
+  "C5_rho_det_gene": 0.038,
+  "C5_rho_len_cell_median": -0.056,
+  "C5": "True",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 2,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "a3: −null(log長+donor)",
+  "metric": "m_a3",
+  "null_frac_negative": 0.35,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 0,
+   "HAVCR1": 2
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.617,
+   "HAVCR1": 0.8
+  },
+  "C1": false,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 2,
+   "PPIA": 2
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.183,
+   "GAPDH": 0.717,
+   "PPIA": 0.867
+  },
+  "C3": true,
+  "C2_wins": "10/18",
+  "C2_margin_nullSD": 0.43,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.231,
+  "C4ii_seed_rho_fixed5": 0.4,
+  "C4": false,
+  "C5_rho_len_gene": -0.009,
+  "C5_rho_det_gene": -0.011,
+  "C5_rho_len_cell_median": 0.293,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "a4: −null(log長+削除位置)",
+  "metric": "m_a4",
+  "null_frac_negative": 0.42,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 1,
+   "HAVCR1": 1
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.817,
+   "HAVCR1": 0.75
+  },
+  "C1": false,
+  "C3_seeds": {
+   "ACTB": 2,
+   "GAPDH": 1,
+   "PPIA": 1
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.633,
+   "GAPDH": 0.833,
+   "PPIA": 0.883
+  },
+  "C3": false,
+  "C2_wins": "11/18",
+  "C2_margin_nullSD": 0.08,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.5,
+  "C4ii_seed_rho_fixed5": -0.267,
+  "C4": false,
+  "C5_rho_len_gene": -0.422,
+  "C5_rho_det_gene": 0.34,
+  "C5_rho_len_cell_median": 0.302,
+  "C5": "False",
+  "n_pass_C1_C3": 0,
+  "n_pass_all": 0,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "b: 残差(start,alt)",
+  "metric": "m_b",
+  "null_frac_negative": 0.55,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 2,
+   "HAVCR1": 2
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.867,
+   "HAVCR1": 0.917
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 1,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.9,
+   "GAPDH": 1.0,
+   "PPIA": 0.983
+  },
+  "C3": false,
+  "C2_wins": "2/18",
+  "C2_margin_nullSD": -2.29,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.685,
+  "C4ii_seed_rho_fixed5": 0.6,
+  "C4": false,
+  "C5_rho_len_gene": -0.339,
+  "C5_rho_det_gene": 0.378,
+  "C5_rho_len_cell_median": -0.039,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "d2: d−null(長さビン)",
+  "metric": "m_d2",
+  "null_frac_negative": 0.43,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 2,
+   "HAVCR1": 2
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.867,
+   "HAVCR1": 0.9
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.633,
+   "GAPDH": 1.0,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -0.82,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.6,
+  "C4ii_seed_rho_fixed5": 0.8,
+  "C4": false,
+  "C5_rho_len_gene": -0.219,
+  "C5_rho_det_gene": 0.222,
+  "C5_rho_len_cell_median": -0.021,
+  "C5": "True",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 2,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "d4: d−null(log長+削除位置)",
+  "metric": "m_d4",
+  "null_frac_negative": 0.43,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 3,
+   "HAVCR1": 2
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.933,
+   "HAVCR1": 0.883
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 2,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.8,
+   "GAPDH": 1.0,
+   "PPIA": 0.983
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -0.95,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.652,
+  "C4ii_seed_rho_fixed5": 0.533,
+  "C4": false,
+  "C5_rho_len_gene": -0.453,
+  "C5_rho_det_gene": 0.414,
+  "C5_rho_len_cell_median": 0.111,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "V0: Δ·u（補正なし）",
+  "metric": "V0",
+  "null_frac_negative": 0.97,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.95,
+   "HAVCR1": 0.95
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 1,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.917,
+   "GAPDH": 1.0,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -1.18,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.617,
+  "C4ii_seed_rho_fixed5": 0.8,
+  "C4": false,
+  "C5_rho_len_gene": -0.56,
+  "C5_rho_det_gene": 0.487,
+  "C5_rho_len_cell_median": -0.231,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "6/7"
+ },
+ {
+  "label": "V1: 全体ドリフト方向を除去",
+  "metric": "V1",
+  "null_frac_negative": 0.57,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 2,
+   "HAVCR1": 3
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.917,
+   "HAVCR1": 0.95
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 2,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.883,
+   "GAPDH": 1.0,
+   "PPIA": 0.983
+  },
+  "C3": false,
+  "C2_wins": "5/18",
+  "C2_margin_nullSD": -1.11,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.637,
+  "C4ii_seed_rho_fixed5": 0.833,
+  "C4": false,
+  "C5_rho_len_gene": -0.307,
+  "C5_rho_det_gene": 0.278,
+  "C5_rho_len_cell_median": -0.104,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "V2: 平均ドリフトを減算",
+  "metric": "V2",
+  "null_frac_negative": 0.43,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 3,
+   "HAVCR1": 2
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.95,
+   "HAVCR1": 0.933
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 1,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.917,
+   "GAPDH": 1.0,
+   "PPIA": 0.983
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -1.12,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.629,
+  "C4ii_seed_rho_fixed5": 0.8,
+  "C4": false,
+  "C5_rho_len_gene": -0.537,
+  "C5_rho_det_gene": 0.479,
+  "C5_rho_len_cell_median": -0.231,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "6/7"
+ },
+ {
+  "label": "V3: 局所ドリフト（kNN50）を減算",
+  "metric": "V3",
+  "null_frac_negative": 0.42,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 2,
+   "HAVCR1": 3
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.917,
+   "HAVCR1": 0.95
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.717,
+   "GAPDH": 1.0,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -1.08,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.655,
+  "C4ii_seed_rho_fixed5": 0.8,
+  "C4": false,
+  "C5_rho_len_gene": -0.223,
+  "C5_rho_det_gene": 0.233,
+  "C5_rho_len_cell_median": -0.023,
+  "C5": "True",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 2,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "V4: ドリフト部分空間（PC3）を除去",
+  "metric": "V4",
+  "null_frac_negative": 0.35,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.933,
+   "HAVCR1": 0.95
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 1
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.333,
+   "GAPDH": 1.0,
+   "PPIA": 0.95
+  },
+  "C3": false,
+  "C2_wins": "6/18",
+  "C2_margin_nullSD": -0.81,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.621,
+  "C4ii_seed_rho_fixed5": 1.0,
+  "C4": false,
+  "C5_rho_len_gene": -0.124,
+  "C5_rho_det_gene": 0.139,
+  "C5_rho_len_cell_median": 0.011,
+  "C5": "True",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 2,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "[事後] V2L: 長さビン別の平均ドリフトを減算",
+  "metric": "V2L",
+  "null_frac_negative": 0.43,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 2,
+   "HAVCR1": 2
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.867,
+   "HAVCR1": 0.9
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.633,
+   "GAPDH": 1.0,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -0.82,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.6,
+  "C4ii_seed_rho_fixed5": 0.8,
+  "C4": false,
+  "C5_rho_len_gene": -0.22,
+  "C5_rho_det_gene": 0.223,
+  "C5_rho_len_cell_median": -0.022,
+  "C5": "True",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 2,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ },
+ {
+  "label": "[事後] T_u: 接平面射影",
+  "metric": "T_u",
+  "null_frac_negative": 0.97,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.95,
+   "HAVCR1": 0.95
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 1,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.917,
+   "GAPDH": 1.0,
+   "PPIA": 1.0
+  },
+  "C3": false,
+  "C2_wins": "4/18",
+  "C2_margin_nullSD": -1.16,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.615,
+  "C4ii_seed_rho_fixed5": 0.8,
+  "C4": false,
+  "C5_rho_len_gene": -0.562,
+  "C5_rho_det_gene": 0.488,
+  "C5_rho_len_cell_median": -0.232,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "6/7"
+ },
+ {
+  "label": "[事後] V5: cos(Δ,u)",
+  "metric": "V5",
+  "null_frac_negative": 0.83,
+  "n_seeds": 3,
+  "C1_seeds": {
+   "VCAM1": 3,
+   "HAVCR1": 3
+  },
+  "C1_pct_mean": {
+   "VCAM1": 0.967,
+   "HAVCR1": 0.95
+  },
+  "C1": true,
+  "C3_seeds": {
+   "ACTB": 3,
+   "GAPDH": 0,
+   "PPIA": 0
+  },
+  "C3_pct_mean": {
+   "ACTB": 0.783,
+   "GAPDH": 1.0,
+   "PPIA": 0.983
+  },
+  "C3": false,
+  "C2_wins": "5/18",
+  "C2_margin_nullSD": -0.81,
+  "C2": "False",
+  "C4i_splithalf_rho": 0.658,
+  "C4ii_seed_rho_fixed5": 0.933,
+  "C4": false,
+  "C5_rho_len_gene": -0.415,
+  "C5_rho_det_gene": 0.387,
+  "C5_rho_len_cell_median": -0.196,
+  "C5": "False",
+  "n_pass_C1_C3": 1,
+  "n_pass_all": 1,
+  "C3_panel": true,
+  "C3_panel_n_ok": "7/7"
+ }
+]

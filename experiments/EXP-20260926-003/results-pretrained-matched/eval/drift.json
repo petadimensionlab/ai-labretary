@@ -1,0 +1,56 @@
+{
+ "../EXP-20260926-003/results-pretrained-matched:run-3-L-1": {
+  "null_drift_norm_mean": 0.003906449846041912,
+  "null_disp_norm_mean": 0.013939728821663102,
+  "frac_disp_along_global_drift_mean": 0.08352843956730578,
+  "cos_drift_vs_u": -0.1063551251229935,
+  "cos_drift_vs_minus_mean_orig": 0.04345124230366869,
+  "cos_drift_vs_goal": -0.06742960547975306,
+  "cos_drift_vs_start": -0.054571359286590404,
+  "mean_shift_goal_null": -0.0002634103719450479,
+  "radial_part_of_shift_goal_null": -0.00014983589528594335,
+  "null_disp_top_pc_var_frac": [
+   0.459,
+   0.056,
+   0.048,
+   0.031,
+   0.021
+  ]
+ },
+ "../EXP-20260926-003/results-pretrained-matched:run-4-L-1": {
+  "null_drift_norm_mean": 0.004270595648281483,
+  "null_disp_norm_mean": 0.015893373076112768,
+  "frac_disp_along_global_drift_mean": 0.07059438535790043,
+  "cos_drift_vs_u": -0.11357938463802486,
+  "cos_drift_vs_minus_mean_orig": 0.0435777756313243,
+  "cos_drift_vs_goal": -0.06717058339058518,
+  "cos_drift_vs_start": -0.053261617229602765,
+  "mean_shift_goal_null": -0.0002868584011203619,
+  "radial_part_of_shift_goal_null": -0.00020057824525525553,
+  "null_disp_top_pc_var_frac": [
+   0.327,
+   0.21,
+   0.051,
+   0.037,
+   0.023
+  ]
+ },
+ "../EXP-20260926-003/results-pretrained-matched:run-5-L-1": {
+  "null_drift_norm_mean": 0.004044645917739691,
+  "null_disp_norm_mean": 0.015030407250755608,
+  "frac_disp_along_global_drift_mean": 0.07786913656868243,
+  "cos_drift_vs_u": -0.11233217051359402,
+  "cos_drift_vs_minus_mean_orig": 0.043034730322242795,
+  "cos_drift_vs_goal": -0.06518017763360846,
+  "cos_drift_vs_start": -0.05155078961983844,
+  "mean_shift_goal_null": -0.00026363073938332214,
+  "radial_part_of_shift_goal_null": -0.0001707057762435997,
+  "null_disp_top_pc_var_frac": [
+   0.4,
+   0.101,
+   0.051,
+   0.044,
+   0.027
+  ]
+ }
+}

@@ -1,0 +1,128 @@
+# EXP-20260926-003 — Geneformer CellClassifier fine-tuning（phase 1–2）の全パラメータ
+# 使い方: scripts/geneformer/finetune_classifier.py --config <this> --stage prepare|train|evaluate|smoke
+#   prepare  : Mac（CPU）。donor 分割 → 学習・検証 donor だけの bundle（transfer/bundle/）と、ローカル専用の held-out test
+#   train    : リモート NVIDIA GPU（Tailscale 経由, remote/README.md）。MPS はフォールバック（profiles.mps_fallback）
+#   evaluate : Mac。held-out donor で FT 分類器 vs 凍結埋め込み＋ロジスティック回帰（go/no-go ゲート）
+# パスは プロジェクトルート相対。リモートでは --bundle / --model-dir / --out で上書きする（上書きは run_record に記録）
+# 状態ラベル isp_state・TLS 群は推定ラベル（EXP-20260926-001 plan.md §2）。組織学的な TLS ではない
+experiment_id: EXP-20260926-003
+hypothesis_id: HYP-20260926-02      # proposed（方法仮説）。G1 未承認
+seed: 42                            # 学習の seed（TrainingArguments.seed / data_seed, 分類ヘッドの初期化）
+
+model:
+  base_directory: models/Geneformer/Geneformer-V2-316M   # 事前学習済み（BertForMaskedLM）。リモートでは --model-dir
+  version: V2
+  expected_num_hidden_layers: 18
+  expected_vocab_size: 20275
+  token_dictionary: token_dictionary_gc104M.pkl          # geneformer パッケージ内のファイル名（bundle にも同梱し sha256 を照合）
+
+data:
+  tokenized_dataset: experiments/EXP-20260926-003/work/tokenized.dataset   # EXP-001 の tokenized の複製（sha256 ba3a14c0…, ローカル専用）
+  state_key: isp_state
+  donor_key: donor_id
+  label_map:                        # isp_state → 分類クラス（2 クラス: 障害 PT 軸。TLS 群は ISP でだけ使う）
+    aPT_CKD_TLSlow: aPT_CKD
+    aPT_CKD_TLShigh: aPT_CKD
+    PT_healthy: PT_healthy
+  classes: [aPT_CKD, PT_healthy]    # クラス ID の順（0 = aPT_CKD, 1 = PT_healthy = ISP の goal）
+  isp_start_state: aPT_CKD_TLShigh  # ISP の start。この状態の細胞は bundle に 1 つも入れない（prepare で assert）
+
+split:                              # donor 単位。事前に固定（FT・ISP の結果を見る前, 2026-09-26）。plan.md §2.2
+  seed: 0                           # donor 内の細胞の抽出
+  batch_groups:                     # 同じ処理バッチ（Sample####-EO*）は同じ分割に置く（prepare で assert）
+    - [Sample1153-EO1, Sample1153-EO2, Sample1153-EO3]
+    - [Sample1157-EO1, Sample1157-EO2, Sample1157-EO3]
+    - [Sample1158-EO1, Sample1158-EO2, Sample1158-EO3]
+    - [Sample1162-EO1, Sample1162-EO2]
+  train:
+    aPT_CKD_TLSlow: [31-10000, 31-10013, 29-10010, 28-11515, 29-10406, 28-10051]
+    PT_healthy: [164-10, 165-9, 164-3, Sample1157-EO1, Sample1157-EO2, Sample1157-EO3, PRE018-1, PRE062-1]
+  eval:                             # early stopping・モデル選択用（学習には使わない。held-out ではない）
+    aPT_CKD_TLSlow: [27-10053, 29-10386]
+    PT_healthy: [PRE019, PRE055-1, Sample1158-EO1, Sample1158-EO2, Sample1158-EO3]
+  test:                             # held-out（FT に一切使わない・bundle に入れない）。ゲート評価と ISP の goal 重心
+    aPT_CKD_TLShigh: all            # ISP の start 14 donor すべて
+    PT_healthy: [PRE038, 164-6, PRE027, Sample1162-EO1, Sample1162-EO2, PRE98sc, Sample1153-EO1, Sample1153-EO2, Sample1153-EO3]
+  max_cells_per_donor:              # donor の偏り（31-10000 は TLS-low の 65%）を抑え、クラスをほぼ均衡させる
+    train: {aPT_CKD_TLSlow: 500, PT_healthy: 250}
+    eval: {aPT_CKD_TLSlow: 60, PT_healthy: 60}
+    test: {aPT_CKD_TLShigh: 100, PT_healthy: 100}
+
+bundle:
+  dir: experiments/EXP-20260926-003/transfer/bundle      # rsync でリモートへ送る唯一のディレクトリ
+  copy_files:                                            # bundle に同梱（sha256 付き）
+    - scripts/geneformer/finetune_classifier.py
+    - experiments/EXP-20260926-003/remote/run_remote.sh
+    - experiments/EXP-20260926-003/remote/verify_sha256.py
+    - experiments/EXP-20260926-003/remote/README.md
+  local_test_dataset: experiments/EXP-20260926-003/work/ft/test.dataset   # held-out（ローカル専用）
+  local_manifest: experiments/EXP-20260926-003/work/ft/split_full.json
+
+train:
+  output_dir: experiments/EXP-20260926-003/models/ft-main  # リモートでは --out。戻すときもこの場所へ（remote/README.md）
+  freeze_layers: 6                  # 18 層中の下位 6 層（../Geneformer の実績値）
+  freeze_embeddings: false          # Geneformer Classifier と同じ（埋め込みは凍結しない）
+  per_device_train_batch_size: 2    # profiles で VRAM に合わせて上書き。実効バッチ = 2 × 8 = 16 を全 profile で固定
+  gradient_accumulation_steps: 8
+  per_device_eval_batch_size: 8
+  gradient_checkpointing: true
+  learning_rate: 5.0e-5
+  lr_scheduler_type: linear
+  warmup_ratio: 0.1
+  weight_decay: 0.001
+  num_train_epochs: 3               # 上限。early stopping で止まる想定
+  max_steps: -1                     # >0 で打ち切り（打ち切りは training_summary.json に truncated として記録）
+  eval_steps: 20                    # optimizer step 単位（1 epoch ≈ 196 step → 約 10 回/epoch）
+  early_stopping_patience: 4        # eval_loss が 4 回（80 step）改善しなければ停止
+  metric_for_best_model: eval_loss
+  greater_is_better: false
+  save_total_limit: 3
+  logging_steps: 5
+  group_by_length: true             # 長さの近い細胞をまとめて padding を減らす（length 列）
+  dataloader_num_workers: 0
+  max_input_length: 4096            # V2 の max_position_embeddings。超える細胞があれば停止
+  subsample_train_per_donor: null   # profile で縮小するときだけ使う（{aPT_CKD_TLSlow: n, PT_healthy: n}）
+
+compute:
+  device: auto                      # auto | cuda | mps | cpu（GENEFORMER_DEVICE が優先）。使えないデバイスは停止
+  dtype: bf16                       # PI 標準。CUDA は torch.cuda.is_bf16_supported() を確認
+  bf16_unsupported: error           # error | fp16 | fp32（黙って切り替えない。切り替えたら run_record に記録）
+  allow_tf32: true                  # fp32 部分の matmul（CUDA Ampere 以降のみ有効）
+  single_gpu: true                  # 複数 GPU が見えていたら停止（CUDA_VISIBLE_DEVICES で 1 枚に絞る）
+
+profiles:                           # --profile NAME で train セクションを上書き（実効バッチ 16 は共通）
+  vram16: {per_device_train_batch_size: 2, gradient_accumulation_steps: 8}
+  vram24: {per_device_train_batch_size: 4, gradient_accumulation_steps: 4}
+  vram48: {per_device_train_batch_size: 8, gradient_accumulation_steps: 2}
+  vram80: {per_device_train_batch_size: 16, gradient_accumulation_steps: 1}
+  mps_fallback:                     # リモートが使えない場合の Mac MPS 用（小さい構成。plan.md §8）
+    per_device_train_batch_size: 2
+    gradient_accumulation_steps: 8
+    freeze_layers: 12
+    freeze_embeddings: true         # 埋め込みも凍結しないと逆伝播が最下層まで通り、12 層凍結でも ~9% しか速くならない
+    num_train_epochs: 1
+    subsample_train_per_donor: {aPT_CKD_TLSlow: 300, PT_healthy: 150}
+
+pinned_versions:                    # train 開始時に照合（不一致は警告。--strict-versions で停止）
+  torch: 2.14.0
+  transformers: 4.46.3
+  datasets: 4.0.0
+  accelerate: 1.15.0
+  geneformer: 0.1.0
+
+evaluate:                           # ローカル（Mac）。held-out donor だけで判定
+  checkpoint: experiments/EXP-20260926-003/models/ft-main/final
+  device: mps
+  dtype: bf16
+  batch_size: 8
+  out_dir: experiments/EXP-20260926-003/results/finetune-eval
+  baseline:                         # 凍結 Pretrained の CLS 埋め込み（ISP と同じ emb_layer -1 = 最終層の 1 つ手前）＋ LR
+    model_directory: models/Geneformer/Geneformer-V2-316M
+    emb_layer: -1
+    C: 1.0
+  bootstrap_n: 1000                 # donor ブートストラップ（報告用。判定は点推定）
+  gate:                             # 事前登録（plan.md §6.1）
+    ceiling: 0.99                   # ベースラインがこれ以上の指標は非劣性（margin）で判定
+    ceiling_margin: 0.01
+    min_donor_cells: 20
+    min_worst_donor_accuracy: 0.80

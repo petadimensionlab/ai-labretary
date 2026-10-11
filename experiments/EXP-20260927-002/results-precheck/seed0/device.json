@@ -1,0 +1,11 @@
+{
+  "requested": "mps",
+  "resolved": "mps",
+  "override_env": null,
+  "host": "PetadimensionlabMacMiniM4Pro-3.local",
+  "available": [
+    "mps",
+    "cpu"
+  ],
+  "dtype": "bfloat16"
+}

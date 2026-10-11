@@ -1,0 +1,18 @@
+== GSN / gsn_renal (count=48)
+  42557181 | 2026 Oct | Pathology | Clinicopathological characteristics and prognostic factors in renal amyloidosis: a 10-year Australian tertiary centre experience.
+  42247203 | 2026 Jun 5 | Intensive Care Med Exp | Proteomic signatures of renal recovery from acute kidney injury-a translational study in critically ill postoperative patients.
+  40834982 | 2025 Oct 30 | J Proteomics | Potential kidney biomarkers in urinary extracellular vesicles from end stage renal disease and post-transplant patients.
+  40375605 | 2025 Dec | Cell Prolif | Deciphering the Immunomodulatory Function of GSN (+) Inflammatory Cancer-Associated Fibroblasts in Renal Cell Carcinoma Immunotherapy: Insights From Pan-Cancer Single-Cel
+  39668539 | 2024 Jan | Ulus Travma Acil Cerrahi Derg | Is there a renal protective role for gelsolin treatment in crush syndrome? An experimental study.
+  38074971 | 2023 Dec | Indian J Crit Care Med | Clinical Profile of Children with Burns in a Tertiary Care Hospital.
+  37215727 | 2023 | Front Med (Lausanne) | Presepsin: gelsolin ratio, as a promising marker of sepsis-related organ dysfunction: a prospective observational study.
+  36979422 | 2023 Mar 6 | Biomolecules | Interleukin-18 and Gelsolin Are Associated with Acute Kidney Disease after Cardiac Catheterization.
+== GSN / gsn_fib (count=74)
+  42557181 | 2026 Oct | Pathology | Clinicopathological characteristics and prognostic factors in renal amyloidosis: a 10-year Australian tertiary centre experience.
+  42341429 | 2026 Nov | Tissue Cell | Niosomal grape seed extract attenuates cyclophosphamide-induced bladder injury through modulation of oxidative stress and inflammation with Nrf2-related antioxidant respo
+  41998640 | 2026 Apr 17 | BMC Med | Integrated serum proteomic and liver genomic analyses identify molecular signatures associated with metabolic dysfunction-associated steatotic liver disease: a multi-coho
+  41929061 | 2026 Mar 24 | bioRxiv | Endometrial Hyperplasia Risk Is Increased by High-Fat Diet Via Estrogen-Driven Stromal Fibroblast Reprogramming Toward a Pro-Fibrotic State.
+  41924874 | 2026 Jun | Arterioscler Thromb Vasc Biol | Proteogenomic Analysis of Coronary Artery Calcification in Human Populations.
+  41671621 | 2026 Apr 1 | Int Immunopharmacol | Unraveling the matrix stiffness landscape in idiopathic pulmonary fibrosis: GSN and ARG1 as novel diagnostic biomarkers and potential therapeutic targets.
+  41368700 | 2026 Feb 3 | Circulation | S-Nitrosylation of Pyruvate Kinase Isoform 2 Drives Cardiac Fibrosis by Promoting Mitochondrial Fission.
+  40834982 | 2025 Oct 30 | J Proteomics | Potential kidney biomarkers in urinary extracellular vesicles from end stage renal disease and post-transplant patients.

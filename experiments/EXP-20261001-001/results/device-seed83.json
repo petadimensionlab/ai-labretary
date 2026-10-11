@@ -1,0 +1,11 @@
+{
+  "requested": "mps",
+  "resolved": "cuda",
+  "override_env": "cuda",
+  "host": "spark-c083",
+  "available": [
+    "cuda",
+    "cpu"
+  ],
+  "dtype": "bfloat16"
+}

@@ -1,0 +1,5 @@
+== ZNF737 / znf737_any (count=4)
+  41785601 | 2026 Apr 15 | Int Immunopharmacol | The ZNF737-CXCL10 axis drives immune exclusion and resistance to anti-PD-1 therapy in bladder cancer.
+  39789109 | 2025 Jan 9 | Sci Rep | Transcriptome-wide association study identifies genes associated with bladder cancer risk.
+  37478121 | 2023 Nov | Biotechnol J | Multiple suppressing small interfering RNA for cancer treatment-Application to triple-negative breast cancer.
+  27186239 | 2016 | J Neurodev Disord | Investigating the effects of copy number variants on reading and language performance.

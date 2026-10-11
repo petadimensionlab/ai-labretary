@@ -1,0 +1,51 @@
+{
+ "kidney_fib": {
+  "count": "0",
+  "records": []
+ },
+ "senescence": {
+  "count": "3",
+  "records": [
+   {
+    "pmid": "39237990",
+    "date": "2024 Sep 6",
+    "journal": "J Nanobiotechnology",
+    "title": "Apoptotic metabolites ameliorate bone aging phenotypes via TCOF1/FLVCR1-mediated mitochondrial homeostasis.",
+    "authors": [
+     "Qu Y",
+     "Meng B",
+     "Cai S"
+    ],
+    "doi": "10.1186/s12951-024-02820-x"
+   },
+   {
+    "pmid": "38513237",
+    "date": "2024 Jun 13",
+    "journal": "Blood",
+    "title": "Genetic regulation of carnitine metabolism controls lipid damage repair and aging RBC hemolysis in vivo and in vitro.",
+    "authors": [
+     "Nemkov T",
+     "Key A",
+     "Stephenson D"
+    ],
+    "doi": "10.1182/blood.2024023983"
+   },
+   {
+    "pmid": "37118062",
+    "date": "2022 May",
+    "journal": "Nat Aging",
+    "title": "Metagenomic and metabolomic remodeling in nonagenarians and centenarians and its association with genetic and socioeconomic factors.",
+    "authors": [
+     "Xu Q",
+     "Wu C",
+     "Zhu Q"
+    ],
+    "doi": "10.1038/s43587-022-00193-0"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

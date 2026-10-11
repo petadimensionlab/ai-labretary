@@ -1,0 +1,785 @@
+{
+ "generated_at": "2026-09-30T14:02:30+09:00",
+ "procedure": "outputs/design/2026-09-30-annotation-goal-state/procedure.md",
+ "procedure_fixed_at": "2026-09-30T13:59:44+09:00",
+ "input_h5ad": "experiments/EXP-20260929-001/work/input.h5ad",
+ "n_cells_total": 21769,
+ "n_genes_total": 35439,
+ "gene_universe": {
+  "in_var": 35439,
+  "in_geneformer_v2_dict": 19225,
+  "excluded_blinded": 3,
+  "excluded_myof_positive_control": 24,
+  "excluded_housekeeping_neutral": 10,
+  "excluded_mt_ribo": 109,
+  "eligible_for_positive_control": 19089
+ },
+ "state_counts": {
+  "FIB": {
+   "n_cells": 7397,
+   "n_donors": 78,
+   "by_disease": {
+    "acute kidney injury": 2100,
+    "chronic kidney disease": 3755,
+    "normal": 1542
+   }
+  },
+  "M-FIB": {
+   "n_cells": 8080,
+   "n_donors": 59,
+   "by_disease": {
+    "acute kidney injury": 693,
+    "chronic kidney disease": 2500,
+    "normal": 4887
+   }
+  },
+  "MYOF": {
+   "n_cells": 2651,
+   "n_donors": 76,
+   "by_disease": {
+    "acute kidney injury": 896,
+    "chronic kidney disease": 1108,
+    "normal": 647
+   }
+  },
+  "aFIB": {
+   "n_cells": 2480,
+   "n_donors": 53,
+   "by_disease": {
+    "acute kidney injury": 938,
+    "chronic kidney disease": 1081,
+    "normal": 461
+   }
+  },
+  "cycMYOF": {
+   "n_cells": 69,
+   "n_donors": 23,
+   "by_disease": {
+    "acute kidney injury": 47,
+    "chronic kidney disease": 6,
+    "normal": 16
+   }
+  },
+  "dFIB": {
+   "n_cells": 534,
+   "n_donors": 60,
+   "by_disease": {
+    "acute kidney injury": 175,
+    "chronic kidney disease": 191,
+    "normal": 168
+   }
+  },
+  "dM-FIB": {
+   "n_cells": 558,
+   "n_donors": 14,
+   "by_disease": {
+    "acute kidney injury": 2,
+    "chronic kidney disease": 8,
+    "normal": 548
+   }
+  }
+ },
+ "candidates": [
+  {
+   "candidate": "I",
+   "goal_labels": [
+    "aFIB"
+   ],
+   "start_labels": [
+    "FIB",
+    "M-FIB"
+   ],
+   "reference_labels": [
+    "MYOF"
+   ],
+   "other_labels": [
+    "dFIB"
+   ],
+   "F1": {
+    "n_cells": 2480,
+    "n_donors": 53,
+    "pass": true
+   },
+   "F2": {
+    "n_cells": 15477,
+    "n_donors": 79,
+    "pass": true
+   },
+   "reference_n_cells": 2651,
+   "other_n_cells": 534,
+   "paired_donors": {
+    "n": 33,
+    "min_cells_each_side": 10
+   },
+   "K": {
+    "n_passing_filters": 1901,
+    "K": 24,
+    "pass": true,
+    "filters": {
+     "detection_goal_min": 0.2,
+     "consistency_min": 0.7,
+     "delta_min": 0.05
+    },
+    "positive_control": [
+     {
+      "symbol": "FOXP2",
+      "ensembl": "ENSG00000128573",
+      "delta": 0.5250988142292503,
+      "consistency": 1.0,
+      "detection_goal": 0.614919354838711
+     },
+     {
+      "symbol": "FGF14",
+      "ensembl": "ENSG00000102466",
+      "delta": 0.5204758636467626,
+      "consistency": 1.0,
+      "detection_goal": 0.5810483870967783
+     },
+     {
+      "symbol": "IGF1",
+      "ensembl": "ENSG00000017427",
+      "delta": 0.4932902670111979,
+      "consistency": 1.0,
+      "detection_goal": 0.5548387096774257
+     },
+     {
+      "symbol": "CCDC80",
+      "ensembl": "ENSG00000091986",
+      "delta": 0.4528571428571428,
+      "consistency": 1.0,
+      "detection_goal": 0.5737903225806499
+     },
+     {
+      "symbol": "PRRX1",
+      "ensembl": "ENSG00000116132",
+      "delta": 0.4508586043112904,
+      "consistency": 1.0,
+      "detection_goal": 0.5665322580645215
+     },
+     {
+      "symbol": "ZBTB7C",
+      "ensembl": "ENSG00000184828",
+      "delta": 0.43999999999999995,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.5270161290322667
+     },
+     {
+      "symbol": "PDZRN4",
+      "ensembl": "ENSG00000165966",
+      "delta": 0.43333333333333335,
+      "consistency": 1.0,
+      "detection_goal": 0.5725806451612951
+     },
+     {
+      "symbol": "CELF2",
+      "ensembl": "ENSG00000048740",
+      "delta": 0.4306722689075629,
+      "consistency": 1.0,
+      "detection_goal": 0.4991935483871076
+     },
+     {
+      "symbol": "ABI3BP",
+      "ensembl": "ENSG00000154175",
+      "delta": 0.425395256916997,
+      "consistency": 1.0,
+      "detection_goal": 0.6475806451612889
+     },
+     {
+      "symbol": "BNC2",
+      "ensembl": "ENSG00000173068",
+      "delta": 0.42524547803617846,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.8568548387096585
+     },
+     {
+      "symbol": "BOC",
+      "ensembl": "ENSG00000144857",
+      "delta": 0.4140350877192983,
+      "consistency": 1.0,
+      "detection_goal": 0.594758064516132
+     },
+     {
+      "symbol": "NOX4",
+      "ensembl": "ENSG00000086991",
+      "delta": 0.40826012058570255,
+      "consistency": 0.8787878787878788,
+      "detection_goal": 0.6415322580645152
+     },
+     {
+      "symbol": "EFNA5",
+      "ensembl": "ENSG00000184349",
+      "delta": 0.407252368647718,
+      "consistency": 0.9090909090909091,
+      "detection_goal": 0.6125000000000015
+     },
+     {
+      "symbol": "C3",
+      "ensembl": "ENSG00000125730",
+      "delta": 0.3929306794783804,
+      "consistency": 0.9393939393939394,
+      "detection_goal": 0.43830645161291076
+     },
+     {
+      "symbol": "FLRT2",
+      "ensembl": "ENSG00000185070",
+      "delta": 0.38387324496038916,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.6862903225806405
+     },
+     {
+      "symbol": "NAV3",
+      "ensembl": "ENSG00000067798",
+      "delta": 0.3782021782481979,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.5475806451612972
+     },
+     {
+      "symbol": "FBLN1",
+      "ensembl": "ENSG00000077942",
+      "delta": 0.37681159420289834,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.7290322580645079
+     },
+     {
+      "symbol": "PODN",
+      "ensembl": "ENSG00000174348",
+      "delta": 0.3536674577690906,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.4153225806451676
+     },
+     {
+      "symbol": "FGFR1",
+      "ensembl": "ENSG00000077782",
+      "delta": 0.3535123121015388,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.5508064516129099
+     },
+     {
+      "symbol": "ZEB1",
+      "ensembl": "ENSG00000148516",
+      "delta": 0.3298053527980442,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.72701612903225
+     },
+     {
+      "symbol": "EBF2",
+      "ensembl": "ENSG00000221818",
+      "delta": 0.3258781958012889,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.3891129032258113
+     },
+     {
+      "symbol": "NFIB",
+      "ensembl": "ENSG00000147862",
+      "delta": 0.32575757575757625,
+      "consistency": 0.9393939393939394,
+      "detection_goal": 0.7588709677419248
+     },
+     {
+      "symbol": "GSN",
+      "ensembl": "ENSG00000148180",
+      "delta": 0.32570152170878136,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.6120967741935499
+     },
+     {
+      "symbol": "ZFPM2",
+      "ensembl": "ENSG00000169946",
+      "delta": 0.31612645058023225,
+      "consistency": 0.9393939393939394,
+      "detection_goal": 0.8608870967741743
+     }
+    ],
+    "goal_defining_proxy": [
+     {
+      "symbol": "TWIST2",
+      "ensembl": "ENSG00000233608",
+      "delta": 0.3113245298119246,
+      "consistency": 0.9393939393939394,
+      "detection_goal": 0.4036290322580702
+     },
+     {
+      "symbol": "AFDN",
+      "ensembl": "ENSG00000130396",
+      "delta": 0.30821705426356694,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.5665322580645215
+     },
+     {
+      "symbol": "PDGFD",
+      "ensembl": "ENSG00000170962",
+      "delta": 0.30721966205837165,
+      "consistency": 1.0,
+      "detection_goal": 0.42782258064516826
+     },
+     {
+      "symbol": "PTPRF",
+      "ensembl": "ENSG00000142949",
+      "delta": 0.3070291777188329,
+      "consistency": 1.0,
+      "detection_goal": 0.3286290322580661
+     },
+     {
+      "symbol": "SLIT2",
+      "ensembl": "ENSG00000145147",
+      "delta": 0.30572615078668636,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.6342741935483868
+     },
+     {
+      "symbol": "CDON",
+      "ensembl": "ENSG00000064309",
+      "delta": 0.30434782608695643,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.4354838709677493
+     },
+     {
+      "symbol": "ADAMTS3",
+      "ensembl": "ENSG00000156140",
+      "delta": 0.29580761864226396,
+      "consistency": 0.9393939393939394,
+      "detection_goal": 0.45080645161291144
+     },
+     {
+      "symbol": "DCLK1",
+      "ensembl": "ENSG00000133083",
+      "delta": 0.2954317269076305,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.5036290322580751
+     },
+     {
+      "symbol": "LRP1",
+      "ensembl": "ENSG00000123384",
+      "delta": 0.2928571428571434,
+      "consistency": 0.9393939393939394,
+      "detection_goal": 0.6008064516129057
+     },
+     {
+      "symbol": "IGFBP6",
+      "ensembl": "ENSG00000167779",
+      "delta": 0.2892857142857142,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.41491935483871595
+     },
+     {
+      "symbol": "EFEMP1",
+      "ensembl": "ENSG00000115380",
+      "delta": 0.28928571428571415,
+      "consistency": 0.9696969696969697,
+      "detection_goal": 0.4076612903225865
+     },
+     {
+      "symbol": "SLC7A6",
+      "ensembl": "ENSG00000103064",
+      "delta": 0.2867178556470743,
+      "consistency": 0.8787878787878788,
+      "detection_goal": 0.4467741935483951
+     }
+    ]
+   },
+   "F3": {
+    "min_cells_per_gene": 120,
+    "max_cells_per_donor": 20,
+    "n_genes_perturbable_whole_universe": 13085,
+    "T1": [
+     {
+      "symbol": "CXCL13",
+      "found": true,
+      "ensembl": "ENSG00000156234",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 158,
+      "n_donors_start": 34,
+      "n_cells_after_cap": 122,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "CCL19",
+      "found": true,
+      "ensembl": "ENSG00000172724",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 188,
+      "n_donors_start": 39,
+      "n_cells_after_cap": 152,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "CCL21",
+      "found": true,
+      "ensembl": "ENSG00000137077",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 348,
+      "n_donors_start": 50,
+      "n_cells_after_cap": 278,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "CXCL12",
+      "found": true,
+      "ensembl": "ENSG00000107562",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 4194,
+      "n_donors_start": 72,
+      "n_cells_after_cap": 1133,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "LTB",
+      "found": true,
+      "ensembl": "ENSG00000227507",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 119,
+      "n_donors_start": 38,
+      "n_cells_after_cap": 119,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "LTBR",
+      "found": true,
+      "ensembl": "ENSG00000111321",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1489,
+      "n_donors_start": 71,
+      "n_cells_after_cap": 800,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "TNFSF13B",
+      "found": true,
+      "ensembl": "ENSG00000102524",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1278,
+      "n_donors_start": 65,
+      "n_cells_after_cap": 718,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "TNFSF14",
+      "found": true,
+      "ensembl": "ENSG00000125735",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 25,
+      "n_donors_start": 16,
+      "n_cells_after_cap": 25,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "ICAM1",
+      "found": true,
+      "ensembl": "ENSG00000090339",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 818,
+      "n_donors_start": 67,
+      "n_cells_after_cap": 557,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "VCAM1",
+      "found": true,
+      "ensembl": "ENSG00000162692",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1051,
+      "n_donors_start": 69,
+      "n_cells_after_cap": 684,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "IL7",
+      "found": true,
+      "ensembl": "ENSG00000104432",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1275,
+      "n_donors_start": 59,
+      "n_cells_after_cap": 603,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "CXCL9",
+      "found": true,
+      "ensembl": "ENSG00000138755",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 32,
+      "n_donors_start": 13,
+      "n_cells_after_cap": 32,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "CXCL10",
+      "found": true,
+      "ensembl": "ENSG00000169245",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 27,
+      "n_donors_start": 14,
+      "n_cells_after_cap": 27,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "CXCL11",
+      "found": true,
+      "ensembl": "ENSG00000169248",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 8,
+      "n_donors_start": 8,
+      "n_cells_after_cap": 8,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "CCL2",
+      "found": true,
+      "ensembl": "ENSG00000108691",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1194,
+      "n_donors_start": 64,
+      "n_cells_after_cap": 707,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "MADCAM1",
+      "found": true,
+      "ensembl": "ENSG00000099866",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 175,
+      "n_donors_start": 42,
+      "n_cells_after_cap": 149,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     }
+    ],
+    "T2": [
+     {
+      "symbol": "CDKN1A",
+      "found": true,
+      "ensembl": "ENSG00000124762",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 441,
+      "n_donors_start": 44,
+      "n_cells_after_cap": 227,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "CDKN2A",
+      "found": true,
+      "ensembl": "ENSG00000147889",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 29,
+      "n_donors_start": 17,
+      "n_cells_after_cap": 29,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "SERPINE1",
+      "found": true,
+      "ensembl": "ENSG00000106366",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1894,
+      "n_donors_start": 60,
+      "n_cells_after_cap": 519,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "IGFBP3",
+      "found": true,
+      "ensembl": "ENSG00000146674",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1621,
+      "n_donors_start": 70,
+      "n_cells_after_cap": 843,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "IGFBP7",
+      "found": true,
+      "ensembl": "ENSG00000163453",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 13468,
+      "n_donors_start": 79,
+      "n_cells_after_cap": 1410,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "IL6",
+      "found": true,
+      "ensembl": "ENSG00000136244",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 27,
+      "n_donors_start": 12,
+      "n_cells_after_cap": 27,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "IL1B",
+      "found": true,
+      "ensembl": "ENSG00000125538",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 4,
+      "n_donors_start": 4,
+      "n_cells_after_cap": 4,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "TGFB1",
+      "found": true,
+      "ensembl": "ENSG00000105329",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 2324,
+      "n_donors_start": 72,
+      "n_cells_after_cap": 947,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "GDF15",
+      "found": true,
+      "ensembl": "ENSG00000130513",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 744,
+      "n_donors_start": 46,
+      "n_cells_after_cap": 304,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "TIMP1",
+      "found": true,
+      "ensembl": "ENSG00000102265",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 1938,
+      "n_donors_start": 71,
+      "n_cells_after_cap": 792,
+      "pass_floor": true,
+      "in_positive_control": false,
+      "usable": true
+     },
+     {
+      "symbol": "MMP3",
+      "found": true,
+      "ensembl": "ENSG00000149968",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 3,
+      "n_donors_start": 3,
+      "n_cells_after_cap": 3,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     },
+     {
+      "symbol": "CXCL8",
+      "found": true,
+      "ensembl": "ENSG00000169429",
+      "in_geneformer_dict": true,
+      "n_cells_detected_start": 33,
+      "n_donors_start": 17,
+      "n_cells_after_cap": 33,
+      "pass_floor": false,
+      "in_positive_control": false,
+      "usable": false
+     }
+    ],
+    "T1_usable": [
+     "CXCL13",
+     "CCL19",
+     "CCL21",
+     "CXCL12",
+     "LTBR",
+     "TNFSF13B",
+     "ICAM1",
+     "VCAM1",
+     "IL7",
+     "CCL2",
+     "MADCAM1"
+    ],
+    "T2_usable": [
+     "CDKN1A",
+     "SERPINE1",
+     "IGFBP3",
+     "IGFBP7",
+     "TGFB1",
+     "GDF15",
+     "TIMP1"
+    ],
+    "pass": true
+   },
+   "F4": {
+    "goal_defined_by": "著者注釈 subclass.l2（Lake 2023）。遺伝子は使っていない",
+    "n_genes_defining_goal": 0,
+    "overlap_defining_x_positive_control": 0,
+    "overlap_defining_x_targets": 0,
+    "overlap_positive_control_x_targets": 0,
+    "overlap_triple": 0,
+    "targets_dropped_because_in_positive_control": [],
+    "goal_defining_proxy_x_positive_control": 0,
+    "pass": true
+   },
+   "F5": {
+    "median_n_genes_goal": 1905.5,
+    "median_n_genes_start": 1621.0,
+    "ratio": 1.17550894509562,
+    "ratio_pass": true,
+    "median_n_counts_goal": 3134.5,
+    "median_n_counts_start": 2635.0,
+    "depth_only_auc": {
+     "auc_per_fold": [
+      0.613916083916084,
+      0.7169995708490157,
+      0.5615912629462237,
+      0.7094088613713484,
+      0.4067098348866893
+     ],
+     "auc_mean": 0.6017251227938722,
+     "auc_pooled_oof": 0.5786403784387656,
+     "n_folds": 5
+    },
+    "auc_pass": true,
+    "pass": true
+   },
+   "all_pass": true
+  }
+ ],
+ "adopted": "I"
+}

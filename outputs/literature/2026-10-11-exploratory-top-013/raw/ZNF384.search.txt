@@ -1,0 +1,5 @@
+== kidney_fib (count=0)
+== senescence (count=2)
+  41816936 | 2026 Mar 31 | FASEB J | ZNF384-Driven Fibulin-1 Exacerbates Vascular Stiffness via TGF-β/Smad3-Mediated Senescence and Fibrosis.
+  41477821 | 2026 Jan 2 | Sci Adv | Multidimensional mapping of stimulation-responsive regulatory elements and candidate causal variants in T cell activation.
+== tls_lymphoid (count=0)

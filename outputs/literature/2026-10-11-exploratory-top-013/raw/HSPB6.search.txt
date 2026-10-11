@@ -1,0 +1,11 @@
+== kidney_fib (count=0)
+== senescence (count=8)
+  42010371 | 2026 May | J Alzheimers Dis | Psychometric criteria for superior cognitive performance in very old adults.
+  39895864 | 2025 Jan | J Orthop Translat | Unveiling MiR-3085-3p as a modulator of cartilage degeneration in facet joint osteoarthritis: A novel therapeutic target.
+  39280615 | 2024 Sep 20 | iScience | HSPB6: A lipid-dependent molecular chaperone inhibits α-synuclein aggregation.
+  32946285 | 2020 Nov 1 | Am J Physiol Heart Circ Physiol | Tissue-specific small heat shock protein 20 activation is not associated with traditional autophagy markers in Ossabaw swine with cardiometabolic heart failure.
+  30837897 | 2019 | Front Physiol | Lifelong Football Training: Effects on Autophagy and Healthy Longevity Promotion.
+  29289712 | 2018 Apr | Meat Sci | Proteome changes of beef in Nellore cattle with different genotypes for tenderness.
+  25956426 | 2015 Jul 1 | J Proteomics | Apoptosis in muscle-to-meat aging process: The omic witness.
+  14629120 | 2003 Oct | Eur J Cell Biol | Expression of small heat shock proteins HspB2, HspB8, Hsp20 and cvHsp in different tissues of the perinatal developing pig.
+== tls_lymphoid (count=0)

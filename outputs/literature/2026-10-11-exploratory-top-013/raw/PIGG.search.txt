@@ -1,0 +1,5 @@
+== kidney_fib (count=1)
+  36440259 | 2023 Jan | JHEP Rep | Histological and serological features of acute liver injury after SARS-CoV-2 vaccination.
+== senescence (count=1)
+  19556305 | 2009 Aug | Int Immunol | Nucleotide-hydrolyzing antibodies from the sera of autoimmune-prone MRL-lpr/lpr mice.
+== tls_lymphoid (count=0)

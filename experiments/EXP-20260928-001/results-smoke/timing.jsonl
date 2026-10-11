@@ -1,0 +1,11 @@
+{"seed": 41, "step": "state_embs", "seconds": 408.67}
+{"seed": 41, "gene": "ENSG00000119686", "role": "target", "n_cells": 50, "isp_seconds": 34.76, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000213694", "role": "target", "n_cells": 50, "isp_seconds": 38.08, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000137491", "role": "target", "n_cells": 50, "isp_seconds": 28.7, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000133392", "role": "positive", "n_cells": 50, "isp_seconds": 30.06, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000156113", "role": "positive", "n_cells": 50, "isp_seconds": 30.7, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000075624", "role": "housekeeping", "n_cells": 50, "isp_seconds": 29.01, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000090661", "role": "negctrl_panel", "n_cells": 50, "isp_seconds": 30.71, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000107796", "role": "reference_myof", "n_cells": 50, "isp_seconds": 30.65, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000143156", "role": "negative", "n_cells": 50, "isp_seconds": 32.72, "model_load_seconds": 0}
+{"seed": 41, "gene": "ENSG00000131966", "role": "negative", "n_cells": 50, "isp_seconds": 36.52, "model_load_seconds": 0}

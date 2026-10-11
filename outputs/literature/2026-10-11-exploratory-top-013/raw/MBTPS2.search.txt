@@ -1,0 +1,4 @@
+== kidney_fib (count=1)
+  34655156 | 2022 Feb | Am J Med Genet A | A novel MBTPS2 variant associated with BRESHECK syndrome impairs sterol-regulated transcription and the endoplasmic reticulum stress response.
+== senescence (count=0)
+== tls_lymphoid (count=0)

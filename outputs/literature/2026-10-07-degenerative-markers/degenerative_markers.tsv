@@ -1,0 +1,883 @@
+gene	snCv3_minimal	snCv3_expanded_num_celltypes	scCv3_minimal	scCv3_minimal_also_in_snCv3	scCv3_expanded_num_celltypes
+AAMDC					1
+AC010894.3		1			
+ACTA2					1
+ACTB	Y	10			2
+ACTG1	Y	9	Y	Yes	2
+ADGRG1		3			
+ADH1C					1
+ADI1		1			1
+ADIRF					1
+AES		2			
+AGRN		2			
+AHNAK		1			
+AIF1L		2			
+AK6					1
+AKR1B1		1			
+AKR7A2					1
+ALDH1A1		2			
+ALKBH7			Y	No	3
+AMBRA1	Y	3			
+ANAPC11			Y	No	
+ANAPC13					1
+ANAPC16			Y	No	1
+ANXA2			Y	No	2
+ANXA5					1
+AOC1		1			1
+AP2S1			Y	No	
+APLP2	Y	4			
+APOE		3			1
+APOO	Y	8			
+APP		1			1
+APRT			Y	No	4
+AQP2		1			1
+AQP3		1			1
+ARF1		2			
+ARG2					1
+ARL2					2
+ARL3					1
+ARL6IP4		1			1
+ARL6IP5		1			
+ARMC9		1			
+ARPC2					1
+ARPC3			Y	No	4
+ARSD		1			
+ASAH1		1			2
+ATOX1			Y	No	2
+ATP1A1	Y	7			
+ATP1B1	Y	6			1
+ATP5F1A	Y	3			1
+ATP5F1B	Y	5			1
+ATP5F1C					3
+ATP5F1D		3	Y	No	4
+ATP5F1E	Y	7			3
+ATP5IF1		3	Y	No	4
+ATP5MC1					2
+ATP5MC2		3	Y	No	4
+ATP5MC3		3			2
+ATP5MD			Y	No	4
+ATP5ME					3
+ATP5MF			Y	No	4
+ATP5MG	Y	4	Y	Yes	5
+ATP5MPL		1			3
+ATP5PB		1			
+ATP5PD			Y	No	4
+ATP5PF		1	Y	No	4
+ATP5PO			Y	No	4
+ATP6AP1		3			1
+ATP6AP2		3			
+ATP6V0B	Y	5			1
+ATP6V0E1		2	Y	No	2
+ATP6V1F	Y	4			2
+ATP6V1G1		3	Y	No	4
+ATP6V1G3					1
+ATRAID					1
+AURKAIP1		1	Y	No	1
+B2M	Y	8			2
+BAG1		1			
+BAIAP2L1	Y	7			
+BANF1			Y	No	1
+BAX					1
+BCAM		2			1
+BCAP31		3			
+BCL7C					1
+BEX3		2	Y	No	4
+BEX4					1
+BGN		1			
+BLOC1S1			Y	No	1
+BLVRB					1
+BNIP3					1
+BOLA3			Y	No	
+BRI3			Y	No	3
+BRK1			Y	No	3
+BSG	Y	4			2
+BTF3			Y	No	5
+BTG1		1			
+C11orf96					1
+C12orf57			Y	No	2
+C12orf75					2
+C19orf53			Y	No	4
+C19orf70					1
+C1QBP					1
+C4orf3		1			2
+C4orf48					1
+C9orf16			Y	No	4
+CA12		2			
+CA2		3			1
+CALM1	Y	3			1
+CALM2			Y	No	4
+CALR		3			
+CAMK2N1		3			
+CAMTA1			Y	No	1
+CANX	Y	4			
+CAPG					2
+CAPNS1		1			1
+CAPS		1			1
+CAVIN1		1			
+CBR1					1
+CBX5		1			
+CCDC107					1
+CCNI	Y	5			
+CCSER1		1			
+CD164		3			
+CD24	Y	7			3
+CD63	Y	4	Y	Yes	2
+CD74	Y	4			
+CD81	Y	6	Y	Yes	3
+CD82		1			
+CD9		1			1
+CDA					1
+CDH16	Y	5			1
+CDKN1C		1			
+CEBPD					1
+CELSR2		1			
+CFL1		2	Y	No	4
+CHCHD1			Y	No	1
+CHCHD10		3	Y	No	3
+CHCHD2		3	Y	No	6
+CHCHD5			Y	No	1
+CHMP2A					1
+CIB1					1
+CKB		3			1
+CLDN3					1
+CLDN4					1
+CLDN7					2
+CLDN8		1			
+CLIC1			Y	No	4
+CLTA					2
+CLU		2			2
+CNBP		1			
+CNDP2		1			
+CNN1					1
+COA3		2	Y	No	3
+COMMD6		1	Y	No	6
+COMT					1
+COPE					1
+COPRS					2
+COPS9			Y	No	4
+COX14					2
+COX17			Y	No	3
+COX4I1	Y	5	Y	Yes	5
+COX5A		1	Y	No	5
+COX5B		3	Y	No	4
+COX6A1			Y	No	4
+COX6B1	Y	4	Y	Yes	4
+COX6C		2	Y	No	4
+COX7A1					1
+COX7A2		1	Y	No	5
+COX7A2L			Y	No	2
+COX7B		3	Y	No	3
+COX7C	Y	5	Y	Yes	5
+COX8A			Y	No	3
+CPVL					1
+CRIM1					1
+CRIP1					1
+CRIP2					1
+CRYAB					2
+CSDE1		1			
+CSNK2B					2
+CSRP1					2
+CSRP2					1
+CST3	Y	5	Y	Yes	3
+CSTB		2	Y	No	4
+CTSB		1			
+CTSH		1			1
+CTSL					1
+CUTA			Y	No	2
+CYB5A		1	Y	No	3
+CYBA					1
+CYC1					1
+CYCS		1			1
+CYS1					1
+CYSTM1	Y		Y	Yes	4
+DACT3					1
+DAD1		2	Y	No	2
+DAZAP2		3			
+DBI			Y	No	6
+DCTN3			Y	No	3
+DCXR					2
+DDR1		3			
+DDRGK1					1
+DDT			Y	No	4
+DEFB1	Y	5			1
+DEGS2					1
+DHFR	Y	6			
+DHRS7		1			1
+DMAC1					1
+DMKN					2
+DNAJC15					1
+DNPH1			Y	No	3
+DPM3					1
+DPY30					1
+DSG2		1			
+DSP		1			
+DSTN	Y	5	Y	Yes	3
+DYNLL1		2	Y	No	5
+DYNLL2		1			
+DYNLRB1		1	Y	No	3
+DYNLT1			Y	No	3
+ECH1			Y	No	1
+ECHS1			Y	No	3
+EDF1			Y	No	4
+EEF1A1	Y	9	Y	Yes	5
+EEF1B2			Y	No	5
+EEF1D	Y	2	Y	Yes	4
+EEF2	Y	6			
+EFCAB14		1			
+EID1		1			
+EIF1	Y	6	Y	Yes	6
+EIF1AX		1			
+EIF3F					2
+EIF3H					1
+EIF3K			Y	No	6
+EIF4A2		1			
+EIF4G2		2			
+ELOB		1	Y	No	4
+ELOC					3
+EMC10		2			
+ENAH					1
+ENO1	Y	6	Y	Yes	2
+EPCAM		3			1
+ERBB2		1			
+ERH					2
+ERP29	Y	4			1
+ESD			Y	No	1
+F11R		1			
+FABP3					1
+FAM162A			Y	No	1
+FAM96B					2
+FAU	Y	6	Y	Yes	6
+FCGRT					1
+FGD5-AS1		2			
+FGL2		1			1
+FIS1		1	Y	No	3
+FLNA					1
+FOLR1		1			2
+FOLR3					1
+FOXI1		1			
+FP236383.1	Y	4			
+FP671120.1		3			
+FTH1	Y	8	Y	Yes	6
+FTL	Y	10	Y	Yes	6
+FUCA1		1			
+FUNDC2					1
+FXYD2	Y	4			
+FXYD3					1
+FXYD4		1			1
+GABARAPL2			Y	No	3
+GANAB		1			
+GAPDH	Y	7	Y	Yes	6
+GLRX5			Y	No	2
+GNAS	Y	4			
+GNG11					1
+GNG5			Y	No	6
+GNS		1			
+GPRC5C		1			
+GPX3	Y	3			
+GPX4	Y	4	Y	Yes	5
+GRHPR					1
+GRN	Y	4			1
+GSTK1					1
+GSTM3		1			1
+GSTO1			Y	No	
+GSTP1	Y	6	Y	Yes	5
+GTF2A2					1
+GTF3C6					1
+GUK1		3	Y	No	5
+H1FX					1
+H2AFV		1			
+H2AFZ					1
+H3F3A			Y	No	4
+H3F3B	Y	6	Y	Yes	3
+HACD3		1			
+HCFC1R1					2
+HDGF		1			
+HEBP2					1
+HES4					1
+HIGD1A					2
+HIGD2A			Y	No	2
+HINT1	Y	3	Y	Yes	6
+HIST1H4C					2
+HLA-A	Y	9			2
+HLA-B	Y	5			2
+HLA-C	Y	3			2
+HLA-DRB1					1
+HLA-E		1			
+HMGN1		1			1
+HMGN2		2			1
+HMGN3			Y	No	1
+HNRNPA1		3			1
+HNRNPK		3			
+HOXD8		1			
+HSBP1			Y	No	3
+HSD11B2					2
+HSD17B10			Y	No	
+HSP90AA1	Y	4			
+HSP90AB1	Y	4			1
+HSP90B1	Y	4			
+HSPA5		2			
+HSPA8	Y	4			1
+HSPB1	Y	5	Y	Yes	3
+HSPB6					1
+HSPE1			Y	No	4
+HSPG2					1
+ID3					1
+ID4					1
+IDH2		1			
+IER3		1			
+IER3IP1					1
+IFITM2					1
+IFITM3					2
+IGFBP2		2			1
+IGFBP3		1			
+IGFBP5		1			
+IGFBP7	Y	7	Y	Yes	5
+IL32					1
+ISCU		2	Y	No	3
+ITGA8					1
+ITGB1		1			
+ITGB6		1			
+ITM2B	Y	8			1
+ITM2C		3			1
+JPT1					2
+JUND	Y	4			
+KCNJ1		1			
+KCNJ10		1			
+KCTD12		2			
+KDELR1					1
+KNG1		1			
+KRT10			Y	No	1
+KRT18		1			2
+KRT19		1			1
+KRT7					1
+KRT8		1			2
+L1CAM		1			
+LAMP1		3			
+LAMP2		1			
+LAMTOR1			Y	No	2
+LAMTOR4		1	Y	No	2
+LAMTOR5		2	Y	No	3
+LAPTM4A		3			2
+LARP6					1
+LBH					1
+LDHA		1			2
+LDHB	Y	5	Y	Yes	5
+LGALS2					1
+LGALS3			Y	No	3
+LGALS3BP		1			1
+LINGO1	Y	4			
+LMAN1		1			
+LMAN2					1
+LMOD1					1
+LRPAP1		1			1
+LSM2					1
+LSM3			Y	No	1
+LSM4					1
+LSM7					1
+LUM		1			
+MAL		3			1
+MAL2		1			
+MAMDC2		3			
+MAP1LC3B					1
+MAP3K7CL					1
+MCAM					1
+MCCD1					1
+MCRIP1					1
+MCRIP2					1
+MDH1					1
+MDH2			Y	No	4
+MECOM		1			
+METTL5					1
+METTL7A		3			
+MFAP4					1
+MFGE8					1
+MGMT					1
+MGP		1			
+MGST1					1
+MGST3			Y	No	7
+MIEN1			Y	No	
+MIF					3
+MINOS1					2
+MLEC		1			
+MMP24OS					3
+MMP7		1			
+MOB1A		1			
+MOB2					1
+MPC2			Y	No	3
+MRFAP1		1			1
+MRPL13					1
+MRPL20					1
+MRPL33			Y	No	3
+MRPL34			Y	No	
+MRPL41			Y	No	1
+MRPL43					1
+MRPL51			Y	No	2
+MRPL52			Y	No	1
+MRPL57					3
+MRPS12					1
+MRPS21			Y	No	1
+MRPS33					1
+MRPS36			Y	No	1
+MRPS6			Y	No	2
+MSRB2					1
+MSRB3					1
+MT1E					1
+MT1M					1
+MT1X					1
+MTRNR2L12	Y	5			
+MTRNR2L8	Y	4			
+MXRA5		1			
+MYDGF					1
+MYH11					1
+MYL12A		1			3
+MYL12B	Y	5	Y	Yes	6
+MYL6	Y	5	Y	Yes	6
+MYL9		1			1
+MYLK					1
+MZT2B			Y	No	4
+NAA20					1
+NAA38			Y	No	4
+NACA		2	Y	No	6
+NAXE					1
+NBDY			Y	No	4
+NCL		2			
+NDFIP1					1
+NDRG1					1
+NDUFA1		2	Y	No	3
+NDUFA11			Y	No	5
+NDUFA12			Y	No	3
+NDUFA13					3
+NDUFA2			Y	No	2
+NDUFA3					3
+NDUFA4	Y	6	Y	Yes	5
+NDUFA5		1			1
+NDUFA6			Y	No	5
+NDUFA7					1
+NDUFA8					2
+NDUFAB1			Y	No	4
+NDUFAF3			Y	No	4
+NDUFAF8					1
+NDUFB1					1
+NDUFB10			Y	No	4
+NDUFB11			Y	No	2
+NDUFB2		2	Y	No	5
+NDUFB3			Y	No	4
+NDUFB4			Y	No	5
+NDUFB5			Y	No	1
+NDUFB6			Y	No	
+NDUFB7	Y	4	Y	Yes	4
+NDUFB8					2
+NDUFB9			Y	No	4
+NDUFC1			Y	No	5
+NDUFC2			Y	No	3
+NDUFS3					1
+NDUFS5		3	Y	No	5
+NDUFS6			Y	No	1
+NDUFS7			Y	No	2
+NDUFS8			Y	No	3
+NDUFV2			Y	No	4
+NEDD8			Y	No	4
+NENF			Y	No	2
+NET1					1
+NFE2L1		3			
+NHP2					2
+NME1					1
+NOP10			Y	No	2
+NORAD	Y	5			
+NPC2		1	Y	No	2
+NPM1			Y	No	4
+NQO2					1
+NRGN					1
+NSA2					1
+NUCKS1		1			
+NUDC					1
+NUDT3		1			
+NUPR2					1
+OAZ1			Y	No	2
+OCIAD2			Y	No	1
+OOEP	Y	5			
+OST4			Y	No	6
+OSTC					1
+P4HB		1			
+PABPC1		1			
+PARK7		2	Y	No	6
+PCBD1			Y	No	3
+PCSK1N		1			1
+PCYOX1		2			
+PDCD5			Y	No	1
+PDE5A					1
+PDIA3		1			
+PDIA6		1			1
+PDLIM5					1
+PEBP1	Y	8	Y	Yes	3
+PERP		1			
+PET100					1
+PFDN2					1
+PFDN5	Y	3	Y	Yes	6
+PFN1		1	Y	No	6
+PGAM1		1			
+PGK1		1			
+PGLS					1
+PGRMC1		1			
+PHB					1
+PHLDA2					1
+PHPT1			Y	No	3
+PIGR		2			
+PIN1					1
+PKHD1		1			
+PKM		2	Y	No	2
+PLA2G16					1
+PLEKHA7		1			
+PLEKHB2		1			
+PLLP					1
+PLN					1
+PLXNB2		1			
+PNKD		1			1
+PNP					1
+POLR2I			Y	No	2
+POLR2J			Y	No	2
+POLR2K			Y	No	2
+POLR2L		1	Y	No	4
+POMP			Y	No	1
+POU3F3		2			
+PPA1					1
+PPDPF	Y	5	Y	Yes	7
+PPIA	Y	4	Y	Yes	6
+PPIB		1			1
+PPP1CB					1
+PPP1R12B					1
+PPP1R14A					1
+PPP1R14B			Y	No	3
+PPP1R1A					1
+PRDX1		3	Y	No	5
+PRDX2			Y	No	5
+PRDX4					1
+PRDX5		1	Y	No	6
+PRDX6		3	Y	No	4
+PRELID1			Y	No	2
+PRMT1					1
+PROM2		1			
+PRR13		1			1
+PSAP	Y	6			
+PSENEN					1
+PSMA2					2
+PSMA7			Y	No	3
+PSMB1			Y	No	4
+PSMB3			Y	No	
+PSMB5			Y	No	1
+PSMB6			Y	No	5
+PSMD8					1
+PSME1					2
+PSME2			Y	No	2
+PTGER1		1			1
+PTGES3					1
+PTGR1					3
+PTH1R		1			
+PTMA	Y	8	Y	Yes	4
+PTMS		2			
+PTN					1
+PTTG1IP		1			
+PYURF					1
+RAB13			Y	No	1
+RAB25					2
+RABAC1					1
+RACK1	Y	4	Y	Yes	5
+RAN					2
+RARRES3					1
+RBX1			Y	No	4
+RCAN2					1
+REEP5		2			1
+RER1					1
+RERGL					1
+REX1BD					1
+RHCG		1			
+RHOA		1			
+RHOC					1
+RNF181					1
+RNF7			Y	No	1
+RNH1			Y	No	
+ROMO1					1
+RPL10	Y	8	Y	Yes	6
+RPL10A	Y	6	Y	Yes	6
+RPL11	Y	7	Y	Yes	6
+RPL12			Y	No	7
+RPL13	Y	8	Y	Yes	6
+RPL13A	Y	6			
+RPL14	Y	8	Y	Yes	6
+RPL15	Y	7	Y	Yes	6
+RPL17					1
+RPL18	Y	5	Y	Yes	6
+RPL18A			Y	No	6
+RPL19	Y	7	Y	Yes	6
+RPL21		3	Y	No	6
+RPL22			Y	No	5
+RPL22L1					1
+RPL23	Y	3	Y	Yes	1
+RPL23A		3	Y	No	6
+RPL24		1	Y	No	6
+RPL26			Y	No	6
+RPL27			Y	No	6
+RPL27A	Y	5	Y	Yes	2
+RPL28	Y	6	Y	Yes	6
+RPL29	Y	8	Y	Yes	6
+RPL3	Y	7	Y	Yes	6
+RPL30	Y	4	Y	Yes	6
+RPL31			Y	No	4
+RPL32	Y	6	Y	Yes	7
+RPL34	Y	5	Y	Yes	7
+RPL35	Y	4	Y	Yes	6
+RPL35A	Y	4	Y	Yes	6
+RPL36	Y	5	Y	Yes	6
+RPL36A			Y	No	4
+RPL36AL		2	Y	No	6
+RPL37		3	Y	No	6
+RPL37A	Y	5	Y	Yes	5
+RPL38		2	Y	No	3
+RPL39			Y	No	3
+RPL4	Y	6	Y	Yes	2
+RPL41	Y	6	Y	Yes	6
+RPL5		3	Y	No	6
+RPL6	Y	5	Y	Yes	6
+RPL7	Y	7			1
+RPL7A	Y	4	Y	Yes	6
+RPL8	Y	6	Y	Yes	7
+RPL9			Y	No	5
+RPLP0	Y	6	Y	Yes	4
+RPLP1	Y	9	Y	Yes	7
+RPLP2	Y	6	Y	Yes	2
+RPN1		2			
+RPN2		2			
+RPS10			Y	No	6
+RPS11	Y	6	Y	Yes	1
+RPS12	Y	6	Y	Yes	7
+RPS13		3	Y	No	6
+RPS14	Y	7	Y	Yes	6
+RPS15	Y	8	Y	Yes	6
+RPS15A			Y	No	6
+RPS16	Y	5	Y	Yes	5
+RPS18	Y	4	Y	Yes	6
+RPS19	Y	6	Y	Yes	6
+RPS19BP1					1
+RPS2	Y	7	Y	Yes	7
+RPS20	Y	5			
+RPS21			Y	No	4
+RPS23	Y	7	Y	Yes	6
+RPS24	Y	7	Y	Yes	6
+RPS25	Y	5	Y	Yes	6
+RPS26			Y	No	6
+RPS27		1	Y	No	6
+RPS27A	Y	8	Y	Yes	6
+RPS27L			Y	No	3
+RPS28			Y	No	6
+RPS29		1	Y	No	4
+RPS3	Y	8	Y	Yes	6
+RPS3A		2	Y	No	6
+RPS4X	Y	7	Y	Yes	7
+RPS5		2	Y	No	6
+RPS6	Y	6	Y	Yes	6
+RPS7	Y	4	Y	Yes	6
+RPS8	Y	6	Y	Yes	6
+RPS9	Y	7	Y	Yes	6
+RPSA	Y	4	Y	Yes	5
+RTF2					1
+RTN4		1			1
+RTRAF					3
+S100A1					1
+S100A10	Y	6	Y	Yes	6
+S100A11		3	Y	No	3
+S100A13		1	Y	No	2
+S100A14					2
+S100A16					1
+S100A2		1			1
+S100A6	Y	8	Y	Yes	5
+SAP18		1	Y	No	2
+SARAF		3			1
+SAT1		1			
+SCAND1		1	Y	No	1
+SCCPDH					1
+SCPEP1		2			
+SDC4	Y	4			
+SDCBP		1			
+SDF2L1					1
+SDHD					2
+SEC11A					1
+SEC61A1		2			
+SEC61B			Y	No	3
+SEC61G			Y	No	3
+SELENOF					1
+SELENOH			Y	No	3
+SELENOK					2
+SELENOM		2			3
+SELENOP	Y	3			1
+SELENOS					1
+SELENOT					1
+SELENOW		1			3
+SEM1					3
+SERBP1		2			
+SERF2	Y	8	Y	Yes	5
+SERINC1		2			
+SERPINA1		1			
+SET		3			
+SF3B5					1
+SF3B6			Y	No	4
+SH3BGRL					1
+SH3BGRL3			Y	No	2
+SIVA1					1
+SKP1	Y	4	Y	Yes	5
+SLC25A11					1
+SLC25A3	Y	4	Y	Yes	2
+SLC25A39					1
+SLC25A4					1
+SLC25A5		2	Y	No	2
+SLC25A6	Y	5	Y	Yes	4
+SLC26A3		1			
+SLC38A2		1			
+SLC39A6		1			
+SLC44A2		1			
+SLC4A1		1			
+SLIRP			Y	No	1
+SMDT1			Y	No	4
+SMIM22					1
+SMIM26					3
+SMIM5					1
+SMIM6					1
+SNCG					1
+SNHG7					1
+SNHG8					1
+SNRPD2					2
+SNRPF			Y	No	1
+SNRPG					1
+SNRPN					3
+SNU13		1	Y	No	4
+SNX3					2
+SOD1		1	Y	No	3
+SOD3					1
+SORBS2					1
+SORT1					1
+SOX4		2			1
+SPARC		1			
+SPARCL1					1
+SPCS1		1			2
+SPCS2					1
+SPINT1-AS1			Y	No	4
+SPINT2					2
+SPP1	Y	7			1
+SRI					3
+SRP14	Y	6	Y	Yes	6
+SRP9		2			1
+SRSF9		1			1
+SSR1		1			
+SSR2					1
+SSR4			Y	No	3
+ST6GAL1					1
+STC1		1			
+STEAP1B	Y	6			
+STMN1					2
+STMP1					1
+STUB1		1			
+SUB1			Y	No	4
+SUCLG1			Y	No	2
+SUMO1					1
+SUMO2			Y	No	5
+SYNM					1
+SYPL1		2			
+TACSTD2		3			2
+TAGLN		1			1
+TAGLN2					1
+TBC1D1					1
+TBCA			Y	No	2
+TCEAL9		1			2
+TECR					2
+TGOLN2		3			
+THBS1		2			
+TIMM13			Y	No	2
+TIMM17B					1
+TIMM8B			Y	No	1
+TIMP1					1
+TMA7		2	Y	No	4
+TMBIM4					1
+TMBIM6	Y	6			
+TMCO1					1
+TMED10		2			1
+TMED4		1			
+TMED5		1			
+TMEM123		2			
+TMEM141			Y	No	3
+TMEM147					1
+TMEM14B			Y	No	2
+TMEM14C					1
+TMEM160					1
+TMEM176A					1
+TMEM176B					1
+TMEM179B					2
+TMEM213	Y	4			
+TMEM219					1
+TMEM238					1
+TMEM258			Y	No	3
+TMEM50A					1
+TMEM52B		1			
+TMEM59	Y	4			1
+TMSB10	Y	7	Y	Yes	7
+TMSB4X	Y	8			3
+TNFRSF12A					1
+TOMM20		1			
+TOMM7	Y	5	Y	Yes	5
+TPGS1					1
+TPI1		3	Y	No	4
+TPM1					2
+TPM2					1
+TPT1	Y	8	Y	Yes	6
+TRAM1		2			
+TRAPPC1					1
+TRAPPC2L					1
+TRIR		1			3
+TRMT112			Y	No	3
+TSC22D1					2
+TSPAN1		3			1
+TSPO		1	Y	No	3
+TSPYL1		2			
+TSTD1			Y	No	3
+TUBA1A					1
+TUBA1B					2
+TUBA1C					1
+TUBB		1			
+TUBB4B					1
+TUFM		2			1
+TXN			Y	No	4
+TXNDC17			Y	No	2
+TXNIP	Y	4			
+TXNL4A					2
+TXNRD1	Y	3			
+UBA52	Y	5	Y	Yes	6
+UBB	Y	5	Y	Yes	5
+UBC	Y	5			
+UBE2M			Y	No	1
+UBL5			Y	No	4
+UBXN1					1
+UFC1			Y	No	2
+UMOD		1			
+UQCR10		3	Y	No	6
+UQCR11			Y	No	4
+UQCRB	Y	5	Y	Yes	5
+UQCRFS1					1
+UQCRH			Y	No	5
+UQCRQ		1	Y	No	4
+UXT			Y	No	1
+VAMP8		3	Y	No	2
+VDAC1		1			
+VDAC2			Y	No	1
+VEGFB					2
+VIM		2			3
+VKORC1					1
+VPS28			Y	No	1
+WASHC3					1
+WDR83OS			Y	No	3
+WFDC2		2			2
+YBX1		2	Y	No	1
+YBX3					1
+YWHAB	Y	3			
+ZFP36					1
+ZFP36L1		1			
+ZNF593					1
+ZNF90		1			
+ZNHIT1			Y	No	1

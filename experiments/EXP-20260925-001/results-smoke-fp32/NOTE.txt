@@ -1,0 +1,1 @@
+fp32 run: config.yaml に compute.dtype 追加前の内容で実行（dtype 未指定=fp32）。summary.csv は run_isp.summarize 修正後に再生成

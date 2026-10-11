@@ -1,0 +1,384 @@
+{
+ "tool": "scripts/analysis/axis_feasibility.py",
+ "generated_at": "2026-09-30T08:19:51+09:00",
+ "experiment_id": "EXP-20260927-004",
+ "note": "摂動を 1 回も行っていない。状態の重心と発現データだけから計算した。",
+ "thresholds": {
+  "block_K_min": 20,
+  "block_detection_median_min": 0.06,
+  "block_axis_ratio_min": 0.35,
+  "block_pair_corr_max": 0.01,
+  "block_pair_detection_max": 0.1,
+  "hold_corr_median_min": 0.03,
+  "hold_detection_median_min": 0.12,
+  "hold_axis_ratio_min": 0.6,
+  "hold_score_share_max": 0.25,
+  "hold_detection_spread_max": 5.0,
+  "hold_circular_overlap_max": 0.5
+ },
+ "centroid_metrics": {
+  "states": {
+   "start": "FIB_neg_TLShigh",
+   "goal": "FIB_org",
+   "reference": "MYOF_neg",
+   "others": [
+    "FIB_neg_TLSlow"
+   ]
+  },
+  "per_seed": [
+   {
+    "seed": 31,
+    "dist_start_to_goal": 0.02081905929590765,
+    "dist_start_to_reference": 0.03270409516838586,
+    "distance_ratio": 0.6365887571178809,
+    "dirlen_goal": 0.02296027717632028,
+    "dirlen_reference": 0.03576736135980774,
+    "direction_ratio": 0.6419337715563511
+   },
+   {
+    "seed": 32,
+    "dist_start_to_goal": 0.020353561654464756,
+    "dist_start_to_reference": 0.0334638931964995,
+    "distance_ratio": 0.6082245581812294,
+    "dirlen_goal": 0.02322824950639621,
+    "dirlen_reference": 0.03590973277206838,
+    "direction_ratio": 0.6468510822353934
+   },
+   {
+    "seed": 33,
+    "dist_start_to_goal": 0.020965981493748585,
+    "dist_start_to_reference": 0.03400727667097395,
+    "distance_ratio": 0.6165145682377903,
+    "dirlen_goal": 0.023957290505950933,
+    "dirlen_reference": 0.036315864137319964,
+    "direction_ratio": 0.6596921503881067
+   }
+  ],
+  "distance_ratio_min": 0.6082245581812294,
+  "distance_ratio_median": 0.6165145682377903,
+  "direction_ratio_min": 0.6419337715563511,
+  "direction_ratio_median": 0.6468510822353934
+ },
+ "expression_metrics": {
+  "population_labels": [
+   "FIB_neg_TLShigh",
+   "FIB_org"
+  ],
+  "n_cells": 6525,
+  "goal_defining": {
+   "set": "目標を定義するマーカー",
+   "n_cells": 6525,
+   "n_genes_requested": 3,
+   "n_genes_found": 3,
+   "missing": [],
+   "detection_median": 0.038620689655172416,
+   "detection_min": 0.028659003831417625,
+   "detection_max": 0.06298850574712643,
+   "detection_spread": 2.197860962566845,
+   "corr_median": 0.004395295970867628,
+   "corr_min": -0.025098834746126168,
+   "corr_max": 0.19751824553549846,
+   "codetection_lift_median": 0.6923223834988541,
+   "score_share_max": 0.4094921926244852,
+   "score_share_top_gene": "CCL21",
+   "n_opposite_direction": 0,
+   "opposite_direction": [],
+   "per_gene": [
+    {
+     "symbol": "CCL21",
+     "detection": 0.06298850574712643,
+     "n_cells_detected": 411,
+     "score_share": 0.4094921926244852
+    },
+    {
+     "symbol": "CCL19",
+     "detection": 0.038620689655172416,
+     "n_cells_detected": 252,
+     "score_share": 0.3179278653259846
+    },
+    {
+     "symbol": "CXCL13",
+     "detection": 0.028659003831417625,
+     "n_cells_detected": 187,
+     "score_share": 0.2725799420495303
+    }
+   ]
+  },
+  "goal_positive_control": {
+   "set": "目標の軸の陽性対照",
+   "n_genes_requested": 1,
+   "n_genes_found": 1,
+   "genes": [
+    "SYN3"
+   ],
+   "error": "遺伝子が 2 個未満。まとまり・偏りを計算できない"
+  },
+  "reference_positive_control": {
+   "set": "参照の軸の陽性対照（対比）",
+   "n_cells": 6525,
+   "n_genes_requested": 24,
+   "n_genes_found": 24,
+   "missing": [],
+   "detection_median": 0.11149425287356321,
+   "detection_min": 0.07111111111111111,
+   "detection_max": 0.24444444444444444,
+   "detection_spread": 3.4375,
+   "corr_median": 0.0680563084483953,
+   "corr_min": -0.046451919400919056,
+   "corr_max": 0.4265808964792714,
+   "codetection_lift_median": 1.6130869750763992,
+   "score_share_max": 0.31009763335239526,
+   "score_share_top_gene": "ATP10A",
+   "n_opposite_direction": 15,
+   "opposite_direction": [
+    "MYH11",
+    "FAP",
+    "ADGRL3",
+    "EDIL3",
+    "NIBAN1",
+    "LTBP2",
+    "AKAP6",
+    "MAP2",
+    "NTM",
+    "INHBA",
+    "ATP8B1",
+    "PDLIM7",
+    "TRMT9B",
+    "FMNL3",
+    "SAMD3"
+   ],
+   "per_gene": [
+    {
+     "symbol": "PDLIM7",
+     "detection": 0.24444444444444444,
+     "n_cells_detected": 1595,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "NTM",
+     "detection": 0.22988505747126436,
+     "n_cells_detected": 1500,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "ATP8B1",
+     "detection": 0.20659003831417624,
+     "n_cells_detected": 1348,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "ATP10A",
+     "detection": 0.19984674329501917,
+     "n_cells_detected": 1304,
+     "score_share": 0.31009763335239526
+    },
+    {
+     "symbol": "FMNL3",
+     "detection": 0.19494252873563217,
+     "n_cells_detected": 1272,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "THBS2",
+     "detection": 0.18681992337164752,
+     "n_cells_detected": 1219,
+     "score_share": 0.034833148276597205
+    },
+    {
+     "symbol": "MYH11",
+     "detection": 0.15509578544061303,
+     "n_cells_detected": 1012,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "ADGRL3",
+     "detection": 0.1428352490421456,
+     "n_cells_detected": 932,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "INHBA",
+     "detection": 0.1321072796934866,
+     "n_cells_detected": 862,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "DPYSL3",
+     "detection": 0.1253639846743295,
+     "n_cells_detected": 818,
+     "score_share": 0.03197193162366428
+    },
+    {
+     "symbol": "SAMD3",
+     "detection": 0.11708812260536398,
+     "n_cells_detected": 764,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "LTBP2",
+     "detection": 0.11203065134099617,
+     "n_cells_detected": 731,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "TTLL7",
+     "detection": 0.11095785440613026,
+     "n_cells_detected": 724,
+     "score_share": 0.026545147833291833
+    },
+    {
+     "symbol": "MAP2",
+     "detection": 0.10467432950191571,
+     "n_cells_detected": 683,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "SORT1",
+     "detection": 0.10222222222222223,
+     "n_cells_detected": 667,
+     "score_share": 0.06056574933201447
+    },
+    {
+     "symbol": "AKAP6",
+     "detection": 0.09977011494252873,
+     "n_cells_detected": 651,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "TRMT9B",
+     "detection": 0.09915708812260536,
+     "n_cells_detected": 647,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "KCNMA1",
+     "detection": 0.09808429118773947,
+     "n_cells_detected": 640,
+     "score_share": 0.0012766536639188186
+    },
+    {
+     "symbol": "FAP",
+     "detection": 0.09793103448275862,
+     "n_cells_detected": 639,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "PTPRE",
+     "detection": 0.09379310344827586,
+     "n_cells_detected": 612,
+     "score_share": 0.18286122373819627
+    },
+    {
+     "symbol": "ARHGAP28",
+     "detection": 0.09348659003831418,
+     "n_cells_detected": 610,
+     "score_share": 0.19137649973613852
+    },
+    {
+     "symbol": "EDIL3",
+     "detection": 0.09072796934865901,
+     "n_cells_detected": 592,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "NIBAN1",
+     "detection": 0.07923371647509579,
+     "n_cells_detected": 517,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "RGS7BP",
+     "detection": 0.07111111111111111,
+     "n_cells_detected": 464,
+     "score_share": 0.16047201244378342
+    }
+   ]
+  },
+  "contrast_set": {
+   "set": "対比のためのマーカー群",
+   "n_cells": 6525,
+   "n_genes_requested": 7,
+   "n_genes_found": 7,
+   "missing": [],
+   "detection_median": 0.4099616858237548,
+   "detection_min": 0.3474329501915709,
+   "detection_max": 0.5459003831417625,
+   "detection_spread": 1.5712395235994707,
+   "corr_median": 0.12538227806628247,
+   "corr_min": 0.052766325772583014,
+   "corr_max": 0.22910093731436545,
+   "codetection_lift_median": 1.2565086252054785,
+   "score_share_max": 0.2988035020129557,
+   "score_share_top_gene": "COL3A1",
+   "n_opposite_direction": 2,
+   "opposite_direction": [
+    "COL1A2",
+    "COL5A1"
+   ],
+   "per_gene": [
+    {
+     "symbol": "COL1A2",
+     "detection": 0.5459003831417625,
+     "n_cells_detected": 3562,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "COL3A1",
+     "detection": 0.5267432950191571,
+     "n_cells_detected": 3437,
+     "score_share": 0.2988035020129557
+    },
+    {
+     "symbol": "COL6A3",
+     "detection": 0.4571647509578544,
+     "n_cells_detected": 2983,
+     "score_share": 0.20565482054863682
+    },
+    {
+     "symbol": "FBN1",
+     "detection": 0.4099616858237548,
+     "n_cells_detected": 2675,
+     "score_share": 0.21906782841306102
+    },
+    {
+     "symbol": "COL5A1",
+     "detection": 0.3604597701149425,
+     "n_cells_detected": 2352,
+     "score_share": 0.0
+    },
+    {
+     "symbol": "COL1A1",
+     "detection": 0.3573946360153257,
+     "n_cells_detected": 2332,
+     "score_share": 0.09497174533264899
+    },
+    {
+     "symbol": "SPARC",
+     "detection": 0.3474329501915709,
+     "n_cells_detected": 2267,
+     "score_share": 0.1815021036926975
+    }
+   ]
+  },
+  "circular_overlap": 0.0,
+  "below_cell_floor": [],
+  "min_cells_per_gene": 120
+ },
+ "judgement": {
+  "verdict": "不合格",
+  "blocks": [
+   {
+    "id": "K",
+    "reason": "陽性対照にできる遺伝子が 1 個（下限 20 個）。K がこれより小さいと、目標の軸の健全性チェックの検出下限が、本プロジェクトで観測されたどの陽性対照の効果よりも大きくなる（K = 7 で 1.71 標準偏差。到達例 0 回）"
+   }
+  ],
+  "holds": [
+   {
+    "id": "goal_definition",
+    "reason": "目標を定義するマーカーのまとまりが 0.0044・検出率の中央値が 0.0386（目安 0.03 / 0.12 以上）。**目標の状態そのものの根拠が弱い。** 陽性対照が働いても、それは「目標のラベルが正しい」ことの証拠にはならない"
+   }
+  ],
+  "action": "**摂動の本番に着手しない。** 計画を作り直し、このチェックを通してから G2 に諮る。",
+  "K_positive_control": 1
+ }
+}

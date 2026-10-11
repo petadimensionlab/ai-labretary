@@ -1,0 +1,72 @@
+{
+  "n_cells": {
+    "FIB_neg_TLSlow": 800,
+    "FIB_neg_TLShigh": 800,
+    "FIB_org": 711
+  },
+  "n_donors": {
+    "FIB_neg_TLShigh": 22,
+    "FIB_neg_TLSlow": 24,
+    "FIB_org": 65
+  },
+  "embedding_seconds": 509.4,
+  "folds": 5,
+  "comparisons": {
+    "FIB_neg_TLShigh_vs_FIB_org": {
+      "threshold": 0.65,
+      "group_by_donor": {
+        "auc_mean": 0.7427,
+        "auc_sd": 0.0242,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.7599,
+          0.7563,
+          0.726,
+          0.7086,
+          0.763
+        ]
+      },
+      "stratified": {
+        "auc_mean": 0.7804,
+        "auc_sd": 0.021,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.7712,
+          0.8017,
+          0.7684,
+          0.8037,
+          0.7571
+        ]
+      },
+      "pass": true
+    },
+    "FIB_neg_TLShigh_vs_FIB_neg_TLSlow": {
+      "threshold": 0.6,
+      "group_by_donor": {
+        "auc_mean": 0.8706,
+        "auc_sd": 0.0713,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.8522,
+          0.9028,
+          0.7755,
+          0.9687,
+          0.8537
+        ]
+      },
+      "stratified": {
+        "auc_mean": 0.9319,
+        "auc_sd": 0.005,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.9332,
+          0.9311,
+          0.9241,
+          0.933,
+          0.9379
+        ]
+      },
+      "pass": true
+    }
+  }
+}

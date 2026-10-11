@@ -1,0 +1,101 @@
+{
+  "ref": "experiments/EXP-20260926-001/results-phase0/precision-fp32/tls_high",
+  "test": "experiments/EXP-20260926-001/results-phase0/precision-bf16/tls_high",
+  "metric": "shift_goal_mean",
+  "n_genes": 10,
+  "spearman": 0.8788,
+  "pearson": 0.9902,
+  "topn": 5,
+  "topn_overlap": 5,
+  "sign_agreement_all": "10/10",
+  "sign_agreement_above_median_abs_shift": "5/5",
+  "noise_floor_3x_median_abs_diff": 3.361344337469998e-05,
+  "sign_agreement_above_noise_floor": "10/10",
+  "mean_abs_diff": 1.2325644493094406e-05,
+  "max_abs_diff": 2.6111602783200004e-05,
+  "mean_abs_shift_ref": 0.0001766235232352656,
+  "mean_abs_diff_over_mean_abs_shift": 0.0698,
+  "genes": [
+    {
+      "gene": "ENSG00000163041",
+      "shift_goal_mean_ref": -7.826e-05,
+      "shift_goal_mean_test": -0.00010244
+    },
+    {
+      "gene": "ENSG00000196262",
+      "shift_goal_mean_ref": -0.00011844,
+      "shift_goal_mean_test": -0.00012466
+    },
+    {
+      "gene": "ENSG00000162692",
+      "shift_goal_mean_ref": -0.00012596,
+      "shift_goal_mean_test": -0.00011078
+    },
+    {
+      "gene": "ENSG00000075624",
+      "shift_goal_mean_ref": -0.00021123,
+      "shift_goal_mean_test": -0.00021846
+    },
+    {
+      "gene": "ENSG00000111640",
+      "shift_goal_mean_ref": -0.00011021,
+      "shift_goal_mean_test": -0.00012549
+    },
+    {
+      "gene": "ENSG00000166823",
+      "shift_goal_mean_ref": -0.00045484,
+      "shift_goal_mean_test": -0.00045827
+    },
+    {
+      "gene": "ENSG00000108298",
+      "shift_goal_mean_ref": -0.00011264,
+      "shift_goal_mean_test": -0.00011361
+    },
+    {
+      "gene": "ENSG00000113249",
+      "shift_goal_mean_ref": -0.00016377,
+      "shift_goal_mean_test": -0.00013766
+    },
+    {
+      "gene": "ENSG00000154723",
+      "shift_goal_mean_ref": -0.00014189,
+      "shift_goal_mean_test": -0.00016334
+    },
+    {
+      "gene": "ENSG00000167863",
+      "shift_goal_mean_ref": -0.000249,
+      "shift_goal_mean_test": -0.0002522
+    }
+  ],
+  "cell_level": {
+    "n_pairs": 1000,
+    "spearman": 0.6766,
+    "pearson": 0.9603,
+    "mean_abs_diff": 0.00013664281368253446,
+    "mean_abs_shift_ref": 0.0002712289690971167
+  },
+  "timing_ref": {
+    "n_genes": 10,
+    "cell_gene_pairs": 1000,
+    "isp_seconds_total": 821.9,
+    "model_load_seconds_in_isp": 0,
+    "state_embs_seconds": 146.2,
+    "sec_per_cell_gene_excl_load": 0.8219,
+    "sec_per_cell_gene_incl_load": 0.8219
+  },
+  "timing_test": {
+    "n_genes": 10,
+    "cell_gene_pairs": 1000,
+    "isp_seconds_total": 616.1,
+    "model_load_seconds_in_isp": 0,
+    "state_embs_seconds": 114.5,
+    "sec_per_cell_gene_excl_load": 0.6161,
+    "sec_per_cell_gene_incl_load": 0.6161
+  },
+  "speedup_excl_load": 1.33,
+  "gate": {
+    "spearman_ge_min": false,
+    "topn_overlap_ge_n_minus_1": true,
+    "pass": false
+  }
+}

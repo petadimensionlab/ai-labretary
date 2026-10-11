@@ -1,0 +1,4 @@
+[22:16:27] 開始（試し実行）。出力先 experiments/EXP-20261011-003/results-smoke
+[22:16:27] plan.md sha256 b0c4364b66854b12… / config.yaml sha256 f82f7369e4524db8… / このスクリプト sha256 a824a85e0032faac…
+[22:17:16] A-1 盲検の混入（出力・ログ・一覧）: 0 件、pass=True
+[22:17:16] 完了（49.1 秒）。出力 experiments/EXP-20261011-003/results-smoke/criteria_a6-smoke.json

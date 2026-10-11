@@ -1,0 +1,26 @@
+{
+ "run-3-L-1": {
+  "n_genes": 37,
+  "rho_gene_all": -0.112,
+  "p_all": 0.5096498387059506,
+  "rho_gene_null20": -0.008,
+  "p_null20": 0.97490250199334,
+  "rho_cell_within_gene_median": -0.023
+ },
+ "run-4-L-1": {
+  "n_genes": 37,
+  "rho_gene_all": -0.055,
+  "p_all": 0.7464467908534498,
+  "rho_gene_null20": 0.114,
+  "p_null20": 0.6313917305184383,
+  "rho_cell_within_gene_median": -0.016
+ },
+ "run-5-L-1": {
+  "n_genes": 37,
+  "rho_gene_all": -0.229,
+  "p_all": 0.1727398028838423,
+  "rho_gene_null20": -0.23,
+  "p_null20": 0.32913824647008466,
+  "rho_cell_within_gene_median": -0.035
+ }
+}

@@ -1,0 +1,13 @@
+== kidney_fib (count=0)
+== senescence (count=158)
+  42737681 | 2026 Aug 31 | Int J Mol Sci | HIF-2α Depletion and HIF-1α Overexpression in Vulnerable Brain Regions Distinguish Alzheimer's Disease with Cerebral Amyloid Angiopathy.
+  42315716 | 2026 Jun 18 | Geroscience | High-resolution MRI evidence for age- and sex-related changes in hippocampal subfield volume during healthy aging.
+  42167633 | 2026 Sep 15 | Brain Res | Hippocampal subfield volumes and associated cognitive decline with ageing.
+  42119945 | 2026 May 12 | Biol Psychiatry Cogn Neurosci Neuroimaging | Hippocampal Total, Subregion, and Subfield Volume Alterations in Late-Life Depression.
+  42033046 | 2026 May | Aging Cell | The Myokine Irisin Represents an Indirect Pathway Linking Exercise to Hippocampal Subfields Relevant to Alzheimer's Disease and Neurogenesis.
+  41603971 | 2026 Jan 28 | Brain Struct Funct | Age-related volumetric differences of hippocampal subfields in the developing brain: a retrospective MRI study.
+  41465466 | 2025 Dec 14 | Int J Mol Sci | Limited Microvascular Remodelling Occurs in the Aged Human Hippocampus in Obstructive Sleep Apnoea.
+  41403093 | 2026 Apr | J Magn Reson Imaging | Hippocampal Subfield Integrity and Age-Driven Neural Correlates of Appetite Loss in Amyotrophic Lateral Sclerosis.
+  41284116 | 2025 Nov 24 | Discov Oncol | A Mendelian randomization-based risk model using aging-related genes for prognosis in lung adenocarcinoma.
+  41275694 | 2026 Feb | Brain Cogn | Age-related spatial discrimination: Investigating hippocampal structural foundations.
+== tls_lymphoid (count=0)

@@ -1,0 +1,63 @@
+# 着手前チェックの設定 — 候補 (I)
+# 目標 = aFIB（著者注釈 subclass.l2、Lake 2023）／出発点 = FIB + M-FIB
+# 参照 = MYOF（本プロジェクトで毎回働いた軸）／第 4 の重心 = dFIB
+#
+# 手順書: outputs/design/2026-09-30-annotation-goal-state/procedure.md
+#         （2026-09-30T13:59:44+09:00 に固定。数える前に書いた）
+# 摂動は 1 回も行わない（重心は EmbExtractor の前向き計算だけで作る）。
+# 入力（data/raw と EXP-20260929-001 の work）は読み取りのみ。
+
+axis_feasibility:
+  experiment_id: EXP-20260930-001-precheck
+
+  expression:
+    # data/raw/kidney_tls/A1_KPMP_v1.5_snRNA_Lake2023.h5ad から作った線維芽細胞系列の部分集合。
+    # 生カウントのまま（著者注釈 subclass_l2 を保持）。**読み取りのみ**
+    h5ad: experiments/EXP-20260929-001/work/input.h5ad
+    gene_name_col: gene_name
+    state_col: subclass_l2
+
+  states:
+    start: {labels: [FIB, M-FIB]}     # 15,477 細胞 / 79 提供者
+    goal: {labels: [aFIB]}            # 2,480 細胞 / 53 提供者
+    reference: {labels: [MYOF]}       # 2,651 細胞 / 76 提供者
+  population: [start, goal]
+
+  markers:
+    # **目標は遺伝子で定義していない**（著者注釈で定義した）。
+    # ここに入れた 12 個は procedure.md §5.5 のとおり、注釈が指す状態のまとまりを
+    # 測るための記録用の代理であり、陽性対照とは重ならない（Δ の順位 25〜36 位）。
+    goal_defining:
+      [TWIST2, AFDN, PDGFD, PTPRF, SLIT2, CDON, ADAMTS3, DCLK1, LRP1, IGFBP6, EFEMP1, SLC7A6]
+    # **目標の軸の陽性対照 K = 24。止める条件はこのセットに当たる。**
+    # procedure.md §5 の規則で選んだ（提供者対応の検出率の差 Δ の上位 24）。
+    # 盲検中の遺伝子・筋線維芽細胞の陽性対照 24・ミトコンドリア/リボソーム・
+    # 恒常発現 3・中立対照 7 は候補から外してある。
+    goal_positive_control:
+      [FOXP2, FGF14, IGF1, CCDC80, PRRX1, ZBTB7C, PDZRN4, CELF2, ABI3BP, BNC2, BOC, NOX4,
+       EFNA5, C3, FLRT2, NAV3, FBLN1, PODN, FGFR1, ZEB1, EBF2, NFIB, GSN, ZFPM2]
+    # 参照の軸（筋線維芽細胞）の陽性対照 24。対比のためだけで判定には使わない。
+    # EXP-20260928-001 / 002 / EXP-20260929-001 と同一の遺伝子。
+    reference_positive_control:
+      [MYH11, KCNMA1, FAP, ADGRL3, EDIL3, PTPRE, NIBAN1, LTBP2, TTLL7, AKAP6, DPYSL3, MAP2,
+       THBS2, RGS7BP, NTM, INHBA, ATP8B1, ATP10A, PDLIM7, ARHGAP28, TRMT9B, FMNL3, SORT1, SAMD3]
+
+  centroids:
+    mode: extract                     # **摂動なし。前向き計算だけ**
+    seeds: [71, 72, 73]
+    run_config: experiments/EXP-20260929-001/config.yaml     # モデル・埋め込み種別だけを読む
+    tokenized_dataset: experiments/EXP-20260929-001/work/tokenized.dataset
+    rows_file: outputs/design/2026-09-30-annotation-goal-state/state_rows-seed{seed}.json
+    work_dir: outputs/design/2026-09-30-annotation-goal-state/work
+    names:
+      start: FIB_MFIB
+      goal: aFIB
+      reference: MYOF
+      others: [dFIB]
+
+  perturbation:
+    min_cells_per_gene: 120
+
+  thresholds: {}                      # 既定値のまま。**変えない**
+
+  output: outputs/design/2026-09-30-annotation-goal-state/axis_feasibility.json

@@ -1,0 +1,61 @@
+# 環境
+.env
+.env.local
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# データ・モデル（読み取り専用。再取得可能）
+data/
+models/
+
+# 音声
+outputs/audio/
+
+# 実験ログ（リモート実行のログ。再生成可能）
+experiments/**/logs/*.log
+
+# 実験の中間生成物（work/ など。元データから再生成可能）
+experiments/**/work/
+experiments/**/inflated/
+**/*.dataset/
+
+# 引継ぎ一式の展開物（zip 自体は残す。中身は再生成可能なコピー）
+outputs/handover-*/*/
+
+# 評価結果の細胞単位の大物（CSV・配列・埋め込み。再生成可能）。
+# README.md・*.json（サマリー）・plan.md 等の文書は残す。
+experiments/**/results*/**/*.csv
+experiments/**/results*/**/*.npy
+experiments/**/results*/**/*.npz
+experiments/**/results*/**/*.parquet
+experiments/**/results*/*.csv
+experiments/**/results*/*.npy
+experiments/**/results*/*.npz
+experiments/**/results*/*.parquet
+
+# outputs/design の中間生成物
+outputs/design/**/work*/
+outputs/design/**/*.csv
+
+# HuggingFace datasets キャッシュ
+**/cache-*.arrow
+
+# 大きなバイナリ（モデル重み・埋め込み・行列）
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+*.h5ad
+*.arrow
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.jsonl.zst
+*.gz
+*.zip

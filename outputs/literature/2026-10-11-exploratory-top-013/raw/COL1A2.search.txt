@@ -1,0 +1,24 @@
+== kidney_fib (count=51)
+  42831298 | 2026 Oct 2 | Clin Sci (Lond) | Ten-eleven translocation 3 activates the TGF-like ligand Scube3 to promote renal fibrosis: mechanism and translational potential.
+  42827115 | 2026 Oct 2 | Hypertens Res | Integrated morphological and transcriptomic analysis of bone disorders in aldosterone-salt hypertension.
+  42780336 | 2026 | Front Pharmacol | Baicalein attenuates extracellular matrix remodeling via FN1 in diabetic kidney disease: a multi-omics, machine-learning and mesangial-cell rescue study.
+  42575200 | 2026 Aug 10 | J Adv Res | Genetic and pharmaceutical targeting of Suv39h1 ameliorates renal fibrosis by unlocking CXCL10 transcription.
+  42176637 | 2026 Jul 1 | Ecotoxicol Environ Saf | Long-term arsenic exposure causes epithelial-mesenchymal transition and kidney fibrosis accompanied by renal lipid metabolic disorders.
+  41944350 | 2026 | J Diabetes Res | Screening Autophagy-Related DKD Biomarkers Based on Bulk RNA and Single-Cell Analysis and Uncovering Their Regulatory Mechanisms in DKD Renal Fibrosis.
+  41830491 | 2026 Apr 1 | Am J Physiol Renal Physiol | Fibroblast histone deacetylase-1 promotes kidney interstitial fibrosis following ischemia-reperfusion injury.
+  41615541 | 2026 Jan 30 | Fish Physiol Biochem | Dietary lecithin attenuates adverse effects of high fat diet on antioxidant activity, inflammation and fibrotic damage in the kidney of blunt snout bream (Megalobrama amb
+  41272289 | 2025 Nov 21 | Sci Rep | Reduced collagen degradation in pelvic urine precedes kidney fibrosis induced by unilateral ureteral obstruction.
+  40808990 | 2025 Sep | JBMR Plus | Moderately severe osteogenesis imperfecta-like osteochondrodysplasia associated with heterozygous variants in both COL1A2 and TRPV4.
+== senescence (count=116)
+  42738529 | 2026 Sep 2 | Animals (Basel) | Effects of Aging on Muscle Development Based on Transcriptome Sequencing in Dahen Broilers.
+  42716412 | 2026 Sep 9 | Acta Biomater | Type I collagen homotrimer alters tail tendon material properties.
+  42647181 | 2026 Aug 26 | Cartilage | Single-Cell Transcriptomic Profiling Reveals Superficial Zone Chondrocytes as a Catabolic and Senescent Focus in Osteoarthritis Cartilage.
+  42576237 | 2026 Aug | Alcohol Clin Exp Res (Hoboken) | Aging Exacerbates Binge Ethanol-Mediated Bone Toxicity in Mice.
+  41967578 | 2026 | Cell Mol Gastroenterol Hepatol | Mesothelin/Mucin 16 Signaling in Activated Portal Fibroblasts Drives the Development of Cholestatic Fibrosis and Hepatocellular Carcinoma in Aged Female Multidrug Resista
+  41937492 | 2026 Apr | J Cell Mol Med | OMICS Profiling Identifies Signatures of Senescence in Osteogenesis Imperfecta Osteoblasts Counteracted by 4-PBA.
+  41904426 | 2026 Mar 28 | BMC Biotechnol | Comparative analysis of horsetail and lavender-derived nanovesicles in wound healing and antioxidant defense.
+  41869872 | 2026 Mar | Animal Model Exp Med | Gorab deficiency in skin dermis accelerates aging and is associated with dysregulation of RCHY1-mediated P53 ubiquitination.
+  41756952 | 2026 Feb 16 | bioRxiv | Age-related Delays in Osteochondral Remodeling of Fracture Healing Illustrated by Mass Spectrometry Imaging.
+  41705475 | 2026 Jun 1 | J Biochem | Characterization of p16-positive stromal cells in age-related cardiac disorders.
+== tls_lymphoid (count=1)
+  38841477 | 2024 Jun 15 | Heliyon | Establishment of homotrimer collagen type I signature and its association with clinical manifestation and tertiary lymphoid structures formation in liver cancer.

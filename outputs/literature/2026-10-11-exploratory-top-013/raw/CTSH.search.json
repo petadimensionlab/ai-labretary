@@ -1,0 +1,172 @@
+{
+ "kidney_fib": {
+  "count": "3",
+  "records": [
+   {
+    "pmid": "36465937",
+    "date": "2022",
+    "journal": "Front Med (Lausanne)",
+    "title": "Proteomic analysis of urinary extracellular vesicles of kidney transplant recipients with BKV viruria and viremia: A pilot study.",
+    "authors": [
+     "Bruschi M",
+     "Granata S",
+     "Candiano G"
+    ],
+    "doi": "10.3389/fmed.2022.1028085"
+   },
+   {
+    "pmid": "34716619",
+    "date": "2021 Dec",
+    "journal": "J Clin Lab Anal",
+    "title": "A five-gene methylation signature predicts overall survival of patients with clear cell renal cell carcinoma.",
+    "authors": [
+     "Jing X",
+     "Xu G",
+     "Gong Y"
+    ],
+    "doi": "10.1002/jcla.24031"
+   },
+   {
+    "pmid": "17500053",
+    "date": "2007 Jul 27",
+    "journal": "J Biol Chem",
+    "title": "Cathespin H is an Fgf10 target involved in Bmp4 degradation during lung branching morphogenesis.",
+    "authors": [
+     "Lü J",
+     "Qian J",
+     "Keppler D"
+    ],
+    "doi": "10.1074/jbc.M700063200"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "10",
+  "records": [
+   {
+    "pmid": "42327006",
+    "date": "2026 Dec",
+    "journal": "Regen Ther",
+    "title": "Long-term expandable auricular chondrocytes reveal a conserved nine-gene decline module underlying senescence-independent dedifferentiation.",
+    "authors": [
+     "Alemujiang D",
+     "Tsuji N",
+     "Sakamoto T"
+    ],
+    "doi": "10.1016/j.reth.2026.101146"
+   },
+   {
+    "pmid": "41315858",
+    "date": "2026 Jan",
+    "journal": "Nat Rev Neurol",
+    "title": "Microglial phagocytosis in Alzheimer disease.",
+    "authors": [
+     "Brown GC",
+     "St George-Hyslop P",
+     "Paolicelli RC"
+    ],
+    "doi": "10.1038/s41582-025-01162-y"
+   },
+   {
+    "pmid": "40820167",
+    "date": "2025 Aug 18",
+    "journal": "Sci Rep",
+    "title": "Integration of multi-omics quantitative trait loci evidence reveals novel susceptibility genes for Alzheimer's disease.",
+    "authors": [
+     "Gao J",
+     "Bi X",
+     "Jiang W"
+    ],
+    "doi": "10.1038/s41598-025-12290-2"
+   },
+   {
+    "pmid": "40385406",
+    "date": "2025 May 6",
+    "journal": "medRxiv",
+    "title": "Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain.",
+    "authors": [
+     "Cao X",
+     "Sun H",
+     "Feng R"
+    ],
+    "doi": "10.1101/2025.04.17.25326042"
+   },
+   {
+    "pmid": "39761376",
+    "date": "2025 Apr 1",
+    "journal": "Diabetes",
+    "title": "Integrative Proteogenomic Analyses Provide Novel Interpretations of Type 1 Diabetes Risk Loci Through Circulating Proteins.",
+    "authors": [
+     "Lu T",
+     "Manousaki D",
+     "Sun L"
+    ],
+    "doi": "10.2337/db24-0380"
+   },
+   {
+    "pmid": "38872630",
+    "date": "2024",
+    "journal": "Front Aging Neurosci",
+    "title": "Cathepsin-mediated regulation of alpha-synuclein in Parkinson's disease: a Mendelian randomization study.",
+    "authors": [
+     "Lin L",
+     "Wu Z",
+     "Luo H"
+    ],
+    "doi": "10.3389/fnagi.2024.1394807"
+   },
+   {
+    "pmid": "38527854",
+    "date": "2024 Oct 3",
+    "journal": "Brain",
+    "title": "Connecting dementia risk loci to the CSF proteome identifies pathophysiological leads for dementia.",
+    "authors": [
+     "Reus LM",
+     "Jansen IE",
+     "Tijms BM"
+    ],
+    "doi": "10.1093/brain/awae090"
+   },
+   {
+    "pmid": "34381170",
+    "date": "2021 Oct",
+    "journal": "Mol Psychiatry",
+    "title": "Identification of novel drug targets for Alzheimer's disease by integrating genetics and proteomes from brain and blood.",
+    "authors": [
+     "Ou YN",
+     "Yang YX",
+     "Deng YT"
+    ],
+    "doi": "10.1038/s41380-021-01251-6"
+   },
+   {
+    "pmid": "35349426",
+    "date": "2021 Jan-Feb",
+    "journal": "J Cosmet Sci",
+    "title": "Identifi cation of the Underlying Genetic Factors of Skin Aging in a Korean Population Study.",
+    "authors": [
+     "Oh Kim J",
+     "Park B",
+     "Yoon Choi J"
+    ],
+    "doi": ""
+   },
+   {
+    "pmid": "28157489",
+    "date": "2017 Apr",
+    "journal": "Am J Pathol",
+    "title": "Cathepsin H-Mediated Degradation of HDAC4 for Matrix Metalloproteinase Expression in Hepatic Stellate Cells: Implications of Epigenetic Suppression of Matrix Metalloproteinases in Fibrosis through Stabilization of Class IIa Histone Deacetylases.",
+    "authors": [
+     "Yang Z",
+     "Liu Y",
+     "Qin L"
+    ],
+    "doi": "10.1016/j.ajpath.2016.12.001"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

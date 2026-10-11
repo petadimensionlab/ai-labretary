@@ -1,0 +1,26 @@
+{
+ "experiment_id": "EXP-20261011-003",
+ "mode": "smoke",
+ "device": "mps",
+ "dtype": "float32",
+ "config_sha256": "42ed7ae5d8c84c568df3c256534ba77d6ad89b654fa379e5b09c78ed461b7fe8",
+ "seed": null,
+ "note_seed": "摂動なし・単一エンコード。乱数は使わない（Geneformer のダウンサンプルは seed=42 固定）",
+ "n_cells_embedded": 500,
+ "n_dim": 1152,
+ "max_ncells": 500,
+ "embedding_seconds": 91.5,
+ "tokenize_seconds": 0.0,
+ "total_seconds": 98.0,
+ "host": "PetadimensionlabMacMiniM4Pro-3.local",
+ "numerics": {
+  "torch": "2.14.0",
+  "transformers": "4.46.3",
+  "attn_implementation": "sdpa",
+  "cuda_matmul_allow_tf32": false,
+  "cudnn_allow_tf32": false,
+  "float32_matmul_precision": "highest"
+ },
+ "material_sha256": "8d9cca1320a7952f4b2eaff07acc03494e840e46b6b333e1c3efaf395165b29d",
+ "n_donors": 12
+}

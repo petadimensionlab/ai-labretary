@@ -1,0 +1,675 @@
+{
+  "mock_data": false,
+  "n_runs": 3,
+  "n_genes": 53,
+  "positive": {
+    "n": 2,
+    "median_pct_rank": 0.2169811320754717,
+    "frac_fdr_sig": 0.0,
+    "pass": false
+  },
+  "negative": {
+    "n": 43,
+    "null_q95": -2.5800853967666326e-05,
+    "mwu_p_target_gt_null": 0.3114207523897625,
+    "n_targets_above_null_q95": 1,
+    "neg_frac_fdr_sig": null,
+    "pass": null,
+    "note": "fdr 列がない（1 遺伝子ずつの ISP）ため偽陽性率は判定しない。hypothesis の null 分位を見る"
+  },
+  "robustness": {
+    "pairwise_spearman": [
+      0.736,
+      0.737,
+      0.75
+    ],
+    "min_rho": 0.7358101135190918,
+    "pass": true
+  },
+  "confound_expression": {
+    "spearman_ndet_vs_shift": 0.31545623271191303,
+    "n_det_source": "work/detection-<start>.json",
+    "n_genes": 53,
+    "pass": false
+  },
+  "top_targets": [
+    {
+      "gene": "ENSG00000148346",
+      "shift": -2e-05,
+      "sd": 2e-05,
+      "fdr": NaN
+    },
+    {
+      "gene": "ENSG00000118785",
+      "shift": -6e-05,
+      "sd": 5e-05,
+      "fdr": NaN
+    },
+    {
+      "gene": "ENSG00000124762",
+      "shift": -0.0001,
+      "sd": 2e-05,
+      "fdr": NaN
+    },
+    {
+      "gene": "ENSG00000141510",
+      "shift": -0.00019,
+      "sd": 4e-05,
+      "fdr": NaN
+    },
+    {
+      "gene": "ENSG00000111321",
+      "shift": -0.0002,
+      "sd": 7e-05,
+      "fdr": NaN
+    }
+  ],
+  "hypothesis": {
+    "shift_goal": {
+      "per_gene": {
+        "ENSG00000111321": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": -0.00020200490951533334,
+          "shift_sd": 6.682986757685566e-05,
+          "null_pct": [
+            0.55,
+            0.1,
+            0.1
+          ],
+          "p_emp": [
+            0.4762,
+            0.9048,
+            0.9048
+          ],
+          "fdr_emp": [
+            0.5952,
+            0.9048,
+            0.9048
+          ],
+          "p_norm": [
+            0.51098,
+            0.80821,
+            0.92977
+          ],
+          "fdr_norm": [
+            0.63872,
+            0.80821,
+            0.92977
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 0,
+          "falsified_all_seeds_le_q80_or_negative": true,
+          "falsify_all_seeds_le_q80": true,
+          "falsify_all_seeds_negative": true,
+          "null_frac_negative": [
+            0.95,
+            0.95,
+            1.0
+          ]
+        },
+        "ENSG00000113249": {
+          "role": "positive",
+          "n_seeds": 3,
+          "shift_mean": -4.144733951938368e-05,
+          "shift_sd": 2.41794308150703e-05,
+          "null_pct": [
+            0.7,
+            0.95,
+            0.8
+          ],
+          "p_emp": [
+            0.3333,
+            0.0952,
+            0.2381
+          ],
+          "fdr_emp": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "p_norm": [
+            0.19073,
+            0.02055,
+            0.13596
+          ],
+          "fdr_norm": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 1,
+          "falsified_all_seeds_le_q80_or_negative": true,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": true,
+          "null_frac_negative": [
+            0.95,
+            0.95,
+            1.0
+          ]
+        },
+        "ENSG00000118785": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": -5.703906218211135e-05,
+          "shift_sd": 4.973981380868862e-05,
+          "null_pct": [
+            0.55,
+            0.95,
+            0.8
+          ],
+          "p_emp": [
+            0.4762,
+            0.0952,
+            0.2381
+          ],
+          "fdr_emp": [
+            0.5952,
+            0.2381,
+            0.3968
+          ],
+          "p_norm": [
+            0.40763,
+            0.01423,
+            0.132
+          ],
+          "fdr_norm": [
+            0.63872,
+            0.0521,
+            0.30304
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 1,
+          "falsified_all_seeds_le_q80_or_negative": true,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": true,
+          "null_frac_negative": [
+            0.95,
+            0.95,
+            1.0
+          ]
+        },
+        "ENSG00000124762": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": -0.0001005354710823075,
+          "shift_sd": 2.3995072361200592e-05,
+          "null_pct": [
+            0.55,
+            0.8,
+            0.8
+          ],
+          "p_emp": [
+            0.4762,
+            0.2381,
+            0.2381
+          ],
+          "fdr_emp": [
+            0.5952,
+            0.3968,
+            0.3968
+          ],
+          "p_norm": [
+            0.38328,
+            0.3175,
+            0.18182
+          ],
+          "fdr_norm": [
+            0.63872,
+            0.52917,
+            0.30304
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 0,
+          "falsified_all_seeds_le_q80_or_negative": true,
+          "falsify_all_seeds_le_q80": true,
+          "falsify_all_seeds_negative": true,
+          "null_frac_negative": [
+            0.95,
+            0.95,
+            1.0
+          ]
+        },
+        "ENSG00000141510": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": -0.00019086143943696667,
+          "shift_sd": 3.7270719491109866e-05,
+          "null_pct": [
+            0.15,
+            0.2,
+            0.5
+          ],
+          "p_emp": [
+            0.8571,
+            0.8095,
+            0.5238
+          ],
+          "fdr_emp": [
+            0.8571,
+            0.9048,
+            0.6548
+          ],
+          "p_norm": [
+            0.84976,
+            0.73842,
+            0.51289
+          ],
+          "fdr_norm": [
+            0.84976,
+            0.80821,
+            0.64112
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 0,
+          "falsified_all_seeds_le_q80_or_negative": true,
+          "falsify_all_seeds_le_q80": true,
+          "falsify_all_seeds_negative": true,
+          "null_frac_negative": [
+            0.95,
+            0.95,
+            1.0
+          ]
+        },
+        "ENSG00000148346": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": -1.610029074880867e-05,
+          "shift_sd": 1.7876240464184e-05,
+          "null_pct": [
+            0.95,
+            0.95,
+            0.95
+          ],
+          "p_emp": [
+            0.0952,
+            0.0952,
+            0.0952
+          ],
+          "fdr_emp": [
+            0.4762,
+            0.2381,
+            0.3968
+          ],
+          "p_norm": [
+            0.08184,
+            0.02084,
+            0.06884
+          ],
+          "fdr_norm": [
+            0.40921,
+            0.0521,
+            0.30304
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 3,
+          "falsified_all_seeds_le_q80_or_negative": false,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.95,
+            0.95,
+            1.0
+          ]
+        },
+        "ENSG00000162692": {
+          "role": "positive",
+          "n_seeds": 3,
+          "shift_mean": -4.249970118204822e-05,
+          "shift_sd": 4.731199154707061e-05,
+          "null_pct": [
+            0.7,
+            0.85,
+            1.0
+          ],
+          "p_emp": [
+            0.3333,
+            0.1905,
+            0.0476
+          ],
+          "fdr_emp": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "p_norm": [
+            0.18741,
+            0.15915,
+            0.02215
+          ],
+          "fdr_norm": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 1,
+          "falsified_all_seeds_le_q80_or_negative": false,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.95,
+            0.95,
+            1.0
+          ]
+        }
+      },
+      "primary_supported": {
+        "ENSG00000141510": false,
+        "ENSG00000124762": false,
+        "ENSG00000111321": false
+      },
+      "positive_controls_pass": {
+        "ENSG00000162692": false,
+        "ENSG00000113249": false
+      },
+      "p_emp_floor": 0.047619047619047616,
+      "fdr_used": "fdr_norm",
+      "note": "p_emp の下限は 1/(n_null+1)。BH は対象遺伝子内で seed ごと"
+    },
+    "shift_goal_minus_start": {
+      "per_gene": {
+        "ENSG00000111321": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": -1.9621054331466678e-05,
+          "shift_sd": 3.009682520457165e-05,
+          "null_pct": [
+            0.45,
+            0.75,
+            0.0
+          ],
+          "p_emp": [
+            0.5714,
+            0.2857,
+            1.0
+          ],
+          "fdr_emp": [
+            0.7143,
+            0.4762,
+            1.0
+          ],
+          "p_norm": [
+            0.5703,
+            0.2314,
+            0.9678
+          ],
+          "fdr_norm": [
+            0.71288,
+            0.38567,
+            0.9678
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 0,
+          "falsified_all_seeds_le_q80_or_negative": true,
+          "falsify_all_seeds_le_q80": true,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.7,
+            0.75,
+            0.7
+          ]
+        },
+        "ENSG00000113249": {
+          "role": "positive",
+          "n_seeds": 3,
+          "shift_mean": 5.834012903189851e-05,
+          "shift_sd": 3.099822452346421e-05,
+          "null_pct": [
+            1.0,
+            1.0,
+            0.95
+          ],
+          "p_emp": [
+            0.0476,
+            0.0476,
+            0.0952
+          ],
+          "fdr_emp": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "p_norm": [
+            0.00043,
+            4e-05,
+            0.03964
+          ],
+          "fdr_norm": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 3,
+          "falsified_all_seeds_le_q80_or_negative": false,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.7,
+            0.75,
+            0.7
+          ]
+        },
+        "ENSG00000118785": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": 2.0623803138712225e-05,
+          "shift_sd": 6.42282704155172e-06,
+          "null_pct": [
+            0.9,
+            0.95,
+            0.85
+          ],
+          "p_emp": [
+            0.1429,
+            0.0952,
+            0.1905
+          ],
+          "fdr_emp": [
+            0.3571,
+            0.2381,
+            0.3175
+          ],
+          "p_norm": [
+            0.14082,
+            0.03805,
+            0.09862
+          ],
+          "fdr_norm": [
+            0.35204,
+            0.13169,
+            0.16436
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 2,
+          "falsified_all_seeds_le_q80_or_negative": false,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.7,
+            0.75,
+            0.7
+          ]
+        },
+        "ENSG00000124762": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": 1.5577832281616337e-06,
+          "shift_sd": 1.0350241879100158e-05,
+          "null_pct": [
+            0.5,
+            0.65,
+            0.85
+          ],
+          "p_emp": [
+            0.5238,
+            0.381,
+            0.1905
+          ],
+          "fdr_emp": [
+            0.7143,
+            0.4762,
+            0.3175
+          ],
+          "p_norm": [
+            0.50897,
+            0.35603,
+            0.097
+          ],
+          "fdr_norm": [
+            0.71288,
+            0.44504,
+            0.16436
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 0,
+          "falsified_all_seeds_le_q80_or_negative": false,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.7,
+            0.75,
+            0.7
+          ]
+        },
+        "ENSG00000141510": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": -3.962592685712789e-05,
+          "shift_sd": 1.372005071688066e-05,
+          "null_pct": [
+            0.0,
+            0.3,
+            0.0
+          ],
+          "p_emp": [
+            1.0,
+            0.7143,
+            1.0
+          ],
+          "fdr_emp": [
+            1.0,
+            0.7143,
+            1.0
+          ],
+          "p_norm": [
+            0.92063,
+            0.75088,
+            0.96437
+          ],
+          "fdr_norm": [
+            0.92063,
+            0.75088,
+            0.9678
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 0,
+          "falsified_all_seeds_le_q80_or_negative": true,
+          "falsify_all_seeds_le_q80": true,
+          "falsify_all_seeds_negative": true,
+          "null_frac_negative": [
+            0.7,
+            0.75,
+            0.7
+          ]
+        },
+        "ENSG00000148346": {
+          "role": "target",
+          "n_seeds": 3,
+          "shift_mean": 2.1360814571375858e-05,
+          "shift_sd": 6.010211598328938e-06,
+          "null_pct": [
+            0.9,
+            0.95,
+            0.85
+          ],
+          "p_emp": [
+            0.1429,
+            0.0952,
+            0.1905
+          ],
+          "fdr_emp": [
+            0.3571,
+            0.2381,
+            0.3175
+          ],
+          "p_norm": [
+            0.11185,
+            0.05268,
+            0.08501
+          ],
+          "fdr_norm": [
+            0.35204,
+            0.13169,
+            0.16436
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 2,
+          "falsified_all_seeds_le_q80_or_negative": false,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.7,
+            0.75,
+            0.7
+          ]
+        },
+        "ENSG00000162692": {
+          "role": "positive",
+          "n_seeds": 3,
+          "shift_mean": 2.3485223452215993e-05,
+          "shift_sd": 8.278711094844513e-06,
+          "null_pct": [
+            0.85,
+            0.95,
+            0.95
+          ],
+          "p_emp": [
+            0.1905,
+            0.0952,
+            0.0952
+          ],
+          "fdr_emp": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "p_norm": [
+            0.23752,
+            0.03053,
+            0.02081
+          ],
+          "fdr_norm": [
+            NaN,
+            NaN,
+            NaN
+          ],
+          "n_seeds_primary_pass": 0,
+          "n_seeds_above_q_positive": 2,
+          "falsified_all_seeds_le_q80_or_negative": false,
+          "falsify_all_seeds_le_q80": false,
+          "falsify_all_seeds_negative": false,
+          "null_frac_negative": [
+            0.7,
+            0.75,
+            0.7
+          ]
+        }
+      },
+      "primary_supported": {
+        "ENSG00000141510": false,
+        "ENSG00000124762": false,
+        "ENSG00000111321": false
+      },
+      "positive_controls_pass": {
+        "ENSG00000162692": true,
+        "ENSG00000113249": true
+      },
+      "p_emp_floor": 0.047619047619047616,
+      "fdr_used": "fdr_norm",
+      "note": "p_emp の下限は 1/(n_null+1)。BH は対象遺伝子内で seed ごと"
+    }
+  }
+}

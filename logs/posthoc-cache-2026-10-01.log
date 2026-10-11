@@ -1,0 +1,2 @@
+load 完了 8.5 秒, 358,664 行, 移動量0除外 178
+保存: /Users/petadimensionlab/workspace/research/ai-labretary/experiments/EXP-20260930-001/posthoc/cells_cache.parquet  列: ['run', 'gene', 'cell_uid', 'donor_id', 'length', 'shift_goal', 'shift_start', 'shift_alt:dFIB', 'shift_alt:dMFIB', 'role', 'seed', 'machine', 'pos', 'lp', 'll', 'relpos', 's_goal', 's_start', 's_dFIB', 's_dMFIB', 'dnorm']

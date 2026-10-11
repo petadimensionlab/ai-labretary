@@ -1,0 +1,100 @@
+axis_feasibility:
+  experiment_id: EXP-20260928-001
+  expression:
+    h5ad: experiments/EXP-20260927-002/work/input.h5ad
+    gene_name_col: gene_name
+    state_col: fib_tls_state
+  states:
+    start:
+      labels:
+      - FIB_neg_TLShigh
+    goal:
+      labels:
+      - FIB_org
+    reference:
+      labels:
+      - MYOF_neg
+  population:
+  - start
+  - goal
+  markers:
+    goal_defining:
+    - CCL19
+    - CCL21
+    - CXCL13
+    goal_positive_control:
+    - FLVCR2
+    - S1PR3
+    - SLCO2B1
+    - CP
+    - PDK4
+    - PCBP3
+    - SPATA1
+    - PDLIM1
+    - MERTK
+    - CCNG2
+    - RHOB
+    - ELL2
+    - ATP8B4
+    - BET1
+    - DENND3
+    - TG
+    - RBP5
+    - H2AJ
+    - LYRM2
+    - PRKCB
+    - CLSTN3
+    - CEBPD
+    - NAMPT
+    - SLC14A2
+    reference_positive_control:
+    - MYH11
+    - KCNMA1
+    - FAP
+    - ADGRL3
+    - EDIL3
+    - PTPRE
+    - NIBAN1
+    - LTBP2
+    - TTLL7
+    - AKAP6
+    - DPYSL3
+    - MAP2
+    - THBS2
+    - RGS7BP
+    - NTM
+    - INHBA
+    - ATP8B1
+    - ATP10A
+    - PDLIM7
+    - ARHGAP28
+    - TRMT9B
+    - FMNL3
+    - SORT1
+    - SAMD3
+    contrast_set:
+    - COL1A1
+    - COL1A2
+    - COL3A1
+    - COL5A1
+    - COL6A3
+    - FBN1
+    - SPARC
+  centroids:
+    mode: precomputed
+    seeds:
+    - 41
+    - 42
+    - 43
+    files:
+    - experiments/EXP-20260928-001/results/run-{seed}-L-1/state_emb_vectors.npz
+    - experiments/EXP-20260928-001/work/extra_centroids-seed{seed}.npz
+    names:
+      start: FIB_neg_TLShigh
+      goal: FIB_org
+      reference: MYOF_neg
+      others:
+      - FIB_neg_TLSlow
+  perturbation:
+    min_cells_per_gene: 120
+  output: outputs/axis-feasibility/EXP-20260928-001.json

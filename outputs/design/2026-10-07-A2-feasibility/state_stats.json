@@ -1,0 +1,189 @@
+{
+ "start_FIB": {
+  "n_cells": 252,
+  "n_donors": 50,
+  "ngenes_median": 879.0,
+  "ngenes_q25": 665.75,
+  "ngenes_q75": 1288.0,
+  "ngenes_mean": 1086.936507936508,
+  "ncounts_median": 1823.3907470703125,
+  "top_donor_cells": 69,
+  "top2": [
+   69,
+   50,
+   11
+  ],
+  "cells_after_cap20": 173,
+  "donors_after_cap20": 50
+ },
+ "goal_aFIB_MyoF": {
+  "n_cells": 628,
+  "n_donors": 68,
+  "ngenes_median": 1157.5,
+  "ngenes_q25": 713.75,
+  "ngenes_q75": 2032.75,
+  "ngenes_mean": 1519.404458598726,
+  "ncounts_median": 2140.181640625,
+  "top_donor_cells": 98,
+  "top2": [
+   98,
+   54,
+   52
+  ],
+  "cells_after_cap20": 459,
+  "donors_after_cap20": 68
+ },
+ "aFIB": {
+  "n_cells": 276,
+  "n_donors": 34,
+  "ngenes_median": 879.0,
+  "ngenes_q25": 648.25,
+  "ngenes_q75": 2073.75,
+  "ngenes_mean": 1494.3369565217392,
+  "ncounts_median": 1873.037353515625,
+  "top_donor_cells": 96,
+  "top2": [
+   96,
+   43,
+   23
+  ],
+  "cells_after_cap20": 174,
+  "donors_after_cap20": 34
+ },
+ "MyoF": {
+  "n_cells": 352,
+  "n_donors": 63,
+  "ngenes_median": 1324.5,
+  "ngenes_q25": 875.75,
+  "ngenes_q75": 2015.5,
+  "ngenes_mean": 1539.059659090909,
+  "ncounts_median": 2279.315673828125,
+  "top_donor_cells": 50,
+  "top2": [
+   50,
+   16,
+   15
+  ],
+  "cells_after_cap20": 322,
+  "donors_after_cap20": 63
+ },
+ "ref_dFIB": {
+  "n_cells": 903,
+  "n_donors": 24,
+  "ngenes_median": 3260.0,
+  "ngenes_q25": 2407.0,
+  "ngenes_q75": 3897.0,
+  "ngenes_mean": 3056.784053156146,
+  "ncounts_median": 3005.156982421875,
+  "top_donor_cells": 749,
+  "top2": [
+   749,
+   44,
+   23
+  ],
+  "cells_after_cap20": 147,
+  "donors_after_cap20": 24
+ },
+ "VSMC_P": {
+  "n_cells": 1938,
+  "n_donors": 74,
+  "ngenes_median": 1134.5,
+  "ngenes_q25": 831.0,
+  "ngenes_q75": 1603.0,
+  "ngenes_mean": 1296.4127966976264,
+  "ncounts_median": 2135.3095703125,
+  "top_donor_cells": 232,
+  "top2": [
+   232,
+   183,
+   143
+  ],
+  "cells_after_cap20": 865,
+  "donors_after_cap20": 74
+ },
+ "VSMC": {
+  "n_cells": 317,
+  "n_donors": 52,
+  "ngenes_median": 844.0,
+  "ngenes_q25": 671.0,
+  "ngenes_q75": 1059.0,
+  "ngenes_mean": 916.9305993690851,
+  "ncounts_median": 1688.503662109375,
+  "top_donor_cells": 41,
+  "top2": [
+   41,
+   34,
+   17
+  ],
+  "cells_after_cap20": 282,
+  "donors_after_cap20": 52
+ },
+ "MC": {
+  "n_cells": 299,
+  "n_donors": 53,
+  "ngenes_median": 1126.0,
+  "ngenes_q25": 782.5,
+  "ngenes_q75": 1459.0,
+  "ngenes_mean": 1198.2073578595318,
+  "ncounts_median": 2090.615234375,
+  "top_donor_cells": 28,
+  "top2": [
+   28,
+   23,
+   19
+  ],
+  "cells_after_cap20": 288,
+  "donors_after_cap20": 53
+ },
+ "dVSMC": {
+  "n_cells": 1646,
+  "n_donors": 75,
+  "ngenes_median": 1468.5,
+  "ngenes_q25": 1101.25,
+  "ngenes_q75": 1947.0,
+  "ngenes_mean": 1608.8803159173754,
+  "ncounts_median": 2355.6767578125,
+  "top_donor_cells": 155,
+  "top2": [
+   155,
+   103,
+   78
+  ],
+  "cells_after_cap20": 978,
+  "donors_after_cap20": 75
+ },
+ "PEC": {
+  "n_cells": 775,
+  "n_donors": 39,
+  "ngenes_median": 1750.0,
+  "ngenes_q25": 1146.0,
+  "ngenes_q75": 2682.0,
+  "ngenes_mean": 2039.3922580645162,
+  "ncounts_median": 2688.5830078125,
+  "top_donor_cells": 98,
+  "top2": [
+   98,
+   92,
+   60
+  ],
+  "cells_after_cap20": 457,
+  "donors_after_cap20": 39
+ },
+ "POD": {
+  "n_cells": 462,
+  "n_donors": 53,
+  "ngenes_median": 1708.5,
+  "ngenes_q25": 1067.5,
+  "ngenes_q75": 2573.25,
+  "ngenes_mean": 1898.3766233766235,
+  "ncounts_median": 2648.56640625,
+  "top_donor_cells": 61,
+  "top2": [
+   61,
+   56,
+   31
+  ],
+  "cells_after_cap20": 359,
+  "donors_after_cap20": 53
+ }
+}

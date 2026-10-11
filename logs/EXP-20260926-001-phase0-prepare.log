@@ -1,0 +1,21 @@
+{
+  "output": "experiments/EXP-20260926-001/work/input.h5ad",
+  "shape": [
+    17684,
+    30635
+  ],
+  "per_state": {
+    "aPT_CKD_TLShigh": 7533,
+    "PT_healthy": 6149,
+    "aPT_CKD_TLSlow": 4002
+  },
+  "per_source": {
+    "A2_KPMP_v1.5_scRNA_Lake2023": 17684
+  },
+  "donors_per_state": {
+    "PT_healthy": 22,
+    "aPT_CKD_TLShigh": 14,
+    "aPT_CKD_TLSlow": 8
+  }
+}
+.venv/bin/python scripts/geneformer/prepare_h5ad.py --config   4.56s user 0.28s system 99% cpu 4.863 total

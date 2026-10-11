@@ -1,0 +1,546 @@
+{
+ "primary_pos_matched_permutation": {
+  "per_positive": {
+   "ENSG00000101076": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 7,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 5,
+     "12": 5,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.792,
+     "12": 0.745,
+     "13": 0.667
+    },
+    "ddet_pct": 0.922
+   },
+   "ENSG00000109819": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 2,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 0,
+     "12": 0,
+     "13": 0
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.083,
+     "12": 0.083,
+     "13": 0.082
+    },
+    "ddet_pct": 0.291
+   },
+   "ENSG00000186951": {
+    "seeds_q_ge_hi": 1,
+    "C1_gene": false,
+    "C2_wins_of_9": 8,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 4,
+     "12": 4,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.875,
+     "12": 0.792,
+     "13": 0.917
+    },
+    "ddet_pct": 0.596
+   },
+   "ENSG00000173153": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 5,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 0,
+     "12": 0,
+     "13": 1
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.167,
+     "12": 0.136,
+     "13": 0.302
+    },
+    "ddet_pct": 0.613
+   },
+   "ENSG00000110090": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 7,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 3,
+     "12": 4,
+     "13": 3
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.667,
+     "12": 0.68,
+     "13": 0.625
+    },
+    "ddet_pct": 0.409
+   },
+   "ENSG00000116044": {
+    "seeds_q_ge_hi": 1,
+    "C1_gene": false,
+    "C2_wins_of_9": 9,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 5,
+     "12": 5,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.854,
+     "12": 0.812,
+     "13": 0.917
+    },
+    "ddet_pct": 0.962
+   }
+  },
+  "n_positive_pass": 0,
+  "n_positive_C1_only": 0,
+  "C1_C2_C9": false,
+  "C1_null_only": false,
+  "C3_seeds_in_range": {
+   "ENSG00000075624": 3,
+   "ENSG00000111640": 3,
+   "ENSG00000196262": 2
+  },
+  "C3": true,
+  "C3_panel_seeds_in_range": {
+   "ENSG00000090661": 3,
+   "ENSG00000147687": 1,
+   "ENSG00000081870": 3,
+   "ENSG00000101558": 2,
+   "ENSG00000054148": 3,
+   "ENSG00000166295": 3,
+   "ENSG00000104529": 3
+  },
+  "C3_panel_n_ok": 6,
+  "C8a": {
+   "n": 156,
+   "frac_hi": 0.11538461538461539,
+   "frac_lo": 0.0641025641025641,
+   "pass": true
+  },
+  "C8b": {
+   "rho_by_seed": {
+    "11": {
+     "lp": 0.2134171907756813,
+     "relpos": 0.24246235944349148,
+     "n": 54
+    },
+    "12": {
+     "lp": 0.2385744234800838,
+     "relpos": 0.3088622069754145,
+     "n": 54
+    },
+    "13": {
+     "lp": 0.19214789403468646,
+     "relpos": 0.24147131694301505,
+     "n": 54
+    }
+   },
+   "pass": true
+  },
+  "rho_all_genes_lp_vs_D": {
+   "11": 0.20916477712876944,
+   "12": 0.2234706051987266,
+   "13": 0.2319636304007328
+  },
+  "C6_nonmarker_pass": [],
+  "C7_seeds_low": {
+   "ENSG00000162692": 0,
+   "ENSG00000113249": 3
+  },
+  "C3_panel": true,
+  "C8": true,
+  "verdict_proposal": "否定（移動距離をそろえた null から陽性対照が分離しない）"
+ },
+ "secondary_within_bin_percentile": {
+  "per_positive": {
+   "ENSG00000101076": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 7,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 5,
+     "12": 5,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.852,
+     "12": 0.704,
+     "13": 0.741
+    },
+    "ddet_pct": 0.922
+   },
+   "ENSG00000109819": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 2,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 0,
+     "12": 0,
+     "13": 0
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.074,
+     "12": 0.056,
+     "13": 0.074
+    },
+    "ddet_pct": 0.291
+   },
+   "ENSG00000186951": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 7,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 4,
+     "12": 2,
+     "13": 1
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.741,
+     "12": 0.63,
+     "13": 0.741
+    },
+    "ddet_pct": 0.596
+   },
+   "ENSG00000173153": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 3,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 0,
+     "12": 0,
+     "13": 0
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.167,
+     "12": 0.074,
+     "13": 0.13
+    },
+    "ddet_pct": 0.613
+   },
+   "ENSG00000110090": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 7,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 4,
+     "12": 4,
+     "13": 3
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.667,
+     "12": 0.741,
+     "13": 0.704
+    },
+    "ddet_pct": 0.409
+   },
+   "ENSG00000116044": {
+    "seeds_q_ge_hi": 1,
+    "C1_gene": false,
+    "C2_wins_of_9": 9,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 5,
+     "12": 5,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.889,
+     "12": 0.889,
+     "13": 0.907
+    },
+    "ddet_pct": 0.962
+   }
+  },
+  "n_positive_pass": 0,
+  "n_positive_C1_only": 0,
+  "C1_C2_C9": false,
+  "C1_null_only": false,
+  "C3_seeds_in_range": {
+   "ENSG00000075624": 3,
+   "ENSG00000111640": 3,
+   "ENSG00000196262": 1
+  },
+  "C3": false,
+  "C3_panel_seeds_in_range": {
+   "ENSG00000090661": 3,
+   "ENSG00000147687": 0,
+   "ENSG00000081870": 3,
+   "ENSG00000101558": 3,
+   "ENSG00000054148": 3,
+   "ENSG00000166295": 3,
+   "ENSG00000104529": 3
+  },
+  "C3_panel_n_ok": 6,
+  "C8a": {
+   "n": 162,
+   "frac_hi": 0.1111111111111111,
+   "frac_lo": 0.1111111111111111,
+   "pass": true
+  },
+  "C8b": {
+   "rho_by_seed": {
+    "11": {
+     "lp": 0.30291595197255566,
+     "relpos": 0.36619020392605295,
+     "n": 54
+    },
+    "12": {
+     "lp": 0.2929292929292929,
+     "relpos": 0.3481227368019821,
+     "n": 54
+    },
+    "13": {
+     "lp": 0.254354869449209,
+     "relpos": 0.305050505050505,
+     "n": 54
+    }
+   },
+   "pass": false
+  },
+  "rho_all_genes_lp_vs_D": {
+   "11": 0.26159309249028845,
+   "12": 0.29112077398487995,
+   "13": 0.2684237013078807
+  },
+  "C6_nonmarker_pass": [],
+  "C7_seeds_low": {
+   "ENSG00000162692": 3,
+   "ENSG00000113249": 3
+  },
+  "C3_panel": true,
+  "C8": false,
+  "verdict_proposal": "判定不能（較正または交絡の除去が不合格: 移動距離をそろえても交絡が残る／検定が較正されていない）"
+ },
+ "reference_a2_length_only": {
+  "per_positive": {
+   "ENSG00000101076": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 6,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 5,
+     "12": 5,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.778,
+     "12": 0.667,
+     "13": 0.722
+    },
+    "ddet_pct": 0.922
+   },
+   "ENSG00000109819": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 1,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 0,
+     "12": 0,
+     "13": 0
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.074,
+     "12": 0.074,
+     "13": 0.093
+    },
+    "ddet_pct": 0.291
+   },
+   "ENSG00000186951": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 7,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 4,
+     "12": 4,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.87,
+     "12": 0.778,
+     "13": 0.87
+    },
+    "ddet_pct": 0.596
+   },
+   "ENSG00000173153": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 2,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 0,
+     "12": 0,
+     "13": 1
+    },
+    "C9_gene": false,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.111,
+     "12": 0.074,
+     "13": 0.148
+    },
+    "ddet_pct": 0.613
+   },
+   "ENSG00000110090": {
+    "seeds_q_ge_hi": 0,
+    "C1_gene": false,
+    "C2_wins_of_9": 6,
+    "C2_gene": false,
+    "C9_beaten_by_seed": {
+     "11": 4,
+     "12": 4,
+     "13": 3
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.722,
+     "12": 0.667,
+     "13": 0.722
+    },
+    "ddet_pct": 0.409
+   },
+   "ENSG00000116044": {
+    "seeds_q_ge_hi": 1,
+    "C1_gene": false,
+    "C2_wins_of_9": 7,
+    "C2_gene": true,
+    "C9_beaten_by_seed": {
+     "11": 5,
+     "12": 5,
+     "13": 5
+    },
+    "C9_gene": true,
+    "pass": false,
+    "q_by_seed": {
+     "11": 0.87,
+     "12": 0.852,
+     "13": 0.907
+    },
+    "ddet_pct": 0.962
+   }
+  },
+  "n_positive_pass": 0,
+  "n_positive_C1_only": 0,
+  "C1_C2_C9": false,
+  "C1_null_only": false,
+  "C3_seeds_in_range": {
+   "ENSG00000075624": 3,
+   "ENSG00000111640": 2,
+   "ENSG00000196262": 1
+  },
+  "C3": false,
+  "C3_panel_seeds_in_range": {
+   "ENSG00000090661": 3,
+   "ENSG00000147687": 1,
+   "ENSG00000081870": 3,
+   "ENSG00000101558": 3,
+   "ENSG00000054148": 3,
+   "ENSG00000166295": 3,
+   "ENSG00000104529": 3
+  },
+  "C3_panel_n_ok": 6,
+  "C8a": {
+   "n": 162,
+   "frac_hi": 0.1111111111111111,
+   "frac_lo": 0.1111111111111111,
+   "pass": true
+  },
+  "C8b": {
+   "rho_by_seed": {
+    "11": {
+     "lp": 0.4469982847341337,
+     "relpos": 0.5518963217076424,
+     "n": 54
+    },
+    "12": {
+     "lp": 0.43076043453401935,
+     "relpos": 0.5353535353535352,
+     "n": 54
+    },
+    "13": {
+     "lp": 0.39096626643796445,
+     "relpos": 0.5088240899561653,
+     "n": 54
+    }
+   },
+   "pass": false
+  },
+  "rho_all_genes_lp_vs_D": {
+   "11": 0.43768483073321607,
+   "12": 0.41979406392952257,
+   "13": 0.4158585475909099
+  },
+  "C6_nonmarker_pass": [],
+  "C7_seeds_low": {
+   "ENSG00000162692": 3,
+   "ENSG00000113249": 3
+  },
+  "C3_panel": true,
+  "C8": false,
+  "verdict_proposal": "判定不能（較正または交絡の除去が不合格: 移動距離をそろえても交絡が残る／検定が較正されていない）"
+ },
+ "lodo_primary_pass_genes": {},
+ "concordance_primary_vs_secondary": {
+  "pass_primary": [],
+  "pass_secondary": []
+ },
+ "n_cells_min": 100,
+ "n_eligible_min_fixed": 7,
+ "seeds": [
+  11,
+  12,
+  13
+ ],
+ "note": "判定は primary のみ（plan.md §6.4）。verdict_proposal は提案で、確定は PI（G3）"
+}

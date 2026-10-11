@@ -1,0 +1,112 @@
+# EXP-20260926-001 phase 0c: bf16 vs fp32 matched pair（bf16）。config.yaml から派生（dtype 以外は bf16/fp32 で同一）
+# 遺伝子: VCAM1, HAVCR1（陽性対照）, ACTB, GAPDH, PPIA（HK）+ 発現頻度マッチのランダム 5（seed_offset=1000 で本番の null と別抽出）
+# 新規予測の対象（TP53/CDKN1A/LTBR/SPP1/LCN2）は本番前に結果を見ないよう含めない。1 seed、重心は 200 細胞/状態
+experiment_id: EXP-20260926-001
+hypothesis_id: HYP-20260925-01
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+data:
+  input_h5ad: experiments/EXP-20260926-001/work/input.h5ad
+  tokenized_dataset: experiments/EXP-20260926-001/work/tokenized.dataset
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict:
+    isp_state: isp_state
+    donor_id: donor_id
+    TLS_group: TLS_group
+    author_cell_type: author_cell_type
+    disease: disease
+  filter_data: null
+  max_ncells: null
+states:
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states:
+  - aPT_CKD_TLSlow
+runs:
+  tls_high:
+    states:
+      start_state: aPT_CKD_TLShigh
+      alt_states:
+      - aPT_CKD_TLSlow
+  tls_low:
+    states:
+      start_state: aPT_CKD_TLSlow
+      alt_states:
+      - aPT_CKD_TLShigh
+cell_selection:
+  max_cells_per_gene: 100
+  max_cells_per_donor: 15
+  min_cells_per_gene: 30
+  donor_key: donor_id
+state_embs:
+  max_cells_per_state: 200
+  max_cells_per_donor: 60
+precheck:
+  seed: 0
+  folds: 5
+  C: 1.0
+  emb_layer: -1
+  min_auc_goal: 0.8
+  min_auc_alt: 0.6
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  genes_to_perturb:
+  - ENSG00000162692
+  - ENSG00000113249
+  - ENSG00000075624
+  - ENSG00000111640
+  - ENSG00000196262
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+controls:
+  positive: []
+  negative_random_n: 5
+  negative_sampler:
+    method: freq_matched
+    min_cells: 300
+    match_to: targets
+    ratio_tolerance: 1.5
+    seed_offset: 1000
+  negative_fixed: []
+  fixed_role: housekeeping
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+analysis:
+  null_role: negative
+  primary_targets:
+  - ENSG00000141510
+  - ENSG00000124762
+  - ENSG00000111321
+  null_quantile_primary: 0.95
+  fdr_family: targets
+  min_seeds_passing: 2
+  positive_null_quantile: 0.9
+  falsify_null_quantile: 0.8
+  ratio_threshold: 1.2
+  bootstrap_n: 2000
+  bootstrap_seed: 0
+robustness:
+  seeds:
+  - 0
+  subsample_frac: 1.0
+  emb_layers:
+  - -1
+output:
+  results_dir: results-phase0/precision-bf16
+  experiment_dir: experiments/EXP-20260926-001
+compute:
+  device: mps
+  dtype: bf16
+  cache_model: true
+  sec_per_cell_gene: null
+  gpu_hours_estimate: null

@@ -1,0 +1,279 @@
+# EXP-20260927-004 — 過剰発現型の指標の作り直しと、目標の軸での陽性対照の確立（事前登録。plan.md を先に読むこと）
+#
+# 設計の要点
+#  - 本実験は仮説を検定しない。測り方そのものを検証する（plan.md §1）。
+#  - 主対象 LTBR / RELB / NFKB2 と参考対象 CDKN1A、盲検の TP53 / SPP1 / LCN2 は**回さない**。
+#    evaluate_004.py が読み込み直後に除外し、1 行でも残っていれば停止する。
+#  - 目標ラベルを定義する CCL19 / CCL21 / CXCL13 も入れない（循環性。出発点では 0 なので成立もしない）。
+#  - 主指標は「目標に特異的な成分 / 移動量」。単一重心への接近度は使わない（guardrails 2026-09-27）。
+#  - seed は 31 / 32 / 33（既出の 0〜5, 11〜13, 21〜23 と重ならない）。
+experiment_id: EXP-20260927-004
+hypothesis_id: null                 # 仮説の検定ではない。HYP-20260925-02 の再検定は別の実験で設計する
+
+model:                              # EXP-20260927-003 と同一（比較可能性のため変えない）
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260927-002/work/input.h5ad      # 読み取りのみ。data/raw は触らない
+  tokenized_dataset: experiments/EXP-20260927-004/work/tokenized.dataset
+  cell_type_col: subclass_l2
+  state_key: fib_tls_state
+  custom_attr_name_dict: {fib_tls_state: fib_tls_state, donor_id: donor_id, subclass_l2: subclass_l2,
+                          disease: disease, region: region, TLS_group: TLS_group,
+                          n_genes: n_genes, n_counts: n_counts}
+  filter_data: null
+  max_ncells: null
+
+states:                             # EXP-20260927-002 の定義を継承（ここで変えない）
+  start_state: FIB_neg_TLShigh
+  goal_state: FIB_org
+  alt_states: [FIB_neg_TLSlow]
+
+state_embs:
+  max_cells_per_state: 800
+  max_cells_per_donor: 60
+  rows_file: experiments/EXP-20260927-004/work/state_rows-seed{seed}.json   # 深さマッチ後の行番号
+
+cell_selection:
+  donor_key: donor_id
+  max_cells_per_gene: 200           # EXP-003 の 100 から倍増（seed 間の誤差を下げるため。plan.md §9）
+  max_cells_per_donor: 20
+  min_cells_per_gene: 120
+
+perturbation:
+  perturb_type: overexpress
+  perturb_rank_shift: null
+  controls_only: false
+  # 目標の軸の陽性対照候補 10（work/genes_004.json の role=positive_goal と同一。plan.md §5.1）
+  # run_isp.py の role は target になる。本実験で「判定する対象」はこの 10 個である
+  genes_to_perturb:
+    - ENSG00000162692  # VCAM1  文献層
+    - ENSG00000090339  # ICAM1  文献層
+    - ENSG00000107562  # CXCL12  文献層
+    - ENSG00000104432  # IL7  文献層
+    - ENSG00000102524  # TNFSF13B  文献層
+    - ENSG00000096060  # FKBP5  データ層
+    - ENSG00000059804  # SLC2A3  データ層
+    - ENSG00000142871  # CCN1  データ層
+    - ENSG00000185666  # SYN3  データ層
+    - ENSG00000127954  # STEAP4  データ層
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls                     # V2 は cls 必須（guardrails 2026-09-25）
+  forward_batch_size: 8
+  nproc: 1                          # GPU 使用プロセスでは datasets の fork を避ける（guardrails 2026-09-26）
+
+blocked_genes:                      # 摂動しない。evaluate_004.py が assert する
+  - ENSG00000111321                 # LTBR   主対象
+  - ENSG00000104856                 # RELB   主対象
+  - ENSG00000077150                 # NFKB2  主対象
+  - ENSG00000124762                 # CDKN1A 参考対象・盲検
+  - ENSG00000141510                 # TP53   盲検（未解除）
+  - ENSG00000118785                 # SPP1   盲検（未解除）
+  - ENSG00000148346                 # LCN2   盲検（未解除）
+  - ENSG00000172724                 # CCL19  目標ラベルを定義する遺伝子（循環性）
+  - ENSG00000137077                 # CCL21  同上
+  - ENSG00000156234                 # CXCL13 同上
+
+controls:
+  # 筋線維芽細胞の軸の陽性対照（パイプラインが動いていることの参照。判定には使わない）
+  positive:
+    - ENSG00000107796  # ACTA2
+    - ENSG00000149591  # TAGLN
+  # 恒常発現遺伝子（中立性の検査。GAPDH は残す。plan.md §5.3）
+  negative_fixed:
+    - ENSG00000075624  # ACTB
+    - ENSG00000111640  # GAPDH
+    - ENSG00000196262  # PPIA
+  fixed_role: housekeeping
+  extra_fixed:
+    - role: negctrl_panel          # 中立対照パネル 7（EXP-20260926-003/005・EXP-20260927-001 と同一）
+      genes:
+        - ENSG00000090661  # CERS4
+        - ENSG00000147687  # TATDN1
+        - ENSG00000081870  # IFT25
+        - ENSG00000101558  # VAPA
+        - ENSG00000054148  # PHPT1
+        - ENSG00000166295  # ANAPC16
+        - ENSG00000104529  # EEF1D
+  # 対照遺伝子 84（work/null_pool_004.json と同一。plan.md §5.2）
+  # 内訳: EXP-20260927-003 からの引き継ぎ 45 ＋ 陽性対照候補に合わせた新規 30 ＋ IL7 用の補充 9
+  negative_random_n: 84           # explicit のときは genes の先頭から何個使うか。全 84 を使う
+  negative_sampler:
+    method: explicit              # null は固定リスト（全 seed 共通）
+    genes:
+      - ENSG00000106004  # HOXA5  (LTBR にマッチ, EXP-20260927-003)
+      - ENSG00000089006  # SNX5  (LTBR にマッチ, EXP-20260927-003)
+      - ENSG00000118579  # MED28  (LTBR にマッチ, EXP-20260927-003)
+      - ENSG00000128536  # CDHR3  (RELB にマッチ, EXP-20260927-003)
+      - ENSG00000140022  # STON2  (RELB にマッチ, EXP-20260927-003)
+      - ENSG00000109466  # KLHL2  (RELB にマッチ, EXP-20260927-003)
+      - ENSG00000117614  # SYF2  (NFKB2 にマッチ, EXP-20260927-003)
+      - ENSG00000139318  # DUSP6  (NFKB2 にマッチ, EXP-20260927-003)
+      - ENSG00000159377  # PSMB4  (NFKB2 にマッチ, EXP-20260927-003)
+      - ENSG00000153707  # PTPRD  (ACTB にマッチ, EXP-20260927-003)
+      - ENSG00000184305  # CCSER1  (ACTB にマッチ, EXP-20260927-003)
+      - ENSG00000133112  # TPT1  (ACTB にマッチ, EXP-20260927-003)
+      - ENSG00000167283  # ATP5MG  (GAPDH にマッチ, EXP-20260927-003)
+      - ENSG00000104904  # OAZ1  (GAPDH にマッチ, EXP-20260927-003)
+      - ENSG00000109971  # HSPA8  (GAPDH にマッチ, EXP-20260927-003)
+      - ENSG00000150991  # UBC  (PPIA にマッチ, EXP-20260927-003)
+      - ENSG00000123349  # PFDN5  (PPIA にマッチ, EXP-20260927-003)
+      - ENSG00000021645  # NRXN3  (PPIA にマッチ, EXP-20260927-003)
+      - ENSG00000104859  # CLASRP  (CERS4 にマッチ, EXP-20260927-003)
+      - ENSG00000143970  # ASXL2  (CERS4 にマッチ, EXP-20260927-003)
+      - ENSG00000140694  # PARN  (CERS4 にマッチ, EXP-20260927-003)
+      - ENSG00000171503  # ETFDH  (TATDN1 にマッチ, EXP-20260927-003)
+      - ENSG00000156875  # MFSD14A  (TATDN1 にマッチ, EXP-20260927-003)
+      - ENSG00000132792  # CTNNBL1  (TATDN1 にマッチ, EXP-20260927-003)
+      - ENSG00000113068  # PFDN1  (IFT25 にマッチ, EXP-20260927-003)
+      - ENSG00000118855  # MFSD1  (IFT25 にマッチ, EXP-20260927-003)
+      - ENSG00000100461  # RBM23  (IFT25 にマッチ, EXP-20260927-003)
+      - ENSG00000171530  # TBCA  (VAPA にマッチ, EXP-20260927-003)
+      - ENSG00000099783  # HNRNPM  (VAPA にマッチ, EXP-20260927-003)
+      - ENSG00000135905  # DOCK10  (VAPA にマッチ, EXP-20260927-003)
+      - ENSG00000152082  # MZT2B  (PHPT1 にマッチ, EXP-20260927-003)
+      - ENSG00000160014  # CALM3  (PHPT1 にマッチ, EXP-20260927-003)
+      - ENSG00000254999  # BRK1  (PHPT1 にマッチ, EXP-20260927-003)
+      - ENSG00000115091  # ACTR3  (ANAPC16 にマッチ, EXP-20260927-003)
+      - ENSG00000113269  # RNF130  (ANAPC16 にマッチ, EXP-20260927-003)
+      - ENSG00000115935  # WIPF1  (ANAPC16 にマッチ, EXP-20260927-003)
+      - ENSG00000135404  # CD63  (EEF1D にマッチ, EXP-20260927-003)
+      - ENSG00000182718  # ANXA2  (EEF1D にマッチ, EXP-20260927-003)
+      - ENSG00000163466  # ARPC2  (EEF1D にマッチ, EXP-20260927-003)
+      - ENSG00000137710  # RDX  (ACTA2 にマッチ, EXP-20260927-003)
+      - ENSG00000174718  # RESF1  (ACTA2 にマッチ, EXP-20260927-003)
+      - ENSG00000158987  # RAPGEF6  (ACTA2 にマッチ, EXP-20260927-003)
+      - ENSG00000065809  # FAM107B  (TAGLN にマッチ, EXP-20260927-003)
+      - ENSG00000088179  # PTPN4  (TAGLN にマッチ, EXP-20260927-003)
+      - ENSG00000231925  # TAPBP  (TAGLN にマッチ, EXP-20260927-003)
+      - ENSG00000082397  # EPB41L3  (VCAM1 にマッチ, new)
+      - ENSG00000139116  # KIF21A  (VCAM1 にマッチ, new)
+      - ENSG00000235162  # C12orf75  (VCAM1 にマッチ, new)
+      - ENSG00000178695  # KCTD12  (ICAM1 にマッチ, new)
+      - ENSG00000250479  # CHCHD10  (ICAM1 にマッチ, new)
+      - ENSG00000140990  # NDUFB10  (ICAM1 にマッチ, new)
+      - ENSG00000073910  # FRY  (CXCL12 にマッチ, new)
+      - ENSG00000140575  # IQGAP1  (CXCL12 にマッチ, new)
+      - ENSG00000102606  # ARHGEF7  (CXCL12 にマッチ, new)
+      - ENSG00000019485  # PRDM11  (IL7 にマッチ, new)
+      - ENSG00000269343  # ZNF587B  (IL7 にマッチ, new)
+      - ENSG00000257365  # FNTB  (IL7 にマッチ, new)
+      - ENSG00000107968  # MAP3K8  (TNFSF13B にマッチ, new)
+      - ENSG00000139679  # LPAR6  (TNFSF13B にマッチ, new)
+      - ENSG00000114978  # MOB1A  (TNFSF13B にマッチ, new)
+      - ENSG00000078304  # PPP2R5C  (FKBP5 にマッチ, new)
+      - ENSG00000241973  # PI4KA  (FKBP5 にマッチ, new)
+      - ENSG00000145715  # RASA1  (FKBP5 にマッチ, new)
+      - ENSG00000164096  # C4orf3  (SLC2A3 にマッチ, new)
+      - ENSG00000132963  # POMP  (SLC2A3 にマッチ, new)
+      - ENSG00000167641  # PPP1R14A  (SLC2A3 にマッチ, new)
+      - ENSG00000091428  # RAPGEF4  (CCN1 にマッチ, new)
+      - ENSG00000129562  # DAD1  (CCN1 にマッチ, new)
+      - ENSG00000139970  # RTN1  (CCN1 にマッチ, new)
+      - ENSG00000135940  # COX5B  (SYN3 にマッチ, new)
+      - ENSG00000103363  # ELOB  (SYN3 にマッチ, new)
+      - ENSG00000145741  # BTF3  (SYN3 にマッチ, new)
+      - ENSG00000014641  # MDH1  (STEAP4 にマッチ, new)
+      - ENSG00000180817  # PPA1  (STEAP4 にマッチ, new)
+      - ENSG00000100142  # POLR2F  (STEAP4 にマッチ, new)
+      - ENSG00000093217  # XYLB  (IL7 にマッチ, augment)
+      - ENSG00000266074  # BAHCC1  (IL7 にマッチ, augment)
+      - ENSG00000198466  # ZNF587  (IL7 にマッチ, augment)
+      - ENSG00000254685  # FPGT  (IL7 にマッチ, augment)
+      - ENSG00000110925  # CSRNP2  (IL7 にマッチ, augment)
+      - ENSG00000164877  # MICALL2  (IL7 にマッチ, augment)
+      - ENSG00000174332  # GLIS1  (IL7 にマッチ, augment)
+      - ENSG00000184828  # ZBTB7C  (IL7 にマッチ, augment)
+      - ENSG00000105245  # NUMBL  (IL7 にマッチ, augment)
+  comparator: null                # 比較遺伝子群は使わない（EXP-003 で弱い相手だった。validation.md §6.1）
+
+capture:
+  embeddings: true                  # 元・摂動後の CLS 埋め込みを保存（追加の重心への接近度を後から計算する）
+  classifier_logits: false
+
+extra_centroids:
+  output: experiments/EXP-20260927-004/work/extra_centroids-seed{seed}.npz
+  sets:
+    MYOF_neg:                       # 状態の対照: 3 遺伝子陰性の筋線維芽細胞
+      subclass_l2: [MYOF, cycMYOF]
+      states: [FIB_neg_TLShigh, FIB_neg_TLSlow]
+      depth_match_to: FIB_neg_TLShigh
+      max_cells: 800
+      max_cells_per_donor: 60
+    FIB_org_unmatched:              # 感度分析: 深さマッチをしない目標重心（判定に使わない）
+      states: [FIB_org]
+      depth_match_to: null
+      max_cells: 800
+      max_cells_per_donor: 60
+
+analysis:                           # plan.md §6 の事前登録（結果を見る前に確定）
+  primary_metric: A12               # (目標 − (出発点・対照の状態・筋線維芽細胞の平均)) / 移動量 ‖Δ‖
+  secondary_metric: A11             # 同じ差を移動量で割らない形（感度分析。判定に使わない）
+  pos_definition: index_in_input_ids
+  primary_test: pos_matched_permutation
+  pos_matched_permutation:
+    bias_model: quadratic_lp_ll     # y ~ 1 + lp + ll + lp² + ll² + lp·ll
+    distance: max_abs_log2
+    tolerance_log2: 0.5
+    min_cover_frac: 0.8
+    min_eligible_null_genes: 20     # 下回る遺伝子×seed は判定不能（NaN）。不合格とは数えない
+    statistic: D_raw
+  criteria:
+    # --- M5: 目標の軸での陽性対照（本実験の主判定。plan.md §6.4）
+    q_hi: 0.90
+    min_sd_units: 2.5               # D_raw ≥ 2.5 × 対照遺伝子群の標準偏差
+    require_all_seeds: true         # 3 seed すべて
+    M5_min_genes: 1                 # 候補 10 のうち 1 つ以上
+    # --- M1: 較正
+    M1_tail_frac_max: 0.20
+    M1_min_n: 60
+    # --- M2: 交絡の除去
+    M2_abs_rho_max: 0.25
+    M2_min_seeds: 2
+    # --- M3: 恒常発現遺伝子・中立対照パネルの中立性（GAPDH は残す。plan.md §5.3）
+    M3_range: [0.10, 0.90]
+    M3_min_seeds: 2
+    M3_panel_min_genes: 5
+    # --- M4: 方向を測れていること（新設。plan.md §6.3）
+    M4_abs_rho_uniform_max: 0.40
+    M4_abs_rho_placebo_max: 0.50
+  descriptive_only:                 # 記録するが合否には入れない
+    - state_specificity             # D_raw(主指標) > D_raw(置き換え) / D_raw(筋線維芽細胞の鏡像)
+    - displacement_norm             # 遺伝子ごとの移動量 ‖Δ‖（GAPDH の性質の確認）
+    - donor_level
+    - goal_unmatched_sensitivity
+
+# run_isp.py が必須とするセクション（validate() と run_stats()）。
+# 本実験の判定は analysis/evaluate_004.py が埋め込みから直接計算するので、
+# ここの出力（stats/ 配下）は判定に一切使わない。EXP-20260927-003 と同じ値にして比較可能性を保つ。
+# 2026-09-27 追記（結果を見る前。plan.md §12 の変更ログを参照）
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+robustness:
+  seeds: [31, 32, 33]
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results
+  experiment_dir: experiments/EXP-20260927-004
+
+compute:
+  device: mps                       # 実行はリモート計算機 2 号（GB10）。isp_remote.sh が cuda で上書きする
+                                    # （EXP-20260927-003 と同じ書き方。cuda と直書きすると Mac 側の検査で警告になる）
+  dtype: bf16                       # PI 標準（2026-09-26）。コサインは fp32
+  cache_model: true
+  sec_per_cell_gene: 0.125          # GB10 実測（EXP-20260926-005 run O）
+  sec_fixed_per_gene_run: 3.18      # EXP-20260927-001 の回帰
+  sec_per_1e5_tokens: 4.49
+  n_gene_runs: 318                  # 106 遺伝子 × 3 seed
+  n_cell_gene: 63570
+  n_tokens: 1.248e8
+  gpu_hours_estimate: 4.0           # plan.md §8。上限 24 時間に対し余裕あり → G2 不要

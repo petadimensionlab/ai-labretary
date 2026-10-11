@@ -1,0 +1,13 @@
+== kidney_fib (count=0)
+== senescence (count=16)
+  41851819 | 2026 Mar 18 | Clin Epigenetics | Association of accelerated biological aging with obstructive sleep apnea symptoms and identification of a candidate biomarker gene signature.
+  41462332 | 2025 Dec 29 | Stem Cell Res Ther | Enhancing cardiomyocyte reprogramming efficiency by targeting cellular senescence is mediated via Rb1 gene.
+  37504562 | 2023 Jul 18 | J Cardiovasc Dev Dis | H3K36 Di-Methylation Marks, Mediated by Ash1 in Complex with Caf1-55 and MRG15, Are Required during Drosophila Heart Development.
+  34728711 | 2021 Nov 2 | Sci Rep | Simultaneous expression of MMB-FOXM1 complex components enables efficient bypass of senescence.
+  31896310 | 2020 Apr | Toxicol Pathol | Loss of Immunohistochemical Reactivity in Association With Handling-Induced Dark Neurons in Mouse Brains.
+  31397537 | 2019 Dec | Aging Cell | The conserved histone chaperone LIN-53 is required for normal lifespan and maintenance of muscle integrity in Caenorhabditis elegans.
+  31365869 | 2019 Jul 30 | Cell Rep | A Key Role for the Ubiquitin Ligase UBR4 in Myofiber Hypertrophy in Drosophila and Mice.
+  30809532 | 2019 | Biomed Res Int | Bioinformatics Analysis Reveals the Altered Gene Expression of Patients with Postmenopausal Osteoporosis Using Liuweidihuang Pills Treatment.
+  30355501 | 2018 Oct 23 | Cell Rep | RbAp48 Protein Is a Critical Component of GPR158/OCN Signaling and Ameliorates Age-Related Memory Loss.
+  28860177 | 2018 Jan 1 | J Appl Physiol (1985) | Effect of zileuton on osteoporotic bone and its healing, expression of bone, and brain genes in rats.
+== tls_lymphoid (count=0)

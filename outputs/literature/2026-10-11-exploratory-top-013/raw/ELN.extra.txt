@@ -1,0 +1,18 @@
+== ELN / eln_renal (count=70)
+  42693239 | 2026 Sep | Exp Mol Med | Pleura organoid transplantation facilitates visceral pleural repair through CD133(+) progenitor cell-mediated regeneration.
+  42460475 | 2026 Sep | Arterioscler Thromb Vasc Biol | Tuning BMP-Regulated Cell Differentiation in the Aortic Media by Mutating Matrix Gla Protein.
+  42100872 | 2026 May 8 | JCI Insight | ATP7A-fibulin-4 complex delivers copper in the Golgi to activate LOX in renal fibrosis.
+  41478668 | 2025 Dec | J Pharmacol Exp Ther | Kidney-specific delivery of a matrix metalloproteinase-2 inhibitory peptide fused to elastin-like polypeptide reduces proteinuria and renal fibrosis in a model of salt-se
+  40786111 | 2025 | PeerJ | Insights into the molecular mechanisms underlying the function of lysyl oxidase like 1 in cancers.
+  39155424 | 2024 Dec | Eur J Clin Invest | Respiratory dysfunction in old mice could be related to inflammation and lung fibrosis induced by hyperphosphatemia.
+  37619798 | 2023 Oct | Vascul Pharmacol | Empagliflozin decreases ageing-associated arterial stiffening and vascular fibrosis under normoglycemic conditions.
+  37517061 | 2023 Oct 24 | Cardiovasc Res | Aortic valve calcification is promoted by interleukin-8 and restricted through antagonizing CXC motif chemokine receptor 2.
+== ELN / eln_artery (count=4583)
+  42842028 | 2026 Oct 7 | Biomech Model Mechanobiol | Computational multiscale analysis of growth and remodeling in the ascending aorta of the Marfan mouse.
+  42834071 | 2026 Oct 5 | Hypertens Res | Novel C-terminal frameshift mutation of ELN causes non-stenotic high-renin hypertension and systemic arterial dysplasia: implications for preventing aortic catastrophes.
+  42829021 | 2026 Oct 3 | Acta Biomater | Compromised Elastin Network Load Transfer in Aging Human Aorta.
+  42826823 | 2026 Oct 2 | Physiol Behav | Estradiol attenuates cardiac apoptosis and modulates cardiovascular remodeling in ovariectomized female rats with 6-hydroxydopamine-induced parkinsonism.
+  42819534 | 2026 Jan-Dec | J Alzheimers Dis Rep | The evolutionary origins of dementia.
+  42818222 | 2026 Sep 25 | bioRxiv | Lactate Receptor Activation Alleviates Senescence and Preserves Homeostasis of Aged Arteries.
+  42817883 | 2026 Oct 1 | Circ Res | Acetyltransferase MOF Regulates Macrophage Inflammation in Abdominal Aortic Aneurysms.
+  42790271 | 2026 Sep 25 | JACC Basic Transl Sci | Targeting the ERK Signaling Pathway to Halt Adventitia Remodeling of Ascending Thoracic Aortic Aneurysm.

@@ -1,0 +1,187 @@
+{
+ "source": "Lake BB et al. 2023 Nature 619:585-594 (PMID 37468583, DOI 10.1038/s41586-023-05769-3), Supplementary Tables 5, 8, 10, 14 (downloaded from static-content.springer.com MOESM6 zip, verified directly)",
+ "positive_control": [
+  "FOXP2",
+  "FGF14",
+  "IGF1",
+  "CCDC80",
+  "PRRX1",
+  "ZBTB7C",
+  "PDZRN4",
+  "CELF2",
+  "ABI3BP",
+  "BNC2",
+  "BOC",
+  "NOX4",
+  "EFNA5",
+  "C3",
+  "FLRT2",
+  "NAV3",
+  "FBLN1",
+  "PODN",
+  "FGFR1",
+  "ZEB1",
+  "EBF2",
+  "NFIB",
+  "GSN",
+  "ZFPM2"
+ ],
+ "goal_defining_proxy": [
+  "TWIST2",
+  "AFDN",
+  "PDGFD",
+  "PTPRF",
+  "SLIT2",
+  "CDON",
+  "ADAMTS3",
+  "DCLK1",
+  "LRP1",
+  "IGFBP6",
+  "EFEMP1",
+  "SLC7A6"
+ ],
+ "overlap": {
+  "FIB_reference": {
+   "n_literature": 28,
+   "n_overlap_positive_control": 6,
+   "overlap_positive_control": [
+    "ABI3BP",
+    "FGF14",
+    "FLRT2",
+    "IGF1",
+    "NAV3",
+    "PRRX1"
+   ],
+   "frac_of_literature_set": 0.214,
+   "n_overlap_goal_defining_proxy": 0,
+   "overlap_goal_defining_proxy": []
+  },
+  "M-FIB_reference": {
+   "n_literature": 25,
+   "n_overlap_positive_control": 0,
+   "overlap_positive_control": [],
+   "frac_of_literature_set": 0.0,
+   "n_overlap_goal_defining_proxy": 0,
+   "overlap_goal_defining_proxy": []
+  },
+  "MYOF": {
+   "n_literature": 37,
+   "n_overlap_positive_control": 0,
+   "overlap_positive_control": [],
+   "frac_of_literature_set": 0.0,
+   "n_overlap_goal_defining_proxy": 0,
+   "overlap_goal_defining_proxy": []
+  },
+  "cycMYOF": {
+   "n_literature": 15,
+   "n_overlap_positive_control": 0,
+   "overlap_positive_control": [],
+   "frac_of_literature_set": 0.0,
+   "n_overlap_goal_defining_proxy": 0,
+   "overlap_goal_defining_proxy": []
+  },
+  "aFIB_identity_minimal": {
+   "n_literature": 12,
+   "n_overlap_positive_control": 8,
+   "overlap_positive_control": [
+    "ABI3BP",
+    "CCDC80",
+    "FBLN1",
+    "FGF14",
+    "FLRT2",
+    "NAV3",
+    "PDZRN4",
+    "ZFPM2"
+   ],
+   "frac_of_literature_set": 0.667,
+   "n_overlap_goal_defining_proxy": 0,
+   "overlap_goal_defining_proxy": []
+  },
+  "dFIB_identity_minimal": {
+   "n_literature": 6,
+   "n_overlap_positive_control": 0,
+   "overlap_positive_control": [],
+   "frac_of_literature_set": 0.0,
+   "n_overlap_goal_defining_proxy": 0,
+   "overlap_goal_defining_proxy": []
+  },
+  "dM-FIB_identity_minimal": {
+   "n_literature": 10,
+   "n_overlap_positive_control": 0,
+   "overlap_positive_control": [],
+   "frac_of_literature_set": 0.0,
+   "n_overlap_goal_defining_proxy": 0,
+   "overlap_goal_defining_proxy": []
+  },
+  "adaptive_stromal_state_aFIB_plus_MYOF_minimal": {
+   "n_literature": 42,
+   "n_overlap_positive_control": 7,
+   "overlap_positive_control": [
+    "ABI3BP",
+    "GSN",
+    "NAV3",
+    "NOX4",
+    "PDZRN4",
+    "ZEB1",
+    "ZFPM2"
+   ],
+   "frac_of_literature_set": 0.167,
+   "n_overlap_goal_defining_proxy": 2,
+   "overlap_goal_defining_proxy": [
+    "DCLK1",
+    "SLIT2"
+   ]
+  },
+  "adaptive_stromal_state_aFIB_plus_MYOF_full_conserved": {
+   "n_literature": 76,
+   "n_overlap_positive_control": 10,
+   "overlap_positive_control": [
+    "ABI3BP",
+    "CELF2",
+    "EFNA5",
+    "GSN",
+    "NAV3",
+    "NFIB",
+    "NOX4",
+    "PDZRN4",
+    "ZEB1",
+    "ZFPM2"
+   ],
+   "frac_of_literature_set": 0.132,
+   "n_overlap_goal_defining_proxy": 3,
+   "overlap_goal_defining_proxy": [
+    "AFDN",
+    "DCLK1",
+    "SLIT2"
+   ]
+  }
+ },
+ "aFIB_union": {
+  "n": 84,
+  "n_overlap_positive_control": 14,
+  "overlap": [
+   "ABI3BP",
+   "CCDC80",
+   "CELF2",
+   "EFNA5",
+   "FBLN1",
+   "FGF14",
+   "FLRT2",
+   "GSN",
+   "NAV3",
+   "NFIB",
+   "NOX4",
+   "PDZRN4",
+   "ZEB1",
+   "ZFPM2"
+  ]
+ },
+ "targets_vs_literature": {
+  "T1": [
+   "CXCL12"
+  ],
+  "T2": [],
+  "T1_vs_aFIB": [],
+  "T2_vs_aFIB": []
+ }
+}

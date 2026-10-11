@@ -1,0 +1,148 @@
+{
+ "kidney_fib": {
+  "count": "3",
+  "records": [
+   {
+    "pmid": "40779327",
+    "date": "2025 Oct 1",
+    "journal": "Kidney360",
+    "title": "Renal Single-Nuclear Transcriptomics Identifies Novel Therapeutic Targets in a Preclinical Model of CKD.",
+    "authors": [
+     "Chade AR",
+     "Sivasankaran SK",
+     "Sitz R"
+    ],
+    "doi": "10.34067/KID.0000000945"
+   },
+   {
+    "pmid": "38062563",
+    "date": "2024 Feb 1",
+    "journal": "J Am Soc Nephrol",
+    "title": "Prostacyclin Mitigates Renal Fibrosis by Activating Fibroblast Prostaglandin I 2 Receptor.",
+    "authors": [
+     "Li J",
+     "Guan Y",
+     "Xu Y"
+    ],
+    "doi": "10.1681/ASN.0000000000000286"
+   },
+   {
+    "pmid": "34722263",
+    "date": "2021",
+    "journal": "Front Oncol",
+    "title": "Single-Cell RNA Sequencing in Multiple Pathologic Types of Renal Cell Carcinoma Revealed Novel Potential Tumor-Specific Markers.",
+    "authors": [
+     "Su C",
+     "Lv Y",
+     "Lu W"
+    ],
+    "doi": "10.3389/fonc.2021.719564"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "8",
+  "records": [
+   {
+    "pmid": "40881588",
+    "date": "2025",
+    "journal": "Front Cardiovasc Med",
+    "title": "Single-cell transcriptomic analysis of the human vascular atlas provides new insights into vasorelaxation redundancy and heterogeneity.",
+    "authors": [
+     "Avolio E",
+     "Pearce SF",
+     "Wambeke D"
+    ],
+    "doi": "10.3389/fcvm.2025.1634645"
+   },
+   {
+    "pmid": "39420421",
+    "date": "2024 Dec",
+    "journal": "Obesity (Silver Spring)",
+    "title": "Sustained caloric restriction potentiates insulin action by activating prostacyclin synthase.",
+    "authors": [
+     "Merali C",
+     "Quinn C",
+     "Huffman KM"
+    ],
+    "doi": "10.1002/oby.24150"
+   },
+   {
+    "pmid": "37796199",
+    "date": "2023 Oct 4",
+    "journal": "Aging (Albany NY)",
+    "title": "Analysis and experimental validation of fatty acid metabolism-related genes prostacyclin synthase (PTGIS) in endometrial cancer.",
+    "authors": [
+     "Wang B",
+     "Ge S",
+     "Wang Z"
+    ],
+    "doi": "10.18632/aging.205080"
+   },
+   {
+    "pmid": "36339397",
+    "date": "2022",
+    "journal": "Front Endocrinol (Lausanne)",
+    "title": "Identification and analysis of novel endometriosis biomarkers via integrative bioinformatics.",
+    "authors": [
+     "Bae SJ",
+     "Jo Y",
+     "Cho MK"
+    ],
+    "doi": "10.3389/fendo.2022.942368"
+   },
+   {
+    "pmid": "34007408",
+    "date": "2021",
+    "journal": "Oxid Med Cell Longev",
+    "title": "Human Tissue Kallikrein 1 Is Downregulated in Elderly Human Prostates and Possesses Potential In Vitro Antioxidative and Antifibrotic Effects in Rodent Prostates.",
+    "authors": [
+     "Zhang M",
+     "Luo C",
+     "Lin D"
+    ],
+    "doi": "10.1155/2021/8877540"
+   },
+   {
+    "pmid": "33773368",
+    "date": "2021 Jun",
+    "journal": "Neurobiol Aging",
+    "title": "Altered sphingolipid function in Alzheimer's disease; a gene regulatory network approach.",
+    "authors": [
+     "Giovagnoni C",
+     "Ali M",
+     "Eijssen LMT"
+    ],
+    "doi": "10.1016/j.neurobiolaging.2021.02.001"
+   },
+   {
+    "pmid": "32463792",
+    "date": "2020 May 28",
+    "journal": "Aging (Albany NY)",
+    "title": "Prognostic value of prostaglandin I2 synthase and its correlation with tumor-infiltrating immune cells in lung cancer, ovarian cancer, and gastric cancer.",
+    "authors": [
+     "Dai D",
+     "Chen B",
+     "Feng Y"
+    ],
+    "doi": "10.18632/aging.103235"
+   },
+   {
+    "pmid": "28103290",
+    "date": "2017",
+    "journal": "PLoS One",
+    "title": "Involvement of DDAH/ADMA/NOS/cGMP and COX-2/PTGIS/cAMP Pathways in Human Tissue Kallikrein 1 Protecting Erectile Function in Aged Rats.",
+    "authors": [
+     "Cui K",
+     "Luan Y",
+     "Tang Z"
+    ],
+    "doi": "10.1371/journal.pone.0170427"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

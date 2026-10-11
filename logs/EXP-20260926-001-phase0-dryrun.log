@@ -1,0 +1,4 @@
+[00:28:22] 見積もり: {"forward_passes": 9000, "gpu_hours_estimate": 0.02, "needs_G2_approval": false}
+[00:28:22] run tls_high: states={"start_state": "aPT_CKD_TLShigh", "goal_state": "PT_healthy", "alt_states": ["aPT_CKD_TLSlow"]}
+[00:28:22] run tls_low: states={"start_state": "aPT_CKD_TLSlow", "goal_state": "PT_healthy", "alt_states": ["aPT_CKD_TLShigh"]}
+[00:28:22] dry-run OK

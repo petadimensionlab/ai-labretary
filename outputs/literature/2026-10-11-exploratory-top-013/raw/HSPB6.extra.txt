@@ -1,0 +1,9 @@
+== HSPB6 / hspb6_fib (count=753)
+  42678724 | 2026 Sep 4 | Free Radic Res | Heat shock protein 70 protects against peroxynitrite-induced inactivation of the cardiac sarco(endo)plasmic reticulum Ca(2+)-ATPase (SERCA2a).
+  42484598 | 2026 Aug 12 | Clin Sci (Lond) | O-GlcNAc modification of CaMKII-mediated mitophagic flux regulation via HSPB8 in diabetic cardiomyopathy.
+  42427322 | 2026 Jun | Zhonghua Wei Zhong Bing Ji Jiu Yi Xue | [Effect and regulatory mechanism of nuclear fragility X mental retardation interaction protein 1 on apoptosis of dendritic cells in sepsis].
+  42403335 | 2026 Aug | Biotech Histochem | Immunoexpression of HSP27 and HSP70 after hyperthermia in postnatal rat lung and heart.
+  42383453 | 2026 Jul 1 | Histol Histopathol | Isofraxidin ameliorates CCl(4)-induced liver fibrosis in mice by inhibiting the NF-κB pathway.
+  42370198 | 2026 | Theranostics | Cardiomyocyte-derived USP20 mitigates myocardial ischemia/reperfusion injury through deubiquitinating GRP78.
+  42128104 | 2026 Jun | Int J Biol Macromol | Comprehensive genome-wide identification, molecular characterisation, and expression profiling of HSP gene families in Bufo gargarizans.
+  42082113 | 2026 Jun | Biochim Biophys Acta Mol Cell Res | The dual role of heat shock protein 60 in Cardiac diseases: From mitochondrial chaperone to extracellular immunomodulator - A review and future perspectives.

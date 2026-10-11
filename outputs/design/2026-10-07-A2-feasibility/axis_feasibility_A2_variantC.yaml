@@ -1,0 +1,34 @@
+# 感度分析: 参照状態を VSMC/P（深さが出発点に近い）に替えた版。
+# 発現側の指標は主の設定と同じ。重心だけを差し替える。
+axis_feasibility:
+  experiment_id: HYP-20261007-01-precheck-A2-参照を VSMC/P に替えた版
+  output: outputs/design/2026-10-07-A2-feasibility/axis_feasibility_A2_variantC.json
+  expression:
+    h5ad: outputs/design/2026-10-07-A2-feasibility/work/input.h5ad
+    state_col: isp_state
+    gene_name_col: gene_name
+  population: [start, goal]
+  states:
+    start: {labels: [FIB]}
+    goal: {labels: [aStr]}
+    reference: {labels: [dFIB]}
+  perturbation:
+    min_cells_per_gene: 120
+  markers:
+    goal_defining: []
+    goal_positive_control:
+      [ABI3BP, AFDN, ANK2, ANKH, ANKS1B, ANTXR1, ARMC9, ASPH, ATP2B4, ATP8B1,
+       CDC14B, CELF2, CNTN4, COL1A1, COL1A2, COL5A2, COL6A1, COL6A2, COL8A1,
+       DCLK1, DCLK2, DOCK5, DPYSL3, DSTN, EFNA5, ELN, ESYT2, FBXL7, FN1, FOXP1,
+       FRY, GAB1, GSN, HSPG2, IGFBP5, ITGA11, JAZF1, LTBP1, MACROD2, MAML3,
+       MFGE8, MGP, MICAL2, MICAL3, MPDZ, NAV3, NFIB, NHSL2, NOX4, NTM, PARD3B,
+       PAWR, PCDH7, PDE5A, PDGFC, PDZRN4, PLCB1, PRICKLE1, PTPRD, RAD51B,
+       RASSF8, SDC2, SESTD1, SIPA1L1, SLC20A2, SLC44A1, SLIT2, SULF1, THRB,
+       ZEB1, ZFPM2]
+    reference_positive_control: [MGP, BGN, DCN, COL1A2, C7, AEBP1]
+  centroids:
+    mode: precomputed
+    files: ["outputs/design/2026-10-07-A2-feasibility/work/centroids-seed{seed}.npz"]
+    seeds: [81, 82, 83]
+    names: {start: FIB, goal: aStr, reference: VSMCP, others: []}
+  thresholds: {}

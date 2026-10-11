@@ -1,0 +1,9 @@
+== PIGG / pigg_any (count=13)
+  41744056 | 2026 Jul | Am J Med Genet A | Expanding the Phenotype of Biallelic PIGG Variants: Motor Neuropathy With Peripheral Nerve Hyperexcitability.
+  38976227 | 2024 Aug | Hepatol Int | Detection of polyreactive immunoglobulin G facilitates diagnosis in children with autoimmune hepatitis.
+  37340049 | 2023 Jun 20 | Sci Rep | Evaluation of immunoserological detection of anti-liver kidney microsomal, anti-soluble liver antigen and anti-mitochondrial antibodies.
+  36440259 | 2023 Jan | JHEP Rep | Histological and serological features of acute liver injury after SARS-CoV-2 vaccination.
+  35603428 | 2022 Jul 5 | EMBO Rep | Ethanolamine-phosphate on the second mannose is a preferential bridge for some GPI-anchored proteins.
+  34535746 | 2021 Sep 17 | Sci Rep | PIGG defines the Emm blood group system.
+  34473365 | 2022 Jan | Hepatology | Quantification of polyreactive immunoglobulin G facilitates the diagnosis of autoimmune hepatitis.
+  34113002 | 2021 Oct | Genet Med | PIGG variant pathogenicity assessment reveals characteristic features within 19 families.

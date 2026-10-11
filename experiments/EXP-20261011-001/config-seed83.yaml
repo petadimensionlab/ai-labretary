@@ -1,0 +1,291 @@
+_derived_from_config_yaml_sha256: fd0bc22acea14479455fb1c3ca39164c9a68d8f20b0049a013203b970dc8d375
+_note: config.yaml（事前登録済み）の機械的な派生。robustness.seeds を [83] に、output.results_dir を results-seed83 に変えただけ。遺伝子集合・判定基準・閾値・数値型は一切変えていない。2
+  台の機体に seed 単位で分けて実行するための運用上の分割（plan.md §10・長時間ジョブ表参照）。
+blocked_genes:
+- ENSG00000111321
+- ENSG00000118785
+- ENSG00000124762
+- ENSG00000141510
+- ENSG00000148346
+capture:
+  classifier_logits: false
+  embeddings: true
+cell_selection:
+  donor_key: donor_id
+  max_cells_per_donor: 20
+  max_cells_per_gene: 200
+  min_cells_per_gene: 200
+  mode: common
+compute:
+  cache_model: true
+  device: cuda
+  dtype: bf16
+  gpu_hours_estimate: 0.83
+  n_cell_gene: 18000
+  n_gene_runs: 30
+  needs_G2_approval: false
+  sec_per_cell_gene: 0.1254
+controls:
+  extra_fixed: []
+  negative_fixed: []
+  negative_random_n: 0
+  positive: []
+data:
+  cell_type_col: subclass_l2
+  custom_attr_name_dict:
+    a1_row: a1_row
+    disease: disease
+    donor_id: donor_id
+    fib_anno_state: fib_anno_state
+    n_counts: n_counts
+    n_genes: n_genes
+    region: region
+    subclass_l2: subclass_l2
+  filter_data: null
+  input_h5ad: experiments/EXP-20260929-001/work/input.h5ad
+  max_ncells: null
+  state_key: fib_anno_state
+  tokenized_dataset: experiments/EXP-20261011-001/work/tokenized-a1.dataset
+decision:
+  pi_decisions_20261011:
+    A6 取得済み: data/raw/kidney_tls/A6_UUO_Reck2025.h5ad（CELLxGENE 版。SOURCES.md に sha256 8d9cca13…・取得 2026-09-25）。今回の実行対象にしない（plan.md
+      §5.6 前受け設計のみ）
+    G1 採択: HYP-20261011-01 を採択（ゲート G1、PI 2026-10-11。hypotheses/tracker.md の Status=accepted 済み。本計画は書き換えない）
+    §9.3 の数え上げ: 辞書・A1 var の欠け 0 個、検出率の中央値 0.1475 ≥ 0.06。検出率 0.06 未満は 6 個（CHMP2A・DCXR・FGL2・HSPB6・SOD3・TNFRSF12A。記述のみ）
+    仮説 §3.3 の訂正: A1 の保存済み 626 に退化の陽性対照 30 個のうち 10 個（活性化 PC71 重なり 7 個＋対照プール A1 重なり 3 個）が既に含まれる。新規摂動は 30
+      個のまま回し、既存 10 個は機械一致の確認に使う（plan.md §2.3・§3c）
+    着手前チェック: 4 回すべて判定保留・不合格条件 0 件（plan.md §5.5）
+    退化30 と A1 標準化プールの重なり: 3 個（CTSH・PFDN5・CYS1）。z は 0 のほうへ引かれる（既知の限界。plan.md §11）
+  主判定 P-1（A1・確認）:
+    偽セット: A1 の対照プール 549 個から復元ありで引く（evaluate_005.set_null と同じ）
+    効果量の目安（併記。判定に使わない）:
+      4.5/√K:
+        活性化71: 0.53
+        退化30: 0.82
+      6.63/√K:
+        活性化71: 0.79
+        退化30: 1.21
+    対象: 活性化の陽性対照 71 個と退化の陽性対照 30 個のセット平均 z_diff
+    感度分析: 重なり 7 個を除いた版（71−7＝64、30−7＝23）を必ず併記（R-13）
+    最小検出可能効果量: analysis/power_014.py で規則そのものをシミュレート → work/power_014.json。同時（(i)∧(ii)∧(iii)）の MDE ≈ 0.66
+      z（ρ=実測 0.964。ρ 0〜0.9 で 0.63〜0.71）
+    条件 (i): 活性化 71 のセット平均 z_diff が正 かつ 偽セット 1,000 組（71 個）の 99 パーセンタイル超（3 群すべて）
+    条件 (ii): 退化 30 のセット平均 z_diff が負 かつ 偽セット 1,000 組（30 個）の 1 パーセンタイル未満（3 群すべて）
+    条件 (iii): (活性化 71 − 退化 30) のセット平均の差が、大きさ 71 と 30 を独立に復元ありで引いた無作為 2 セットの差の 99 パーセンタイル超（3 群すべて）
+  乱数の鍵:
+    P-1 (iii) の無作為 2 セット: 20261019
+    P-1 活性化の偽セット: 20261017
+    P-1 退化の偽セット: 20261018
+    P-2 候補の偽セット: 20261020
+    P-3 候補の偽セット: 20261021
+    偽セットの較正: 20261022
+  副次 P-2（A2・探索）:
+    条件 (a): 候補 8 個のセット平均 z_diff が、偽セット 1,000 組（8 個）の 99 パーセンタイル以内（3 群すべて）＝0 と区別できない
+    条件 (b): かつ、活性化の陽性対照 71 個のセット平均（z_diff）より小さい（3 群すべて）
+  副次 P-3（A2・探索）:
+    条件: 候補 8 個の共通の向き（u_common）のセット平均が、偽セット 1,000 組（8 個）の 99 パーセンタイル超（3 群すべて）
+  単位: 群（提供者で分けた互いに重ならない 3 群。seed 81/82/83 は群の名前）
+  反証条件（R-1〜R-14。**上から順に当て、最初に当たったものを採用する**。plan.md §4 の表）:
+    R-1: 活性化の陽性対照のセット平均 z_diff が 3 群すべてで負 → 判定不能
+    R-10: 差の向きでも共通の向きでも候補 8 が基準を超えない → 判定不能
+    R-11: 差の向きでも共通の向きでも候補 8 が基準を超える → 判定不能。測り方の問題として PI に報告
+    R-12: A1 の対照プール 549 で、z_diff と発現細胞数または入力の長さの中央値の Spearman の絶対値が 0.20 超 → 判定不能
+    R-13: 重なり 7 個を除いた版で §4（6.1 の結論）が変わる → 両方の版を併記し、判定は PI に諮る
+    R-14: 上のどれにも当たらない → 保留。事実だけを報告し、規則を後から作らない
+    R-2: 退化の陽性対照のセット平均 z_diff が 3 群すべてで正 → 判定不能
+    R-3: (i) も (ii) も成り立たない（どちらも偽セットの範囲内）→ 差の向きは 2 本を分離できない（支持されない）
+    R-4: 2 つの陽性対照が同じ向きに分離する（両方 z_diff の 3 群平均が > 0、または両方 < 0）→ 支持されない
+    R-5: (i)(ii) は成り立つが (iii) が成り立たない → 判定不能
+    R-6: (i)(ii) の一方だけが成り立ち、他方は 0 と区別できない → その向きのみ判定不能。方法全体の成否は言わない
+    R-7: 候補 8 の z_diff が 0 と区別できず（偽セット内）かつ共通の向きで基準超 → P-2・P-3 予想どおり。段階 2 の合格は共通成分
+    R-8: 候補 8 の z_diff が正で偽セット超、かつ 3 群すべてで活性化 PC71 の z_diff セット平均以上 → 活性化した間質に固有の可能性（探索）
+    R-9: 候補 8 の z_diff が負で偽セット 1 パーセンタイル未満 → 予想外。事実だけ報告（保留）
+  指標の定義:
+    共通の向き: u_common = (u_ada + u_deg) / ‖u_ada + u_deg‖
+    向き 1（活性化した間質）: u_ada = unit(aStr) − unit(start_state)。正規化して使う
+    向き 2（退化した状態）: u_deg = unit(dFIB) − unit(start_state)。正規化して使う
+    層別補正: evaluate_009.gene_stats_stratified（発現の有無で層別した二次式。lp・ll）。実装を変えない
+    差の向き: u_diff = (u_ada − u_deg) / ‖u_ada − u_deg‖
+    標準化: '群ごとに、そのデータの対照プール（A2: 510 / A1: 549）の D_raw の平均と標準偏差で標準得点 z にする'
+    移動量 0 の扱い: 外す前の表で 2 本（u_diff と u_common）とも射影を計算し、外す細胞 ID を後で除く（向きごとに表を作らない。guardrails 2026-10-11）
+    細胞ごとの値: m = (d · u) / ‖d‖。d = pert − orig（保存済み埋め込み）。分母は移動量の大きさ
+  数値型と機体:
+    A1（確認）: 保存済み bf16（GB10/CUDA）626 個＋新規 bf16（GB10/CUDA）30 個。標準化プール 549 も同じ bf16
+    A2（探索）: 保存済み fp32 の埋め込みを読み、CPU/fp32 で再射影。A2 の値どうしだけで閉じる
+    直接の比較禁止: A2 の値と A1 の値を同じ尺度で比べない（CLAUDE.md §6.1）。判定は各データ内で閉じる
+  評価順（固定）:
+    1: A チェック（config 一致・材料 sha256・遺伝子集合・盲検 0 件・値 にNaN なし・再現確認）→ 不合格なら止める
+    2: A2 の再現確認（u_ada・u_deg の候補 8 セット平均が既存値と 1e-3 以内）
+    3: A2 の P-2・P-3 → R-7〜R-11
+    4: A1 の再現確認（626 個の z_ada が gene_seed_009 と 1e-3 以内）
+    5: A1 の P-1 (i)(ii)(iii) → R-1〜R-6（最初に当たったもの）
+    6: A1 の R-12（交絡）→ R-13（重なり感度）
+    7: どれにも当たらない → R-14（保留）
+evaluation:
+  a1:
+    cells_csv: experiments/EXP-20261004-001/results/cells.csv
+    centroid_rule: experiments/EXP-20261004-001/results/run-{seed}-L-1/state_emb_vectors.npz
+    embedding_rule: experiments/EXP-20261004-001/results/run-{seed}-L-1/genes/{gene}/emb/{orig_or_pert}.npy
+    id: EXP-20261004-001
+    measured_n: 626
+    new_perturbation:
+      cells_csv: experiments/EXP-20261011-001/results/cells.csv
+      centroid_rule: experiments/EXP-20261011-001/results/run-{seed}-L-1/state_emb_vectors.npz
+      embedding_rule: experiments/EXP-20261011-001/results/run-{seed}-L-1/genes/{gene}/emb/{orig_or_pert}.npy
+      genes_n: 30
+      results_dir: results
+    pool_n: 549
+    repro:
+      candidate8_set_mean_ada:
+      - 6.900499
+      - 6.67374
+      - 6.708363
+      gene_seed_009: experiments/EXP-20261004-001/results/gene_seed_009.csv
+      pc71_set_mean_ada:
+      - 1.182938
+      - 1.226077
+      - 1.300099
+      tolerance: 1e-3
+    results_dir: experiments/EXP-20261004-001/results
+    states:
+      goal_ada: aStr
+      goal_deg: dFIB
+      start: FIB_MFIB
+    tokenized_dataset: experiments/EXP-20261011-001/work/tokenized-a1.dataset
+    tokenized_sha256:
+      data: 34859d30
+    work_dir: experiments/EXP-20261004-001/work
+  a2:
+    cells_csv: experiments/EXP-20261007-001/results/cells.csv
+    centroid_rule: experiments/EXP-20261007-001/results/run-{seed}-L-1/state_emb_vectors.npz
+    config_sha256: ffdd756bef77fc18
+    embedding_rule: experiments/EXP-20261007-001/results/run-{seed}-L-1/genes/{gene}/emb/{orig_or_pert}.npy
+    genes_json: experiments/EXP-20261007-001/work/genes_011.json
+    id: EXP-20261007-001
+    measured_n: 587
+    pool_n: 510
+    precheck_json: experiments/EXP-20261007-001/work/precheck_011.json
+    repro:
+      candidate8_set_mean_ada:
+      - 2.664
+      - 2.776
+      - 2.302
+      candidate8_set_mean_deg:
+      - 2.6754
+      - 2.7333
+      - 2.2468
+      criteria011: experiments/EXP-20261007-001/results/criteria_011.json
+      criteria013: experiments/EXP-20261007-003/results/criteria_013.json
+      gene_group011: experiments/EXP-20261007-001/results/gene_group_011.csv
+    results_dir: experiments/EXP-20261007-001/results
+    state_rows_sha256:
+      81: 3432812c65583a9902204915af32bc474c75b699e49251a62e3e3c5a79ff4de8
+      82: 3432812c65583a9902204915af32bc474c75b699e49251a62e3e3c5a79ff4de8
+      83: 3432812c65583a9902204915af32bc474c75b699e49251a62e3e3c5a79ff4de8
+    states:
+      goal_ada: aStr
+      goal_deg: dFIB
+      start: FIB
+    tokenized_dataset: experiments/EXP-20261011-001/work/tokenized-a2.dataset
+    tokenized_sha256:
+      data: 615116682edbb7fd4899d20e1e39d535e42f31abe3e2072d4c30e7ca89b3ad44
+      dataset_info: ab11233dcb17637f694ac30c54535521e740951a2c5b276828ede53c38a44039
+      state: 420907ae35e69897280264dba3dc668418ea651a0de6850ecc2c65ad306fc3
+    work_dir: experiments/EXP-20261007-001/work
+experiment_id: EXP-20261011-001
+gene_sets:
+  a1_pool_549: source_a1_controls
+  a2_pool_510: source_genes011_pool
+  blocked_5:
+  - ENSG00000111321
+  - ENSG00000118785
+  - ENSG00000124762
+  - ENSG00000141510
+  - ENSG00000148346
+  candidate_8:
+  - ENSG00000099866
+  - ENSG00000156234
+  - ENSG00000137077
+  - ENSG00000074410
+  - ENSG00000140836
+  - ENSG00000113073
+  - ENSG00000148180
+  - ENSG00000049540
+  control_500: source_genes011
+  housekeeping_3: source_genes011
+  neutral_7: source_genes011
+  positive_control_adaptive_71: source_genes011
+  positive_control_degenerate_30: source_perturbation_genes
+hypothesis_id: HYP-20261011-01
+kind: difference_direction_confirmation
+model:
+  directory: models/Geneformer/Geneformer-V2-316M
+  emb_layer: -1
+  num_classes: 0
+  type: Pretrained
+  version: V2
+note: 主判定（P-1）は A1 で行う（差の向きは一度も計算していない）。候補 8 個の固有性（P-2・P-3）は A2 で探索。 摂動の設定は A1 の新規 30 個だけ。A1 の既存 626 は保存済み埋め込みの再射影（GPU
+  0 時間）で、 標準化プール（549）は既存のまま。追加の摂動は A1 の既存埋め込みと同じ機体（GB10/CUDA）・同じ数値型（bfloat16）で回す。 評価（evaluate_014.py）は保存済み埋め込みの読み出しと射影だけで、CPU/fp32
+  で行う。
+output:
+  experiment_dir: experiments/EXP-20261011-001
+  results_dir: results-seed83
+perturbation:
+  anchor_gene: null
+  combos: 0
+  controls_only: false
+  emb_mode: cls
+  forward_batch_size: 8
+  genes_to_perturb:
+  - ENSG00000085662
+  - ENSG00000135931
+  - ENSG00000130724
+  - ENSG00000103811
+  - ENSG00000205795
+  - ENSG00000169738
+  - ENSG00000125868
+  - ENSG00000125971
+  - ENSG00000173812
+  - ENSG00000156976
+  - ENSG00000127951
+  - ENSG00000206503
+  - ENSG00000004776
+  - ENSG00000142798
+  - ENSG00000115461
+  - ENSG00000130522
+  - ENSG00000169223
+  - ENSG00000140545
+  - ENSG00000111341
+  - ENSG00000133392
+  - ENSG00000151366
+  - ENSG00000110717
+  - ENSG00000138735
+  - ENSG00000123349
+  - ENSG00000100911
+  - ENSG00000063177
+  - ENSG00000124614
+  - ENSG00000163191
+  - ENSG00000109610
+  - ENSG00000006327
+  nproc: 1
+  perturb_rank_shift: null
+  perturb_type: overexpress
+robustness:
+  emb_layers:
+  - -1
+  seeds:
+  - 83
+  subsample_frac: 1.0
+state_embs:
+  max_cells_per_donor: 60
+  max_cells_per_state: 950
+  rows_file: experiments/EXP-20261004-001/work/state_rows-seed{seed}.json
+states:
+  alt_states:
+  - dFIB
+  - dMFIB
+  goal_state: aStr
+  start_state: FIB_MFIB
+stats:
+  fdr_threshold: 0.05
+  mode: goal_state_shift

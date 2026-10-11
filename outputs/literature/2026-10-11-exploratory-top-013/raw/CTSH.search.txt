@@ -1,0 +1,16 @@
+== kidney_fib (count=3)
+  36465937 | 2022 | Front Med (Lausanne) | Proteomic analysis of urinary extracellular vesicles of kidney transplant recipients with BKV viruria and viremia: A pilot study.
+  34716619 | 2021 Dec | J Clin Lab Anal | A five-gene methylation signature predicts overall survival of patients with clear cell renal cell carcinoma.
+  17500053 | 2007 Jul 27 | J Biol Chem | Cathespin H is an Fgf10 target involved in Bmp4 degradation during lung branching morphogenesis.
+== senescence (count=10)
+  42327006 | 2026 Dec | Regen Ther | Long-term expandable auricular chondrocytes reveal a conserved nine-gene decline module underlying senescence-independent dedifferentiation.
+  41315858 | 2026 Jan | Nat Rev Neurol | Microglial phagocytosis in Alzheimer disease.
+  40820167 | 2025 Aug 18 | Sci Rep | Integration of multi-omics quantitative trait loci evidence reveals novel susceptibility genes for Alzheimer's disease.
+  40385406 | 2025 May 6 | medRxiv | Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain.
+  39761376 | 2025 Apr 1 | Diabetes | Integrative Proteogenomic Analyses Provide Novel Interpretations of Type 1 Diabetes Risk Loci Through Circulating Proteins.
+  38872630 | 2024 | Front Aging Neurosci | Cathepsin-mediated regulation of alpha-synuclein in Parkinson's disease: a Mendelian randomization study.
+  38527854 | 2024 Oct 3 | Brain | Connecting dementia risk loci to the CSF proteome identifies pathophysiological leads for dementia.
+  34381170 | 2021 Oct | Mol Psychiatry | Identification of novel drug targets for Alzheimer's disease by integrating genetics and proteomes from brain and blood.
+  35349426 | 2021 Jan-Feb | J Cosmet Sci | Identifi cation of the Underlying Genetic Factors of Skin Aging in a Korean Population Study.
+  28157489 | 2017 Apr | Am J Pathol | Cathepsin H-Mediated Degradation of HDAC4 for Matrix Metalloproteinase Expression in Hepatic Stellate Cells: Implications of Epigenetic Suppression of Matrix Metalloprote
+== tls_lymphoid (count=0)

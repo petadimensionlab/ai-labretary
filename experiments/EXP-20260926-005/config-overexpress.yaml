@@ -1,0 +1,137 @@
+# EXP-20260926-005 run O — FT CellClassifier での ISP（overexpress 型の新しい陽性対照）
+# 事前登録（plan.md §6）。細胞・seed・重心・モデルは EXP-20260926-003 phase 3 と同一。
+# 違うのは perturb_type（overexpress）と回す遺伝子: 文献で因果が確立した保護／同一性因子 6 遺伝子 + 方向対照 2 + HK 3 + パネル 7 + 発現頻度マッチ null 20
+# overexpress は「その遺伝子を発現している細胞で rank 最上位へ移動」（select_cells は発現細胞だけを選ぶ）。null も同じ規則・同じ perturb_type
+experiment_id: EXP-20260926-005
+hypothesis_id: HYP-20260926-04      # 方法仮説（proposed）。PI は 2026-09-26 に「全て実行」を指示（G1 は Labretary が記録）
+
+model:
+  version: V2
+  directory: experiments/EXP-20260926-003/models/ft-main/final   # FT 済み 2 クラス分類器（読み取りのみ）
+  type: CellClassifier
+  num_classes: 2                    # 0 = aPT_CKD, 1 = PT_healthy
+  emb_layer: -1                     # EXP-002/003 と同じ
+
+data:
+  input_h5ad: experiments/EXP-20260926-005/work/input.h5ad        # → EXP-001 の input.h5ad（symlink, 読み取りのみ）
+  tokenized_dataset: experiments/EXP-20260926-005/work/tokenized.dataset  # EXP-001 tokenized のデータ部分の APFS clone（sha256 ba3a14c0… 一致）
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict: {isp_state: isp_state, donor_id: donor_id, TLS_group: TLS_group,
+                          author_cell_type: author_cell_type, disease: disease}
+  filter_data: null
+  max_ncells: null
+
+states:                             # EXP-003 phase 3 と同一
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states: [aPT_CKD_TLSlow]
+
+cell_selection:                     # EXP-003 phase 3 と同一 → 同じ seed で同じ細胞
+  max_cells_per_gene: 200
+  max_cells_per_donor: 25
+  min_cells_per_gene: 100
+  donor_key: donor_id
+
+state_embs:                         # goal 重心は FT に使っていない held-out 健常 9 donor だけ（EXP-003 と同一）
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+  include_donors:
+    PT_healthy: [PRE038, 164-6, PRE027, Sample1162-EO1, Sample1162-EO2, PRE98sc, Sample1153-EO1, Sample1153-EO2, Sample1153-EO3]
+
+perturbation:
+  perturb_type: overexpress
+  perturb_rank_shift: null
+  controls_only: true               # 盲検: 主要対象（TP53/CDKN1A/LTBR）と参照（SPP1/LCN2）は回さない
+  genes_to_perturb: []
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+
+controls:
+  positive:                         # overexpress 型の新しい陽性対照（過剰発現が健常方向を予測。plan.md §5.1, PMID 付き）
+    - ENSG00000101076               # HNF4A     PMID 30046000 / 32764140 / 37488681 / 39954965
+    - ENSG00000109819               # PPARGC1A  PMID 21881206 / 30982966
+    - ENSG00000186951               # PPARA     PMID 23804447
+    - ENSG00000173153               # ESRRA     PMID 33301705
+    - ENSG00000110090               # CPT1A     PMID 33465052 / 25419705
+    - ENSG00000116044               # NFE2L2    PMID 19436334 / 27789056
+  negative_random_n: 20
+  negative_sampler:
+    method: freq_matched
+    min_cells: 300
+    ratio_tolerance: 1.5
+    seed_offset: 0
+    ref_genes:                      # null の発現頻度は「回す陽性対照」に合わせる（overexpress 専用の null セット）
+      - ENSG00000101076
+      - ENSG00000109819
+      - ENSG00000186951
+      - ENSG00000173153
+      - ENSG00000110090
+      - ENSG00000116044
+  negative_fixed:
+    - ENSG00000075624               # ACTB
+    - ENSG00000111640               # GAPDH
+    - ENSG00000196262               # PPIA
+  fixed_role: housekeeping
+  extra_fixed:
+    - role: negctrl_panel           # EXP-003 と同一の陰性対照パネル（C3-panel）
+      genes:
+        - ENSG00000090661   # CERS4
+        - ENSG00000147687   # TATDN1
+        - ENSG00000081870   # IFT25
+        - ENSG00000101558   # VAPA
+        - ENSG00000054148   # PHPT1
+        - ENSG00000166295   # ANAPC16
+        - ENSG00000104529   # EEF1D
+    - role: reverse_direction       # 方向対照: 障害マーカーの過剰発現は健常方向への移動を生まないはず（C7, 参考）
+      genes:
+        - ENSG00000162692   # VCAM1
+        - ENSG00000113249   # HAVCR1
+
+capture:
+  embeddings: true
+  classifier_logits: true           # ΔP(PT_healthy) 用
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+analysis:                           # plan.md §6 の事前登録（結果を見る前に確定）
+  primary_metric: a2
+  secondary_metrics: [m_raw, m_d, m_d2, m_c, V2, V2L, dP_goal_a2, dP_goal_raw]
+  length_bins: 5
+  criteria:
+    C1_positive_null_quantile: 0.90
+    C1_min_seeds: 2
+    C1p_min_genes: 2                # 陽性 6 遺伝子中 2 以上（偶然合格率 p ≈ 0.012。plan.md §6.2）
+    C2p_min_wins: 7                 # C1' 合格遺伝子は HK との 9 組（3 HK × 3 seed）中 7 以上で上回る
+    C3_hk_quantile_range: [0.10, 0.90]
+    C3_min_seeds: 2
+    C3_panel_quantile_range: [0.10, 0.90]
+    C3_panel_min_seeds: 2
+    C3_panel_min_genes: 5
+    C6_marker_pct_max: 0.80         # ddet_pct ≤ 0.80 を「マーカー度が低い」とする（work/gene_annotation.json）
+    C7_reverse_quantile_max: 0.50   # 参考（run O のみ）: 障害マーカーの overexpress は null 下位 50%
+    C4_splithalf_min: 0.7
+    C4_seed_fixed_min: 0.7
+    C5_gene_abs_rho_max: 0.3
+    C5_cell_abs_rho_max: 0.2
+  split_half_n: 20
+
+robustness:
+  seeds: [3, 4, 5]                  # EXP-002 案 A / EXP-003 phase 3 と同じ seed
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results-oe
+
+compute:
+  device: mps                       # 実行は spark-c083（isp_remote.sh が LABRETARY_DEVICE=cuda で上書き。device.json に記録）
+  dtype: bf16                       # PI 標準。forward bf16 / コサインは fp32
+  cache_model: true
+  sec_per_cell_gene: 0.129          # GB10 実測（EXP-003 phase 3: 20,400 cell×gene を約 44 分）
+  gpu_hours_estimate: 0.82          # 38 遺伝子 × 200 細胞 × 3 seed = 22,800 cell×gene

@@ -1,0 +1,255 @@
+{
+ "kidney_fib": {
+  "count": "9",
+  "records": [
+   {
+    "pmid": "42202512",
+    "date": "2026 Jun 24",
+    "journal": "Placenta",
+    "title": "Molecular spatial profiling of chronic intervillositis of unknown etiology implies aberrant lipid metabolism.",
+    "authors": [
+     "Kailasam S",
+     "Fayek B",
+     "Bedaiwy MA"
+    ],
+    "doi": "10.1016/j.placenta.2026.05.025"
+   },
+   {
+    "pmid": "39796197",
+    "date": "2025 Jan 2",
+    "journal": "Int J Mol Sci",
+    "title": "Physical Exercise: A Promising Treatment Against Organ Fibrosis.",
+    "authors": [
+     "Ma X",
+     "Liu B",
+     "Jiang Z"
+    ],
+    "doi": "10.3390/ijms26010343"
+   },
+   {
+    "pmid": "35300523",
+    "date": "2022 Apr 19",
+    "journal": "Circulation",
+    "title": "Therapeutic Targets for Heart Failure Identified Using Proteomics and Mendelian Randomization.",
+    "authors": [
+     "Henry A",
+     "Gordillo-Marañón M",
+     "Finan C"
+    ],
+    "doi": "10.1161/CIRCULATIONAHA.121.056663"
+   },
+   {
+    "pmid": "33290282",
+    "date": "2021 Feb 1",
+    "journal": "J Clin Invest",
+    "title": "Biomarkers of inflammation and repair in kidney disease progression.",
+    "authors": [
+     "Puthumana J",
+     "Thiessen-Philbrook H",
+     "Xu L"
+    ],
+    "doi": "10.1172/JCI139927"
+   },
+   {
+    "pmid": "32723374",
+    "date": "2020 Jul 28",
+    "journal": "BMC Nephrol",
+    "title": "Mannitol and renal graft injury in patients undergoing deceased donor renal transplantation - a randomized controlled clinical trial.",
+    "authors": [
+     "Reiterer C",
+     "Hu K",
+     "Sljivic S"
+    ],
+    "doi": "10.1186/s12882-020-01961-z"
+   },
+   {
+    "pmid": "32111704",
+    "date": "2020 Mar 6",
+    "journal": "Clin J Am Soc Nephrol",
+    "title": "Urine Markers of Kidney Tubule Cell Injury and Kidney Function Decline in SPRINT Trial Participants with CKD.",
+    "authors": [
+     "Malhotra R",
+     "Katz R",
+     "Jotwani V"
+    ],
+    "doi": "10.2215/CJN.02780319"
+   },
+   {
+    "pmid": "28679671",
+    "date": "2017 Nov",
+    "journal": "J Am Soc Nephrol",
+    "title": "Breast Regression Protein-39/Chitinase 3-Like 1 Promotes Renal Fibrosis after Kidney Injury via Activation of Myofibroblasts.",
+    "authors": [
+     "Montgomery TA",
+     "Xu L",
+     "Mason S"
+    ],
+    "doi": "10.1681/ASN.2017010110"
+   },
+   {
+    "pmid": "27189318",
+    "date": "2016 Aug 8",
+    "journal": "Clin J Am Soc Nephrol",
+    "title": "Association of Urinary Biomarkers of Inflammation, Injury, and Fibrosis with Renal Function Decline: The ACCORD Trial.",
+    "authors": [
+     "Nadkarni GN",
+     "Rao V",
+     "Ismail-Beigi F"
+    ],
+    "doi": "10.2215/CJN.12051115"
+   },
+   {
+    "pmid": "20201406",
+    "date": "2010 Jan-Feb",
+    "journal": "Tsitol Genet",
+    "title": "Chitinase 3-like protein 2 (CHI3L2, YKL-39) activates phosphorylation of extracellular signal-regulated kinases ERK1/ERK2 in human embryonic kidney (HEK293) and human glioblastoma (U87 MG) cells.",
+    "authors": [
+     "Areshkov PA",
+     "Kavsan VM"
+    ],
+    "doi": ""
+   }
+  ]
+ },
+ "senescence": {
+  "count": "55",
+  "records": [
+   {
+    "pmid": "41938515",
+    "date": "2026",
+    "journal": "Int J Med Sci",
+    "title": "Betulin inhibits inflammatory factors synthesis in osteoarthritis synovial fibroblasts by suppressing the PI3K, Akt, and mTOR pathways and activating miR-5006-5p.",
+    "authors": [
+     "Lee KT",
+     "Tsai CH",
+     "Wang YH"
+    ],
+    "doi": "10.7150/ijms.130493"
+   },
+   {
+    "pmid": "41762671",
+    "date": "2026 Oct 5",
+    "journal": "Brain",
+    "title": "Constitutive neuronal expression and disease-associated upregulation of chitinases in amyotrophic lateral sclerosis.",
+    "authors": [
+     "Gaur N",
+     "Angerer C",
+     "Gunes ZI"
+    ],
+    "doi": "10.1093/brain/awag083"
+   },
+   {
+    "pmid": "41756213",
+    "date": "2026",
+    "journal": "Brain Commun",
+    "title": "Increased cerebrospinal fluid YKL-40 concentration in hip fracture patients with delirium.",
+    "authors": [
+     "Berntsen T",
+     "Blennow K",
+     "Zetterberg H"
+    ],
+    "doi": "10.1093/braincomms/fcag005"
+   },
+   {
+    "pmid": "41739819",
+    "date": "2026",
+    "journal": "PLoS One",
+    "title": "Transcriptomic response of skeletal muscle to acute aerobic versus combined exercise in chronic kidney disease.",
+    "authors": [
+     "Baker LA",
+     "Graham-Brown M",
+     "Wilkinson TJ"
+    ],
+    "doi": "10.1371/journal.pone.0324303"
+   },
+   {
+    "pmid": "41583005",
+    "date": "2025",
+    "journal": "Front Aging Neurosci",
+    "title": "The interplay of homeostasis, inflammation, and oxidative stress in neurodegenerative disorders: the role of biological markers, antioxidants, lithium, and TMS - a proposed framework for preventing neurodegenerative disorders through biomarkers and multimodal therapies.",
+    "authors": [
+     "Lado L",
+     "Misir A"
+    ],
+    "doi": "10.3389/fnagi.2025.1607669"
+   },
+   {
+    "pmid": "41425914",
+    "date": "2025",
+    "journal": "Front Aging Neurosci",
+    "title": "Peripheral CHI3L1 expression is associated with APOE ε4 status in early-onset Alzheimer's disease.",
+    "authors": [
+     "Steinmaurer A",
+     "Breit L",
+     "Stögmann E"
+    ],
+    "doi": "10.3389/fnagi.2025.1730319"
+   },
+   {
+    "pmid": "41324815",
+    "date": "2025 Dec 1",
+    "journal": "Mol Neurobiol",
+    "title": "Sex-Specific Molecular Architecture of Microglia-Mediated Neuronal Pruning Across the Human Lifespan.",
+    "authors": [
+     "Sanfilippo C",
+     "Castrogiovanni P",
+     "Imbesi R"
+    ],
+    "doi": "10.1007/s12035-025-05547-4"
+   },
+   {
+    "pmid": "41282856",
+    "date": "2025 Oct 24",
+    "journal": "medRxiv",
+    "title": "Plasma proteomic signatures of preclinical Alzheimer's disease biomarkers and memory in clinically unimpaired older adults.",
+    "authors": [
+     "Trelle AN",
+     "Cody KA",
+     "Nguyen TT"
+    ],
+    "doi": "10.1101/2025.10.22.25338569"
+   },
+   {
+    "pmid": "41107120",
+    "date": "2025 Dec",
+    "journal": "Ann Rheum Dis",
+    "title": "Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.",
+    "authors": [
+     "Xu H",
+     "Liu Z",
+     "Zhou X"
+    ],
+    "doi": "10.1016/j.ard.2025.09.003"
+   },
+   {
+    "pmid": "40842648",
+    "date": "2025",
+    "journal": "Front Aging Neurosci",
+    "title": "Neuroinflammation-mediated YKL-40 correlates with tau pathology and predicts longitudinal cognitive impairment and brain atrophy in Alzheimer's disease, with hypertensive dependency.",
+    "authors": [
+     "Wang YY",
+     "Zhang M",
+     "Chen SJ"
+    ],
+    "doi": "10.3389/fnagi.2025.1630022"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "39397494",
+    "date": "2024 Jan-Dec",
+    "journal": "Gut Microbes",
+    "title": "ChiA: a major player in the virulence of Crohn's disease-associated adherent and invasive Escherichia coli (AIEC).",
+    "authors": [
+     "Fargeas M",
+     "Faure F",
+     "Douadi C"
+    ],
+    "doi": "10.1080/19490976.2024.2412667"
+   }
+  ]
+ }
+}

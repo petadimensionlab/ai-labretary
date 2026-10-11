@@ -1,0 +1,185 @@
+dataset,donor,disease,n_fib
+A1,163-5,normal,15
+A1,163-6,normal,72
+A1,164-1,normal,19
+A1,164-10,normal,70
+A1,164-3,normal,41
+A1,164-5,normal,45
+A1,164-6,normal,40
+A1,164-7,normal,40
+A1,164-8,normal,9
+A1,165-10,normal,346
+A1,165-7,normal,53
+A1,165-9,normal,181
+A1,18-142,normal,153
+A1,18-162,normal,323
+A1,18-312,normal,484
+A1,27-10039,chronic kidney disease,192
+A1,27-10041,chronic kidney disease,307
+A1,27-10043,chronic kidney disease,250
+A1,27-10074,chronic kidney disease,310
+A1,27-10088,chronic kidney disease,45
+A1,27-10089,chronic kidney disease,168
+A1,27-10094,chronic kidney disease,96
+A1,27-10104,chronic kidney disease,20
+A1,28-10051,chronic kidney disease,162
+A1,28-10109,chronic kidney disease,1040
+A1,28-12178,chronic kidney disease,13
+A1,29-10006,chronic kidney disease,14
+A1,29-10008,chronic kidney disease,117
+A1,29-10010,chronic kidney disease,2
+A1,29-10011,chronic kidney disease,191
+A1,29-10012,chronic kidney disease,260
+A1,29-10013,chronic kidney disease,85
+A1,29-10016,chronic kidney disease,192
+A1,29-10276,chronic kidney disease,202
+A1,29-10277,chronic kidney disease,306
+A1,29-10280,chronic kidney disease,169
+A1,29-10380,chronic kidney disease,132
+A1,29-10393,chronic kidney disease,322
+A1,29-10400,chronic kidney disease,173
+A1,29-10401,chronic kidney disease,1
+A1,29-10406,chronic kidney disease,263
+A1,30-10018,acute kidney injury,59
+A1,30-10034,acute kidney injury,859
+A1,30-10044,acute kidney injury,170
+A1,30-10631,acute kidney injury,388
+A1,30-10929,acute kidney injury,117
+A1,31-10000,chronic kidney disease,213
+A1,31-10001,chronic kidney disease,328
+A1,31-10006,chronic kidney disease,412
+A1,31-10013,chronic kidney disease,182
+A1,31-10035,chronic kidney disease,151
+A1,31-10061,chronic kidney disease,247
+A1,31-10063,chronic kidney disease,594
+A1,31-10081,chronic kidney disease,35
+A1,31-10091,chronic kidney disease,22
+A1,31-10105,chronic kidney disease,35
+A1,31-10177,chronic kidney disease,63
+A1,31-10210,chronic kidney disease,221
+A1,32-10003,acute kidney injury,406
+A1,32-10034,acute kidney injury,420
+A1,32-10205,acute kidney injury,236
+A1,32-10333,acute kidney injury,23
+A1,32-2,acute kidney injury,57
+A1,33-10005,acute kidney injury,271
+A1,33-10006,acute kidney injury,125
+A1,34-10050,acute kidney injury,23
+A1,34-10184,acute kidney injury,400
+A1,34-10187,acute kidney injury,99
+A1,34-10209,acute kidney injury,255
+A1,3490,normal,224
+A1,3499,normal,125
+A1,3504,normal,171
+A1,3535,normal,872
+A1,3593,normal,1857
+A1,3613,normal,1558
+A1,KRP446,normal,70
+A1,KRP460,normal,737
+A1,KRP461,normal,4
+A1,KRP462,normal,97
+A2,163-2,normal,803
+A2,163-3,normal,2
+A2,163-4,normal,92
+A2,163-5,normal,115
+A2,27-10041,chronic kidney disease,2
+A2,27-10053,chronic kidney disease,3
+A2,27-10071,chronic kidney disease,1
+A2,27-10112,chronic kidney disease,4
+A2,27-10119,chronic kidney disease,5
+A2,28-11515,chronic kidney disease,1
+A2,28-12263,chronic kidney disease,114
+A2,28-12381,chronic kidney disease,7
+A2,28-12490,chronic kidney disease,6
+A2,28-12518,chronic kidney disease,5
+A2,29-10006,chronic kidney disease,13
+A2,29-10008,chronic kidney disease,2
+A2,29-10011,chronic kidney disease,4
+A2,29-10012,chronic kidney disease,8
+A2,29-10013,chronic kidney disease,1
+A2,29-10016,chronic kidney disease,1
+A2,29-10280,chronic kidney disease,2
+A2,29-10380,chronic kidney disease,7
+A2,29-10386,chronic kidney disease,1
+A2,29-10398,chronic kidney disease,6
+A2,29-10400,chronic kidney disease,4
+A2,29-10404,chronic kidney disease,2
+A2,29-10406,chronic kidney disease,9
+A2,29-10410,chronic kidney disease,3
+A2,30-10018,acute kidney injury,6
+A2,30-10123,acute kidney injury,2
+A2,30-10125,acute kidney injury,22
+A2,30-10929,acute kidney injury,3
+A2,30-11051,acute kidney injury,2
+A2,31-10001,chronic kidney disease,2
+A2,31-10013,chronic kidney disease,7
+A2,31-10035,chronic kidney disease,1
+A2,31-10040,chronic kidney disease,12
+A2,31-10042,chronic kidney disease,1
+A2,31-10078,chronic kidney disease,12
+A2,31-10154,chronic kidney disease,3
+A2,31-10210,chronic kidney disease,6
+A2,31-10236,chronic kidney disease,9
+A2,32-10003,acute kidney injury,11
+A2,32-10034,acute kidney injury,14
+A2,32-10074,acute kidney injury,3
+A2,33-10005,acute kidney injury,1
+A2,33-10006,acute kidney injury,2
+A2,34-10050,acute kidney injury,3
+A2,34-10184,acute kidney injury,7
+A2,34-10187,acute kidney injury,10
+A2,PRE018-1,normal,25
+A2,PRE019,normal,1
+A2,PRE055-1,normal,5
+A2,PRE062-1,normal,29
+A2,Sample1153-EO3,normal,5
+A2,Sample1157-EO3,normal,1
+A2,Sample1158-EO3,normal,2
+A2,Sample1162-EO2,normal,1
+A3,PD43824,Fat,16
+A3,PD43824,Normal kidney,7
+A3,PD43824,Tumour,61
+A3,PD43824,Tumour-normal,6
+A3,PD43948,Metastasis,24
+A3,PD43948,Normal adrenal,19
+A3,PD43948,Normal kidney,2
+A3,PD43948,Tumour,44
+A3,PD43948,Tumour-normal,22
+A3,PD44714,Blood,1
+A3,PD44966,Tumour,6
+A3,PD44967,Tumour,32
+A3,PD45814,Fat,328
+A3,PD45814,Normal kidney,2
+A3,PD45814,Tumour,11
+A3,PD45814,Tumour-normal,2
+A3,PD45815,Normal adrenal,51
+A3,PD45815,Normal kidney,14
+A3,PD45815,Tumour,72
+A3,PD45815,Tumour-normal,31
+A3,PD45816,Normal adrenal,70
+A3,PD45816,Normal kidney,138
+A3,PD45816,Thrombus,203
+A3,PD45816,Tumour,299
+A3,PD45816,Tumour-normal,160
+A3,PD47171,Fat,29
+A3,PD47171,Tumour,1
+A3,PD47171,Tumour-normal,2
+A3,PD47172,Normal kidney,24
+A3,PD47172,Tumour,1745
+A3,PD47172,Tumour-normal,139
+A3,PD47465,Tumour,6
+A3,PD47512,Fat,14
+A3,PD47512,Tumour,1
+A4,Ipi/Nivo complete response,Normal,60
+A4,Ipi/Nivo complete response,Tumor,15
+A4,Ipi/Nivo mixed response,Normal,7
+A4,Ipi/Nivo mixed response,Tumor,123
+A4,Ipi/Nivo resistant,LymphNode,81
+A4,Ipi/Nivo resistant,Normal,72
+A4,Ipi/Nivo resistant,Tumor,851
+A4,Nivo-exposed,Normal,51
+A4,Nivo-exposed,Tumor,442
+A4,Untreated 1,Normal,40
+A4,Untreated 1,Tumor,1173
+A4,Untreated 2,Normal,5
+A4,Untreated 2,Tumor,156

@@ -1,0 +1,27 @@
+== CA12 / ca12_fib (count=17)
+  42694344 | 2026 Sep | JOR Spine | My Love Story With HIFs in the Disc: A Journey to the Humboldt Research Award.
+  42591023 | 2026 Aug | Pediatr Pulmonol | Human Nasal and Bronchial Epithelium in Cystic Fibrosis: Differences in Expression of Airway pH Regulatory Proteins.
+  41851891 | 2026 Mar 18 | Cell Commun Signal | Loss of CA12 drive proliferation and fibrosis in type i congenital pulmonary airway malformation via promoting abnormal activation of SHH signaling.
+  41565266 | 2026 Oct 8 | Tohoku J Exp Med | From Carbonic Anhydrase 12 to TGFβ1/Smad Pathway: A Key Mechanism for Isoorientin in Pulmonary Fibrosis Therapy.
+  39706310 | 2025 Jan | Genomics | Single-cell RNA sequencing reveals the heterogeneity of myofibroblasts in wound repair.
+  39397452 | 2024 Oct 18 | Beijing Da Xue Xue Bao Yi Xue Ban | [Detection of pathogenic gene mutations in thirteen cases of congenital bilateral absence of vas deferens infertility patients].
+  37266145 | 2023 | Front Pharmacol | Therapeutic mechanism of baicalein in peritoneal dialysis-associated peritoneal fibrosis based on network pharmacology and experimental validation.
+  34673937 | 2022 Jan 13 | Biol Reprod | Genetic mutation analysis of 22 patients with congenital absence of vas deferens: a single-center study†.
+== CA12 / ca12_rcc (count=14)
+  41554613 | 2026 Feb 12 | J Med Chem | Targeting Metabolic and pH Regulatory Pathways in Cancer via Dual Inhibition of Nicotinamide Phosphoribosyltransferase and Carbonic Anhydrases IX and XII.
+  40569831 | 2025 Sep | Mol Oncol | Targeting carbonic anhydrase IX/XII prevents the anti-ferroptotic effect of stromal lactic acid in prostate carcinoma.
+  33321910 | 2020 Dec 10 | Int J Mol Sci | Inhibitory Monoclonal Antibodies and Their Recombinant Derivatives Targeting Surface-Exposed Carbonic Anhydrase XII on Cancer Cells.
+  31003041 | 2019 Jun | Bioorg Chem | Synthesis, biological activity and multiscale molecular modeling studies of bis-coumarins as selective carbonic anhydrase IX and XII inhibitors with effective cytotoxicit
+  24146380 | 2014 | Subcell Biochem | Carbonic anhydrase expression in kidney and renal cancer: implications for diagnosis and treatment.
+  20936840 | 2010 Nov 1 | Anal Chem | Immunoaffinity enrichment and liquid chromatography-selected reaction monitoring mass spectrometry for quantitation of carbonic anhydrase 12 in cultured renal carcinoma c
+  15821467 | 2005 May | J Urol | Using tumor markers to predict the survival of patients with metastatic renal cell carcinoma.
+  15711252 | 2005 Mar | J Urol | p53 is an independent predictor of tumor recurrence and progression after nephrectomy in patients with localized renal cell carcinoma.
+== CA12 / ca12_renal (count=38)
+  42768898 | 2026 Sep | Arch Pharm (Weinheim) | Multitargeted Anticancer Activities: Cathepsin B-Carbonic Anhydrase IX/XII Inhibitors Show Enhanced Cytotoxicity Against Lung Adenocarcinoma Cells.
+  41554613 | 2026 Feb 12 | J Med Chem | Targeting Metabolic and pH Regulatory Pathways in Cancer via Dual Inhibition of Nicotinamide Phosphoribosyltransferase and Carbonic Anhydrases IX and XII.
+  40569831 | 2025 Sep | Mol Oncol | Targeting carbonic anhydrase IX/XII prevents the anti-ferroptotic effect of stromal lactic acid in prostate carcinoma.
+  40492425 | 2025 Jun | Drug Dev Res | Oxindole-Coumarin Hybrids With Broad-Spectrum Anticancer Activity: Apoptosis Induction and Selective CA IX/XII Targeting.
+  39197616 | 2024 Nov | Int J Biol Macromol | Discovery of new sulfonamide-tethered 2-aryl-4-anilinoquinazolines as the first-in-class dual carbonic anhydrase and EGFR inhibitors.
+  37665396 | 2023 Sep 4 | EJNMMI Res | First clinical experience with fractionated intracavitary radioimmunotherapy using [(177)Lu]Lu-6A10-Fab fragments in patients with glioblastoma: a pilot study.
+  37266145 | 2023 | Front Pharmacol | Therapeutic mechanism of baicalein in peritoneal dialysis-associated peritoneal fibrosis based on network pharmacology and experimental validation.
+  36385130 | 2022 Nov 16 | Sci Rep | Plasma proteomic characterization of the development of acute kidney injury in early sepsis patients.

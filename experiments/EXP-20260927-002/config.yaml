@@ -1,0 +1,158 @@
+# EXP-20260927-002 — HYP-20260925-02 の事前チェック（状態の識別可能性）
+# すべてのパラメータをここに書く。スクリプトにハードコードしない。
+# 本 EXP で実行してよいのは `run_isp.py --config work/config-seed{S}.yaml --precheck` だけ。
+# 摂動（ISP）は G1（仮説採択）と G2（計画承認）の後、別の plan.md を事前登録してから行う。
+# fib_tls_state は「推定ラベル」（plan.md §2.2）。TLS_group も donor 単位の推定（feasibility の定義をそのまま使う）。
+experiment_id: EXP-20260927-002
+hypothesis_id: HYP-20260925-02
+
+prepare:                            # scripts/geneformer/prepare_h5ad.py
+  sources:
+    - {path: data/raw/kidney_tls/A1_KPMP_v1.5_snRNA_Lake2023.h5ad}   # 読み取り専用。raw.X（整数カウント）を使う
+  obs_keep: [subclass.l2, subclass.l1, disease, disease_category, donor_id, region,
+             nFeature_RNA, nCount_RNA, Age_binned, eGFR]
+  filter:
+    subclass.l2: [FIB, aFIB, dFIB, M-FIB, dM-FIB, MYOF, cycMYOF]     # 線維芽細胞系 21,769 細胞
+  donor_maps:                       # donor → 推定 TLS 群（再定義しない）
+    - {path: outputs/literature/2026-09-25-tls-feasibility/donor_A1.csv, key: donor_id, csv_key: sample,
+       column: TLS_group, as: TLS_group}
+  state_key: null                   # 状態は遺伝子検出で決めるので prepare では付けない（label セクション参照）
+  max_cells_per_state: null
+  max_cells_per_donor: null
+  donor_key: donor_id
+  seed: 0
+  output: experiments/EXP-20260927-002/work/input_fib.h5ad
+
+label:                              # analysis/label_fib_states.py（遺伝子検出による推定ラベル。tokenize 前に生カウントを再確認する）
+  input_h5ad: experiments/EXP-20260927-002/work/input_fib.h5ad
+  output_h5ad: experiments/EXP-20260927-002/work/input.h5ad
+  state_key: fib_tls_state
+  organizer_genes:                  # CCL19, CCL21, CXCL13
+    - ENSG00000172724
+    - ENSG00000137077
+    - ENSG00000156234
+  min_counts: 1                     # いずれか 1 カウント以上で goal（HYP-20260925-02 の定義）
+  goal:  {label: FIB_org,           rule: any_ge_min}
+  start: {label: FIB_neg_TLShigh,   rule: all_zero, where: {TLS_group: [high],
+          disease: [acute kidney injury, chronic kidney disease]}}
+  alt:   {label: FIB_neg_TLSlow,    rule: all_zero, where: {TLS_group: [low]}}
+  drop_unlabeled: true
+  rename_obs: {subclass.l2: subclass_l2, subclass.l1: subclass_l1}   # tokenizer の属性名にドットを入れない
+  add_n_genes: n_genes              # 検出遺伝子数（生カウント > 0 の数）を obs に追加
+
+model:
+  version: V2
+  directory: models/Geneformer/Geneformer-V2-316M
+  type: Pretrained                  # 事前学習モデル。理由は plan.md §3
+  num_classes: 0
+  emb_layer: -1
+
+data:
+  input_h5ad: experiments/EXP-20260927-002/work/input.h5ad
+  tokenized_dataset: experiments/EXP-20260927-002/work/tokenized.dataset   # 本 EXP の work/ のみ。他 EXP の dataset は指さない
+  cell_type_col: subclass_l2
+  state_key: fib_tls_state
+  custom_attr_name_dict: {fib_tls_state: fib_tls_state, donor_id: donor_id, subclass_l2: subclass_l2,
+                          disease: disease, region: region, TLS_group: TLS_group,
+                          n_genes: n_genes, n_counts: n_counts}
+  filter_data: null
+  max_ncells: null
+
+states:
+  start_state: FIB_neg_TLShigh
+  goal_state: FIB_org
+  alt_states: [FIB_neg_TLSlow]
+
+state_embs:                         # 状態ごとの細胞抽出（precheck もこの細胞を使う）
+  max_cells_per_state: 800
+  max_cells_per_donor: 60           # 1 donor が識別を支配しないようにする
+
+cell_selection:                     # donor 列の指定に使う（ISP の細胞抽出は本 EXP では行わない）
+  donor_key: donor_id
+  max_cells_per_gene: 100
+  max_cells_per_donor: 15
+  min_cells_per_gene: 30
+
+precheck:                           # run_isp.py --precheck
+  seed: 0                           # work/config-seed{S}.yaml で 0/1/2 に差し替える
+  folds: 5                          # GroupKFold(group = donor_id)。層化分割は参考値（判定に使わない）
+  C: 1.0
+  emb_layer: -1
+  min_auc_goal: 0.65                # start vs goal（マッチ前の参考閾値。主判定は analysis/precheck_ci.py）
+  min_auc_alt: 0.60                 # start vs alt（参考）
+
+criteria:                           # 事前登録した判定（analysis/precheck_ci.py が機械的に当てはめる）
+  primary_set: depth_matched        # 主判定は深さマッチ後の集合
+  depth_match:
+    feature: length                 # tokenize 後のトークン長（入力に載った遺伝子数）
+    log_tolerance: 0.10             # |Δlog| ≤ 0.10 の最近傍 1:1、置換なし
+  C1_min_auc: 0.65                  # 3 seed 平均。個別にも 2/3 seed 以上で ≥ 0.65
+  C1_min_seeds_passing: 2
+  C1b_min_ci_lower: 0.55            # donor ブートストラップ 95% CI 下限（3 seed の中央値）
+  C1c_max_p: 0.05                   # donor 内ラベル並べ替え検定
+  C2_max_depth_auc: 0.60            # 深さのみの AUC
+  C2_min_margin: 0.05               # C1 の AUC − 深さのみの AUC
+  C3_positive_control: {a: FIB, b: M-FIB, min_auc: 0.90}   # 埋め込み抽出の陽性対照（追加 forward なし）
+  bootstrap_n: 2000
+  bootstrap_seed: 0
+  permutations: 200
+  permutation_seed: 0
+  sensitivity:                      # 参考値のみ。判定には使わない
+    cortex_only: {region: [C]}
+    disease_matched: {disease: [acute kidney injury, chronic kidney disease]}
+    subclass_fib_only: {subclass_l2: [FIB]}
+    within_start_donors: true       # start と同じ donor の goal 細胞のみ
+
+# --- 以下は ISP 用。本 EXP では実行しない（G1・G2 の後に別 plan で事前登録する） ---
+perturbation:
+  perturb_type: overexpress
+  perturb_rank_shift: null
+  genes_to_perturb:
+    - ENSG00000111321               # LTBR
+    - ENSG00000104856               # RELB
+    - ENSG00000077150               # NFKB2
+    - ENSG00000124762               # CDKN1A
+    - ENSG00000172724               # CCL19（健全性チェック。goal ラベル定義遺伝子）
+    - ENSG00000156234               # CXCL13（同上）
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls                     # V2 必須（guardrails 2026-09-25）。precheck の埋め込みもこれに連動する
+  forward_batch_size: 8             # MPS の実測最適値
+  nproc: 1                          # MPS + モデル使用プロセスでは 1（guardrails 2026-09-26）
+
+controls:                           # ISP 用（本 EXP では未使用）
+  positive:
+    - ENSG00000172724               # CCL19
+    - ENSG00000156234               # CXCL13
+  negative_random_n: 20
+  negative_sampler:
+    method: freq_matched
+    min_cells: 300
+    match_to: targets
+    ratio_tolerance: 1.5
+    seed_offset: 0
+  negative_fixed:
+    - ENSG00000075624               # ACTB
+    - ENSG00000111640               # GAPDH
+    - ENSG00000196262               # PPIA
+  fixed_role: housekeeping
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+robustness:
+  seeds: [0, 1, 2]                  # precheck は seed ごとに細胞抽出をやり直す
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results-precheck     # seed ごとに results-precheck/seed{S}/ へ
+  experiment_dir: experiments/EXP-20260927-002
+
+compute:
+  device: mps
+  dtype: bf16                       # PI 方針（bf16 標準, 2026-09-26）。コサインは fp32（apply_dtype）。plan.md §3
+  cache_model: true
+  sec_per_cell_gene: null
+  gpu_hours_estimate: 1.1           # plan.md §8 の上限見積もり（G2 不要の根拠）

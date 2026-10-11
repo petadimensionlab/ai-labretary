@@ -1,0 +1,15 @@
+== kidney_fib (count=0)
+== senescence (count=85)
+  42795268 | 2026 Aug 25 | Life (Basel) | Differential Modulation of Extracellular Matrix- and Longevity-Related Gene Expression by Calcium Hydroxylapatite Formulations.
+  42653901 | 2026 Aug 13 | Molecules | Silk Fibroin Peptides Promote Extracellular Matrix Homeostasis in Photoaging via Modulation of the ITGB1/FAK-TGF-β/Smad Signaling Axis.
+  42247333 | 2026 Jun 2 | J Wound Care | Comparative effects of hyaluronic acid-amino acid and polynucleotide mixtures on extracellular matrix gene expression in human dermal fibroblasts.
+  42120407 | 2026 May 12 | NPJ Parkinsons Dis | Preformed fibrils of α-synuclein rapidly activate LRRK2 on early endosomes, driving Rab5 phosphorylation and disrupting endolysosomal and synaptic function.
+  42067346 | 2026 Jul 1 | Carbohydr Polym | Enhanced biodistribution and efficacy of nicomenthyl encapsulated in emulsions stabilized by methacrylated hyaluronic acid for the prevention and treatment of skin photoa
+  41881670 | 2026 Apr | J Cosmet Dermatol | BIO3 Protocol: Clinical and In Vitro Evidence of Triple Biostimulation With CaHA and P (LA/CL) Threads.
+  41735646 | 2026 Mar | Nat Aging | Identification of distinct and shared biomarker panels in different manifestations of cerebral small-vessel disease through proteomic profiling.
+  41669823 | 2026 Feb | J Cosmet Dermatol | Calcium Hydroxyapatite and Polymicronutrient Solution on Hand Rejuvenation: A Split-Hand, Randomized, Double-Blind Clinical and In Vitro Study.
+  41596652 | 2026 Jan 20 | Int J Mol Sci | Anti-Photoaging Effect of Soluble Microneedles Loaded with Hydroxytyrosol.
+  41516097 | 2025 Dec 24 | Int J Mol Sci | Anti-Aging Efficacy of Low-Molecular-Weight Polydeoxyribonucleotide Derived from Paeonia lactiflora.
+== tls_lymphoid (count=2)
+  29167448 | 2017 Nov 22 | Sci Rep | Systematic Screening of Chemokines to Identify Candidates to Model and Create Ectopic Lymph Node Structures for Cancer Immunotherapy.
+  26156866 | 2015 Jul 9 | Arthritis Res Ther | Ectopic lymphoid neogenesis is strongly associated with activation of the IL-23 pathway in rheumatoid synovitis.

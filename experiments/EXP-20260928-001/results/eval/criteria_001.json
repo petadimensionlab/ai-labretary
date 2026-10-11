@@ -1,0 +1,528 @@
+{
+ "seeds": [
+  41,
+  42,
+  43
+ ],
+ "n_genes": 156,
+ "n_nulls": 96,
+ "M1_calibration": {
+  "41": {
+   "n_valid": 96,
+   "frac_hi": 0.11458333333333333,
+   "frac_lo": 0.10416666666666667
+  },
+  "42": {
+   "n_valid": 96,
+   "frac_hi": 0.11458333333333333,
+   "frac_lo": 0.10416666666666667
+  },
+  "43": {
+   "n_valid": 96,
+   "frac_hi": 0.125,
+   "frac_lo": 0.10416666666666667
+  }
+ },
+ "M1_pass": true,
+ "M2_confounding": {
+  "41": {
+   "lp": 0.026844818231144874,
+   "ll": -0.14342202538328652,
+   "relpos": 0.06422951709169832
+  },
+  "42": {
+   "lp": -0.014690721649484538,
+   "ll": -0.10636190992946284,
+   "relpos": 0.05784047748236571
+  },
+  "43": {
+   "lp": 0.013809007053716767,
+   "ll": -0.12334550781917039,
+   "relpos": 0.07520347259902334
+  }
+ },
+ "M2_pass": true,
+ "M3_housekeeping": {
+  "ACTB": [
+   0.275,
+   0.46835443037974683,
+   0.6962025316455697
+  ],
+  "GAPDH": [
+   0.65,
+   0.275,
+   0.4074074074074074
+  ],
+  "PPIA": [
+   0.2857142857142857,
+   0.2619047619047619,
+   0.42168674698795183
+  ]
+ },
+ "M3_panel": {
+  "CERS4": [
+   0.028169014084507043,
+   0.029850746268656716,
+   0.04477611940298507
+  ],
+  "TATDN1": [
+   0.31645569620253167,
+   0.4675324675324675,
+   0.2911392405063291
+  ],
+  "IFT25": [
+   0.8089887640449438,
+   0.8351648351648352,
+   0.7586206896551724
+  ],
+  "VAPA": [
+   0.3103448275862069,
+   0.3218390804597701,
+   0.3563218390804598
+  ],
+  "PHPT1": [
+   0.813953488372093,
+   0.7558139534883721,
+   0.7931034482758621
+  ],
+  "ANAPC16": [
+   0.41379310344827586,
+   0.3333333333333333,
+   0.40229885057471265
+  ],
+  "EEF1D": [
+   0.26506024096385544,
+   0.2823529411764706,
+   0.3373493975903614
+  ]
+ },
+ "M3_pass": true,
+ "M4_rho": {
+  "41": {
+   "uniform": -0.011747151383613673,
+   "placebo": -0.11264243081931632
+  },
+  "42": {
+   "uniform": -0.015002712967986977,
+   "placebo": -0.18132121540965815
+  },
+  "43": {
+   "uniform": -0.015816603364080303,
+   "placebo": -0.1530113944655453
+  }
+ },
+ "M4_pass": true,
+ "metric_pass": true,
+ "set_tests": {
+  "goal_markers@goal": {
+   "label": "goal_markers",
+   "axis": "goal",
+   "k": 24,
+   "set_mean_z": [
+    0.884,
+    1.043,
+    0.903
+   ],
+   "null_percentile": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "null_threshold": [
+    0.415,
+    0.412,
+    0.415
+   ],
+   "pass": true
+  },
+  "goal_markers@myofaxis": {
+   "label": "goal_markers",
+   "axis": "myofaxis",
+   "k": 24,
+   "set_mean_z": [
+    -0.216,
+    -0.201,
+    -0.217
+   ],
+   "null_percentile": [
+    0.11382,
+    0.12956,
+    0.1123
+   ],
+   "null_threshold": [
+    0.405,
+    0.408,
+    0.407
+   ],
+   "pass": false
+  },
+  "myof_markers@goal": {
+   "label": "myof_markers",
+   "axis": "goal",
+   "k": 24,
+   "set_mean_z": [
+    -0.427,
+    -0.475,
+    -0.435
+   ],
+   "null_percentile": [
+    0.00647,
+    0.00291,
+    0.00547
+   ],
+   "null_threshold": [
+    0.415,
+    0.412,
+    0.415
+   ],
+   "pass": false
+  },
+  "myof_markers@myofaxis": {
+   "label": "myof_markers",
+   "axis": "myofaxis",
+   "k": 24,
+   "set_mean_z": [
+    1.841,
+    1.906,
+    1.902
+   ],
+   "null_percentile": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "null_threshold": [
+    0.405,
+    0.408,
+    0.407
+   ],
+   "pass": true
+  },
+  "housekeeping@goal": {
+   "label": "housekeeping",
+   "axis": "goal",
+   "k": 3,
+   "set_mean_z": [
+    -0.234,
+    -0.358,
+    0.013
+   ],
+   "null_percentile": [
+    0.34472,
+    0.26356,
+    0.52585
+   ],
+   "null_threshold": [
+    1.428,
+    1.357,
+    1.464
+   ],
+   "pass": false
+  },
+  "housekeeping@myofaxis": {
+   "label": "housekeeping",
+   "axis": "myofaxis",
+   "k": 3,
+   "set_mean_z": [
+    -0.931,
+    -0.82,
+    -1.001
+   ],
+   "null_percentile": [
+    0.04503,
+    0.06182,
+    0.03669
+   ],
+   "null_threshold": [
+    1.332,
+    1.387,
+    1.346
+   ],
+   "pass": false
+  },
+  "negctrl_panel@goal": {
+   "label": "negctrl_panel",
+   "axis": "goal",
+   "k": 7,
+   "set_mean_z": [
+    -0.322,
+    -0.23,
+    -0.234
+   ],
+   "null_percentile": [
+    0.18765,
+    0.26586,
+    0.26049
+   ],
+   "null_threshold": [
+    0.883,
+    0.854,
+    0.892
+   ],
+   "pass": false
+  },
+  "negctrl_panel@myofaxis": {
+   "label": "negctrl_panel",
+   "axis": "myofaxis",
+   "k": 7,
+   "set_mean_z": [
+    -0.176,
+    -0.242,
+    -0.385
+   ],
+   "null_percentile": [
+    0.3069,
+    0.24746,
+    0.13984
+   ],
+   "null_threshold": [
+    0.836,
+    0.855,
+    0.845
+   ],
+   "pass": false
+  }
+ },
+ "G1_goal_markers_on_goal_axis": true,
+ "G3_myof_markers_on_myof_axis": true,
+ "G2_crossover": {
+  "goal_set: 目標の軸 − 筋線維芽細胞の軸": [
+   1.1,
+   1.244,
+   1.12
+  ],
+  "myof_set: 筋線維芽細胞の軸 − 目標の軸": [
+   2.268,
+   2.381,
+   2.337
+  ],
+  "pass": true
+ },
+ "G4_neutral": {
+  "housekeeping": {
+   "set_mean_z": [
+    -0.234,
+    -0.358,
+    0.013
+   ],
+   "null_percentile": [
+    0.3447,
+    0.2636,
+    0.5259
+   ],
+   "n_seeds_in_range": 3
+  },
+  "negctrl_panel": {
+   "set_mean_z": [
+    -0.322,
+    -0.23,
+    -0.234
+   ],
+   "null_percentile": [
+    0.1876,
+    0.2659,
+    0.2605
+   ],
+   "n_seeds_in_range": 3
+  }
+ },
+ "G4_pass": true,
+ "G5_chance_pass_rate_random_sets": {
+  "n_draw": 200000,
+  "rate": 0.005505,
+  "threshold": [
+   0.415,
+   0.412,
+   0.415
+  ]
+ },
+ "G6_sham_sets": [
+  {
+   "label": "sham_1",
+   "axis": "goal",
+   "k": 24,
+   "set_mean_z": [
+    0.128,
+    0.063,
+    0.113
+   ],
+   "null_percentile": [
+    0.76416,
+    0.63784,
+    0.73799
+   ],
+   "null_threshold": [
+    0.415,
+    0.412,
+    0.415
+   ],
+   "pass": false,
+   "genes": [
+    "UQCR11",
+    "SNX5",
+    "NDUFC1",
+    "FAM120B",
+    "CPNE3",
+    "TOGARAM1",
+    "PLEKHM1",
+    "CCND2",
+    "SPARC",
+    "ABHD14B",
+    "NME7",
+    "FOXP4",
+    "RAB43",
+    "KALRN",
+    "FOXJ3",
+    "LAMB1",
+    "WDR83OS",
+    "HSP90B1",
+    "PLXNB1",
+    "VDAC1",
+    "AP3S1",
+    "TMEM131",
+    "FRMD4A",
+    "SEC62"
+   ]
+  },
+  {
+   "label": "sham_2",
+   "axis": "goal",
+   "k": 24,
+   "set_mean_z": [
+    0.08,
+    0.101,
+    0.104
+   ],
+   "null_percentile": [
+    0.67519,
+    0.71418,
+    0.72055
+   ],
+   "null_threshold": [
+    0.415,
+    0.412,
+    0.415
+   ],
+   "pass": false,
+   "genes": [
+    "DDX5",
+    "MEST",
+    "ARHGAP25",
+    "RCAN2",
+    "OXNAD1",
+    "SMC5",
+    "DDX19A",
+    "TBX18",
+    "XBP1",
+    "RNF149",
+    "ACTR10",
+    "PTCD1",
+    "FBXL19",
+    "TRABD2B",
+    "MGLL",
+    "TPK1",
+    "NDUFB7",
+    "YWHAZ",
+    "PXN",
+    "TTN",
+    "OFD1",
+    "EIF2AK1",
+    "HNRNPA0",
+    "GNB2"
+   ]
+  },
+  {
+   "label": "sham_3",
+   "axis": "goal",
+   "k": 24,
+   "set_mean_z": [
+    0.046,
+    0.076,
+    -0.024
+   ],
+   "null_percentile": [
+    0.60402,
+    0.66504,
+    0.44893
+   ],
+   "null_threshold": [
+    0.415,
+    0.412,
+    0.415
+   ],
+   "pass": false,
+   "genes": [
+    "TPM3",
+    "SSBP4",
+    "TRIO",
+    "VPS41",
+    "CCNY",
+    "USP9X",
+    "PPP1R3E",
+    "SSU72",
+    "BZW1",
+    "FAM168A",
+    "NSD1",
+    "TXNL4B",
+    "ACVR2A",
+    "EPB41L3",
+    "SH3BP5",
+    "BRD3",
+    "ARL6IP1",
+    "VAMP2",
+    "SMC3",
+    "CCT5",
+    "ACACB",
+    "BLCAP",
+    "SSR2",
+    "SP110"
+   ]
+  }
+ ],
+ "G6_pass": true,
+ "descriptive": {
+  "単一遺伝子で 3 seed すべて 2.5 標準偏差以上のマーカー": {
+   "goal_markers": [
+    "CEBPD",
+    "CP",
+    "NAMPT"
+   ],
+   "myof_markers": [],
+   "housekeeping": [],
+   "negctrl_panel": []
+  },
+  "単一遺伝子の偶然合格率（対照 96 に同じ規則）": 0.010416666666666666,
+  "目標マーカーセットの半分ごとのセット平均 z（上位 / 無作為）": {
+   "top": [
+    0.942,
+    1.078,
+    0.858
+   ],
+   "random": [
+    0.825,
+    1.009,
+    0.948
+   ]
+  },
+  "参照 ACTA2 / TAGLN（筋線維芽細胞の軸、標準偏差単位）": {
+   "ACTA2": [
+    6.89,
+    7.44,
+    7.24
+   ],
+   "TAGLN": [
+    3.63,
+    3.94,
+    3.55
+   ]
+  },
+  "偏り（bias）と z の順位相関（目標マーカー 24、目標の軸）": {
+   "41": -0.16351381121485214,
+   "42": -0.11350293810392663,
+   "43": -0.21917808737309968
+  }
+ },
+ "positive_control_established": true,
+ "conclusion_proposal": "目標の軸での陽性対照が確立した（セット単位）",
+ "note": "判定の確定は PI（G3）。本スクリプトは事前登録の規則を当てはめて提案するだけ。本実験は主対象 LTBR/RELB/NFKB2 を回していないので、HYP-20260925-02 の判定には使えない。in silico の結果であり、実験的に確認された生物学的事実ではない。"
+}

@@ -1,0 +1,160 @@
+{
+ "kidney_fib": {
+  "count": "2",
+  "records": [
+   {
+    "pmid": "40596367",
+    "date": "2025 Jul 1",
+    "journal": "Sci Rep",
+    "title": "Regulatory T cells and matrix-producing cancer associated fibroblasts contribute on the immune resistance and progression of prognosis related tumor subtypes in ccRCC.",
+    "authors": [
+     "Zhang C",
+     "Song Y",
+     "Cui X"
+    ],
+    "doi": "10.1038/s41598-025-06051-4"
+   },
+   {
+    "pmid": "37704178",
+    "date": "2023 Nov",
+    "journal": "Immunol Lett",
+    "title": "Single-cell communication patterns and their intracellular information flow in synovial fibroblastic osteoarthritis and rheumatoid arthritis.",
+    "authors": [
+     "Wang J",
+     "Liu C",
+     "Wang T"
+    ],
+    "doi": "10.1016/j.imlet.2023.09.005"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "15",
+  "records": [
+   {
+    "pmid": "42329412",
+    "date": "2026 Sep",
+    "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+    "title": "Integrated bioinformatics, single-cell analysis, and experimental validation identify quercetin as a potential therapeutic candidate for intervertebral disc degeneration.",
+    "authors": [
+     "Zhang F",
+     "Yang Y",
+     "Gou X"
+    ],
+    "doi": "10.1007/s00210-026-05619-9"
+   },
+   {
+    "pmid": "41638874",
+    "date": "2026 Feb",
+    "journal": "J Cachexia Sarcopenia Muscle",
+    "title": "Largely Distinct Post-Translational Modifications Differentiate Skeletal Muscle Wasting Caused by Cancer, Dexamethasone and Aging.",
+    "authors": [
+     "Stephan A",
+     "Graca FA",
+     "Poudel S"
+    ],
+    "doi": "10.1002/jcsm.70220"
+   },
+   {
+    "pmid": "41107120",
+    "date": "2025 Dec",
+    "journal": "Ann Rheum Dis",
+    "title": "Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.",
+    "authors": [
+     "Xu H",
+     "Liu Z",
+     "Zhou X"
+    ],
+    "doi": "10.1016/j.ard.2025.09.003"
+   },
+   {
+    "pmid": "40770761",
+    "date": "2025 Aug 6",
+    "journal": "J Transl Med",
+    "title": "COL6A2 in clear cell renal cell carcinoma: a multifaceted driver of tumor progression, immune evasion, and drug sensitivity.",
+    "authors": [
+     "Yang Y",
+     "Fan R",
+     "Zhang B"
+    ],
+    "doi": "10.1186/s12967-025-06793-9"
+   },
+   {
+    "pmid": "38915286",
+    "date": "2024 Sep 1",
+    "journal": "Am J Physiol Lung Cell Mol Physiol",
+    "title": "The lung extracellular matrix protein landscape in severe early-onset and moderate chronic obstructive pulmonary disease.",
+    "authors": [
+     "Joglekar MM",
+     "Bekker NJ",
+     "Koloko Ngassie ML"
+    ],
+    "doi": "10.1152/ajplung.00332.2023"
+   },
+   {
+    "pmid": "38696318",
+    "date": "2024 Apr 29",
+    "journal": "Aging (Albany NY)",
+    "title": "Human umbilical cord mesenchymal stem cells promote steroid-induced osteonecrosis of the femoral head repair by improving microvascular endothelial cell function.",
+    "authors": [
+     "Chen J",
+     "Jin W",
+     "Zhong C"
+    ],
+    "doi": "10.18632/aging.205794"
+   },
+   {
+    "pmid": "38598053",
+    "date": "2024 Apr 10",
+    "journal": "Acta Neuropathol",
+    "title": "Rare genetic variation in fibronectin 1 (FN1) protects against APOEε4 in Alzheimer's disease.",
+    "authors": [
+     "Bhattarai P",
+     "Gunasekaran TI",
+     "Belloy ME"
+    ],
+    "doi": "10.1007/s00401-024-02721-1"
+   },
+   {
+    "pmid": "38260431",
+    "date": "2024 Jan 2",
+    "journal": "bioRxiv",
+    "title": "Rare genetic variation in Fibronectin 1 ( FN1 ) protects against APOEe4 in Alzheimer's disease.",
+    "authors": [
+     "Bhattarai P",
+     "Gunasekaran TI",
+     "Reyes-Dumeyer D"
+    ],
+    "doi": "10.1101/2024.01.02.573895"
+   },
+   {
+    "pmid": "38095646",
+    "date": "2023 Dec 12",
+    "journal": "Aging (Albany NY)",
+    "title": "Transcriptome research of human amniocytes identifies hub genes associated with developmental dysplasia in down syndrome.",
+    "authors": [
+     "Guo Z",
+     "Xiao H",
+     "Yang W"
+    ],
+    "doi": "10.18632/aging.205291"
+   },
+   {
+    "pmid": "38020574",
+    "date": "2023 Nov",
+    "journal": "ERJ Open Res",
+    "title": "A bronchial gene signature specific for severe COPD that is retained in the nose.",
+    "authors": [
+     "van Nijnatten J",
+     "Faiz A",
+     "Timens W"
+    ],
+    "doi": "10.1183/23120541.00354-2023"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

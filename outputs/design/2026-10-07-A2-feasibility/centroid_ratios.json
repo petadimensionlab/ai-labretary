@@ -1,0 +1,328 @@
+{
+ "n_embedded": 2799,
+ "dim": 1152,
+ "cap_per_donor": 20,
+ "per_seed": {
+  "81": {
+   "n_cells": {
+    "FIB": 173,
+    "MC": 288,
+    "VSMC": 282,
+    "VSMCP": 337,
+    "aStr": 459,
+    "dFIB": 147
+   },
+   "len_median": {
+    "FIB": 875.0,
+    "MC": 1075.5,
+    "VSMC": 826.5,
+    "VSMCP": 1133.0,
+    "aStr": 1175.0,
+    "dFIB": 1249.0
+   },
+   "variants": {
+    "A_dFIB_A1と同じ構成": {
+     "dist_start_to_goal": 0.037161039780154136,
+     "dist_start_to_reference": 0.07494811024286138,
+     "distance_ratio": 0.49582357259893195,
+     "dirlen_goal": 0.03393850979407421,
+     "dirlen_reference": 0.06579536237925816,
+     "direction_ratio": 0.5158191788419003,
+     "cos_start_goal": 0.9993095285612289,
+     "angle_start_goal_deg": 2.129293271722782,
+     "cos_start_reference": 0.9971913903855121,
+     "angle_start_reference_deg": 4.295216098449926
+    },
+    "C_参照=VSMC": {
+     "dist_start_to_goal": 0.037161039780154136,
+     "dist_start_to_reference": 0.13269150984740372,
+     "distance_ratio": 0.2800558967404141,
+     "dirlen_goal": 0.07157345678052787,
+     "dirlen_reference": 0.1315003047393624,
+     "direction_ratio": 0.5442835811094784,
+     "cos_start_goal": 0.9993095285612289,
+     "angle_start_goal_deg": 2.129293271722782,
+     "cos_start_reference": 0.9911964816072081,
+     "angle_start_reference_deg": 7.6082520840615695
+    },
+    "C_参照=MC": {
+     "dist_start_to_goal": 0.037161039780154136,
+     "dist_start_to_reference": 0.07920587987624428,
+     "distance_ratio": 0.46917021612810356,
+     "dirlen_goal": 0.04987808823680683,
+     "dirlen_reference": 0.07846843367386384,
+     "direction_ratio": 0.6356452639811027,
+     "cos_start_goal": 0.9993095285612289,
+     "angle_start_goal_deg": 2.129293271722782,
+     "cos_start_reference": 0.9968632142965151,
+     "angle_start_reference_deg": 4.539349737858055
+    },
+    "C_参照=VSMCP": {
+     "dist_start_to_goal": 0.037161039780154136,
+     "dist_start_to_reference": 0.09139994900796725,
+     "distance_ratio": 0.4065761544015177,
+     "dirlen_goal": 0.047840423571724945,
+     "dirlen_reference": 0.08670906514522958,
+     "direction_ratio": 0.5517349713273544,
+     "cos_start_goal": 0.9993095285612289,
+     "angle_start_goal_deg": 2.129293271722782,
+     "cos_start_reference": 0.9958230246606705,
+     "angle_start_reference_deg": 5.23865588408545
+    },
+    "B_深さをそろえた_参照=dFIB": {
+     "dist_start_to_goal": 0.027834091044043257,
+     "dist_start_to_reference": 0.05804390595574744,
+     "distance_ratio": 0.4795351137337986,
+     "dirlen_goal": 0.0371229429153123,
+     "dirlen_reference": 0.057653115149636176,
+     "direction_ratio": 0.6439017704240491,
+     "cos_start_goal": 0.9996126316878762,
+     "angle_start_goal_deg": 1.5948274283656751,
+     "cos_start_reference": 0.9983154524907003,
+     "angle_start_reference_deg": 3.326137868966333
+    },
+    "D_深さをそろえた_参照=VSMCP": {
+     "dist_start_to_goal": 0.027609755545357644,
+     "dist_start_to_reference": 0.09219831526320812,
+     "distance_ratio": 0.2994605212311874,
+     "dirlen_goal": 0.03453981823743982,
+     "dirlen_reference": 0.08364611225843083,
+     "direction_ratio": 0.412927956899258,
+     "cos_start_goal": 0.999618850699363,
+     "angle_start_goal_deg": 1.5819727161662018,
+     "cos_start_reference": 0.9957497353313133,
+     "angle_start_reference_deg": 5.284447162604526
+    }
+   },
+   "depth_matched_n": {
+    "FIB": 112,
+    "aStr": 112,
+    "dFIB": 112
+   },
+   "depth_matched_len_median": {
+    "FIB": 1020.5,
+    "aStr": 996.5,
+    "dFIB": 1025.0
+   },
+   "depth_matched2_n": {
+    "FIB": 173,
+    "aStr": 173,
+    "VSMCP": 173
+   }
+  },
+  "82": {
+   "n_cells": {
+    "FIB": 173,
+    "MC": 288,
+    "VSMC": 282,
+    "VSMCP": 337,
+    "aStr": 459,
+    "dFIB": 147
+   },
+   "len_median": {
+    "FIB": 899.0,
+    "MC": 1074.5,
+    "VSMC": 823.5,
+    "VSMCP": 1142.0,
+    "aStr": 1166.0,
+    "dFIB": 1347.0
+   },
+   "variants": {
+    "A_dFIB_A1と同じ構成": {
+     "dist_start_to_goal": 0.03732012924835764,
+     "dist_start_to_reference": 0.07764520709343942,
+     "distance_ratio": 0.4806494907463642,
+     "dirlen_goal": 0.03491932162944765,
+     "dirlen_reference": 0.06852991044910636,
+     "direction_ratio": 0.5095486248355808,
+     "cos_start_goal": 0.9993036039764429,
+     "angle_start_goal_deg": 2.138410007411088,
+     "cos_start_reference": 0.9969856109077083,
+     "angle_start_reference_deg": 4.449860944612066
+    },
+    "C_参照=VSMC": {
+     "dist_start_to_goal": 0.03732012924835764,
+     "dist_start_to_reference": 0.13235267041291185,
+     "distance_ratio": 0.28197488673199317,
+     "dirlen_goal": 0.07164586175518242,
+     "dirlen_reference": 0.13124959998178576,
+     "direction_ratio": 0.5458748961149223,
+     "cos_start_goal": 0.9993036039764429,
+     "angle_start_goal_deg": 2.138410007411088,
+     "cos_start_reference": 0.9912413853172855,
+     "angle_start_reference_deg": 7.588795254664198
+    },
+    "C_参照=MC": {
+     "dist_start_to_goal": 0.03732012924835764,
+     "dist_start_to_reference": 0.07804733426720416,
+     "distance_ratio": 0.478173016397816,
+     "dirlen_goal": 0.049234148808630335,
+     "dirlen_reference": 0.07712293539043553,
+     "direction_ratio": 0.6383853072938942,
+     "cos_start_goal": 0.9993036039764429,
+     "angle_start_goal_deg": 2.138410007411088,
+     "cos_start_reference": 0.9969543068068916,
+     "angle_start_reference_deg": 4.472918607455992
+    },
+    "C_参照=VSMCP": {
+     "dist_start_to_goal": 0.03732012924835764,
+     "dist_start_to_reference": 0.09095993945620716,
+     "distance_ratio": 0.4102919314972224,
+     "dirlen_goal": 0.0472075927535185,
+     "dirlen_reference": 0.08596072194702718,
+     "direction_ratio": 0.5491763177909315,
+     "cos_start_goal": 0.9993036039764429,
+     "angle_start_goal_deg": 2.138410007411088,
+     "cos_start_reference": 0.9958631447070614,
+     "angle_start_reference_deg": 5.213418953337793
+    },
+    "B_深さをそろえた_参照=dFIB": {
+     "dist_start_to_goal": 0.027607515138582648,
+     "dist_start_to_reference": 0.059780201904491646,
+     "distance_ratio": 0.46181702736116603,
+     "dirlen_goal": 0.04121352129968242,
+     "dirlen_reference": 0.061702330374390345,
+     "direction_ratio": 0.6679410817972632,
+     "cos_start_goal": 0.9996189125539362,
+     "angle_start_goal_deg": 1.5818443380820946,
+     "cos_start_reference": 0.9982131637301292,
+     "angle_start_reference_deg": 3.425663488396063
+    },
+    "D_深さをそろえた_参照=VSMCP": {
+     "dist_start_to_goal": 0.027524887116457685,
+     "dist_start_to_reference": 0.0918792429903025,
+     "distance_ratio": 0.29957677295363466,
+     "dirlen_goal": 0.037743914388460684,
+     "dirlen_reference": 0.08478051064151734,
+     "direction_ratio": 0.44519564818447016,
+     "cos_start_goal": 0.9996211902946132,
+     "angle_start_goal_deg": 1.5771096513891572,
+     "cos_start_reference": 0.9957791023537642,
+     "angle_start_reference_deg": 5.266146279056156
+    }
+   },
+   "depth_matched_n": {
+    "FIB": 106,
+    "aStr": 106,
+    "dFIB": 106
+   },
+   "depth_matched_len_median": {
+    "FIB": 1017.0,
+    "aStr": 1006.0,
+    "dFIB": 977.5
+   },
+   "depth_matched2_n": {
+    "FIB": 173,
+    "aStr": 173,
+    "VSMCP": 173
+   }
+  },
+  "83": {
+   "n_cells": {
+    "FIB": 173,
+    "MC": 288,
+    "VSMC": 282,
+    "VSMCP": 337,
+    "aStr": 459,
+    "dFIB": 147
+   },
+   "len_median": {
+    "FIB": 884.0,
+    "MC": 1079.5,
+    "VSMC": 814.5,
+    "VSMCP": 1142.0,
+    "aStr": 1159.0,
+    "dFIB": 1292.0
+   },
+   "variants": {
+    "A_dFIB_A1と同じ構成": {
+     "dist_start_to_goal": 0.03666758026807356,
+     "dist_start_to_reference": 0.0790687570907801,
+     "distance_ratio": 0.46374297026036376,
+     "dirlen_goal": 0.03464808315780733,
+     "dirlen_reference": 0.06986420646786312,
+     "direction_ratio": 0.49593468400367685,
+     "cos_start_goal": 0.9993277442786421,
+     "angle_start_goal_deg": 2.1010153071593622,
+     "cos_start_reference": 0.9968740658260592,
+     "angle_start_reference_deg": 4.531487023320866
+    },
+    "C_参照=VSMC": {
+     "dist_start_to_goal": 0.03666758026807356,
+     "dist_start_to_reference": 0.1325605408462476,
+     "distance_ratio": 0.27661006838077873,
+     "dirlen_goal": 0.07108846603334801,
+     "dirlen_reference": 0.13124179655515625,
+     "direction_ratio": 0.5416602629595372,
+     "cos_start_goal": 0.9993277442786421,
+     "angle_start_goal_deg": 2.1010153071593622,
+     "cos_start_reference": 0.9912138515052752,
+     "angle_start_reference_deg": 7.600731559392046
+    },
+    "C_参照=MC": {
+     "dist_start_to_goal": 0.03666758026807356,
+     "dist_start_to_reference": 0.07824854453061902,
+     "distance_ratio": 0.4686039911416546,
+     "dirlen_goal": 0.04880455217132448,
+     "dirlen_reference": 0.07723746999660866,
+     "direction_ratio": 0.6318766289660626,
+     "cos_start_goal": 0.9993277442786421,
+     "angle_start_goal_deg": 2.1010153071593622,
+     "cos_start_reference": 0.9969385826394197,
+     "angle_start_reference_deg": 4.484455917152272
+    },
+    "C_参照=VSMCP": {
+     "dist_start_to_goal": 0.03666758026807356,
+     "dist_start_to_reference": 0.09061751669680299,
+     "distance_ratio": 0.4046411952642618,
+     "dirlen_goal": 0.04702914021467313,
+     "dirlen_reference": 0.085802139813155,
+     "direction_ratio": 0.5481115076743427,
+     "cos_start_goal": 0.9993277442786421,
+     "angle_start_goal_deg": 2.1010153071593622,
+     "cos_start_reference": 0.995894232833852,
+     "angle_start_reference_deg": 5.193779328776114
+    },
+    "B_深さをそろえた_参照=dFIB": {
+     "dist_start_to_goal": 0.028060158499129233,
+     "dist_start_to_reference": 0.06074929166282823,
+     "distance_ratio": 0.46190099886051694,
+     "dirlen_goal": 0.03942050477752628,
+     "dirlen_reference": 0.06108440188640067,
+     "direction_ratio": 0.6453448599011745,
+     "cos_start_goal": 0.999606313752502,
+     "angle_start_goal_deg": 1.6077814041957994,
+     "cos_start_reference": 0.9981547617812323,
+     "angle_start_reference_deg": 3.4812134663673198
+    },
+    "D_深さをそろえた_参照=VSMCP": {
+     "dist_start_to_goal": 0.027091721250325485,
+     "dist_start_to_reference": 0.09291291231331421,
+     "distance_ratio": 0.29158187571355787,
+     "dirlen_goal": 0.0380116518065642,
+     "dirlen_reference": 0.08584300559009268,
+     "direction_ratio": 0.4428042977441042,
+     "cos_start_goal": 0.999633019319847,
+     "angle_start_goal_deg": 1.5522887615228242,
+     "cos_start_reference": 0.995683595362729,
+     "angle_start_reference_deg": 5.325434471308154
+    }
+   },
+   "depth_matched_n": {
+    "FIB": 105,
+    "aStr": 105,
+    "dFIB": 105
+   },
+   "depth_matched_len_median": {
+    "FIB": 1008.0,
+    "aStr": 999.0,
+    "dFIB": 987.0
+   },
+   "depth_matched2_n": {
+    "FIB": 173,
+    "aStr": 173,
+    "VSMCP": 173
+   }
+  }
+ }
+}

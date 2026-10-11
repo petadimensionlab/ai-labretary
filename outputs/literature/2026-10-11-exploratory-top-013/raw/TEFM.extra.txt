@@ -1,0 +1,9 @@
+== TEFM / tefm_any (count=21)
+  42606642 | 2026 Aug 17 | Mol Neurobiol | Distinct Mitochondrial Central Dogma Gene Expression in the Buffalo Brain: A Comparative Transcriptomic Study with Metabolically Active Organs.
+  42576811 | 2026 Sep 22 | Circulation | ABHD11-Mediated mtDNA Transcription Restored Mitochondrial Function to Attenuate Cardiomyocyte Ferroptosis After Myocardial Infarction.
+  40960283 | 2026 Jan | Immunology | Mitochondrial Activity Regulates Human T Helper 17 Differentiation and Function.
+  40533459 | 2025 Jun 18 | J Hum Genet | Review of 40 genes causing congenital myasthenic syndromes.
+  40272035 | 2025 Sep | Am J Med Genet A | Clinical and Radiological Characterization of TEFM-Associated Neurological Disorder.
+  39731053 | 2024 Dec 27 | J Transl Med | TEFM facilitates uterine corpus endometrial carcinoma progression by activating ROS-NFκB pathway.
+  39719635 | 2024 Dec 24 | Cancer Cell Int | Mitochondrial transcription elongation factor TEFM promotes malignant progression of gliomas.
+  39075464 | 2024 Jul 29 | J Transl Med | Identification of TEFM as a potential therapeutic target for LUAD treatment.

@@ -1,0 +1,6 @@
+PMID: 31249871
+JOURNAL: Science advances
+YEAR: 2019
+DOI: 10.1126/sciadv.aaw5075
+TITLE: Lymphangiogenesis in kidney and lymph node mediates renal inflammation and fibrosis.
+ABSTRACT: Lymphangiogenesis is associated with chronic kidney disease (CKD) and occurs following kidney transplant. Here, we demonstrate that expanding lymphatic vessels (LVs) in kidneys and corresponding renal draining lymph nodes (RDLNs) play critical roles in promoting intrarenal inflammation and fibrosis following renal injury. Our studies show that lymphangiogenesis in the kidney and RDLN is driven by proliferation of preexisting lymphatic endothelium expressing the essential C-C chemokine ligand 21 (CCL21). New injury-induced LVs also express CCL21, stimulating recruitment of more CCR7 + dendritic cells (DCs) and lymphocytes into both RDLNs and spleen, resulting in a systemic lymphocyte expansion. Injury-induced intrarenal inflammation and fibrosis could be attenuated by blocking the recruitment of CCR7 + cells into RDLN and spleen or inhibiting lymphangiogenesis. Elucidating the role of lymphangiogenesis in promoting intrarenal inflammation and fibrosis provides a key insight that can facilitate the development of novel therapeutic strategies to prevent progression of CKD-associated fibrosis.

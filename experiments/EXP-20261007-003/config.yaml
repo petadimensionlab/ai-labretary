@@ -1,0 +1,141 @@
+# EXP-20261007-003 — HYP-20261007-02 段階 2（退化した状態の方向への再射影。評価のみ）
+# 新しい摂動は回さない。EXP-20261007-001 の保存済み埋め込みと状態の重心を使い、射影する方向だけを変える。
+experiment_id: EXP-20261007-003
+hypothesis_id: HYP-20261007-02
+kind: stage2_reprojection_only
+note: >-
+  候補 8 個が「活性化した間質の方向」と「退化した状態の方向」のどちらへ動くかを、
+  保存済みの 587 遺伝子の摂動前後埋め込みから測り、2 つの方向が分離するかを検定する。
+  射影の式・交絡補正・標準化は EXP-20261007-001 と同じ。変えるのは goal に当たる重心だけ。
+
+source_experiment:
+  id: EXP-20261007-001
+  results_dir: experiments/EXP-20261007-001/results
+  work_dir: experiments/EXP-20261007-001/work
+  config_sha256: ffdd756bef77fc18   # EXP-001 config.yaml（固定確認用・先頭16桁）
+  genes_json_sha256: d3489d394cb8289f   # work/genes_011.json
+  precheck_json_sha256: 4074b43e0b4468cf  # work/precheck_011.json
+  groups: [81, 82, 83]
+  embedding_rule: experiments/EXP-20261007-001/results/run-{seed}-L-1/genes/{gene}/emb/{orig_or_pert}.npy
+  centroid_rule: experiments/EXP-20261007-001/results/run-{seed}-L-1/state_emb_vectors.npz
+  cells_csv_rule: experiments/EXP-20261007-001/results/run-{seed}-L-1/genes/{gene}/cells.csv
+  tokenized_dataset: experiments/EXP-20261007-001/work/tokenized.dataset   # 読み取りのみ。作業用に複製して sha256 を照合する
+  criteria011: experiments/EXP-20261007-001/results/criteria_011.json   # 活性化の方向の再現確認の参照値
+
+states:
+  start_state: FIB
+  goal_adaptive: aStr          # EXP-001 と同じ（再現確認）
+  goal_degenerate: dFIB        # 本実験の主対象（退化した状態）
+
+projection:
+  form: projection_on_start_to_state_direction_over_movement
+  direction_vector: unit(重心[方向]) - unit(重心[FIB])     # 正規化して使う
+  directions:
+    adaptive: aStr
+    degenerate: dFIB
+  movement_zero_drop: true     # 移動量 0 の細胞は外す（EXP-001 と同じ）
+
+gene_sets:
+  candidate_8:
+    - ENSG00000099866   # MADCAM1
+    - ENSG00000156234   # CXCL13
+    - ENSG00000137077   # CCL21
+    - ENSG00000074410   # CA12
+    - ENSG00000140836   # ZFHX3
+    - ENSG00000113073   # SLC4A9
+    - ENSG00000148180   # GSN
+    - ENSG00000049540   # ELN
+  positive_control_adaptive_71: source_exp_config_controls_positive   # EXP-001 config.yaml の controls.positive（71 個）を読む
+  positive_control_degenerate_30:
+    rule: >-
+      補足表 12（4 区分合算）∩ {A2 var かつ辞書} ∩ {EXP-001 の保存済み 587} − {盲検} − {候補 CA12}
+      − {恒常発現 3} − {中立 7 の該当}. 個数を結果を見る前に固定（plan.md §3.2.1）. K=30.
+    genes:
+      - ENSG00000085662   # AKR1B1
+      - ENSG00000135931   # ARMC9
+      - ENSG00000130724   # CHMP2A
+      - ENSG00000103811   # CTSH
+      - ENSG00000205795   # CYS1
+      - ENSG00000169738   # DCXR
+      - ENSG00000125868   # DSTN
+      - ENSG00000125971   # DYNLRB1
+      - ENSG00000173812   # EIF1
+      - ENSG00000156976   # EIF4A2
+      - ENSG00000127951   # FGL2
+      - ENSG00000206503   # HLA-A
+      - ENSG00000004776   # HSPB6
+      - ENSG00000142798   # HSPG2
+      - ENSG00000115461   # IGFBP5
+      - ENSG00000130522   # JUND
+      - ENSG00000169223   # LMAN2
+      - ENSG00000140545   # MFGE8
+      - ENSG00000111341   # MGP
+      - ENSG00000133392   # MYH11
+      - ENSG00000151366   # NDUFC2
+      - ENSG00000110717   # NDUFS8
+      - ENSG00000138735   # PDE5A
+      - ENSG00000123349   # PFDN5
+      - ENSG00000100911   # PSME2
+      - ENSG00000063177   # RPL18
+      - ENSG00000124614   # RPS10
+      - ENSG00000163191   # S100A11
+      - ENSG00000109610   # SOD3
+      - ENSG00000006327   # TNFRSF12A
+  housekeeping_3: source_exp_genes_json   # ACTB・GAPDH・B2M（EXP-001 work/genes_011.json）
+  neutral_7: source_exp_genes_json        # 中立対照パネル 7（同）
+  control_500: source_exp_genes_json      # 対照 500（同。層つき）
+  standardize_pool_n: 510                 # 対照 500 + 恒常発現 3 + 中立 7（EXP-001 と同じ。プールは変えない）
+
+metric:
+  primary_form: projection
+  confound_correction:
+    form: stratified_by_expression
+    variables: [lp, ll]                    # EXP-001 と同じ（lp = log2(1+元の順位), ll = log2(入力の長さ)）
+    drop_zero_movement: true
+
+decision:
+  単位: 群（提供者で分けた互いに重ならない 3 群。seed 81/82/83 は群の名前）
+  標準化: 群ごとに、対照 510 個の D_raw の平均と標準偏差で標準得点にする（EXP-001 と同じ。プールは変えない）
+  U-1 主判定:
+    対象: 候補 8 個のセット平均の標準得点
+    合格: 3 群すべてで 偽セットの 99 パーセンタイル超 かつ 絶対値 1.59 以上
+    方向 1 (活性化した間質): 合格（EXP-001 P-1 で確認済み。再現確認 A-4 で一致を確かめる）
+    方向 2 (退化した状態): 合格しないこと（主対象）
+    閾値: 1.59
+    置き換え: なし（段階 2 は保存済み埋め込みの再射影。plan.md §5.1）
+  G-b 陽性対照（退化の方向・30 個）:
+    合格: 3 群すべてで 偽セット（30 個 × 1,000 組）の 99 パーセンタイル超（絶対値の条件は課さない。EXP-001 の R-6 と同じ）
+    注: PI 判断 2026-10-11。陽性対照の合格は補助的な確認にとどめる（主判定 U-1 は依存させない）
+  G-c 交絡:
+    対象: 対照 500 個
+    相関 1: "|Spearman(3群平均z, 発現細胞数)| <= 0.20"
+    相関 2: "|Spearman(3群平均z, 入力の長さの中央)| <= 0.20"
+    不合格: U-R4（判定不能）
+  乱数の鍵:
+    U-1 候補の偽セット: 20261014
+    G-b 陽性対照の偽セット: 20261015
+    偽セットの較正: 20261016
+  pi_decisions_20261011:
+    1_G2: 不要（GPU 0 時間）
+    2_陽性対照: 退化の方向の陽性対照 30 個を認める（23 個が標準化の対照 500 と重なることは限界として記録。plan.md §11-6）
+    3_絶対値: 陽性対照の合格には絶対値 1.59 を課さない（99 パーセンタイル条件のみ。EXP-001 の R-6 と同じ）。候補 8 個（K=8）には絶対値 1.59 を引き続き課す
+    4_独立な陽性対照: 0 個である点は限界に記録し、陽性対照の合格は補助的な確認にとどめる（主判定 U-1 を依存させない）
+
+blocked_genes:
+  - ENSG00000111321   # LTBR
+  - ENSG00000118785   # SPP1
+  - ENSG00000124762   # CDKN1A
+  - ENSG00000141510   # TP53
+  - ENSG00000148346   # LCN2
+
+compute:
+  device: cpu
+  dtype: fp32
+  gpu_hours_estimate: 0.0
+  needs_G2_approval: false   # PI 判断 2026-10-11: G2 不要
+
+output:
+  experiment_dir: experiments/EXP-20261007-003
+  results_dir: results
+  criteria: results/criteria_013.json
+  gene_rank: results/gene_rank_013.csv

@@ -1,0 +1,850 @@
+{
+ "ENG": {
+  "遺伝子数": 1,
+  "z_seed81_82_83": [
+   -3.695,
+   -3.763,
+   -3.536
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": 0.2422,
+     "se_B": 0.0393,
+     "upper_joint": 0.3192,
+     "pass": false,
+     "sum_abs_marginal": 0.1742
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.0504,
+     "se_B": 0.0835,
+     "upper_joint": 0.214,
+     "pass": false,
+     "sum_abs_marginal": 0.5739
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.0186,
+     "lp_med": -0.0017,
+     "ll_med": 0.1412,
+     "relpos_med": 0.0783,
+     "uniform": 0.0058
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.0168,
+     "lp_med": -0.0022,
+     "ll_med": 0.1518,
+     "relpos_med": 0.0806,
+     "uniform": 0.0055,
+     "log2FC": -0.2415,
+     "logexpr": -0.0615
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": -0.0218,
+     "se_B": 0.0782,
+     "upper_joint": 0.1751,
+     "pass": false,
+     "sum_abs_marginal": 0.1702
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.3237,
+     "se_B": 0.1264,
+     "upper_joint": 0.5714,
+     "pass": false,
+     "sum_abs_marginal": 0.6033
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.0317,
+     "lp_med": -0.0064,
+     "ll_med": 0.1421,
+     "relpos_med": -0.0857,
+     "uniform": -0.1036
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.0286,
+     "lp_med": 0.0004,
+     "ll_med": 0.1514,
+     "relpos_med": -0.099,
+     "uniform": -0.1014,
+     "log2FC": -0.2376,
+     "logexpr": -0.066
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": 0.0459,
+     "se_B": 0.1207,
+     "upper_joint": 0.2824,
+     "pass": false,
+     "sum_abs_marginal": 0.1001
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.2004,
+     "se_B": 0.1351,
+     "upper_joint": 0.4652,
+     "pass": false,
+     "sum_abs_marginal": 0.5157
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.0213,
+     "lp_med": -0.0028,
+     "ll_med": -0.0477,
+     "relpos_med": 0.2435,
+     "uniform": -0.1257
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.018,
+     "lp_med": -0.0032,
+     "ll_med": -0.0495,
+     "relpos_med": 0.2343,
+     "uniform": -0.1202,
+     "log2FC": -0.2138,
+     "logexpr": -0.03
+    }
+   }
+  }
+ },
+ "RBMS3": {
+  "遺伝子数": 1,
+  "z_seed81_82_83": [
+   -3.903,
+   -3.832,
+   -4.232
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": 0.1363,
+     "se_B": 0.1188,
+     "upper_joint": 0.369,
+     "pass": false,
+     "sum_abs_marginal": 0.4167
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.1909,
+     "se_B": 0.1518,
+     "upper_joint": 0.4885,
+     "pass": false,
+     "sum_abs_marginal": 0.8295
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.5168,
+     "lp_med": 0.0832,
+     "ll_med": 0.2165,
+     "relpos_med": -0.5087,
+     "uniform": -0.1715
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.4644,
+     "lp_med": 0.1088,
+     "ll_med": 0.2329,
+     "relpos_med": -0.5236,
+     "uniform": -0.1648,
+     "log2FC": -0.2406,
+     "logexpr": -0.0681
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": 0.3803,
+     "se_B": 0.1144,
+     "upper_joint": 0.6045,
+     "pass": false,
+     "sum_abs_marginal": 0.5026
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.0472,
+     "se_B": 0.151,
+     "upper_joint": 0.3431,
+     "pass": false,
+     "sum_abs_marginal": 0.9517
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.6551,
+     "lp_med": -0.0817,
+     "ll_med": 0.2529,
+     "relpos_med": -0.404,
+     "uniform": -0.042
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.5905,
+     "lp_med": 0.0052,
+     "ll_med": 0.2694,
+     "relpos_med": -0.4669,
+     "uniform": -0.0411,
+     "log2FC": -0.2366,
+     "logexpr": -0.0732
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": 0.2293,
+     "se_B": 0.1225,
+     "upper_joint": 0.4694,
+     "pass": false,
+     "sum_abs_marginal": 0.5007
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.0345,
+     "se_B": 0.1549,
+     "upper_joint": 0.338,
+     "pass": false,
+     "sum_abs_marginal": 0.9337
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.4631,
+     "lp_med": 0.1575,
+     "ll_med": 0.2755,
+     "relpos_med": -0.4989,
+     "uniform": -0.1678
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.391,
+     "lp_med": 0.175,
+     "ll_med": 0.2862,
+     "relpos_med": -0.4801,
+     "uniform": -0.1604,
+     "log2FC": -0.2129,
+     "logexpr": -0.0333
+    }
+   }
+  }
+ },
+ "PLAT": {
+  "遺伝子数": 1,
+  "z_seed81_82_83": [
+   -1.992,
+   -2.904,
+   -2.559
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": -0.2569,
+     "se_B": 0.092,
+     "upper_joint": 0.4372,
+     "pass": false,
+     "sum_abs_marginal": 0.3013
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.3802,
+     "se_B": 0.0962,
+     "upper_joint": 0.5687,
+     "pass": false,
+     "sum_abs_marginal": 0.4451
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.0973,
+     "lp_med": -0.0527,
+     "ll_med": -0.1832,
+     "relpos_med": 0.3154,
+     "uniform": -0.239
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.0875,
+     "lp_med": -0.069,
+     "ll_med": -0.197,
+     "relpos_med": 0.3246,
+     "uniform": -0.2296,
+     "log2FC": -0.1134,
+     "logexpr": -0.0083
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": -0.1816,
+     "se_B": 0.0916,
+     "upper_joint": 0.3611,
+     "pass": false,
+     "sum_abs_marginal": 0.2923
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.3215,
+     "se_B": 0.0977,
+     "upper_joint": 0.513,
+     "pass": false,
+     "sum_abs_marginal": 0.4432
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.0555,
+     "lp_med": 0.0513,
+     "ll_med": -0.2059,
+     "relpos_med": 0.2473,
+     "uniform": -0.2189
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.05,
+     "lp_med": -0.0033,
+     "ll_med": -0.2193,
+     "relpos_med": 0.2858,
+     "uniform": -0.2143,
+     "log2FC": -0.1115,
+     "logexpr": -0.0089
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": -0.2059,
+     "se_B": 0.0881,
+     "upper_joint": 0.3787,
+     "pass": false,
+     "sum_abs_marginal": 0.2766
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.3284,
+     "se_B": 0.0939,
+     "upper_joint": 0.5125,
+     "pass": false,
+     "sum_abs_marginal": 0.4153
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.0195,
+     "lp_med": -0.1049,
+     "ll_med": -0.179,
+     "relpos_med": 0.3073,
+     "uniform": -0.2099
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.0165,
+     "lp_med": -0.1166,
+     "ll_med": -0.186,
+     "relpos_med": 0.2957,
+     "uniform": -0.2006,
+     "log2FC": -0.1004,
+     "logexpr": -0.0041
+    }
+   }
+  }
+ },
+ "CA12": {
+  "遺伝子数": 1,
+  "z_seed81_82_83": [
+   8.227,
+   8.054,
+   8.392
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": 0.277,
+     "se_B": 0.0899,
+     "upper_joint": 0.4532,
+     "pass": false,
+     "sum_abs_marginal": 0.2925
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.328,
+     "se_B": 0.0908,
+     "upper_joint": 0.506,
+     "pass": false,
+     "sum_abs_marginal": 0.3959
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.2931,
+     "lp_med": -0.0092,
+     "ll_med": 0.1728,
+     "relpos_med": 0.1841,
+     "uniform": 0.2223
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.2634,
+     "lp_med": -0.012,
+     "ll_med": 0.1858,
+     "relpos_med": 0.1895,
+     "uniform": 0.2135,
+     "log2FC": 0.0414,
+     "logexpr": -0.0269
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": 0.221,
+     "se_B": 0.0854,
+     "upper_joint": 0.3885,
+     "pass": false,
+     "sum_abs_marginal": 0.3807
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.2911,
+     "se_B": 0.0891,
+     "upper_joint": 0.4658,
+     "pass": false,
+     "sum_abs_marginal": 0.4967
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.3976,
+     "lp_med": 0.0144,
+     "ll_med": 0.2473,
+     "relpos_med": 0.1455,
+     "uniform": 0.2114
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.3584,
+     "lp_med": -0.0009,
+     "ll_med": 0.2634,
+     "relpos_med": 0.1681,
+     "uniform": 0.207,
+     "log2FC": 0.0407,
+     "logexpr": -0.0289
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": 0.4028,
+     "se_B": 0.1105,
+     "upper_joint": 0.6194,
+     "pass": false,
+     "sum_abs_marginal": 0.3679
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.458,
+     "se_B": 0.1107,
+     "upper_joint": 0.6749,
+     "pass": false,
+     "sum_abs_marginal": 0.4841
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.2403,
+     "lp_med": 0.0022,
+     "ll_med": 0.255,
+     "relpos_med": 0.1676,
+     "uniform": 0.2184
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.2029,
+     "lp_med": 0.0025,
+     "ll_med": 0.2649,
+     "relpos_med": 0.1613,
+     "uniform": 0.2088,
+     "log2FC": 0.0367,
+     "logexpr": -0.0131
+    }
+   }
+  }
+ },
+ "HNF1B": {
+  "遺伝子数": 1,
+  "z_seed81_82_83": [
+   3.529,
+   3.012,
+   3.181
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": 0.3042,
+     "se_B": 0.0823,
+     "upper_joint": 0.4654,
+     "pass": false,
+     "sum_abs_marginal": 0.2814
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.4152,
+     "se_B": 0.0867,
+     "upper_joint": 0.5852,
+     "pass": false,
+     "sum_abs_marginal": 0.3884
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.1253,
+     "lp_med": 0.006,
+     "ll_med": 0.2027,
+     "relpos_med": -0.0234,
+     "uniform": 0.2442
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.1126,
+     "lp_med": 0.0078,
+     "ll_med": 0.218,
+     "relpos_med": -0.0241,
+     "uniform": 0.2346,
+     "log2FC": 0.0932,
+     "logexpr": -0.0016
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": 0.1507,
+     "se_B": 0.0914,
+     "upper_joint": 0.3298,
+     "pass": false,
+     "sum_abs_marginal": 0.3121
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.2953,
+     "se_B": 0.0965,
+     "upper_joint": 0.4844,
+     "pass": false,
+     "sum_abs_marginal": 0.4229
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.1823,
+     "lp_med": -0.0262,
+     "ll_med": 0.2367,
+     "relpos_med": -0.0218,
+     "uniform": 0.1442
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.1643,
+     "lp_med": 0.0017,
+     "ll_med": 0.2521,
+     "relpos_med": -0.0252,
+     "uniform": 0.1412,
+     "log2FC": 0.0917,
+     "logexpr": -0.0018
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": 0.3475,
+     "se_B": 0.0814,
+     "upper_joint": 0.5069,
+     "pass": false,
+     "sum_abs_marginal": 0.3272
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.4495,
+     "se_B": 0.0867,
+     "upper_joint": 0.6193,
+     "pass": false,
+     "sum_abs_marginal": 0.4269
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.1132,
+     "lp_med": 0.0113,
+     "ll_med": 0.2572,
+     "relpos_med": -0.0239,
+     "uniform": 0.2161
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.0956,
+     "lp_med": 0.0126,
+     "ll_med": 0.2672,
+     "relpos_med": -0.023,
+     "uniform": 0.2066,
+     "log2FC": 0.0825,
+     "logexpr": -0.0008
+    }
+   }
+  }
+ },
+ "QSOX1": {
+  "遺伝子数": 1,
+  "z_seed81_82_83": [
+   -3.147,
+   -2.335,
+   -3.096
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": -0.5526,
+     "se_B": 0.1086,
+     "upper_joint": 0.7654,
+     "pass": false,
+     "sum_abs_marginal": 0.085
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.7715,
+     "se_B": 0.1226,
+     "upper_joint": 1.0119,
+     "pass": false,
+     "sum_abs_marginal": 0.3739
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.1698,
+     "lp_med": 0.0098,
+     "ll_med": -0.0065,
+     "relpos_med": -0.1272,
+     "uniform": -0.2589
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.1526,
+     "lp_med": 0.0128,
+     "ll_med": -0.007,
+     "relpos_med": -0.1309,
+     "uniform": -0.2487,
+     "log2FC": -0.2292,
+     "logexpr": -0.016
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": -0.5666,
+     "se_B": 0.1182,
+     "upper_joint": 0.7982,
+     "pass": false,
+     "sum_abs_marginal": 0.1559
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.7699,
+     "se_B": 0.1285,
+     "upper_joint": 1.0217,
+     "pass": false,
+     "sum_abs_marginal": 0.4588
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.2655,
+     "lp_med": -0.0237,
+     "ll_med": 0.0521,
+     "relpos_med": -0.1261,
+     "uniform": -0.2035
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.2393,
+     "lp_med": 0.0015,
+     "ll_med": 0.0555,
+     "relpos_med": -0.1457,
+     "uniform": -0.1992,
+     "log2FC": -0.2255,
+     "logexpr": -0.0172
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": -0.6807,
+     "se_B": 0.1234,
+     "upper_joint": 0.9226,
+     "pass": false,
+     "sum_abs_marginal": 0.2488
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.8495,
+     "se_B": 0.1348,
+     "upper_joint": 1.1138,
+     "pass": false,
+     "sum_abs_marginal": 0.5269
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.2004,
+     "lp_med": 0.0224,
+     "ll_med": -0.1585,
+     "relpos_med": -0.1257,
+     "uniform": -0.2184
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.1692,
+     "lp_med": 0.0249,
+     "ll_med": -0.1647,
+     "relpos_med": -0.121,
+     "uniform": -0.2088,
+     "log2FC": -0.2029,
+     "logexpr": -0.0078
+    }
+   }
+  }
+ },
+ "CCN2": {
+  "遺伝子数": 1,
+  "z_seed81_82_83": [
+   -1.514,
+   -1.041,
+   -0.946
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": 0.0248,
+     "se_B": 0.0722,
+     "upper_joint": 0.1664,
+     "pass": false,
+     "sum_abs_marginal": 0.2488
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.093,
+     "se_B": 0.0761,
+     "upper_joint": 0.2423,
+     "pass": false,
+     "sum_abs_marginal": 0.477
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.1906,
+     "lp_med": -0.0403,
+     "ll_med": 0.1139,
+     "relpos_med": 0.3907,
+     "uniform": -0.2489
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.1713,
+     "lp_med": -0.0527,
+     "ll_med": 0.1225,
+     "relpos_med": 0.4021,
+     "uniform": -0.2391,
+     "log2FC": -0.0996,
+     "logexpr": -0.055
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": 0.1238,
+     "se_B": 0.0725,
+     "upper_joint": 0.2659,
+     "pass": false,
+     "sum_abs_marginal": 0.3692
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.0217,
+     "se_B": 0.0753,
+     "upper_joint": 0.1693,
+     "pass": false,
+     "sum_abs_marginal": 0.6236
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.2879,
+     "lp_med": 0.0418,
+     "ll_med": 0.2286,
+     "relpos_med": 0.3345,
+     "uniform": -0.1932
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.2596,
+     "lp_med": -0.0027,
+     "ll_med": 0.2435,
+     "relpos_med": 0.3866,
+     "uniform": -0.1892,
+     "log2FC": -0.098,
+     "logexpr": -0.0591
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": 0.1628,
+     "se_B": 0.0936,
+     "upper_joint": 0.3464,
+     "pass": false,
+     "sum_abs_marginal": 0.3946
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.0807,
+     "se_B": 0.0955,
+     "upper_joint": 0.2679,
+     "pass": false,
+     "sum_abs_marginal": 0.6475
+    },
+    "内訳_事前登録": {
+     "dnorm_med": -0.2338,
+     "lp_med": -0.0573,
+     "ll_med": 0.2455,
+     "relpos_med": 0.3902,
+     "uniform": -0.1817
+    },
+    "内訳_探索的": {
+     "dnorm_med": -0.1974,
+     "lp_med": -0.0637,
+     "ll_med": 0.2551,
+     "relpos_med": 0.3754,
+     "uniform": -0.1737,
+     "log2FC": -0.0881,
+     "logexpr": -0.0269
+    }
+   }
+  }
+ },
+ "逆向き5件(ENG,RBMS3,PLAT,CA12,HNF1B)": {
+  "遺伝子数": 5,
+  "z_seed81_82_83": [
+   0.433,
+   0.113,
+   0.249
+  ],
+  "per_seed": {
+   "81": {
+    "事前登録5候補": {
+     "B_joint": 0.1406,
+     "se_B": 0.03,
+     "upper_joint": 0.1994,
+     "pass": false,
+     "sum_abs_marginal": 0.1274
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.0243,
+     "se_B": 0.0455,
+     "upper_joint": 0.1136,
+     "pass": false,
+     "sum_abs_marginal": 0.3009
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.0039,
+     "lp_med": 0.0051,
+     "ll_med": 0.11,
+     "relpos_med": 0.0092,
+     "uniform": 0.0123
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.0035,
+     "lp_med": 0.0067,
+     "ll_med": 0.1183,
+     "relpos_med": 0.0094,
+     "uniform": 0.0119,
+     "log2FC": -0.0922,
+     "logexpr": -0.0333
+    }
+   },
+   "82": {
+    "事前登録5候補": {
+     "B_joint": 0.1097,
+     "se_B": 0.0337,
+     "upper_joint": 0.1758,
+     "pass": false,
+     "sum_abs_marginal": 0.1475
+    },
+    "＋発現(探索的)": {
+     "B_joint": -0.0023,
+     "se_B": 0.0498,
+     "upper_joint": 0.1,
+     "pass": false,
+     "sum_abs_marginal": 0.338
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.0103,
+     "lp_med": -0.0097,
+     "ll_med": 0.1346,
+     "relpos_med": -0.0238,
+     "uniform": -0.0018
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.0093,
+     "lp_med": 0.0006,
+     "ll_med": 0.1434,
+     "relpos_med": -0.0275,
+     "uniform": -0.0017,
+     "log2FC": -0.0907,
+     "logexpr": -0.0358
+    }
+   },
+   "83": {
+    "事前登録5候補": {
+     "B_joint": 0.1639,
+     "se_B": 0.0291,
+     "upper_joint": 0.2209,
+     "pass": false,
+     "sum_abs_marginal": 0.1372
+    },
+    "＋発現(探索的)": {
+     "B_joint": 0.0689,
+     "se_B": 0.0398,
+     "upper_joint": 0.1468,
+     "pass": false,
+     "sum_abs_marginal": 0.3228
+    },
+    "内訳_事前登録": {
+     "dnorm_med": 0.0137,
+     "lp_med": 0.0127,
+     "ll_med": 0.1122,
+     "relpos_med": 0.0391,
+     "uniform": -0.0138
+    },
+    "内訳_探索的": {
+     "dnorm_med": 0.0116,
+     "lp_med": 0.0141,
+     "ll_med": 0.1166,
+     "relpos_med": 0.0376,
+     "uniform": -0.0132,
+     "log2FC": -0.0816,
+     "logexpr": -0.0162
+    }
+   }
+  }
+ }
+}

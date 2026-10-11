@@ -1,0 +1,63 @@
+# 着手前チェックの設定 — 候補 (A)（第 2 版）
+# 目標 = 活性化した間質の状態（aFIB + MYOF。Lake 2023 補足表 10 の著者定義）
+# 出発点 = 参照の線維芽細胞（FIB + M-FIB）／参照 = 退化した線維芽細胞（dFIB）
+# 第 4 の重心 = 髄質の退化した線維芽細胞（dM-FIB）
+#
+# 手順書: outputs/design/2026-09-30-annotation-goal-state/procedure-v2.md
+#         （2026-09-30T14:20:01+09:00 に固定。数える前に書いた）
+# 摂動は 1 回も行わない（重心は前向き計算だけで作る）。入力は読み取りのみ。
+
+axis_feasibility:
+  experiment_id: EXP-20260930-001-precheck-v2
+
+  expression:
+    h5ad: experiments/EXP-20260929-001/work/input.h5ad
+    gene_name_col: gene_name
+    state_col: subclass_l2
+
+  states:
+    start: {labels: [FIB, M-FIB]}     # 15,477 細胞 / 79 提供者
+    goal: {labels: [aFIB, MYOF]}      # 5,131 細胞 / 77 提供者
+    reference: {labels: [dFIB]}       # 534 細胞 / 60 提供者
+  population: [start, goal]
+
+  markers:
+    # **目標は遺伝子で定義していない**（著者の注釈で定義した）。
+    # ここの 32 個は procedure-v2.md §6.4 の代理で、保守 76 から最小 42 を引いた 34 個のうち
+    # データにあり摂動できるもの。**陽性対照とは 1 個も重ならない**。
+    goal_defining:
+      [AFDN, ANK2, ANKS1B, ARMC9, ASPH, ATP8B1, CDC14B, CELF2, CNTN4, COL6A1, DOCK5, DSTN,
+       EFNA5, ESYT2, FOXP1, FRY, GAB1, HSPG2, MAML3, MICAL3, NFIB, PAWR, PDGFC, PLCB1,
+       RAD51B, RASSF8, SDC2, SESTD1, SIPA1L1, SLC20A2, SLC44A1, THRB]
+    # **目標の軸の陽性対照 K = 39。止める条件はこのセットに当たる。**
+    # Lake ら 2023（PMID 37468583）補足表 14「活性化した間質の状態」最小セット 42 個のうち、
+    # データにあり Geneformer の辞書にあり、出発点で 120 細胞以上摂動できる 39 個。
+    # 落ちた 3 個: MIR99AHG・DIRC3（辞書に無い）、AC098829.1（データに無い）。
+    goal_positive_control:
+      [ABI3BP, ANTXR1, COL1A1, COL1A2, COL5A2, COL6A2, COL8A1, DCLK1, DPYSL3, ELN, FBXL7,
+       FN1, IGFBP5, ITGA11, LTBP1, MFGE8, MGP, MICAL2, NAV3, NHSL2, NTM, PCDH7, PDE5A,
+       PDZRN4, PRICKLE1, SLIT2, SULF1, ZEB1, ZFPM2, MPDZ, GSN, NOX4, PTPRD, PARD3B,
+       DCLK2, ATP2B4, JAZF1, ANKH, MACROD2]
+    # 参照の軸（退化した線維芽細胞）のマーカー。対比のためだけで判定には使わない。
+    # Lake 2023 補足表 8（6 個しかないので陽性対照としては成立しない）。
+    reference_positive_control: [MGP, BGN, DCN, COL1A2, C7, AEBP1]
+
+  centroids:
+    mode: extract                     # **摂動なし。前向き計算だけ**
+    seeds: [81, 82, 83]
+    run_config: experiments/EXP-20260929-001/config.yaml
+    tokenized_dataset: experiments/EXP-20260929-001/work/tokenized.dataset
+    rows_file: outputs/design/2026-09-30-annotation-goal-state/state_rows_v2-seed{seed}.json
+    work_dir: outputs/design/2026-09-30-annotation-goal-state/work-v2
+    names:
+      start: FIB_MFIB
+      goal: aStr
+      reference: dFIB
+      others: [dMFIB]
+
+  perturbation:
+    min_cells_per_gene: 120
+
+  thresholds: {}                      # 既定値のまま。**変えない**
+
+  output: outputs/design/2026-09-30-annotation-goal-state/axis_feasibility_v2.json

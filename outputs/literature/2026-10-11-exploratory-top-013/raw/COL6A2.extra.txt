@@ -1,0 +1,9 @@
+== COL6A2 / col6a2_renal (count=35)
+  41683963 | 2026 Feb 4 | Int J Mol Sci | Uncovering a Glaucoma-Linked Lysophosphatidic Acid-MAPK/AP-1 Fibrosis Axis in Human Trabecular Meshwork Cells and Its Modulation by Diospyros kaki Leaf Extract.
+  41519425 | 2026 Mar | Exp Eye Res | miR-29b-3p promotes the recovery of alkali-burned cornea by targeting Ddx3x.
+  41323784 | 2025 | J Cancer | COL6A2 drives clear cell renal cell carcinoma progression via integrin-dependent modulation of Wnt/β-catenin signaling.
+  41292196 | 2025 Nov 30 | FASEB J | Unraveling the Role of PTGIR in Atrial Fibrillation: Insights From Single-Cell Sequencing and Mendelian Randomization.
+  41107120 | 2025 Dec | Ann Rheum Dis | Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.
+  40998421 | 2025 Nov | J Neuroendocrinol | Telotristat ethyl affects tumour-fibroblast crosstalk in small intestinal neuroendocrine tumours.
+  40770761 | 2025 Aug 6 | J Transl Med | COL6A2 in clear cell renal cell carcinoma: a multifaceted driver of tumor progression, immune evasion, and drug sensitivity.
+  40665122 | 2026 Jun | Biochem Genet | Transcriptome Analysis of TGFBI Knockdown vs Normal Corneal Epithelial Cells: Implications for TGFBI Corneal Dystrophy Treatment.

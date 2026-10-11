@@ -1,0 +1,270 @@
+# EXP-20261007-002 — 手で作った事前登録の設定。実行スクリプトはこの値を読み、判定値をハードコードしない。
+# plan.md §4 の判定規則をそのまま写したもの。**plan.md と同じ値でなければ評価コードは止まる。**
+experiment_id: EXP-20261007-002
+hypothesis_id: HYP-20261007-02
+kind: no_perturbation_senescence_score_test
+stage: 1
+note: >
+  HYP-20261007-02 の段階 1。摂動を使わない。A2（KPMP 単一細胞 RNA-seq, Lake ら 2023, PMID 37468583）で、
+  著者ラベル dFIB（退化した線維芽細胞）の SenMayo 得点が、著者ラベル FIB（参照）より高いかを検定する。
+  得点は「リストの 122 遺伝子のうち検出された割合」。検出遺伝子数（nFeature_RNA）の区間 1,000〜2,000 でそろえる。
+  GPU を使わない。ゲート G2 は不要（plan.md §9）。段階 2 は本ファイルに含めない。
+
+# ---------------------------------------------------------------------------
+data:
+  A2:
+    role: 判定に使う（主）
+    input_h5ad: data/raw/kidney_tls/A2_KPMP_v1.5_scRNA_Lake2023.h5ad  # 読み取り専用
+    modality: 単一細胞 RNA-seq
+    counts_location: raw.X        # **生カウント**（X は正規化値）。整数様であることを検査する
+    state_col: author_cell_type   # 著者の実ラベル（obs）
+    reference_labels: [FIB]       # 参照状態
+    degenerate_labels: [dFIB]     # 比較対象（退化した状態）
+    donor_col: donor_id
+    depth_col: nFeature_RNA       # 検出遺伝子数
+    interval: {min: 1000, max: 2000, inclusive: true}   # **結果を見て動かさない**
+    expected_cells_in_interval: {reference: 81, degenerate: 93}  # 仮説 §2.2 の実測。実行時に再確認し、違えば記録
+    min_cells_per_state: 30       # T-6: これを割ったら着手しない
+    sensitivity_interval: {min: 800, max: 2500, inclusive: true}  # 記述のみ（§6.2）
+  A1:
+    role: 副次（S-4）。判定に使わない
+    input_h5ad: data/raw/kidney_tls/A1_KPMP_v1.5_snRNA_Lake2023.h5ad  # 読み取り専用
+    modality: 単一核 RNA-seq
+    counts_location: raw.X
+    state_col: subclass.l2        # 著者の実ラベル（obs）
+    reference_labels: [FIB, M-FIB]
+    degenerate_labels: [dFIB]
+    donor_col: donor_id
+    depth_col: nFeature_RNA
+    interval: {min: 500, max: 1100, inclusive: true}
+    expected_cells_in_interval: {reference: 3619, degenerate: 337}  # 仮説 §2.2 の実測。実行時に再確認
+    sensitivity_interval: {min: 600, max: 1200, inclusive: true}   # 記述のみ（§6.2）
+
+# ---------------------------------------------------------------------------
+genes:
+  # SenMayo（Saul ら 2022, Nat Commun 13:4827, PMID 35974106）補足データ 1 human シートの取得物
+  senmayo_file: outputs/literature/2026-10-11-senescence-and-degenerated-lists/senmayo_125.csv
+  senmayo_gene_column: gene_symbol
+  senmayo_in_A2_column: in_A2_var
+  exclude_blind_from_list: [SPP1]         # 盲検中のため機械的に除外（PI 判断 2026-10-11）
+  exclude_not_in_A2: [CCL1, CCL3L1]       # A2 の var に無い（PI 判断 2026-10-11）
+  expected_gene_count: 122                # 主の指標に使う個数（T-5 の 25 個未満には当たらない）
+  min_gene_count_T5: 25
+  # 122 個（辞書順。plan.md §3.1 の規則で senmayo_125.csv から機械的に作った固定のリスト）
+  senmayo_122:
+  - ACVR1B
+  - ANG
+  - ANGPT1
+  - ANGPTL4
+  - AREG
+  - AXL
+  - BEX3
+  - BMP2
+  - BMP6
+  - C3
+  - CCL13
+  - CCL16
+  - CCL2
+  - CCL20
+  - CCL24
+  - CCL26
+  - CCL3
+  - CCL4
+  - CCL5
+  - CCL7
+  - CCL8
+  - CD55
+  - CD9
+  - CSF1
+  - CSF2
+  - CSF2RB
+  - CST4
+  - CTNNB1
+  - CTSB
+  - CXCL1
+  - CXCL10
+  - CXCL12
+  - CXCL16
+  - CXCL2
+  - CXCL3
+  - CXCL8
+  - CXCR2
+  - DKK1
+  - EDN1
+  - EGF
+  - EGFR
+  - EREG
+  - ESM1
+  - ETS2
+  - FAS
+  - FGF1
+  - FGF2
+  - FGF7
+  - GDF15
+  - GEM
+  - GMFG
+  - HGF
+  - HMGB1
+  - ICAM1
+  - ICAM3
+  - IGF1
+  - IGFBP1
+  - IGFBP2
+  - IGFBP3
+  - IGFBP4
+  - IGFBP5
+  - IGFBP6
+  - IGFBP7
+  - IL10
+  - IL13
+  - IL15
+  - IL18
+  - IL1A
+  - IL1B
+  - IL2
+  - IL32
+  - IL6
+  - IL6ST
+  - IL7
+  - INHA
+  - IQGAP2
+  - ITGA2
+  - ITPKA
+  - JUN
+  - KITLG
+  - LCP1
+  - MIF
+  - MMP1
+  - MMP10
+  - MMP12
+  - MMP13
+  - MMP14
+  - MMP2
+  - MMP3
+  - MMP9
+  - NAP1L4
+  - NRG1
+  - PAPPA
+  - PECAM1
+  - PGF
+  - PIGF
+  - PLAT
+  - PLAU
+  - PLAUR
+  - PTBP1
+  - PTGER2
+  - PTGES
+  - RPS6KA5
+  - SCAMP4
+  - SELPLG
+  - SEMA3F
+  - SERPINB4
+  - SERPINE1
+  - SERPINE2
+  - SPX
+  - TIMP2
+  - TNF
+  - TNFRSF10C
+  - TNFRSF11B
+  - TNFRSF1A
+  - TNFRSF1B
+  - TUBGCP2
+  - VEGFA
+  - VEGFC
+  - VGF
+  - WNT16
+  - WNT2
+  # 段階 2 で使う予定の陽性対照（**段階 1 では使わない**。循環性の確認だけに名前を使う）
+  positive_control_file: outputs/literature/2026-10-11-senescence-and-degenerated-lists/lake2023_table12.csv
+  positive_control_in_A2_column: in_A2_var
+  # 候補 8 個（HYP-20261007-01。循環性の確認だけに名前を使う）
+  candidate_genes: [MADCAM1, CXCL13, CCL21, CA12, ZFHX3, SLC4A9, GSN, ELN]
+  # 副の指標（仮説 §3.2。盲検でないため判定に使わない。記述のみ）
+  secondary_genes: [CDKN2A, IL6, IL1B, CXCL8, SERPINE1, GLB1, LMNB1, MMP3]
+
+blocked_genes:                       # 盲検中。摂動・対照・指標・出力のどこにも入れない
+  symbols: [TP53, CDKN1A, LTBR, SPP1, LCN2]
+  ensembl: [ENSG00000141510, ENSG00000124762, ENSG00000111321, ENSG00000118785, ENSG00000148346]
+
+# ---------------------------------------------------------------------------
+metric:
+  score: fraction_of_list_genes_detected
+  detection_rule: raw_count_gt_zero     # 生カウント > 0 を検出とする。発現量の大きさは使わない
+  denominator: 122                      # 細胞ごとに変えない（A1 も同じ 122。分母を固定）
+  standardization: reference_only_within_interval   # PI 判断 2026-10-11（案 B）
+  # 区間の中の参照（FIB）だけの細胞から平均 m と不偏標準偏差 sd（分母 n−1）を出す。
+  # **参照＋退化の全体でそろえても Cohen's d と p は同じ値になる**（正の定数倍と平行移動で不変）。
+  sd_denominator: unbiased_n_minus_1
+
+# ---------------------------------------------------------------------------
+decision:                # **plan.md §4 と同一の値。評価コードが照合する**
+  S-1 主判定:
+    比較: 退化（dFIB）> 参照（FIB）
+    test: welch_t_two_sample_one_sided
+    effect_size: cohens_d_pooled
+    effect_size_threshold: 0.5
+    p_threshold: 0.05
+    p_sided: one_sided
+    min_detectable_effect_d: 0.38     # 仮説 §4.1 から引用（n=81 対 93、片側 α=0.05、検出力 80%）
+    power_at_d_0_5: 0.95              # 仮説 §4.1 から引用
+  S-2 特異性:
+    条件: SenMayo の効果量 > 無作為 122 遺伝子 1,000 組の効果量の 99 パーセンタイル
+    n_random_sets: 1000
+    percentile: 99
+    percentile_method: linear_numpy_default   # 昇順 990 番目と 991 番目（1 始まり）の平均
+    effect_size: cohens_d_pooled
+    frequency_matching:
+      strata: deciles_of_senmayo_frequency   # SenMayo 122 個の freq の 10 分位点で層を切る
+      freq_definition: fraction_of_interval_cells_with_raw_count_gt_zero
+      freq_cells: interval_reference_plus_degenerate
+      draw_without_replacement: true
+      shortage_rule: nearest_stratum_with_surplus   # 不足分は頻度中央値が最も近い余っている層から補い、記録する
+      pool_excludes: [blocked_genes, senmayo_122, freq_zero_in_interval]
+      pool_geneformer_dict_required: true
+    random_key: 20261012
+  S-3 深さ依存:
+    d_matched: interval_1000_2000
+    d_unmatched: all_reference_and_degenerate
+    ratio_threshold: 0.3333333333     # d_matched < (1/3) * d_unmatched なら T-4
+  S-4 副次（A1。判定に使わない）:
+    interval: interval_500_1100
+    report: [cohens_d, one_sided_p]
+    random_key_descriptive: 20261013
+  T-1: {condition: effect_below_0.5, key: T1_effect_below_0.5}
+  T-2: {condition: direction_reversed_d_less_than_0, key: T2_direction_reversed}
+  T-3: {condition: senmayo_d_le_99th_percentile, key: T3_not_specific}
+  T-4: {condition: d_matched_lt_third_of_d_unmatched, key: T4_depth_explains}
+  T-5: {condition: usable_gene_count_lt_25, key: T5_indicator_not_viable}
+  T-6: {condition: cells_lt_30_in_either_state, key: T6_too_few_cells}
+  evaluation_order: [T5, T6, T2, T1, T3, T4]   # 複数当たったときは先を採る
+  LODO:
+    unit: donor
+    scope: interval_reference_and_degenerate
+    changes_decision: false           # 記録のみ
+  circularity:
+    # 結果を見る前に遺伝子記号の一致だけで数える
+    sets: [senmayo_122, candidate_genes, positive_control_genes, blocked_genes]
+    known_overlap:
+      senmayo_122_vs_candidate: 0
+      senmayo_122_vs_positive_control_A2: 9   # BEX3, CD9, CTSB, IGFBP2, IGFBP3, IGFBP5, IGFBP7, IL32, MIF
+      candidate_vs_positive_control_A2: 1     # CA12
+      blocked_vs_senmayo_122: 0
+
+# ---------------------------------------------------------------------------
+compute:
+  device: cpu                 # GPU を使わない
+  dtype: fp32                 # 得点は小数の比較。float32
+  gpu_hours_estimate: 0
+  needs_G2_approval: false    # plan.md §9。PI に確認する
+  stats_dtype: float64        # 検定・標準偏差の計算は倍精度で行う（合否には影響しない）
+  random_seed_S2: 20261012
+  random_seed_S2_A1: 20261013
+
+output:
+  experiment_dir: experiments/EXP-20261007-002
+  results_dir: experiments/EXP-20261007-002/results
+  criteria_json: results/criteria_012.json
+  scores_csv: results/scores_012.csv
+  work_dir: experiments/EXP-20261007-002/work
+
+# 摂動を使わないので着手前チェック（axis_feasibility）は適用外。実行しない（plan.md §5.5）。

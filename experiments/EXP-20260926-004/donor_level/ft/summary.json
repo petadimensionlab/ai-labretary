@@ -1,0 +1,982 @@
+{
+ "results": "experiments/EXP-20260926-003/results-ft",
+ "n_cells_rows": 20400,
+ "n_donors": 14,
+ "min_cells_donor": 3,
+ "a2_reimpl_max_abs_diff_vs_gsm": 9.638557313396134e-17,
+ "m_a2": {
+  "cell": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.583,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.85,
+    "ACTB@run-3-L-1": 0.6,
+    "IFT25@run-3-L-1": 0.5,
+    "CERS4@run-3-L-1": 0.85,
+    "VAPA@run-3-L-1": 0.15,
+    "EEF1D@run-3-L-1": 0.6,
+    "RPS13@run-3-L-1": 0.1,
+    "GAPDH@run-3-L-1": 0.75,
+    "HAVCR1@run-3-L-1": 0.45,
+    "RPL32@run-3-L-1": 0.2,
+    "TATDN1@run-3-L-1": 0.85,
+    "VCAM1@run-3-L-1": 1.0,
+    "ANAPC16@run-3-L-1": 0.25,
+    "PPIA@run-3-L-1": 0.15,
+    "PHPT1@run-4-L-1": 0.65,
+    "ACTB@run-4-L-1": 0.1,
+    "IFT25@run-4-L-1": 0.2,
+    "CERS4@run-4-L-1": 0.65,
+    "VAPA@run-4-L-1": 0.3,
+    "EEF1D@run-4-L-1": 0.65,
+    "RPS13@run-4-L-1": 0.3,
+    "GAPDH@run-4-L-1": 0.45,
+    "HAVCR1@run-4-L-1": 0.75,
+    "RPL32@run-4-L-1": 0.3,
+    "TATDN1@run-4-L-1": 0.65,
+    "VCAM1@run-4-L-1": 1.0,
+    "ANAPC16@run-4-L-1": 0.0,
+    "PPIA@run-4-L-1": 0.45,
+    "PHPT1@run-5-L-1": 0.75,
+    "ACTB@run-5-L-1": 0.45,
+    "IFT25@run-5-L-1": 0.15,
+    "CERS4@run-5-L-1": 0.55,
+    "VAPA@run-5-L-1": 0.6,
+    "EEF1D@run-5-L-1": 0.75,
+    "RPS13@run-5-L-1": 0.0,
+    "GAPDH@run-5-L-1": 0.75,
+    "HAVCR1@run-5-L-1": 0.75,
+    "RPL32@run-5-L-1": 0.4,
+    "TATDN1@run-5-L-1": 0.8,
+    "VCAM1@run-5-L-1": 0.95,
+    "ANAPC16@run-5-L-1": 0.2,
+    "PPIA@run-5-L-1": 0.0
+   },
+   "C1_pct": {
+    "VCAM1": [
+     1.0,
+     1.0,
+     0.95
+    ],
+    "HAVCR1": [
+     0.45,
+     0.75,
+     0.75
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.6,
+     0.1,
+     0.45
+    ],
+    "GAPDH": [
+     0.75,
+     0.45,
+     0.75
+    ],
+    "PPIA": [
+     0.15,
+     0.45,
+     0.0
+    ]
+   },
+   "C3": true,
+   "C2_wins": "16/18",
+   "C2": 1.0,
+   "C3_panel_n_ok": "7/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "dl_med": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.583,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.75,
+    "ACTB@run-3-L-1": 0.6,
+    "IFT25@run-3-L-1": 0.3,
+    "CERS4@run-3-L-1": 0.95,
+    "VAPA@run-3-L-1": 0.15,
+    "EEF1D@run-3-L-1": 0.4,
+    "RPS13@run-3-L-1": 0.15,
+    "GAPDH@run-3-L-1": 0.85,
+    "HAVCR1@run-3-L-1": 0.1,
+    "RPL32@run-3-L-1": 0.2,
+    "TATDN1@run-3-L-1": 0.95,
+    "VCAM1@run-3-L-1": 1.0,
+    "ANAPC16@run-3-L-1": 0.3,
+    "PPIA@run-3-L-1": 0.2,
+    "PHPT1@run-4-L-1": 0.8,
+    "ACTB@run-4-L-1": 0.1,
+    "IFT25@run-4-L-1": 0.4,
+    "CERS4@run-4-L-1": 0.65,
+    "VAPA@run-4-L-1": 0.4,
+    "EEF1D@run-4-L-1": 0.8,
+    "RPS13@run-4-L-1": 0.4,
+    "GAPDH@run-4-L-1": 0.8,
+    "HAVCR1@run-4-L-1": 0.85,
+    "RPL32@run-4-L-1": 0.55,
+    "TATDN1@run-4-L-1": 0.8,
+    "VCAM1@run-4-L-1": 1.0,
+    "ANAPC16@run-4-L-1": 0.1,
+    "PPIA@run-4-L-1": 0.6,
+    "PHPT1@run-5-L-1": 0.85,
+    "ACTB@run-5-L-1": 0.6,
+    "IFT25@run-5-L-1": 0.1,
+    "CERS4@run-5-L-1": 0.6,
+    "VAPA@run-5-L-1": 0.65,
+    "EEF1D@run-5-L-1": 0.75,
+    "RPS13@run-5-L-1": 0.0,
+    "GAPDH@run-5-L-1": 0.85,
+    "HAVCR1@run-5-L-1": 0.7,
+    "RPL32@run-5-L-1": 0.05,
+    "TATDN1@run-5-L-1": 0.65,
+    "VCAM1@run-5-L-1": 0.95,
+    "ANAPC16@run-5-L-1": 0.1,
+    "PPIA@run-5-L-1": 0.0
+   },
+   "C1_pct": {
+    "VCAM1": [
+     1.0,
+     1.0,
+     0.95
+    ],
+    "HAVCR1": [
+     0.1,
+     0.85,
+     0.7
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.6,
+     0.1,
+     0.6
+    ],
+    "GAPDH": [
+     0.85,
+     0.8,
+     0.85
+    ],
+    "PPIA": [
+     0.2,
+     0.6,
+     0.0
+    ]
+   },
+   "C3": true,
+   "C2_wins": "14/18",
+   "C2": 0.0,
+   "C3_panel_n_ok": "7/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "dl_mean": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.533,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.75,
+    "ACTB@run-3-L-1": 0.5,
+    "IFT25@run-3-L-1": 0.25,
+    "CERS4@run-3-L-1": 0.9,
+    "VAPA@run-3-L-1": 0.25,
+    "EEF1D@run-3-L-1": 0.3,
+    "RPS13@run-3-L-1": 0.25,
+    "GAPDH@run-3-L-1": 0.8,
+    "HAVCR1@run-3-L-1": 0.25,
+    "RPL32@run-3-L-1": 0.25,
+    "TATDN1@run-3-L-1": 0.85,
+    "VCAM1@run-3-L-1": 1.0,
+    "ANAPC16@run-3-L-1": 0.35,
+    "PPIA@run-3-L-1": 0.1,
+    "PHPT1@run-4-L-1": 0.8,
+    "ACTB@run-4-L-1": 0.15,
+    "IFT25@run-4-L-1": 0.25,
+    "CERS4@run-4-L-1": 0.45,
+    "VAPA@run-4-L-1": 0.15,
+    "EEF1D@run-4-L-1": 0.65,
+    "RPS13@run-4-L-1": 0.45,
+    "GAPDH@run-4-L-1": 0.65,
+    "HAVCR1@run-4-L-1": 0.65,
+    "RPL32@run-4-L-1": 0.4,
+    "TATDN1@run-4-L-1": 0.7,
+    "VCAM1@run-4-L-1": 1.0,
+    "ANAPC16@run-4-L-1": 0.05,
+    "PPIA@run-4-L-1": 0.45,
+    "PHPT1@run-5-L-1": 0.65,
+    "ACTB@run-5-L-1": 0.6,
+    "IFT25@run-5-L-1": 0.05,
+    "CERS4@run-5-L-1": 0.6,
+    "VAPA@run-5-L-1": 0.65,
+    "EEF1D@run-5-L-1": 0.8,
+    "RPS13@run-5-L-1": 0.0,
+    "GAPDH@run-5-L-1": 0.75,
+    "HAVCR1@run-5-L-1": 0.85,
+    "RPL32@run-5-L-1": 0.15,
+    "TATDN1@run-5-L-1": 0.6,
+    "VCAM1@run-5-L-1": 1.0,
+    "ANAPC16@run-5-L-1": 0.1,
+    "PPIA@run-5-L-1": 0.0
+   },
+   "C1_pct": {
+    "VCAM1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "HAVCR1": [
+     0.25,
+     0.65,
+     0.85
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.5,
+     0.15,
+     0.6
+    ],
+    "GAPDH": [
+     0.8,
+     0.65,
+     0.75
+    ],
+    "PPIA": [
+     0.1,
+     0.45,
+     0.0
+    ]
+   },
+   "C3": true,
+   "C2_wins": "16/18",
+   "C2": 1.0,
+   "C3_panel_n_ok": "7/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "split_half": {
+   "cell": {
+    "rho": 0.464,
+    "sd": 0.138,
+    "spearman_brown": 0.634
+   },
+   "dl_med": {
+    "rho": 0.423,
+    "sd": 0.131,
+    "spearman_brown": 0.595
+   },
+   "dl_mean": {
+    "rho": 0.442,
+    "sd": 0.118,
+    "spearman_brown": 0.613
+   }
+  },
+  "C4ii_C5": {
+   "C4ii_seed_rho_fixed5": 0.7,
+   "C5_rho_len_gene": 0.111,
+   "C5_rho_len_cell_median": 0.003
+  },
+  "sign_excess": {
+   "VCAM1": {
+    "frac_donors_pos": 1.0,
+    "null_pct_of_frac_pos": 0.983,
+    "n_donors": 13,
+    "excess_frac_pos": 1.0,
+    "excess_median": 0.0016115397155277338,
+    "excess_wilcoxon_p_greater": 0.0001220703125
+   },
+   "HAVCR1": {
+    "frac_donors_pos": 0.385,
+    "null_pct_of_frac_pos": 0.3,
+    "n_donors": 13,
+    "excess_frac_pos": 0.538,
+    "excess_median": 8.260781136321678e-05,
+    "excess_wilcoxon_p_greater": 0.580322265625
+   },
+   "ACTB": {
+    "frac_donors_pos": 0.462,
+    "null_pct_of_frac_pos": 0.483,
+    "n_donors": 13,
+    "excess_frac_pos": 0.308,
+    "excess_median": -0.00021140869019007922,
+    "excess_wilcoxon_p_greater": 0.8780517578125
+   },
+   "GAPDH": {
+    "frac_donors_pos": 0.667,
+    "null_pct_of_frac_pos": 0.883,
+    "n_donors": 12,
+    "excess_frac_pos": 0.667,
+    "excess_median": 0.00029725582991758746,
+    "excess_wilcoxon_p_greater": 0.169677734375
+   },
+   "PPIA": {
+    "frac_donors_pos": 0.231,
+    "null_pct_of_frac_pos": 0.083,
+    "n_donors": 13,
+    "excess_frac_pos": 0.154,
+    "excess_median": -0.00035130946522322714,
+    "excess_wilcoxon_p_greater": 0.998291015625
+   },
+   "null_frac_pos_median": 0.462
+  },
+  "lodo": {
+   "rho_min": 0.943,
+   "rho_median": 0.969,
+   "n_donors": 14,
+   "n_flip": {
+    "C1": 0,
+    "C2": 0,
+    "C3": 3,
+    "C3_panel": 0
+   },
+   "n_flip_VCAM1_C1": 0,
+   "n_flip_HAVCR1_C1": 0
+  }
+ },
+ "n_donors_per_gene_seed": {
+  "min": 11,
+  "median": 13.0,
+  "max": 13
+ },
+ "m_raw": {
+  "cell": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.133,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.85,
+    "ACTB@run-3-L-1": 0.25,
+    "IFT25@run-3-L-1": 0.45,
+    "CERS4@run-3-L-1": 0.85,
+    "VAPA@run-3-L-1": 0.15,
+    "EEF1D@run-3-L-1": 0.3,
+    "RPS13@run-3-L-1": 0.05,
+    "GAPDH@run-3-L-1": 0.65,
+    "HAVCR1@run-3-L-1": 0.35,
+    "RPL32@run-3-L-1": 0.15,
+    "TATDN1@run-3-L-1": 0.85,
+    "VCAM1@run-3-L-1": 1.0,
+    "ANAPC16@run-3-L-1": 0.2,
+    "PPIA@run-3-L-1": 0.15,
+    "PHPT1@run-4-L-1": 0.65,
+    "ACTB@run-4-L-1": 0.05,
+    "IFT25@run-4-L-1": 0.2,
+    "CERS4@run-4-L-1": 0.65,
+    "VAPA@run-4-L-1": 0.3,
+    "EEF1D@run-4-L-1": 0.6,
+    "RPS13@run-4-L-1": 0.3,
+    "GAPDH@run-4-L-1": 0.35,
+    "HAVCR1@run-4-L-1": 0.8,
+    "RPL32@run-4-L-1": 0.3,
+    "TATDN1@run-4-L-1": 0.7,
+    "VCAM1@run-4-L-1": 1.0,
+    "ANAPC16@run-4-L-1": 0.0,
+    "PPIA@run-4-L-1": 0.35,
+    "PHPT1@run-5-L-1": 0.6,
+    "ACTB@run-5-L-1": 0.35,
+    "IFT25@run-5-L-1": 0.2,
+    "CERS4@run-5-L-1": 0.45,
+    "VAPA@run-5-L-1": 0.6,
+    "EEF1D@run-5-L-1": 0.65,
+    "RPS13@run-5-L-1": 0.0,
+    "GAPDH@run-5-L-1": 0.6,
+    "HAVCR1@run-5-L-1": 0.75,
+    "RPL32@run-5-L-1": 0.35,
+    "TATDN1@run-5-L-1": 0.8,
+    "VCAM1@run-5-L-1": 0.95,
+    "ANAPC16@run-5-L-1": 0.15,
+    "PPIA@run-5-L-1": 0.0
+   },
+   "C1_pct": {
+    "VCAM1": [
+     1.0,
+     1.0,
+     0.95
+    ],
+    "HAVCR1": [
+     0.35,
+     0.8,
+     0.75
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.25,
+     0.05,
+     0.35
+    ],
+    "GAPDH": [
+     0.65,
+     0.35,
+     0.6
+    ],
+    "PPIA": [
+     0.15,
+     0.35,
+     0.0
+    ]
+   },
+   "C3": true,
+   "C2_wins": "17/18",
+   "C2": 1.0,
+   "C3_panel_n_ok": "7/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "dl_med": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.133,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.6,
+    "ACTB@run-3-L-1": 0.45,
+    "IFT25@run-3-L-1": 0.45,
+    "CERS4@run-3-L-1": 0.8,
+    "VAPA@run-3-L-1": 0.15,
+    "EEF1D@run-3-L-1": 0.15,
+    "RPS13@run-3-L-1": 0.1,
+    "GAPDH@run-3-L-1": 0.45,
+    "HAVCR1@run-3-L-1": 0.1,
+    "RPL32@run-3-L-1": 0.1,
+    "TATDN1@run-3-L-1": 0.75,
+    "VCAM1@run-3-L-1": 1.0,
+    "ANAPC16@run-3-L-1": 0.4,
+    "PPIA@run-3-L-1": 0.1,
+    "PHPT1@run-4-L-1": 0.8,
+    "ACTB@run-4-L-1": 0.1,
+    "IFT25@run-4-L-1": 0.4,
+    "CERS4@run-4-L-1": 0.65,
+    "VAPA@run-4-L-1": 0.4,
+    "EEF1D@run-4-L-1": 0.75,
+    "RPS13@run-4-L-1": 0.3,
+    "GAPDH@run-4-L-1": 0.75,
+    "HAVCR1@run-4-L-1": 0.85,
+    "RPL32@run-4-L-1": 0.45,
+    "TATDN1@run-4-L-1": 0.95,
+    "VCAM1@run-4-L-1": 1.0,
+    "ANAPC16@run-4-L-1": 0.05,
+    "PPIA@run-4-L-1": 0.6,
+    "PHPT1@run-5-L-1": 0.9,
+    "ACTB@run-5-L-1": 0.45,
+    "IFT25@run-5-L-1": 0.45,
+    "CERS4@run-5-L-1": 0.65,
+    "VAPA@run-5-L-1": 0.65,
+    "EEF1D@run-5-L-1": 0.6,
+    "RPS13@run-5-L-1": 0.0,
+    "GAPDH@run-5-L-1": 0.9,
+    "HAVCR1@run-5-L-1": 0.65,
+    "RPL32@run-5-L-1": 0.05,
+    "TATDN1@run-5-L-1": 0.65,
+    "VCAM1@run-5-L-1": 1.0,
+    "ANAPC16@run-5-L-1": 0.0,
+    "PPIA@run-5-L-1": 0.0
+   },
+   "C1_pct": {
+    "VCAM1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "HAVCR1": [
+     0.1,
+     0.85,
+     0.65
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.45,
+     0.1,
+     0.45
+    ],
+    "GAPDH": [
+     0.45,
+     0.75,
+     0.9
+    ],
+    "PPIA": [
+     0.1,
+     0.6,
+     0.0
+    ]
+   },
+   "C3": true,
+   "C2_wins": "14/18",
+   "C2": 0.0,
+   "C3_panel_n_ok": "6/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "dl_mean": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.15,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.85,
+    "ACTB@run-3-L-1": 0.25,
+    "IFT25@run-3-L-1": 0.3,
+    "CERS4@run-3-L-1": 0.95,
+    "VAPA@run-3-L-1": 0.15,
+    "EEF1D@run-3-L-1": 0.2,
+    "RPS13@run-3-L-1": 0.15,
+    "GAPDH@run-3-L-1": 0.7,
+    "HAVCR1@run-3-L-1": 0.25,
+    "RPL32@run-3-L-1": 0.1,
+    "TATDN1@run-3-L-1": 0.85,
+    "VCAM1@run-3-L-1": 1.0,
+    "ANAPC16@run-3-L-1": 0.3,
+    "PPIA@run-3-L-1": 0.1,
+    "PHPT1@run-4-L-1": 0.9,
+    "ACTB@run-4-L-1": 0.1,
+    "IFT25@run-4-L-1": 0.35,
+    "CERS4@run-4-L-1": 0.45,
+    "VAPA@run-4-L-1": 0.1,
+    "EEF1D@run-4-L-1": 0.6,
+    "RPS13@run-4-L-1": 0.4,
+    "GAPDH@run-4-L-1": 0.6,
+    "HAVCR1@run-4-L-1": 0.7,
+    "RPL32@run-4-L-1": 0.35,
+    "TATDN1@run-4-L-1": 0.85,
+    "VCAM1@run-4-L-1": 1.0,
+    "ANAPC16@run-4-L-1": 0.0,
+    "PPIA@run-4-L-1": 0.45,
+    "PHPT1@run-5-L-1": 0.55,
+    "ACTB@run-5-L-1": 0.45,
+    "IFT25@run-5-L-1": 0.1,
+    "CERS4@run-5-L-1": 0.5,
+    "VAPA@run-5-L-1": 0.7,
+    "EEF1D@run-5-L-1": 0.65,
+    "RPS13@run-5-L-1": 0.0,
+    "GAPDH@run-5-L-1": 0.65,
+    "HAVCR1@run-5-L-1": 0.75,
+    "RPL32@run-5-L-1": 0.1,
+    "TATDN1@run-5-L-1": 0.6,
+    "VCAM1@run-5-L-1": 1.0,
+    "ANAPC16@run-5-L-1": 0.1,
+    "PPIA@run-5-L-1": 0.0
+   },
+   "C1_pct": {
+    "VCAM1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "HAVCR1": [
+     0.25,
+     0.7,
+     0.75
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.25,
+     0.1,
+     0.45
+    ],
+    "GAPDH": [
+     0.7,
+     0.6,
+     0.65
+    ],
+    "PPIA": [
+     0.1,
+     0.45,
+     0.0
+    ]
+   },
+   "C3": true,
+   "C2_wins": "16/18",
+   "C2": 1.0,
+   "C3_panel_n_ok": "7/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "split_half": {
+   "cell": {
+    "rho": 0.468,
+    "sd": 0.137,
+    "spearman_brown": 0.637
+   },
+   "dl_med": {
+    "rho": 0.446,
+    "sd": 0.123,
+    "spearman_brown": 0.617
+   },
+   "dl_mean": {
+    "rho": 0.445,
+    "sd": 0.107,
+    "spearman_brown": 0.616
+   }
+  },
+  "C4ii_C5": {
+   "C4ii_seed_rho_fixed5": 0.867,
+   "C5_rho_len_gene": 0.235,
+   "C5_rho_len_cell_median": 0.104
+  },
+  "sign_excess": {
+   "VCAM1": {
+    "frac_donors_pos": 1.0,
+    "null_pct_of_frac_pos": 0.967,
+    "n_donors": 13,
+    "excess_frac_pos": 1.0,
+    "excess_median": 0.0015146055338148086,
+    "excess_wilcoxon_p_greater": 0.0001220703125
+   },
+   "HAVCR1": {
+    "frac_donors_pos": 0.692,
+    "null_pct_of_frac_pos": 0.433,
+    "n_donors": 13,
+    "excess_frac_pos": 0.538,
+    "excess_median": 7.723949869215168e-05,
+    "excess_wilcoxon_p_greater": 0.63232421875
+   },
+   "ACTB": {
+    "frac_donors_pos": 0.538,
+    "null_pct_of_frac_pos": 0.183,
+    "n_donors": 13,
+    "excess_frac_pos": 0.231,
+    "excess_median": -0.0004534840791627297,
+    "excess_wilcoxon_p_greater": 0.952880859375
+   },
+   "GAPDH": {
+    "frac_donors_pos": 0.75,
+    "null_pct_of_frac_pos": 0.5,
+    "n_donors": 12,
+    "excess_frac_pos": 0.667,
+    "excess_median": 0.00021421069616436872,
+    "excess_wilcoxon_p_greater": 0.338623046875
+   },
+   "PPIA": {
+    "frac_donors_pos": 0.462,
+    "null_pct_of_frac_pos": 0.1,
+    "n_donors": 13,
+    "excess_frac_pos": 0.077,
+    "excess_median": -0.00037305897598007394,
+    "excess_wilcoxon_p_greater": 0.998779296875
+   },
+   "null_frac_pos_median": 0.721
+  }
+ },
+ "dP_goal_a2": {
+  "cell": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.733,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.8,
+    "ACTB@run-3-L-1": 0.8,
+    "IFT25@run-3-L-1": 0.8,
+    "CERS4@run-3-L-1": 0.8,
+    "VAPA@run-3-L-1": 1.0,
+    "EEF1D@run-3-L-1": 0.4,
+    "RPS13@run-3-L-1": 0.4,
+    "GAPDH@run-3-L-1": 0.5,
+    "HAVCR1@run-3-L-1": 0.35,
+    "RPL32@run-3-L-1": 0.9,
+    "TATDN1@run-3-L-1": 0.15,
+    "VCAM1@run-3-L-1": 0.75,
+    "ANAPC16@run-3-L-1": 0.75,
+    "PPIA@run-3-L-1": 0.4,
+    "PHPT1@run-4-L-1": 0.35,
+    "ACTB@run-4-L-1": 0.75,
+    "IFT25@run-4-L-1": 0.5,
+    "CERS4@run-4-L-1": 0.75,
+    "VAPA@run-4-L-1": 0.8,
+    "EEF1D@run-4-L-1": 0.85,
+    "RPS13@run-4-L-1": 0.8,
+    "GAPDH@run-4-L-1": 0.8,
+    "HAVCR1@run-4-L-1": 0.5,
+    "RPL32@run-4-L-1": 0.7,
+    "TATDN1@run-4-L-1": 0.8,
+    "VCAM1@run-4-L-1": 0.9,
+    "ANAPC16@run-4-L-1": 0.2,
+    "PPIA@run-4-L-1": 0.3,
+    "PHPT1@run-5-L-1": 0.55,
+    "ACTB@run-5-L-1": 0.6,
+    "IFT25@run-5-L-1": 0.4,
+    "CERS4@run-5-L-1": 0.3,
+    "VAPA@run-5-L-1": 0.8,
+    "EEF1D@run-5-L-1": 0.6,
+    "RPS13@run-5-L-1": 0.1,
+    "GAPDH@run-5-L-1": 0.0,
+    "HAVCR1@run-5-L-1": 0.15,
+    "RPL32@run-5-L-1": 0.6,
+    "TATDN1@run-5-L-1": 0.1,
+    "VCAM1@run-5-L-1": 0.6,
+    "ANAPC16@run-5-L-1": 0.6,
+    "PPIA@run-5-L-1": 0.55
+   },
+   "C1_pct": {
+    "VCAM1": [
+     0.75,
+     0.9,
+     0.6
+    ],
+    "HAVCR1": [
+     0.35,
+     0.5,
+     0.15
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.8,
+     0.75,
+     0.6
+    ],
+    "GAPDH": [
+     0.5,
+     0.8,
+     0.0
+    ],
+    "PPIA": [
+     0.4,
+     0.3,
+     0.55
+    ]
+   },
+   "C3": true,
+   "C2_wins": "9/18",
+   "C2": 0.0,
+   "C3_panel_n_ok": "7/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "dl_med": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.95,
+   "pct": {
+    "PHPT1@run-3-L-1": 1.0,
+    "ACTB@run-3-L-1": 1.0,
+    "IFT25@run-3-L-1": 0.4,
+    "CERS4@run-3-L-1": 0.75,
+    "VAPA@run-3-L-1": 0.6,
+    "EEF1D@run-3-L-1": 0.55,
+    "RPS13@run-3-L-1": 0.85,
+    "GAPDH@run-3-L-1": 0.8,
+    "HAVCR1@run-3-L-1": 0.4,
+    "RPL32@run-3-L-1": 0.7,
+    "TATDN1@run-3-L-1": 0.4,
+    "VCAM1@run-3-L-1": 1.0,
+    "ANAPC16@run-3-L-1": 0.6,
+    "PPIA@run-3-L-1": 0.45,
+    "PHPT1@run-4-L-1": 0.45,
+    "ACTB@run-4-L-1": 0.6,
+    "IFT25@run-4-L-1": 0.25,
+    "CERS4@run-4-L-1": 0.6,
+    "VAPA@run-4-L-1": 0.3,
+    "EEF1D@run-4-L-1": 0.45,
+    "RPS13@run-4-L-1": 0.7,
+    "GAPDH@run-4-L-1": 0.45,
+    "HAVCR1@run-4-L-1": 0.6,
+    "RPL32@run-4-L-1": 0.6,
+    "TATDN1@run-4-L-1": 0.45,
+    "VCAM1@run-4-L-1": 0.6,
+    "ANAPC16@run-4-L-1": 0.6,
+    "PPIA@run-4-L-1": 0.35,
+    "PHPT1@run-5-L-1": 0.75,
+    "ACTB@run-5-L-1": 0.95,
+    "IFT25@run-5-L-1": 0.75,
+    "CERS4@run-5-L-1": 0.15,
+    "VAPA@run-5-L-1": 0.35,
+    "EEF1D@run-5-L-1": 0.95,
+    "RPS13@run-5-L-1": 0.75,
+    "GAPDH@run-5-L-1": 0.95,
+    "HAVCR1@run-5-L-1": 0.2,
+    "RPL32@run-5-L-1": 0.85,
+    "TATDN1@run-5-L-1": 0.35,
+    "VCAM1@run-5-L-1": 0.85,
+    "ANAPC16@run-5-L-1": 0.85,
+    "PPIA@run-5-L-1": 0.75
+   },
+   "C1_pct": {
+    "VCAM1": [
+     1.0,
+     0.6,
+     0.85
+    ],
+    "HAVCR1": [
+     0.4,
+     0.6,
+     0.2
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     1.0,
+     0.6,
+     0.95
+    ],
+    "GAPDH": [
+     0.8,
+     0.45,
+     0.95
+    ],
+    "PPIA": [
+     0.45,
+     0.35,
+     0.75
+    ]
+   },
+   "C3": false,
+   "C2_wins": "8/18",
+   "C2": 0.0,
+   "C3_panel_n_ok": "7/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "dl_mean": {
+   "n_seeds": 3,
+   "null_frac_negative": 0.767,
+   "pct": {
+    "PHPT1@run-3-L-1": 0.8,
+    "ACTB@run-3-L-1": 0.8,
+    "IFT25@run-3-L-1": 0.8,
+    "CERS4@run-3-L-1": 0.8,
+    "VAPA@run-3-L-1": 1.0,
+    "EEF1D@run-3-L-1": 0.5,
+    "RPS13@run-3-L-1": 0.5,
+    "GAPDH@run-3-L-1": 0.7,
+    "HAVCR1@run-3-L-1": 0.55,
+    "RPL32@run-3-L-1": 0.9,
+    "TATDN1@run-3-L-1": 0.15,
+    "VCAM1@run-3-L-1": 0.8,
+    "ANAPC16@run-3-L-1": 0.65,
+    "PPIA@run-3-L-1": 0.55,
+    "PHPT1@run-4-L-1": 0.25,
+    "ACTB@run-4-L-1": 0.55,
+    "IFT25@run-4-L-1": 0.35,
+    "CERS4@run-4-L-1": 0.75,
+    "VAPA@run-4-L-1": 0.35,
+    "EEF1D@run-4-L-1": 0.85,
+    "RPS13@run-4-L-1": 0.75,
+    "GAPDH@run-4-L-1": 0.8,
+    "HAVCR1@run-4-L-1": 0.55,
+    "RPL32@run-4-L-1": 0.6,
+    "TATDN1@run-4-L-1": 0.8,
+    "VCAM1@run-4-L-1": 0.9,
+    "ANAPC16@run-4-L-1": 0.2,
+    "PPIA@run-4-L-1": 0.25,
+    "PHPT1@run-5-L-1": 0.65,
+    "ACTB@run-5-L-1": 0.7,
+    "IFT25@run-5-L-1": 0.65,
+    "CERS4@run-5-L-1": 0.3,
+    "VAPA@run-5-L-1": 0.95,
+    "EEF1D@run-5-L-1": 0.7,
+    "RPS13@run-5-L-1": 0.15,
+    "GAPDH@run-5-L-1": 0.0,
+    "HAVCR1@run-5-L-1": 0.25,
+    "RPL32@run-5-L-1": 0.65,
+    "TATDN1@run-5-L-1": 0.15,
+    "VCAM1@run-5-L-1": 0.65,
+    "ANAPC16@run-5-L-1": 0.65,
+    "PPIA@run-5-L-1": 0.6
+   },
+   "C1_pct": {
+    "VCAM1": [
+     0.8,
+     0.9,
+     0.65
+    ],
+    "HAVCR1": [
+     0.55,
+     0.55,
+     0.25
+    ]
+   },
+   "C1": false,
+   "C3_pct": {
+    "ACTB": [
+     0.8,
+     0.55,
+     0.7
+    ],
+    "GAPDH": [
+     0.7,
+     0.8,
+     0.0
+    ],
+    "PPIA": [
+     0.55,
+     0.25,
+     0.6
+    ]
+   },
+   "C3": true,
+   "C2_wins": "9/18",
+   "C2": 0.0,
+   "C3_panel_n_ok": "6/7",
+   "C3_panel": true,
+   "all_C1_C3_panel": false
+  },
+  "split_half": {
+   "cell": {
+    "rho": 0.25,
+    "sd": 0.166,
+    "spearman_brown": 0.4
+   },
+   "dl_med": {
+    "rho": 0.378,
+    "sd": 0.192,
+    "spearman_brown": 0.549
+   },
+   "dl_mean": {
+    "rho": 0.252,
+    "sd": 0.151,
+    "spearman_brown": 0.403
+   }
+  },
+  "C4ii_C5": {
+   "C4ii_seed_rho_fixed5": 0.467,
+   "C5_rho_len_gene": -0.045,
+   "C5_rho_len_cell_median": -0.151
+  },
+  "sign_excess": {
+   "VCAM1": {
+    "frac_donors_pos": 0.231,
+    "null_pct_of_frac_pos": 0.533,
+    "n_donors": 13,
+    "excess_frac_pos": 0.769,
+    "excess_median": 4.872785898879631e-05,
+    "excess_wilcoxon_p_greater": 0.1697998046875
+   },
+   "HAVCR1": {
+    "frac_donors_pos": 0.0,
+    "null_pct_of_frac_pos": 0.0,
+    "n_donors": 13,
+    "excess_frac_pos": 0.462,
+    "excess_median": -8.774578463226675e-06,
+    "excess_wilcoxon_p_greater": 0.8121337890625
+   },
+   "ACTB": {
+    "frac_donors_pos": 0.308,
+    "null_pct_of_frac_pos": 0.75,
+    "n_donors": 13,
+    "excess_frac_pos": 0.769,
+    "excess_median": 2.6212801252475477e-05,
+    "excess_wilcoxon_p_greater": 0.1878662109375
+   },
+   "GAPDH": {
+    "frac_donors_pos": 0.167,
+    "null_pct_of_frac_pos": 0.417,
+    "n_donors": 12,
+    "excess_frac_pos": 0.583,
+    "excess_median": 2.115872168269184e-05,
+    "excess_wilcoxon_p_greater": 0.661376953125
+   },
+   "PPIA": {
+    "frac_donors_pos": 0.0,
+    "null_pct_of_frac_pos": 0.0,
+    "n_donors": 13,
+    "excess_frac_pos": 0.308,
+    "excess_median": -2.7330155577089945e-05,
+    "excess_wilcoxon_p_greater": 0.9364013671875
+   },
+   "null_frac_pos_median": 0.167
+  }
+ }
+}

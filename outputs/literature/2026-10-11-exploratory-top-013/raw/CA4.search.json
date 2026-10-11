@@ -1,0 +1,134 @@
+{
+ "kidney_fib": {
+  "count": "0",
+  "records": []
+ },
+ "senescence": {
+  "count": "158",
+  "records": [
+   {
+    "pmid": "42737681",
+    "date": "2026 Aug 31",
+    "journal": "Int J Mol Sci",
+    "title": "HIF-2α Depletion and HIF-1α Overexpression in Vulnerable Brain Regions Distinguish Alzheimer's Disease with Cerebral Amyloid Angiopathy.",
+    "authors": [
+     "Sukhorukov VS",
+     "Baranich TI",
+     "Velts OV"
+    ],
+    "doi": "10.3390/ijms27177784"
+   },
+   {
+    "pmid": "42315716",
+    "date": "2026 Jun 18",
+    "journal": "Geroscience",
+    "title": "High-resolution MRI evidence for age- and sex-related changes in hippocampal subfield volume during healthy aging.",
+    "authors": [
+     "Hall MC",
+     "Picci G",
+     "Rempe MP"
+    ],
+    "doi": "10.1007/s11357-026-02371-z"
+   },
+   {
+    "pmid": "42167633",
+    "date": "2026 Sep 15",
+    "journal": "Brain Res",
+    "title": "Hippocampal subfield volumes and associated cognitive decline with ageing.",
+    "authors": [
+     "Singh AD",
+     "Kumar M",
+     "Bhargavi P"
+    ],
+    "doi": "10.1016/j.brainres.2026.150391"
+   },
+   {
+    "pmid": "42119945",
+    "date": "2026 May 12",
+    "journal": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+    "title": "Hippocampal Total, Subregion, and Subfield Volume Alterations in Late-Life Depression.",
+    "authors": [
+     "Renfro B",
+     "Szymkowicz SM",
+     "Xu K"
+    ],
+    "doi": "10.1016/j.bpsc.2026.04.015"
+   },
+   {
+    "pmid": "42033046",
+    "date": "2026 May",
+    "journal": "Aging Cell",
+    "title": "The Myokine Irisin Represents an Indirect Pathway Linking Exercise to Hippocampal Subfields Relevant to Alzheimer's Disease and Neurogenesis.",
+    "authors": [
+     "Pace T",
+     "Levenstein JM",
+     "Quigley BL"
+    ],
+    "doi": "10.1111/acel.70497"
+   },
+   {
+    "pmid": "41603971",
+    "date": "2026 Jan 28",
+    "journal": "Brain Struct Funct",
+    "title": "Age-related volumetric differences of hippocampal subfields in the developing brain: a retrospective MRI study.",
+    "authors": [
+     "Işıklar S",
+     "Sağlam D"
+    ],
+    "doi": "10.1007/s00429-026-03074-z"
+   },
+   {
+    "pmid": "41465466",
+    "date": "2025 Dec 14",
+    "journal": "Int J Mol Sci",
+    "title": "Limited Microvascular Remodelling Occurs in the Aged Human Hippocampus in Obstructive Sleep Apnoea.",
+    "authors": [
+     "Xu C",
+     "Owen JE",
+     "Gislason T"
+    ],
+    "doi": "10.3390/ijms262412040"
+   },
+   {
+    "pmid": "41403093",
+    "date": "2026 Apr",
+    "journal": "J Magn Reson Imaging",
+    "title": "Hippocampal Subfield Integrity and Age-Driven Neural Correlates of Appetite Loss in Amyotrophic Lateral Sclerosis.",
+    "authors": [
+     "Ghaderi S",
+     "Mohammadi S",
+     "Kalra S"
+    ],
+    "doi": "10.1002/jmri.70206"
+   },
+   {
+    "pmid": "41284116",
+    "date": "2025 Nov 24",
+    "journal": "Discov Oncol",
+    "title": "A Mendelian randomization-based risk model using aging-related genes for prognosis in lung adenocarcinoma.",
+    "authors": [
+     "Feng S",
+     "Liu X",
+     "Yang H"
+    ],
+    "doi": "10.1007/s12672-025-04101-x"
+   },
+   {
+    "pmid": "41275694",
+    "date": "2026 Feb",
+    "journal": "Brain Cogn",
+    "title": "Age-related spatial discrimination: Investigating hippocampal structural foundations.",
+    "authors": [
+     "Wu J",
+     "Zhang JX",
+     "Li HJ"
+    ],
+    "doi": "10.1016/j.bandc.2025.106380"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "seeds": [
+  81,
+  82,
+  83
+ ],
+ "machines": {
+  "81": "spark-cf5b",
+  "82": "spark-c083",
+  "83": "spark-c083"
+ },
+ "per_seed": {
+  "81": {
+   "machine": "spark-cf5b",
+   "n_genes": 600,
+   "blocked_present": [],
+   "n_missing_emb": 0,
+   "missing_emb": []
+  },
+  "82": {
+   "machine": "spark-c083",
+   "n_genes": 600,
+   "blocked_present": [],
+   "n_missing_emb": 0,
+   "missing_emb": []
+  },
+  "83": {
+   "machine": "spark-c083",
+   "n_genes": 600,
+   "blocked_present": [],
+   "n_missing_emb": 0,
+   "missing_emb": []
+  }
+ },
+ "roles": {
+  "(81, 'housekeeping')": 3,
+  "(81, 'housekeeping_extra')": 1,
+  "(81, 'negative')": 500,
+  "(81, 'negctrl_panel')": 7,
+  "(81, 'positive')": 71,
+  "(81, 'target')": 18,
+  "(82, 'housekeeping')": 3,
+  "(82, 'housekeeping_extra')": 1,
+  "(82, 'negative')": 500,
+  "(82, 'negctrl_panel')": 7,
+  "(82, 'positive')": 71,
+  "(82, 'target')": 18,
+  "(83, 'housekeeping')": 3,
+  "(83, 'housekeeping_extra')": 1,
+  "(83, 'negative')": 500,
+  "(83, 'negctrl_panel')": 7,
+  "(83, 'positive')": 71,
+  "(83, 'target')": 18
+ },
+ "expected_genes_per_seed": 600,
+ "all_seeds_complete": true,
+ "no_blocked_genes": true,
+ "no_missing_embeddings": true,
+ "merged_files_sha256": {
+  "cells.csv": "f32ebe3cac11ab09507e342bd8649d1a72f2b981acccfbc1bb0b79c292ceb5d5",
+  "summary.csv": "d13ef666ea8517325abb9630de42a12e5fbe9c28f4b0752090c84c22b18eb5e4"
+ }
+}

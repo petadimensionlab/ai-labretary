@@ -1,0 +1,42 @@
+{
+ "goal_top_frac": 0.05,
+ "n_goal": 950,
+ "n_start": 18099,
+ "n_start_len_le_4096": 17635,
+ "chemo_with_len_filter": {
+  "CXCL13": {
+   "cap20_start": 129,
+   "cap20_start_len_le_4096": 119
+  },
+  "CCL19": {
+   "cap20_start": 135,
+   "cap20_start_len_le_4096": 130
+  },
+  "CCL21": {
+   "cap20_start": 278,
+   "cap20_start_len_le_4096": 267
+  },
+  "LTB": {
+   "cap20_start": 128,
+   "cap20_start_len_le_4096": 117
+  },
+  "TNFSF14": {
+   "cap20_start": 138,
+   "cap20_start_len_le_4096": 114
+  },
+  "CXCL16": {
+   "cap20_start": 187,
+   "cap20_start_len_le_4096": 172
+  },
+  "CXCL1": {
+   "cap20_start": 133,
+   "cap20_start_len_le_4096": 116
+  }
+ },
+ "universe": {
+  "n_genes_in_var": 35439,
+  "n_genes_in_geneformer_dict": 19225,
+  "n_genes_pass120_cap20_in_start": 13450,
+  "n_genes_pass120_and_in_dict": 13450
+ }
+}

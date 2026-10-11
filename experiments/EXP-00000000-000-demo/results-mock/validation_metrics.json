@@ -1,0 +1,156 @@
+{
+  "mock_data": true,
+  "n_runs": 3,
+  "n_genes": 253,
+  "positive": {
+    "n": 3,
+    "median_pct_rank": 0.007905138339920948,
+    "frac_fdr_sig": 1.0,
+    "pass": true
+  },
+  "negative": {
+    "n": 50,
+    "null_q95": 0.009682185382538145,
+    "mwu_p_target_gt_null": 0.42156939783310765,
+    "n_targets_above_null_q95": 12,
+    "neg_frac_fdr_sig": 0.0,
+    "pass": true
+  },
+  "robustness": {
+    "pairwise_spearman": [
+      0.759,
+      0.773,
+      0.8
+    ],
+    "min_rho": 0.759269715791455,
+    "pass": true
+  },
+  "confound_expression": {
+    "spearman_ndet_vs_shift": 0.05178065950357669,
+    "n_det_source": "n_detections",
+    "n_genes": 253,
+    "pass": true
+  },
+  "top_targets": [
+    {
+      "gene": "ENSGTGT00036",
+      "shift": 0.01349,
+      "sd": 0.0011,
+      "fdr": 0.222
+    },
+    {
+      "gene": "ENSGTGT00063",
+      "shift": 0.01272,
+      "sd": 0.0026,
+      "fdr": 0.31964
+    },
+    {
+      "gene": "ENSGTGT00076",
+      "shift": 0.0116,
+      "sd": 0.00215,
+      "fdr": 0.32682
+    },
+    {
+      "gene": "ENSGTGT00059",
+      "shift": 0.01119,
+      "sd": 0.00121,
+      "fdr": 0.35227
+    },
+    {
+      "gene": "ENSGTGT00044",
+      "shift": 0.01115,
+      "sd": 0.00354,
+      "fdr": 0.49519
+    },
+    {
+      "gene": "ENSGTGT00113",
+      "shift": 0.01107,
+      "sd": 0.00336,
+      "fdr": 0.41567
+    },
+    {
+      "gene": "ENSGTGT00088",
+      "shift": 0.01019,
+      "sd": 0.00579,
+      "fdr": 0.79041
+    },
+    {
+      "gene": "ENSGTGT00086",
+      "shift": 0.01001,
+      "sd": 0.00323,
+      "fdr": 0.59085
+    },
+    {
+      "gene": "ENSGTGT00133",
+      "shift": 0.00983,
+      "sd": 0.00299,
+      "fdr": 0.58395
+    },
+    {
+      "gene": "ENSGTGT00045",
+      "shift": 0.00979,
+      "sd": 0.00518,
+      "fdr": 0.79041
+    },
+    {
+      "gene": "ENSGTGT00184",
+      "shift": 0.00976,
+      "sd": 0.00258,
+      "fdr": 0.4769
+    },
+    {
+      "gene": "ENSGTGT00161",
+      "shift": 0.00968,
+      "sd": 0.00096,
+      "fdr": 0.40507
+    },
+    {
+      "gene": "ENSGTGT00165",
+      "shift": 0.00967,
+      "sd": 0.00421,
+      "fdr": 0.69728
+    },
+    {
+      "gene": "ENSGTGT00038",
+      "shift": 0.00944,
+      "sd": 0.00139,
+      "fdr": 0.44897
+    },
+    {
+      "gene": "ENSGTGT00064",
+      "shift": 0.00921,
+      "sd": 0.00411,
+      "fdr": 0.67209
+    },
+    {
+      "gene": "ENSGTGT00192",
+      "shift": 0.00918,
+      "sd": 0.00187,
+      "fdr": 0.54918
+    },
+    {
+      "gene": "ENSGTGT00018",
+      "shift": 0.00908,
+      "sd": 0.00079,
+      "fdr": 0.49787
+    },
+    {
+      "gene": "ENSGTGT00071",
+      "shift": 0.00847,
+      "sd": 0.00115,
+      "fdr": 0.47796
+    },
+    {
+      "gene": "ENSGTGT00136",
+      "shift": 0.00835,
+      "sd": 0.0013,
+      "fdr": 0.54918
+    },
+    {
+      "gene": "ENSGTGT00167",
+      "shift": 0.00814,
+      "sd": 0.0009,
+      "fdr": 0.58956
+    }
+  ]
+}

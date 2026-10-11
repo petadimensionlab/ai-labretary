@@ -1,0 +1,27 @@
+{
+ "kidney_fib": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "24612955",
+    "date": "2014 May",
+    "journal": "Anim Reprod Sci",
+    "title": "Genome-wide association study for poor sperm motility in Holstein-Friesian bulls.",
+    "authors": [
+     "Hering DM",
+     "Olenski K",
+     "Kaminski S"
+    ],
+    "doi": "10.1016/j.anireprosci.2014.01.012"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "0",
+  "records": []
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

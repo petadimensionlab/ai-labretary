@@ -1,0 +1,122 @@
+# EXP-20260926-004 (a) — DE マッチ比較遺伝子（非ドライバーの aPT 上昇遺伝子）の ISP。FT モデル（EXP-003 models/ft-main/final）
+# EXP-003 phase 3（results-ft）と同じ細胞・同じ seed・同じ状態重心の定義。null は回さず、EXP-003 の null と統合して評価する
+# （統合の妥当性: VCAM1・GAPDH（全 seed）と seed 3 の null 1 遺伝子を再実行し、細胞・重心・shift の一致を確認。plan.md §A.4）
+# 事前登録: plan.md §A（ISP 前に記入）。遺伝子の選定は発現データのみ（analysis/de_matched_select.py, de_matched/selected.csv）
+experiment_id: EXP-20260926-004
+hypothesis_id: HYP-20260926-03      # proposed（方法仮説）。PI 実行指示「全て実行」2026-09-26
+
+model:
+  version: V2
+  directory: experiments/EXP-20260926-003/models/ft-main/final   # FT 済み（BertForSequenceClassification, 2 クラス）
+  type: CellClassifier
+  num_classes: 2                    # 0 = aPT_CKD, 1 = PT_healthy（id_class.json）
+  emb_layer: -1                     # EXP-002 と同じ（最終層の 1 つ手前）。分類ヘッドの出力は capture.classifier_logits で別に取る
+
+data:
+  input_h5ad: experiments/EXP-20260926-001/work/input.h5ad          # 読み取りのみ（tokenized があるので使わない）
+  tokenized_dataset: experiments/EXP-20260926-004/work/tokenized.dataset   # EXP-003 の複製（データ部分のみ APFS clone, sha256 ba3a14c0… 一致, work/tokenized.SHA256SUMS）
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict: {isp_state: isp_state, donor_id: donor_id, TLS_group: TLS_group,
+                          author_cell_type: author_cell_type, disease: disease}
+  filter_data: null
+  max_ncells: null
+
+states:                             # EXP-001 run 1（tls_high）と同じ
+  start_state: aPT_CKD_TLShigh
+  goal_state: PT_healthy
+  alt_states: [aPT_CKD_TLSlow]
+
+cell_selection:
+  max_cells_per_gene: 200           # EXP-001 の 100 → 200（EXP-002 plan §8。案 A と同じ）
+  max_cells_per_donor: 25           # 14 donor × 25 = 350 ≥ 200
+  min_cells_per_gene: 100
+  donor_key: donor_id
+
+state_embs:
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+  include_donors:                   # goal 重心は FT に使っていない held-out 健常 donor だけで作る（config-finetune.yaml split.test）
+    PT_healthy: [PRE038, 164-6, PRE027, Sample1162-EO1, Sample1162-EO2, PRE98sc, Sample1153-EO1, Sample1153-EO2, Sample1153-EO3]
+  # start（TLS-high 14 donor）は全員 held-out。alt（TLS-low 8 donor）は全員 FT の train/eval に使われている → alt 方向は参考値（plan §9）
+
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  controls_only: true               # 盲検: 指標の確定までは主要対象・参照を回さない
+  genes_to_perturb: []
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+
+controls:
+  positive:
+    - ENSG00000162692               # VCAM1（再実行: EXP-003 と同一になるかの確認用。評価は EXP-003 の値を使う）
+  negative_random_n: 0              # null は回さない（EXP-003 results-ft の null 20 遺伝子/seed を統合して使う）
+  negative_sampler:                 # EXP-003 と同じ設定（n=0 なので抽出しない）
+    method: freq_matched
+    min_cells: 300
+    ratio_tolerance: 1.5
+    seed_offset: 0
+    ref_genes:                      # 頻度の参照のみ（盲検対象。回さない）
+      - ENSG00000141510             # TP53
+      - ENSG00000124762             # CDKN1A
+      - ENSG00000111321             # LTBR
+      - ENSG00000118785             # SPP1
+      - ENSG00000148346             # LCN2
+  negative_fixed:
+    - ENSG00000111640               # GAPDH（再実行: 一致確認用）
+  fixed_role: housekeeping
+  extra_fixed:
+    - role: de_matched              # DE マッチ比較遺伝子 10（発現データのみで選定, de_matched/selected.csv）
+      genes:
+        - ENSG00000110841   # PPFIBP1  (VCAM1 帯)
+        - ENSG00000131016   # AKAP12   (VCAM1 帯)
+        - ENSG00000198832   # SELENOM  (VCAM1 帯)
+        - ENSG00000161249   # DMKN     (VCAM1 帯)
+        - ENSG00000006747   # SCIN     (VCAM1 帯)
+        - ENSG00000165887   # ANKRD2   (HAVCR1 帯)
+        - ENSG00000140450   # ARRDC4   (HAVCR1 帯)
+        - ENSG00000127415   # IDUA     (HAVCR1 帯)
+        - ENSG00000179542   # SLITRK4  (HAVCR1 帯)
+        - ENSG00000145536   # ADAMTS16 (HAVCR1 帯)
+    - role: recheck_null            # EXP-003 seed 3 の null 1 遺伝子（seed 3 だけ一致確認に使う。評価には使わない）
+      genes:
+        - ENSG00000112297
+
+capture:
+  embeddings: true                  # 元/摂動後の CLS 埋め込み（EXP-002 と同じ。Pretrained との照合・ベクトル指標）
+  classifier_logits: true           # 分類ヘッドの logits（元/摂動後）→ ΔP(PT_healthy)（副指標, plan §6）
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+analysis:                           # plan.md §A.3 の事前登録（EXP-003 の基準・指標に DE マッチ比較を追加）
+  primary_metric: a2
+  secondary_metrics: [m_raw, dP_goal_a2]
+  length_bins: 5
+  merge_with: experiments/EXP-20260926-003/results-ft   # null・陽性・HK・パネルはここから
+  de_decision:
+    vcam1_pct_in_de_min: 0.90       # VCAM1 の a2 が DE マッチ 10 遺伝子の 90% 以上（= 9/10 以上）を上回る
+    min_seeds: 2                    # 3 seed 中 2 以上 → 「マーカー除去では説明できない」。満たさなければ「マーカー除去と区別できない」
+  merge_check:
+    max_abs_diff_shift: 1.0e-6      # 再実行した遺伝子の細胞ごと shift_goal の最大差（これ以下なら統合可）
+    require_same_cells: true
+
+robustness:
+  seeds: [3, 4, 5]                  # EXP-002 案 A と同じ seed → 同じ細胞・同じ null 遺伝子（CPU で一致を確認済み, plan §4）
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: de_matched/results-de
+
+compute:
+  device: mps
+  dtype: bf16                       # PI 標準。forward bf16、コサイン・ベクトル演算は fp32（保存 fp32, 解析 float64）
+  cache_model: true
+  sec_per_cell_gene: 0.13           # EXP-003 phase 3 の spark-cf5b 実測（20,400 細胞×遺伝子 / 44 min, 重心込み）
+  gpu_hours_estimate: 0.3           # 13 遺伝子 × 200 × 3 seed = 7,800 → 約 17 min + 重心（G2 不要, PI 実行承認済み）

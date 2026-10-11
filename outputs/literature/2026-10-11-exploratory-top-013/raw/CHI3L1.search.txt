@@ -1,0 +1,23 @@
+== kidney_fib (count=9)
+  42202512 | 2026 Jun 24 | Placenta | Molecular spatial profiling of chronic intervillositis of unknown etiology implies aberrant lipid metabolism.
+  39796197 | 2025 Jan 2 | Int J Mol Sci | Physical Exercise: A Promising Treatment Against Organ Fibrosis.
+  35300523 | 2022 Apr 19 | Circulation | Therapeutic Targets for Heart Failure Identified Using Proteomics and Mendelian Randomization.
+  33290282 | 2021 Feb 1 | J Clin Invest | Biomarkers of inflammation and repair in kidney disease progression.
+  32723374 | 2020 Jul 28 | BMC Nephrol | Mannitol and renal graft injury in patients undergoing deceased donor renal transplantation - a randomized controlled clinical trial.
+  32111704 | 2020 Mar 6 | Clin J Am Soc Nephrol | Urine Markers of Kidney Tubule Cell Injury and Kidney Function Decline in SPRINT Trial Participants with CKD.
+  28679671 | 2017 Nov | J Am Soc Nephrol | Breast Regression Protein-39/Chitinase 3-Like 1 Promotes Renal Fibrosis after Kidney Injury via Activation of Myofibroblasts.
+  27189318 | 2016 Aug 8 | Clin J Am Soc Nephrol | Association of Urinary Biomarkers of Inflammation, Injury, and Fibrosis with Renal Function Decline: The ACCORD Trial.
+  20201406 | 2010 Jan-Feb | Tsitol Genet | Chitinase 3-like protein 2 (CHI3L2, YKL-39) activates phosphorylation of extracellular signal-regulated kinases ERK1/ERK2 in human embryonic kidney (HEK293) and human gli
+== senescence (count=55)
+  41938515 | 2026 | Int J Med Sci | Betulin inhibits inflammatory factors synthesis in osteoarthritis synovial fibroblasts by suppressing the PI3K, Akt, and mTOR pathways and activating miR-5006-5p.
+  41762671 | 2026 Oct 5 | Brain | Constitutive neuronal expression and disease-associated upregulation of chitinases in amyotrophic lateral sclerosis.
+  41756213 | 2026 | Brain Commun | Increased cerebrospinal fluid YKL-40 concentration in hip fracture patients with delirium.
+  41739819 | 2026 | PLoS One | Transcriptomic response of skeletal muscle to acute aerobic versus combined exercise in chronic kidney disease.
+  41583005 | 2025 | Front Aging Neurosci | The interplay of homeostasis, inflammation, and oxidative stress in neurodegenerative disorders: the role of biological markers, antioxidants, lithium, and TMS - a propos
+  41425914 | 2025 | Front Aging Neurosci | Peripheral CHI3L1 expression is associated with APOE ε4 status in early-onset Alzheimer's disease.
+  41324815 | 2025 Dec 1 | Mol Neurobiol | Sex-Specific Molecular Architecture of Microglia-Mediated Neuronal Pruning Across the Human Lifespan.
+  41282856 | 2025 Oct 24 | medRxiv | Plasma proteomic signatures of preclinical Alzheimer's disease biomarkers and memory in clinically unimpaired older adults.
+  41107120 | 2025 Dec | Ann Rheum Dis | Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.
+  40842648 | 2025 | Front Aging Neurosci | Neuroinflammation-mediated YKL-40 correlates with tau pathology and predicts longitudinal cognitive impairment and brain atrophy in Alzheimer's disease, with hypertensive
+== tls_lymphoid (count=1)
+  39397494 | 2024 Jan-Dec | Gut Microbes | ChiA: a major player in the virulence of Crohn's disease-associated adherent and invasive Escherichia coli (AIEC).

@@ -1,0 +1,2 @@
+# Linux: crontab -e で追記（パスは置換）
+0 1 * * 1-5  cd /path/to/ai-labretary && /bin/bash -lc ./labretary-nightshift.sh >> logs/nightshift/cron.log 2>&1

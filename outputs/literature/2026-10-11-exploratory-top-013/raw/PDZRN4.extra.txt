@@ -1,0 +1,9 @@
+== PDZRN4 / pdzrn4_any (count=24)
+  41463551 | 2025 Dec 12 | Biology (Basel) | Whole-Genome Resequencing Analysis Reveals the Local Ancestry and Selection of Kongshan Cattle.
+  41461926 | 2026 Feb | Oncogene | PDZRN4 suppresses lung adenocarcinoma progression via inhibiting ubiquitin-mediated HIF-1A degradation.
+  40867662 | 2025 Aug 8 | Animals (Basel) | Integrating Genomic Selection and Genome-Wide Association Study to Enhance Reproductive Traits in Thai Swamp Buffalo.
+  40775408 | 2025 Aug 7 | Discov Oncol | Integrative analysis identifies FBXO5 as a critical mediator of CRPC progression and bone metastatic potential.
+  40643968 | 2025 Dec | Anim Biotechnol | Candidate gene search for milk production and composition, milk coagulation properties, and milk protein profile in dairy sheep from a New Zealand flock.
+  40264196 | 2025 Apr 22 | Cancer Cell Int | Integrating multi-cohort machine learning and clinical sample validation to explore peripheral blood mRNA diagnostic biomarkers for prostate cancer.
+  40044687 | 2025 Mar 5 | Nat Commun | Single-nuclei sequencing of skeletal muscle reveals subsynaptic-specific transcripts involved in neuromuscular junction maintenance.
+  39615322 | 2025 Jan | Poult Sci | Genome-wide analyses of genomic diversity, population structure and selection signatures in Italian turkey populations.

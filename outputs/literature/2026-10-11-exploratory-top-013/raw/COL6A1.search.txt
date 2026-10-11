@@ -1,0 +1,18 @@
+== kidney_fib (count=4)
+  37704178 | 2023 Nov | Immunol Lett | Single-cell communication patterns and their intracellular information flow in synovial fibroblastic osteoarthritis and rheumatoid arthritis.
+  36082436 | 2022 Dec | Int J Rheum Dis | Jian Pi Shen Shi formula alleviates hyperuricemia and related renal fibrosis in uricase-deficient rats via suppression of the collagen-binding pathway.
+  34775048 | 2022 Apr | Spine J | Myofibroblasts are increased in the dorsal layer of the hypertrophic ligamentum flavum in lumbar spinal canal stenosis.
+  33946738 | 2021 Apr 29 | Cells | Hepatic Wnt1 Inducible Signaling Pathway Protein 1 (WISP-1/CCN4) Associates with Markers of Liver Fibrosis in Severe Obesity.
+== senescence (count=29)
+  42331135 | 2026 Oct | Osteoarthritis Cartilage | Mapping articular cartilage maturation across postnatal development by proteomics.
+  40317420 | 2025 Sep | J Muscle Res Cell Motil | RNA-seq and ChIP-seq unveils thyroid hormone receptor α deficiency affects skeletal muscle myoblast proliferation and differentiation via Col6a1 during aging.
+  39969586 | 2025 Feb 19 | Cell Mol Life Sci | circ0066187 promotes pulmonary fibrogenesis through targeting STAT3-mediated metabolism signal pathway.
+  39024749 | 2024 Sep 30 | Int Immunopharmacol | Anti-photoaging effect and the mechanism of Coreopsis tinctoria okanin against UVB-induced skin damage in mice.
+  38915286 | 2024 Sep 1 | Am J Physiol Lung Cell Mol Physiol | The lung extracellular matrix protein landscape in severe early-onset and moderate chronic obstructive pulmonary disease.
+  38424324 | 2024 Apr | Nat Neurosci | PolyGR and polyPR knock-in mice reveal a conserved neuroprotective extracellular matrix signature in C9orf72 ALS/FTD neurons.
+  38095646 | 2023 Dec 12 | Aging (Albany NY) | Transcriptome research of human amniocytes identifies hub genes associated with developmental dysplasia in down syndrome.
+  37039368 | 2023 Jun 1 | Am J Physiol Lung Cell Mol Physiol | Age-associated differences in the human lung extracellular matrix.
+  36552714 | 2022 Dec 7 | Cells | Apple Derived Exosomes Improve Collagen Type I Production and Decrease MMPs during Aging of the Skin through Downregulation of the NF-κB Pathway as Mode of Action.
+  36291072 | 2022 Oct 12 | Cells | Characterization of a Stemness-Optimized Purification Method for Human Dental-Pulp Stem Cells: An Approach to Standardization.
+== tls_lymphoid (count=1)
+  28882590 | 2017 Nov 4 | Biochem Biophys Res Commun | Targeted deletion of RANKL in M cell inducer cells by the Col6a1-Cre driver.

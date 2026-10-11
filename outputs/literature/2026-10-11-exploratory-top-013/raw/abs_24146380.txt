@@ -1,0 +1,6 @@
+PMID: 24146380
+JOURNAL: Sub-cellular biochemistry
+YEAR: 2014
+DOI: 10.1007/978-94-007-7359-2_10
+TITLE: Carbonic anhydrase expression in kidney and renal cancer: implications for diagnosis and treatment.
+ABSTRACT: Four different carbonic anhydrases are expressed in the human nephron, the functional unit of the kidney. These are specifically expressed in different nephron segments, emphasizing the critical role carbonic anhydrases play in maintaining the homeostasis of this crucial organ.Whereas the localization of carbonic anhydrases in the kidney has been long established, interest in carbonic anhydrases has increased dramatically for renal cancer, in particular for the clear cell variant of renal cell carcinoma (ccRCC) because carbonic anhydrase IX is specifically expressed in ccRCC. Therefore carbonic anhydrase IX is being studied as potential diagnostic and therapeutic target, despite carbonic anhydrase IX expression in non-renal tissues.

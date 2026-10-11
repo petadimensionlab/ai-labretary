@@ -1,0 +1,676 @@
+candidate,gene,n_detected_start,n_donors,n_after_cap20,pass120
+上限（全線維芽細胞）,CXCL13,173,39,136,True
+上限（全線維芽細胞）,CCL19,230,40,171,True
+上限（全線維芽細胞）,CCL21,384,50,307,True
+上限（全線維芽細胞）,LTB,144,45,144,True
+上限（全線維芽細胞）,TNFSF14,183,40,166,True
+上限（全線維芽細胞）,CXCL16,201,52,198,True
+上限（全線維芽細胞）,CXCL1,155,44,155,True
+上限（全線維芽細胞）,CXCL14,1299,71,837,True
+上限（全線維芽細胞）,CCL2,1315,65,764,True
+上限（全線維芽細胞）,CCL11,314,47,235,True
+上限（全線維芽細胞）,CCL28,855,65,586,True
+上限（全線維芽細胞）,CSF1,1986,73,964,True
+上限（全線維芽細胞）,IL7,1645,63,701,True
+上限（全線維芽細胞）,IL15,2218,69,870,True
+上限（全線維芽細胞）,IL33,1080,63,666,True
+上限（全線維芽細胞）,IL34,4085,74,1099,True
+上限（全線維芽細胞）,IL11,263,39,208,True
+上限（全線維芽細胞）,IL18,820,66,575,True
+上限（全線維芽細胞）,IL32,720,65,609,True
+上限（全線維芽細胞）,TNFSF10,1870,73,932,True
+上限（全線維芽細胞）,TNFSF15,1165,67,770,True
+上限（全線維芽細胞）,CXCL12,5084,74,1205,True
+上限（全線維芽細胞）,VEGFA,2134,75,944,True
+上限（全線維芽細胞）,PGF,163,40,163,True
+上限（全線維芽細胞）,ANGPT1,9092,76,1255,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,CXCL13,101,32,85,False
+A: オーガナイザー様マーカー 10 個中 1 個以上,CCL19,89,27,86,False
+A: オーガナイザー様マーカー 10 個中 1 個以上,CCL21,211,45,206,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,LTB,80,39,80,False
+A: オーガナイザー様マーカー 10 個中 1 個以上,TNFSF14,65,28,65,False
+A: オーガナイザー様マーカー 10 個中 1 個以上,CXCL16,122,39,122,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,CXCL1,64,30,64,False
+A: オーガナイザー様マーカー 10 個中 1 個以上,CXCL14,797,67,639,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,CCL2,762,64,517,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,CCL11,201,34,170,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,CCL28,510,60,406,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,CSF1,1090,69,709,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,IL7,956,57,496,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,IL15,1397,66,699,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,IL33,551,56,423,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,IL34,2471,70,965,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,IL11,182,35,163,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,IL18,457,61,355,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,IL32,432,58,392,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,TNFSF10,1133,69,739,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,TNFSF15,718,63,539,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,CXCL12,3156,71,1144,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,VEGFA,1300,72,786,True
+A: オーガナイザー様マーカー 10 個中 1 個以上,PGF,80,27,80,False
+A: オーガナイザー様マーカー 10 個中 1 個以上,ANGPT1,6189,75,1171,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CXCL13,152,35,120,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CCL19,170,35,133,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CCL21,322,49,275,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,LTB,124,44,124,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,TNFSF14,120,38,117,False
+A: オーガナイザー様マーカー 10 個中 2 個以上,CXCL16,183,49,180,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CXCL1,124,39,124,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CXCL14,1147,70,778,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CCL2,1149,65,695,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CCL11,282,46,216,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CCL28,741,62,530,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CSF1,1664,72,904,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,IL7,1416,61,634,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,IL15,1997,69,822,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,IL33,883,63,589,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,IL34,3619,74,1064,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,IL11,242,38,195,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,IL18,706,65,508,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,IL32,630,65,551,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,TNFSF10,1616,70,879,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,TNFSF15,1039,66,714,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,CXCL12,4550,74,1191,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,VEGFA,1880,73,899,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,PGF,133,35,133,True
+A: オーガナイザー様マーカー 10 個中 2 個以上,ANGPT1,8411,76,1232,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CXCL13,163,36,127,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CCL19,216,38,159,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CCL21,368,50,299,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,LTB,137,44,137,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,TNFSF14,158,39,147,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CXCL16,193,51,190,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CXCL1,145,43,145,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CXCL14,1245,70,814,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CCL2,1264,65,743,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CCL11,308,47,231,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CCL28,821,64,571,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CSF1,1875,73,953,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,IL7,1582,62,676,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,IL15,2166,69,856,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,IL33,1012,63,642,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,IL34,3974,74,1092,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,IL11,263,39,208,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,IL18,786,65,554,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,IL32,692,65,589,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,TNFSF10,1789,72,916,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,TNFSF15,1126,66,751,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,CXCL12,4936,74,1199,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,VEGFA,2063,75,929,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,PGF,152,38,152,True
+A: オーガナイザー様マーカー 10 個中 3 個以上,ANGPT1,8939,76,1250,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,CXCL13,109,32,92,False
+A: オーガナイザー様マーカー 7 個中 1 個以上,CCL19,93,28,89,False
+A: オーガナイザー様マーカー 7 個中 1 個以上,CCL21,220,45,212,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,LTB,84,40,84,False
+A: オーガナイザー様マーカー 7 個中 1 個以上,TNFSF14,72,28,72,False
+A: オーガナイザー様マーカー 7 個中 1 個以上,CXCL16,131,43,131,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,CXCL1,69,31,69,False
+A: オーガナイザー様マーカー 7 個中 1 個以上,CXCL14,858,69,670,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,CCL2,813,64,539,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,CCL11,215,35,179,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,CCL28,549,61,425,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,CSF1,1168,69,741,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,IL7,1021,57,515,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,IL15,1481,68,723,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,IL33,596,57,451,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,IL34,2608,70,987,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,IL11,189,36,168,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,IL18,490,62,379,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,IL32,454,60,413,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,TNFSF10,1211,69,768,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,TNFSF15,781,63,574,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,CXCL12,3381,71,1154,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,VEGFA,1380,72,804,True
+A: オーガナイザー様マーカー 7 個中 1 個以上,PGF,85,29,85,False
+A: オーガナイザー様マーカー 7 個中 1 個以上,ANGPT1,6551,75,1175,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CXCL13,156,35,122,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CCL19,175,35,135,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CCL21,333,50,281,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,LTB,125,44,125,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,TNFSF14,124,38,120,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CXCL16,186,49,183,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CXCL1,124,39,124,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CXCL14,1171,70,785,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CCL2,1174,65,701,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CCL11,292,46,221,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CCL28,767,62,543,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CSF1,1720,72,915,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,IL7,1464,61,643,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,IL15,2046,69,832,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,IL33,908,63,601,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,IL34,3708,74,1069,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,IL11,248,39,198,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,IL18,728,65,517,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,IL32,640,65,558,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,TNFSF10,1669,70,892,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,TNFSF15,1059,66,720,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,CXCL12,4653,74,1193,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,VEGFA,1929,73,904,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,PGF,137,35,137,True
+A: オーガナイザー様マーカー 7 個中 2 個以上,ANGPT1,8561,76,1238,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CXCL13,168,37,131,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CCL19,221,38,163,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CCL21,374,50,302,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,LTB,138,44,138,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,TNFSF14,164,40,153,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CXCL16,195,51,192,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CXCL1,146,43,146,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CXCL14,1258,70,818,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CCL2,1276,65,746,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CCL11,311,47,233,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CCL28,832,64,574,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CSF1,1911,73,957,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,IL7,1603,62,685,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,IL15,2183,69,860,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,IL33,1029,63,648,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,IL34,4008,74,1095,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,IL11,263,39,208,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,IL18,798,65,562,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,IL32,699,65,594,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,TNFSF10,1818,73,924,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,TNFSF15,1141,66,758,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,CXCL12,4993,74,1202,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,VEGFA,2086,75,935,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,PGF,157,39,157,True
+A: オーガナイザー様マーカー 7 個中 3 個以上,ANGPT1,8991,76,1252,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,CXCL13,123,32,101,False
+A: オーガナイザー様マーカー 4 個中 1 個以上,CCL19,104,31,97,False
+A: オーガナイザー様マーカー 4 個中 1 個以上,CCL21,238,45,226,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,LTB,93,41,93,False
+A: オーガナイザー様マーカー 4 個中 1 個以上,TNFSF14,79,29,79,False
+A: オーガナイザー様マーカー 4 個中 1 個以上,CXCL16,145,43,145,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,CXCL1,73,32,73,False
+A: オーガナイザー様マーカー 4 個中 1 個以上,CXCL14,950,70,702,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,CCL2,878,64,567,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,CCL11,234,37,189,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,CCL28,610,61,464,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,CSF1,1282,70,782,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,IL7,1111,57,546,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,IL15,1613,68,745,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,IL33,669,60,494,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,IL34,2871,71,1010,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,IL11,203,36,178,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,IL18,546,62,406,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,IL32,495,63,449,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,TNFSF10,1306,69,805,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,TNFSF15,848,64,610,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,CXCL12,3667,72,1165,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,VEGFA,1526,72,835,True
+A: オーガナイザー様マーカー 4 個中 1 個以上,PGF,107,34,107,False
+A: オーガナイザー様マーカー 4 個中 1 個以上,ANGPT1,7083,76,1188,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CXCL13,163,37,128,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CCL19,190,36,148,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CCL21,348,50,290,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,LTB,130,44,130,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,TNFSF14,145,40,139,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CXCL16,193,52,190,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CXCL1,130,41,130,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CXCL14,1218,70,804,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CCL2,1213,65,715,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CCL11,298,47,225,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CCL28,794,62,557,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CSF1,1807,72,934,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,IL7,1519,61,661,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,IL15,2107,69,844,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,IL33,965,63,623,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,IL34,3845,74,1081,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,IL11,254,39,202,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,IL18,760,66,539,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,IL32,666,65,578,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,TNFSF10,1751,71,912,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,TNFSF15,1106,66,740,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,CXCL12,4804,74,1197,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,VEGFA,2017,74,920,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,PGF,152,37,152,True
+A: オーガナイザー様マーカー 4 個中 2 個以上,ANGPT1,8769,76,1247,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CXCL13,173,39,136,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CCL19,224,38,165,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CCL21,378,50,303,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,LTB,141,45,141,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,TNFSF14,175,40,162,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CXCL16,200,52,197,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CXCL1,150,44,150,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CXCL14,1287,70,829,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CCL2,1297,65,757,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CCL11,314,47,235,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CCL28,849,65,582,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CSF1,1963,73,962,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,IL7,1627,63,695,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,IL15,2209,69,867,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,IL33,1065,63,661,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,IL34,4057,74,1097,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,IL11,263,39,208,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,IL18,811,66,571,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,IL32,715,65,604,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,TNFSF10,1855,73,932,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,TNFSF15,1154,67,765,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,CXCL12,5055,74,1203,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,VEGFA,2118,75,942,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,PGF,159,39,159,True
+A: オーガナイザー様マーカー 4 個中 3 個以上,ANGPT1,9057,76,1254,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CXCL13,119,33,101,False
+A: オーガナイザー様マーカー 6 個中 1 個以上,CCL19,152,33,126,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CCL21,286,50,252,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,LTB,105,42,105,False
+A: オーガナイザー様マーカー 6 個中 1 個以上,TNFSF14,90,35,90,False
+A: オーガナイザー様マーカー 6 個中 1 個以上,CXCL16,157,48,157,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CXCL1,103,37,103,False
+A: オーガナイザー様マーカー 6 個中 1 個以上,CXCL14,985,69,724,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CCL2,1002,65,642,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CCL11,252,43,204,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CCL28,633,62,479,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CSF1,1427,69,841,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,IL7,1176,61,577,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,IL15,1694,69,781,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,IL33,726,57,514,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,IL34,3071,73,1040,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,IL11,209,37,182,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,IL18,572,63,438,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,IL32,554,62,491,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,TNFSF10,1413,69,832,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,TNFSF15,899,64,646,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,CXCL12,3975,72,1176,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,VEGFA,1559,73,855,True
+A: オーガナイザー様マーカー 6 個中 1 個以上,PGF,99,29,99,False
+A: オーガナイザー様マーカー 6 個中 1 個以上,ANGPT1,7324,76,1209,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CXCL13,162,36,127,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CCL19,219,38,162,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CCL21,372,50,302,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,LTB,139,44,139,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,TNFSF14,149,39,139,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CXCL16,195,50,192,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CXCL1,149,42,149,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CXCL14,1235,70,806,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CCL2,1276,65,752,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CCL11,309,47,232,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CCL28,816,64,569,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CSF1,1864,73,943,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,IL7,1573,62,677,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,IL15,2145,69,855,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,IL33,1004,63,641,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,IL34,3939,74,1088,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,IL11,256,39,204,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,IL18,779,65,551,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,IL32,695,65,590,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,TNFSF10,1785,72,915,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,TNFSF15,1119,66,752,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,CXCL12,4910,74,1199,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,VEGFA,2025,74,923,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,PGF,151,37,151,True
+A: オーガナイザー様マーカー 6 個中 2 個以上,ANGPT1,8888,76,1247,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CXCL13,170,37,133,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CCL19,229,40,171,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CCL21,384,50,307,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,LTB,144,45,144,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,TNFSF14,176,40,162,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CXCL16,198,52,195,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CXCL1,155,44,155,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CXCL14,1287,71,832,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CCL2,1309,65,762,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CCL11,314,47,235,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CCL28,848,65,582,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CSF1,1961,73,963,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,IL7,1637,62,697,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,IL15,2210,69,867,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,IL33,1065,63,659,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,IL34,4068,74,1098,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,IL11,263,39,208,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,IL18,812,66,571,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,IL32,715,65,606,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,TNFSF10,1855,73,930,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,TNFSF15,1156,66,764,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,CXCL12,5059,74,1205,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,VEGFA,2116,75,941,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,PGF,163,40,163,True
+A: オーガナイザー様マーカー 6 個中 3 個以上,ANGPT1,9072,76,1255,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CXCL13,5,2,5,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CCL19,7,7,7,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CCL21,28,11,28,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,LTB,9,5,9,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,TNFSF14,1,1,1,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CXCL16,6,5,6,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CXCL1,11,4,11,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CXCL14,115,15,82,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CCL2,73,14,73,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CCL11,10,6,10,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CCL28,54,12,54,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CSF1,128,17,102,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,IL7,67,10,58,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,IL15,111,14,87,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,IL33,115,13,98,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,IL34,263,19,145,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,IL11,3,3,3,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,IL18,50,8,50,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,IL32,123,11,72,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,TNFSF10,161,16,92,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,TNFSF15,93,14,86,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,CXCL12,369,21,189,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,VEGFA,106,17,92,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,PGF,9,4,9,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB,ANGPT1,754,23,233,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL13,158,35,121,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL19,96,26,91,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL21,179,36,168,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,LTB,94,37,94,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,TNFSF14,172,39,164,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL16,172,47,169,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL1,116,34,116,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL14,1036,65,706,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL2,1122,61,602,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL11,297,36,218,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL28,672,60,470,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CSF1,1607,67,833,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL7,1272,57,563,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL15,1792,59,695,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL33,641,56,522,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL34,2904,69,904,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL11,243,34,188,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL18,662,59,492,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL32,522,59,442,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,TNFSF10,1435,68,796,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,TNFSF15,996,62,626,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL12,3752,69,1073,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,VEGFA,1819,70,861,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,PGF,134,34,134,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB（出発点=残り全部）,ANGPT1,7365,68,1093,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CXCL13,10,6,10,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CCL19,7,7,7,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CCL21,30,11,30,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,LTB,12,7,12,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,TNFSF14,15,7,15,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CXCL16,12,5,12,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CXCL1,14,5,14,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CXCL14,201,17,106,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CCL2,85,16,85,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CCL11,10,6,10,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CCL28,71,12,71,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CSF1,215,22,149,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,IL7,116,14,81,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,IL15,149,15,119,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,IL33,170,14,126,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,IL34,310,21,167,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,IL11,3,3,3,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,IL18,85,11,76,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,IL32,136,11,75,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,TNFSF10,227,17,131,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,TNFSF15,102,17,94,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,CXCL12,513,23,225,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,VEGFA,179,19,135,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,PGF,24,6,24,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB,ANGPT1,862,24,261,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL13,152,32,115,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL19,66,24,66,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL21,165,32,154,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,LTB,79,31,79,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,TNFSF14,82,25,82,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL16,154,38,151,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL1,111,31,111,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL14,930,58,611,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL2,1090,52,570,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL11,297,36,218,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL28,607,49,416,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CSF1,1413,61,682,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL7,1023,48,472,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL15,1718,53,632,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL33,495,46,392,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL34,2668,62,745,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL11,240,31,185,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL18,533,47,386,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL32,482,49,402,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,TNFSF10,1170,62,644,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,TNFSF15,967,53,598,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL12,3443,69,903,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,VEGFA,1591,62,694,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,PGF,113,29,113,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,ANGPT1,7112,65,943,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL13,106,15,69,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL19,9,9,9,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL21,38,12,38,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,LTB,41,14,41,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,TNFSF14,21,9,21,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL16,78,16,75,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL1,56,15,56,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL14,497,24,277,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL2,673,22,266,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL11,214,16,137,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL28,352,21,212,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CSF1,758,24,291,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL7,572,19,190,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL15,1146,20,272,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL33,192,17,148,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL34,1408,24,304,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL11,161,17,109,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL18,297,19,189,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL32,237,21,170,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,TNFSF10,567,22,286,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,TNFSF15,551,22,296,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL12,1634,24,369,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,VEGFA,928,24,323,True
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,PGF,71,13,71,False
+C: frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,ANGPT1,4307,25,402,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL13,138,24,101,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL19,60,19,60,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL21,155,26,144,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,LTB,72,26,72,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,TNFSF14,79,22,79,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL16,141,30,138,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL1,109,29,109,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL14,828,43,517,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL2,1002,42,495,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL11,281,31,202,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL28,569,40,378,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CSF1,1318,46,592,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL7,955,38,407,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL15,1612,40,535,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL33,479,38,376,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL34,2473,46,622,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL11,228,27,173,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL18,503,39,356,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL32,444,39,364,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,TNFSF10,1067,45,557,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,TNFSF15,879,43,520,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL12,3048,45,716,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,VEGFA,1483,46,605,True
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,PGF,109,26,109,False
+C': frac_BPL_lymph 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,ANGPT1,6496,47,768,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CXCL13,3,3,3,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CCL19,5,5,5,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CCL21,20,11,20,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,LTB,5,4,5,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,TNFSF14,1,1,1,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CXCL16,2,2,2,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CXCL1,1,1,1,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CXCL14,37,15,37,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CCL2,30,14,30,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CCL11,4,4,4,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CCL28,23,11,23,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CSF1,60,19,58,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,IL7,22,10,22,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,IL15,43,14,43,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,IL33,50,13,50,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,IL34,107,19,98,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,IL11,1,1,1,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,IL18,19,11,19,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,IL32,19,10,19,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,TNFSF10,42,18,42,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,TNFSF15,32,14,32,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,CXCL12,195,22,155,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,VEGFA,58,17,58,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,PGF,2,1,2,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB,ANGPT1,299,26,215,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL13,158,36,121,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL19,83,31,78,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL21,160,40,155,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,LTB,101,40,101,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,TNFSF14,171,39,162,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL16,164,47,161,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL1,107,33,107,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL14,1071,68,733,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL2,1100,61,596,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL11,297,37,218,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CCL28,677,60,491,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CSF1,1605,69,847,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL7,1275,58,566,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL15,1788,65,716,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL33,653,58,514,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL34,2930,72,939,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL11,244,34,189,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL18,670,62,509,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,IL32,526,61,441,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,TNFSF10,1455,69,816,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,TNFSF15,1018,61,652,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,CXCL12,3793,73,1100,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,VEGFA,1868,73,880,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,PGF,135,35,135,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB（出発点=残り全部）,ANGPT1,7395,72,1114,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CXCL13,6,6,6,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CCL19,5,5,5,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CCL21,21,11,21,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,LTB,7,5,7,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,TNFSF14,19,10,19,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CXCL16,8,3,8,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CXCL1,3,2,3,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CXCL14,71,19,68,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CCL2,49,16,49,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CCL11,4,4,4,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CCL28,42,12,42,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CSF1,154,25,126,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,IL7,53,14,53,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,IL15,84,16,84,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,IL33,90,14,86,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,IL34,168,22,131,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,IL11,2,2,2,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,IL18,51,15,51,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,IL32,25,12,25,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,TNFSF10,95,20,95,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,TNFSF15,44,17,44,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,CXCL12,321,24,210,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,VEGFA,113,21,112,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,PGF,8,4,8,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB,ANGPT1,386,26,253,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL13,151,33,114,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL19,52,28,52,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL21,149,36,144,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,LTB,86,33,86,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,TNFSF14,81,25,77,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL16,145,39,142,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL1,100,30,100,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL14,968,61,637,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL2,1069,54,565,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL11,297,37,218,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CCL28,617,52,445,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CSF1,1416,66,719,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL7,1040,48,497,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL15,1718,57,662,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL33,527,48,403,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL34,2671,66,791,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL11,243,33,188,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL18,539,52,407,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,IL32,487,53,402,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,TNFSF10,1214,65,693,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,TNFSF15,987,53,623,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,CXCL12,3477,73,940,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,VEGFA,1650,64,733,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,PGF,120,32,120,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+aFIB（出発点=残り全部）,ANGPT1,7135,68,978,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL13,103,16,66,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL19,6,6,6,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL21,27,12,27,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,LTB,35,12,35,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,TNFSF14,25,12,25,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL16,76,15,73,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL1,41,12,41,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL14,378,25,258,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL2,634,21,222,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL11,208,14,131,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CCL28,325,20,185,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CSF1,709,26,268,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL7,510,18,164,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL15,1088,21,243,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL33,111,17,107,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL34,1266,25,267,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL11,166,16,114,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL18,262,22,164,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,IL32,122,21,122,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,TNFSF10,431,25,261,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,TNFSF15,520,23,255,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,CXCL12,1455,25,347,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,VEGFA,888,26,312,True
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,PGF,54,11,54,False
+C: frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB,ANGPT1,3860,27,399,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL13,134,28,97,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL19,44,21,44,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL21,138,28,133,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,LTB,78,28,78,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,TNFSF14,78,22,74,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL16,131,32,128,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL1,93,27,93,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL14,905,49,579,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL2,1011,44,507,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL11,278,33,199,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CCL28,571,44,399,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CSF1,1328,50,645,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL7,969,40,433,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL15,1612,48,584,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL33,511,40,387,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL34,2515,51,690,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL11,232,30,177,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL18,490,46,365,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,IL32,458,44,373,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,TNFSF10,1114,50,611,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,TNFSF15,915,46,568,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,CXCL12,3193,51,798,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,VEGFA,1549,52,667,True
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,PGF,117,29,117,False
+C': frac_BPL_all 上位 1/3 の提供者 × FIB+M-FIB+aFIB+dFIB+dM-FIB（出発点=残り全部）,ANGPT1,6570,53,857,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL13,158,36,121,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL19,131,38,127,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL21,293,49,274,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,LTB,116,45,116,False
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,TNFSF14,113,34,113,False
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL16,179,46,176,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL1,125,37,125,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL14,1130,71,770,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL2,1174,65,660,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL11,300,42,221,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL28,750,65,525,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CSF1,1690,73,861,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL7,1368,62,625,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL15,1985,69,806,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL33,827,63,595,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL34,3499,74,1057,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL11,254,37,199,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL18,683,63,500,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL32,613,63,533,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,TNFSF10,1572,73,855,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,TNFSF15,1075,66,701,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL12,4418,74,1186,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,VEGFA,1880,75,881,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,PGF,134,38,134,True
+A+C: マーカー 1 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,ANGPT1,8325,76,1219,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL13,167,37,130,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL19,188,40,148,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL21,355,50,296,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,LTB,135,45,135,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,TNFSF14,150,39,146,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL16,196,49,193,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL1,141,40,141,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL14,1252,71,818,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL2,1259,65,726,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL11,312,47,233,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CCL28,831,65,574,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CSF1,1896,73,942,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL7,1560,62,674,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL15,2158,69,855,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL33,998,63,649,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL34,3947,74,1087,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL11,260,39,205,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL18,787,66,559,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,IL32,688,65,592,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,TNFSF10,1787,73,916,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,TNFSF15,1141,67,752,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,CXCL12,4921,74,1201,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,VEGFA,2066,75,932,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,PGF,152,39,152,True
+A+C: マーカー 2 個以上 かつ 三次リンパ組織スコア上位 1/3 の提供者,ANGPT1,8927,76,1251,True

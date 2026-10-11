@@ -1,0 +1,48 @@
+{
+ "seeds": [
+  81,
+  82,
+  83
+ ],
+ "machines": {
+  "81": "spark-cf5b",
+  "82": "spark-c083",
+  "83": "spark-c083"
+ },
+ "per_seed": {
+  "81": {
+   "machine": "spark-cf5b",
+   "n_genes": 500,
+   "blocked_present": [],
+   "n_missing_emb": 0,
+   "missing_emb": []
+  },
+  "82": {
+   "machine": "spark-c083",
+   "n_genes": 500,
+   "blocked_present": [],
+   "n_missing_emb": 0,
+   "missing_emb": []
+  },
+  "83": {
+   "machine": "spark-c083",
+   "n_genes": 500,
+   "blocked_present": [],
+   "n_missing_emb": 0,
+   "missing_emb": []
+  }
+ },
+ "roles": {
+  "(81, 'target')": 500,
+  "(82, 'target')": 500,
+  "(83, 'target')": 500
+ },
+ "expected_genes_per_seed": 500,
+ "all_seeds_complete": true,
+ "no_blocked_genes": true,
+ "no_missing_embeddings": true,
+ "merged_files_sha256": {
+  "cells.csv": "5b60f604e10602b437b13652e1ce46731b4c0778bb026b65e39202817a366c12",
+  "summary.csv": "9604daa6ca6e5c370233dfd52496910fbbbd0859d41a337d183e8be497888cd8"
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "kidney_fib": {
+  "count": "2",
+  "records": [
+   {
+    "pmid": "37266145",
+    "date": "2023",
+    "journal": "Front Pharmacol",
+    "title": "Therapeutic mechanism of baicalein in peritoneal dialysis-associated peritoneal fibrosis based on network pharmacology and experimental validation.",
+    "authors": [
+     "Lu X",
+     "Wu K",
+     "Jiang S"
+    ],
+    "doi": "10.3389/fphar.2023.1153503"
+   },
+   {
+    "pmid": "26911677",
+    "date": "2016 May 15",
+    "journal": "Hum Mol Genet",
+    "title": "Loss of carbonic anhydrase XII function in individuals with elevated sweat chloride concentration and pulmonary airway disease.",
+    "authors": [
+     "Lee M",
+     "Vecchio-Pagán B",
+     "Sharma N"
+    ],
+    "doi": "10.1093/hmg/ddw065"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "33",
+  "records": [
+   {
+    "pmid": "41696860",
+    "date": "2026 Mar",
+    "journal": "Hippocampus",
+    "title": "Cardiovascular Risk Indices Differentially Linked to Hippocampal Subfield Volumes: A Comparison Between Younger and Older Adults.",
+    "authors": [
+     "Homayouni R",
+     "Saifullah S",
+     "Sutton BP"
+    ],
+    "doi": "10.1002/hipo.70082"
+   },
+   {
+    "pmid": "40952471",
+    "date": "2025 Sep 15",
+    "journal": "Acta Neuropathol",
+    "title": "Differences and overlaps in TDP-43 pathology of 'pure' LATE-NC compared to LATE-NC coexisting with Alzheimer's disease.",
+    "authors": [
+     "Tomé SO",
+     "Gawor K",
+     "Ospitalieri S"
+    ],
+    "doi": "10.1007/s00401-025-02929-9"
+   },
+   {
+    "pmid": "40616955",
+    "date": "2025 Oct",
+    "journal": "Neurobiol Aging",
+    "title": "Two-year changes in hippocampal subfield volumes are age-dependent across the lifespan.",
+    "authors": [
+     "Homayouni R",
+     "Saifullah S",
+     "Chargo AN"
+    ],
+    "doi": "10.1016/j.neurobiolaging.2025.06.011"
+   },
+   {
+    "pmid": "38283178",
+    "date": "2024 Mar",
+    "journal": "JOR Spine",
+    "title": "Dynamics of N6-methyladenosine modification during aging and their potential roles in the degeneration of intervertebral disc.",
+    "authors": [
+     "Liu L",
+     "Sun H",
+     "Zhang Y"
+    ],
+    "doi": "10.1002/jsp2.1316"
+   },
+   {
+    "pmid": "35436980",
+    "date": "2022 Apr 18",
+    "journal": "Transl Psychiatry",
+    "title": "Allele-specific analysis reveals exon- and cell-type-specific regulatory effects of Alzheimer's disease-associated genetic variants.",
+    "authors": [
+     "He L",
+     "Loika Y",
+     "Kulminski AM"
+    ],
+    "doi": "10.1038/s41398-022-01913-1"
+   },
+   {
+    "pmid": "29941029",
+    "date": "2018 Jun 26",
+    "journal": "Stem Cell Res Ther",
+    "title": "Co-culturing nucleus pulposus mesenchymal stem cells with notochordal cell-rich nucleus pulposus explants attenuates tumor necrosis factor-α-induced senescence.",
+    "authors": [
+     "Li XC",
+     "Wang MS",
+     "Liu W"
+    ],
+    "doi": "10.1186/s13287-018-0919-9"
+   },
+   {
+    "pmid": "29113959",
+    "date": "2018 Jan",
+    "journal": "Mol Cell Neurosci",
+    "title": "Age-related epigenetic changes in hippocampal subregions of four animal models of Alzheimer's disease.",
+    "authors": [
+     "Lardenoije R",
+     "van den Hove DLA",
+     "Havermans M"
+    ],
+    "doi": "10.1016/j.mcn.2017.11.002"
+   },
+   {
+    "pmid": "29070571",
+    "date": "2018 Feb 1",
+    "journal": "Am J Physiol Renal Physiol",
+    "title": "Lithium induces aerobic glycolysis and glutaminolysis in collecting duct principal cells.",
+    "authors": [
+     "Alsady M",
+     "de Groot T",
+     "Kortenoeven MLA"
+    ],
+    "doi": "10.1152/ajprenal.00297.2017"
+   },
+   {
+    "pmid": "28473691",
+    "date": "2017 May 4",
+    "journal": "Sci Rep",
+    "title": "Notochordal and nucleus pulposus marker expression is maintained by sub-populations of adult human nucleus pulposus cells through aging and degeneration.",
+    "authors": [
+     "Richardson SM",
+     "Ludwinski FE",
+     "Gnanalingham KK"
+    ],
+    "doi": "10.1038/s41598-017-01567-w"
+   },
+   {
+    "pmid": "28342999",
+    "date": "2017 Jun",
+    "journal": "Neuroimage",
+    "title": "Hippocampal CA3-dentate gyrus volume uniquely linked to improvement in associative memory from childhood to adulthood.",
+    "authors": [
+     "Daugherty AM",
+     "Flinn R",
+     "Ofen N"
+    ],
+    "doi": "10.1016/j.neuroimage.2017.03.047"
+   }
+  ]
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

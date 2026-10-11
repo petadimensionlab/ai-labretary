@@ -1,0 +1,161 @@
+# EXP-20261003-001 — すべてのパラメータをここに書く（plan.md §6 が事前登録の本体）
+# 作成: analysis/make_configs_008.py（手で書き換えない）
+# 土台: experiments/EXP-20261002-002/config.yaml。変えた箇所は plan.md §5 の表のとおり
+bias_budget:
+  budget: 0.1
+  ci_z: 1.959964
+  covariates:
+  - dnorm_med
+  - lp_med
+  - ll_med
+  - relpos_med
+  - uniform
+  decision_line: 0.41
+  estimator: joint
+  min_seeds: 3
+  sham_pvalue_min: 0.05
+blocked_genes:
+- ENSG00000118785
+- ENSG00000141510
+- ENSG00000148346
+capture:
+  classifier_logits: false
+  embeddings: true
+cell_selection:
+  donor_key: donor_id
+  max_cells_per_donor: 20
+  max_cells_per_gene: 200
+  min_cells_per_gene: 120
+compute:
+  cache_model: true
+  device: mps
+  dtype: bf16
+  n_cell_gene: 3600
+  n_gene_runs: 6
+  sec_per_cell_gene: 0.1154
+controls:
+  comparator: null
+  extra_fixed: []
+  negative_fixed: []
+  negative_random_n: 0
+  positive: []
+data:
+  cell_type_col: subclass_l2
+  custom_attr_name_dict:
+    a1_row: a1_row
+    disease: disease
+    donor_id: donor_id
+    fib_anno_state: fib_anno_state
+    n_counts: n_counts
+    n_genes: n_genes
+    region: region
+    subclass_l2: subclass_l2
+  filter_data: null
+  input_h5ad: experiments/EXP-20260929-001/work/input.h5ad
+  max_ncells: null
+  state_key: fib_anno_state
+  tokenized_dataset: experiments/EXP-20261001-001/work/tokenized.dataset
+experiment_id: EXP-20261003-001
+hypothesis_id: HYP-20261001-01
+kind: myofibroblast_marker_axis_validation
+merge:
+  existing_roots:
+  - label: 既存(EXP-20261001-001)
+    results_dir: experiments/EXP-20261001-001/results
+    n_genes: 717
+  - label: 追加の対照(EXP-20261002-002)
+    results_dir: experiments/EXP-20261002-002/results
+    n_genes: 500
+  genes: experiments/EXP-20261001-001/work/genes_005.json
+  subsets: experiments/EXP-20261001-001/work/subsets_005.json
+  null_pool: experiments/EXP-20261001-001/work/null_pool_005.json
+  extra_null: experiments/EXP-20261002-002/work/extra_null_007.json
+  criteria: experiments/EXP-20261002-002/results/criteria_007.json
+  centroid_max_abs_diff: 0.0
+  reproduction_tolerance: 0.002
+  state_rows_sha256:
+    '81': 58cd2b18ff9c7d5763ed8a8d7056ba4bf55bd7d80b750565c693a60ba112ad85
+    '82': e6c6788e552b3876dfb27828fab9214e12c2549e1e8a53b4017fe377db459696
+    '83': c1129ea1f8e2a172f4e98d53b79ded66a360310ff738494cfac1f8fa461e0174
+metric:
+  confound_correction:
+    drop_zero_movement: true
+    form: full_quadratic
+    variables:
+    - lp
+    - ll
+  primary_form: projection_on_start_to_goal_direction_over_movement
+  projection_states:
+    from: start
+    to: goal
+  uniform_component_states:
+  - dFIB
+  - dMFIB
+model:
+  directory: models/Geneformer/Geneformer-V2-316M
+  emb_layer: -1
+  num_classes: 0
+  type: Pretrained
+  version: V2
+note: '**摂動するのは新しい 6 個だけ。** 既存の 1,217 遺伝子（介入 119・陽性対照 71・対照 1,000 ほか）は EXP-20261001-001
+  / EXP-20261002-002 で摂動済みで、回し直さない。目的は「目標の軸が筋線維芽細胞らしさを測っているか」を、筋線維芽細胞を定義する遺伝子そのものを過剰発現して確かめること'
+output:
+  experiment_dir: experiments/EXP-20261003-001
+  results_dir: results
+perturbation:
+  anchor_gene: null
+  combos: 0
+  controls_only: false
+  emb_mode: cls
+  forward_batch_size: 8
+  genes_to_perturb:
+  - ENSG00000107796
+  - ENSG00000149591
+  - ENSG00000130176
+  - ENSG00000133392
+  - ENSG00000133110
+  - ENSG00000113721
+  nproc: 1
+  perturb_rank_shift: null
+  perturb_type: overexpress
+robustness:
+  emb_layers:
+  - -1
+  seeds:
+  - 81
+  - 82
+  - 83
+  subsample_frac: 1.0
+state_embs:
+  max_cells_per_donor: 60
+  max_cells_per_state: 950
+  rows_file: experiments/EXP-20261003-001/work/state_rows-seed{seed}.json
+states:
+  alt_states:
+  - dFIB
+  - dMFIB
+  goal_state: aStr
+  start_state: FIB_MFIB
+stats:
+  fdr_threshold: 0.05
+  mode: goal_state_shift
+decision:
+  単位: 個々の遺伝子（**セット単位の検定はしない**）
+  V-1:
+    条件: 3 seed すべてで z > 2.73
+    閾値: 2.73
+    出どころ: 単一遺伝子の検出下限。EXP-20260928-002 の実測（hypotheses/HYP-20260928-01.md）
+  V-2:
+    偶然の水準 p: 0.009
+    6 個での期待件数: 0.054
+    P(1 件以上|偶然): 0.0528
+    出どころ: experiments/EXP-20261003-001/work/precheck_008.json の C-4（対照 1,000 個の確定済みの
+      z から実測）
+  読む向き: '**正の側だけ。** 対照の z 分布は負の裾が薄く（3 seed すべてで z < -2.73 の対照は 1,000 個中 1 個）校正されていないため、負の値は解釈しない'
+  対象:
+    ACTA2: ENSG00000107796
+    TAGLN: ENSG00000149591
+    CNN1: ENSG00000130176
+    MYH11: ENSG00000133392
+    POSTN: ENSG00000133110
+    PDGFRB: ENSG00000113721

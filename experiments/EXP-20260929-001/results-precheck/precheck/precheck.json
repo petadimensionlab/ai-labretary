@@ -1,0 +1,42 @@
+{
+  "n_cells": {
+    "FIB_orgHigh": 931,
+    "FIB_orgLow": 931
+  },
+  "n_donors": {
+    "FIB_orgHigh": 70,
+    "FIB_orgLow": 74
+  },
+  "embedding_seconds": 366.2,
+  "folds": 5,
+  "comparisons": {
+    "FIB_orgLow_vs_FIB_orgHigh": {
+      "threshold": 0.65,
+      "group_by_donor": {
+        "auc_mean": 0.6803,
+        "auc_sd": 0.032,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.7283,
+          0.6434,
+          0.6693,
+          0.6925,
+          0.668
+        ]
+      },
+      "stratified": {
+        "auc_mean": 0.6974,
+        "auc_sd": 0.0071,
+        "n_folds_used": 5,
+        "fold_aucs": [
+          0.7062,
+          0.6993,
+          0.6947,
+          0.7,
+          0.687
+        ]
+      },
+      "pass": true
+    }
+  }
+}

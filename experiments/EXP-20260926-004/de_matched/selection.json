@@ -1,0 +1,100 @@
+{
+ "rule": {
+  "E2_min_log2fc": 2.0,
+  "E2_max_q": 0.05,
+  "E3_min_cells": 440,
+  "E3_min_donors_ge25": 8,
+  "tolerances": {
+   "log2fc": 1.0,
+   "lncells": 0.4054651081081644,
+   "relrank": 0.1
+  },
+  "n_per_ref": 5
+ },
+ "n_pool_E1_E3": 1300,
+ "n_pool_after_auto_exclusion": 1164,
+ "selected": [
+  {
+   "ref": "VCAM1",
+   "symbol": "PPFIBP1",
+   "ensembl_id": "ENSG00000110841",
+   "dist": 0.9832999999999998
+  },
+  {
+   "ref": "VCAM1",
+   "symbol": "AKAP12",
+   "ensembl_id": "ENSG00000131016",
+   "dist": 1.2248999999999999
+  },
+  {
+   "ref": "VCAM1",
+   "symbol": "SELENOM",
+   "ensembl_id": "ENSG00000198832",
+   "dist": 1.2418999999999993
+  },
+  {
+   "ref": "VCAM1",
+   "symbol": "DMKN",
+   "ensembl_id": "ENSG00000161249",
+   "dist": 1.272547575525901
+  },
+  {
+   "ref": "VCAM1",
+   "symbol": "SCIN",
+   "ensembl_id": "ENSG00000006747",
+   "dist": 1.5050491921276048
+  },
+  {
+   "ref": "HAVCR1",
+   "symbol": "ANKRD2",
+   "ensembl_id": "ENSG00000165887",
+   "dist": 0.21079999999999988
+  },
+  {
+   "ref": "HAVCR1",
+   "symbol": "ARRDC4",
+   "ensembl_id": "ENSG00000140450",
+   "dist": 0.36830000000000007
+  },
+  {
+   "ref": "HAVCR1",
+   "symbol": "IDUA",
+   "ensembl_id": "ENSG00000127415",
+   "dist": 0.5659000000000001
+  },
+  {
+   "ref": "HAVCR1",
+   "symbol": "SLITRK4",
+   "ensembl_id": "ENSG00000179542",
+   "dist": 0.6257000000000001
+  },
+  {
+   "ref": "HAVCR1",
+   "symbol": "ADAMTS16",
+   "ensembl_id": "ENSG00000145536",
+   "dist": 0.6479333951102627
+  }
+ ],
+ "refs": [
+  {
+   "symbol": "VCAM1",
+   "ensembl_id": "ENSG00000162692",
+   "log2fc_start_vs_goal": 5.2581,
+   "tok_cells_start": 4674,
+   "det_start": 0.62193,
+   "relrank_start": 0.35957,
+   "donors_ge25_start": 13
+  },
+  {
+   "symbol": "HAVCR1",
+   "ensembl_id": "ENSG00000113249",
+   "log2fc_start_vs_goal": 4.2488,
+   "tok_cells_start": 659,
+   "det_start": 0.087614,
+   "relrank_start": 0.25006,
+   "donors_ge25_start": 10
+  }
+ ],
+ "source": "outputs/literature/2026-09-26-negative-controls/genome_stats.csv",
+ "uses_isp_results": false
+}

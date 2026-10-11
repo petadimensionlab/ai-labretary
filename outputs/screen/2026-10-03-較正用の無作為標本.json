@@ -1,0 +1,133 @@
+{
+ "目的": "文献照合の一致率のベースラインを測る。上位だけを調べた 13/18 が較正されていないため",
+ "抽出": "対照プール（negative + extra_control）から無作為に 25 個。random_state=20261003。**照合の前に固定した**",
+ "除外": "すでに照合済みの 13 個",
+ "母数": 987,
+ "遺伝子": [
+  {
+   "symbol": "CNTN5",
+   "min_z": 2.649,
+   "mean_z": 2.987
+  },
+  {
+   "symbol": "SCN11A",
+   "min_z": 2.278,
+   "mean_z": 2.434
+  },
+  {
+   "symbol": "SLCO2A1",
+   "min_z": 1.498,
+   "mean_z": 1.523
+  },
+  {
+   "symbol": "TNS1",
+   "min_z": 1.055,
+   "mean_z": 1.232
+  },
+  {
+   "symbol": "MBD5",
+   "min_z": 0.773,
+   "mean_z": 0.99
+  },
+  {
+   "symbol": "RPS28",
+   "min_z": 0.693,
+   "mean_z": 1.035
+  },
+  {
+   "symbol": "KBTBD2",
+   "min_z": 0.49,
+   "mean_z": 0.697
+  },
+  {
+   "symbol": "FUNDC1",
+   "min_z": 0.115,
+   "mean_z": 0.168
+  },
+  {
+   "symbol": "SREK1IP1",
+   "min_z": 0.02,
+   "mean_z": 0.07
+  },
+  {
+   "symbol": "TVP23C",
+   "min_z": -0.322,
+   "mean_z": 0.086
+  },
+  {
+   "symbol": "MCPH1",
+   "min_z": -0.34,
+   "mean_z": -0.081
+  },
+  {
+   "symbol": "MRPL12",
+   "min_z": -0.368,
+   "mean_z": -0.302
+  },
+  {
+   "symbol": "RPL21",
+   "min_z": -0.441,
+   "mean_z": -0.268
+  },
+  {
+   "symbol": "RNF181",
+   "min_z": -0.457,
+   "mean_z": -0.389
+  },
+  {
+   "symbol": "KDM8",
+   "min_z": -0.525,
+   "mean_z": -0.429
+  },
+  {
+   "symbol": "SLC43A1",
+   "min_z": -0.53,
+   "mean_z": -0.079
+  },
+  {
+   "symbol": "MDM4",
+   "min_z": -0.543,
+   "mean_z": 0.051
+  },
+  {
+   "symbol": "ARL16",
+   "min_z": -0.697,
+   "mean_z": -0.606
+  },
+  {
+   "symbol": "DNAJB9",
+   "min_z": -0.895,
+   "mean_z": -0.66
+  },
+  {
+   "symbol": "MMADHC",
+   "min_z": -0.95,
+   "mean_z": -0.855
+  },
+  {
+   "symbol": "APOL1",
+   "min_z": -1.017,
+   "mean_z": -0.785
+  },
+  {
+   "symbol": "EMC2",
+   "min_z": -1.022,
+   "mean_z": -0.838
+  },
+  {
+   "symbol": "SNAPC4",
+   "min_z": -1.256,
+   "mean_z": -1.123
+  },
+  {
+   "symbol": "IMP4",
+   "min_z": -1.279,
+   "mean_z": -1.083
+  },
+  {
+   "symbol": "DAP3",
+   "min_z": -1.515,
+   "mean_z": -1.195
+  }
+ ]
+}

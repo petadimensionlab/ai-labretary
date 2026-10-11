@@ -1,0 +1,82 @@
+{
+ "seeds": [
+  81,
+  82,
+  83
+ ],
+ "depth_tol": 0.1,
+ "pool": {
+  "goal": 5131,
+  "start": 15477,
+  "dFIB": 534,
+  "dMFIB": 558
+ },
+ "per_seed": {
+  "81": {
+   "aStr": {
+    "n_cells": 950,
+    "n_donors": 69,
+    "median_log_len": 7.41878070282274
+   },
+   "FIB_MFIB": {
+    "n_cells": 950,
+    "n_donors": 71,
+    "median_log_len": 7.41878070282274
+   },
+   "dFIB": {
+    "n_cells": 261,
+    "n_donors": 49,
+    "median_log_len": 6.70808408385307
+   },
+   "dMFIB": {
+    "n_cells": 137,
+    "n_donors": 11,
+    "median_log_len": 6.4967749901858625
+   }
+  },
+  "82": {
+   "aStr": {
+    "n_cells": 950,
+    "n_donors": 66,
+    "median_log_len": 7.389872309677056
+   },
+   "FIB_MFIB": {
+    "n_cells": 950,
+    "n_donors": 72,
+    "median_log_len": 7.389872309677056
+   },
+   "dFIB": {
+    "n_cells": 274,
+    "n_donors": 49,
+    "median_log_len": 6.689598495682663
+   },
+   "dMFIB": {
+    "n_cells": 133,
+    "n_donors": 11,
+    "median_log_len": 6.48768401848461
+   }
+  },
+  "83": {
+   "aStr": {
+    "n_cells": 950,
+    "n_donors": 62,
+    "median_log_len": 7.428333017667583
+   },
+   "FIB_MFIB": {
+    "n_cells": 950,
+    "n_donors": 72,
+    "median_log_len": 7.428630194496539
+   },
+   "dFIB": {
+    "n_cells": 264,
+    "n_donors": 48,
+    "median_log_len": 6.695786693483187
+   },
+   "dMFIB": {
+    "n_cells": 137,
+    "n_donors": 11,
+    "median_log_len": 6.51025834052315
+   }
+  }
+ }
+}

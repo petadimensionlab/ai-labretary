@@ -1,0 +1,140 @@
+# EXP-20260926-004 (c-2) — held-out donor の拡張: start = CKD aPT の TLS-high（14 donor）+ TLS-mid（15 donor, FT 未使用）
+# FT モデル（EXP-003 models/ft-main/final）で対照のみの ISP。設計は plan.md §C.2（事前登録）
+# 入力: data/raw の A2 h5ad（読み取りのみ）→ prepare_h5ad.py → expanded/work/input.h5ad → tokenize（Mac CPU）
+experiment_id: EXP-20260926-004
+hypothesis_id: HYP-20260926-03      # proposed（方法仮説）。PI 実行指示「全て実行」2026-09-26
+
+prepare:                            # scripts/geneformer/prepare_h5ad.py（EXP-001 と同じフィルタ・同じ donor 表。state_rules だけ変更）
+  sources:
+    - {path: data/raw/kidney_tls/A2_KPMP_v1.5_scRNA_Lake2023.h5ad}   # 読み取り専用。raw.X（整数カウント）
+  obs_keep: [author_cell_type, cell_type, disease, donor_id, eGFR, Age_binned]
+  filter:
+    author_cell_type: [aPT, PT-S1/S2, PT-S3]
+    disease: [chronic kidney disease, normal]
+  donor_maps:
+    - {path: outputs/literature/2026-09-25-tls-feasibility/donor_A2.csv, key: donor_id, csv_key: sample,
+       column: TLS_group, as: TLS_group}
+  state_key: isp_state
+  state_rules:
+    - {label: aPT_CKD_TLShighmid, where: {author_cell_type: [aPT], disease: [chronic kidney disease], TLS_group: [high, mid]}}
+    - {label: aPT_CKD_TLSlow,     where: {author_cell_type: [aPT], disease: [chronic kidney disease], TLS_group: [low]}}
+    - {label: PT_healthy,         where: {author_cell_type: [PT-S1/S2, PT-S3], disease: [normal]}}
+  drop_unlabeled: true
+  max_cells_per_donor: null
+  max_cells_per_state: null
+  donor_key: donor_id
+  seed: 0
+  output: experiments/EXP-20260926-004/expanded/work/input.h5ad
+
+model:
+  version: V2
+  directory: experiments/EXP-20260926-003/models/ft-main/final   # FT 済み（BertForSequenceClassification, 2 クラス）
+  type: CellClassifier
+  num_classes: 2                    # 0 = aPT_CKD, 1 = PT_healthy（id_class.json）
+  emb_layer: -1                     # EXP-002 と同じ（最終層の 1 つ手前）。分類ヘッドの出力は capture.classifier_logits で別に取る
+
+data:
+  input_h5ad: experiments/EXP-20260926-004/expanded/work/input.h5ad   # prepare の出力
+  tokenized_dataset: experiments/EXP-20260926-004/expanded/work/tokenized.dataset
+  cell_type_col: author_cell_type
+  state_key: isp_state
+  custom_attr_name_dict: {isp_state: isp_state, donor_id: donor_id, TLS_group: TLS_group,
+                          author_cell_type: author_cell_type, disease: disease}
+  filter_data: null
+  max_ncells: null
+
+states:                             # start だけ TLS-high + TLS-mid に拡張
+  start_state: aPT_CKD_TLShighmid
+  goal_state: PT_healthy
+  alt_states: [aPT_CKD_TLSlow]
+
+cell_selection:
+  max_cells_per_gene: 350           # 29 donor × 12 = 348（plan §C.2）
+  max_cells_per_donor: 12           # donor 単位の平均のため各 donor に細胞を配る
+  min_cells_per_gene: 100
+  donor_key: donor_id
+
+state_embs:
+  max_cells_per_state: 500
+  max_cells_per_donor: 60
+  include_donors:                   # goal 重心は FT に使っていない held-out 健常 donor だけで作る（config-finetune.yaml split.test）
+    PT_healthy: [PRE038, 164-6, PRE027, Sample1162-EO1, Sample1162-EO2, PRE98sc, Sample1153-EO1, Sample1153-EO2, Sample1153-EO3]
+  # start（TLS-high 14 donor）は全員 held-out。alt（TLS-low 8 donor）は全員 FT の train/eval に使われている → alt 方向は参考値（plan §9）
+
+perturbation:
+  perturb_type: delete
+  perturb_rank_shift: null
+  controls_only: true               # 盲検: 指標の確定までは主要対象・参照を回さない
+  genes_to_perturb: []
+  combos: 0
+  anchor_gene: null
+  emb_mode: cls
+  forward_batch_size: 8
+  nproc: 1
+
+controls:
+  positive:
+    - ENSG00000162692               # VCAM1
+    - ENSG00000113249               # HAVCR1
+  negative_random_n: 20
+  negative_sampler:                 # EXP-003 と同じ規則（start が変わるので null 遺伝子は別になる）
+    method: freq_matched
+    min_cells: 300
+    ratio_tolerance: 1.5
+    seed_offset: 0
+    ref_genes:                      # 頻度の参照のみ（盲検対象。回さない・null から除く）
+      - ENSG00000141510             # TP53
+      - ENSG00000124762             # CDKN1A
+      - ENSG00000111321             # LTBR
+      - ENSG00000118785             # SPP1
+      - ENSG00000148346             # LCN2
+  negative_fixed:
+    - ENSG00000075624               # ACTB
+    - ENSG00000111640               # GAPDH
+    - ENSG00000196262               # PPIA
+  fixed_role: housekeeping
+  extra_fixed:
+    - role: negctrl_panel
+      genes: [ENSG00000090661, ENSG00000147687, ENSG00000081870, ENSG00000101558, ENSG00000054148, ENSG00000166295, ENSG00000104529]
+    - role: explore_rp
+      genes: [ENSG00000110700, ENSG00000144713]
+    - role: de_matched           # plan §C.2 の規則: (a) の実測 + 拡張の見積もり ≤ 2.1 h なら加える
+      genes: [ENSG00000110841, ENSG00000131016, ENSG00000198832, ENSG00000161249, ENSG00000006747, ENSG00000165887, ENSG00000140450, ENSG00000127415, ENSG00000179542, ENSG00000145536]
+
+capture:
+  embeddings: true                  # 元/摂動後の CLS 埋め込み（EXP-002 と同じ。Pretrained との照合・ベクトル指標）
+  classifier_logits: true           # 分類ヘッドの logits（元/摂動後）→ ΔP(PT_healthy)（副指標, plan §6）
+
+stats:
+  mode: goal_state_shift
+  fdr_threshold: 0.05
+
+analysis:                           # plan.md §C.2（細胞単位は EXP-003 と同じ基準、donor 単位は §C.1）
+  primary_metric: a2
+  secondary_metrics: [m_raw, dP_goal_a2]
+  length_bins: 5
+  criteria:
+    C1_positive_null_quantile: 0.90
+    C1_min_seeds: 2
+    C2_min_wins_frac: 0.833
+    C3_hk_quantile_range: [0.10, 0.90]
+    C3_min_seeds: 2
+    C3_panel_quantile_range: [0.10, 0.90]
+    C3_panel_min_seeds: 2
+    C3_panel_min_genes: 5
+  donor_level: {min_cells_donor: 3, split_half_n: 20}
+
+robustness:
+  seeds: [3, 4, 5]                  # EXP-002 案 A と同じ seed → 同じ細胞・同じ null 遺伝子（CPU で一致を確認済み, plan §4）
+  subsample_frac: 1.0
+  emb_layers: [-1]
+
+output:
+  results_dir: results-expanded
+
+compute:
+  device: mps
+  dtype: bf16                       # PI 標準。forward bf16、コサイン・ベクトル演算は fp32（保存 fp32, 解析 float64）
+  cache_model: true
+  sec_per_cell_gene: 0.13           # EXP-003 phase 3 の spark-cf5b 実測（20,400 細胞×遺伝子 / 44 min, 重心込み）
+  gpu_hours_estimate: 1.3           # 34 遺伝子 × ~340 細胞 × 3 seed ≈ 35,000 × 0.13 s（44 遺伝子なら 1.6 h）

@@ -1,0 +1,27 @@
+{
+ "kidney_fib": {
+  "count": "1",
+  "records": [
+   {
+    "pmid": "34655156",
+    "date": "2022 Feb",
+    "journal": "Am J Med Genet A",
+    "title": "A novel MBTPS2 variant associated with BRESHECK syndrome impairs sterol-regulated transcription and the endoplasmic reticulum stress response.",
+    "authors": [
+     "Strong A",
+     "March ME",
+     "Cardinale CJ"
+    ],
+    "doi": "10.1002/ajmg.a.62537"
+   }
+  ]
+ },
+ "senescence": {
+  "count": "0",
+  "records": []
+ },
+ "tls_lymphoid": {
+  "count": "0",
+  "records": []
+ }
+}

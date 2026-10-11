@@ -1,0 +1,15 @@
+== kidney_fib (count=2)
+  40596367 | 2025 Jul 1 | Sci Rep | Regulatory T cells and matrix-producing cancer associated fibroblasts contribute on the immune resistance and progression of prognosis related tumor subtypes in ccRCC.
+  37704178 | 2023 Nov | Immunol Lett | Single-cell communication patterns and their intracellular information flow in synovial fibroblastic osteoarthritis and rheumatoid arthritis.
+== senescence (count=15)
+  42329412 | 2026 Sep | Naunyn Schmiedebergs Arch Pharmacol | Integrated bioinformatics, single-cell analysis, and experimental validation identify quercetin as a potential therapeutic candidate for intervertebral disc degeneration.
+  41638874 | 2026 Feb | J Cachexia Sarcopenia Muscle | Largely Distinct Post-Translational Modifications Differentiate Skeletal Muscle Wasting Caused by Cancer, Dexamethasone and Aging.
+  41107120 | 2025 Dec | Ann Rheum Dis | Deconstruction of tophi and synovium defines SPP1(+) macrophages involved in extracellular matrix remodelling in gout.
+  40770761 | 2025 Aug 6 | J Transl Med | COL6A2 in clear cell renal cell carcinoma: a multifaceted driver of tumor progression, immune evasion, and drug sensitivity.
+  38915286 | 2024 Sep 1 | Am J Physiol Lung Cell Mol Physiol | The lung extracellular matrix protein landscape in severe early-onset and moderate chronic obstructive pulmonary disease.
+  38696318 | 2024 Apr 29 | Aging (Albany NY) | Human umbilical cord mesenchymal stem cells promote steroid-induced osteonecrosis of the femoral head repair by improving microvascular endothelial cell function.
+  38598053 | 2024 Apr 10 | Acta Neuropathol | Rare genetic variation in fibronectin 1 (FN1) protects against APOEε4 in Alzheimer's disease.
+  38260431 | 2024 Jan 2 | bioRxiv | Rare genetic variation in Fibronectin 1 ( FN1 ) protects against APOEe4 in Alzheimer's disease.
+  38095646 | 2023 Dec 12 | Aging (Albany NY) | Transcriptome research of human amniocytes identifies hub genes associated with developmental dysplasia in down syndrome.
+  38020574 | 2023 Nov | ERJ Open Res | A bronchial gene signature specific for severe COPD that is retained in the nose.
+== tls_lymphoid (count=0)

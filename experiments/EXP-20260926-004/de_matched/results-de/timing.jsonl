@@ -1,0 +1,42 @@
+{"seed": 3, "step": "state_embs", "seconds": 62.33}
+{"seed": 3, "gene": "ENSG00000162692", "role": "positive", "n_cells": 200, "isp_seconds": 30.22, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000111640", "role": "housekeeping", "n_cells": 200, "isp_seconds": 26.63, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000110841", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.3, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000131016", "role": "de_matched", "n_cells": 200, "isp_seconds": 23.58, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000198832", "role": "de_matched", "n_cells": 200, "isp_seconds": 23.2, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000161249", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.35, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000006747", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.22, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000165887", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.34, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000140450", "role": "de_matched", "n_cells": 200, "isp_seconds": 25.15, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000127415", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.45, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000179542", "role": "de_matched", "n_cells": 200, "isp_seconds": 25.4, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000145536", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.49, "model_load_seconds": 0}
+{"seed": 3, "gene": "ENSG00000112297", "role": "recheck_null", "n_cells": 200, "isp_seconds": 24.04, "model_load_seconds": 0}
+{"seed": 4, "step": "state_embs", "seconds": 56.55}
+{"seed": 4, "gene": "ENSG00000162692", "role": "positive", "n_cells": 200, "isp_seconds": 21.68, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000111640", "role": "housekeeping", "n_cells": 200, "isp_seconds": 21.92, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000110841", "role": "de_matched", "n_cells": 200, "isp_seconds": 22.75, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000131016", "role": "de_matched", "n_cells": 200, "isp_seconds": 22.06, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000198832", "role": "de_matched", "n_cells": 200, "isp_seconds": 23.37, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000161249", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.17, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000006747", "role": "de_matched", "n_cells": 200, "isp_seconds": 22.59, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000165887", "role": "de_matched", "n_cells": 200, "isp_seconds": 25.41, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000140450", "role": "de_matched", "n_cells": 200, "isp_seconds": 25.35, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000127415", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.37, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000179542", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.05, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000145536", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.99, "model_load_seconds": 0}
+{"seed": 4, "gene": "ENSG00000112297", "role": "recheck_null", "n_cells": 200, "isp_seconds": 23.11, "model_load_seconds": 0}
+{"seed": 5, "step": "state_embs", "seconds": 56.63}
+{"seed": 5, "gene": "ENSG00000162692", "role": "positive", "n_cells": 200, "isp_seconds": 21.3, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000111640", "role": "housekeeping", "n_cells": 200, "isp_seconds": 21.45, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000110841", "role": "de_matched", "n_cells": 200, "isp_seconds": 21.96, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000131016", "role": "de_matched", "n_cells": 200, "isp_seconds": 21.86, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000198832", "role": "de_matched", "n_cells": 200, "isp_seconds": 23.55, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000161249", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.47, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000006747", "role": "de_matched", "n_cells": 200, "isp_seconds": 22.95, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000165887", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.18, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000140450", "role": "de_matched", "n_cells": 200, "isp_seconds": 25.01, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000127415", "role": "de_matched", "n_cells": 200, "isp_seconds": 23.84, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000179542", "role": "de_matched", "n_cells": 200, "isp_seconds": 25.59, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000145536", "role": "de_matched", "n_cells": 200, "isp_seconds": 24.9, "model_load_seconds": 0}
+{"seed": 5, "gene": "ENSG00000112297", "role": "recheck_null", "n_cells": 200, "isp_seconds": 24.24, "model_load_seconds": 0}

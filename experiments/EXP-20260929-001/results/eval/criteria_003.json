@@ -1,0 +1,2375 @@
+{
+ "seeds": [
+  61,
+  62,
+  63
+ ],
+ "n_genes": 567,
+ "n_nulls": {
+  "A_300": 300,
+  "B_500": 500
+ },
+ "primary_set": "secretory_all",
+ "primary_null_version": "B_500",
+ "set_draw_replace": true,
+ "missing_q_by_seed": {
+  "61": 1,
+  "62": 1,
+  "63": 1
+ },
+ "missing_in_primary_set": [],
+ "M1_calibration": {
+  "61": {
+   "n_valid": 499,
+   "frac_hi": 0.09819639278557114,
+   "frac_lo": 0.0781563126252505
+  },
+  "62": {
+   "n_valid": 499,
+   "frac_hi": 0.10020040080160321,
+   "frac_lo": 0.07615230460921844
+  },
+  "63": {
+   "n_valid": 499,
+   "frac_hi": 0.10220440881763528,
+   "frac_lo": 0.08016032064128256
+  }
+ },
+ "M1_pass": true,
+ "M2_confounding": {
+  "61": {
+   "lp": 0.05188619777113519,
+   "ll": 0.07220599135223822,
+   "relpos": -0.008392737570950284
+  },
+  "62": {
+   "lp": 0.043416130874459516,
+   "ll": 0.03049718101897097,
+   "relpos": -0.020602930411721645
+  },
+  "63": {
+   "lp": 0.03283275769498942,
+   "ll": 0.09327173275658344,
+   "relpos": -0.02425948903795615
+  }
+ },
+ "M2_pass": true,
+ "M3_housekeeping": {
+  "ACTB": [
+   0.6836734693877551,
+   0.7092198581560284,
+   0.8844765342960289
+  ],
+  "GAPDH": [
+   0.9854014598540146,
+   0.9822064056939501,
+   0.9828178694158075
+  ],
+  "PPIA": [
+   0.8338983050847457,
+   0.7755775577557755,
+   0.7735191637630662
+  ]
+ },
+ "M3_panel": {
+  "CERS4": [
+   0.23980815347721823,
+   0.5816326530612245,
+   0.4486873508353222
+  ],
+  "TATDN1": [
+   0.8127853881278538,
+   0.8539325842696629,
+   0.8921348314606742
+  ],
+  "IFT25": [
+   0.5068807339449541,
+   0.5971896955503513,
+   0.40375586854460094
+  ],
+  "VAPA": [
+   0.33238636363636365,
+   0.3421828908554572,
+   0.22701149425287356
+  ],
+  "PHPT1": [
+   0.8235294117647058,
+   0.47575757575757577,
+   0.6385542168674698
+  ],
+  "ANAPC16": [
+   0.5118343195266272,
+   0.45217391304347826,
+   0.5863095238095238
+  ],
+  "EEF1D": [
+   0.6046511627906976,
+   0.6789297658862876,
+   0.9081967213114754
+  ]
+ },
+ "M3_pass": false,
+ "M4_rho": {
+  "61": {
+   "uniform": 0.214499993999976,
+   "placebo": -0.34749796599186394
+  },
+  "62": {
+   "uniform": 0.18957407029628118,
+   "placebo": -0.3173843735374941
+  },
+  "63": {
+   "uniform": 0.16922938091752365,
+   "placebo": -0.32351851007404026
+  }
+ },
+ "M4_pass": true,
+ "metric_pass": false,
+ "set_tests_primary_null": {
+  "secretory_all@goal@B_500": {
+   "label": "secretory_all",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    0.024,
+    -0.036,
+    0.053
+   ],
+   "null_threshold_replace": [
+    0.475,
+    0.466,
+    0.472
+   ],
+   "null_percentile_replace": [
+    0.54334,
+    0.42322,
+    0.59842
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.467,
+    0.458,
+    0.464
+   ],
+   "null_percentile_no_replace": [
+    0.54445,
+    0.42216,
+    0.60142
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "secretory_all@myofaxis@B_500": {
+   "label": "secretory_all",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    0.298,
+    0.371,
+    0.328
+   ],
+   "null_threshold_replace": [
+    0.507,
+    0.503,
+    0.507
+   ],
+   "null_percentile_replace": [
+    0.92378,
+    0.95969,
+    0.9415
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.488,
+    0.486,
+    0.488
+   ],
+   "null_percentile_no_replace": [
+    0.92976,
+    0.96491,
+    0.94635
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "secretory_all@placebo@B_500": {
+   "label": "secretory_all",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    0.502,
+    0.413,
+    0.484
+   ],
+   "null_threshold_replace": [
+    0.485,
+    0.472,
+    0.48
+   ],
+   "null_percentile_replace": [
+    0.99188,
+    0.97924,
+    0.99046
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.47,
+    0.462,
+    0.468
+   ],
+   "null_percentile_no_replace": [
+    0.99333,
+    0.98137,
+    0.99199
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_low@goal@B_500": {
+   "label": "co_or_low",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 19,
+   "set_mean_z": [
+    0.177,
+    0.07,
+    0.135
+   ],
+   "null_threshold_replace": [
+    0.533,
+    0.527,
+    0.532
+   ],
+   "null_percentile_replace": [
+    0.78524,
+    0.61521,
+    0.72281
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.527,
+    0.517,
+    0.524
+   ],
+   "null_percentile_no_replace": [
+    0.78636,
+    0.61565,
+    0.72443
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_low@myofaxis@B_500": {
+   "label": "co_or_low",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 19,
+   "set_mean_z": [
+    0.158,
+    0.255,
+    0.203
+   ],
+   "null_threshold_replace": [
+    0.571,
+    0.57,
+    0.571
+   ],
+   "null_percentile_replace": [
+    0.76273,
+    0.86671,
+    0.81699
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.559,
+    0.553,
+    0.558
+   ],
+   "null_percentile_no_replace": [
+    0.76746,
+    0.87306,
+    0.82255
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_low@placebo@B_500": {
+   "label": "co_or_low",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 19,
+   "set_mean_z": [
+    0.65,
+    0.555,
+    0.635
+   ],
+   "null_threshold_replace": [
+    0.544,
+    0.532,
+    0.538
+   ],
+   "null_percentile_replace": [
+    0.99704,
+    0.9923,
+    0.99661
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.534,
+    0.523,
+    0.529
+   ],
+   "null_percentile_no_replace": [
+    0.9973,
+    0.99303,
+    0.99718
+   ],
+   "pass_no_replace": true,
+   "pass": true
+  },
+  "co_or_high@goal@B_500": {
+   "label": "co_or_high",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 5,
+   "set_mean_z": [
+    -0.561,
+    -0.439,
+    -0.261
+   ],
+   "null_threshold_replace": [
+    1.07,
+    1.02,
+    1.042
+   ],
+   "null_percentile_replace": [
+    0.10189,
+    0.1544,
+    0.25943
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.064,
+    1.016,
+    1.036
+   ],
+   "null_percentile_no_replace": [
+    0.10314,
+    0.15452,
+    0.2591
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_high@myofaxis@B_500": {
+   "label": "co_or_high",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 5,
+   "set_mean_z": [
+    0.831,
+    0.81,
+    0.802
+   ],
+   "null_threshold_replace": [
+    1.198,
+    1.177,
+    1.203
+   ],
+   "null_percentile_replace": [
+    0.96096,
+    0.95693,
+    0.95734
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.195,
+    1.179,
+    1.195
+   ],
+   "null_percentile_no_replace": [
+    0.961,
+    0.95699,
+    0.95715
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_high@placebo@B_500": {
+   "label": "co_or_high",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 5,
+   "set_mean_z": [
+    -0.061,
+    -0.126,
+    -0.089
+   ],
+   "null_threshold_replace": [
+    1.101,
+    1.058,
+    1.076
+   ],
+   "null_percentile_replace": [
+    0.44559,
+    0.37837,
+    0.41563
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.099,
+    1.059,
+    1.076
+   ],
+   "null_percentile_no_replace": [
+    0.44453,
+    0.37622,
+    0.41399
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "tls_chemokine@goal@B_500": {
+   "label": "tls_chemokine",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 4,
+   "set_mean_z": [
+    -0.392,
+    -0.246,
+    -0.036
+   ],
+   "null_threshold_replace": [
+    1.193,
+    1.134,
+    1.15
+   ],
+   "null_percentile_replace": [
+    0.19867,
+    0.28685,
+    0.44684
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.181,
+    1.121,
+    1.142
+   ],
+   "null_percentile_no_replace": [
+    0.19932,
+    0.28736,
+    0.44871
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "tls_chemokine@myofaxis@B_500": {
+   "label": "tls_chemokine",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 4,
+   "set_mean_z": [
+    1.091,
+    1.063,
+    1.037
+   ],
+   "null_threshold_replace": [
+    1.362,
+    1.344,
+    1.365
+   ],
+   "null_percentile_replace": [
+    0.97683,
+    0.97418,
+    0.9734
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.347,
+    1.33,
+    1.339
+   ],
+   "null_percentile_no_replace": [
+    0.97777,
+    0.97526,
+    0.97434
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "tls_chemokine@placebo@B_500": {
+   "label": "tls_chemokine",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 4,
+   "set_mean_z": [
+    0.257,
+    0.082,
+    0.15
+   ],
+   "null_threshold_replace": [
+    1.251,
+    1.194,
+    1.217
+   ],
+   "null_percentile_replace": [
+    0.70967,
+    0.56417,
+    0.62471
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.244,
+    1.188,
+    1.212
+   ],
+   "null_percentile_no_replace": [
+    0.70708,
+    0.56154,
+    0.62397
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "non_tls@goal@B_500": {
+   "label": "non_tls",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 20,
+   "set_mean_z": [
+    0.107,
+    0.006,
+    0.07
+   ],
+   "null_threshold_replace": [
+    0.52,
+    0.511,
+    0.518
+   ],
+   "null_percentile_replace": [
+    0.68467,
+    0.50408,
+    0.62182
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.508,
+    0.5,
+    0.509
+   ],
+   "null_percentile_no_replace": [
+    0.68741,
+    0.50257,
+    0.62179
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "non_tls@myofaxis@B_500": {
+   "label": "non_tls",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 20,
+   "set_mean_z": [
+    0.14,
+    0.232,
+    0.186
+   ],
+   "null_threshold_replace": [
+    0.555,
+    0.55,
+    0.557
+   ],
+   "null_percentile_replace": [
+    0.74253,
+    0.8515,
+    0.80346
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.546,
+    0.542,
+    0.546
+   ],
+   "null_percentile_no_replace": [
+    0.74429,
+    0.85451,
+    0.80546
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "non_tls@placebo@B_500": {
+   "label": "non_tls",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 20,
+   "set_mean_z": [
+    0.551,
+    0.479,
+    0.551
+   ],
+   "null_threshold_replace": [
+    0.535,
+    0.522,
+    0.525
+   ],
+   "null_percentile_replace": [
+    0.99157,
+    0.98401,
+    0.99251
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.52,
+    0.51,
+    0.514
+   ],
+   "null_percentile_no_replace": [
+    0.99301,
+    0.98582,
+    0.99355
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "org_markers7@goal@B_500": {
+   "label": "org_markers7",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    0.718,
+    0.659,
+    0.674
+   ],
+   "null_threshold_replace": [
+    0.896,
+    0.861,
+    0.881
+   ],
+   "null_percentile_replace": [
+    0.97546,
+    0.96719,
+    0.9693
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.905,
+    0.869,
+    0.891
+   ],
+   "null_percentile_no_replace": [
+    0.97486,
+    0.96709,
+    0.9693
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "org_markers7@myofaxis@B_500": {
+   "label": "org_markers7",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    0.715,
+    0.756,
+    0.73
+   ],
+   "null_threshold_replace": [
+    0.992,
+    0.977,
+    0.992
+   ],
+   "null_percentile_replace": [
+    0.96295,
+    0.96903,
+    0.96637
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.982,
+    0.971,
+    0.988
+   ],
+   "null_percentile_no_replace": [
+    0.96342,
+    0.97017,
+    0.96657
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "org_markers7@placebo@B_500": {
+   "label": "org_markers7",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    -0.379,
+    -0.655,
+    -0.378
+   ],
+   "null_threshold_replace": [
+    0.917,
+    0.891,
+    0.908
+   ],
+   "null_percentile_replace": [
+    0.15342,
+    0.04383,
+    0.15259
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.914,
+    0.885,
+    0.9
+   ],
+   "null_percentile_no_replace": [
+    0.15138,
+    0.0418,
+    0.15016
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "myof_markers24@goal@B_500": {
+   "label": "myof_markers24",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    -1.8,
+    -1.869,
+    -1.928
+   ],
+   "null_threshold_replace": [
+    0.475,
+    0.466,
+    0.472
+   ],
+   "null_percentile_replace": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.467,
+    0.458,
+    0.464
+   ],
+   "null_percentile_no_replace": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "myof_markers24@myofaxis@B_500": {
+   "label": "myof_markers24",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    1.759,
+    1.709,
+    1.824
+   ],
+   "null_threshold_replace": [
+    0.507,
+    0.503,
+    0.507
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.488,
+    0.486,
+    0.488
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true
+  },
+  "myof_markers24@placebo@B_500": {
+   "label": "myof_markers24",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    0.518,
+    0.45,
+    0.446
+   ],
+   "null_threshold_replace": [
+    0.485,
+    0.472,
+    0.48
+   ],
+   "null_percentile_replace": [
+    0.99344,
+    0.98671,
+    0.98467
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.47,
+    0.462,
+    0.468
+   ],
+   "null_percentile_no_replace": [
+    0.9947,
+    0.98842,
+    0.9869
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "housekeeping3@goal@B_500": {
+   "label": "housekeeping3",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 3,
+   "set_mean_z": [
+    1.039,
+    1.021,
+    1.151
+   ],
+   "null_threshold_replace": [
+    1.328,
+    1.26,
+    1.281
+   ],
+   "null_percentile_replace": [
+    0.9754,
+    0.97529,
+    0.98511
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.335,
+    1.273,
+    1.278
+   ],
+   "null_percentile_no_replace": [
+    0.97579,
+    0.9753,
+    0.98511
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "housekeeping3@myofaxis@B_500": {
+   "label": "housekeeping3",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 3,
+   "set_mean_z": [
+    -0.013,
+    0.284,
+    0.008
+   ],
+   "null_threshold_replace": [
+    1.58,
+    1.554,
+    1.556
+   ],
+   "null_percentile_replace": [
+    0.5163,
+    0.70961,
+    0.52798
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.571,
+    1.548,
+    1.557
+   ],
+   "null_percentile_no_replace": [
+    0.51799,
+    0.71037,
+    0.52887
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "housekeeping3@placebo@B_500": {
+   "label": "housekeeping3",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 3,
+   "set_mean_z": [
+    -2.427,
+    -2.563,
+    -2.615
+   ],
+   "null_threshold_replace": [
+    1.489,
+    1.412,
+    1.45
+   ],
+   "null_percentile_replace": [
+    0.00015,
+    0.00022,
+    8e-05
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.456,
+    1.381,
+    1.419
+   ],
+   "null_percentile_no_replace": [
+    0.0001,
+    0.00017,
+    6e-05
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "negctrl_panel7@goal@B_500": {
+   "label": "negctrl_panel7",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    0.138,
+    0.208,
+    0.244
+   ],
+   "null_threshold_replace": [
+    0.896,
+    0.861,
+    0.881
+   ],
+   "null_percentile_replace": [
+    0.64002,
+    0.70817,
+    0.74651
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.905,
+    0.869,
+    0.891
+   ],
+   "null_percentile_no_replace": [
+    0.6404,
+    0.70984,
+    0.74626
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "negctrl_panel7@myofaxis@B_500": {
+   "label": "negctrl_panel7",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    -0.361,
+    -0.273,
+    -0.178
+   ],
+   "null_threshold_replace": [
+    0.992,
+    0.977,
+    0.992
+   ],
+   "null_percentile_replace": [
+    0.16557,
+    0.23826,
+    0.32788
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.982,
+    0.971,
+    0.988
+   ],
+   "null_percentile_no_replace": [
+    0.16414,
+    0.23684,
+    0.32526
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "negctrl_panel7@placebo@B_500": {
+   "label": "negctrl_panel7",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    0.167,
+    -0.028,
+    -0.04
+   ],
+   "null_threshold_replace": [
+    0.917,
+    0.891,
+    0.908
+   ],
+   "null_percentile_replace": [
+    0.67756,
+    0.46443,
+    0.45486
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.914,
+    0.885,
+    0.9
+   ],
+   "null_percentile_no_replace": [
+    0.67717,
+    0.46425,
+    0.45454
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "myof_markers@goal@B_500": {
+   "label": "myof_markers",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    -1.8,
+    -1.869,
+    -1.928
+   ],
+   "null_threshold_replace": [
+    0.475,
+    0.466,
+    0.472
+   ],
+   "null_percentile_replace": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.467,
+    0.458,
+    0.464
+   ],
+   "null_percentile_no_replace": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "myof_markers@myofaxis@B_500": {
+   "label": "myof_markers",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    1.759,
+    1.709,
+    1.824
+   ],
+   "null_threshold_replace": [
+    0.507,
+    0.503,
+    0.507
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.488,
+    0.486,
+    0.488
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true
+  },
+  "myof_markers@placebo@B_500": {
+   "label": "myof_markers",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 24,
+   "set_mean_z": [
+    0.518,
+    0.45,
+    0.446
+   ],
+   "null_threshold_replace": [
+    0.485,
+    0.472,
+    0.48
+   ],
+   "null_percentile_replace": [
+    0.99344,
+    0.98671,
+    0.98467
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.47,
+    0.462,
+    0.468
+   ],
+   "null_percentile_no_replace": [
+    0.9947,
+    0.98842,
+    0.9869
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "housekeeping@goal@B_500": {
+   "label": "housekeeping",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 3,
+   "set_mean_z": [
+    1.039,
+    1.021,
+    1.151
+   ],
+   "null_threshold_replace": [
+    1.328,
+    1.26,
+    1.281
+   ],
+   "null_percentile_replace": [
+    0.9754,
+    0.97529,
+    0.98511
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.335,
+    1.273,
+    1.278
+   ],
+   "null_percentile_no_replace": [
+    0.97579,
+    0.9753,
+    0.98511
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "housekeeping@myofaxis@B_500": {
+   "label": "housekeeping",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 3,
+   "set_mean_z": [
+    -0.013,
+    0.284,
+    0.008
+   ],
+   "null_threshold_replace": [
+    1.58,
+    1.554,
+    1.556
+   ],
+   "null_percentile_replace": [
+    0.5163,
+    0.70961,
+    0.52798
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.571,
+    1.548,
+    1.557
+   ],
+   "null_percentile_no_replace": [
+    0.51799,
+    0.71037,
+    0.52887
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "housekeeping@placebo@B_500": {
+   "label": "housekeeping",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 3,
+   "set_mean_z": [
+    -2.427,
+    -2.563,
+    -2.615
+   ],
+   "null_threshold_replace": [
+    1.489,
+    1.412,
+    1.45
+   ],
+   "null_percentile_replace": [
+    0.00015,
+    0.00022,
+    8e-05
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.456,
+    1.381,
+    1.419
+   ],
+   "null_percentile_no_replace": [
+    0.0001,
+    0.00017,
+    6e-05
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "negctrl_panel@goal@B_500": {
+   "label": "negctrl_panel",
+   "axis": "goal",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    0.138,
+    0.208,
+    0.244
+   ],
+   "null_threshold_replace": [
+    0.896,
+    0.861,
+    0.881
+   ],
+   "null_percentile_replace": [
+    0.64002,
+    0.70817,
+    0.74651
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.905,
+    0.869,
+    0.891
+   ],
+   "null_percentile_no_replace": [
+    0.6404,
+    0.70984,
+    0.74626
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "negctrl_panel@myofaxis@B_500": {
+   "label": "negctrl_panel",
+   "axis": "myofaxis",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    -0.361,
+    -0.273,
+    -0.178
+   ],
+   "null_threshold_replace": [
+    0.992,
+    0.977,
+    0.992
+   ],
+   "null_percentile_replace": [
+    0.16557,
+    0.23826,
+    0.32788
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.982,
+    0.971,
+    0.988
+   ],
+   "null_percentile_no_replace": [
+    0.16414,
+    0.23684,
+    0.32526
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "negctrl_panel@placebo@B_500": {
+   "label": "negctrl_panel",
+   "axis": "placebo",
+   "null_version": "B_500",
+   "k": 7,
+   "set_mean_z": [
+    0.167,
+    -0.028,
+    -0.04
+   ],
+   "null_threshold_replace": [
+    0.917,
+    0.891,
+    0.908
+   ],
+   "null_percentile_replace": [
+    0.67756,
+    0.46443,
+    0.45486
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.914,
+    0.885,
+    0.9
+   ],
+   "null_percentile_no_replace": [
+    0.67717,
+    0.46425,
+    0.45454
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  }
+ },
+ "G1a_set_on_goal_axis": false,
+ "G1b_three_axes": {
+  "目標の軸 − 筋線維芽細胞の軸": [
+   -0.274,
+   -0.407,
+   -0.275
+  ],
+  "目標の軸 − 対照の状態の軸": [
+   -0.478,
+   -0.449,
+   -0.431
+  ],
+  "対照の状態の軸（そのもの）": [
+   0.502,
+   0.413,
+   0.484
+  ],
+  "pass": false
+ },
+ "G1_primary": false,
+ "set_tests_secondary_null": {
+  "secretory_all@goal@A_300": {
+   "label": "secretory_all",
+   "axis": "goal",
+   "null_version": "A_300",
+   "k": 24,
+   "set_mean_z": [
+    -0.057,
+    -0.095,
+    -0.012
+   ],
+   "null_threshold_replace": [
+    0.488,
+    0.481,
+    0.491
+   ],
+   "null_percentile_replace": [
+    0.38403,
+    0.3131,
+    0.47567
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.464,
+    0.454,
+    0.468
+   ],
+   "null_percentile_no_replace": [
+    0.38333,
+    0.3099,
+    0.47512
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "secretory_all@myofaxis@A_300": {
+   "label": "secretory_all",
+   "axis": "myofaxis",
+   "null_version": "A_300",
+   "k": 24,
+   "set_mean_z": [
+    0.409,
+    0.466,
+    0.417
+   ],
+   "null_threshold_replace": [
+    0.519,
+    0.515,
+    0.522
+   ],
+   "null_percentile_replace": [
+    0.97084,
+    0.98305,
+    0.97226
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.492,
+    0.49,
+    0.495
+   ],
+   "null_percentile_no_replace": [
+    0.97566,
+    0.98691,
+    0.97712
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "secretory_all@placebo@A_300": {
+   "label": "secretory_all",
+   "axis": "placebo",
+   "null_version": "A_300",
+   "k": 24,
+   "set_mean_z": [
+    0.489,
+    0.403,
+    0.463
+   ],
+   "null_threshold_replace": [
+    0.484,
+    0.477,
+    0.479
+   ],
+   "null_percentile_replace": [
+    0.99042,
+    0.9762,
+    0.98779
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.467,
+    0.458,
+    0.459
+   ],
+   "null_percentile_no_replace": [
+    0.99252,
+    0.97947,
+    0.9905
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_low@goal@A_300": {
+   "label": "co_or_low",
+   "axis": "goal",
+   "null_version": "A_300",
+   "k": 19,
+   "set_mean_z": [
+    0.098,
+    0.011,
+    0.072
+   ],
+   "null_threshold_replace": [
+    0.551,
+    0.538,
+    0.552
+   ],
+   "null_percentile_replace": [
+    0.67012,
+    0.51614,
+    0.62709
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.532,
+    0.518,
+    0.536
+   ],
+   "null_percentile_no_replace": [
+    0.67456,
+    0.51667,
+    0.63078
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_low@myofaxis@A_300": {
+   "label": "co_or_low",
+   "axis": "myofaxis",
+   "null_version": "A_300",
+   "k": 19,
+   "set_mean_z": [
+    0.262,
+    0.343,
+    0.288
+   ],
+   "null_threshold_replace": [
+    0.59,
+    0.586,
+    0.594
+   ],
+   "null_percentile_replace": [
+    0.87546,
+    0.92839,
+    0.8947
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.567,
+    0.562,
+    0.574
+   ],
+   "null_percentile_no_replace": [
+    0.88061,
+    0.9334,
+    0.89987
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_low@placebo@A_300": {
+   "label": "co_or_low",
+   "axis": "placebo",
+   "null_version": "A_300",
+   "k": 19,
+   "set_mean_z": [
+    0.632,
+    0.545,
+    0.612
+   ],
+   "null_threshold_replace": [
+    0.553,
+    0.542,
+    0.545
+   ],
+   "null_percentile_replace": [
+    0.99547,
+    0.99038,
+    0.99508
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.53,
+    0.518,
+    0.523
+   ],
+   "null_percentile_no_replace": [
+    0.99694,
+    0.99269,
+    0.99667
+   ],
+   "pass_no_replace": true,
+   "pass": true
+  },
+  "co_or_high@goal@A_300": {
+   "label": "co_or_high",
+   "axis": "goal",
+   "null_version": "A_300",
+   "k": 5,
+   "set_mean_z": [
+    -0.642,
+    -0.499,
+    -0.328
+   ],
+   "null_threshold_replace": [
+    1.187,
+    1.116,
+    1.187
+   ],
+   "null_percentile_replace": [
+    0.07285,
+    0.12233,
+    0.21025
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.195,
+    1.122,
+    1.194
+   ],
+   "null_percentile_no_replace": [
+    0.07325,
+    0.12223,
+    0.20996
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_high@myofaxis@A_300": {
+   "label": "co_or_high",
+   "axis": "myofaxis",
+   "null_version": "A_300",
+   "k": 5,
+   "set_mean_z": [
+    0.967,
+    0.93,
+    0.908
+   ],
+   "null_threshold_replace": [
+    1.292,
+    1.261,
+    1.332
+   ],
+   "null_percentile_replace": [
+    0.97426,
+    0.97042,
+    0.96881
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.29,
+    1.259,
+    1.327
+   ],
+   "null_percentile_no_replace": [
+    0.97489,
+    0.97081,
+    0.96917
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "co_or_high@placebo@A_300": {
+   "label": "co_or_high",
+   "axis": "placebo",
+   "null_version": "A_300",
+   "k": 5,
+   "set_mean_z": [
+    -0.057,
+    -0.139,
+    -0.101
+   ],
+   "null_threshold_replace": [
+    1.138,
+    1.104,
+    1.107
+   ],
+   "null_percentile_replace": [
+    0.4502,
+    0.36572,
+    0.40364
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.132,
+    1.099,
+    1.096
+   ],
+   "null_percentile_no_replace": [
+    0.45167,
+    0.36696,
+    0.40451
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "tls_chemokine@goal@A_300": {
+   "label": "tls_chemokine",
+   "axis": "goal",
+   "null_version": "A_300",
+   "k": 4,
+   "set_mean_z": [
+    -0.473,
+    -0.306,
+    -0.101
+   ],
+   "null_threshold_replace": [
+    1.364,
+    1.262,
+    1.346
+   ],
+   "null_percentile_replace": [
+    0.15385,
+    0.24321,
+    0.40159
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.367,
+    1.256,
+    1.354
+   ],
+   "null_percentile_no_replace": [
+    0.15291,
+    0.24302,
+    0.40122
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "tls_chemokine@myofaxis@A_300": {
+   "label": "tls_chemokine",
+   "axis": "myofaxis",
+   "null_version": "A_300",
+   "k": 4,
+   "set_mean_z": [
+    1.24,
+    1.197,
+    1.151
+   ],
+   "null_threshold_replace": [
+    1.471,
+    1.436,
+    1.527
+   ],
+   "null_percentile_replace": [
+    0.98339,
+    0.98106,
+    0.97886
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.463,
+    1.432,
+    1.51
+   ],
+   "null_percentile_no_replace": [
+    0.98373,
+    0.98169,
+    0.97932
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "tls_chemokine@placebo@A_300": {
+   "label": "tls_chemokine",
+   "axis": "placebo",
+   "null_version": "A_300",
+   "k": 4,
+   "set_mean_z": [
+    0.251,
+    0.07,
+    0.134
+   ],
+   "null_threshold_replace": [
+    1.288,
+    1.244,
+    1.246
+   ],
+   "null_percentile_replace": [
+    0.71091,
+    0.56115,
+    0.61755
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.296,
+    1.25,
+    1.251
+   ],
+   "null_percentile_no_replace": [
+    0.71037,
+    0.55909,
+    0.61497
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "non_tls@goal@A_300": {
+   "label": "non_tls",
+   "axis": "goal",
+   "null_version": "A_300",
+   "k": 20,
+   "set_mean_z": [
+    0.027,
+    -0.053,
+    0.006
+   ],
+   "null_threshold_replace": [
+    0.537,
+    0.527,
+    0.542
+   ],
+   "null_percentile_replace": [
+    0.54811,
+    0.3992,
+    0.51164
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.516,
+    0.504,
+    0.518
+   ],
+   "null_percentile_no_replace": [
+    0.55314,
+    0.40011,
+    0.51407
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "non_tls@myofaxis@A_300": {
+   "label": "non_tls",
+   "axis": "myofaxis",
+   "null_version": "A_300",
+   "k": 20,
+   "set_mean_z": [
+    0.243,
+    0.319,
+    0.27
+   ],
+   "null_threshold_replace": [
+    0.574,
+    0.571,
+    0.58
+   ],
+   "null_percentile_replace": [
+    0.86372,
+    0.91907,
+    0.88716
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.551,
+    0.548,
+    0.556
+   ],
+   "null_percentile_no_replace": [
+    0.86824,
+    0.92363,
+    0.89179
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "non_tls@placebo@A_300": {
+   "label": "non_tls",
+   "axis": "placebo",
+   "null_version": "A_300",
+   "k": 20,
+   "set_mean_z": [
+    0.536,
+    0.469,
+    0.529
+   ],
+   "null_threshold_replace": [
+    0.538,
+    0.53,
+    0.531
+   ],
+   "null_percentile_replace": [
+    0.98969,
+    0.9812,
+    0.98976
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.514,
+    0.504,
+    0.507
+   ],
+   "null_percentile_no_replace": [
+    0.99231,
+    0.9849,
+    0.99236
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "myof_markers@goal@A_300": {
+   "label": "myof_markers",
+   "axis": "goal",
+   "null_version": "A_300",
+   "k": 24,
+   "set_mean_z": [
+    -1.884,
+    -1.935,
+    -2.016
+   ],
+   "null_threshold_replace": [
+    0.488,
+    0.481,
+    0.491
+   ],
+   "null_percentile_replace": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.464,
+    0.454,
+    0.468
+   ],
+   "null_percentile_no_replace": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "myof_markers@myofaxis@A_300": {
+   "label": "myof_markers",
+   "axis": "myofaxis",
+   "null_version": "A_300",
+   "k": 24,
+   "set_mean_z": [
+    1.939,
+    1.879,
+    1.966
+   ],
+   "null_threshold_replace": [
+    0.519,
+    0.515,
+    0.522
+   ],
+   "null_percentile_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_replace": true,
+   "null_threshold_no_replace": [
+    0.492,
+    0.49,
+    0.495
+   ],
+   "null_percentile_no_replace": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pass_no_replace": true,
+   "pass": true
+  },
+  "myof_markers@placebo@A_300": {
+   "label": "myof_markers",
+   "axis": "placebo",
+   "null_version": "A_300",
+   "k": 24,
+   "set_mean_z": [
+    0.504,
+    0.44,
+    0.426
+   ],
+   "null_threshold_replace": [
+    0.484,
+    0.477,
+    0.479
+   ],
+   "null_percentile_replace": [
+    0.99205,
+    0.98448,
+    0.98123
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.467,
+    0.458,
+    0.459
+   ],
+   "null_percentile_no_replace": [
+    0.99389,
+    0.98719,
+    0.98453
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "org_markers7@goal@A_300": {
+   "label": "org_markers7",
+   "axis": "goal",
+   "null_version": "A_300",
+   "k": 7,
+   "set_mean_z": [
+    0.639,
+    0.603,
+    0.617
+   ],
+   "null_threshold_replace": [
+    0.978,
+    0.932,
+    0.976
+   ],
+   "null_percentile_replace": [
+    0.95961,
+    0.95314,
+    0.95484
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.969,
+    0.921,
+    0.972
+   ],
+   "null_percentile_no_replace": [
+    0.9611,
+    0.95473,
+    0.95679
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "org_markers7@myofaxis@A_300": {
+   "label": "org_markers7",
+   "axis": "myofaxis",
+   "null_version": "A_300",
+   "k": 7,
+   "set_mean_z": [
+    0.846,
+    0.872,
+    0.833
+   ],
+   "null_threshold_replace": [
+    1.047,
+    1.026,
+    1.063
+   ],
+   "null_percentile_replace": [
+    0.97742,
+    0.98001,
+    0.97563
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    1.037,
+    1.023,
+    1.061
+   ],
+   "null_percentile_no_replace": [
+    0.97815,
+    0.98088,
+    0.97574
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  },
+  "org_markers7@placebo@A_300": {
+   "label": "org_markers7",
+   "axis": "placebo",
+   "null_version": "A_300",
+   "k": 7,
+   "set_mean_z": [
+    -0.365,
+    -0.67,
+    -0.387
+   ],
+   "null_threshold_replace": [
+    0.941,
+    0.917,
+    0.921
+   ],
+   "null_percentile_replace": [
+    0.15871,
+    0.03789,
+    0.14433
+   ],
+   "pass_replace": false,
+   "null_threshold_no_replace": [
+    0.931,
+    0.906,
+    0.906
+   ],
+   "null_percentile_no_replace": [
+    0.15605,
+    0.03774,
+    0.14234
+   ],
+   "pass_no_replace": false,
+   "pass": false
+  }
+ },
+ "null_version_agreement": {
+  "主判定（B_500）": false,
+  "A_300": false,
+  "2 版で判定が一致": true
+ },
+ "G_secondary_subsets": {
+  "co_or_low": {
+   "goal": false,
+   "myofaxis": false,
+   "placebo": true
+  },
+  "co_or_high": {
+   "goal": false,
+   "myofaxis": false,
+   "placebo": false
+  },
+  "tls_chemokine": {
+   "goal": false,
+   "myofaxis": false,
+   "placebo": false
+  },
+  "non_tls": {
+   "goal": false,
+   "myofaxis": false,
+   "placebo": false
+  }
+ },
+ "P6_co_or_low": {
+  "set_mean_z": [
+   0.177,
+   0.07,
+   0.135
+  ],
+  "pass_goal_axis": false,
+  "目標の軸 − 対照の状態の軸": [
+   -0.473,
+   -0.485,
+   -0.5
+  ],
+  "目標の軸 − 筋線維芽細胞の軸": [
+   0.019,
+   -0.185,
+   -0.068
+  ],
+  "pass": false
+ },
+ "P4_order": {
+  "リンパ組織のケモカイン": [
+   -0.392,
+   -0.246,
+   -0.036
+  ],
+  "それ以外": [
+   0.107,
+   0.006,
+   0.07
+  ],
+  "差": [
+   -0.499,
+   -0.252,
+   -0.106
+  ],
+  "符号が 3 seed で一致": true,
+  "予測の向き（ケモカインのほうが大きい）": false
+ },
+ "G2_crossover": {
+  "分泌プログラム: 目標の軸 − 筋線維芽細胞の軸": [
+   -0.274,
+   -0.407,
+   -0.275
+  ],
+  "分泌プログラム: 目標の軸 − 対照の状態の軸": [
+   -0.478,
+   -0.449,
+   -0.431
+  ],
+  "筋線維芽細胞マーカー: 筋線維芽細胞の軸 − 目標の軸": [
+   3.559,
+   3.578,
+   3.752
+  ],
+  "pass": false
+ },
+ "G3a_myof_markers_on_myof_axis": true,
+ "G3b_org_markers_on_goal_axis": false,
+ "G3b_org_markers_z": [
+  0.718,
+  0.659,
+  0.674
+ ],
+ "G3_pass": false,
+ "G4_neutral": {
+  "housekeeping": {
+   "set_mean_z": [
+    1.039,
+    1.021,
+    1.151
+   ],
+   "null_percentile": [
+    0.9754,
+    0.9753,
+    0.9851
+   ],
+   "n_seeds_in_range": 0
+  },
+  "negctrl_panel": {
+   "set_mean_z": [
+    0.138,
+    0.208,
+    0.244
+   ],
+   "null_percentile": [
+    0.64,
+    0.7082,
+    0.7465
+   ],
+   "n_seeds_in_range": 3
+  }
+ },
+ "G4_pass": false,
+ "G5_chance_pass_rate_random_sets": {
+  "n_draw": 200000,
+  "rate": 0.005595,
+  "threshold": [
+   0.475,
+   0.466,
+   0.472
+  ]
+ },
+ "G6_sham_sets": {
+  "n_sets": 200,
+  "n_pass": 2,
+  "pass_rate": 0.01,
+  "set_mean_z_range": [
+   -0.412,
+   0.564
+  ],
+  "そろい具合（組平均 − 対象セット）": {
+   "lp_med": 0.0337,
+   "ll_med": 0.0185,
+   "n_cells": 14.9577,
+   "bias_goal": -0.3965
+  },
+  "中心と散らばりの検査": {
+   "偽セットの平均": [
+    0.0142,
+    0.0029,
+    0.0594
+   ],
+   "無作為セットの平均": [
+    -0.0003,
+    -0.0005,
+    -0.0003
+   ],
+   "偽セットの標準偏差": [
+    0.1729,
+    0.18,
+    0.1796
+   ],
+   "無作為セットの標準偏差": [
+    0.2036,
+    0.2038,
+    0.2036
+   ],
+   "散らばりの比": [
+    0.849,
+    0.883,
+    0.882
+   ],
+   "中心のずれが許容内": true,
+   "散らばりが許容内": true,
+   "較正 OK": true
+  },
+  "注": "較正 OK が false なら、そろえる手続き自体が偽セットの分布を動かしている。その場合この検査の順位は見かけより弱い証拠であり、**判定の裏づけに使わない**"
+ },
+ "G6_pass": false,
+ "G6_sham_sets_co_or_low": {
+  "n_sets": 200,
+  "n_pass": 0,
+  "pass_rate": 0.0,
+  "set_mean_z_range": [
+   -0.691,
+   0.553
+  ],
+  "そろい具合（組平均 − 対象セット）": {
+   "lp_med": 0.0427,
+   "ll_med": 0.0176,
+   "n_cells": 7.7887,
+   "bias_goal": -0.1344
+  },
+  "中心と散らばりの検査": {
+   "偽セットの平均": [
+    -0.1034,
+    -0.0846,
+    -0.0349
+   ],
+   "無作為セットの平均": [
+    -0.0006,
+    -0.0002,
+    -0.0003
+   ],
+   "偽セットの標準偏差": [
+    0.1946,
+    0.2039,
+    0.1942
+   ],
+   "無作為セットの標準偏差": [
+    0.2292,
+    0.2291,
+    0.2292
+   ],
+   "散らばりの比": [
+    0.849,
+    0.89,
+    0.847
+   ],
+   "中心のずれが許容内": false,
+   "散らばりが許容内": true,
+   "較正 OK": false
+  },
+  "注": "較正 OK が false なら、そろえる手続き自体が偽セットの分布を動かしている。その場合この検査の順位は見かけより弱い証拠であり、**判定の裏づけに使わない**"
+ },
+ "G6_co_or_low_pass": true,
+ "descriptive": {
+  "単一遺伝子で 3 seed すべて 2.5 標準偏差以上": {
+   "secretory_all": [
+    "CXCL12"
+   ],
+   "co_or_low": [
+    "CXCL12"
+   ],
+   "co_or_high": [],
+   "tls_chemokine": [],
+   "non_tls": [
+    "CXCL12"
+   ],
+   "org_markers7": [
+    "MADCAM1"
+   ],
+   "myof_markers24": [],
+   "housekeeping3": [],
+   "negctrl_panel7": [],
+   "myof_markers": [],
+   "housekeeping": [],
+   "negctrl_panel": []
+  },
+  "単一遺伝子の偶然合格率（対照 980 に同じ規則）": 0.004,
+  "偏り（bias_goal）と z の順位相関（分泌プログラム、目標の軸）": {
+   "61": -0.1034782608695652,
+   "62": -0.08521739130434783,
+   "63": 0.020869565217391303
+  },
+  "参照 ACTA2 / TAGLN（筋線維芽細胞の軸、標準偏差単位）": {
+   "ACTA2": [
+    6.22,
+    6.31,
+    6.35
+   ],
+   "TAGLN": [
+    2.97,
+    3.16,
+    3.23
+   ]
+  },
+  "機体（seed ごと）": {
+   "61": "results/env-remote-seed61.json を参照",
+   "62": "results/env-remote-seed62.json を参照",
+   "63": "results/env-remote-seed63.json を参照"
+  }
+ },
+ "primary_conclusion_proposal_inputs": {
+  "metric_pass": false,
+  "G1a": false,
+  "G1b": false,
+  "G1": false,
+  "G2": false,
+  "G3a": true,
+  "G3b": false,
+  "G4": false,
+  "G5_rate": 0.005595,
+  "G6": false,
+  "P6_co_or_low": false
+ },
+ "conclusion_proposal": "判定不能（目標の軸の陽性対照が働いていない → HYP F-3）",
+ "note": "判定の確定は PI（G3）。本スクリプトは事前登録の規則を当てはめて提案するだけ。本実験は盲検中の 5 遺伝子を回していないので、細胞老化には触れない。目標の軸の陽性対照（目標マーカー 7）は健全性チェックであって、仮説を支持する証拠ではない。検定の単位はセットであり、個々の遺伝子が効くことは示さない。in silico の結果であり、実験的に確認された生物学的事実ではない。"
+}

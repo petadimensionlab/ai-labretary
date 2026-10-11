@@ -1,0 +1,170 @@
+[
+ {
+  "symbol": "FOXP2",
+  "n_cells_start": 1923,
+  "n_donors_start": 67,
+  "n_after_cap": 850,
+  "pass": true
+ },
+ {
+  "symbol": "FGF14",
+  "n_cells_start": 1210,
+  "n_donors_start": 67,
+  "n_after_cap": 675,
+  "pass": true
+ },
+ {
+  "symbol": "IGF1",
+  "n_cells_start": 493,
+  "n_donors_start": 59,
+  "n_after_cap": 303,
+  "pass": true
+ },
+ {
+  "symbol": "CCDC80",
+  "n_cells_start": 1576,
+  "n_donors_start": 72,
+  "n_after_cap": 847,
+  "pass": true
+ },
+ {
+  "symbol": "PRRX1",
+  "n_cells_start": 2313,
+  "n_donors_start": 66,
+  "n_after_cap": 884,
+  "pass": true
+ },
+ {
+  "symbol": "ZBTB7C",
+  "n_cells_start": 1679,
+  "n_donors_start": 64,
+  "n_after_cap": 539,
+  "pass": true
+ },
+ {
+  "symbol": "PDZRN4",
+  "n_cells_start": 457,
+  "n_donors_start": 61,
+  "n_after_cap": 364,
+  "pass": true
+ },
+ {
+  "symbol": "CELF2",
+  "n_cells_start": 1637,
+  "n_donors_start": 73,
+  "n_after_cap": 865,
+  "pass": true
+ },
+ {
+  "symbol": "ABI3BP",
+  "n_cells_start": 2197,
+  "n_donors_start": 71,
+  "n_after_cap": 924,
+  "pass": true
+ },
+ {
+  "symbol": "BNC2",
+  "n_cells_start": 5617,
+  "n_donors_start": 75,
+  "n_after_cap": 1249,
+  "pass": true
+ },
+ {
+  "symbol": "BOC",
+  "n_cells_start": 1520,
+  "n_donors_start": 66,
+  "n_after_cap": 842,
+  "pass": true
+ },
+ {
+  "symbol": "NOX4",
+  "n_cells_start": 2554,
+  "n_donors_start": 75,
+  "n_after_cap": 928,
+  "pass": true
+ },
+ {
+  "symbol": "EFNA5",
+  "n_cells_start": 3607,
+  "n_donors_start": 73,
+  "n_after_cap": 1047,
+  "pass": true
+ },
+ {
+  "symbol": "C3",
+  "n_cells_start": 292,
+  "n_donors_start": 51,
+  "n_after_cap": 258,
+  "pass": true
+ },
+ {
+  "symbol": "FLRT2",
+  "n_cells_start": 3308,
+  "n_donors_start": 72,
+  "n_after_cap": 1069,
+  "pass": true
+ },
+ {
+  "symbol": "NAV3",
+  "n_cells_start": 2522,
+  "n_donors_start": 73,
+  "n_after_cap": 944,
+  "pass": true
+ },
+ {
+  "symbol": "FBLN1",
+  "n_cells_start": 6537,
+  "n_donors_start": 75,
+  "n_after_cap": 1151,
+  "pass": true
+ },
+ {
+  "symbol": "PODN",
+  "n_cells_start": 707,
+  "n_donors_start": 60,
+  "n_after_cap": 538,
+  "pass": true
+ },
+ {
+  "symbol": "FGFR1",
+  "n_cells_start": 3376,
+  "n_donors_start": 75,
+  "n_after_cap": 1027,
+  "pass": true
+ },
+ {
+  "symbol": "ZEB1",
+  "n_cells_start": 6289,
+  "n_donors_start": 77,
+  "n_after_cap": 1240,
+  "pass": true
+ },
+ {
+  "symbol": "EBF2",
+  "n_cells_start": 124,
+  "n_donors_start": 46,
+  "n_after_cap": 124,
+  "pass": true
+ },
+ {
+  "symbol": "NFIB",
+  "n_cells_start": 6957,
+  "n_donors_start": 77,
+  "n_after_cap": 1245,
+  "pass": true
+ },
+ {
+  "symbol": "GSN",
+  "n_cells_start": 5485,
+  "n_donors_start": 75,
+  "n_after_cap": 1120,
+  "pass": true
+ },
+ {
+  "symbol": "ZFPM2",
+  "n_cells_start": 6878,
+  "n_donors_start": 77,
+  "n_after_cap": 1309,
+  "pass": true
+ }
+]
