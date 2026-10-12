@@ -44,3 +44,12 @@ OpenCode を再起動する（設定は起動時に一度だけ読まれる）�
 - ゲート（G1 仮説採択 / G2 計画承認 / G3 結論確定）は PI だけが判断する。
 - 盲検中の遺伝子（TP53, CDKN1A, LTBR, SPP1, LCN2）は解除まで触らない。
 - `data/raw/` と `models/` は読み取り専用（`opencode.json` の `permission.edit` でも拒否）。
+
+## 技能（skill）の場所（2026-10-12 追加）
+
+- OpenCode では `.opencode/skills/<name>/SKILL.md` を読む。公式の Skill ツールで
+  ロードできる（`skill` ツールの `name` に `honest-reporting` / `evidence-before-revert`）。
+- Claude Code では `.claude/skills/` 相当だが、このプロジェクトは **`.opencode/skills/` のみを正とする**
+  （CLAUDE.md §10 の要点がそれぞれの SKILL.md にある）。
+- 2 つの技能 = 正直な報告（honest-reporting）／証拠を見るまで引き返さない（evidence-before-revert）。
+  報告や検証のときはこの 2 つを効かせる。

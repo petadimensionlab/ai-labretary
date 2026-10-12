@@ -1,0 +1,1 @@
+{"ts": "2026-10-12T16:47", "exp": "-", "type": "feedback", "summary": "PI が 2 つの技能（skill）を zip で渡した: (1) honest-reporting（arXiv:2609.36139。成功の物語に流れず、不都合な結果を先に書く）、(2) evidence-before-revert（arXiv:2609.32616。検証済みの作業を根拠の無い指摘で覆さず、まず証拠を出す）。.opencode/skills/ に展開し、guardrails.md に反映した。", "action": "報告では RESULTS の早い位置に不都合な結果をそのまま書く（成功後に回さない）。壊す操作は根拠の無い指摘だけで発火させない。md 成果物は直書き。"}
